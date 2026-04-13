@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toán Lớp 2 - KNTT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #f8f9fa;
+      --card-bg: #ffffff;
+      --text-main: #111827;
+      --text-sub: #6b7280;
+      --border-color: #e5e7eb;
+      --primary: #6366f1;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      margin: 0;
+    }
+
+    /* Header Styles */
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .stars {
+      font-size: 24px;
+      color: var(--text-main);
+      letter-spacing: 8px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 500;
+      margin: 0 0 10px 0;
+    }
+    .subtitle {
+      font-size: 16px;
+      color: var(--text-sub);
+    }
+
+    /* Grid Layout cho Chủ đề */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .topic-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 30px 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .topic-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      border-color: #d1d5db;
+    }
+    .topic-icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+      display: inline-block;
+    }
+    .topic-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    /* Styles cho phần Làm bài (Quiz) */
+    #quiz-container {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 40px;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      text-align: center;
+      border: 1px solid var(--border-color);
+    }
+    .question-progress {
+      color: var(--text-sub);
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+    .question-text {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      line-height: 1.4;
+    }
+    
+    .option-btn {
+      display: block;
+      width: 100%;
+      background: var(--bg-color);
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+      padding: 15px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 12px;
+      transition: 0.2s;
+    }
+    .option-btn:hover {
+      background: #eef2ff;
+      border-color: #c7d2fe;
+      color: var(--primary);
+    }
+
+    input[type="text"] {
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+      width: 80%;
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .btn-submit {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    .btn-submit:hover { background: #4f46e5; }
+
+    .feedback {
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+    .feedback.correct { background: #dcfce7; color: #166534; }
+    .feedback.wrong { background: #fee2e2; color: #991b1b; }
+
+    /* Responsive cho điện thoại */
+    @media (max-width: 600px) {
+      .grid-container { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="setup-container">
+    <div class="header">
+      <div class="stars">★ ★ ★</div>
+      <h1>Toán lớp 2</h1>
+      <div class="subtitle">Kết nối tri thức với cuộc sống • Ôn tập cuối năm</div>
+    </div>
+
+    <div class="grid-container">
+      <div class="topic-card" onclick="startGame('Phép cộng, trừ trong phạm vi 1000')">
+        <span class="topic-icon">➕</span>
+        <div class="topic-title">Phép cộng, trừ trong phạm vi 1000</div>
+      </div>
+      <div class="topic-card" onclick="startGame('Phép nhân và phép chia')">
+        <span class="topic-icon">✖️</span>
+        <div class="topic-title">Phép nhân và phép chia</div>
+      </div>
+      <div class="topic-card" onclick="startGame('Các số đến 1000')">
+        <span class="topic-icon">🔢</span>
+        <div class="topic-title">Các số đến 1000</div>
+      </div>
+      <div class="topic-card" onclick="startGame('Hình học & đo lường')">
+        <span class="topic-icon">📐</span>
+        <div class="topic-title">Hình học & đo lường</div>
+      </div>
+      <div class="topic-card" onclick="startGame('Toán có lời văn')">
+        <span class="topic-icon">📝</span>
+        <div class="topic-title">Toán có lời văn</div>
+      </div>
+      <div class="topic-card" onclick="startGame('Đo độ dài, khối lượng, thời gian')">
+        <span class="topic-icon">📏</span>
+        <div class="topic-title">Đo độ dài, khối lượng, thời gian</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="quiz-container" style="display:none">
+    <div class="question-progress" id="question-num"></div>
+    <div class="question-text" id="question-text"></div>
+    <div id="options"></div>
+    <div id="feedback" class="feedback" style="display:none"></div>
+    <button class="btn-submit" id="next-btn" style="display:none; margin-top: 20px;" onclick="renderQuestion()">Câu tiếp theo ➡️</button>
+  </div>
+
+  <script>
+    let questions = [];
+    let currentIdx = 0;
+    let currentTopic = "";
+    let mistakes = 0;
+
+    function startGame(topic) {
+      currentTopic = topic;
+      document.getElementById('setup-container').innerHTML = `<div class="header"><h1>Đang tải bài tập...</h1><div class="subtitle">Vui lòng chờ một chút nhé!</div></div>`;
+      
+      google.script.run.withSuccessHandler(data => {
+        questions = data;
+        currentIdx = 0;
+        mistakes = 0;
+        document.getElementById('setup-container').style.display = 'none';
+        document.getElementById('quiz-container').style.display = 'block';
+        renderQuestion();
+      }).getQuestions(topic);
+    }
+
+    function renderQuestion() {
+      if (currentIdx >= questions.length) return finishGame();
+      
+      const q = questions[currentIdx];
+      document.getElementById('question-num').innerText = `Câu ${currentIdx + 1} / 10`;
+      document.getElementById('question-text').innerText = q[1]; // Cột B: Câu hỏi
+      document.getElementById('feedback').style.display = 'none';
+      document.getElementById('next-btn').style.display = 'none';
+      
+      const optDiv = document.getElementById('options');
+      optDiv.innerHTML = "";
+
+      // Kiểm tra loại câu hỏi (Cột C: TN hoặc TL)
+      if (q[2] === "TN") {
+        ['A', 'B', 'C'].forEach((label, i) => {
+          if(q[3+i]) { // Chỉ hiển thị nếu có nội dung đáp án
+            let btn = document.createElement('button');
+            btn.className = "option-btn";
+            btn.innerText = q[3+i];
+            btn.onclick = () => checkAnswer(label);
+            optDiv.appendChild(btn);
+          }
+        });
+      } else {
+        optDiv.innerHTML = `<input type="text" id="ans-input" placeholder="Nhập câu trả lời của con..."><br>
+                            <button class="btn-submit" onclick="checkAnswer(document.getElementById('ans-input').value)">Trả lời</button>`;
+      }
+    }
+
+    function checkAnswer(userAns) {
+      const q = questions[currentIdx];
+      const fb = document.getElementById('feedback');
+      fb.style.display = 'block';
+      
+      // So sánh đáp án (Cột G)
+      if (userAns.toString().trim().toLowerCase() === q[6].toString().trim().toLowerCase()) {
+        fb.className = "feedback correct";
+        fb.innerHTML = "🎉 Tuyệt vời! Con làm đúng rồi.";
+        document.getElementById('next-btn').style.display = 'inline-block';
+        
+        // Vô hiệu hóa các nút sau khi chọn đúng
+        const buttons = document.querySelectorAll('.option-btn');
+        buttons.forEach(btn => btn.disabled = true);
+        
+        currentIdx++;
+      } else {
+        mistakes++;
+        fb.className = "feedback wrong";
+        fb.innerHTML = `💡 Chưa chính xác rồi con trai. <br><br><b>Hướng dẫn:</b> ${q[7]}<br><br>Con hãy tính toán lại nhé!`;
+      }
+    }
+
+    function finishGame() {
+      const container = document.getElementById('quiz-container');
+      
+      // Xếp loại huy hiệu dựa trên số lỗi sai
+      let badge = "🥇 Chiến binh Toán học (Xuất sắc)";
+      if (mistakes > 2 && mistakes <= 5) badge = "🥈 Dũng sĩ Toán học (Khá giỏi)";
+      if (mistakes > 5) badge = "🥉 Thợ săn Điểm số (Cố gắng)";
+
+      container.innerHTML = `
+        <h2>🎊 Hoàn thành bài tập!</h2>
+        <div style="font-size:80px; margin: 20px 0;">🏆</div>
+        <p style="font-size: 18px;">Con đã nhận được huy hiệu:</p>
+        <h3 style="color: #4f46e5;">${badge}</h3>
+        <p style="color: #6b7280; margin-bottom: 30px;">Ba đã lưu kết quả của con vào hệ thống rồi nhé.</p>
+        <button class="btn-submit" onclick="location.reload()">Quay lại trang chủ</button>`;
+        
+      // Gọi hàm lưu dữ liệu về Sheet
+      google.script.run.saveResult(currentTopic, 10, mistakes);
+    }
+  </script>
+</body>
+</html>
