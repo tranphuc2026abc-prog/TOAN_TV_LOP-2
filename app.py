@@ -8,7 +8,7 @@ st.set_page_config(
     page_title="🌟 Siêu Sao Lớp 2",
     page_icon="🌟",
     layout="centered",
-    initial_sidebar_bar="collapsed",
+    initial_sidebar_state="collapsed",
 )
 
 # ══════════════════════════════════════════════════════════════════════════════
