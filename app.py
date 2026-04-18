@@ -1,140 +1,155 @@
 import streamlit as st
 import random
 
-# --- 1. Cấu hình & CSS (Giữ phong cách kid-friendly) ---
-st.set_page_config(page_title="Học Vui Cùng Bé", page_icon="🎈", layout="centered")
+# 1. Cấu hình trang (Giao diện rộng rãi hơn)
+st.set_page_config(page_title="Toán & Tiếng Việt Lớp 2", page_icon="🌟", layout="centered")
 
+# 2. Bơm CSS tùy chỉnh (Mang thiết kế từ index.html sang Streamlit)
 st.markdown("""
 <style>
-    .stApp { background-color: #f0f2f6; font-family: 'Inter', sans-serif; }
+    /* Đổi màu nền ứng dụng giống file HTML */
+    .stApp {
+        background-color: #f8f9fa;
+        font-family: 'Inter', sans-serif;
+    }
     
-    /* Card chọn chủ đề */
-    .topic-card {
+    /* Tùy chỉnh giao diện Tabs */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 10px;
+        justify-content: center;
+    }
+    .stTabs [data-baseweb="tab"] {
+        background-color: #ffffff;
+        border-radius: 10px 10px 0 0;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        color: #6b7280;
+        box-shadow: 0 -2px 5px rgba(0,0,0,0.02);
+    }
+    .stTabs [aria-selected="true"] {
+        color: #6366f1 !important;
+        border-bottom: 4px solid #6366f1 !important;
+    }
+    
+    /* Tùy chỉnh nút bấm (Button) to, tròn, dễ nhấn cho bé */
+    div.stButton > button:first-child {
+        background-color: #6366f1;
+        color: white;
+        border-radius: 12px;
+        padding: 10px 30px;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        width: 100%;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(99, 102, 241, 0.3);
+    }
+    div.stButton > button:first-child:hover {
+        background-color: #4f46e5;
+        transform: translateY(-2px);
+    }
+    
+    /* Tiêu đề chính */
+    .main-title {
+        text-align: center;
+        color: #111827;
+        font-size: 36px;
+        font-weight: 700;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .sub-title {
+        text-align: center;
+        color: #6b7280;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+    /* Phông chữ bài toán to, rõ, màu nổi bật */
+    .math-problem {
+        text-align: center;
+        font-size: 55px;
+        font-weight: 800;
+        color: #e63946;
+        letter-spacing: 3px;
+        margin: 20px 0;
         background: white;
         padding: 20px;
         border-radius: 15px;
-        border: 1px solid #e5e7eb;
-        text-align: center;
-        transition: 0.3s;
-        cursor: pointer;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        border: 2px dashed #c7d2fe;
     }
     
-    /* Câu hỏi & Gợi ý */
-    .question-box {
-        background: white;
-        padding: 30px;
-        border-radius: 20px;
+    /* Khung nhập liệu (Input) */
+    .stNumberInput input {
         text-align: center;
-        margin-bottom: 20px;
-        border: 2px solid #6366f1;
-    }
-    .hint-box {
-        background-color: #fff4e5;
-        border-left: 5px solid #ff9800;
-        padding: 15px;
-        margin-top: 15px;
-        border-radius: 8px;
-        color: #663c00;
-        font-weight: 500;
-    }
-    
-    /* Nút bấm */
-    div.stButton > button {
-        border-radius: 12px !important;
-        font-weight: bold !important;
-        height: 50px;
+        font-size: 24px;
+        font-weight: bold;
+        border-radius: 10px;
+        height: 60px;
     }
 </style>
 """, unsafe_allow_html=True)
 
-# --- 2. Khởi tạo Trạng thái (Session State) ---
-if 'page' not in st.session_state:
-    st.session_state.page = 'home'
-if 'selected_topic' not in st.session_state:
-    st.session_state.selected_topic = None
-if 'question_idx' not in st.session_state:
-    st.session_state.question_idx = 0
-if 'show_hint' not in st.session_state:
-    st.session_state.show_hint = False
+# 3. Giao diện Tiêu đề (Giống hệt phần Header của index.html)
+st.markdown('<div class="main-title">★ ★ ★<br>Toán & Tiếng Việt Lớp 2</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-title">Kết nối tri thức với cuộc sống • Ôn tập cuối năm</div>', unsafe_allow_html=True)
 
-# Giả lập dữ liệu câu hỏi (Thầy có thể thay bằng dữ liệu từ Google Sheets sau này)
-DATA = {
-    "Phép cộng, trừ phạm vi 1000": [
-        {"q": "350 + 120 = ?", "a": "470", "hint": "Con hãy cộng hàng đơn vị trước (0+0), rồi đến hàng chục (5+2) và hàng trăm (3+1) nhé!"},
-        {"q": "500 - 200 = ?", "a": "300", "hint": "5 trăm trừ đi 2 trăm còn mấy trăm hả con?"}
-    ],
-    "Hình học & Đo lường": [
-        {"q": "Hình có 3 cạnh là hình gì?", "a": "Hình tam giác", "hint": "Con hãy nhớ lại các hình đã học: tròn, vuông, tam giác..."},
-        {"q": "1 mét bằng bao nhiêu xăng-ti-mét (cm)?", "a": "100", "hint": "Cứ 10 decimet là 1 mét, mà 1 decimet là 10 cm. Vậy là...?"}
-    ]
-}
+# 4. Tạo 2 không gian học tập
+tab_toan, tab_tv = st.tabs(["🧮 Thử tài Học Toán", "📖 Luyện Tiếng Việt"])
 
-# --- 3. Điều hướng Giao diện ---
-
-# MÀN HÌNH CHÍNH: Chọn chủ đề
-if st.session_state.page == 'home':
-    st.markdown("<h1 style='text-align: center;'>🌟 Chào con yêu!</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; font-size: 18px;'>Hôm nay con muốn thử tài với chủ đề nào?</p>", unsafe_allow_html=True)
+# --- PHÂN HỆ TOÁN LỚP 2 ---
+with tab_toan:
+    st.markdown("<h3 style='text-align: center; color: #1f2937;'>Phép cộng có nhớ trong phạm vi 100</h3>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; color: #6b7280;'>Con hãy nhẩm tính và điền kết quả đúng nhé!</p>", unsafe_allow_html=True)
     
-    cols = st.columns(2)
-    topics = list(DATA.keys())
-    
-    for i, topic in enumerate(topics):
-        with cols[i % 2]:
-            st.markdown(f"""<div class='topic-card'><h3>{topic}</h3></div>""", unsafe_allow_html=True)
-            if st.button(f"Chọn {i+1}", key=f"btn_{i}"):
-                st.session_state.selected_topic = topic
-                st.session_state.page = 'quiz'
-                st.session_state.question_idx = 0
-                st.rerun()
+    # Khởi tạo số ngẫu nhiên
+    if 'so_a' not in st.session_state:
+        st.session_state.so_a = random.randint(15, 89)
+        st.session_state.so_b = random.randint(5, 99 - st.session_state.so_a)
 
-# MÀN HÌNH LÀM BÀI
-elif st.session_state.page == 'quiz':
-    topic = st.session_state.selected_topic
-    questions = DATA[topic]
+    a = st.session_state.so_a
+    b = st.session_state.so_b
     
-    if st.session_state.question_idx < len(questions):
-        q_item = questions[st.session_state.question_idx]
+    # Hiển thị phép toán cực to và rõ ràng
+    st.markdown(f'<div class="math-problem">{a} + {b} = ?</div>', unsafe_allow_html=True)
+    
+    # Layout 3 cột để căn giữa ô nhập liệu
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        cau_tra_loi = st.number_input("Nhập đáp án:", min_value=0, step=1, key="toan_input", label_visibility="collapsed")
         
-        st.button("⬅️ Quay lại menu", on_click=lambda: st.session_state.update(page='home'))
-        st.markdown(f"### Chủ đề: {topic}")
-        st.progress((st.session_state.question_idx + 1) / len(questions))
-        
-        # Hiển thị câu hỏi
-        st.markdown(f"""<div class='question-box'><h2>{q_item['q']}</h2></div>""", unsafe_allow_html=True)
-        
-        # Nhập câu trả lời
-        user_ans = st.text_input("Đáp án của con:", key=f"ans_{st.session_state.question_idx}").strip()
-        
-        col1, col2 = st.columns(2)
-        with col1:
-            check_btn = st.button("Kiểm tra 🚀", use_container_width=True)
-        
-        if check_btn:
-            if user_ans.lower() == q_item['a'].lower():
-                st.success("🎉 Giỏi quá! Con làm đúng rồi.")
+        if st.button("Kiểm tra ngay 🚀", type="primary"):
+            if cau_tra_loi == (a + b):
+                st.success("🎉 TUYỆT VỜI! Con làm đúng rồi!")
                 st.balloons()
-                st.session_state.show_hint = False
-                # Hiện nút tiếp tục
-                if st.button("Tiếp tục câu tiếp theo ➡️", type="primary", use_container_width=True):
-                    st.session_state.question_idx += 1
-                    st.rerun()
+                # Nút tạo phép tính mới
+                st.session_state.so_a = random.randint(15, 89)
+                st.session_state.so_b = random.randint(5, 99 - st.session_state.so_a)
             else:
-                st.error("💡 Chưa đúng rồi, con thử lại nhé!")
-                st.session_state.show_hint = True
-        
-        # Hiển thị gợi ý nếu trả lời sai
-        if st.session_state.show_hint:
-            st.markdown(f"""<div class='hint-box'><b>Gợi ý cho con:</b><br>{q_item['hint']}</div>""", unsafe_allow_html=True)
-            if st.button("Con muốn bỏ qua câu này ⏭️"):
-                st.session_state.question_idx += 1
-                st.session_state.show_hint = False
-                st.rerun()
-                
-    else:
-        # Màn hình hoàn thành
-        st.success("🎊 Chúc mừng con đã hoàn thành tất cả bài tập!")
-        if st.button("Quay về trang chủ"):
-            st.session_state.page = 'home'
-            st.rerun()
+                st.error("💡 Gần đúng rồi, con thử tính lại xem sao nhé!")
+
+# --- PHÂN HỆ TIẾNG VIỆT LỚP 2 ---
+with tab_tv:
+    st.markdown("<h3 style='text-align: center; color: #1f2937;'>Luyện từ vựng & Chính tả (tr/ch)</h3>", unsafe_allow_html=True)
+    
+    st.info("📌 **Yêu cầu:** Con hãy chọn từ viết đúng chính tả dưới đây:")
+    
+    tu_chon = st.radio(
+        "Lựa chọn của con là:",
+        ("Chường học", "Trường học", "Trường hộc"),
+        index=None,
+        label_visibility="collapsed"
+    )
+    
+    st.write("") # Tạo khoảng trống
+    
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        if st.button("Nộp bài Tiếng Việt ✍️", type="primary"):
+            if tu_chon == "Trường học":
+                st.success("🌟 CHÍNH XÁC! Con nhớ mặt chữ rất tốt!")
+            elif tu_chon is None:
+                st.warning("⚠️ Con hãy nhấp chọn một đáp án trước khi nộp bài nhé.")
+            else:
+                st.error("💡 Chú ý phân biệt âm 'tr' và 'ch' con nhé. Thử lại nào!")
