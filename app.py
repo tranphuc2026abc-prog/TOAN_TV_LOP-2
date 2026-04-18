@@ -1,204 +1,321 @@
 import streamlit as st
 import random
 
-# ── Cấu hình trang ────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# CẤU HÌNH TRANG
+# ══════════════════════════════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="Ôn Luyện Lớp 2 ⭐",
+    page_title="🌟 Siêu Sao Lớp 2",
     page_icon="🌟",
     layout="centered",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_bar="collapsed",
 )
 
-# ── CSS toàn cục ──────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# CSS TOÀN CỤC – GIAO DIỆN TRẺ EM VUI NHỘN
+# ══════════════════════════════════════════════════════════════════════════════
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap');
 
+/* ── Nền & Font ── */
 html, body, [class*="css"], .stApp {
     font-family: 'Baloo 2', cursive !important;
 }
-
-/* Nền chấm bi vui tươi */
 .stApp {
-    background-color: #FFF9F0;
-    background-image: radial-gradient(#FFD93D33 1.5px, transparent 1.5px),
-                      radial-gradient(#6BCB7733 1.5px, transparent 1.5px);
-    background-size: 36px 36px;
-    background-position: 0 0, 18px 18px;
+    background-color: #FFF4FC;
+    background-image:
+        radial-gradient(circle at 15% 15%, #FFD6E8 0%, transparent 35%),
+        radial-gradient(circle at 85% 10%, #C8F0FF 0%, transparent 35%),
+        radial-gradient(circle at 50% 90%, #D4FFD6 0%, transparent 35%),
+        radial-gradient(#FFD93D22 1.5px, transparent 1.5px),
+        radial-gradient(#FF6BCB22 1.5px, transparent 1.5px);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+    background-position: 0 0, 0 0, 0 0, 0 0, 20px 20px;
+}
+header[data-testid="stHeader"] { display: none; }
+.block-container { padding-top: 1rem !important; max-width: 700px !important; }
+
+/* ══ MÀN ONBOARDING ══ */
+.onboard-wrap {
+    text-align: center;
+    padding: 20px 0 10px;
+    animation: fadeSlideUp 0.6s ease both;
+}
+.onboard-mascot {
+    font-size: 100px;
+    line-height: 1;
+    margin-bottom: 10px;
+    display: block;
+    animation: wobble 2s infinite;
+}
+.onboard-title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #FF6B6B, #FF9A3C, #FFD93D, #6BCB77, #4D96FF);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradShift 4s ease infinite;
+    margin: 0 0 6px;
+    line-height: 1.2;
+}
+.onboard-sub {
+    font-size: 17px;
+    color: #7c3aed;
+    font-weight: 600;
+    margin: 0 0 28px;
+}
+.star-row {
+    font-size: 26px;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
 }
 
-header[data-testid="stHeader"] { display: none; }
-.block-container { padding-top: 1.5rem !important; max-width: 680px !important; }
+/* ══ HUD THANH TRẠNG THÁI ══ */
+.hud-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-radius: 20px;
+    padding: 10px 18px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 18px rgba(26,26,46,0.25);
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.hud-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    min-width: 60px;
+}
+.hud-val {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFD93D;
+    line-height: 1;
+}
+.hud-lbl {
+    font-size: 10px;
+    font-weight: 700;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+.hud-sep { width: 1px; height: 32px; background: #ffffff22; flex-shrink: 0; }
+.hud-name {
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    background: linear-gradient(135deg, #FF6B6B, #FF9A3C);
+    padding: 4px 12px;
+    border-radius: 99px;
+    white-space: nowrap;
+}
 
-/* ── Tiêu đề trang chủ ── */
+/* ══ TRANG CHỦ ══ */
 .home-title {
     text-align: center;
-    font-size: 38px;
-    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    font-size: 42px;
+    font-weight: 900;
     color: #1a1a2e;
-    margin: 0 0 4px;
-    animation: bounce 1.6s infinite;
-}
-@keyframes bounce {
-    0%,100% { transform: translateY(0); }
-    50%      { transform: translateY(-6px); }
+    margin: 4px 0 4px;
+    animation: bounce 2s infinite;
 }
 .home-sub {
     text-align: center;
     font-size: 16px;
-    color: #6b7280;
-    margin: 0 0 28px;
-    font-weight: 500;
+    color: #7c3aed;
+    margin: 0 0 20px;
+    font-weight: 600;
+}
+.greeting-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 18px;
+    padding: 14px 20px;
+    margin-bottom: 18px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(102,126,234,0.35);
+}
+.greeting-text {
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
 }
 
-/* ── Card môn học ── */
+/* ══ CARD MÔN HỌC ══ */
 .subject-card-math {
-    background: linear-gradient(135deg, #FFF3CD 0%, #FFE082 100%);
-    border: 2.5px solid #FFD93D;
-    border-radius: 24px;
-    padding: 28px 16px 20px;
+    background: linear-gradient(135deg, #FFF3CD 0%, #FFE082 60%, #FFD93D 100%);
+    border: 3px solid #FFD93D;
+    border-radius: 28px;
+    padding: 28px 16px 22px;
     text-align: center;
     margin-bottom: 10px;
+    box-shadow: 0 8px 24px rgba(255,217,61,0.3);
+    transition: transform 0.2s;
 }
 .subject-card-viet {
-    background: linear-gradient(135deg, #DCFCE7 0%, #BBF7D0 100%);
-    border: 2.5px solid #6BCB77;
-    border-radius: 24px;
-    padding: 28px 16px 20px;
+    background: linear-gradient(135deg, #DCFCE7 0%, #BBF7D0 60%, #4ade80 100%);
+    border: 3px solid #22c55e;
+    border-radius: 28px;
+    padding: 28px 16px 22px;
     text-align: center;
     margin-bottom: 10px;
+    box-shadow: 0 8px 24px rgba(34,197,94,0.3);
+    transition: transform 0.2s;
 }
-.subject-icon { font-size: 56px; line-height: 1.1; margin-bottom: 8px; }
-.subject-name { font-size: 22px; font-weight: 800; color: #1a1a2e; margin: 0 0 4px; }
-.subject-count { font-size: 13px; color: #6b7280; font-weight: 500; }
+.subject-icon { font-size: 60px; line-height: 1.1; margin-bottom: 10px; display: block; animation: wobble 2.5s infinite; }
+.subject-name { font-size: 24px; font-weight: 800; color: #1a1a2e; margin: 0 0 4px; }
+.subject-count { font-size: 13px; color: #4b5563; font-weight: 600; }
 .badge {
     display: inline-block;
     font-size: 12px;
-    font-weight: 700;
-    padding: 4px 12px;
+    font-weight: 800;
+    padding: 5px 14px;
     border-radius: 99px;
     margin-top: 10px;
+    letter-spacing: .04em;
 }
-.badge-math { background: #FFA500; color: #fff; }
-.badge-viet { background: #22c55e; color: #fff; }
+.badge-math { background: linear-gradient(135deg, #FF9A3C, #FF6B6B); color: #fff; }
+.badge-viet { background: linear-gradient(135deg, #22c55e, #16a34a); color: #fff; }
 
-/* ── Recent box ── */
+/* ══ KẾT QUẢ GẦN ĐÂY ══ */
 .recent-box {
     background: #ffffff;
-    border: 2px solid #e5e7eb;
-    border-radius: 18px;
+    border: 2.5px solid #e9d5ff;
+    border-radius: 20px;
     padding: 14px 18px;
     margin-top: 4px;
+    box-shadow: 0 3px 12px rgba(124,58,237,0.1);
 }
-.recent-label { font-size: 12px; font-weight: 700; color: #9ca3af; text-transform: uppercase; letter-spacing: .05em; margin: 0 0 8px; }
-.recent-row { display: flex; align-items: center; gap: 8px; font-size: 14px; color: #374151; font-weight: 600; }
-.recent-score { margin-left: auto; font-size: 14px; font-weight: 700; }
+.recent-label { font-size: 12px; font-weight: 800; color: #7c3aed; text-transform: uppercase; letter-spacing: .06em; margin: 0 0 8px; }
+.recent-row { display: flex; align-items: center; gap: 8px; font-size: 14px; color: #374151; font-weight: 700; }
+.recent-score { margin-left: auto; font-size: 15px; font-weight: 800; }
 
-/* ── Topic list ── */
+/* ══ CHỌN CHỦ ĐỀ ══ */
 .topic-item {
     background: #fff;
-    border: 2px solid #e5e7eb;
-    border-radius: 16px;
-    padding: 14px 18px;
+    border: 2.5px solid #e9d5ff;
+    border-radius: 18px;
+    padding: 14px 20px;
     font-size: 16px;
     font-weight: 700;
     color: #1a1a2e;
     margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-/* ── Progress bar ── */
-.progress-track {
-    height: 16px;
-    background: #e5e7eb;
+/* ══ TIẾN TRÌNH ══ */
+.progress-outer {
+    background: #e9d5ff;
     border-radius: 99px;
-    margin-bottom: 18px;
+    height: 18px;
+    margin-bottom: 16px;
     overflow: hidden;
-    border: 1.5px solid #d1d5db;
+    border: 2px solid #c4b5fd;
+    position: relative;
 }
-.progress-fill {
-    height: 16px;
-    background: linear-gradient(90deg, #FFD93D, #FF9A3C, #FF6B6B, #6BCB77, #4D96FF);
+.progress-inner {
+    height: 18px;
+    background: linear-gradient(90deg, #FF6B6B, #FF9A3C, #FFD93D, #6BCB77, #4D96FF, #a855f7);
     background-size: 400% 100%;
     border-radius: 99px;
     animation: shimmer 3s linear infinite;
-    transition: width 0.5s ease;
+    transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    position: relative;
 }
-@keyframes shimmer {
-    0%   { background-position: 0% 50%; }
-    100% { background-position: 100% 50%; }
+.progress-inner::after {
+    content: '⭐';
+    position: absolute;
+    right: -8px;
+    top: -4px;
+    font-size: 22px;
+    animation: sparkle 0.8s ease infinite alternate;
 }
+@keyframes shimmer { 0% { background-position:0% 50%; } 100% { background-position:100% 50%; } }
+@keyframes sparkle { 0% { transform: scale(1) rotate(0deg); } 100% { transform: scale(1.2) rotate(15deg); } }
+
 .q-counter {
-    font-size: 14px;
-    font-weight: 700;
-    color: #6b7280;
+    font-size: 15px;
+    font-weight: 800;
+    color: #7c3aed;
     text-align: right;
     margin-bottom: 6px;
 }
 
-/* ── Khung câu hỏi ── */
+/* ══ KHUNG CÂU HỎI ══ */
 .q-box-math {
-    background: linear-gradient(135deg, #FFD93D 0%, #FF9A3C 100%);
-    border-radius: 22px;
-    padding: 26px 22px;
+    background: linear-gradient(135deg, #FF9A3C 0%, #FF6B6B 50%, #c2410c 100%);
+    border-radius: 26px;
+    padding: 30px 24px;
     text-align: center;
     margin-bottom: 20px;
-    box-shadow: 0 6px 20px rgba(255,154,60,0.3);
+    box-shadow: 0 8px 28px rgba(255,107,107,0.4);
+    position: relative;
+    overflow: hidden;
 }
 .q-box-viet {
-    background: linear-gradient(135deg, #6BCB77 0%, #1DB954 100%);
-    border-radius: 22px;
-    padding: 26px 22px;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 50%, #166534 100%);
+    border-radius: 26px;
+    padding: 30px 24px;
     text-align: center;
     margin-bottom: 20px;
-    box-shadow: 0 6px 20px rgba(107,203,119,0.3);
+    box-shadow: 0 8px 28px rgba(34,197,94,0.4);
+    position: relative;
+    overflow: hidden;
 }
-.q-text { font-size: 24px; font-weight: 800; color: #ffffff; margin: 0; line-height: 1.4; text-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+.q-box-math::before, .q-box-viet::before {
+    content: '✨';
+    position: absolute;
+    top: 8px;
+    right: 14px;
+    font-size: 28px;
+    animation: sparkle 1s ease infinite alternate;
+}
+.q-text { font-size: 26px; font-weight: 800; color: #fff; margin: 0; line-height: 1.4; text-shadow: 0 2px 6px rgba(0,0,0,0.2); }
 
-/* ── Đáp án ── */
-.opt-default {
-    background: #fff;
-    border: 2.5px solid #e5e7eb;
-    border-radius: 16px;
-    padding: 16px 20px;
-    font-size: 18px;
-    font-weight: 700;
-    color: #1f2937;
-    width: 100%;
-    text-align: left;
-    margin-bottom: 10px;
-    display: block;
-    cursor: pointer;
-}
+/* ══ ĐÁP ÁN ══ */
 .opt-correct {
-    background: #DCFCE7;
-    border: 2.5px solid #22c55e;
-    border-radius: 16px;
+    background: linear-gradient(135deg, #DCFCE7, #BBF7D0);
+    border: 3px solid #22c55e;
+    border-radius: 18px;
     padding: 16px 20px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 800;
     color: #14532d;
     width: 100%;
     text-align: left;
     margin-bottom: 10px;
     display: block;
+    box-shadow: 0 4px 14px rgba(34,197,94,0.25);
+    animation: popIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .opt-wrong {
-    background: #FEE2E2;
-    border: 2.5px solid #ef4444;
-    border-radius: 16px;
+    background: linear-gradient(135deg, #FEE2E2, #fca5a5);
+    border: 3px solid #ef4444;
+    border-radius: 18px;
     padding: 16px 20px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 800;
     color: #7f1d1d;
     width: 100%;
     text-align: left;
     margin-bottom: 10px;
     display: block;
+    animation: shake 0.4s ease;
 }
 .opt-dim {
-    background: #f9fafb;
+    background: #f3f4f6;
     border: 2px solid #e5e7eb;
-    border-radius: 16px;
+    border-radius: 18px;
     padding: 16px 20px;
     font-size: 18px;
     font-weight: 600;
@@ -207,51 +324,36 @@ header[data-testid="stHeader"] { display: none; }
     text-align: left;
     margin-bottom: 10px;
     display: block;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
-/* ── Feedback đúng ── */
+/* ══ FEEDBACK ══ */
 .feedback-correct {
-    background: #DCFCE7;
-    border: 2.5px solid #86efac;
-    border-radius: 18px;
-    padding: 18px 20px;
+    background: linear-gradient(135deg, #DCFCE7, #D1FAE5);
+    border: 3px solid #86efac;
+    border-radius: 22px;
+    padding: 20px 22px;
     margin-top: 6px;
-    animation: popIn 0.3s ease;
+    animation: popIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    text-align: center;
 }
-.feedback-correct-title {
-    font-size: 20px;
-    font-weight: 800;
-    color: #14532d;
-    margin: 0 0 4px;
-}
-.feedback-correct-msg {
-    font-size: 15px;
-    font-weight: 600;
-    color: #166534;
-    margin: 0;
-}
-
-/* ── Feedback sai ── */
+.feedback-correct-emoji { font-size: 48px; display: block; margin-bottom: 4px; }
+.feedback-correct-title { font-size: 22px; font-weight: 800; color: #14532d; margin: 0 0 4px; }
+.feedback-correct-msg { font-size: 15px; font-weight: 600; color: #166534; margin: 0; }
 .feedback-wrong {
-    background: #FFF7ED;
-    border: 2.5px dashed #FB923C;
-    border-radius: 18px;
-    padding: 18px 20px;
+    background: linear-gradient(135deg, #FFF7ED, #FEF3C7);
+    border: 3px dashed #FB923C;
+    border-radius: 22px;
+    padding: 20px 22px;
     margin-top: 6px;
     animation: popIn 0.3s ease;
 }
-.feedback-wrong-title {
-    font-size: 18px;
-    font-weight: 800;
-    color: #c2410c;
-    margin: 0 0 10px;
-}
+.feedback-wrong-title { font-size: 20px; font-weight: 800; color: #c2410c; margin: 0 0 12px; text-align: center; }
 .feedback-answer {
     background: #DCFCE7;
     border: 2px solid #22c55e;
-    border-radius: 12px;
-    padding: 10px 14px;
+    border-radius: 14px;
+    padding: 12px 16px;
     font-size: 17px;
     font-weight: 800;
     color: #14532d;
@@ -260,8 +362,8 @@ header[data-testid="stHeader"] { display: none; }
 .feedback-explain {
     background: #FEF9C3;
     border: 2px solid #FCD34D;
-    border-radius: 12px;
-    padding: 12px 14px;
+    border-radius: 14px;
+    padding: 12px 16px;
     font-size: 15px;
     font-weight: 600;
     color: #78350f;
@@ -269,86 +371,174 @@ header[data-testid="stHeader"] { display: none; }
     white-space: pre-line;
 }
 .explain-title {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 800;
     color: #92400e;
     text-transform: uppercase;
-    letter-spacing: .05em;
+    letter-spacing: .06em;
     margin-bottom: 6px;
 }
 
-@keyframes popIn {
-    0%   { transform: scale(0.95); opacity: 0; }
-    100% { transform: scale(1);    opacity: 1; }
+/* ══ STREAK & ĐIỂM ══ */
+.streak-banner {
+    background: linear-gradient(135deg, #FF6B6B, #FF9A3C);
+    border-radius: 16px;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 12px;
+    animation: popIn 0.4s cubic-bezier(0.34,1.56,0.64,1);
+    box-shadow: 0 4px 16px rgba(255,107,107,0.35);
 }
 
-/* ── Nút bấm Streamlit ── */
+/* ══ MÀN KẾT QUẢ ══ */
+.result-wrap { text-align: center; padding: 10px 0 20px; animation: fadeSlideUp 0.6s ease both; }
+.result-trophy { font-size: 90px; margin-bottom: 6px; display: block; animation: bounce 1.8s infinite; }
+.result-title { font-family: 'Nunito', sans-serif; font-size: 38px; font-weight: 900; color: #1a1a2e; margin: 0 0 6px; }
+.result-msg { font-size: 17px; color: #6b7280; font-weight: 600; margin: 0 0 22px; }
+.badge-earned {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 10px 24px;
+    border-radius: 99px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+.badge-gold { background: linear-gradient(135deg, #FFD700, #FF9A3C); color: #fff; }
+.badge-silver { background: linear-gradient(135deg, #a855f7, #7c3aed); color: #fff; }
+.badge-bronze { background: linear-gradient(135deg, #22c55e, #16a34a); color: #fff; }
+.badge-try { background: linear-gradient(135deg, #64748b, #475569); color: #fff; }
+
+.score-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+.score-box-correct {
+    background: linear-gradient(135deg, #DCFCE7, #BBF7D0);
+    border: 2.5px solid #86efac;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(34,197,94,0.2);
+}
+.score-box-wrong {
+    background: linear-gradient(135deg, #FEE2E2, #fca5a5);
+    border: 2.5px solid #fca5a5;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(239,68,68,0.15);
+}
+.score-num { font-size: 44px; font-weight: 800; }
+.score-lbl { font-size: 14px; font-weight: 700; margin-top: 2px; }
+
+/* ══ THANH TỔNG ĐIỂM KẾT QUẢ ══ */
+.total-pts-box {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    border-radius: 20px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.total-pts-icon { font-size: 32px; }
+.total-pts-val { font-size: 28px; font-weight: 800; color: #FFD93D; }
+.total-pts-lbl { font-size: 13px; font-weight: 700; color: #9ca3af; text-transform: uppercase; }
+
+/* ══ BUTTONS ══ */
 div.stButton > button {
     font-family: 'Baloo 2', cursive !important;
     font-weight: 800 !important;
     font-size: 17px !important;
     height: 56px !important;
-    border-radius: 16px !important;
-    transition: transform 0.15s, box-shadow 0.15s !important;
+    border-radius: 18px !important;
+    transition: transform 0.15s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.15s !important;
+    letter-spacing: .02em !important;
 }
 div.stButton > button[kind="primary"] {
-    background: linear-gradient(135deg, #FF9A3C, #FF6B6B) !important;
+    background: linear-gradient(135deg, #FF6B6B, #FF9A3C) !important;
     border: none !important;
     color: #fff !important;
-    box-shadow: 0 5px 16px rgba(255,107,107,0.35) !important;
+    box-shadow: 0 6px 18px rgba(255,107,107,0.4) !important;
 }
 div.stButton > button[kind="primary"]:hover {
-    transform: translateY(-2px) scale(1.02) !important;
-    box-shadow: 0 8px 22px rgba(255,107,107,0.45) !important;
+    transform: translateY(-3px) scale(1.03) !important;
+    box-shadow: 0 10px 26px rgba(255,107,107,0.5) !important;
 }
-div.stButton > button[kind="primary"]:active {
-    transform: scale(0.97) !important;
-}
+div.stButton > button[kind="primary"]:active { transform: scale(0.96) !important; }
 div.stButton > button[kind="secondary"] {
     background: #fff !important;
-    border: 2px solid #e5e7eb !important;
-    color: #374151 !important;
+    border: 2.5px solid #e9d5ff !important;
+    color: #7c3aed !important;
 }
 div.stButton > button[kind="secondary"]:hover {
-    border-color: #FFD93D !important;
-    background: #FFFBEB !important;
-    transform: translateY(-1px) !important;
+    border-color: #a855f7 !important;
+    background: #faf5ff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(168,85,247,0.15) !important;
 }
 
-/* ── Màn kết quả ── */
-.result-wrap { text-align: center; padding: 10px 0 20px; }
-.result-icon { font-size: 72px; margin-bottom: 8px; animation: bounce 1.6s infinite; }
-.result-title { font-size: 34px; font-weight: 800; color: #1a1a2e; margin: 0 0 6px; }
-.result-msg { font-size: 16px; color: #6b7280; font-weight: 600; margin: 0 0 24px; }
-.score-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 14px;
-    margin-bottom: 24px;
+/* ══ INPUT ══ */
+div[data-testid="stTextInput"] input {
+    font-family: 'Baloo 2', cursive !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    border-radius: 16px !important;
+    border: 2.5px solid #e9d5ff !important;
+    padding: 12px 18px !important;
+    background: #fff !important;
+    color: #1a1a2e !important;
 }
-.score-box-correct {
-    background: #DCFCE7;
-    border: 2px solid #86efac;
-    border-radius: 18px;
-    padding: 18px;
-    text-align: center;
+div[data-testid="stTextInput"] input:focus {
+    border-color: #a855f7 !important;
+    box-shadow: 0 0 0 3px rgba(168,85,247,0.15) !important;
 }
-.score-box-wrong {
-    background: #FEE2E2;
-    border: 2px solid #fca5a5;
-    border-radius: 18px;
-    padding: 18px;
-    text-align: center;
-}
-.score-num { font-size: 40px; font-weight: 800; }
-.score-lbl { font-size: 14px; font-weight: 700; margin-top: 2px; }
 
-/* Divider */
-.divider { border: none; border-top: 2px dashed #e5e7eb; margin: 16px 0; }
+/* ══ ANIMATIONS ══ */
+@keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+@keyframes wobble {
+    0%,100%{transform:rotate(0deg)}
+    15%{transform:rotate(-8deg)}
+    30%{transform:rotate(6deg)}
+    45%{transform:rotate(-4deg)}
+    60%{transform:rotate(2deg)}
+}
+@keyframes popIn {
+    0%{transform:scale(0.8);opacity:0}
+    100%{transform:scale(1);opacity:1}
+}
+@keyframes shake {
+    0%,100%{transform:translateX(0)}
+    20%{transform:translateX(-8px)}
+    40%{transform:translateX(8px)}
+    60%{transform:translateX(-5px)}
+    80%{transform:translateX(5px)}
+}
+@keyframes fadeSlideUp {
+    0%{opacity:0;transform:translateY(20px)}
+    100%{opacity:1;transform:translateY(0)}
+}
+@keyframes gradShift {
+    0%,100%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+}
+
+/* ══ ÂM THANH hidden ══ */
+audio { display: none; }
+.divider { border:none; border-top: 2px dashed #e9d5ff; margin: 16px 0; }
 </style>
 """, unsafe_allow_html=True)
 
-# ── Dữ liệu câu hỏi (có trường explain) ─────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# DỮ LIỆU CÂU HỎI – GIỮ NGUYÊN HOÀN TOÀN
+# ══════════════════════════════════════════════════════════════════════════════
 SUBJECTS = {
     "math": {
         "label": "Toán",
@@ -618,28 +808,45 @@ SUBJECTS = {
     },
 }
 
+# Danh sách lời khen ngợi
 PRAISE = [
-    "🎉 Tuyệt vời! Bạn thật thông minh!",
-    "⭐ Chính xác rồi! Giỏi lắm!",
+    "🎉 Tuyệt vời! Thông minh quá!",
+    "⭐ Chính xác! Giỏi lắm!",
     "🌟 Đúng rồi! Cố lên nhé!",
-    "🏆 Xuất sắc! Bạn học rất giỏi!",
-    "🎊 Đúng rồi! Bạn thật tài năng!",
-    "🥳 Chính xác! Bạn thông minh quá!",
+    "🏆 Xuất sắc! Học rất giỏi!",
+    "🎊 Đúng rồi! Tài năng thật!",
+    "🥳 Chính xác! Thông minh quá!",
     "💫 Hoàn hảo! Làm tiếp nào!",
+    "🚀 Siêu đỉnh! Bạn quá giỏi!",
 ]
 
-# ── Khởi tạo session_state ────────────────────────────────────────────────────
+# Mascot theo điểm
+MASCOTS = {
+    "perfect": "🦁",
+    "great":   "🐯",
+    "good":    "🐻",
+    "try":     "🐨",
+}
+
+# ══════════════════════════════════════════════════════════════════════════════
+# KHỞI TẠO SESSION STATE
+# ══════════════════════════════════════════════════════════════════════════════
 def init_state():
     defaults = {
-        "screen": "home",
-        "subject": None,
-        "topic_idx": None,
-        "q_idx": 0,
-        "score": 0,
-        "answered": False,
-        "selected": None,
+        "screen":      "onboard",   # onboard → home → topics → quiz → result
+        "username":    "",
+        "subject":     None,
+        "topic_idx":   None,
+        "q_idx":       0,
+        "score":       0,           # điểm bài hiện tại (số câu đúng)
+        "answered":    False,
+        "selected":    None,
         "shuffled_qs": [],
-        "recent": None,
+        "recent":      None,
+        # Gamification
+        "total_pts":   0,           # tổng điểm tích lũy (mỗi câu đúng +10)
+        "streak":      0,           # chuỗi đúng liên tiếp hiện tại
+        "best_streak": 0,           # chuỗi dài nhất
     }
     for k, v in defaults.items():
         if k not in st.session_state:
@@ -647,7 +854,9 @@ def init_state():
 
 init_state()
 
-# ── Hàm điều hướng ────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
+# HÀM TIỆN ÍCH – LOGIC
+# ══════════════════════════════════════════════════════════════════════════════
 def go_home():
     st.session_state.screen = "home"
 
@@ -665,23 +874,33 @@ def go_quiz(topic_idx):
     st.session_state.score       = 0
     st.session_state.answered    = False
     st.session_state.selected    = None
+    st.session_state.streak      = 0
     st.session_state.screen      = "quiz"
 
 def answer(i):
+    """Xử lý khi học sinh chọn đáp án"""
     if st.session_state.answered:
         return
     st.session_state.selected = i
     st.session_state.answered = True
     q = st.session_state.shuffled_qs[st.session_state.q_idx]
     if i == q["ans"]:
-        st.session_state.score += 1
+        st.session_state.score     += 1
+        st.session_state.total_pts += 10          # +10 điểm mỗi câu đúng
+        st.session_state.streak    += 1
+        if st.session_state.streak > st.session_state.best_streak:
+            st.session_state.best_streak = st.session_state.streak
+    else:
+        st.session_state.streak = 0               # reset chuỗi khi sai
 
 def next_q():
-    st.session_state.q_idx  += 1
+    """Chuyển sang câu tiếp theo hoặc kết thúc bài"""
+    st.session_state.q_idx   += 1
     st.session_state.answered = False
     st.session_state.selected = None
     total = len(st.session_state.shuffled_qs)
     if st.session_state.q_idx >= total:
+        # Lưu kết quả gần đây
         subj_label = SUBJECTS[st.session_state.subject]["label"]
         topic_name = SUBJECTS[st.session_state.subject]["topics"][st.session_state.topic_idx]["name"]
         st.session_state.recent = {
@@ -693,10 +912,126 @@ def next_q():
         }
         st.session_state.screen = "result"
 
-# ─────────────────────────────────────────────────────────────────────────────
+def get_level(pts):
+    """Tính level từ tổng điểm"""
+    return max(1, pts // 50 + 1)
+
+def get_streak_display(streak):
+    """Hiển thị lửa theo streak"""
+    if streak >= 5:
+        return "🔥🔥 Chuỗi " + str(streak) + "!"
+    elif streak >= 3:
+        return "🔥 Chuỗi " + str(streak) + "!"
+    return ""
+
+def render_sound(correct: bool):
+    """Chèn âm thanh bằng Web Audio API"""
+    if correct:
+        # Âm "ting" khi đúng
+        js = """
+        <script>
+        (function(){
+            var ctx = new (window.AudioContext || window.webkitAudioContext)();
+            var o = ctx.createOscillator();
+            var g = ctx.createGain();
+            o.connect(g); g.connect(ctx.destination);
+            o.type = 'sine'; o.frequency.value = 880;
+            g.gain.setValueAtTime(0.3, ctx.currentTime);
+            g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.5);
+            o.start(ctx.currentTime); o.stop(ctx.currentTime + 0.5);
+        })();
+        </script>
+        """
+    else:
+        # Âm "oops" khi sai
+        js = """
+        <script>
+        (function(){
+            var ctx = new (window.AudioContext || window.webkitAudioContext)();
+            var o = ctx.createOscillator();
+            var g = ctx.createGain();
+            o.connect(g); g.connect(ctx.destination);
+            o.type = 'sawtooth'; o.frequency.value = 200;
+            g.gain.setValueAtTime(0.2, ctx.currentTime);
+            g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.4);
+            o.start(ctx.currentTime); o.stop(ctx.currentTime + 0.4);
+        })();
+        </script>
+        """
+    st.markdown(js, unsafe_allow_html=True)
+
+def render_hud():
+    """Thanh HUD hiển thị tên, điểm, level"""
+    name     = st.session_state.username or "Bạn"
+    pts      = st.session_state.total_pts
+    lv       = get_level(pts)
+    streak   = st.session_state.streak
+    streak_s = f"🔥×{streak}" if streak >= 3 else "—"
+    st.markdown(f"""
+    <div class="hud-bar">
+        <div class="hud-item">
+            <div class="hud-val">⭐ {pts}</div>
+            <div class="hud-lbl">Điểm</div>
+        </div>
+        <div class="hud-sep"></div>
+        <div class="hud-item">
+            <div class="hud-val">Lv.{lv}</div>
+            <div class="hud-lbl">Level</div>
+        </div>
+        <div class="hud-sep"></div>
+        <div class="hud-item">
+            <div class="hud-val">{streak_s}</div>
+            <div class="hud-lbl">Streak</div>
+        </div>
+        <div class="hud-sep"></div>
+        <div class="hud-name">👋 {name}</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+# ══════════════════════════════════════════════════════════════════════════════
+# MÀN 0 — ONBOARDING (chào mừng + nhập tên)
+# ══════════════════════════════════════════════════════════════════════════════
+if st.session_state.screen == "onboard":
+    st.markdown("""
+    <div class="onboard-wrap">
+        <span class="onboard-mascot">🦊</span>
+        <div class="onboard-title">Chào mừng đến với<br>Thế Giới Học Tập!</div>
+        <div class="onboard-sub">Học vui – Hiểu nhanh – Nhớ lâu ✨</div>
+        <div class="star-row">⭐ ⭐ ⭐ ⭐ ⭐</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    name_input = st.text_input(
+        "🎮 Nhập tên hoặc biệt danh của bạn:",
+        placeholder="Ví dụ: Siêu Sao, Nam Ngầu, ...",
+        max_chars=20,
+    )
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    if st.button("🚀 Bắt đầu học ngay!", key="btn_start", type="primary", use_container_width=True):
+        name = name_input.strip()
+        if not name:
+            st.warning("⚠️ Bạn chưa nhập tên! Nhập tên để bắt đầu nhé 😊")
+        else:
+            st.session_state.username = name
+            st.session_state.screen   = "home"
+            st.rerun()
+
+# ══════════════════════════════════════════════════════════════════════════════
 # MÀN 1 — TRANG CHỦ
-# ─────────────────────────────────────────────────────────────────────────────
-if st.session_state.screen == "home":
+# ══════════════════════════════════════════════════════════════════════════════
+elif st.session_state.screen == "home":
+    render_hud()
+
+    # Chào cá nhân
+    name = st.session_state.username
+    st.markdown(f"""
+    <div class="greeting-box">
+        <p class="greeting-text">Xin chào, {name}! 👋 Hôm nay học gì nào?</p>
+    </div>
+    """, unsafe_allow_html=True)
+
     st.markdown('<div class="home-title">🌟 Ôn Luyện Lớp 2</div>', unsafe_allow_html=True)
     st.markdown('<div class="home-sub">Chọn môn học để bắt đầu luyện tập nào!</div>', unsafe_allow_html=True)
 
@@ -704,8 +1039,8 @@ if st.session_state.screen == "home":
     with col1:
         st.markdown("""
         <div class="subject-card-math">
-            <div class="subject-icon">🔢</div>
-            <div class="subject-name">Toán</div>
+            <span class="subject-icon">🔢</span>
+            <div class="subject-name">Toán học</div>
             <div class="subject-count">5 chủ đề · 10 câu/bài</div>
             <span class="badge badge-math">Toán học</span>
         </div>""", unsafe_allow_html=True)
@@ -715,7 +1050,7 @@ if st.session_state.screen == "home":
     with col2:
         st.markdown("""
         <div class="subject-card-viet">
-            <div class="subject-icon">📖</div>
+            <span class="subject-icon">📖</span>
             <div class="subject-name">Tiếng Việt</div>
             <div class="subject-count">5 chủ đề · 10 câu/bài</div>
             <span class="badge badge-viet">Tiếng Việt</span>
@@ -723,43 +1058,52 @@ if st.session_state.screen == "home":
         if st.button("✏️ Học Tiếng Việt", key="btn_viet", type="primary", use_container_width=True):
             go_topics("viet"); st.rerun()
 
+    # Kết quả gần đây
     if st.session_state.recent:
         r = st.session_state.recent
-        score_color = "#22c55e" if r["score"] >= 7 else "#f59e0b" if r["score"] >= 5 else "#ef4444"
+        score_color = "#16a34a" if r["score"] >= 7 else "#f59e0b" if r["score"] >= 5 else "#ef4444"
         st.markdown(f"""
         <div class="recent-box">
             <p class="recent-label">🕐 Kết quả gần đây</p>
             <div class="recent-row">
                 <span>{r['name']}</span>
                 <span class="badge {r['badge']}">{r['subj']}</span>
-                <span class="recent-score" style="color:{score_color};">{r['score']}/{r['total']} đúng</span>
+                <span class="recent-score" style="color:{score_color};">{r['score']}/{r['total']} ✅</span>
             </div>
         </div>""", unsafe_allow_html=True)
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
 # MÀN 2 — CHỌN CHỦ ĐỀ
-# ─────────────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
 elif st.session_state.screen == "topics":
+    render_hud()
+
     subj = st.session_state.subject
     sub  = SUBJECTS[subj]
 
     if st.button("← Trang chủ", key="back_home", type="secondary"):
         go_home(); st.rerun()
 
-    st.markdown(f"<p style='font-size:13px;font-weight:700;color:#9ca3af;text-transform:uppercase;letter-spacing:.05em;margin:14px 0 12px;'>{sub['icon']} {sub['label']} — Chọn chủ đề</p>", unsafe_allow_html=True)
+    st.markdown(
+        f"<p style='font-size:15px;font-weight:800;color:#7c3aed;text-transform:uppercase;"
+        f"letter-spacing:.06em;margin:14px 0 14px;'>{sub['icon']} {sub['label']} — Chọn chủ đề</p>",
+        unsafe_allow_html=True
+    )
 
     for i, topic in enumerate(sub["topics"]):
         col_a, col_b = st.columns([5, 2])
         with col_a:
-            st.markdown(f"<div class='topic-item'>{topic['name']}</div>", unsafe_allow_html=True)
+            st.markdown(f"<div class='topic-item'>📚 {topic['name']}</div>", unsafe_allow_html=True)
         with col_b:
-            if st.button("Bắt đầu →", key=f"topic_{i}", type="primary", use_container_width=True):
+            if st.button("▶ Bắt đầu", key=f"topic_{i}", type="primary", use_container_width=True):
                 go_quiz(i); st.rerun()
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
 # MÀN 3 — CÂU HỎI
-# ─────────────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
 elif st.session_state.screen == "quiz":
+    render_hud()
+
     subj     = st.session_state.subject
     sub      = SUBJECTS[subj]
     qs       = st.session_state.shuffled_qs
@@ -768,7 +1112,9 @@ elif st.session_state.screen == "quiz":
     answered = st.session_state.answered
     selected = st.session_state.selected
     q        = qs[q_idx]
+    name     = st.session_state.username
 
+    # Nút quay lại + đếm câu
     col_back, col_cnt = st.columns([3, 2])
     with col_back:
         if st.button("← Chủ đề", key="back_topics", type="secondary"):
@@ -776,23 +1122,39 @@ elif st.session_state.screen == "quiz":
     with col_cnt:
         st.markdown(f"<div class='q-counter'>Câu {q_idx + 1} / {total}</div>", unsafe_allow_html=True)
 
+    # Thanh tiến trình đẹp
     pct = int((q_idx / total) * 100)
+    # Ẩn ngôi sao khi ở câu đầu để tránh tràn
+    star_vis = "visible" if pct > 0 else "hidden"
     st.markdown(f"""
-    <div class="progress-track">
-        <div class="progress-fill" style="width:{pct}%"></div>
+    <div class="progress-outer">
+        <div class="progress-inner" style="width:{pct}%; {'--star-vis: hidden' if pct == 0 else ''}">
+            <span style="visibility:{star_vis}"></span>
+        </div>
     </div>""", unsafe_allow_html=True)
 
+    # Hiển thị streak nếu đang có chuỗi đúng (chỉ khi chưa trả lời câu này)
+    streak = st.session_state.streak
+    if not answered and streak >= 3:
+        fire = "🔥🔥" if streak >= 5 else "🔥"
+        st.markdown(
+            f'<div class="streak-banner">{fire} Chuỗi đúng {streak} câu! Tuyệt vời!</div>',
+            unsafe_allow_html=True
+        )
+
+    # Khung câu hỏi
     q_class = sub["q_box_class"]
     st.markdown(f'<div class="{q_class}"><p class="q-text">{q["q"]}</p></div>', unsafe_allow_html=True)
 
-    # ── Đáp án ──
+    # Các đáp án
     for i, opt in enumerate(q["opts"]):
         is_correct  = (i == q["ans"])
         is_selected = (i == selected)
 
         if not answered:
             if st.button(opt, key=f"opt_{q_idx}_{i}", use_container_width=True, type="secondary"):
-                answer(i); st.rerun()
+                answer(i)
+                st.rerun()
         else:
             if is_correct:
                 st.markdown(f'<div class="opt-correct">✅ {opt}</div>', unsafe_allow_html=True)
@@ -801,23 +1163,28 @@ elif st.session_state.screen == "quiz":
             else:
                 st.markdown(f'<div class="opt-dim">{opt}</div>', unsafe_allow_html=True)
 
-    # ── Feedback ──
+    # Feedback sau khi trả lời
     if answered:
         if selected == q["ans"]:
+            # ĐÚng
             praise = random.choice(PRAISE)
+            render_sound(True)
+            st.balloons()
             st.markdown(f"""
             <div class="feedback-correct">
-                <div class="feedback-correct-title">{praise}</div>
-                <div class="feedback-correct-msg">Bạn đã chọn đúng rồi! Tiếp tục phát huy nhé! 🚀</div>
+                <span class="feedback-correct-emoji">🌟</span>
+                <div class="feedback-correct-title">Giỏi quá {name}! +10 điểm ⭐</div>
+                <div class="feedback-correct-msg">{praise} Tiếp tục phát huy nhé! 🚀</div>
             </div>""", unsafe_allow_html=True)
-            st.balloons()
         else:
+            # SAI
             correct_text = q["opts"][q["ans"]]
             explain_text = q.get("explain", "")
+            render_sound(False)
             st.markdown(f"""
             <div class="feedback-wrong">
-                <div class="feedback-wrong-title">💡 Ồ, chưa đúng rồi! Không sao, xem lại nhé!</div>
-                <div class="feedback-answer">✅ Đáp án đúng là: {correct_text}</div>
+                <div class="feedback-wrong-title">😅 Ồ chưa đúng rồi {name}! Không sao, xem lại nhé!</div>
+                <div class="feedback-answer">✅ Đáp án đúng: {correct_text}</div>
                 <div class="explain-title">📚 Giải thích</div>
                 <div class="feedback-explain">{explain_text}</div>
             </div>""", unsafe_allow_html=True)
@@ -827,43 +1194,80 @@ elif st.session_state.screen == "quiz":
         if st.button(label, key="next_q", type="primary", use_container_width=True):
             next_q(); st.rerun()
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
 # MÀN 4 — KẾT QUẢ
-# ─────────────────────────────────────────────────────────────────────────────
+# ══════════════════════════════════════════════════════════════════════════════
 elif st.session_state.screen == "result":
     score = st.session_state.score
     total = len(st.session_state.shuffled_qs)
     pct   = score / total
+    name  = st.session_state.username
+    pts   = st.session_state.total_pts
+    lv    = get_level(pts)
 
+    # Xác định huy hiệu & thông điệp
     if pct == 1.0:
-        icon, title, msg = "🏆", "Hoàn hảo!", f"Bạn đã trả lời đúng tất cả {total}/10 câu. Thật xuất sắc!"
+        icon, badge_class, badge_text = "🏆", "badge-gold",   "🏆 Siêu Sao!"
+        title = "Hoàn Hảo!"
+        msg   = f"Tuyệt vời {name}! Bạn đã trả lời đúng tất cả {total}/{total} câu!"
+        mascot = MASCOTS["perfect"]
     elif pct >= 0.8:
-        icon, title, msg = "⭐", "Xuất sắc!", f"Bạn đã trả lời đúng {score}/{total} câu. Cố lên thêm chút nữa nhé!"
-    elif pct >= 0.6:
-        icon, title, msg = "👍", "Khá tốt!", f"Bạn đã trả lời đúng {score}/{total} câu. Ôn lại một chút rồi thử lại nhé!"
+        icon, badge_class, badge_text = "⭐", "badge-silver", "⭐ Xuất Sắc!"
+        title = "Xuất Sắc!"
+        msg   = f"Tuyệt vời {name}! Bạn đã trả lời đúng {score}/{total} câu!"
+        mascot = MASCOTS["great"]
+    elif pct >= 0.5:
+        icon, badge_class, badge_text = "👍", "badge-bronze", "👍 Khá Tốt!"
+        title = "Khá Tốt!"
+        msg   = f"Cố lên {name}! Bạn đã trả lời đúng {score}/{total} câu!"
+        mascot = MASCOTS["good"]
     else:
-        icon, title, msg = "💪", "Cố lên nào!", f"Bạn đã trả lời đúng {score}/{total} câu. Đọc lại phần giải thích rồi luyện thêm nhé!"
+        icon, badge_class, badge_text = "💪", "badge-try",   "💪 Cố Gắng!"
+        title = "Cố Lên Nào!"
+        msg   = f"Không sao {name}! Luyện thêm rồi thử lại nhé! {score}/{total} câu đúng."
+        mascot = MASCOTS["try"]
 
+    # Hiển thị kết quả
     st.markdown(f"""
     <div class="result-wrap">
-        <div class="result-icon">{icon}</div>
-        <div class="result-title">{title}</div>
+        <span class="result-trophy">{mascot}</span>
+        <div class="result-title">{icon} {title}</div>
         <div class="result-msg">{msg}</div>
-        <div class="score-grid">
-            <div class="score-box-correct">
-                <div class="score-num" style="color:#16a34a;">{score}</div>
-                <div class="score-lbl" style="color:#166534;">Câu đúng ✅</div>
-            </div>
-            <div class="score-box-wrong">
-                <div class="score-num" style="color:#dc2626;">{total - score}</div>
-                <div class="score-lbl" style="color:#7f1d1d;">Câu sai ❌</div>
-            </div>
-        </div>
-    </div>""", unsafe_allow_html=True)
+        <span class="badge-earned {badge_class}">{badge_text}</span>
+    </div>
+    """, unsafe_allow_html=True)
 
-    if pct == 1.0:
+    # Thanh tổng điểm
+    st.markdown(f"""
+    <div class="total-pts-box">
+        <span class="total-pts-icon">⭐</span>
+        <div>
+            <div class="total-pts-val">{pts} điểm</div>
+            <div class="total-pts-lbl">Tổng điểm · Level {lv}</div>
+        </div>
+        <span class="total-pts-icon">🎮</span>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Lưới điểm đúng/sai
+    st.markdown(f"""
+    <div class="score-grid">
+        <div class="score-box-correct">
+            <div class="score-num" style="color:#16a34a;">{score}</div>
+            <div class="score-lbl" style="color:#166534;">Câu đúng ✅</div>
+        </div>
+        <div class="score-box-wrong">
+            <div class="score-num" style="color:#dc2626;">{total - score}</div>
+            <div class="score-lbl" style="color:#7f1d1d;">Câu sai ❌</div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Hiệu ứng bong bóng khi đạt điểm cao
+    if pct >= 0.8:
         st.balloons()
 
+    # Các nút điều hướng
     col1, col2 = st.columns(2)
     with col1:
         if st.button("🔄 Luyện lại", key="retry", type="secondary", use_container_width=True):
