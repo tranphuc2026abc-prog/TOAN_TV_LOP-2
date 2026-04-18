@@ -477,12 +477,22 @@ def save_to_google_sheet(data: dict):
         import gspread
         from google.oauth2.service_account import Credentials
         scopes = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
+        
+        # Kiểm tra xem đã có Secrets gcp_service_account chưa
         creds_dict = st.secrets.get("gcp_service_account", None)
-        if creds_dict is None: return
+        if creds_dict is None:
+            st.error("Lỗi: Chưa cấu hình [gcp_service_account] trong Secrets.")
+            return
+            
         creds  = Credentials.from_service_account_info(dict(creds_dict), scopes=scopes)
         client = gspread.authorize(creds)
+        
+        # Kiểm tra xem đã có ID file Sheets chưa
         sheet_id = st.secrets.get("google_sheet_id", "")
-        if not sheet_id: return
+        if not sheet_id:
+            st.error("Lỗi: Chưa cấu hình google_sheet_id trong Secrets.")
+            return
+            
         sh   = client.open_by_key(sheet_id)
         ws   = sh.sheet1
         row  = [
@@ -491,9 +501,10 @@ def save_to_google_sheet(data: dict):
             data.get("level", 1), data.get("badge", ""), str(data.get("timestamp", datetime.now())),
         ]
         ws.append_row(row)
-    except Exception:
-        pass
-
+        st.success("Đã lưu kết quả vào Google Sheets thành công!")
+    except Exception as e:
+        # In thẳng lỗi ra màn hình để thầy dễ debug
+        st.error(f"Lỗi kết nối Google Sheets: {e}")
 # ══════════════════════════════════════════════════════════════════════════════
 # KHỞI TẠO SESSION STATE
 # ══════════════════════════════════════════════════════════════════════════════
