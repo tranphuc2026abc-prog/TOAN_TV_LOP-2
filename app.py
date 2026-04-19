@@ -2060,7 +2060,7 @@ if st.session_state.screen == "onboard":
             placeholder="Ví dụ: Siêu Sao, Nam Ngầu, Bé Kute...",
             max_chars=20,
         )
-        class_options = ["Lớp 1", "Lớp 2", "Lớp 3"]
+        class_options = ["Lớp 2A", "Lớp 2B", "Lớp 2C", , "Lớp 2D", "Lớp 2E"]
         class_choice  = st.selectbox("🏫 Chọn lớp của bạn:", class_options, index=1)
 
         st.markdown("<br>", unsafe_allow_html=True)
