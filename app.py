@@ -1,6 +1,14 @@
 import streamlit as st
 import random
 from datetime import datetime
+from io import BytesIO
+import base64
+
+try:
+    from gtts import gTTS
+    _GTTS_AVAILABLE = True
+except ImportError:
+    _GTTS_AVAILABLE = False
 
 # ══════════════════════════════════════════════════════════════════════════════
 # CẤU HÌNH TRANG
@@ -1328,6 +1336,42 @@ div[data-baseweb="select"] > div {
 @keyframes sparkle     { 0%{transform:scale(1) rotate(0deg)}    100%{transform:scale(1.3) rotate(20deg)} }
 audio { display: none; }
 
+/* ══ NÚT LOA TTS – To, dễ bấm, thân thiện với trẻ em ══ */
+.speaker-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #FFD54F, #FF7043);
+    border: none;
+    border-radius: 50%;
+    width: 52px; height: 52px;
+    font-size: 26px;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(255,112,67,0.45);
+    transition: transform 0.18s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.18s;
+    margin-left: 12px;
+    vertical-align: middle;
+    flex-shrink: 0;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    animation: popIn 0.5s cubic-bezier(0.34,1.56,0.64,1);
+}
+.speaker-btn:hover {
+    transform: scale(1.18) rotate(-8deg);
+    box-shadow: 0 8px 22px rgba(255,112,67,0.60);
+}
+.speaker-btn:active {
+    transform: scale(0.93);
+    box-shadow: 0 2px 8px rgba(255,112,67,0.35);
+}
+.q-text-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
 @media (max-width: 768px) {
     .left-panel { min-height: auto; position: static; margin-bottom: 14px; }
     .q-text { font-size: 21px; }
@@ -1636,6 +1680,30 @@ def render_celebration_sound():
     st.markdown(js, unsafe_allow_html=True)
 
 
+@st.cache_data(show_spinner=False)
+def get_audio_html(text: str, lang: str = "vi") -> str:
+    """Tạo HTML chứa thẻ <audio> ẩn và nút loa 🔊 để phát TTS.
+    Trả về chuỗi rỗng nếu gTTS không khả dụng hoặc mất mạng.
+    """
+    if not _GTTS_AVAILABLE:
+        return ""
+    try:
+        tts = gTTS(text=text, lang=lang, slow=False)
+        buf = BytesIO()
+        tts.write_to_fp(buf)
+        buf.seek(0)
+        b64 = base64.b64encode(buf.read()).decode("utf-8")
+        audio_id = f"tts_{abs(hash(text + lang))}"
+        html = (
+            f'<audio id="{audio_id}" src="data:audio/mp3;base64,{b64}"></audio>'
+            f'<button class="speaker-btn" title="Nghe câu hỏi 🔊" '
+            f'onclick="document.getElementById(\'{audio_id}\').play()">🔊</button>'
+        )
+        return html
+    except Exception:
+        return ""
+
+
 def render_confetti():
     colors = ["#FF6B6B","#FF9A3C","#FFD93D","#6BCB77","#4D96FF","#a855f7","#FF69B4","#00ffcc"]
     pieces = ""
@@ -1867,8 +1935,15 @@ def render_screen_quiz():
         )
 
     # Question box
+    tts_lang = "en" if subj == "eng" else "vi"
+    audio_html = get_audio_html(q["q"], lang=tts_lang)
     st.markdown(
-        f'<div class="{sub["q_box_class"]}"><p class="q-text">{q["q"]}</p></div>',
+        f'<div class="{sub["q_box_class"]}">'
+        f'<div class="q-text-wrap">'
+        f'<p class="q-text">{q["q"]}</p>'
+        f'{audio_html}'
+        f'</div>'
+        f'</div>',
         unsafe_allow_html=True,
     )
 
