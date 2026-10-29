@@ -1,34 +1,40 @@
-# KIỂM KÊ DỮ LIỆU WEBSITE TỰ HỌC LỚP 3
+# Kiểm kê dữ liệu và trạng thái website tự học lớp 3
 
-Ngày kiểm tra: 29/10/2026  
-Repository: `tranphuc2026abc-prog/TOAN_TV_LOP-2`  
-Nguồn dữ liệu: các tệp đang nằm ở thư mục gốc của nhánh `main`.
+## Trạng thái hiện tại
+Website thử nghiệm đang phát triển trên nhánh `build-lop-3`. Nhánh `main` vẫn được giữ nguyên cho dự án lớp 2.
 
-## 1. Các tệp đã tìm thấy
-- `BAN_DO_LIEN_KET_KIEN_THUC.json`
-- `BAO_CAO_PHAN_TICH_3_SGK.md`
-- `KE_HOACH_SO_HOA_WEBSITE.md`
-- `KHO_KIEN_THUC_TOAN_3.md`
-- `KHO_KIEN_THUC_TIEN_VIET_3.md`
-- `KHO_KIEN_THUC_TIEN_ANH_3.md`
-- `MUC_LUC_TOAN_3.csv`
-- `MUC_LUC_TIEN_VIET_3.csv`
-- `MUC_LUC_TIEN_ANH_3.csv`
-- `NGAN_HANG_BAI_TAP_3_MON.md`
+## Dữ liệu nguồn đã sao chép sang nhánh phát triển
+Các tệp bàn giao được giữ nguyên trong thư mục `data/` để tiện kiểm tra và tiếp tục xử lý:
+- Báo cáo phân tích 3 SGK.
+- Kế hoạch số hóa website.
+- Kho kiến thức của Toán 3, Tiếng Việt 3, Tiếng Anh 3.
+- Mục lục CSV của cả ba môn.
+- Bản đồ liên kết kiến thức JSON.
+- Ngân hàng dạng bài tập tham khảo.
+Xem [README dữ liệu](data/README.md).
 
-## 2. Phạm vi dữ liệu thực tế trong các tệp đã đọc
-- Mục lục Toán 3 Tập 1: 6 bài (Bài 1–6).
-- Mục lục Tiếng Việt 3 Tập 1: 6 bài (Bài 1–6).
-- Mục lục Tiếng Anh 3 Tập 1: Starter và Unit 1–4.
-- Kho kiến thức dạng Markdown chỉ mô tả một phần nội dung đầu sách; ngân hàng bài tập hiện mô tả các dạng bài tổng quát, chưa phải bộ câu hỏi đầy đủ được gắn cho tất cả bài học.
-- Bản đồ liên kết kiến thức hiện có một số quan hệ minh họa, chưa bao phủ toàn bộ chương trình.
+## Phạm vi thực tế đang có trong website
+| Môn học | Dữ liệu trong giao diện | Phạm vi toàn chương trình cần hướng tới |
+|---|---:|---:|
+| Toán 3 Kết nối tri thức | 6 bài | 81 bài |
+| Tiếng Việt 3 Kết nối tri thức | 6 bài | 56 bài |
+| Tiếng Anh 3 Global Success | Starter + Unit 1–4 | 20 units |
+| **Tổng** | **17 mục học tập** | Chưa đủ |
 
-## 3. Kết luận
-Các tệp đã được tìm thấy ở thư mục gốc repository, không nằm trong thư mục `du-lieu-lop-3`. Chúng hữu ích để xây dựng và kiểm thử mẫu website, nhưng **chưa đủ để khẳng định website đã có toàn bộ chương trình** gồm Toán 3 (81 bài), Tiếng Việt 3 (56 bài) và Tiếng Anh 3 Global Success (20 Unit).
+Các kho kiến thức và mục lục nguồn cũng chưa đầy đủ cho toàn bộ năm học. Một số câu hỏi được soạn để tạo bản dùng thử; cần giáo viên rà soát nội dung và đáp án trước khi dùng chính thức. Không được suy diễn rằng nhãn trạng thái trong CSV có nghĩa toàn bộ SGK đã được kiểm chứng độc lập.
 
-Không tự tạo dữ liệu giả để lấp phần còn thiếu. Website cần đánh dấu rõ bài nào đã có dữ liệu, bài nào mới có mục lục và bài nào cần bổ sung/giáo viên duyệt. Chỉ công bố là hoàn chỉnh sau khi kiểm kê đủ dữ liệu hai tập của cả ba môn, rà soát nội dung/đáp án và kiểm thử chức năng.
+## Các thay đổi đã thực hiện
+- Giữ giao diện học tập và các bài học hiện có, bổ sung cảnh báo rõ ràng rằng đây là bản dùng thử.
+- Ghi rõ số bài hiện có và liên kết tới báo cáo kiểm kê.
+- Bổ sung chức năng sao lưu tiến độ học sinh thành tệp JSON và khôi phục từ tệp đó.
+- Cập nhật README và sao chép tài liệu nguồn sang nhánh phát triển.
+- Thêm GitHub Actions workflow để kiểm tra cú pháp JavaScript và một số điều kiện cơ bản khi workflow được chạy.
 
-## 4. Trạng thái triển khai
-- Bản website lớp 3 tiếp tục phát triển trên nhánh `build-lop-3`.
-- Không ghi đè website lớp 2 trên nhánh `main`.
-- Tiến độ học hiện lưu bằng `localStorage` trên trình duyệt/thiết bị; chưa có đồng bộ đám mây.
+## Giới hạn còn lại
+1. Chưa có dữ liệu đầy đủ cho 81 bài Toán, 56 bài Tiếng Việt và 20 units Tiếng Anh.
+2. Cần kiểm chứng từng bài với SGK gốc; đặc biệt các câu hỏi, đáp án, trang sách, chính tả và ngữ cảnh đọc hiểu.
+3. Tiến độ hiện lưu bằng `localStorage` trên trình duyệt/thiết bị hiện tại; chưa có đồng bộ đám mây. Đã có chức năng sao lưu/khôi phục thủ công.
+4. Chưa xác nhận GitHub Pages đã được cấu hình để xuất bản nhánh `build-lop-3`.
+
+## Nguyên tắc hoàn thiện
+Không tự bịa nội dung để lấp các bài còn thiếu. Bài nào chưa có nguồn đủ tin cậy phải được đánh dấu thiếu dữ liệu, hoặc chờ bổ sung nguồn SGK, rồi mới đưa vào bản phát hành chính thức.
