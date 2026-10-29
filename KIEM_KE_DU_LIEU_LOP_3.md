@@ -1,40 +1,48 @@
 # Kiểm kê dữ liệu và trạng thái website tự học lớp 3
 
 ## Trạng thái hiện tại
-Website thử nghiệm đang phát triển trên nhánh `build-lop-3`. Nhánh `main` vẫn được giữ nguyên cho dự án lớp 2.
+Website lớp 3 được xuất bản từ nhánh main. Bản lớp 2 cũ được lưu tại archive/index-lop2-backup.html.
 
-## Dữ liệu nguồn đã sao chép sang nhánh phát triển
-Các tệp bàn giao được giữ nguyên trong thư mục `data/` để tiện kiểm tra và tiếp tục xử lý:
-- Báo cáo phân tích 3 SGK.
-- Kế hoạch số hóa website.
-- Kho kiến thức của Toán 3, Tiếng Việt 3, Tiếng Anh 3.
-- Mục lục CSV của cả ba môn.
-- Bản đồ liên kết kiến thức JSON.
-- Ngân hàng dạng bài tập tham khảo.
-Xem [README dữ liệu](data/README.md).
+## Nguồn và kết quả OCR
+Thư mục PDF_KNOWLEDGE có 6 sách nguồn:
+- Toán 3 Kết nối tri thức, Tập 1 và Tập 2.
+- Tiếng Việt 3 Kết nối tri thức, Tập 1 và Tập 2.
+- Tiếng Anh 3 Global Success, Tập 1 và Tập 2.
 
-## Phạm vi thực tế đang có trong website
-| Môn học | Dữ liệu trong giao diện | Phạm vi toàn chương trình cần hướng tới |
-|---|---:|---:|
-| Toán 3 Kết nối tri thức | 6 bài | 81 bài |
-| Tiếng Việt 3 Kết nối tri thức | 6 bài | 56 bài |
-| Tiếng Anh 3 Global Success | Starter + Unit 1–4 | 20 units |
-| **Tổng** | **17 mục học tập** | Chưa đủ |
+Các PDF là ảnh quét nên đã chạy OCR tiếng Việt/tiếng Anh trên tổng cộng **716 trang PDF**. Kết quả OCR có văn bản cho cả 716 trang; nội dung toàn văn OCR chỉ được giữ trong artifact xử lý tạm, không được sao chép nguyên văn vào website công khai.
 
-Các kho kiến thức và mục lục nguồn cũng chưa đầy đủ cho toàn bộ năm học. Một số câu hỏi được soạn để tạo bản dùng thử; cần giáo viên rà soát nội dung và đáp án trước khi dùng chính thức. Không được suy diễn rằng nhãn trạng thái trong CSV có nghĩa toàn bộ SGK đã được kiểm chứng độc lập.
+## Phạm vi danh mục đã đối chiếu từ mục lục và trang nguồn
+| Môn học | Số mục | Phạm vi |
+|---|---:|---|
+| Toán 3 Kết nối tri thức | 81 bài | Bài 1–81, Tập 1–2 |
+| Tiếng Việt 3 Kết nối tri thức | 62 bài đọc | 32 bài Tập 1 và 30 bài Tập 2 |
+| Tiếng Anh 3 Global Success | 20 Unit | Unit 1–20 |
+| Tiếng Anh: phần bổ sung | 6 mục | Starter và Review 1–4; mục lục có thêm tài nguyên Wordlist nhưng không tính là bài học |
+| **Tổng danh mục** | **168 mục** | Bao gồm bài học, Starter và các bài ôn tập |
+
+Lưu ý: ước tính trước đây là 56 bài Tiếng Việt chưa chính xác. Đối chiếu OCR từ mục lục hai tập cho thấy có 32 + 30 = **62 bài đọc**.
+
+Danh mục có ID, tên bài, tập sách và trang nguồn nằm tại:
+- data/CHUONG_TRINH_LOP_3_FULL.json
+
+## Trạng thái nội dung trong website
+- Website giữ nguyên 17 bài mẫu đã có.
+- Các mục còn lại được tải từ danh mục OCR để đủ phạm vi bài học; giao diện tạo bản nháp tóm tắt và câu hỏi luyện tập gợi ý theo môn học/chủ điểm.
+- **Đây chưa phải bản số hóa hoàn chỉnh và được kiểm chứng độc lập cho từng bài.** Các câu hỏi đọc hiểu Tiếng Việt còn mang tính luyện kĩ năng chung; nội dung, đáp án, độ khó và trang nguồn cần giáo viên rà soát trước khi dùng chính thức.
+- Website không đăng lại nguyên văn toàn bộ SGK; nội dung học nên là tóm tắt, giải thích và bài tập mới dựa trên kiến thức nguồn.
 
 ## Các thay đổi đã thực hiện
-- Giữ giao diện học tập và các bài học hiện có, bổ sung cảnh báo rõ ràng rằng đây là bản dùng thử.
-- Ghi rõ số bài hiện có và liên kết tới báo cáo kiểm kê.
-- Bổ sung chức năng sao lưu tiến độ học sinh thành tệp JSON và khôi phục từ tệp đó.
-- Cập nhật README và sao chép tài liệu nguồn sang nhánh phát triển.
-- Thêm GitHub Actions workflow để kiểm tra cú pháp JavaScript và một số điều kiện cơ bản khi workflow được chạy.
+- Thêm quy trình OCR cho sáu PDF dạng ảnh quét.
+- Tạo danh mục 168 mục với ID, tên bài, tập và khoảng trang nguồn.
+- Cập nhật website để tải danh mục đầy đủ, tạo phần học tập nháp cho các mục còn thiếu và cập nhật số lượng theo môn.
+- Cập nhật README và cảnh báo rõ về trạng thái bản nháp.
+- Giữ chức năng hồ sơ học sinh, lưu tiến độ cục bộ, sao lưu JSON và khôi phục JSON.
 
-## Giới hạn còn lại
-1. Chưa có dữ liệu đầy đủ cho 81 bài Toán, 56 bài Tiếng Việt và 20 units Tiếng Anh.
-2. Cần kiểm chứng từng bài với SGK gốc; đặc biệt các câu hỏi, đáp án, trang sách, chính tả và ngữ cảnh đọc hiểu.
-3. Tiến độ hiện lưu bằng `localStorage` trên trình duyệt/thiết bị hiện tại; chưa có đồng bộ đám mây. Đã có chức năng sao lưu/khôi phục thủ công.
-4. Chưa xác nhận GitHub Pages đã được cấu hình để xuất bản nhánh `build-lop-3`.
+## Việc còn cần hoàn thiện
+1. Rà soát từng bài với trang nguồn OCR; sửa lỗi nhận dạng chữ, nhất là tiêu đề hoặc số trang bị OCR nhầm.
+2. Thay các câu hỏi đọc hiểu chung bằng câu hỏi cụ thể đã đối chiếu với nội dung bài; kiểm tra mọi đáp án.
+3. Hoàn thiện phần giảng giải, ví dụ và bài tập theo từng bài; không coi danh mục đủ tên là đồng nghĩa nội dung từng bài đã hoàn chỉnh.
+4. Kiểm tra trên website sau khi GitHub Pages hoàn tất triển khai và thử luồng chọn môn, mở bài, làm câu hỏi, lưu/khôi phục tiến độ.
 
 ## Nguyên tắc hoàn thiện
-Không tự bịa nội dung để lấp các bài còn thiếu. Bài nào chưa có nguồn đủ tin cậy phải được đánh dấu thiếu dữ liệu, hoặc chờ bổ sung nguồn SGK, rồi mới đưa vào bản phát hành chính thức.
+Không tự bịa nội dung để lấp chỗ trống. Khi nguồn OCR chưa rõ hoặc đáp án chưa được xác minh, phải đánh dấu cần rà soát thay vì coi là nội dung chính thức.
