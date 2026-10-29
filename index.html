@@ -375,10 +375,44 @@ A.innerHTML='<div class="card hero-card"><h2>Xin chào '+esc(P.name)+'! Hôm nay
 function subj(){var d=S[v.s],q=v.q||"";A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><h2>'+d.e+' '+d.n+' – '+d.t+'</h2><input class="s" type="text" id="sq" placeholder="🔍 Tìm bài học" value="'+esc(q)+'" oninput="v.q=this.value;list()"><div id="ls"></div>';list()}
 function list(){var q=(v.q||"").toLowerCase(),d=S[v.s];document.getElementById("ls").innerHTML=ofS(v.s).filter(function(l){return l[2].toLowerCase().indexOf(q)>=0}).map(function(l){return'<div class="card lesson row" style="--c:'+d.c+';margin:10px 0" onclick="go({p:\'lesson\',id:\''+l[0]+'\'})"><div><b>'+esc(l[2])+'</b><br><small>'+esc(l[4])+' · trang '+l[3][0]+'–'+l[3][1]+'</small></div><div>'+(P.les[l[0]]?stars(P.les[l[0]]):'🆕 Chưa học')+'</div></div>'}).join("")||'<p>Chưa tìm thấy bài nào. Thử từ khoá khác nhé!</p>'}
 function lesson(){var l=byId(v.id),d=S[l[1]],bank=practiceBank(l);A.innerHTML='<button class="ghost" onclick="go({p:\'subj\',s:\''+l[1]+'\'})">← '+d.n+'</button><div class="card"><h2 style="color:'+d.c+'">'+esc(l[2])+'</h2><small>'+esc(l[4])+' · SGK trang '+l[3][0]+'–'+l[3][1]+'</small><h3>1. Khám phá</h3><ul class="k">'+l[5].map(function(k){return'<li>'+esc(k)+'</li>'}).join("")+'</ul><button class="ghost" onclick="say(byId(\''+l[0]+'\')[5].slice(0,2).join(\'. \'))">🔊 Đọc to (giọng máy)</button>'+(l[1]=="ta"?'<div class="note">Chưa có tệp âm thanh gốc; nút “Đọc to” dùng giọng đọc của máy (nếu máy có cài).</div>':'')+(l[6]?'':'<div class="note">Bài này chưa có kho kiến thức chi tiết trong dữ liệu bàn giao.</div>')+'<h3>2. Luyện tập & trò chơi</h3><div class="note">Mỗi lượt có '+bank.length+' nhiệm vụ, gồm trắc nghiệm, đúng/sai và điền khuyết. Câu hỏi được xáo trộn; nội dung tự động tạo từ dữ liệu bài học hiện có và cần được giáo viên rà soát, nhất là câu hỏi đọc hiểu.</div><div class="grid"><div class="card"><h3>🎯 Luyện tập tổng hợp</h3><p>12 nhiệm vụ phối hợp cả ba dạng.</p><button class="big" onclick="startQ(\''+l[0]+'\',\'all\')">Bắt đầu</button></div><div class="card"><h3>🔵 Trắc nghiệm lựa chọn</h3><p>Chọn đáp án đúng trong các phương án.</p><button onclick="startQ(\''+l[0]+'\',\'mcq\')">Luyện 4 câu</button></div><div class="card"><h3>🟢 Đúng hay sai?</h3><p>Đọc nhận định và xác định đúng hoặc sai.</p><button onclick="startQ(\''+l[0]+'\',\'tf\')">Luyện 4 câu</button></div><div class="card"><h3>✍️ Điền khuyết</h3><p>Tự nhập đáp án, không có gợi ý lựa chọn.</p><button onclick="startQ(\''+l[0]+'\',\'fill\')">Luyện 4 câu</button></div><div class="card"><h3>🏆 Vượt ải bài học</h3><p>Hoàn thành trọn bộ câu hỏi để tích lũy sao và XP.</p><button class="big" onclick="startQ(\''+l[0]+'\',\'all\')">Chinh phục bài học</button></div></div></div>'}
+function englishPracticeBank(l){
+ var e=ENGLISH_DATA[l[0]],raw=e&&e.v?e.v.split(/[;,]/):[],words=raw.map(function(w){return w.trim()}).filter(function(w){return w.length>1&&!/^(numbers|alphabet|and|the)\b/i.test(w)&&!/^review of/i.test(w)});
+ if(!words.length){
+  var fallback={
+   "TA3_T1_U01":["hello","hi","goodbye","bye","good morning"],
+   "TA3_T1_U02":["name","my","your","what","I'm"],
+   "TA3_T1_U03":["friend","this","is","he","she"],
+   "TA3_T1_U04":["head","eyes","ears","nose","mouth","hands","legs"]
+  };
+  words=fallback[l[0]]||[];
+ }
+ if(!words.length)return (l[9]||[]).map(function(q){return {type:Array.isArray(q[2])?"mcq":"fill",prompt:String(q[0]),answer:String(q[1]),wrong:Array.isArray(q[2])?q[2].map(String):[],id:l[0]}});
+ var allWords=[];
+ Object.keys(ENGLISH_DATA).forEach(function(k){(ENGLISH_DATA[k].v||"").split(/[;,]/).forEach(function(w){w=w.trim();if(w.length>1&&!/^(numbers|alphabet|and|the)\b/i.test(w)&&!/^review of/i.test(w)&&allWords.indexOf(w)<0)allWords.push(w)})});
+ var other=allWords.filter(function(w){return words.indexOf(w)<0}),bank=[],picked=words.slice(0,Math.min(6,words.length));
+ function wrongFor(answer,n){
+  var candidates=shuf(other.filter(function(w){return w.toLowerCase()!==String(answer).toLowerCase()})),out=[];
+  while(out.length<n&&candidates.length)out.push(candidates.pop());
+  while(out.length<n)out.push("book");
+  return out;
+ }
+ var mcPrompts=["Choose the word from this unit's vocabulary.","Which word should you learn in this lesson?","Find the matching English word from this unit.","Choose a vocabulary item you can practise in this Unit.","Which word belongs to today's topic?"];
+ picked.slice(0,5).forEach(function(w,i){bank.push({type:"mcq",prompt:mcPrompts[i],answer:w,wrong:wrongFor(w,3),id:l[0]})});
+ picked.slice(0,3).forEach(function(w){bank.push({type:"tf",prompt:"The word/phrase “"+w+"” is in this Unit's vocabulary list.",answer:true,id:l[0]})});
+ wrongFor("",2).forEach(function(w){bank.push({type:"tf",prompt:"The word/phrase “"+w+"” is in this Unit's vocabulary list.",answer:false,id:l[0]})});
+ picked.slice(0,5).forEach(function(w){
+  var masked=w.replace(/[aeiou]/gi,"_");
+  if(masked===w)masked=w.replace(/[a-z]/i,"_");
+  bank.push({type:"fill",prompt:"Complete the English word/phrase: "+masked,answer:w,id:l[0]});
+ });
+ (e&&e.q||[]).slice(0,2).forEach(function(q){bank.push({type:"mcq",prompt:String(q[0]),answer:String(q[1]),wrong:(q[2]||[]).map(String),id:l[0]})});
+ return shuf(bank);
+}
 function practiceBank(l){
+ if(l[1]==="ta")return englishPracticeBank(l);
  var seed=(l[9]||[]).filter(function(q){return q&&q.length>=2;});
  if(!seed.length)seed=autoQuestions({id:l[0],title:l[2],subject:l[1]});
- var bank=[],i,q,a,w,opts;
+ var bank=[],i,q,a,w;
  for(i=0;i<4;i++){q=seed[i%seed.length];a=q[1];w=Array.isArray(q[2])?q[2].slice():[];
   if(w.length<2){if(typeof a==="number"||!isNaN(Number(a))&&String(a).trim()!==""){var n=Number(a);[n+1,n-1,n+10].forEach(function(x){if(w.length<3&&String(x)!==String(a)&&w.indexOf(x)<0)w.push(x);});}else{["Chưa đúng","Thử lại nhé","Đáp án khác"].forEach(function(x){if(w.length<3&&x!==String(a))w.push(x);});}}
   bank.push({type:"mcq",prompt:String(q[0]),answer:String(a),wrong:w.map(String),id:l[0]});
