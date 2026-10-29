@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Check out class 3 website
         uses: actions/checkout@v4
+      - name: Validate curriculum data and JavaScript
+        run: python scripts/validate_site.py
       - name: Enable and configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
