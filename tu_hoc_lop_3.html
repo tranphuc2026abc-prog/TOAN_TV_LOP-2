@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tự học lớp 3 – Hành trình tri thức</title>
+<style>
+:root{--bg:#fff8e7;--ink:#2b2d42;--toan:#3a86ff;--tv:#2fbf71;--ta:#ff7b00}
+*{box-sizing:border-box}body{margin:0;font:18px/1.5 "Segoe UI",Tahoma,sans-serif;background:var(--bg);color:var(--ink)}
+header{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:10px 16px;background:#ffd166;flex-wrap:wrap}
+header b{font-size:22px;cursor:pointer}.pill{background:#fff;border-radius:20px;padding:4px 14px;font-weight:700}
+main{max-width:960px;margin:0 auto;padding:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:#fff;border-radius:20px;padding:18px;box-shadow:0 4px 0 rgba(0,0,0,.08)}
+.sub{color:#fff;cursor:pointer;text-align:center;transition:transform .15s}.sub:hover{transform:translateY(-4px)}
+.sub .em{font-size:56px}.sub h2{margin:4px 0}
+button{font:inherit;font-weight:700;border:0;border-radius:14px;padding:12px 20px;margin:4px;cursor:pointer;background:#ffd166;color:var(--ink);box-shadow:0 3px 0 rgba(0,0,0,.15)}
+button:active{transform:translateY(2px)}button.big{font-size:20px;padding:14px 28px}button.ghost{background:#eee}
+.opt{display:block;width:100%;text-align:left;background:#f1f5ff}.opt.ok{background:#b7f5c8}.opt.no{background:#ffd6d6}
+input[type=text],input[type=number],input.s{font:inherit;padding:10px;border-radius:12px;border:2px solid #ccc;width:100%;max-width:260px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.lesson{cursor:pointer;border-left:10px solid var(--c)}.bar{height:14px;background:#eee;border-radius:7px;overflow:hidden}.bar i{display:block;height:100%;background:#2fbf71}
+.note{background:#fff3cd;border-radius:12px;padding:8px 12px;font-size:15px;margin:8px 0}
+.fb{font-weight:700;margin:10px 0;min-height:28px}.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#2b2d42;color:#fff;padding:12px 22px;border-radius:20px;z-index:9}
+ul.k li{margin:8px 0}.big-star{font-size:48px}
+</style></head><body>
+<header><b onclick="go({p:'home'})">🌟 Hành trình tri thức – Lớp 3</b><div id="hd"></div></header>
+<main id="app"></main>
+<script>
+var S={toan:{n:"Toán 3",t:"Vương quốc Toán học",e:"🧮",c:"#3a86ff",m:"🦊 Cáo Tính Toán"},
+tv:{n:"Tiếng Việt 3",t:"Khu vườn Ngôn từ",e:"🌳",c:"#2fbf71",m:"🐼 Gấu Trúc Chữ Nghĩa"},
+ta:{n:"Tiếng Anh 3",t:"English Adventure",e:"🚀",c:"#ff7b00",m:"🦜 Vẹt Hello"}};
+/* [mã, môn, tên, [trang đầu, trang cuối], chủ đề, ý chính, 1=có kho kiến thức/0=chỉ có mục lục, bài tiên quyết, bài liên quan, câu hỏi]
+   Câu hỏi: [đề, đáp án số] hoặc [đề, đáp án đúng, [đáp án sai...]] – toàn bộ do AI soạn, CHỜ GIÁO VIÊN DUYỆT */
+var L=[
+["TOAN3_T1_B01","toan","Ôn tập các số đến 1000",[6,8],"Chủ đề 1: Ôn tập và bổ sung",["Số có 3 chữ số gồm hàng trăm, hàng chục, hàng đơn vị.","Biểu diễn số thành tổng: 385 = 300 + 80 + 5.","Số liền trước kém 1 đơn vị, số liền sau hơn 1 đơn vị."],1,null,"TOAN3_T1_B02",[["Số 385 có chữ số hàng chục là mấy?",8],["300 + 70 + 6 = ?",376],["Số liền trước của 500 là?",499]]],
+["TOAN3_T1_B02","toan","Ôn tập phép cộng, phép trừ trong phạm vi 1000",[9,10],"Chủ đề 1: Ôn tập và bổ sung",["Đặt tính thẳng cột: đơn vị thẳng đơn vị, chục thẳng chục.","Cộng, trừ có nhớ và không nhớ."],1,"TOAN3_T1_B01","TOAN3_T1_B03",[["456 + 123 = ?",579],["700 − 258 = ?",442],["Lan có 235 viên bi, được cho thêm 142 viên. Lan có tất cả bao nhiêu viên?",377]]],
+["TOAN3_T1_B03","toan","Tìm thành phần trong phép cộng, phép trừ",[11,13],"Chủ đề 1: Ôn tập và bổ sung",["Muốn tìm một số hạng, ta lấy tổng trừ đi số hạng kia.","Muốn tìm số bị trừ, ta lấy hiệu cộng với số trừ.","Muốn tìm số trừ, ta lấy số bị trừ trừ đi hiệu."],1,"TOAN3_T1_B02",null,[["x + 25 = 60. Tìm x.",35],["x − 12 = 30. Tìm x.",42],["80 − x = 45. Tìm x.",35]]],
+["TOAN3_T1_B04","toan","Ôn tập bảng nhân 2; 5, bảng chia 2; 5",[14,15],"Chủ đề 1: Ôn tập và bổ sung",["Củng cố bảng nhân, chia 2 và 5.","Phương pháp cộng dồn để tìm kết quả phép nhân: 5 × 3 = 5 + 5 + 5."],1,null,"TOAN3_T1_B05",[["2 × 6 = ?",12],["35 : 5 = ?",7],["5 × 4 = ?",20]]],
+["TOAN3_T1_B05","toan","Bảng nhân 3, bảng chia 3",[16,18],"Chủ đề 1: Ôn tập và bổ sung",["Củng cố bảng nhân, chia 3.","Cộng dồn: 3 × 4 = 3 + 3 + 3 + 3."],1,"TOAN3_T1_B04","TOAN3_T1_B06",[["3 × 7 = ?",21],["27 : 3 = ?",9],["3 × 5 = ?",15]]],
+["TOAN3_T1_B06","toan","Bảng nhân 4, bảng chia 4",[19,20],"Chủ đề 1: Ôn tập và bổ sung",["Củng cố bảng nhân, chia 4.","Cộng dồn: 4 × 3 = 4 + 4 + 4."],1,"TOAN3_T1_B05",null,[["4 × 8 = ?",32],["36 : 4 = ?",9],["4 × 5 = ?",20]]],
+["TV3_T1_B01","tv","Ngày gặp lại",[10,12],"Chủ điểm 1: Những trải nghiệm thú vị",["Đọc hiểu: Chi và Sơn vui mừng khi gặp lại nhau sau kì nghỉ hè dài.","Chính tả: phân biệt âm đầu c/k trong từ chỉ sự vật.","(Mở rộng) c đứng trước a, o, ô, ơ, u, ư; k đứng trước e, ê, i."],1,null,"TV3_T1_B02",[["Chi và Sơn gặp lại nhau sau thời gian nào?","kì nghỉ hè",["kì nghỉ Tết","giờ ra chơi"]],["Điền c hay k: …on mèo","c",["k"]],["Điền c hay k: …ính chào","k",["c"]]]],
+["TV3_T1_B02","tv","Về thăm quê",[13,16],"Chủ điểm 1: Những trải nghiệm thú vị",["Đọc hiểu: tình cảm yêu thương, quý trọng của bạn nhỏ đối với bà ở quê.","Ngữ pháp: câu giới thiệu và câu nêu hoạt động.","Làm văn: viết tin nhắn."],1,"TV3_T1_B01",null,[["Bạn nhỏ có tình cảm thế nào với bà?","yêu thương, quý trọng",["sợ hãi","chán nản"]],["Từ nào chỉ hoạt động?","thăm",["bà","quê"]],["Từ nào chỉ sự vật?","quê",["thăm","về"]]]],
+["TV3_T1_B03","tv","Cánh rừng trong nắng",[17,20],"Chủ điểm 1: Những trải nghiệm thú vị",["Đọc hiểu: vẻ đẹp sinh động, tràn đầy sức sống của cánh rừng Trường Sơn trong nắng.","Chính tả: phân biệt g/gh.","(Mở rộng) gh đứng trước e, ê, i; g đứng trước các âm còn lại."],1,null,"TV3_T1_B04",[["Điền g hay gh: …ế gỗ","gh",["g"]],["Điền g hay gh: …à trống","g",["gh"]],["Cánh rừng Trường Sơn trong nắng như thế nào?","sinh động, tràn đầy sức sống",["buồn và vắng lặng","tối tăm"]]]],
+["TV3_T1_B04","tv","Lần đầu ra biển",[21,25],"Chủ điểm 1: Những trải nghiệm thú vị",["Đọc hiểu: cảm xúc bỡ ngỡ, thích thú của cậu bé Thắng khi lần đầu thấy biển.","Từ chỉ đặc điểm có 3 nhóm: màu sắc, âm thanh, hương vị.","Viết đoạn văn 3 bước: Giới thiệu – Diễn biến – Cảm nghĩ."],1,"TV3_T1_B03",null,[["Từ nào chỉ màu sắc?","xanh biếc",["ì ầm","thơm ngát"]],["Từ nào chỉ âm thanh?","rì rào",["vàng óng","mặn chát"]],["Từ nào chỉ hương vị?","thơm ngát",["xanh biếc","ì ầm"]]]],
+["TV3_T1_B05","tv","Nhật kí tập bơi",[26,29],"Chủ điểm 1: Những trải nghiệm thú vị",["Đọc hiểu; kể về một buổi tập luyện.","Chính tả: phân biệt ng/ngh.","(Chưa có kho kiến thức riêng cho bài này – chỉ dùng mục lục.)"],0,null,"TV3_T1_B06",[["Điền ng hay ngh: …ỉ ngơi","ngh",["ng"]],["Điền ng hay ngh: …ôi nhà","ng",["ngh"]]]],
+["TV3_T1_B06","tv","Tập nấu ăn",[30,33],"Chủ điểm 1: Những trải nghiệm thú vị",["Đọc hiểu; ôn chữ hoa B, C; viết đoạn văn nấu ăn.","Từ chỉ hoạt động (nấu ăn, di chuyển).","(Chưa có kho kiến thức riêng cho bài này – chỉ dùng mục lục.)"],0,"TV3_T1_B05",null,[["Từ nào chỉ hoạt động nấu ăn?","rán",["xanh","bàn"]],["Từ nào chỉ hoạt động di chuyển?","chạy",["đỏ","nhà"]]]],
+["TA3_T1_START","ta","Starter",[7,9],"Starter",["Numbers 1–10: one, two, three, four, five, six, seven, eight, nine, ten.","Alphabet A–Z.","(Chưa có danh sách từ vựng chi tiết – chỉ dùng mục lục.)"],1,null,"TA3_T1_U01",[["“five” là số mấy?","5",["4","6"]],["Chữ cái nào đứng sau chữ B?","C",["A","D"]]]],
+["TA3_T1_U01","ta","Unit 1: Hello",[10,15],"Unit 1",["Từ vựng: hello, hi, I, bye, goodbye, fine, thank you, how, you.","Mẫu câu: Hello. / Hi. I’m + tên. How are you? → Fine, thank you.","Phát âm: /h/ (hello) và /b/ (bye)."],1,"TA3_T1_START","TA3_T1_U02",[["How are you? → Chọn câu trả lời đúng.","Fine, thank you.",["My name’s Nam.","Goodbye."]],["Từ nào nghĩa là “tạm biệt”?","bye",["hi","hello"]]]],
+["TA3_T1_U02","ta","Unit 2: Our names",[16,21],"Unit 2",["Từ vựng: how, my, name, old, what, your.","Mẫu câu: What’s your name? → My name’s + tên.","How old are you? → I’m + số tuổi + years old.","Phát âm: /m/ (Mary) và /n/ (Nam)."],1,"TA3_T1_U01","TA3_T1_U03",[["What’s your name? → Chọn câu trả lời đúng.","My name’s Mai.",["I’m nine years old.","Fine, thank you."]],["How old are you? → Chọn câu trả lời đúng.","I’m eight years old.",["My name’s Nam.","Yes, it is."]]]],
+["TA3_T1_U03","ta","Unit 3: Our friends",[22,27],"Unit 3",["Từ vựng: friend, it, Mr, Ms, no, teacher, that, this, yes.","Mẫu câu: This is + tên. That’s + tên. Is this/that + tên? → Yes, it is. / No, it isn’t.","Phát âm: /ð/ (that) và /θ/ (thank)."],1,"TA3_T1_U02","TA3_T1_U04",[["Is this Nam? → Chọn câu trả lời đúng.","Yes, it is.",["I’m fine.","My name’s Nam."]],["“teacher” nghĩa là gì?","giáo viên",["bạn bè","tên"]]]],
+["TA3_T1_U04","ta","Unit 4: Our bodies",[28,33],"Unit 4",["Từ vựng: ear, eye, face, hair, hand, mouth, nose, open, touch.","Mẫu câu: What’s this? / Touch your…! / Open your…!","(Chưa có kho kiến thức riêng cho bài này – chỉ dùng mục lục.)"],0,"TA3_T1_U03",null,[["Touch your … (chạm vào mũi của em)","nose",["ear","hand"]],["“ear” nghĩa là gì?","tai",["mắt","miệng"]]]]
+];
+var BADGES=[["first","🥇 Bước chân đầu tiên"],["star3","🌟 Ngôi sao nhí (đạt 3 sao)"],["xp100","🧭 Nhà thám hiểm (100 XP)"],["toan","🦊 Chủ nhân Vương quốc Toán"],["tv","🐼 Chủ nhân Khu vườn Ngôn từ"],["ta","🦜 Nhà thám hiểm English"]];
+var mem={},P=null,v={p:"home"},A=document.getElementById("app");
+function sg(k){try{return localStorage.getItem(k)}catch(e){return mem[k]||null}}
+function ss(k,x){try{localStorage.setItem(k,x)}catch(e){mem[k]=x}}
+function sd(k){try{localStorage.removeItem(k)}catch(e){delete mem[k]}}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function names(){try{return JSON.parse(sg("wl3:list")||"[]")}catch(e){return[]}}
+function load(n){var d=null;try{d=JSON.parse(sg("wl3:p:"+n))}catch(e){}P=d||{name:n,xp:0,les:{},bd:[]};if(names().indexOf(n)<0)ss("wl3:list",JSON.stringify(names().concat(n)));ss("wl3:cur",n);save()}
+function save(){ss("wl3:p:"+P.name,JSON.stringify(P))}
+function byId(i){return L.filter(function(l){return l[0]==i})[0]}
+function ofS(s){return L.filter(function(l){return l[1]==s})}
+function stars(n){return"⭐".repeat(n)+"☆".repeat(3-n)}
+function shuf(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
+function toast(t){var d=document.createElement("div");d.className="toast";d.textContent=t;document.body.appendChild(d);setTimeout(function(){d.remove()},3500)}
+function say(t){try{var u=new SpeechSynthesisUtterance(t.replace(/[→/]/g," "));u.lang=/[ăâêôơưđ]/i.test(t)?"vi-VN":"en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
+function award(){var n=[],t=Object.keys(P.les);function g(id,c){if(c&&P.bd.indexOf(id)<0){P.bd.push(id);n.push(BADGES.filter(function(b){return b[0]==id})[0][1])}}
+g("first",t.length>0);g("star3",t.some(function(k){return P.les[k]==3}));g("xp100",P.xp>=100);
+["toan","tv","ta"].forEach(function(s){g(s,ofS(s).every(function(l){return P.les[l[0]]}))});
+n.forEach(function(b){toast("Huy hiệu mới: "+b)});save()}
+function go(x){v=x;draw()}
+function draw(){window.scrollTo(0,0);var hd=document.getElementById("hd");
+if(!P){hd.innerHTML="";return start()}
+hd.innerHTML='<span class="pill">👤 '+esc(P.name)+'</span> <span class="pill">✨ '+P.xp+' XP</span> <span class="pill">⭐ '+Object.keys(P.les).reduce(function(a,k){return a+P.les[k]},0)+'</span>';
+({home:home,subj:subj,lesson:lesson,quiz:quiz,end:end,prof:prof})[v.p]()}
+function start(){var ns=names();A.innerHTML='<div class="card"><h2>Chào bạn nhỏ! 👋</h2><p>Bạn tên là gì nhỉ?</p>'+ns.map(function(n,i){return'<button class="big" onclick="load(names()['+i+']);go({p:\'home\'})">'+esc(n)+'</button>'}).join("")+'<p><input id="nm" class="s" type="text" maxlength="20" placeholder="Nhập tên mới"> <button onclick="var n=document.getElementById(\'nm\').value.trim();if(n){load(n);go({p:\'home\'})}">Bắt đầu</button></p></div>'}
+function pct(s){var l=ofS(s);return Math.round(100*l.filter(function(x){return P.les[x[0]]}).length/l.length)}
+function nextLesson(){for(var i=0;i<L.length;i++)if(!P.les[L[i][0]])return L[i];return null}
+function home(){var nx=nextLesson();
+A.innerHTML='<div class="card"><h2>Xin chào '+esc(P.name)+'! Hôm nay mình cùng khám phá nhé 🎈</h2>'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">▶ Tiếp tục học: '+esc(nx[2])+'</button>':'<p>🎉 Bạn đã hoàn thành mọi bài hiện có!</p>')+'<button class="big" onclick="chal()">⚡ Thử thách 5 câu</button></div><h2>Chọn vùng đất</h2><div class="grid">'+
+["toan","tv","ta"].map(function(s){var d=S[s];return'<div class="card sub" style="background:'+d.c+'" onclick="go({p:\'subj\',s:\''+s+'\'})"><div class="em">'+d.e+'</div><h2>'+d.n+'</h2><div>'+d.t+'</div><div>'+d.m+'</div><div class="bar" style="margin-top:10px"><i style="width:'+pct(s)+'%"></i></div><div>'+ofS(s).length+' bài · hoàn thành '+pct(s)+'%</div></div>'}).join("")+
+'</div><h2>Huy hiệu</h2><div class="card">'+BADGES.map(function(b){return'<div>'+(P.bd.indexOf(b[0])>=0?b[1]:'🔒 <span style="opacity:.5">'+b[1].replace(/^\S+ /,"")+'</span>')+'</div>'}).join("")+'</div><p><button class="ghost" onclick="go({p:\'prof\'})">⚙ Hồ sơ & tiến độ</button></p>'}
+function subj(){var d=S[v.s],q=v.q||"";A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><h2>'+d.e+' '+d.n+' – '+d.t+'</h2><input class="s" type="text" id="sq" placeholder="🔍 Tìm bài học" value="'+esc(q)+'" oninput="v.q=this.value;list()"><div id="ls"></div>';list()}
+function list(){var q=(v.q||"").toLowerCase(),d=S[v.s];document.getElementById("ls").innerHTML=ofS(v.s).filter(function(l){return l[2].toLowerCase().indexOf(q)>=0}).map(function(l){return'<div class="card lesson row" style="--c:'+d.c+';margin:10px 0" onclick="go({p:\'lesson\',id:\''+l[0]+'\'})"><div><b>'+esc(l[2])+'</b><br><small>'+esc(l[4])+' · trang '+l[3][0]+'–'+l[3][1]+'</small></div><div>'+(P.les[l[0]]?stars(P.les[l[0]]):'🆕 Chưa học')+'</div></div>'}).join("")||'<p>Chưa tìm thấy bài nào. Thử từ khoá khác nhé!</p>'}
+function lesson(){var l=byId(v.id),d=S[l[1]];A.innerHTML='<button class="ghost" onclick="go({p:\'subj\',s:\''+l[1]+'\'})">← '+d.n+'</button><div class="card"><h2 style="color:'+d.c+'">'+esc(l[2])+'</h2><small>'+esc(l[4])+' · SGK trang '+l[3][0]+'–'+l[3][1]+'</small><h3>1. Khám phá</h3><ul class="k">'+l[5].map(function(k){return'<li>'+esc(k)+'</li>'}).join("")+'</ul><button class="ghost" onclick="say(byId(\''+l[0]+'\')[5].slice(0,2).join(\'. \'))">🔊 Đọc to (giọng máy)</button>'+(l[1]=="ta"?'<div class="note">Chưa có tệp âm thanh gốc; nút “Đọc to” dùng giọng đọc của máy (nếu máy có cài).</div>':'')+(l[6]?'':'<div class="note">Bài này chưa có kho kiến thức chi tiết trong dữ liệu bàn giao.</div>')+'<h3>2. Luyện tập</h3><div class="note">Câu hỏi do AI soạn theo nội dung bài, đang chờ thầy cô duyệt.</div><button class="big" onclick="startQ(\''+l[0]+'\')">✏ Làm '+l[9].length+' câu luyện tập</button></div>'}
+function startQ(id,qs){var l=id?byId(id):null;go({p:"quiz",id:id,qs:shuf(qs||l[9].map(function(q){return q.concat([id])})),i:0,ok:0,t:0,done:0,fb:"",pick:null})}
+function chal(){var all=[];L.forEach(function(l){l[9].forEach(function(q){all.push(q.concat([l[0]]))})});startQ(null,shuf(all).slice(0,5))}
+function quiz(){var q=v.qs[v.i],l=byId(q[q.length-1]);if(!v.opts)v.opts=Array.isArray(q[2])?shuf([q[1]].concat(q[2])):null;
+var h='<div class="card"><div class="row"><b>Câu '+(v.i+1)+'/'+v.qs.length+'</b><span>'+(v.id?esc(l[2]):'⚡ Thử thách')+'</span></div><div class="bar"><i style="width:'+(100*v.i/v.qs.length)+'%"></i></div><h2>'+esc(q[0])+'</h2>';
+if(v.opts)h+=v.opts.map(function(o,i){var c=v.done&&o==q[1]?" ok":(v.pick===i&&v.done!=1?"":"");if(v.pick===i&&o!=q[1])c=" no";return'<button class="opt'+c+'" '+(v.done?"disabled":"")+' onclick="ans('+i+')">'+esc(o)+'</button>'}).join("");
+else h+='<input type="number" id="an" inputmode="numeric" '+(v.done?"disabled":"")+' onkeydown="if(event.key==\'Enter\')ans()"> <button '+(v.done?"disabled":"")+' onclick="ans()">Kiểm tra</button>';
+h+='<div class="fb">'+v.fb+'</div>'+(v.done?'<button class="big" onclick="nextQ()">'+(v.i+1<v.qs.length?"Câu tiếp ➜":"Xem kết quả 🎉")+'</button>':'')+'</div>';A.innerHTML=h;var e=document.getElementById("an");if(e&&!v.done)e.focus()}
+function ans(i){var q=v.qs[v.i],l=byId(q[q.length-1]),ok;
+if(v.opts){ok=v.opts[i]==q[1];v.pick=i}else{var x=document.getElementById("an").value;if(x==="")return;ok=Number(x)===q[1]}
+if(ok){v.ok+=v.t==0?1:.5;v.done=1;v.fb="✅ Giỏi quá! Đúng rồi!"}
+else if(v.t==0){v.t=1;v.pick=null;v.fb="💡 Gần đúng rồi, thử lại nhé! Gợi ý – xem lại: "+esc(l[5][0])}
+else{v.done=2;v.fb="Không sao đâu! Đáp án là: "+esc(String(q[1]))+". Mình học tiếp nhé 💪"}
+draw()}
+function nextQ(){if(v.i+1<v.qs.length){v.i++;v.t=0;v.done=0;v.fb="";v.pick=null;v.opts=null;draw()}else{var r=v.ok/v.qs.length,s=r>=.9?3:r>=.6?2:1,xp=Math.round(10*v.ok);P.xp+=xp;if(v.id)P.les[v.id]=Math.max(P.les[v.id]||0,s);save();var id=v.id;go({p:"end",id:id,s:s,xp:xp,r:r});award()}}
+function end(){var l=v.id?byId(v.id):null,h='<div class="card" style="text-align:center"><div class="big-star">'+stars(v.s)+'</div><h2>'+(v.s==3?"Tuyệt vời!":v.s==2?"Rất tốt!":"Cố gắng tốt lắm!")+'</h2><p>Bạn nhận được <b>+'+v.xp+' XP</b>. Sai cũng là cách học – mình thử lại để lấy thêm sao nhé!</p>';
+if(l){if(v.s<3&&l[7])h+='<p>📚 Gợi ý ôn lại bài nền tảng:</p><button onclick="go({p:\'lesson\',id:\''+l[7]+'\'})">'+esc(byId(l[7])[2])+'</button>';
+if(l[8])h+='<p>➡ Bài liên quan:</p><button onclick="go({p:\'lesson\',id:\''+l[8]+'\'})">'+esc(byId(l[8])[2])+'</button>';
+h+='<p><button class="ghost" onclick="startQ(\''+l[0]+'\')">🔁 Làm lại</button> <button class="ghost" onclick="go({p:\'subj\',s:\''+l[1]+'\'})">Danh sách bài</button></p>'}
+h+='<button class="big" onclick="go({p:\'home\'})">🏠 Trang chủ</button></div>';A.innerHTML=h}
+function prof(){A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><div class="card"><h2>Hồ sơ: '+esc(P.name)+'</h2><p>Dữ liệu chỉ lưu trên máy tính này (trình duyệt hiện tại), không đồng bộ giữa các máy.</p><button class="ghost" onclick="P=null;draw()">Đổi học sinh</button><button class="ghost" onclick="if(confirm(\'Xoá toàn bộ tiến độ của '+esc(P.name).replace(/'/g,"")+'? Không thể khôi phục.\')){sd(\'wl3:p:\'+P.name);var n=P.name;P=null;load(n);go({p:\'home\'})}">🗑 Xoá tiến độ</button></div>'}
+(function(){var c=sg("wl3:cur");if(c)load(c);draw()})();
+</script></body></html>
