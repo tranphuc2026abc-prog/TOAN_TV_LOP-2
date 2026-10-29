@@ -20,6 +20,77 @@ input[type=text],input[type=number],input.s{font:inherit;padding:10px;border-rad
 .note{background:#fff3cd;border-radius:12px;padding:8px 12px;font-size:15px;margin:8px 0}
 .fb{font-weight:700;margin:10px 0;min-height:28px}.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#2b2d42;color:#fff;padding:12px 22px;border-radius:20px;z-index:9}
 ul.k li{margin:8px 0}.big-star{font-size:48px}
+
+/* ===== GIAO DIEN PHIEU LUU TRI THUC - LOP 3 ===== */
+:root{--bg:#f4f8ff;--ink:#26345b;--toan:#477cf4;--tv:#24ad83;--ta:#ff9c35;--purple:#8065df;--sun:#ffd45c}
+html{scroll-behavior:smooth}
+body{min-height:100vh;background:radial-gradient(circle at 8% 12%,#fff0c9 0,transparent 23%),radial-gradient(circle at 92% 18%,#e6e1ff 0,transparent 25%),linear-gradient(145deg,#f8fbff,#eef5ff 55%,#fff8ed);color:var(--ink);font-family:"Trebuchet MS","Segoe UI",Tahoma,sans-serif}
+header{position:sticky;top:0;z-index:20;padding:12px clamp(14px,4vw,34px);background:rgba(255,255,255,.88);backdrop-filter:blur(14px);border-bottom:1px solid #e6ecfa;box-shadow:0 5px 24px rgba(54,79,140,.08)}
+header b{font-size:clamp(18px,3vw,25px);font-weight:900;color:#4259ad;letter-spacing:-.4px}
+header b:before{content:"✦";display:inline-grid;place-items:center;width:38px;height:38px;margin-right:9px;border-radius:13px;background:linear-gradient(135deg,#ffcf57,#ff9c64);color:white;box-shadow:0 4px 0 #e99c42}
+#hd{display:flex;gap:7px;flex-wrap:wrap}
+.pill{background:#eef2ff;color:#4659a8;border:1px solid #dfe6ff;border-radius:999px;padding:6px 12px;font-size:14px}
+main{width:min(1100px,100%);padding:clamp(14px,3vw,30px);margin:auto}
+h2{font-size:clamp(22px,3.4vw,30px);line-height:1.2;color:#344779;margin:18px 0 12px}
+h3{font-size:20px;color:#43558c}
+p{line-height:1.65}
+.card{border:1px solid rgba(213,224,250,.9);border-radius:24px;padding:clamp(16px,2.6vw,25px);background:rgba(255,255,255,.94);box-shadow:0 8px 24px rgba(57,82,145,.08);transition:transform .2s,box-shadow .2s}
+.grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,245px),1fr));gap:18px}
+.sub{position:relative;isolation:isolate;overflow:hidden;min-height:220px;display:flex;flex-direction:column;align-items:center;justify-content:center;border:0;border-radius:28px;box-shadow:0 9px 0 rgba(34,52,98,.12),0 18px 30px rgba(54,73,130,.12);cursor:pointer}
+.sub:before,.sub:after{content:"";position:absolute;z-index:-1;border-radius:50%;background:rgba(255,255,255,.16)}
+.sub:before{width:170px;height:170px;right:-48px;top:-65px}
+.sub:after{width:100px;height:100px;left:-35px;bottom:-40px}
+.sub:hover{transform:translateY(-5px);box-shadow:0 13px 0 rgba(34,52,98,.10),0 22px 32px rgba(54,73,130,.16)}
+.sub .em{font-size:64px;filter:drop-shadow(0 5px 3px rgba(0,0,0,.12));line-height:1.25}
+.sub h2{color:#fff;margin:8px 0 2px;text-shadow:0 2px 5px rgba(0,0,0,.13)}
+.sub div{color:#fff;font-weight:700;text-shadow:0 1px 3px rgba(0,0,0,.12)}
+.bar{width:100%;max-width:240px;height:12px;background:rgba(255,255,255,.32);border-radius:20px;margin:12px auto 5px!important}
+.bar i{background:#fff;border-radius:20px;box-shadow:0 1px 5px rgba(0,0,0,.12)}
+button{border:0;border-radius:16px;padding:12px 19px;margin:5px 4px;background:linear-gradient(135deg,#ffda70,#ffc44d);color:#55401c;font-weight:900;box-shadow:0 4px 0 #e9ad3d,0 7px 13px rgba(70,76,120,.10);transition:transform .15s,filter .15s}
+button:hover{filter:brightness(1.04);transform:translateY(-2px)}
+button:active{transform:translateY(2px);box-shadow:0 1px 0 #e9ad3d}
+button.big{font-size:18px;padding:14px 22px;border-radius:18px}
+button.ghost{background:#edf1ff;color:#5364a7;box-shadow:0 3px 0 #d7def7}
+.opt{border:2px solid #e6ebfa;background:#f5f7ff;color:#33436f;border-radius:17px;padding:13px 16px;margin:7px 0}
+.opt.ok{background:#e3faed;border-color:#8ad8ad;color:#176c49}
+.opt.no{background:#fff0ef;border-color:#f2aaa4;color:#a33e3e}
+.lesson{border-left:0!important;border-radius:19px;display:flex;align-items:center;gap:12px;box-shadow:0 5px 17px rgba(57,82,145,.07);cursor:pointer}
+.lesson:before{content:"📘";font-size:28px;display:grid;place-items:center;min-width:48px;height:48px;background:#eff3ff;border-radius:15px}
+.lesson:hover{transform:translateY(-2px);box-shadow:0 9px 20px rgba(57,82,145,.12)}
+.note{background:#fff8df;border:1px solid #f5e6a9;border-radius:16px;padding:12px 15px;color:#705b27}
+input[type=text],input[type=number],input.s{max-width:100%;width:100%;padding:13px 16px;border:2px solid #dfe6fa;border-radius:16px;background:#fff;color:#33436f;outline:none}
+input:focus{border-color:#879af0;box-shadow:0 0 0 4px rgba(135,154,240,.14)}
+ul.k{padding-left:24px}
+ul.k li{padding:8px 0 8px 5px;line-height:1.65}
+.fb{padding:10px 14px;border-radius:14px;background:#f0f4ff}
+.big-star{filter:drop-shadow(0 3px 3px rgba(255,190,60,.2))}
+.toast{border-radius:18px;background:#344779;box-shadow:0 8px 25px rgba(30,43,82,.2)}
+a{color:#5268c6;font-weight:800}
+.card[style*="linear-gradient"]{border:0;box-shadow:0 10px 25px rgba(106,91,171,.12)}
+#app>h2{margin-top:28px}
+@media(max-width:600px){
+ header{padding:9px 12px;gap:8px}
+ header b{font-size:17px}
+ header b:before{width:31px;height:31px;margin-right:6px}
+ main{padding:13px}
+ .card{border-radius:20px;padding:16px}
+ .sub{min-height:190px}
+ .sub .em{font-size:55px}
+ button{padding:11px 15px}
+ button.big{width:100%;margin:6px 0;font-size:17px}
+ .row{align-items:flex-start}
+ .lesson{padding:13px!important}
+ .pill{font-size:12px;padding:5px 9px}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+
+
+.hero-card{position:relative;overflow:hidden;padding:clamp(22px,4vw,38px);background:linear-gradient(120deg,#fff 0%,#f1f4ff 52%,#fff1d8 100%);border:1px solid #e1e7fb;min-height:210px}
+.hero-card:after{content:"🦊";position:absolute;right:clamp(12px,5vw,55px);bottom:-8px;font-size:clamp(76px,12vw,128px);filter:drop-shadow(0 9px 5px rgba(48,60,100,.12));opacity:.96;pointer-events:none}
+.hero-card h2{max-width:72%;font-size:clamp(24px,4vw,34px);color:#4358a4}
+.hero-card .note{max-width:78%;font-size:13px;opacity:.88}
+.hero-card button{position:relative;z-index:1}
+@media(max-width:600px){.hero-card{padding:19px;min-height:0}.hero-card:after{font-size:76px;right:6px;bottom:4px;opacity:.35}.hero-card h2{max-width:100%}.hero-card .note{max-width:100%;padding-right:12px}}
 </style></head><body>
 <header><b onclick="go({p:'home'})">🌟 Hành trình tri thức – Lớp 3</b><div id="hd"></div></header>
 <main id="app"></main>
@@ -298,7 +369,7 @@ function start(){var ns=names();A.innerHTML='<div class="card"><h2>Chào bạn n
 function pct(s){var l=ofS(s);return l.length?Math.round(100*l.filter(function(x){return P.les[x[0]]}).length/l.length):0}
 function nextLesson(){for(var i=0;i<L.length;i++)if(!P.les[L[i][0]])return L[i];return null}
 function home(){var nx=nextLesson();
-A.innerHTML='<div class="card"><h2>Xin chào '+esc(P.name)+'! Hôm nay mình cùng khám phá nhé 🎈</h2><div class="note">📚 <b>ĐÃ LẬP DANH MỤC TỪ 6 PDF:</b> Toán 3 (81 bài), Tiếng Việt 3 (62 bài đọc), Tiếng Anh 3 (20 Unit, Starter và 4 bài ôn tập). Nội dung bổ sung là tóm tắt học tập và câu hỏi luyện tập gợi ý; giáo viên cần rà soát trước khi dùng chính thức. <br><a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/blob/main/data/CHUONG_TRINH_LOP_3_FULL.json" target="_blank" rel="noopener">📋 Xem danh mục đầy đủ theo 6 sách</a> · <a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/tree/main/data" target="_blank" rel="noopener">📁 Bộ dữ liệu học tập</a></div>'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">▶ Tiếp tục học: '+esc(nx[2])+'</button>':'<p>🎉 Bạn đã hoàn thành mọi bài hiện có!</p>')+'<button class="big" onclick="chal()">⚡ Thử thách 5 câu</button><button class="big" onclick="go({p:\'games\'})">🎮 Trung tâm trò chơi</button></div><h2>Chọn vùng đất</h2><div class="grid">'+
+A.innerHTML='<div class="card hero-card"><h2>Xin chào '+esc(P.name)+'! Hôm nay mình cùng khám phá nhé 🎈</h2><div class="note">📚 <b>ĐÃ LẬP DANH MỤC TỪ 6 PDF:</b> Toán 3 (81 bài), Tiếng Việt 3 (62 bài đọc), Tiếng Anh 3 (20 Unit, Starter và 4 bài ôn tập). Nội dung bổ sung là tóm tắt học tập và câu hỏi luyện tập gợi ý; giáo viên cần rà soát trước khi dùng chính thức. <br><a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/blob/main/data/CHUONG_TRINH_LOP_3_FULL.json" target="_blank" rel="noopener">📋 Xem danh mục đầy đủ theo 6 sách</a> · <a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/tree/main/data" target="_blank" rel="noopener">📁 Bộ dữ liệu học tập</a></div>'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">▶ Tiếp tục học: '+esc(nx[2])+'</button>':'<p>🎉 Bạn đã hoàn thành mọi bài hiện có!</p>')+'<button class="big" onclick="chal()">⚡ Thử thách 5 câu</button><button class="big" onclick="go({p:\'games\'})">🎮 Trung tâm trò chơi</button></div><h2>Chọn vùng đất</h2><div class="grid">'+
 ["toan","tv","ta"].map(function(s){var d=S[s];return'<div class="card sub" style="background:'+d.c+'" onclick="go({p:\'subj\',s:\''+s+'\'})"><div class="em">'+d.e+'</div><h2>'+d.n+'</h2><div>'+d.t+'</div><div>'+d.m+'</div><div class="bar" style="margin-top:10px"><i style="width:'+pct(s)+'%"></i></div><div>'+ofS(s).length+' bài · hoàn thành '+pct(s)+'%</div></div>'}).join("")+
 '</div><h2>Huy hiệu</h2><div class="card">'+BADGES.map(function(b){return'<div>'+(P.bd.indexOf(b[0])>=0?b[1]:'🔒 <span style="opacity:.5">'+b[1].replace(/^\S+ /,"")+'</span>')+'</div>'}).join("")+'</div><p><button class="ghost" onclick="go({p:\'prof\'})">⚙ Hồ sơ & tiến độ</button></p>'}
 function subj(){var d=S[v.s],q=v.q||"";A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><h2>'+d.e+' '+d.n+' – '+d.t+'</h2><input class="s" type="text" id="sq" placeholder="🔍 Tìm bài học" value="'+esc(q)+'" oninput="v.q=this.value;list()"><div id="ls"></div>';list()}
