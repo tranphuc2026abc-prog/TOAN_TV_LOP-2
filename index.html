@@ -725,16 +725,16 @@ function gameResult(){
    var d=S[s],t=subjectTheme[s],p=pct(s),count=subjectCount(s),finished=subjectDone(s);
    return '<div class="card sub kw-subject" data-deco="'+t.deco+'" style="background:linear-gradient(145deg,'+t.color+','+t.color+'dd)" onclick="go({p:\'subj\',s:\''+s+'\'})"><div class="em">'+d.e+'</div><span class="kw-eyebrow">'+t.tag+'</span><h2>'+d.n+'</h2><div class="kw-desc">'+t.desc+'</div><div class="kw-progress"><span>'+finished+'/'+count+' bài hoàn thành</span><span>'+p+'%</span></div><div class="bar"><i style="width:'+p+'%"></i></div></div>';
   }).join("");
-  var badges=BADGES.map(function(b){var ok=P.bd.indexOf(b[0])>=0;return '<div class="kw-badge '+(ok?"":"locked")+'">'+(ok?b[1]:"🔒 "+escText(b[1].replace(/^\\S+ /,"")))+'</div>'}).join("");
-  A.innerHTML='<section class="kw-welcome"><div><span class="kw-eyebrow">✨ KIDS LEARNING WORLD · LỚP 3</span><h2>Xin chào '+escText(P.name)+'! Sẵn sàng cho chuyến phiêu lưu hôm nay?</h2><p>Mỗi bài học là một vùng đất mới. Hãy khám phá, luyện tập và thu thập những ngôi sao tri thức nhé!</p><div class="kw-actions">'+(nx?'<button class="big" onclick="go({p:\\'lesson\\',id:\\''+nx[0]+'\\'})">🚀 Tiếp tục: '+escText(nx[2])+'</button>':'<button class="big" onclick="chal()">🏆 Ôn tập tổng hợp</button>')+'<button class="ghost" onclick="go({p:\\'games\\'})">🎮 Vào khu trò chơi</button></div></div></section>'+
+  var badges=BADGES.map(function(b){var ok=P.bd.indexOf(b[0])>=0;return '<div class="kw-badge '+(ok?"":"locked")+'">'+(ok?b[1]:"🔒 "+escText(b[1].replace(/^\S+ /,"")))+'</div>'}).join("");
+  A.innerHTML='<section class="kw-welcome"><div><span class="kw-eyebrow">✨ KIDS LEARNING WORLD · LỚP 3</span><h2>Xin chào '+escText(P.name)+'! Sẵn sàng cho chuyến phiêu lưu hôm nay?</h2><p>Mỗi bài học là một vùng đất mới. Hãy khám phá, luyện tập và thu thập những ngôi sao tri thức nhé!</p><div class="kw-actions">'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">🚀 Tiếp tục: '+escText(nx[2])+'</button>':'<button class="big" onclick="chal()">🏆 Ôn tập tổng hợp</button>')+'<button class="ghost" onclick="go({p:\'games\'})">🎮 Vào khu trò chơi</button></div></div></section>'+
   '<section class="kw-stats"><div class="kw-stat"><strong>✨ '+P.xp+'</strong><span>ĐIỂM KINH NGHIỆM</span></div><div class="kw-stat"><strong>📘 '+done+'/'+total+'</strong><span>BÀI ĐÃ HOÀN THÀNH</span></div><div class="kw-stat"><strong>🌈 '+percent+'%</strong><span>HÀNH TRÌNH TRI THỨC</span></div></section>'+
   '<div class="kw-section-head"><div><h2>🗺️ Chọn vùng đất khám phá</h2><p>Ba môn học – ba hành trình kỳ thú</p></div></div><div class="grid">'+subjectCards+'</div>'+
   '<div class="kw-section-head"><div><h2>🏅 Bộ sưu tập huy hiệu</h2><p>Những dấu mốc đáng tự hào của em</p></div></div><div class="kw-badge-panel">'+badges+'</div>'+
-  '<p style="margin-top:22px"><button class="ghost" onclick="go({p:\\'prof\\'})">👤 Hồ sơ & sao lưu tiến độ</button></p>';
+  '<p style="margin-top:22px"><button class="ghost" onclick="go({p:\'prof\'})">👤 Hồ sơ & sao lưu tiến độ</button></p>';
  };
  subj=function(){
   var d=S[v.s],t=subjectTheme[v.s],q=v.q||"",p=pct(v.s);
-  A.innerHTML='<button class="ghost" onclick="go({p:\\'home\\'})">← Về trang chủ</button><section class="kw-subject-hero" data-emoji="'+t.emoji+'" style="background:linear-gradient(120deg,'+t.color+','+t.color+'d9)"><span class="kw-eyebrow">'+t.tag+'</span><h2>'+d.e+' '+d.n+'</h2><p>'+t.desc+'</p><div class="kw-subject-meta"><span>📚 '+subjectCount(v.s)+' bài học</span><span>⭐ '+subjectDone(v.s)+' bài hoàn thành</span><span>📈 '+p+'% tiến độ</span></div></section><div class="kw-search"><input type="text" id="sq" placeholder="Tìm tên bài học..." value="'+escText(q)+'" oninput="v.q=this.value;list()"></div><div id="ls"></div>';
+  A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><section class="kw-subject-hero" data-emoji="'+t.emoji+'" style="background:linear-gradient(120deg,'+t.color+','+t.color+'d9)"><span class="kw-eyebrow">'+t.tag+'</span><h2>'+d.e+' '+d.n+'</h2><p>'+t.desc+'</p><div class="kw-subject-meta"><span>📚 '+subjectCount(v.s)+' bài học</span><span>⭐ '+subjectDone(v.s)+' bài hoàn thành</span><span>📈 '+p+'% tiến độ</span></div></section><div class="kw-search"><input type="text" id="sq" placeholder="Tìm tên bài học..." value="'+escText(q)+'" oninput="v.q=this.value;list()"></div><div id="ls"></div>';
   list();
  };
  list=function(){
@@ -743,7 +743,7 @@ function gameResult(){
   var html=Object.keys(groups).map(function(topic){
    return '<div class="kw-topic-title">'+escText(topic)+'</div>'+groups[topic].map(function(l,i){
     var score=P.les[l[0]]||0,status=score>=3?'<span class="kw-status done">✓ Hoàn thành</span>':score>0?'<span class="kw-status started">↗ Đang học</span>':'<span class="kw-status">Chưa học</span>';
-    return '<div class="kw-lesson" onclick="go({p:\\'lesson\\',id:\\''+l[0]+'\\'})"><div class="kw-number">'+(i+1)+'</div><div class="kw-main"><div class="kw-title">'+escText(l[2])+'</div><small>SGK trang '+l[3][0]+'–'+l[3][1]+'</small></div>'+status+'</div>';
+    return '<div class="kw-lesson" onclick="go({p:\'lesson\',id:\''+l[0]+'\'})"><div class="kw-number">'+(i+1)+'</div><div class="kw-main"><div class="kw-title">'+escText(l[2])+'</div><small>SGK trang '+l[3][0]+'–'+l[3][1]+'</small></div>'+status+'</div>';
    }).join("");
   }).join("");
   document.getElementById("ls").innerHTML=html||'<div class="card">Chưa tìm thấy bài học. Em thử từ khóa khác nhé! 🔎</div>';
