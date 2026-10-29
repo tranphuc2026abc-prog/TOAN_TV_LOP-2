@@ -1,18 +1,25 @@
 # Tự học lớp 3 – Hành trình tri thức
 
-Bản dựng lớp 3 đang được phát triển trên nhánh `build-lop-3`, giữ nguyên website lớp 2 ở nhánh `main`.
+Bản dùng thử đang phát triển trên nhánh `build-lop-3`; nhánh `main` được giữ nguyên cho website lớp 2.
 
-## Đã có
-- Giao diện học tập cho Toán 3, Tiếng Việt 3 và Tiếng Anh 3.
-- Hồ sơ học sinh, XP, sao, câu hỏi luyện tập và thử thách.
+## Chức năng hiện có
+- Giao diện thân thiện với học sinh tiểu học, chia thành Toán 3, Tiếng Việt 3 và Tiếng Anh 3.
+- Hồ sơ theo tên học sinh, câu hỏi luyện tập, thử thách tổng hợp, sao, XP và huy hiệu.
 - Lưu tiến độ trên trình duyệt bằng `localStorage`.
-- Sao lưu trang chủ lớp 2 tại `archive/index-lop2-backup.html`.
+- **Sao lưu tiến độ ra tệp JSON và khôi phục từ tệp JSON** trong mục Hồ sơ & tiến độ.
+- Sao lưu trang chủ cũ tại `archive/index-lop2-backup.html`.
+- Bộ tài liệu nguồn được giữ trong thư mục `data/`.
 
-## Chưa hoàn tất
-Dữ liệu trong HTML hiện là dữ liệu mẫu một phần, chưa đủ chương trình: Toán 3 (81 bài), Tiếng Việt 3 (56 bài), Tiếng Anh 3 Global Success (20 units). Chưa nên coi đây là website hoàn chỉnh để học trọn năm.
+## Phạm vi dữ liệu đang có trong giao diện
+- Toán 3: 6 bài.
+- Tiếng Việt 3: 6 bài.
+- Tiếng Anh 3 Global Success: Starter và Unit 1–4.
+- Tổng: 17 mục học tập.
 
-## Điều kiện để hoàn thiện
-Cần nhập và kiểm tra bộ dữ liệu bàn giao đã chuẩn bị, đặc biệt `BAN_DO_LIEN_KET_KIEN_THUC.json` cùng dữ liệu bài học/câu hỏi; kiểm tra đáp án, phạm vi sách và trang sách trước khi xuất bản.
+Đây là bản thử nghiệm, chưa bao phủ toàn bộ chương trình Toán 3 (81 bài), Tiếng Việt 3 (56 bài) và Tiếng Anh 3 (20 units). Một số câu hỏi do AI soạn và cần giáo viên rà soát đáp án, độ phù hợp lứa tuổi và đối chiếu SGK trước khi dùng chính thức. Không coi phần trăm tiến độ trong ứng dụng là tiến độ của cả năm học.
 
-## Lưu tiến độ
-Tiến độ hiện chỉ lưu trên trình duyệt và thiết bị đang dùng; xóa dữ liệu trình duyệt hoặc đổi thiết bị có thể làm mất/không thấy tiến độ. Chưa có đồng bộ đám mây.
+## Kiểm kê dữ liệu
+Xem [KIEM_KE_DU_LIEU_LOP_3.md](KIEM_KE_DU_LIEU_LOP_3.md) để biết rõ những gì đã có và phần còn thiếu.
+
+## Giới hạn lưu tiến độ
+Tiến độ chỉ lưu trên trình duyệt và thiết bị hiện tại, chưa có đồng bộ đám mây. Hãy dùng chức năng sao lưu JSON trước khi đổi thiết bị hoặc xóa dữ liệu trình duyệt.
