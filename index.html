@@ -258,7 +258,33 @@ function ofS(s){return L.filter(function(l){return l[1]==s})}
 function stars(n){return"⭐".repeat(n)+"☆".repeat(3-n)}
 function shuf(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t}return a}
 function toast(t){var d=document.createElement("div");d.className="toast";d.textContent=t;document.body.appendChild(d);setTimeout(function(){d.remove()},3500)}
-function say(t){try{var u=new SpeechSynthesisUtterance(t.replace(/[→/]/g," "));u.lang=/[ăâêôơưđ]/i.test(t)?"vi-VN":"en-US";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
+function say(t){
+ try{
+  if(!("speechSynthesis" in window)||!("SpeechSynthesisUtterance" in window)){toast("Trình duyệt này chưa hỗ trợ phát âm. Hãy mở website bằng Chrome.");return}
+  var text=String(t).replace(/[→/]/g," ").trim();
+  var synth=window.speechSynthesis;
+  synth.cancel();
+  var speakNow=function(){
+   var u=new SpeechSynthesisUtterance(text);
+   var isVi=/[ăâêôơưđ]/i.test(text);
+   u.lang=isVi?"vi-VN":"en-US";
+   var voices=synth.getVoices?synth.getVoices():[];
+   var voice=voices.filter(function(v){return isVi?/^vi(-|$)/i.test(v.lang):/^en-US$/i.test(v.lang)})[0];
+   if(!voice&&!isVi)voice=voices.filter(function(v){return /^en(-|$)/i.test(v.lang)})[0];
+   if(voice)u.voice=voice;
+   u.rate=0.85;
+   u.onerror=function(){toast("Chưa phát được âm thanh. Kiểm tra âm lượng và giọng đọc trên điện thoại.")};
+   synth.speak(u);
+  };
+  var voices=synth.getVoices?synth.getVoices():[];
+  if(!voices.length){
+   var retried=false;
+   var retry=function(){if(retried)return;retried=true;synth.onvoiceschanged=null;speakNow()};
+   synth.onvoiceschanged=retry;
+   setTimeout(function(){if(!retried){retried=true;synth.onvoiceschanged=null;speakNow()}},400);
+  }else speakNow();
+ }catch(e){toast("Không thể phát âm trên trình duyệt này. Hãy thử mở bằng Chrome.");}
+}
 function award(){var n=[],t=Object.keys(P.les);function g(id,c){if(c&&P.bd.indexOf(id)<0){P.bd.push(id);n.push(BADGES.filter(function(b){return b[0]==id})[0][1])}}
 g("first",t.length>0);g("star3",t.some(function(k){return P.les[k]==3}));g("xp100",P.xp>=100);
 ["toan","tv","ta"].forEach(function(s){g(s,CURRICULUM_COMPLETE[s]&&ofS(s).every(function(l){return P.les[l[0]]}))});
