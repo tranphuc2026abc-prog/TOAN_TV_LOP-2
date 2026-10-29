@@ -84,6 +84,13 @@ a{color:#5268c6;font-weight:800}
 }
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
 
+
+.hero-card{position:relative;overflow:hidden;padding:clamp(22px,4vw,38px);background:linear-gradient(120deg,#fff 0%,#f1f4ff 52%,#fff1d8 100%);border:1px solid #e1e7fb;min-height:210px}
+.hero-card:after{content:"🦊";position:absolute;right:clamp(12px,5vw,55px);bottom:-8px;font-size:clamp(76px,12vw,128px);filter:drop-shadow(0 9px 5px rgba(48,60,100,.12));opacity:.96;pointer-events:none}
+.hero-card h2{max-width:72%;font-size:clamp(24px,4vw,34px);color:#4358a4}
+.hero-card .note{max-width:78%;font-size:13px;opacity:.88}
+.hero-card button{position:relative;z-index:1}
+@media(max-width:600px){.hero-card{padding:19px;min-height:0}.hero-card:after{font-size:76px;right:6px;bottom:4px;opacity:.35}.hero-card h2{max-width:100%}.hero-card .note{max-width:100%;padding-right:12px}}
 </style></head><body>
 <header><b onclick="go({p:'home'})">🌟 Hành trình tri thức – Lớp 3</b><div id="hd"></div></header>
 <main id="app"></main>
@@ -362,7 +369,7 @@ function start(){var ns=names();A.innerHTML='<div class="card"><h2>Chào bạn n
 function pct(s){var l=ofS(s);return l.length?Math.round(100*l.filter(function(x){return P.les[x[0]]}).length/l.length):0}
 function nextLesson(){for(var i=0;i<L.length;i++)if(!P.les[L[i][0]])return L[i];return null}
 function home(){var nx=nextLesson();
-A.innerHTML='<div class="card"><h2>Xin chào '+esc(P.name)+'! Hôm nay mình cùng khám phá nhé 🎈</h2><div class="note">📚 <b>ĐÃ LẬP DANH MỤC TỪ 6 PDF:</b> Toán 3 (81 bài), Tiếng Việt 3 (62 bài đọc), Tiếng Anh 3 (20 Unit, Starter và 4 bài ôn tập). Nội dung bổ sung là tóm tắt học tập và câu hỏi luyện tập gợi ý; giáo viên cần rà soát trước khi dùng chính thức. <br><a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/blob/main/data/CHUONG_TRINH_LOP_3_FULL.json" target="_blank" rel="noopener">📋 Xem danh mục đầy đủ theo 6 sách</a> · <a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/tree/main/data" target="_blank" rel="noopener">📁 Bộ dữ liệu học tập</a></div>'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">▶ Tiếp tục học: '+esc(nx[2])+'</button>':'<p>🎉 Bạn đã hoàn thành mọi bài hiện có!</p>')+'<button class="big" onclick="chal()">⚡ Thử thách 5 câu</button><button class="big" onclick="go({p:\'games\'})">🎮 Trung tâm trò chơi</button></div><h2>Chọn vùng đất</h2><div class="grid">'+
+A.innerHTML='<div class="card hero-card"><h2>Xin chào '+esc(P.name)+'! Hôm nay mình cùng khám phá nhé 🎈</h2><div class="note">📚 <b>ĐÃ LẬP DANH MỤC TỪ 6 PDF:</b> Toán 3 (81 bài), Tiếng Việt 3 (62 bài đọc), Tiếng Anh 3 (20 Unit, Starter và 4 bài ôn tập). Nội dung bổ sung là tóm tắt học tập và câu hỏi luyện tập gợi ý; giáo viên cần rà soát trước khi dùng chính thức. <br><a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/blob/main/data/CHUONG_TRINH_LOP_3_FULL.json" target="_blank" rel="noopener">📋 Xem danh mục đầy đủ theo 6 sách</a> · <a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/tree/main/data" target="_blank" rel="noopener">📁 Bộ dữ liệu học tập</a></div>'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">▶ Tiếp tục học: '+esc(nx[2])+'</button>':'<p>🎉 Bạn đã hoàn thành mọi bài hiện có!</p>')+'<button class="big" onclick="chal()">⚡ Thử thách 5 câu</button><button class="big" onclick="go({p:\'games\'})">🎮 Trung tâm trò chơi</button></div><h2>Chọn vùng đất</h2><div class="grid">'+
 ["toan","tv","ta"].map(function(s){var d=S[s];return'<div class="card sub" style="background:'+d.c+'" onclick="go({p:\'subj\',s:\''+s+'\'})"><div class="em">'+d.e+'</div><h2>'+d.n+'</h2><div>'+d.t+'</div><div>'+d.m+'</div><div class="bar" style="margin-top:10px"><i style="width:'+pct(s)+'%"></i></div><div>'+ofS(s).length+' bài · hoàn thành '+pct(s)+'%</div></div>'}).join("")+
 '</div><h2>Huy hiệu</h2><div class="card">'+BADGES.map(function(b){return'<div>'+(P.bd.indexOf(b[0])>=0?b[1]:'🔒 <span style="opacity:.5">'+b[1].replace(/^\S+ /,"")+'</span>')+'</div>'}).join("")+'</div><p><button class="ghost" onclick="go({p:\'prof\'})">⚙ Hồ sơ & tiến độ</button></p>'}
 function subj(){var d=S[v.s],q=v.q||"";A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><h2>'+d.e+' '+d.n+' – '+d.t+'</h2><input class="s" type="text" id="sq" placeholder="🔍 Tìm bài học" value="'+esc(q)+'" oninput="v.q=this.value;list()"><div id="ls"></div>';list()}
