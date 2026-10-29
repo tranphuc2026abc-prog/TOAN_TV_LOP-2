@@ -31,11 +31,21 @@ def process_chunk(args):
             text = re.sub(r"[ \t]+", " ", text)
             text = re.sub(r"\n{3,}", "\n\n", text).strip()
             used_ocr = False
+            ocr_error = None
             if len(text) < 30:
                 used_ocr = True
-                pix = page.get_pixmap(matrix=fitz.Matrix(1.55, 1.55), alpha=False)
-                image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                text = pytesseract.image_to_string(image, lang=lang, config="--psm 6", timeout=60)
+                try:
+                    pix = page.get_pixmap(matrix=fitz.Matrix(1.25, 1.25), alpha=False)
+                    image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    text = pytesseract.image_to_string(image, lang=lang, config="--psm 6", timeout=45)
+                except RuntimeError:
+                    try:
+                        pix = page.get_pixmap(matrix=fitz.Matrix(1.0, 1.0), alpha=False)
+                        image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                        text = pytesseract.image_to_string(image, lang=lang, config="--psm 11", timeout=45)
+                    except RuntimeError as exc:
+                        text = ""
+                        ocr_error = str(exc)[:200]
                 text = text.replace("\x00", " ")
                 text = re.sub(r"[ \t]+", " ", text)
                 text = re.sub(r"\n{3,}", "\n\n", text).strip()
@@ -46,6 +56,7 @@ def process_chunk(args):
                 "text": text,
                 "chars": len(text),
                 "ocr_used": used_ocr,
+                "ocr_error": ocr_error,
                 "heading_candidates": candidates[:12],
                 "preview": " | ".join(lines[:8])[:900]
             })
