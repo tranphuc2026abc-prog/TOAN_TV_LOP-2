@@ -404,7 +404,7 @@ function answerMini(value){
  if(String(value)===String(q.answer)){G.score+=10;G.feedback="🎉 Chính xác! +10 điểm. "+(G.mode==="treasure"?"Bạn tìm thấy kho báu!":"");}
  else G.feedback="💡 Đáp án đúng là: "+String(q.answer)+". "+(q.lesson?"Hãy ôn lại bài "+q.lesson+".":"");
  if(G.mode==="speed"){G.idx++;G.feedback="";if(G.seconds>0)gamePlay();}
- else if(G.mode==="treasure"){G.idx++;if(G.idx>=G.all.length){G.ended=true;gamePlay();}else gamePlay();}
+ else if(G.mode==="treasure"){gamePlayWithFeedback();}
  else gamePlayWithFeedback();
 }
 function gamePlayWithFeedback(){
