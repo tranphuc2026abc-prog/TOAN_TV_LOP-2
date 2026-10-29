@@ -1,0 +1,32 @@
+{
+  "Toan_3": [
+    {
+      "source_lesson": "TOAN3_T1_B01",
+      "target_lesson": "TOAN3_T1_B02",
+      "relation_type": "prerequisite",
+      "reason": "Học sinh cần nắm vững cấu trúc số đến 1000 trước khi thực hiện cộng, trừ có nhớ."
+    },
+    {
+      "source_lesson": "TOAN3_T1_B04",
+      "target_lesson": "TOAN3_T1_B09",
+      "relation_type": "development",
+      "reason": "Kỹ năng hình thành bảng nhân 2, 5 là nền tảng để tự lập bảng nhân 6, 7, 8, 9."
+    }
+  ],
+  "Tieng_Viet_3": [
+    {
+      "source_lesson": "TV3_T1_B01",
+      "target_lesson": "TV3_T1_B02",
+      "relation_type": "thematic",
+      "reason": "Cùng khai thác chủ điểm 'Những trải nghiệm thú vị' trong kỳ nghỉ hè."
+    }
+  ],
+  "Tieng_Anh_3": [
+    {
+      "source_lesson": "TA3_T1_START",
+      "target_lesson": "TA3_T1_U02",
+      "relation_type": "prerequisite",
+      "reason": "Cần nhận diện số đếm 1-10 để trả lời cấu trúc 'How old are you?'."
+    }
+  ]
+}
