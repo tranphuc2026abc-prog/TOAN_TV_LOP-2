@@ -374,20 +374,51 @@ A.innerHTML='<div class="card hero-card"><h2>Xin chào '+esc(P.name)+'! Hôm nay
 '</div><h2>Huy hiệu</h2><div class="card">'+BADGES.map(function(b){return'<div>'+(P.bd.indexOf(b[0])>=0?b[1]:'🔒 <span style="opacity:.5">'+b[1].replace(/^\S+ /,"")+'</span>')+'</div>'}).join("")+'</div><p><button class="ghost" onclick="go({p:\'prof\'})">⚙ Hồ sơ & tiến độ</button></p>'}
 function subj(){var d=S[v.s],q=v.q||"";A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><h2>'+d.e+' '+d.n+' – '+d.t+'</h2><input class="s" type="text" id="sq" placeholder="🔍 Tìm bài học" value="'+esc(q)+'" oninput="v.q=this.value;list()"><div id="ls"></div>';list()}
 function list(){var q=(v.q||"").toLowerCase(),d=S[v.s];document.getElementById("ls").innerHTML=ofS(v.s).filter(function(l){return l[2].toLowerCase().indexOf(q)>=0}).map(function(l){return'<div class="card lesson row" style="--c:'+d.c+';margin:10px 0" onclick="go({p:\'lesson\',id:\''+l[0]+'\'})"><div><b>'+esc(l[2])+'</b><br><small>'+esc(l[4])+' · trang '+l[3][0]+'–'+l[3][1]+'</small></div><div>'+(P.les[l[0]]?stars(P.les[l[0]]):'🆕 Chưa học')+'</div></div>'}).join("")||'<p>Chưa tìm thấy bài nào. Thử từ khoá khác nhé!</p>'}
-function lesson(){var l=byId(v.id),d=S[l[1]];A.innerHTML='<button class="ghost" onclick="go({p:\'subj\',s:\''+l[1]+'\'})">← '+d.n+'</button><div class="card"><h2 style="color:'+d.c+'">'+esc(l[2])+'</h2><small>'+esc(l[4])+' · SGK trang '+l[3][0]+'–'+l[3][1]+'</small><h3>1. Khám phá</h3><ul class="k">'+l[5].map(function(k){return'<li>'+esc(k)+'</li>'}).join("")+'</ul><button class="ghost" onclick="say(byId(\''+l[0]+'\')[5].slice(0,2).join(\'. \'))">🔊 Đọc to (giọng máy)</button>'+(l[1]=="ta"?'<div class="note">Chưa có tệp âm thanh gốc; nút “Đọc to” dùng giọng đọc của máy (nếu máy có cài).</div>':'')+(l[6]?'':'<div class="note">Bài này chưa có kho kiến thức chi tiết trong dữ liệu bàn giao.</div>')+'<h3>2. Luyện tập</h3><div class="note">Câu hỏi do AI soạn theo nội dung bài, đang chờ thầy cô duyệt.</div><button class="big" onclick="startQ(\''+l[0]+'\')">✏ Làm '+l[9].length+' câu luyện tập</button></div>'}
-function startQ(id,qs){var l=id?byId(id):null;go({p:"quiz",id:id,qs:shuf(qs||l[9].map(function(q){return q.concat([id])})),i:0,ok:0,t:0,done:0,fb:"",pick:null})}
-function chal(){var all=[];L.forEach(function(l){l[9].forEach(function(q){all.push(q.concat([l[0]]))})});startQ(null,shuf(all).slice(0,5))}
-function quiz(){var q=v.qs[v.i],l=byId(q[q.length-1]);if(!v.opts)v.opts=Array.isArray(q[2])?shuf([q[1]].concat(q[2])):null;
-var h='<div class="card"><div class="row"><b>Câu '+(v.i+1)+'/'+v.qs.length+'</b><span>'+(v.id?esc(l[2]):'⚡ Thử thách')+'</span></div><div class="bar"><i style="width:'+(100*v.i/v.qs.length)+'%"></i></div><h2>'+esc(q[0])+'</h2>';
-if(v.opts)h+=v.opts.map(function(o,i){var c=v.done&&o==q[1]?" ok":(v.pick===i&&v.done!=1?"":"");if(v.pick===i&&o!=q[1])c=" no";return'<button class="opt'+c+'" '+(v.done?"disabled":"")+' onclick="ans('+i+')">'+esc(o)+'</button>'}).join("");
-else h+='<input type="number" id="an" inputmode="numeric" '+(v.done?"disabled":"")+' onkeydown="if(event.key==\'Enter\')ans()"> <button '+(v.done?"disabled":"")+' onclick="ans()">Kiểm tra</button>';
-h+='<div class="fb">'+v.fb+'</div>'+(v.done?'<button class="big" onclick="nextQ()">'+(v.i+1<v.qs.length?"Câu tiếp ➜":"Xem kết quả 🎉")+'</button>':'')+'</div>';A.innerHTML=h;var e=document.getElementById("an");if(e&&!v.done)e.focus()}
-function ans(i){var q=v.qs[v.i],l=byId(q[q.length-1]),ok;
-if(v.opts){ok=v.opts[i]==q[1];v.pick=i}else{var x=document.getElementById("an").value;if(x==="")return;ok=Number(x)===q[1]}
-if(ok){v.ok+=v.t==0?1:.5;v.done=1;v.fb="✅ Giỏi quá! Đúng rồi!"}
-else if(v.t==0){v.t=1;v.pick=null;v.fb="💡 Gần đúng rồi, thử lại nhé! Gợi ý – xem lại: "+esc(l[5][0])}
-else{v.done=2;v.fb="Không sao đâu! Đáp án là: "+esc(String(q[1]))+". Mình học tiếp nhé 💪"}
-draw()}
+function lesson(){var l=byId(v.id),d=S[l[1]],bank=practiceBank(l);A.innerHTML='<button class="ghost" onclick="go({p:\'subj\',s:\''+l[1]+'\'})">← '+d.n+'</button><div class="card"><h2 style="color:'+d.c+'">'+esc(l[2])+'</h2><small>'+esc(l[4])+' · SGK trang '+l[3][0]+'–'+l[3][1]+'</small><h3>1. Khám phá</h3><ul class="k">'+l[5].map(function(k){return'<li>'+esc(k)+'</li>'}).join("")+'</ul><button class="ghost" onclick="say(byId(\''+l[0]+'\')[5].slice(0,2).join(\'. \'))">🔊 Đọc to (giọng máy)</button>'+(l[1]=="ta"?'<div class="note">Chưa có tệp âm thanh gốc; nút “Đọc to” dùng giọng đọc của máy (nếu máy có cài).</div>':'')+(l[6]?'':'<div class="note">Bài này chưa có kho kiến thức chi tiết trong dữ liệu bàn giao.</div>')+'<h3>2. Luyện tập & trò chơi</h3><div class="note">Mỗi lượt có '+bank.length+' nhiệm vụ, gồm trắc nghiệm, đúng/sai và điền khuyết. Câu hỏi được xáo trộn; nội dung tự động tạo từ dữ liệu bài học hiện có và cần được giáo viên rà soát, nhất là câu hỏi đọc hiểu.</div><div class="grid"><div class="card"><h3>🎯 Luyện tập tổng hợp</h3><p>12 nhiệm vụ phối hợp cả ba dạng.</p><button class="big" onclick="startQ(\''+l[0]+'\',\'all\')">Bắt đầu</button></div><div class="card"><h3>🔵 Trắc nghiệm lựa chọn</h3><p>Chọn đáp án đúng trong các phương án.</p><button onclick="startQ(\''+l[0]+'\',\'mcq\')">Luyện 4 câu</button></div><div class="card"><h3>🟢 Đúng hay sai?</h3><p>Đọc nhận định và xác định đúng hoặc sai.</p><button onclick="startQ(\''+l[0]+'\',\'tf\')">Luyện 4 câu</button></div><div class="card"><h3>✍️ Điền khuyết</h3><p>Tự nhập đáp án, không có gợi ý lựa chọn.</p><button onclick="startQ(\''+l[0]+'\',\'fill\')">Luyện 4 câu</button></div><div class="card"><h3>🏆 Vượt ải bài học</h3><p>Hoàn thành trọn bộ câu hỏi để tích lũy sao và XP.</p><button class="big" onclick="startQ(\''+l[0]+'\',\'all\')">Chinh phục bài học</button></div></div></div>'}
+function practiceBank(l){
+ var seed=(l[9]||[]).filter(function(q){return q&&q.length>=2;});
+ if(!seed.length)seed=autoQuestions({id:l[0],title:l[2],subject:l[1]});
+ var bank=[],i,q,a,w,opts;
+ for(i=0;i<4;i++){q=seed[i%seed.length];a=q[1];w=Array.isArray(q[2])?q[2].slice():[];
+  if(w.length<2){if(typeof a==="number"||!isNaN(Number(a))&&String(a).trim()!==""){var n=Number(a);[n+1,n-1,n+10].forEach(function(x){if(w.length<3&&String(x)!==String(a)&&w.indexOf(x)<0)w.push(x);});}else{["Chưa đúng","Thử lại nhé","Đáp án khác"].forEach(function(x){if(w.length<3&&x!==String(a))w.push(x);});}}
+  bank.push({type:"mcq",prompt:String(q[0]),answer:String(a),wrong:w.map(String),id:l[0]});
+ }
+ for(i=0;i<4;i++){q=seed[i%seed.length];a=String(q[1]);w=Array.isArray(q[2])&&q[2].length?String(q[2][0]):(typeof q[1]==="number"?String(Number(q[1])+1):"đáp án khác");var truth=i%2===0;
+  bank.push({type:"tf",prompt:'Nhận định: Với câu hỏi “'+String(q[0])+'”, đáp án là “'+(truth?a:w)+'”.',answer:truth,id:l[0]});
+ }
+ for(i=0;i<4;i++){q=seed[i%seed.length];bank.push({type:"fill",prompt:String(q[0]),answer:String(q[1]),id:l[0]});}
+ return shuf(bank);
+}
+function startQ(id,qs){
+ var l=id?byId(id):null,mode=typeof qs==="string"?qs:"all",raw;
+ if(typeof qs==="string")raw=practiceBank(l).filter(function(q){return mode==="all"||q.type===mode;});
+ else if(Array.isArray(qs))raw=qs.map(function(q){return {type:Array.isArray(q[2])?"mcq":"fill",prompt:String(q[0]),answer:String(q[1]),wrong:Array.isArray(q[2])?q[2].map(String):[],id:q[q.length-1]||id};});
+ else raw=practiceBank(l);
+ go({p:"quiz",id:id,qs:shuf(raw),i:0,ok:0,t:0,done:0,fb:"",pick:null,opts:null});
+}
+function chal(){var all=[];L.forEach(function(l){practiceBank(l).forEach(function(q){all.push(Object.assign({},q,{id:l[0]}));});});startQ(null,shuf(all).slice(0,10))}
+function quiz(){
+ var q=v.qs[v.i],l=byId(q.id||v.id),h='<div class="card"><div class="row"><b>Câu '+(v.i+1)+'/'+v.qs.length+'</b><span>'+(l?esc(l[2]):'⚡ Thử thách')+'</span></div><div class="bar"><i style="width:'+(100*v.i/v.qs.length)+'%"></i></div><span class="pill">'+(q.type==="mcq"?"Trắc nghiệm":q.type==="tf"?"Đúng / Sai":"Điền khuyết")+'</span><h2>'+esc(q.prompt)+'</h2>';
+ if(q.type==="mcq"){
+  if(!v.opts)v.opts=shuf([String(q.answer)].concat(q.wrong||[]));
+  h+=v.opts.map(function(o,i){var c=v.done&&o===String(q.answer)?" ok":"";if(v.pick===i&&v.done===2&&o!==String(q.answer))c=" no";return'<button class="opt'+c+'" '+(v.done?"disabled":"")+' onclick="ans('+i+')">'+esc(o)+'</button>';}).join("");
+ }else if(q.type==="tf"){
+  h+='<button class="big" '+(v.done?"disabled":"")+' onclick="ans(true)">✅ Đúng</button><button class="big" '+(v.done?"disabled":"")+' onclick="ans(false)">❌ Sai</button>';
+ }else{
+  h+='<input type="text" id="an" autocomplete="off" placeholder="Nhập đáp án của em..." '+(v.done?"disabled":"")+' onkeydown="if(event.key===\'Enter\')ans()"><button '+(v.done?"disabled":"")+' onclick="ans()">Kiểm tra</button>';
+ }
+ h+='<div class="fb">'+v.fb+'</div>'+(v.done?'<button class="big" onclick="nextQ()">'+(v.i+1<v.qs.length?"Câu tiếp ➜":"Xem kết quả 🎉")+'</button>':'')+'</div>';A.innerHTML=h;var e=document.getElementById("an");if(e&&!v.done)e.focus();
+}
+function ans(i){
+ var q=v.qs[v.i],ok=false;
+ if(q.type==="mcq"){ok=String(v.opts[i])===String(q.answer);v.pick=i;}
+ else if(q.type==="tf"){ok=Boolean(i)===Boolean(q.answer);}
+ else{var x=document.getElementById("an").value;if(!x||!x.trim())return;var norm=function(z){return String(z).trim().toLocaleLowerCase("vi").replace(/\s+/g," ").replace(/,/g,".");};ok=norm(x)===norm(q.answer);}
+ if(ok){v.ok+=v.t===0?1:.5;v.done=1;v.fb="✅ Chính xác! Giỏi lắm!";}
+ else if(v.t===0){v.t=1;v.fb="💡 Chưa đúng, em thử lại một lần nữa nhé!";}
+ else{v.done=2;v.fb="Đáp án đúng: "+esc(String(q.answer))+". Cố gắng ở câu tiếp theo nhé!";}
+ draw();
+}
 function nextQ(){if(v.i+1<v.qs.length){v.i++;v.t=0;v.done=0;v.fb="";v.pick=null;v.opts=null;draw()}else{var r=v.ok/v.qs.length,s=r>=.9?3:r>=.6?2:1,xp=Math.round(10*v.ok);P.xp+=xp;if(v.id)P.les[v.id]=Math.max(P.les[v.id]||0,s);save();var id=v.id;go({p:"end",id:id,s:s,xp:xp,r:r});award()}}
 function end(){var l=v.id?byId(v.id):null,h='<div class="card" style="text-align:center"><div class="big-star">'+stars(v.s)+'</div><h2>'+(v.s==3?"Tuyệt vời!":v.s==2?"Rất tốt!":"Cố gắng tốt lắm!")+'</h2><p>Bạn nhận được <b>+'+v.xp+' XP</b>. Sai cũng là cách học – mình thử lại để lấy thêm sao nhé!</p>';
 if(l){if(v.s<3&&l[7])h+='<p>📚 Gợi ý ôn lại bài nền tảng:</p><button onclick="go({p:\'lesson\',id:\''+l[7]+'\'})">'+esc(byId(l[7])[2])+'</button>';
