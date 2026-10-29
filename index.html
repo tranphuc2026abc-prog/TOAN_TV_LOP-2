@@ -91,6 +91,84 @@ a{color:#5268c6;font-weight:800}
 .hero-card .note{max-width:78%;font-size:13px;opacity:.88}
 .hero-card button{position:relative;z-index:1}
 @media(max-width:600px){.hero-card{padding:19px;min-height:0}.hero-card:after{font-size:76px;right:6px;bottom:4px;opacity:.35}.hero-card h2{max-width:100%}.hero-card .note{max-width:100%;padding-right:12px}}
+
+/* ===== KIDS LEARNING WORLD – UI layer (safe, data-preserving) ===== */
+:root{--kw-ink:#26345b;--kw-muted:#68769b;--kw-line:#e5ebfa;--kw-shadow:0 12px 32px rgba(55,75,135,.10);--kw-radius:26px}
+body{font-family:"Nunito","Trebuchet MS","Segoe UI",Tahoma,sans-serif;background:radial-gradient(ellipse at 5% 5%,#fff0cf 0,transparent 27%),radial-gradient(ellipse at 96% 7%,#e7e4ff 0,transparent 25%),linear-gradient(145deg,#f8fbff 0%,#eef5ff 52%,#fff9ed 100%)}
+button,.pill,.card,.sub,.lesson{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #6c8cff;outline-offset:3px}
+#app{padding-bottom:42px}
+.kw-welcome{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(160px,.65fr);gap:12px;align-items:center;padding:clamp(22px,4vw,38px);border:1px solid #e4e9fa;border-radius:30px;background:linear-gradient(115deg,#fff 0%,#f1f4ff 56%,#fff0d9 100%);box-shadow:var(--kw-shadow)}
+.kw-welcome:after{content:"🦊";justify-self:center;font-size:clamp(90px,14vw,150px);filter:drop-shadow(0 10px 6px #394b7922);animation:kw-float 3.8s ease-in-out infinite}
+.kw-eyebrow{display:inline-flex;align-items:center;gap:7px;padding:6px 12px;border-radius:99px;background:#e9efff;color:#4b62b5;font-weight:900;font-size:13px}
+.kw-welcome h2{font-size:clamp(26px,4.2vw,38px);line-height:1.18;color:#344b9a;margin:12px 0 8px;max-width:650px}
+.kw-welcome p{color:#657298;margin:0 0 14px;max-width:620px}
+.kw-welcome .kw-actions{display:flex;flex-wrap:wrap;gap:8px}
+.kw-welcome .kw-actions button{margin:0}
+.kw-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0 24px}
+.kw-stat{background:#fff;border:1px solid var(--kw-line);border-radius:20px;padding:15px 17px;box-shadow:0 6px 18px #425a9510}
+.kw-stat strong{display:block;font-size:clamp(21px,3vw,28px);color:#3f58a6;line-height:1.2}
+.kw-stat span{font-size:13px;color:var(--kw-muted);font-weight:800}
+.kw-section-head{display:flex;align-items:end;justify-content:space-between;gap:10px;margin:25px 2px 12px}
+.kw-section-head h2{margin:0;color:#344779}
+.kw-section-head p{margin:3px 0 0;color:var(--kw-muted);font-size:14px}
+.kw-subject{min-height:245px!important;align-items:flex-start!important;text-align:left!important;padding:22px!important;justify-content:flex-end!important}
+.kw-subject .em{font-size:54px!important;align-self:flex-start}
+.kw-subject h2{font-size:25px!important;margin:7px 0 3px!important}
+.kw-subject .kw-desc{color:#fff;font-size:14px;font-weight:700}
+.kw-subject .kw-progress{display:flex;justify-content:space-between;gap:8px;width:100%;font-size:12px;color:#fff;font-weight:900;margin-top:8px}
+.kw-subject .bar{margin:7px 0 0!important;max-width:none}
+.kw-subject:after{content:attr(data-deco);position:absolute;right:15px;top:9px;font-size:58px;opacity:.18;transform:rotate(-12deg)}
+.kw-badge-panel{display:flex;flex-wrap:wrap;gap:10px}
+.kw-badge{display:flex;align-items:center;gap:8px;padding:10px 14px;background:#fff;border:1px solid var(--kw-line);border-radius:16px;font-weight:800;color:#58658b}
+.kw-badge.locked{opacity:.5;filter:grayscale(.8)}
+.kw-subject-hero{padding:22px 24px;border-radius:26px;color:#fff;box-shadow:var(--kw-shadow);position:relative;overflow:hidden}
+.kw-subject-hero:after{content:attr(data-emoji);position:absolute;right:20px;top:5px;font-size:90px;opacity:.18}
+.kw-subject-hero h2{color:#fff;margin:5px 0}
+.kw-subject-hero p{margin:0;max-width:75%;color:#ffffffed}
+.kw-subject-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.kw-subject-meta span{background:#ffffff27;border:1px solid #ffffff44;border-radius:99px;padding:5px 11px;font-size:13px;font-weight:900}
+.kw-search{margin:15px 0 18px;position:relative}
+.kw-search input{max-width:none!important;padding:15px 18px 15px 48px!important;border-radius:17px!important;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23808eaf' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-4-4'/%3E%3C/svg%3E") no-repeat 16px center}
+.kw-topic-title{font-size:15px;font-weight:1000;color:#7581a2;margin:20px 2px 9px}
+.kw-lesson{display:flex;align-items:center;gap:12px;padding:14px 16px!important;margin:9px 0!important;background:#fff;border:1px solid var(--kw-line);border-radius:19px;box-shadow:0 5px 16px #40558e0c;cursor:pointer}
+.kw-lesson:hover{transform:translateY(-2px);box-shadow:0 10px 24px #40558e18}
+.kw-lesson .kw-number{display:grid;place-items:center;flex:0 0 43px;height:43px;border-radius:14px;background:#eef2ff;color:#5166b7;font-weight:1000}
+.kw-lesson .kw-main{min-width:0;flex:1}
+.kw-lesson .kw-title{font-weight:900;color:#344779}
+.kw-lesson small{color:#7a86a7}
+.kw-status{white-space:nowrap;font-size:12px;font-weight:900;padding:6px 9px;border-radius:99px;background:#f0f3fa;color:#7783a1}
+.kw-status.done{background:#e4f8ec;color:#258052}
+.kw-status.started{background:#fff4dc;color:#a66b15}
+.kw-lesson-intro{border-radius:24px;padding:19px 22px;margin:14px 0;background:linear-gradient(115deg,#fff,#f1f5ff);border:1px solid var(--kw-line)}
+.kw-lesson-intro h2{margin:3px 0 7px}
+.kw-lesson-intro .kw-chips{display:flex;flex-wrap:wrap;gap:7px}
+.kw-chip{background:#eaf0ff;color:#5064ad;border-radius:99px;padding:5px 10px;font-size:12px;font-weight:900}
+#app .card{box-shadow:0 8px 24px rgba(57,82,145,.075)}
+#app .opt{min-height:52px;font-size:17px}
+#app .fb{border:1px solid #e5ebfa}
+#app .bar{background:#e9eef9}
+#app .bar i{background:linear-gradient(90deg,#62c99b,#4b83f2)}
+#app .lesson:before{content:"📘"}
+@keyframes kw-float{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-8px) rotate(3deg)}}
+@media(max-width:650px){
+ .kw-welcome{grid-template-columns:1fr;padding:21px;min-height:0}
+ .kw-welcome:after{position:absolute;right:4px;bottom:2px;font-size:74px;opacity:.22}
+ .kw-welcome h2{max-width:100%;font-size:27px}
+ .kw-welcome p{max-width:100%;padding-right:28px}
+ .kw-stats{gap:8px}
+ .kw-stat{padding:12px 10px;border-radius:16px}
+ .kw-stat span{font-size:11px}
+ .kw-subject{min-height:205px!important}
+ .kw-subject-hero{padding:19px}
+ .kw-subject-hero p{max-width:100%;padding-right:38px}
+ .kw-subject-hero:after{right:8px;font-size:65px}
+ .kw-lesson{padding:12px!important;gap:9px}
+ .kw-lesson .kw-number{flex-basis:37px;height:37px}
+ .kw-status{font-size:10px;padding:5px 7px}
+}
+@media(prefers-reduced-motion:reduce){.kw-welcome:after{animation:none}}
+
 </style></head><body>
 <header><b onclick="go({p:'home'})">🌟 Hành trình tri thức – Lớp 3</b><div id="hd"></div></header>
 <main id="app"></main>
@@ -625,5 +703,65 @@ function gameResult(){
  var max=G.mode==="match"?G.pairs.length*10:G.answered*10;
  A.innerHTML='<div class="card" style="text-align:center;background:linear-gradient(135deg,#fff1a8,#d8f8e1)"><div style="font-size:64px">🏆</div><h2>Hoàn thành trò chơi!</h2><div class="big-star">⭐ '+G.score+'</div><p>Bạn đã trả lời <b>'+G.answered+'</b> câu. '+(G.score>=50?"Tuyệt vời! Bạn là nhà vô địch nhí!":"Cố gắng thêm nhé, mỗi lượt chơi giúp con tiến bộ hơn!")+'</p><button class="big" onclick="startMini(\''+G.mode+'\')">🔁 Chơi lại</button><button class="big" onclick="go({p:\'games\'})">🎮 Chọn trò khác</button><button class="ghost" onclick="go({p:\'home\'})">🏠 Trang chủ</button></div>';
 }
+</script>
+<script>
+
+/* ===== Kids Learning World: presentation-only overrides ===== */
+(function(){
+ var legacyLesson=lesson;
+ var subjectTheme={
+  toan:{color:"#477cf4",emoji:"🧮",deco:"🔢",tag:"TƯ DUY LOGIC",desc:"Khám phá những con số, hình học và thử thách tư duy."},
+  tv:{color:"#ed8b45",emoji:"📚",deco:"✍️",tag:"THẾ GIỚI NGÔN TỪ",desc:"Đọc những câu chuyện hay, khám phá tiếng Việt giàu đẹp."},
+  ta:{color:"#28a879",emoji:"🌍",deco:"🔤",tag:"ENGLISH ADVENTURE",desc:"Học từ mới, luyện giao tiếp và mở cánh cửa thế giới."}
+ };
+ function completed(){return Object.keys(P.les||{}).filter(function(k){return P.les[k]>0}).length}
+ function totalLessons(){return L.length}
+ function subjectCount(s){return ofS(s).length}
+ function subjectDone(s){return ofS(s).filter(function(l){return P.les[l[0]]>0}).length}
+ function escText(x){return esc(String(x==null?"":x))}
+ home=function(){
+  var nx=nextLesson(),done=completed(),total=totalLessons(),percent=total?Math.round(done/total*100):0;
+  var subjectCards=["toan","tv","ta"].map(function(s){
+   var d=S[s],t=subjectTheme[s],p=pct(s),count=subjectCount(s),finished=subjectDone(s);
+   return '<div class="card sub kw-subject" data-deco="'+t.deco+'" style="background:linear-gradient(145deg,'+t.color+','+t.color+'dd)" onclick="go({p:\'subj\',s:\''+s+'\'})"><div class="em">'+d.e+'</div><span class="kw-eyebrow">'+t.tag+'</span><h2>'+d.n+'</h2><div class="kw-desc">'+t.desc+'</div><div class="kw-progress"><span>'+finished+'/'+count+' bài hoàn thành</span><span>'+p+'%</span></div><div class="bar"><i style="width:'+p+'%"></i></div></div>';
+  }).join("");
+  var badges=BADGES.map(function(b){var ok=P.bd.indexOf(b[0])>=0;return '<div class="kw-badge '+(ok?"":"locked")+'">'+(ok?b[1]:"🔒 "+escText(b[1].replace(/^\S+ /,"")))+'</div>'}).join("");
+  A.innerHTML='<section class="kw-welcome"><div><span class="kw-eyebrow">✨ KIDS LEARNING WORLD · LỚP 3</span><h2>Xin chào '+escText(P.name)+'! Sẵn sàng cho chuyến phiêu lưu hôm nay?</h2><p>Mỗi bài học là một vùng đất mới. Hãy khám phá, luyện tập và thu thập những ngôi sao tri thức nhé!</p><div class="kw-actions">'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">🚀 Tiếp tục: '+escText(nx[2])+'</button>':'<button class="big" onclick="chal()">🏆 Ôn tập tổng hợp</button>')+'<button class="ghost" onclick="go({p:\'games\'})">🎮 Vào khu trò chơi</button></div></div></section>'+
+  '<section class="kw-stats"><div class="kw-stat"><strong>✨ '+P.xp+'</strong><span>ĐIỂM KINH NGHIỆM</span></div><div class="kw-stat"><strong>📘 '+done+'/'+total+'</strong><span>BÀI ĐÃ HOÀN THÀNH</span></div><div class="kw-stat"><strong>🌈 '+percent+'%</strong><span>HÀNH TRÌNH TRI THỨC</span></div></section>'+
+  '<div class="kw-section-head"><div><h2>🗺️ Chọn vùng đất khám phá</h2><p>Ba môn học – ba hành trình kỳ thú</p></div></div><div class="grid">'+subjectCards+'</div>'+
+  '<div class="kw-section-head"><div><h2>🏅 Bộ sưu tập huy hiệu</h2><p>Những dấu mốc đáng tự hào của em</p></div></div><div class="kw-badge-panel">'+badges+'</div>'+
+  '<p style="margin-top:22px"><button class="ghost" onclick="go({p:\'prof\'})">👤 Hồ sơ & sao lưu tiến độ</button></p>';
+ };
+ subj=function(){
+  var d=S[v.s],t=subjectTheme[v.s],q=v.q||"",p=pct(v.s);
+  A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><section class="kw-subject-hero" data-emoji="'+t.emoji+'" style="background:linear-gradient(120deg,'+t.color+','+t.color+'d9)"><span class="kw-eyebrow">'+t.tag+'</span><h2>'+d.e+' '+d.n+'</h2><p>'+t.desc+'</p><div class="kw-subject-meta"><span>📚 '+subjectCount(v.s)+' bài học</span><span>⭐ '+subjectDone(v.s)+' bài hoàn thành</span><span>📈 '+p+'% tiến độ</span></div></section><div class="kw-search"><input type="text" id="sq" placeholder="Tìm tên bài học..." value="'+escText(q)+'" oninput="v.q=this.value;list()"></div><div id="ls"></div>';
+  list();
+ };
+ list=function(){
+  var q=(v.q||"").toLocaleLowerCase("vi"),items=ofS(v.s).filter(function(l){return l[2].toLocaleLowerCase("vi").indexOf(q)>=0||String(l[4]).toLocaleLowerCase("vi").indexOf(q)>=0}),groups={};
+  items.forEach(function(l){(groups[l[4]]||(groups[l[4]]=[])).push(l)});
+  var html=Object.keys(groups).map(function(topic){
+   return '<div class="kw-topic-title">'+escText(topic)+'</div>'+groups[topic].map(function(l,i){
+    var score=P.les[l[0]]||0,status=score>=3?'<span class="kw-status done">✓ Hoàn thành</span>':score>0?'<span class="kw-status started">↗ Đang học</span>':'<span class="kw-status">Chưa học</span>';
+    return '<div class="kw-lesson" onclick="go({p:\'lesson\',id:\''+l[0]+'\'})"><div class="kw-number">'+(i+1)+'</div><div class="kw-main"><div class="kw-title">'+escText(l[2])+'</div><small>SGK trang '+l[3][0]+'–'+l[3][1]+'</small></div>'+status+'</div>';
+   }).join("");
+  }).join("");
+  document.getElementById("ls").innerHTML=html||'<div class="card">Chưa tìm thấy bài học. Em thử từ khóa khác nhé! 🔎</div>';
+ };
+ lesson=function(){
+  legacyLesson();
+  var l=byId(v.id),d=S[l[1]],t=subjectTheme[l[1]],card=A.querySelector(".card");
+  if(card){card.classList.add("kw-lesson-content");}
+  var intro=document.createElement("section");
+  intro.className="kw-lesson-intro";
+  intro.innerHTML='<span class="kw-eyebrow">'+t.tag+'</span><h2>'+d.e+' '+escText(l[2])+'</h2><div class="kw-chips"><span class="kw-chip">📖 SGK trang '+l[3][0]+'–'+l[3][1]+'</span><span class="kw-chip">⭐ '+(P.les[l[0]]?stars(P.les[l[0]]):"Bài học mới")+'</span><span class="kw-chip">🎯 Sẵn sàng chinh phục</span></div>';
+  var back=A.querySelector("button");
+  if(back&&back.parentNode)back.parentNode.insertBefore(intro,back.nextSibling);
+  var headings=A.querySelectorAll("h3");
+  if(headings[0])headings[0].textContent="🌟 1. Khám phá kiến thức";
+  if(headings[1])headings[1].textContent="🎮 2. Luyện tập & chinh phục";
+ };
+})();
+
 </script>
 </body></html>
