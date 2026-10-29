@@ -381,7 +381,7 @@ function gamePlay(){
  if(G.mode==="match")return gameMatchScreen();
  var q=G.mode==="tf"?G.current:G.all[G.idx%G.all.length];
  var title=G.mode==="speed"?"⏱️ Thử thách 60 giây":G.mode==="tf"?"🟢 Đúng hay sai?":"🧰 Mở rương kho báu";
- var prompt=G.mode==="tf"?(q.prompt+"<div class=\\"note\\">Nhận định: <b>"+esc(G.statement)+"</b></div>"):q.prompt;
+ var prompt=G.mode==="tf"?(q.prompt+"<div class='note'>Nhận định: <b>"+esc(G.statement)+"</b></div>"):q.prompt;
  var h='<button class="ghost" onclick="go({p:\'games\'})">← Chọn trò chơi</button><div class="card"><div class="row"><h2>'+title+'</h2><span class="pill">⭐ '+G.score+' điểm</span></div>';
  if(G.mode==="speed")h+='<div class="note">⏳ Còn <b id="gameClock">'+G.seconds+'</b> giây · Câu đã trả lời: '+G.answered+'</div>';
  if(G.mode==="treasure")h+='<div class="note">'+(G.chest[G.idx%G.chest.length]||"🎁 Rương kho báu")+' · Câu '+(G.idx+1)+'/'+G.all.length+'</div>';
@@ -411,7 +411,7 @@ function gamePlayWithFeedback(){
  var old=G.feedback;
  gamePlay();
  var fb=A.querySelector(".fb");if(fb)fb.textContent=old;
- var buttons=A.querySelectorAll(".opt");buttons.forEach(function(b){b.disabled=true;});
+ var allButtons=A.querySelectorAll("button");allButtons.forEach(function(b){b.disabled=true;});
  var card=A.querySelector(".card");if(card){var n=document.createElement("button");n.className="big";n.textContent="Câu tiếp theo ➜";n.onclick=function(){G.idx++;if(G.idx>=G.all.length){G.ended=true;}else if(G.mode==="tf")prepareTF();G.feedback="";gamePlay();};card.appendChild(n);}
 }
 function answerTF(chosen){
