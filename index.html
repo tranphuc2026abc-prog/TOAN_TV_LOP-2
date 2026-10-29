@@ -48,7 +48,143 @@ var L=[
 ["TA3_T1_U03","ta","Unit 3: Our friends",[22,27],"Unit 3",["Từ vựng: friend, it, Mr, Ms, no, teacher, that, this, yes.","Mẫu câu: This is + tên. That’s + tên. Is this/that + tên? → Yes, it is. / No, it isn’t.","Phát âm: /ð/ (that) và /θ/ (thank)."],1,"TA3_T1_U02","TA3_T1_U04",[["Is this Nam? → Chọn câu trả lời đúng.","Yes, it is.",["I’m fine.","My name’s Nam."]],["“teacher” nghĩa là gì?","giáo viên",["bạn bè","tên"]]]],
 ["TA3_T1_U04","ta","Unit 4: Our bodies",[28,33],"Unit 4",["Từ vựng: ear, eye, face, hair, hand, mouth, nose, open, touch.","Mẫu câu: What’s this? / Touch your…! / Open your…!","(Chưa có kho kiến thức riêng cho bài này – chỉ dùng mục lục.)"],0,"TA3_T1_U03",null,[["Touch your … (chạm vào mũi của em)","nose",["ear","hand"]],["“ear” nghĩa là gì?","tai",["mắt","miệng"]]]]
 ];
-var CURRICULUM_COMPLETE={toan:false,tv:false,ta:false}; // Chỉ bật true sau khi kiểm đủ dữ liệu toàn bộ sách.
+
+var ENGLISH_DATA={
+"TA3_T1_START":{v:"Numbers 1–10; alphabet A–Z",s:"Count from one to ten; identify and name letters.",q:[["Which number comes after six?","seven",["five","eight"]],["How many letters are there in the English alphabet?","26",["20","30"]]]},
+"TA3_T1_U05":{v:"cooking, dancing, drawing, painting, running, singing, swimming, walking",s:"What's your hobby? — It's ... / I like ...",q:[["Which question asks about a hobby?","What's your hobby?",["How old are you?","Where's the book?"]],["Which word is a hobby?","swimming",["bedroom","doctor"]]]},
+"TA3_T1_U06":{v:"art room, classroom, library, playground, school",s:"Is this our ...? — Yes, it is. / No, it isn't. Let's go to the ...",q:[["Where do pupils read books?","library",["playground","bathroom"]],["Which phrase makes a suggestion?","Let's go to the playground.",["I'm eight years old.","Touch your nose."]]]},
+"TA3_T1_U07":{v:"close, come in, go out, sit down, speak, stand",s:"Giving classroom instructions with '..., please!' and asking permission with 'May I ...?'",q:[["What does 'Stand up, please' mean?","Hãy đứng lên.",["Hãy ngồi xuống.","Hãy đi ra ngoài."]],["Which phrase asks permission?","May I go out?",["What's your name?","What colour is it?"]]]},
+"TA3_T1_U08":{v:"book, eraser, notebook, pen, pencil, pencil case, ruler, school bag",s:"Do you have a ...? — Yes, I do. / No, I don't.",q:[["Which item is used to erase pencil marks?","eraser",["ruler","school bag"]],["How do you ask whether someone has a pen?","Do you have a pen?",["Where is the pen?","What is your hobby?"]]]},
+"TA3_T1_U09":{v:"black, blue, brown, green, orange, red, white, yellow",s:"What colour is it? — It's ... / What colour are they? — They're ...",q:[["Which question asks about colour?","What colour is it?",["How old are you?","Who's this?"]],["What does 'blue' mean?","màu xanh dương",["màu đỏ","màu vàng"]]]},
+"TA3_T1_U10":{v:"break time, chat, do word puzzles, play badminton, basketball, chess, football, table tennis, volleyball",s:"What do you do at break time? — I play ... / I ...",q:[["Which is a break-time activity?","playing football",["sleeping in a bed","cooking dinner"]],["Which question asks about break-time activities?","What do you do at break time?",["What's your name?","What's this?"]]]},
+"TA3_T1_R01":{v:"Review of Starter and Units 1–5: numbers, greetings, names, friends, body parts and hobbies",s:"Practise listening, speaking, reading and writing with familiar words and sentence patterns.",q:[["Which phrase is a greeting?","Hello!",["Goodbye!","Thank you!"]],["Which question asks about a hobby?","What's your hobby?",["How old are you?","Who's this?"]]]},
+"TA3_T1_R02":{v:"Review of Units 6–10: school, classroom instructions, school things, colours and break-time activities",s:"Review vocabulary and use short questions and answers in familiar school situations.",q:[["Which word names a school thing?","notebook",["farmer","tiger"]],["Which phrase asks about colour?","What colour is it?",["How are you?","Where are you from?"]]]},
+"TA3_T2_U11":{v:"brother, father, mother, sister; numbers eleven to twenty",s:"Who's this/that? — It's my ... / How old is he/she?",q:[["Who's this? — It's my ...","mother",["classroom","kite"]],["Which word means 'anh/em trai'?","brother",["sister","mother"]]]},
+"TA3_T2_U12":{v:"cook, doctor, driver, farmer, nurse, singer, teacher, worker",s:"What's his/her job? — He's/She's a ... / Is he/she a ...?",q:[["Who helps sick people?","doctor",["driver","singer"]],["Which question asks about a person's job?","What's her job?",["How old is she?","Where's the bedroom?"]]]},
+"TA3_T2_U13":{v:"bathroom, bedroom, chair, house, kitchen, lamp, living room, table; here, there, in, on",s:"Where's the ...? — It's here/there. / Where are the ...? — They're ...",q:[["Where do people cook?","kitchen",["bedroom","living room"]],["Which word means 'trên'?","on",["under","behind"]]]},
+"TA3_T2_U14":{v:"bed, big, desk, door, new, old, room, small, window",s:"There's/There are ... in the room. / The ... is ...; The ... are ...",q:[["Which sentence describes one thing in a room?","There is a bed.",["There are three beds.","How old are you?"]],["What is the opposite of 'big'?","small",["new","old"]]]},
+"TA3_T2_U15":{v:"bean, bread, chicken, egg, fish, juice, meat, milk, rice, water",s:"Would you like some ...? — Yes, please. / No, thanks. What would you like to eat/drink? — I'd like ...",q:[["Which phrase politely accepts food?","Yes, please.",["Goodbye.","I'm eight."]],["Which word is a drink?","juice",["bread","chicken"]]]},
+"TA3_T2_R03":{v:"Review of Units 11–15: family, jobs, house, bedroom, food and drinks",s:"Review vocabulary and ask/answer questions about family, places and preferences.",q:[["Which word names a job?","teacher",["bedroom","kite"]],["How can you politely decline food?","No, thanks.",["Yes, please.","I'm fine."]]]},
+"TA3_T2_U16":{v:"bird, cat, dog, goldfish, parrot, rabbit; many, some",s:"Do you have any ...? — Yes, I do. / No, I don't. How many ... do you have?",q:[["Which animal can be kept as a pet?","rabbit",["tiger","elephant"]],["Which question asks about the number of pets?","How many pets do you have?",["What's your hobby?","What's his job?"]]]},
+"TA3_T2_U17":{v:"bus, car, kite, plane, ship, teddy bear, toy, train, truck",s:"He/She has ... / They have ...",q:[["Which word names a toy?","teddy bear",["nurse","kitchen"]],["Choose the correct sentence.","She has a kite.",["She have a kite.","She are a kite."]]]},
+"TA3_T2_U18":{v:"dancing, drawing a picture, listening to music, playing basketball, reading, singing, watching TV, writing",s:"I'm ... / What are you doing? — I'm ...",q:[["Which sentence describes an action happening now?","I'm reading.",["I read yesterday.","I am a teacher."]],["What does 'singing' mean?","đang hát",["đang ngủ","đang chạy"]]]},
+"TA3_T2_U19":{v:"cycling, flying a kite, painting, playing badminton, running, skating, skipping, walking",s:"He's/She's ... / What's he/she doing?",q:[["Which activity is done outdoors?","flying a kite",["sleeping in bed","washing a plate"]],["Which question asks what a person is doing?","What's he doing?",["What's his name?","What colour is it?"]]]},
+"TA3_T2_U20":{v:"climbing, counting, dancing, elephant, horse, monkey, parrot, peacock, swinging, tiger",s:"What can you see? — I can see ... / What's the ... doing?",q:[["Which animal is commonly seen at a zoo?","elephant",["pencil","ruler"]],["Which sentence says what you can see?","I can see a tiger.",["I have a ruler.","I'm eight years old."]]]},
+"TA3_T2_R04":{v:"Review of Units 16–20: pets, toys, actions, outdoor activities and zoo animals",s:"Review vocabulary and short questions about animals, possessions and actions.",q:[["Which word names an animal?","parrot",["notebook","bedroom"]],["Which sentence describes an action happening now?","He's cycling.",["He is a doctor.","This is my father."]]]}
+};
+function autoMathConcepts(t){
+ var s=t.toLowerCase();
+ if(s.indexOf("luyện tập chung")>=0||s.indexOf("ôn tập chung")>=0)return ["Ôn lại các kiến thức đã học trong chủ đề; chọn đúng phép tính hoặc cách giải phù hợp.","Trình bày từng bước, ghi đơn vị khi cần và kiểm tra kết quả bằng cách tính ngược hoặc ước lượng.","Luyện tập kết hợp nhiều dạng toán thay vì chỉ áp dụng một quy tắc."];
+ if(s.indexOf("bảng nhân")>=0||s.indexOf("bảng chia")>=0)return ["Ghi nhớ bảng nhân/chia tương ứng; phép chia là phép tính ngược của phép nhân.","Dùng phép nhân để tìm tích và phép chia để chia đều hoặc tìm số nhóm.","Kiểm tra kết quả phép chia bằng thương nhân số chia."];
+ if(s.indexOf("tìm thành phần")>=0)return ["Dựa vào mối quan hệ giữa các thành phần và kết quả để tìm số chưa biết.","Phép cộng: số hạng = tổng trừ số hạng đã biết; phép trừ: dùng tổng/hiệu và số trừ để suy ra thành phần còn thiếu.","Phép nhân/chia: dùng phép tính ngược để kiểm tra đáp án."];
+ if(s.indexOf("làm tròn")>=0)return ["Xác định hàng cần làm tròn và nhìn chữ số ngay bên phải hàng đó.","Nếu chữ số bên phải bé hơn 5 thì làm tròn xuống; từ 5 trở lên thì làm tròn lên.","Giữ nguyên các chữ số bên trái hàng làm tròn và thay các chữ số phía sau bằng 0."];
+ if(s.indexOf("chu vi")>=0)return ["Chu vi là tổng độ dài các cạnh của hình.","Hình chữ nhật: chu vi bằng tổng chiều dài và chiều rộng nhân 2; hình vuông: độ dài một cạnh nhân 4.","Đổi các số đo về cùng đơn vị trước khi tính."];
+ if(s.indexOf("diện tích")>=0)return ["Diện tích cho biết phần mặt phẳng được hình chiếm chỗ; có thể hình dung bằng các ô vuông đơn vị.","Diện tích hình chữ nhật bằng chiều dài nhân chiều rộng; hình vuông bằng cạnh nhân cạnh.","Ghi đúng đơn vị diện tích, chẳng hạn cm²."];
+ if(s.indexOf("nhân số có")>=0)return ["Đặt tính thẳng hàng theo giá trị hàng và nhân lần lượt từ hàng đơn vị.","Nếu tích ở một hàng vượt quá 9, viết chữ số hàng đơn vị và nhớ sang hàng kế tiếp.","Ước lượng kết quả trước khi tính để phát hiện sai sót."];
+ if(s.indexOf("chia số có")>=0||s.indexOf("phép chia")>=0)return ["Thực hiện chia lần lượt từ hàng cao nhất; mỗi bước gồm chia, nhân, trừ và hạ chữ số tiếp theo.","Phép chia hết có số dư bằng 0; phép chia có dư luôn có số dư nhỏ hơn số chia.","Kiểm tra: số bị chia = thương × số chia + số dư."];
+ if(s.indexOf("các số có bốn chữ số")>=0||s.indexOf("các số có năm chữ số")>=0||s.indexOf("ôn tập các số")>=0)return ["Xác định giá trị từng chữ số theo hàng; đọc và viết số đúng cấu tạo.","Phân tích số thành tổng các nghìn/trăm/chục/đơn vị tương ứng.","So sánh các số từ hàng lớn nhất; chú ý các chữ số 0 ở giữa hoặc cuối số."];
+ if(s.indexOf("so sánh các số")>=0||s.indexOf("so sánh số")>=0)return ["So sánh từ hàng cao nhất; hàng nào khác nhau trước thì quyết định số lớn hơn.","Nếu các hàng bằng nhau, tiếp tục so sánh hàng kế tiếp.","Dùng đúng dấu >, < hoặc = và kiểm tra lại cách đọc số."];
+ if(s.indexOf("phép cộng")>=0)return ["Đặt tính sao cho các chữ số cùng hàng thẳng cột.","Cộng từ hàng đơn vị sang trái; nhớ sang hàng tiếp theo khi cần.","Kiểm tra kết quả bằng ước lượng hoặc phép trừ ngược."];
+ if(s.indexOf("phép trừ")>=0)return ["Đặt tính sao cho các chữ số cùng hàng thẳng cột.","Trừ từ hàng đơn vị sang trái; thực hiện đổi một chục/trăm/nghìn khi cần.","Kiểm tra bằng cách lấy hiệu cộng số trừ."];
+ if(s.indexOf("một phần mấy")>=0)return ["Chia một đơn vị hoặc một nhóm thành các phần bằng nhau.","Một phần mấy cho biết lấy một trong số phần bằng nhau đó.","Muốn tìm một phần của số lượng, chia số lượng cho số phần bằng nhau."];
+ if(s.indexOf("gấp một số")>=0)return ["Gấp một số lên nhiều lần bằng cách lấy số đó nhân với số lần.","Phân biệt 'gấp ... lần' với 'thêm ... đơn vị'.","Dùng sơ đồ đoạn thẳng để biểu diễn quan hệ giữa hai số."];
+ if(s.indexOf("giảm một số")>=0)return ["Giảm một số đi một số lần bằng cách lấy số đó chia cho số lần.","Phân biệt 'giảm ... lần' với 'bớt ... đơn vị'.","Kiểm tra bằng cách lấy kết quả nhân với số lần."];
+ if(s.indexOf("biểu thức số")>=0)return ["Thực hiện phép nhân/chia trước phép cộng/trừ khi không có dấu ngoặc.","Tính theo thứ tự từ trái sang phải đối với các phép tính cùng mức ưu tiên.","Tính từng bước và ghi kết quả trung gian để tránh nhầm lẫn."];
+ if(s.indexOf("mi-li-mét")>=0)return ["Mi-li-mét là đơn vị đo độ dài; 1 cm = 10 mm.","Chọn đơn vị phù hợp với kích thước cần đo.","Đổi đơn vị trước khi so sánh hoặc cộng trừ các số đo."];
+ if(s.indexOf("gam")>=0)return ["Gam là đơn vị đo khối lượng; 1 kg = 1 000 g.","Dùng cân để đo và so sánh khối lượng.","Cộng/trừ khối lượng khi các số đo cùng đơn vị."];
+ if(s.indexOf("mi-li-lít")>=0)return ["Mi-li-lít là đơn vị đo dung tích; 1 l = 1 000 ml.","Đọc vạch chia trên dụng cụ đo và chọn đơn vị phù hợp.","Đổi đơn vị trước khi cộng hoặc so sánh dung tích."];
+ if(s.indexOf("nhiệt độ")>=0)return ["Nhiệt độ thường được đo bằng độ C (°C).","Đọc số chỉ trên nhiệt kế và so sánh nhiệt độ.","Nhiệt độ cao hơn biểu thị nóng hơn trong cùng điều kiện đo."];
+ if(s.indexOf("hình tròn")>=0)return ["Tâm là điểm ở giữa hình tròn; bán kính nối tâm với đường tròn.","Đường kính đi qua tâm và bằng hai lần bán kính.","Dùng compa để vẽ đường tròn theo bán kính cho trước."];
+ if(s.indexOf("góc")>=0)return ["Góc được tạo bởi hai tia chung gốc.","Góc vuông giống góc ở góc tờ giấy; góc không vuông khác góc vuông.","Dùng ê-ke để nhận biết hoặc kiểm tra góc vuông."];
+ if(s.indexOf("tam giác")>=0||s.indexOf("tứ giác")>=0||s.indexOf("hình chữ nhật")>=0||s.indexOf("hình vuông")>=0)return ["Nhận biết hình qua số cạnh, số đỉnh và các đặc điểm của cạnh.","Hình tam giác có 3 cạnh; hình tứ giác có 4 cạnh.","Hình chữ nhật có các góc vuông; hình vuông có 4 cạnh bằng nhau và 4 góc vuông."];
+ if(s.indexOf("khối lập phương")>=0||s.indexOf("khối hộp")>=0)return ["Nhận biết khối qua các mặt, cạnh và đỉnh.","Khối lập phương có 6 mặt hình vuông bằng nhau.","Quan sát vật thật để phân biệt khối lập phương và khối hộp chữ nhật."];
+ if(s.indexOf("điểm ở giữa")>=0||s.indexOf("trung điểm")>=0)return ["Điểm ở giữa nằm trên đoạn thẳng và ở giữa hai đầu mút.","Trung điểm chia đoạn thẳng thành hai đoạn bằng nhau.","Kiểm tra trung điểm bằng cách so sánh độ dài hai đoạn."];
+ if(s.indexOf("chữ số la mã")>=0)return ["Nhận biết các chữ số La Mã cơ bản I, V, X và cách ghép chúng.","Đọc số theo quy tắc cộng/trừ của các ký hiệu trong phạm vi đã học.","Dùng que tính hoặc thẻ số để luyện đọc và viết số La Mã."];
+ if(s.indexOf("đồng hồ")>=0||s.indexOf("tháng")>=0||s.indexOf("lịch")>=0)return ["Đọc giờ trên đồng hồ và xác định vị trí kim giờ, kim phút.","Dùng lịch để xác định ngày, tháng, năm và thứ trong tuần.","Đối chiếu thông tin thời gian với lịch hoặc đồng hồ thực tế."];
+ if(s.indexOf("tiền việt nam")>=0)return ["Nhận biết mệnh giá tiền Việt Nam đã học.","Cộng các mệnh giá để tính số tiền có; trừ để tính tiền còn lại.","So sánh giá tiền và chọn cách trả tiền phù hợp."];
+ if(s.indexOf("thu thập")>=0||s.indexOf("bảng số liệu")>=0)return ["Thu thập dữ liệu theo một câu hỏi rõ ràng rồi phân loại và ghi chép.","Đọc hàng/cột, tên đối tượng và số lượng trong bảng số liệu.","Dựa vào dữ liệu để trả lời câu hỏi, tránh suy đoán ngoài bảng."];
+ if(s.indexOf("khả năng xảy ra")>=0)return ["Phân biệt sự kiện chắc chắn, có thể xảy ra và không thể xảy ra.","Dựa vào điều kiện thực tế để dự đoán kết quả của một sự kiện.","Nêu lí do cho dự đoán thay vì chỉ chọn đáp án."];
+ if(s.indexOf("so sánh số lớn gấp")>=0)return ["Muốn biết số lớn gấp mấy lần số bé, lấy số lớn chia cho số bé.","Hai số cần so sánh cùng đại lượng và số bé khác 0.","Kiểm tra bằng cách lấy số bé nhân số lần."];
+ return ["Nắm được trọng tâm của bài và cách sử dụng kiến thức trong tình huống cụ thể.","Quan sát ví dụ trong SGK trang "+ " và thực hiện từng bước một cách cẩn thận.","Luyện tập với số liệu hoặc tình huống mới, sau đó tự kiểm tra kết quả."];
+}
+function autoQuestions(x){
+ var t=x.title.toLowerCase(),s=x.subject;
+ if(s==="ta"){
+  var e=ENGLISH_DATA[x.id];
+  if(e&&e.q)return e.q;
+  return [["Which phrase is a greeting?","Hello!",["Goodbye!","Thank you!"]],["What should you do when reviewing a unit?","Practise listening, speaking, reading and writing.",["Only copy the title.","Skip the new words."]]];
+ }
+ if(s==="tv"){
+  var theme=t.indexOf("trái đất")>=0||t.indexOf("mái nhà chung")>=0?"thiên nhiên và môi trường":t.indexOf("nhà")>=0||t.indexOf("mẹ")>=0||t.indexOf("ông")>=0||t.indexOf("em tôi")>=0?"gia đình và tình cảm":t.indexOf("trường")>=0||t.indexOf("thư viện")>=0||t.indexOf("đội")>=0?"nhà trường":t.indexOf("rừng")>=0||t.indexOf("cây")>=0||t.indexOf("bầu trời")>=0||t.indexOf("mưa")>=0||t.indexOf("sông")>=0||t.indexOf("núi")>=0?"thiên nhiên":t.indexOf("bác sĩ")>=0||t.indexOf("hai bà trưng")>=0||t.indexOf("đất nước")>=0?"con người và đất nước":"đọc hiểu và trải nghiệm cuộc sống";
+  return [["Bài đọc “"+x.title+"” gần với chủ đề nào nhất?",theme,["đồ dùng học tập và phép tính","màu sắc của phương tiện giao thông"]],["Khi tìm ý chính của bài đọc, em nên làm gì?","Dựa vào toàn bài và các chi tiết nổi bật.",["Chỉ nhìn nhan đề rồi đoán.","Bỏ qua những chi tiết quan trọng."]],["Sau khi đọc, cách trình bày cảm nhận phù hợp là gì?","Nêu ý bằng lời của mình và dựa vào chi tiết trong bài.",["Chép nguyên văn toàn bài.","Chỉ nói một từ mà không giải thích."]]];
+ }
+ if(/bảng nhân (\d+)/i.test(x.title)){
+  var n=Number((x.title.match(/bảng nhân (\d+)/i)||[])[1])||2;
+  return [[n+" × 6 = ?",n*6],[n*8+" : "+n+" = ?",8],["Có "+n+" nhóm, mỗi nhóm 4 đồ vật. Có tất cả bao nhiêu đồ vật?",n*4]];
+ }
+ if(t.indexOf("tìm thành phần trong phép cộng")>=0)return [["x + 27 = 65. Tìm x.",38],["x − 18 = 34. Tìm x.",52],["80 − x = 45. Tìm x.",35]];
+ if(t.indexOf("tìm thành phần trong phép nhân")>=0)return [["x × 7 = 42. Tìm x.",6],["56 : x = 8. Tìm x.",7],["x : 5 = 6. Tìm x.",30]];
+ if(t.indexOf("một phần mấy")>=0)return [["Một phần tư của 20 là bao nhiêu?",5],["Một phần ba của 18 là bao nhiêu?",6],["Chia 24 thành 6 phần bằng nhau. Mỗi phần có bao nhiêu?",4]];
+ if(t.indexOf("làm tròn")>=0)return [["Làm tròn 347 đến hàng chục.",350],["Làm tròn 4 628 đến hàng trăm.",4600],["Làm tròn 26 400 đến hàng nghìn.",26000]];
+ if(t.indexOf("chu vi")>=0)return [["Hình chữ nhật dài 5 cm, rộng 3 cm. Chu vi là bao nhiêu cm?",16],["Hình vuông có cạnh 4 cm. Chu vi là bao nhiêu cm?",16],["Tam giác có các cạnh 3 cm, 4 cm, 5 cm. Chu vi là bao nhiêu cm?",12]];
+ if(t.indexOf("diện tích")>=0)return [["Hình chữ nhật dài 4 cm, rộng 3 cm. Diện tích là bao nhiêu cm²?",12],["Hình vuông có cạnh 5 cm. Diện tích là bao nhiêu cm²?",25],["Một hình có 12 ô vuông đơn vị. Diện tích là bao nhiêu ô vuông đơn vị?",12]];
+ if(t.indexOf("nhân số có hai chữ số")>=0)return [["24 × 3 = ?",72],["32 × 4 = ?",128],["15 × 6 = ?",90]];
+ if(t.indexOf("nhân số có ba chữ số")>=0)return [["124 × 3 = ?",372],["213 × 4 = ?",852],["305 × 2 = ?",610]];
+ if(t.indexOf("nhân số có bốn chữ số")>=0)return [["1 234 × 3 = ?",3702],["2 105 × 4 = ?",8420],["1 111 × 5 = ?",5555]];
+ if(t.indexOf("nhân số có năm chữ số")>=0)return [["12 345 × 2 = ?",24690],["10 205 × 3 = ?",30615],["21 111 × 4 = ?",84444]];
+ if(t.indexOf("chia số có hai chữ số")>=0)return [["96 : 3 = ?",32],["84 : 4 = ?",21],["75 : 5 = ?",15]];
+ if(t.indexOf("chia số có ba chữ số")>=0)return [["936 : 3 = ?",312],["848 : 4 = ?",212],["693 : 3 = ?",231]];
+ if(t.indexOf("chia số có bốn chữ số")>=0)return [["1 236 : 3 = ?",412],["2 484 : 4 = ?",621],["3 696 : 3 = ?",1232]];
+ if(t.indexOf("chia số có năm chữ số")>=0)return [["12 345 : 5 = ?",2469],["24 864 : 4 = ?",6216],["36 936 : 3 = ?",12312]];
+ if(t.indexOf("gấp một số")>=0)return [["Gấp 7 lên 4 lần được bao nhiêu?",28],["Gấp 9 lên 3 lần được bao nhiêu?",27],["Gấp 12 lên 5 lần được bao nhiêu?",60]];
+ if(t.indexOf("giảm một số")>=0)return [["Giảm 36 đi 4 lần được bao nhiêu?",9],["Giảm 45 đi 5 lần được bao nhiêu?",9],["Giảm 64 đi 8 lần được bao nhiêu?",8]];
+ if(t.indexOf("chia hết, phép chia có dư")>=0)return [["17 : 5 có số dư là bao nhiêu?",2],["23 : 4 có số dư là bao nhiêu?",3],["29 : 6 có thương là bao nhiêu?",4]];
+ if(t.indexOf("biểu thức số")>=0)return [["3 + 4 × 2 = ?",11],["(12 − 4) : 2 = ?",4],["18 : 3 + 5 = ?",11]];
+ if(t.indexOf("mi-li-mét")>=0)return [["3 cm bằng bao nhiêu mm?",30],["50 mm bằng bao nhiêu cm?",5],["7 cm bằng bao nhiêu mm?",70]];
+ if(t.indexOf("gam")>=0)return [["1 kg bằng bao nhiêu gam?",1000],["500 g + 300 g = ? (g)",800],["1 000 g bằng bao nhiêu kg?",1]];
+ if(t.indexOf("mi-li-lít")>=0)return [["1 l bằng bao nhiêu ml?",1000],["250 ml + 500 ml = ? (ml)",750],["2 l bằng bao nhiêu ml?",2000]];
+ if(t.indexOf("nhiệt độ")>=0)return [["25°C và 18°C, nhiệt độ nào cao hơn?","25°C",["18°C","Hai nhiệt độ bằng nhau"]],["Nhiệt độ thường được ghi bằng đơn vị nào?","độ C (°C)",["cm","kg"]]];
+ if(t.indexOf("các số có bốn chữ số")>=0)return [["Số gồm 3 nghìn, 4 trăm, 2 chục và 1 đơn vị là?",3421],["9 999 + 1 = ?",10000],["Chữ số hàng trăm của 7 462 là?",4]];
+ if(t.indexOf("các số có năm chữ số")>=0)return [["Số gồm 2 chục nghìn, 4 nghìn, 3 trăm, 0 chục và 6 đơn vị là?",24306],["99 999 + 1 = ?",100000],["Chữ số hàng nghìn của 52 418 là?",2]];
+ if(t.indexOf("so sánh các số")>=0)return [["Chọn dấu thích hợp: 5 400 __ 4 500"," >",["<","="]],["Chọn dấu thích hợp: 12 030 __ 12 300","<",[">","="]],["Chọn dấu thích hợp: 80 000 __ 80 000","=",[">","<"]]];
+ if(t.indexOf("chữ số la mã")>=0)return [["Chữ số La Mã XII là số nào?",12],["Viết số 9 bằng chữ số La Mã.","IX",["XI","IV"]],["Chữ số La Mã X có giá trị là bao nhiêu?",10]];
+ if(t.indexOf("điểm ở giữa")>=0||t.indexOf("trung điểm")>=0)return [["Trung điểm chia đoạn thẳng thành mấy đoạn bằng nhau?",2],["Nếu AB = BC và B nằm giữa A, C thì B là gì?","trung điểm của AC",["đầu mút của AC","đường kính của đường tròn"]]];
+ if(t.indexOf("hình tròn")>=0)return [["Đường kính của hình tròn bằng mấy lần bán kính?",2],["Đoạn thẳng nối tâm với một điểm trên đường tròn gọi là gì?","bán kính",["chu vi","đường kính"]]];
+ if(t.indexOf("góc")>=0)return [["Góc vuông có số đo bao nhiêu độ?",90],["Dụng cụ nào giúp kiểm tra góc vuông?","ê-ke",["cân","nhiệt kế"]]];
+ if(t.indexOf("khối lập phương")>=0||t.indexOf("khối hộp")>=0)return [["Khối lập phương có bao nhiêu mặt?",6],["Các mặt của khối lập phương có hình gì?","hình vuông",["hình tròn","hình tam giác"]]];
+ if(t.indexOf("gấp")>=0&&t.indexOf("gấp một số")<0)return [["7 × 4 = ?",28],["36 : 4 = ?",9],["24 : 6 = ?",4]];
+ if(t.indexOf("tiền việt nam")>=0)return [["5 000 đồng + 2 000 đồng = ? (đồng)",7000],["10 000 đồng − 3 000 đồng = ? (đồng)",7000],["Hai tờ 2 000 đồng có tất cả bao nhiêu đồng?",4000]];
+ if(t.indexOf("đồng hồ")>=0||t.indexOf("lịch")>=0)return [["Kim phút chỉ số 12, kim giờ chỉ số 3. Đồng hồ chỉ mấy giờ?",3],["Một tuần có bao nhiêu ngày?",7],["Một năm thường có bao nhiêu tháng?",12]];
+ if(t.indexOf("thu thập")>=0||t.indexOf("bảng số liệu")>=0)return [["Một bảng có 4 bạn thích táo và 3 bạn thích lê. Có tất cả bao nhiêu bạn?",7],["Khi đọc bảng số liệu, trước tiên cần xem gì?","tên hàng/cột và đơn vị",["màu nền của trang","tên người viết sách"]]];
+ if(t.indexOf("khả năng xảy ra")>=0)return [["Mặt trời mọc vào buổi sáng ngày mai là sự kiện nào?","chắc chắn",["không thể xảy ra","chỉ có thể xảy ra nếu tung đồng xu"]],["Khi tung một đồng xu, kết quả mặt sấp là gì?","có thể xảy ra",["chắc chắn xảy ra","không thể xảy ra"]]];
+ if(t.indexOf("so sánh số lớn gấp")>=0)return [["24 lớn gấp mấy lần 6?",4],["35 lớn gấp mấy lần 5?",7],["18 lớn gấp mấy lần 3?",6]];
+ if(t.indexOf("phép cộng")>=0)return [["347 + 286 = ?",633],["560 + 140 = ?",700],["1 250 + 750 = ?",2000]];
+ if(t.indexOf("phép trừ")>=0)return [["804 − 276 = ?",528],["1 000 − 358 = ?",642],["900 − 475 = ?",425]];
+ if(t.indexOf("tam giác")>=0||t.indexOf("tứ giác")>=0||t.indexOf("hình chữ nhật")>=0||t.indexOf("hình vuông")>=0)return [["Hình tam giác có bao nhiêu cạnh?",3],["Hình vuông có bao nhiêu cạnh bằng nhau?",4],["Hình chữ nhật có bao nhiêu góc vuông?",4]];
+ return [["245 + 130 = ?",375],["600 − 275 = ?",325],["6 × 7 = ?",42]];
+}
+function autoLesson(x){
+ var c=[],q=autoQuestions(x),t=x.title,s=x.subject;
+ if(s==="toan")c=autoMathConcepts(t);
+ else if(s==="ta"){
+  var e=ENGLISH_DATA[x.id];
+  c=e?["Vocabulary: "+e.v+".","Structures: "+e.s,"Practice listening, repeating, speaking and writing with the words and sentence patterns."]:["Review key vocabulary from "+t+".","Use familiar short questions and answers in context.","Practise listening, speaking, reading and writing."];
+ }else{
+  var theme=t.indexOf("Trái Đất")>=0||t.indexOf("mái nhà chung")>=0?"thiên nhiên và môi trường":t.indexOf("nhà")>=0||t.indexOf("mẹ")>=0||t.indexOf("ông")>=0||t.indexOf("em tôi")>=0?"gia đình và tình cảm":t.indexOf("trường")>=0||t.indexOf("thư viện")>=0||t.indexOf("Đội")>=0?"nhà trường":t.indexOf("rừng")>=0||t.indexOf("cây")>=0||t.indexOf("bầu trời")>=0||t.indexOf("Mưa")>=0||t.indexOf("sông")>=0||t.indexOf("núi")>=0?"thiên nhiên":t.indexOf("Bác sĩ")>=0||t.indexOf("Bà Trưng")>=0||t.indexOf("đất nước")>=0?"con người và đất nước":"đọc hiểu và trải nghiệm cuộc sống";
+  c=["Đọc hiểu bài “"+t+"”: xác định ý chính, nhân vật/sự việc hoặc hình ảnh nổi bật; tìm chi tiết làm căn cứ.","Tiếng Việt theo chủ điểm "+theme+": chú ý từ ngữ gợi tả, cách dùng câu và dấu câu trong văn bản.","Vận dụng: nêu cảm nhận bằng lời của em; luyện nói/nghe và hoàn thành nhiệm vụ viết tương ứng với bài."];
+ }
+ return [x.id,s,t,[x.page_start,x.page_end],x.volume,c,1,null,null,q];
+}
+function loadFullCurriculum(){
+ fetch("data/CHUONG_TRINH_LOP_3_FULL.json").then(function(r){if(!r.ok)throw new Error("Không tải được danh mục bài học");return r.json()}).then(function(data){
+  var seen={};L.forEach(function(l){seen[l[0]]=true});
+  data.lessons.forEach(function(x){if(!seen[x.id]){L.push(autoLesson(x));seen[x.id]=true}});
+  CURRICULUM_COMPLETE={toan:true,tv:true,ta:true};
+  if(P)draw();
+ }).catch(function(err){console.warn("Không tải được danh mục đầy đủ:",err)});
+}
+
+var CURRICULUM_COMPLETE={toan:false,tv:false,ta:false}; // Chỉ bật true sau khi danh mục đầy đủ được tải.
 var BADGES=[["first","🥇 Bước chân đầu tiên"],["star3","🌟 Ngôi sao nhí (đạt 3 sao)"],["xp100","🧭 Nhà thám hiểm (100 XP)"],["toan","🦊 Chủ nhân Vương quốc Toán"],["tv","🐼 Chủ nhân Khu vườn Ngôn từ"],["ta","🦜 Nhà thám hiểm English"]];
 var mem={},P=null,v={p:"home"},A=document.getElementById("app");
 function sg(k){try{return localStorage.getItem(k)}catch(e){return mem[k]||null}}
@@ -77,7 +213,7 @@ function start(){var ns=names();A.innerHTML='<div class="card"><h2>Chào bạn n
 function pct(s){var l=ofS(s);return l.length?Math.round(100*l.filter(function(x){return P.les[x[0]]}).length/l.length):0}
 function nextLesson(){for(var i=0;i<L.length;i++)if(!P.les[L[i][0]])return L[i];return null}
 function home(){var nx=nextLesson();
-A.innerHTML='<div class="card"><h2>Xin chào '+esc(P.name)+'! Hôm nay mình cùng khám phá nhé 🎈</h2><div class="note">🚧 <b>BẢN DÙNG THỬ:</b> hiện có 17 mục học tập: Toán 3 (6 bài), Tiếng Việt 3 (6 bài), Tiếng Anh 3 (Starter + Unit 1–4). Đây chưa phải toàn bộ chương trình lớp 3; phần trăm tiến độ chỉ tính trên các bài đang có trong ứng dụng. <br><a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/blob/build-lop-3/KIEM_KE_DU_LIEU_LOP_3.md" target="_blank" rel="noopener">📋 Xem báo cáo kiểm kê dữ liệu</a> · <a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/tree/build-lop-3/data" target="_blank" rel="noopener">📁 Bộ dữ liệu bàn giao trên GitHub</a></div>'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">▶ Tiếp tục học: '+esc(nx[2])+'</button>':'<p>🎉 Bạn đã hoàn thành mọi bài hiện có!</p>')+'<button class="big" onclick="chal()">⚡ Thử thách 5 câu</button></div><h2>Chọn vùng đất</h2><div class="grid">'+
+A.innerHTML='<div class="card"><h2>Xin chào '+esc(P.name)+'! Hôm nay mình cùng khám phá nhé 🎈</h2><div class="note">📚 <b>ĐÃ LẬP DANH MỤC TỪ 6 PDF:</b> Toán 3 (81 bài), Tiếng Việt 3 (62 bài đọc), Tiếng Anh 3 (20 Unit, Starter và 4 bài ôn tập). Nội dung bổ sung là tóm tắt học tập và câu hỏi luyện tập gợi ý; giáo viên cần rà soát trước khi dùng chính thức. <br><a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/blob/main/data/CHUONG_TRINH_LOP_3_FULL.json" target="_blank" rel="noopener">📋 Xem danh mục đầy đủ theo 6 sách</a> · <a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/tree/main/data" target="_blank" rel="noopener">📁 Bộ dữ liệu học tập</a></div>'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">▶ Tiếp tục học: '+esc(nx[2])+'</button>':'<p>🎉 Bạn đã hoàn thành mọi bài hiện có!</p>')+'<button class="big" onclick="chal()">⚡ Thử thách 5 câu</button></div><h2>Chọn vùng đất</h2><div class="grid">'+
 ["toan","tv","ta"].map(function(s){var d=S[s];return'<div class="card sub" style="background:'+d.c+'" onclick="go({p:\'subj\',s:\''+s+'\'})"><div class="em">'+d.e+'</div><h2>'+d.n+'</h2><div>'+d.t+'</div><div>'+d.m+'</div><div class="bar" style="margin-top:10px"><i style="width:'+pct(s)+'%"></i></div><div>'+ofS(s).length+' bài · hoàn thành '+pct(s)+'%</div></div>'}).join("")+
 '</div><h2>Huy hiệu</h2><div class="card">'+BADGES.map(function(b){return'<div>'+(P.bd.indexOf(b[0])>=0?b[1]:'🔒 <span style="opacity:.5">'+b[1].replace(/^\S+ /,"")+'</span>')+'</div>'}).join("")+'</div><p><button class="ghost" onclick="go({p:\'prof\'})">⚙ Hồ sơ & tiến độ</button></p>'}
 function subj(){var d=S[v.s],q=v.q||"";A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><h2>'+d.e+' '+d.n+' – '+d.t+'</h2><input class="s" type="text" id="sq" placeholder="🔍 Tìm bài học" value="'+esc(q)+'" oninput="v.q=this.value;list()"><div id="ls"></div>';list()}
@@ -106,4 +242,5 @@ function exportProgress(){var data={app:"tu-hoc-lop-3",version:1,exportedAt:new 
 function importProgress(input){var file=input.files&&input.files[0];if(!file)return;var reader=new FileReader();reader.onload=function(){try{var data=JSON.parse(reader.result),p=data.profile;if(data.app!=="tu-hoc-lop-3"||!p||typeof p.name!=="string"||!p.name.trim()||typeof p.les!=="object"||!Array.isArray(p.bd))throw new Error("invalid");p.xp=Math.max(0,Number(p.xp)||0);P=p;save();var ns=names();if(ns.indexOf(P.name)<0)ss("wl3:list",JSON.stringify(ns.concat(P.name)));ss("wl3:cur",P.name);toast("Đã khôi phục tiến độ cho "+P.name);go({p:"home"});}catch(e){alert("Tệp không đúng định dạng sao lưu của website lớp 3.");}input.value="";};reader.readAsText(file);}
 function prof(){A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><div class="card"><h2>Hồ sơ: '+esc(P.name)+'</h2><p>Tiến độ hiện lưu trên trình duyệt và thiết bị này, chưa đồng bộ đám mây. Hãy sao lưu định kỳ nếu muốn chuyển máy hoặc tránh mất dữ liệu.</p><button onclick="exportProgress()">⬇️ Sao lưu tiến độ (.json)</button><p><label for="restoreFile"><b>Khôi phục từ tệp sao lưu</b></label><br><input id="restoreFile" type="file" accept=".json,application/json" onchange="importProgress(this)"></p><button class="ghost" onclick="P=null;draw()">Đổi học sinh</button><button class="ghost" onclick="if(confirm(\'Xoá toàn bộ tiến độ của '+esc(P.name).replace(/\'/g,"")+'? Không thể khôi phục nếu chưa sao lưu.\')){sd(\'wl3:p:\'+P.name);var n=P.name;P=null;load(n);go({p:\'home\'})}">🗑 Xoá tiến độ</button></div>'}
 (function(){var c=sg("wl3:cur");if(c)load(c);draw()})();
+loadFullCurriculum();
 </script></body></html>
