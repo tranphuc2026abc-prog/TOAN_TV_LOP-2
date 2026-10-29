@@ -15,7 +15,7 @@ BOOKS = [
     ("03-sgk-tieng-anh-3-tap-2-global-success.pdf", "Tiếng Anh 3 Global Success - Tập 2"),
 ]
 manifest = []
-heading_re = re.compile(r"(?i)^(?:bài\\s+\\d+|tuần\\s+\\d+|unit\\s+\\d+|review\\s+\\d+|starter|chủ đề\\s+\\d+|\\d+\\.\\s+\\S.{2,})")
+heading_re = re.compile(r"(?i)^(?:bài\s+\d+|tuần\s+\d+|unit\s+\d+|review\s+\d+|starter|chủ đề\s+\d+|\d+\.\s+\S.{2,})")
 
 for filename, label in BOOKS:
     path = SOURCE / filename
@@ -27,9 +27,9 @@ for filename, label in BOOKS:
     empty_pages = []
     for i, page in enumerate(doc):
         text = page.get_text("text", sort=True)
-        text = text.replace("\\x00", " ")
-        text = re.sub(r"[ \\t]+", " ", text)
-        text = re.sub(r"\\n{3,}", "\\n\\n", text).strip()
+        text = text.replace("\x00", " ")
+        text = re.sub(r"[ \t]+", " ", text)
+        text = re.sub(r"\n{3,}", "\n\n", text).strip()
         if len(text) < 30:
             empty_pages.append(i + 1)
         lines = [x.strip() for x in text.splitlines() if x.strip()]
@@ -40,9 +40,9 @@ for filename, label in BOOKS:
             "heading_candidates": candidates[:12],
             "preview": " | ".join(lines[:8])[:900]
         })
-        blocks.append(f"\\n\\n===== PDF PAGE {i + 1} =====\\n{text}")
+        blocks.append(f"\n\n===== PDF PAGE {i + 1} =====\n{text}")
     stem = path.stem
-    (OUT / f"{stem}.txt").write_text("\\n".join(blocks), encoding="utf-8")
+    (OUT / f"{stem}.txt").write_text("\n".join(blocks), encoding="utf-8")
     (OUT / f"{stem}.page-index.json").write_text(
         json.dumps({"book": label, "file": filename, "pages": index}, ensure_ascii=False, indent=2),
         encoding="utf-8"
