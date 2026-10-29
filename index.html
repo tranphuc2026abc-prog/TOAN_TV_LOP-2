@@ -272,7 +272,7 @@ function start(){var ns=names();A.innerHTML='<div class="card"><h2>Chào bạn n
 function pct(s){var l=ofS(s);return l.length?Math.round(100*l.filter(function(x){return P.les[x[0]]}).length/l.length):0}
 function nextLesson(){for(var i=0;i<L.length;i++)if(!P.les[L[i][0]])return L[i];return null}
 function home(){var nx=nextLesson();
-A.innerHTML='<div class="card"><h2>Xin chào '+esc(P.name)+'! Hôm nay mình cùng khám phá nhé 🎈</h2><div class="note">📚 <b>ĐÃ LẬP DANH MỤC TỪ 6 PDF:</b> Toán 3 (81 bài), Tiếng Việt 3 (62 bài đọc), Tiếng Anh 3 (20 Unit, Starter và 4 bài ôn tập). Nội dung bổ sung là tóm tắt học tập và câu hỏi luyện tập gợi ý; giáo viên cần rà soát trước khi dùng chính thức. <br><a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/blob/main/data/CHUONG_TRINH_LOP_3_FULL.json" target="_blank" rel="noopener">📋 Xem danh mục đầy đủ theo 6 sách</a> · <a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/tree/main/data" target="_blank" rel="noopener">📁 Bộ dữ liệu học tập</a></div>'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">▶ Tiếp tục học: '+esc(nx[2])+'</button>':'<p>🎉 Bạn đã hoàn thành mọi bài hiện có!</p>')+'<button class="big" onclick="chal()">⚡ Thử thách 5 câu</button></div><h2>Chọn vùng đất</h2><div class="grid">'+
+A.innerHTML='<div class="card"><h2>Xin chào '+esc(P.name)+'! Hôm nay mình cùng khám phá nhé 🎈</h2><div class="note">📚 <b>ĐÃ LẬP DANH MỤC TỪ 6 PDF:</b> Toán 3 (81 bài), Tiếng Việt 3 (62 bài đọc), Tiếng Anh 3 (20 Unit, Starter và 4 bài ôn tập). Nội dung bổ sung là tóm tắt học tập và câu hỏi luyện tập gợi ý; giáo viên cần rà soát trước khi dùng chính thức. <br><a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/blob/main/data/CHUONG_TRINH_LOP_3_FULL.json" target="_blank" rel="noopener">📋 Xem danh mục đầy đủ theo 6 sách</a> · <a href="https://github.com/tranphuc2026abc-prog/TOAN_TV_LOP-2/tree/main/data" target="_blank" rel="noopener">📁 Bộ dữ liệu học tập</a></div>'+(nx?'<button class="big" onclick="go({p:\'lesson\',id:\''+nx[0]+'\'})">▶ Tiếp tục học: '+esc(nx[2])+'</button>':'<p>🎉 Bạn đã hoàn thành mọi bài hiện có!</p>')+'<button class="big" onclick="chal()">⚡ Thử thách 5 câu</button><button class="big" onclick="go({p:\'games\'})">🎮 Trung tâm trò chơi</button></div><h2>Chọn vùng đất</h2><div class="grid">'+
 ["toan","tv","ta"].map(function(s){var d=S[s];return'<div class="card sub" style="background:'+d.c+'" onclick="go({p:\'subj\',s:\''+s+'\'})"><div class="em">'+d.e+'</div><h2>'+d.n+'</h2><div>'+d.t+'</div><div>'+d.m+'</div><div class="bar" style="margin-top:10px"><i style="width:'+pct(s)+'%"></i></div><div>'+ofS(s).length+' bài · hoàn thành '+pct(s)+'%</div></div>'}).join("")+
 '</div><h2>Huy hiệu</h2><div class="card">'+BADGES.map(function(b){return'<div>'+(P.bd.indexOf(b[0])>=0?b[1]:'🔒 <span style="opacity:.5">'+b[1].replace(/^\S+ /,"")+'</span>')+'</div>'}).join("")+'</div><p><button class="ghost" onclick="go({p:\'prof\'})">⚙ Hồ sơ & tiến độ</button></p>'}
 function subj(){var d=S[v.s],q=v.q||"";A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><h2>'+d.e+' '+d.n+' – '+d.t+'</h2><input class="s" type="text" id="sq" placeholder="🔍 Tìm bài học" value="'+esc(q)+'" oninput="v.q=this.value;list()"><div id="ls"></div>';list()}
@@ -302,4 +302,166 @@ function importProgress(input){var file=input.files&&input.files[0];if(!file)ret
 function prof(){A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Về trang chủ</button><div class="card"><h2>Hồ sơ: '+esc(P.name)+'</h2><p>Tiến độ hiện lưu trên trình duyệt và thiết bị này, chưa đồng bộ đám mây. Hãy sao lưu định kỳ nếu muốn chuyển máy hoặc tránh mất dữ liệu.</p><button onclick="exportProgress()">⬇️ Sao lưu tiến độ (.json)</button><p><label for="restoreFile"><b>Khôi phục từ tệp sao lưu</b></label><br><input id="restoreFile" type="file" accept=".json,application/json" onchange="importProgress(this)"></p><button class="ghost" onclick="P=null;draw()">Đổi học sinh</button><button class="ghost" onclick="if(confirm(\'Xoá toàn bộ tiến độ của '+esc(P.name).replace(/\'/g,"")+'? Không thể khôi phục nếu chưa sao lưu.\')){sd(\'wl3:p:\'+P.name);var n=P.name;P=null;load(n);go({p:\'home\'})}">🗑 Xoá tiến độ</button></div>'}
 (function(){var c=sg("wl3:cur");if(c)load(c);draw()})();
 loadFullCurriculum();
-</script></body></html>
+</script>
+<script>
+/* Trung tâm trò chơi lớp 3: dùng câu hỏi hiện có, không thay đổi kho kiến thức. */
+var gameOldDraw=draw, G=null;
+draw=function(){
+ if(v.p==="games") return gameHome();
+ if(v.p==="minigame") return gamePlay();
+ return gameOldDraw();
+};
+var gameOldGo=go;
+go=function(x){
+ if(G && G.timerId && x.p!=="minigame"){clearInterval(G.timerId);G.timerId=null;}
+ gameOldGo(x);
+};
+function gameQuestions(){
+ var out=[];
+ L.forEach(function(l){
+  (l[9]||[]).forEach(function(q){
+   if(q && q.length>=2) out.push({lesson:l[2],subject:l[1],id:l[0],prompt:String(q[0]),answer:q[1],wrong:Array.isArray(q[2])?q[2].slice():[]});
+  });
+ });
+ return out;
+}
+function gameOptions(q){
+ var a=[String(q.answer)].concat(q.wrong.map(String));
+ if(a.length<4){
+  if(typeof q.answer==="number" || !isNaN(Number(q.answer)) && String(q.answer).trim()!==""){
+   var n=Number(q.answer), add=[n+1,n-1,n+10,n-10];
+   add.forEach(function(x){if(a.length<4&&a.indexOf(String(x))<0)a.push(String(x));});
+  }else{
+   ["Chưa đúng","Thử lại nhé","Cần suy nghĩ thêm"].forEach(function(x){if(a.length<4&&a.indexOf(x)<0&&x!==String(q.answer))a.push(x);});
+  }
+ }
+ return gameShuffle(a).slice(0,Math.min(4,a.length));
+}
+function gameShuffle(a){
+ a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1)),t=a[i];a[i]=a[j];a[j]=t;}return a;
+}
+function gameHome(){
+ var total=gameQuestions().length;
+ A.innerHTML='<button class="ghost" onclick="go({p:\'home\'})">← Trang chủ</button><div class="card" style="background:linear-gradient(135deg,#fff1a8,#ffd6e7)"><h2>🎮 Trung tâm trò chơi</h2><p>Chọn trò chơi con yêu thích nhé! Câu hỏi lấy từ kho bài học hiện có; mỗi lượt sẽ xáo trộn để chơi lại không nhàm chán.</p><p>📚 Ngân hàng câu hỏi đang có: <b>'+total+'</b> câu ở các bài đã được nhập câu hỏi.</p></div><div class="grid">'+
+'<div class="card"><div style="font-size:42px">⏱️</div><h3>Thử thách 60 giây</h3><p>Trả lời càng nhiều câu đúng càng tốt trước khi hết giờ.</p><button onclick="startMini(\'speed\')">Chơi ngay</button></div>'+
+'<div class="card"><div style="font-size:42px">🟢</div><h3>Đúng hay sai?</h3><p>Đọc nhanh nhận định, chọn đúng hoặc sai để ghi điểm.</p><button onclick="startMini(\'tf\')">Chơi ngay</button></div>'+
+'<div class="card"><div style="font-size:42px">🧰</div><h3>Mở rương kho báu</h3><p>Chọn rương, giải câu đố và thu thập sao thưởng.</p><button onclick="startMini(\'treasure\')">Mở rương</button></div>'+
+'<div class="card"><div style="font-size:42px">🧩</div><h3>Ghép đôi thần tốc</h3><p>Ghép câu hỏi với đáp án đúng. Cần tập trung và ghi nhớ.</p><button onclick="startMini(\'match\')">Chơi ngay</button></div>'+
+'</div><div class="note">⭐ Mẹo: Đọc phản hồi sau mỗi câu để hiểu vì sao đúng hoặc sai. Điểm trò chơi là điểm của lượt chơi, không thay thế kết quả học tập chính thức.</div>';
+}
+function startMini(mode){
+ var all=gameShuffle(gameQuestions());
+ if(!all.length){toast("Chưa có câu hỏi để chơi.");return;}
+ G={mode:mode,all:all,idx:0,score:0,answered:0,seconds:60,timerId:null,ended:false,feedback:"",selected:-1};
+ if(mode==="match"){
+  G.pairs=all.slice(0,Math.min(5,all.length)).map(function(q,i){return {i:i,prompt:q.prompt,answer:String(q.answer),done:false};});
+  G.qSide=gameShuffle(G.pairs.map(function(x){return x.i;}));
+  G.aSide=gameShuffle(G.pairs.map(function(x){return x.i;}));
+  G.pickQ=null;G.pickA=null;G.tries=0;
+ }else if(mode==="speed"){
+  G.all=all;G.started=Date.now();
+  G.timerId=setInterval(function(){if(!G||G.mode!=="speed"||G.ended)return;G.seconds=Math.max(0,60-Math.floor((Date.now()-G.started)/1000));var el=document.getElementById("gameClock");if(el)el.textContent=G.seconds;if(G.seconds<=0)finishMini();},500);
+ }else if(mode==="tf"){
+  prepareTF();
+ }else{
+  G.all=all.slice(0,10);
+  G.chest=gameShuffle(["🎁 Rương cầu vồng","💎 Rương kim cương","⭐ Rương ngôi sao"]);
+ }
+ go({p:"minigame"});
+}
+function prepareTF(){
+ var q=G.all[G.idx%G.all.length],opts=gameOptions(q),isTrue=Math.random()<0.5;
+ var shown=isTrue?String(q.answer):opts.filter(function(x){return x!==String(q.answer);})[0];
+ if(shown===undefined)shown=String(q.answer);
+ G.current=q;G.statement=shown;G.statementCorrect=(shown===String(q.answer));G.feedback="";
+}
+function gamePlay(){
+ if(!G)return gameHome();
+ if(G.ended)return gameResult();
+ if(G.mode==="match")return gameMatchScreen();
+ var q=G.mode==="tf"?G.current:G.all[G.idx%G.all.length];
+ var title=G.mode==="speed"?"⏱️ Thử thách 60 giây":G.mode==="tf"?"🟢 Đúng hay sai?":"🧰 Mở rương kho báu";
+ var prompt=G.mode==="tf"?(q.prompt+"<div class=\\"note\\">Nhận định: <b>"+esc(G.statement)+"</b></div>"):q.prompt;
+ var h='<button class="ghost" onclick="go({p:\'games\'})">← Chọn trò chơi</button><div class="card"><div class="row"><h2>'+title+'</h2><span class="pill">⭐ '+G.score+' điểm</span></div>';
+ if(G.mode==="speed")h+='<div class="note">⏳ Còn <b id="gameClock">'+G.seconds+'</b> giây · Câu đã trả lời: '+G.answered+'</div>';
+ if(G.mode==="treasure")h+='<div class="note">'+(G.chest[G.idx%G.chest.length]||"🎁 Rương kho báu")+' · Câu '+(G.idx+1)+'/'+G.all.length+'</div>';
+ if(G.mode==="tf")h+='<div class="note">Câu '+(G.idx+1)+' · Hãy đọc kỹ nhận định rồi chọn đáp án.</div>';
+ h+='<h3>'+prompt+'</h3>';
+ if(G.mode==="tf")h+='<button class="big" onclick="answerTF(true)">✅ Đúng</button><button class="big" onclick="answerTF(false)">❌ Sai</button>';
+ else{
+  var opts=gameOptions(q);
+  h+='<div class="grid">'+opts.map(function(o,i){return '<button class="opt" onclick="answerMini('+JSON.stringify(o).replace(/"/g,"&quot;")+')">'+esc(o)+'</button>';}).join("")+'</div>';
+ }
+ h+='<div class="fb">'+(G.feedback||"")+'</div>';
+ if(G.mode!=="speed")h+='<button class="ghost" onclick="skipMini()">Bỏ qua câu này</button>';
+ h+='<button class="ghost" onclick="finishMini()">Kết thúc lượt chơi</button></div>';
+ A.innerHTML=h;
+}
+function answerMini(value){
+ if(!G||G.ended)return;
+ var q=G.all[G.idx%G.all.length];
+ G.answered++;
+ if(String(value)===String(q.answer)){G.score+=10;G.feedback="🎉 Chính xác! +10 điểm. "+(G.mode==="treasure"?"Bạn tìm thấy kho báu!":"");}
+ else G.feedback="💡 Đáp án đúng là: "+String(q.answer)+". "+(q.lesson?"Hãy ôn lại bài "+q.lesson+".":"");
+ if(G.mode==="speed"){G.idx++;G.feedback="";if(G.seconds>0)gamePlay();}
+ else if(G.mode==="treasure"){G.idx++;if(G.idx>=G.all.length){G.ended=true;gamePlay();}else gamePlay();}
+ else gamePlayWithFeedback();
+}
+function gamePlayWithFeedback(){
+ var old=G.feedback;
+ gamePlay();
+ var fb=A.querySelector(".fb");if(fb)fb.textContent=old;
+ var buttons=A.querySelectorAll(".opt");buttons.forEach(function(b){b.disabled=true;});
+ var card=A.querySelector(".card");if(card){var n=document.createElement("button");n.className="big";n.textContent="Câu tiếp theo ➜";n.onclick=function(){G.idx++;if(G.idx>=G.all.length){G.ended=true;}else if(G.mode==="tf")prepareTF();G.feedback="";gamePlay();};card.appendChild(n);}
+}
+function answerTF(chosen){
+ if(!G||G.ended)return;
+ G.answered++;
+ if(chosen===G.statementCorrect)G.score+=10;
+ G.feedback=chosen===G.statementCorrect?"🎉 Chính xác! +10 điểm.":"💡 Chưa đúng. Đáp án là "+(G.statementCorrect?"Đúng":"Sai")+".";
+ gamePlayWithFeedback();
+}
+function skipMini(){
+ if(!G)return;
+ G.idx++;
+ if(G.idx>=G.all.length){G.ended=true;}else if(G.mode==="tf")prepareTF();
+ G.feedback="";gamePlay();
+}
+function pickPair(side,id){
+ if(!G||G.ended)return;
+ var p=G.pairs.filter(function(x){return x.i===id;})[0];if(!p||p.done)return;
+ if(side===0){
+  G.pickQ=id;
+  if(G.pickA!==null)checkPair();
+ }else{
+  G.pickA=id;
+  if(G.pickQ!==null)checkPair();
+ }
+ gamePlay();
+}
+function checkPair(){
+ if(G.pickQ===G.pickA){
+  var p=G.pairs.filter(function(x){return x.i===G.pickQ;})[0];p.done=true;G.score+=10;G.answered++;
+  G.feedback="✨ Ghép đúng! +10 điểm.";
+ }else{G.tries++;G.feedback="Chưa khớp, thử lại nhé!";}
+ G.pickQ=null;G.pickA=null;
+ if(G.pairs.every(function(x){return x.done;}))G.ended=true;
+}
+function gameMatchScreen(){
+ if(G.ended)return gameResult();
+ var left=G.qSide.map(function(id){var p=G.pairs.filter(function(x){return x.i===id;})[0];return '<button class="opt" '+(p.done?'disabled':'')+' style="'+(G.pickQ===id?'outline:4px solid #ffb703;':'')+'" onclick="pickPair(0,'+id+')">'+esc(p.prompt)+'</button>';}).join("");
+ var right=G.aSide.map(function(id){var p=G.pairs.filter(function(x){return x.i===id;})[0];return '<button class="opt" '+(p.done?'disabled':'')+' style="'+(G.pickA===id?'outline:4px solid #ffb703;':'')+'" onclick="pickPair(1,'+id+')">'+esc(p.answer)+'</button>';}).join("");
+ A.innerHTML='<button class="ghost" onclick="go({p:\'games\'})">← Chọn trò chơi</button><div class="card"><div class="row"><h2>🧩 Ghép đôi thần tốc</h2><span class="pill">⭐ '+G.score+' điểm</span></div><p>Chọn một câu hỏi bên trái, rồi chọn đáp án tương ứng bên phải.</p><div class="grid"><div>'+left+'</div><div>'+right+'</div></div><div class="fb">'+(G.feedback||"Ghép đúng mỗi cặp được 10 điểm.")+'</div><button class="ghost" onclick="finishMini()">Kết thúc lượt chơi</button></div>';
+}
+function finishMini(){
+ if(!G)return;
+ if(G.timerId){clearInterval(G.timerId);G.timerId=null;}
+ G.ended=true;gamePlay();
+}
+function gameResult(){
+ if(G.timerId){clearInterval(G.timerId);G.timerId=null;}
+ var max=G.mode==="match"?G.pairs.length*10:G.answered*10;
+ A.innerHTML='<div class="card" style="text-align:center;background:linear-gradient(135deg,#fff1a8,#d8f8e1)"><div style="font-size:64px">🏆</div><h2>Hoàn thành trò chơi!</h2><div class="big-star">⭐ '+G.score+'</div><p>Bạn đã trả lời <b>'+G.answered+'</b> câu. '+(G.score>=50?"Tuyệt vời! Bạn là nhà vô địch nhí!":"Cố gắng thêm nhé, mỗi lượt chơi giúp con tiến bộ hơn!")+'</p><button class="big" onclick="startMini(\''+G.mode+'\')">🔁 Chơi lại</button><button class="big" onclick="go({p:\'games\'})">🎮 Chọn trò khác</button><button class="ghost" onclick="go({p:\'home\'})">🏠 Trang chủ</button></div>';
+}
+</script>
+</body></html>
