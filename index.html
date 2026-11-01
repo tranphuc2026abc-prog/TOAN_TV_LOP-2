@@ -826,4 +826,81 @@ function gameResult(){
 })();
 </script>
 
+
+
+<style>
+/* ===== KIDS LEARNING WORLD – ADVENTURE UI ROUND 3 ===== */
+:root{--kw-gold:#ffca55;--kw-lilac:#8b7bea;--kw-mint:#55c99a}
+#app .kw-quest{
+ display:flex;align-items:center;gap:14px;margin:14px 0 18px;padding:15px 18px;
+ border:1px solid #e4e9fb;border-radius:22px;
+ background:linear-gradient(110deg,#fff 0%,#f4f6ff 58%,#fff5df 100%);
+ box-shadow:0 8px 22px rgba(55,75,135,.07)
+}
+.kw-quest-avatar{display:grid;place-items:center;flex:0 0 62px;height:62px;border-radius:20px;background:#fff;box-shadow:0 5px 14px #40558e15;font-size:38px}
+.kw-quest-copy{min-width:0;flex:1}
+.kw-quest-kicker{font-size:11px;font-weight:1000;letter-spacing:.09em;color:#7581a2}
+.kw-quest-title{font-size:16px;font-weight:1000;color:#3f559e;margin:2px 0}
+.kw-quest-tip{font-size:13px;color:#68769b;line-height:1.5}
+.kw-quest-stars{display:flex;gap:4px;flex-shrink:0;font-size:20px}
+.kw-quest-stars span{display:grid;place-items:center;width:30px;height:30px;border-radius:10px;background:#fff4d6}
+#app .kw-lesson-content{border-radius:25px;border:1px solid #e4e9fb}
+#app .kw-lesson-content h3{display:flex;align-items:center;gap:8px}
+#app .kw-lesson-content .opt{position:relative;overflow:hidden;transition:transform .16s,border-color .16s,background .16s}
+#app .kw-lesson-content .opt:not(:disabled):hover{transform:translateY(-2px);border-color:#9eaff0;background:#edf2ff}
+#app .kw-lesson-content .opt.ok{border-color:#77d4a1;background:#e3faed}
+#app .kw-lesson-content .opt.no{border-color:#efaaa5;background:#fff0ef}
+#app .kw-lesson-content .fb{font-size:16px;line-height:1.6}
+#app .kw-subject{isolation:isolate}
+#app .kw-subject:focus-visible{outline:4px solid #ffcb58;outline-offset:4px}
+#app .kw-lesson:active{transform:scale(.99)}
+#app .kw-topic-title{display:flex;align-items:center;gap:8px}
+#app .kw-topic-title:before{content:"✦";color:#f1b943;font-size:18px}
+#app .grid>.card:has(>div[style*="font-size:42px"]){position:relative;overflow:hidden;border-radius:24px}
+#app .grid>.card:has(>div[style*="font-size:42px"]):hover{transform:translateY(-4px);box-shadow:0 14px 28px #40558e1c}
+#app .kw-badge{transition:transform .18s,box-shadow .18s}
+#app .kw-badge:not(.locked):hover{transform:translateY(-3px);box-shadow:0 8px 18px #40558e18}
+@media(max-width:600px){
+ #app .kw-quest{gap:10px;padding:12px;border-radius:18px}
+ .kw-quest-avatar{flex-basis:48px;height:48px;border-radius:15px;font-size:29px}
+ .kw-quest-title{font-size:14px}
+ .kw-quest-tip{font-size:12px}
+ .kw-quest-stars{gap:2px;font-size:16px}
+ .kw-quest-stars span{width:24px;height:26px}
+}
+@media(prefers-reduced-motion:reduce){
+ #app .kw-lesson-content .opt,#app .kw-badge{transition:none}
+}
+</style>
+<script>
+/* Companion panel: presentation-only; leaves answers, scores and saved progress unchanged. */
+(function(){
+ var previousAdventureLesson=lesson;
+ var companions={
+  toan:{avatar:"🦊",name:"Cáo Tính Toán",tip:"Đọc kỹ đề bài, suy nghĩ từng bước. Mỗi phép tính đúng là một bước tiến!"},
+  tv:{avatar:"🐼",name:"Gấu Trúc Chữ Nghĩa",tip:"Đọc chậm, cảm nhận câu chuyện và chú ý những từ ngữ thú vị nhé!"},
+  ta:{avatar:"🦜",name:"Vẹt Hello",tip:"Say it aloud! Hãy đọc từ mới thành tiếng để ghi nhớ lâu hơn."}
+ };
+ lesson=function(){
+  previousAdventureLesson();
+  try{
+   var l=byId(v.id),c=l&&companions[l[1]],intro=A.querySelector(".kw-lesson-intro");
+   if(!c||!intro||A.querySelector(".kw-quest"))return;
+   var panel=document.createElement("section");
+   panel.className="kw-quest";
+   var avatar=document.createElement("div");avatar.className="kw-quest-avatar";avatar.textContent=c.avatar;
+   var copy=document.createElement("div");copy.className="kw-quest-copy";
+   var kicker=document.createElement("div");kicker.className="kw-quest-kicker";kicker.textContent="ĐỒNG ĐỘI ĐỒNG HÀNH";
+   var title=document.createElement("div");title.className="kw-quest-title";title.textContent=c.name+" đang chờ em!";
+   var tip=document.createElement("div");tip.className="kw-quest-tip";tip.textContent=c.tip;
+   copy.appendChild(kicker);copy.appendChild(title);copy.appendChild(tip);
+   var stars=document.createElement("div");stars.className="kw-quest-stars";
+   ["⭐","⭐","⭐"].forEach(function(s){var item=document.createElement("span");item.textContent=s;stars.appendChild(item);});
+   panel.appendChild(avatar);panel.appendChild(copy);panel.appendChild(stars);
+   intro.parentNode.insertBefore(panel,intro.nextSibling);
+  }catch(e){/* Keep the original lesson screen available if an optional decoration fails. */}
+ };
+})();
+</script>
+
 </body></html>
