@@ -169,6 +169,47 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #6c8c
 }
 @media(prefers-reduced-motion:reduce){.kw-welcome:after{animation:none}}
 
+
+/* ===== UI POLISH ROUND 2: navigation, touch targets and responsive finish ===== */
+header{gap:12px;min-height:68px}
+header>b{display:flex;align-items:center;white-space:nowrap}
+#hd{align-items:center;justify-content:flex-end;gap:8px;min-width:0}
+.kw-topnav{display:flex;align-items:center;gap:6px;padding:4px;background:#f1f4ff;border:1px solid #e2e8fb;border-radius:16px}
+.kw-nav-btn{appearance:none;border:0!important;margin:0!important;padding:9px 12px!important;min-height:38px;border-radius:12px!important;background:transparent!important;color:#627095!important;box-shadow:none!important;font-size:13px!important;font-weight:900!important;white-space:nowrap}
+.kw-nav-btn:hover{background:#fff!important;color:#3f58a6!important;transform:translateY(-1px)}
+.kw-nav-btn.active{background:#fff!important;color:#4059ad!important;box-shadow:0 3px 10px #40558e18!important}
+#app .kw-welcome{border-radius:30px}
+#app .kw-welcome .big{min-height:48px}
+#app .kw-subject{min-height:238px!important}
+#app .kw-lesson{min-height:72px;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+#app .kw-lesson:focus-visible{outline:3px solid #7892ef;outline-offset:3px}
+#app .kw-lesson .kw-title{line-height:1.4}
+#app .kw-status{flex-shrink:0}
+#app .card:not(.sub){overflow:hidden}
+#app .opt{width:100%;min-height:54px;border-radius:16px;text-align:left;white-space:normal;line-height:1.45}
+#app button:disabled{opacity:.58;cursor:not-allowed;transform:none;filter:grayscale(.2)}
+#app input{min-height:48px}
+#app .note{line-height:1.6}
+@media(max-width:760px){
+ header{position:sticky;display:flex;align-items:center;flex-wrap:wrap;padding:9px 12px}
+ header>b{font-size:17px;flex:1 1 auto}
+ #hd{width:100%;justify-content:space-between;flex-wrap:wrap}
+ #hd>.pill{font-size:12px;padding:5px 9px}
+ .kw-topnav{flex:1 1 100%;justify-content:space-between;order:2}
+ .kw-nav-btn{flex:1;padding:9px 7px!important;font-size:12px!important}
+}
+@media(max-width:420px){
+ header>b{font-size:15px}
+ header>b:before{width:29px;height:29px;margin-right:6px}
+ #hd>.pill{font-size:11px}
+ .kw-nav-btn{font-size:11px!important}
+ .kw-stats{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .kw-stat strong{font-size:19px}
+ .kw-stat span{font-size:10px}
+ .kw-lesson{align-items:flex-start!important}
+ .kw-lesson .kw-status{white-space:normal;text-align:center;max-width:88px}
+}
+
 </style></head><body>
 <header><b onclick="go({p:'home'})">🌟 Hành trình tri thức – Lớp 3</b><div id="hd"></div></header>
 <main id="app"></main>
@@ -764,4 +805,25 @@ function gameResult(){
 })();
 
 </script>
+
+<script>
+/* Điều hướng nhanh; chỉ bổ sung lớp trình bày, không can thiệp dữ liệu học tập. */
+(function(){
+  var previousDraw=draw;
+  draw=function(){
+    previousDraw();
+    var hd=document.getElementById("hd");
+    if(!hd || !P) return;
+    var page=(v && v.p) || "home";
+    var nav='<nav class="kw-topnav" aria-label="Điều hướng chính">'+
+      '<button type="button" class="kw-nav-btn '+(page==="home"?"active":"")+'" onclick="go({p:\'home\'})">🏠 Trang chủ</button>'+
+      '<button type="button" class="kw-nav-btn '+((page==="games"||page==="minigame")?"active":"")+'" onclick="go({p:\'games\'})">🎮 Trò chơi</button>'+
+      '<button type="button" class="kw-nav-btn '+(page==="prof"?"active":"")+'" onclick="go({p:\'prof\'})">👤 Hồ sơ</button>'+
+      '</nav>';
+    hd.insertAdjacentHTML("beforeend",nav);
+  };
+  draw();
+})();
+</script>
+
 </body></html>
