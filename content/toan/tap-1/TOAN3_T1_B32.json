@@ -1,0 +1,819 @@
+{
+  "id": "TOAN3_T1_B32",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 32,
+  "title": "Mi-li-lít",
+  "topic": "Dung tích bằng mi-li-lít",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      89,
+      90
+    ],
+    "pdf_pages": [
+      90,
+      91
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Biết kí hiệu ml, quan hệ 1 l bằng 1000 ml.",
+    "Đọc ca chia vạch và giải bài rót nước, lượng còn lại, lượng cần thêm."
+  ],
+  "knowledge": {
+    "introduction": "Mi-li-lít thường dùng cho lượng chất lỏng ít. Ca chia vạch giúp đọc lượng nước đang có. Dung tích tối đa của bình là lượng bình chứa được khi đầy; lượng nước hiện có có thể ít hơn nhiều.",
+    "rules": [
+      "Mi-li-lít viết tắt ml; 1 l bằng 1000 ml.",
+      "Xem đơn vị, xác định giá trị mỗi khoảng giữa hai vạch liền nhau trước khi đọc mực nước.",
+      "Rót thêm dùng cộng, rót ra dùng trừ; rót đều các phần dùng chia.",
+      "Lượng rót ra khác lượng còn lại. Lượng cần thêm bằng mức muốn đạt trừ mức đang có.",
+      "Không đồng nhất ml với g: ml đo dung tích, g đo khối lượng. Hình ca trên màn hình là mô phỏng."
+    ],
+    "steps": [
+      "Đặt ca trên mặt phẳng ngang; nhìn mực nước ngang tầm mắt.",
+      "Đọc số ở vạch tương ứng và đơn vị ml.",
+      "Đổi l sang ml trước khi tính cùng các số ml.",
+      "Kiểm tra tổng đã rót với dung tích tối đa để biết còn thiếu hay bị tràn."
+    ],
+    "common_errors": [
+      "Đổi 1 l thành 100 ml.",
+      "Đọc dung tích tối đa làm lượng đang có.",
+      "Nhầm lượng đã dùng với lượng còn lại.",
+      "Cộng ml vào số l chưa đổi đơn vị."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Bình có 1 l, rót ra 280 ml. Còn bao nhiêu?",
+      "steps": [
+        "1 l bằng 1000 ml.",
+        "1000 - 280 = 720. Còn 720 ml."
+      ]
+    },
+    {
+      "question": "Ca tối đa 500 ml, đang có 320 ml. Thêm 200 ml thì tràn bao nhiêu?",
+      "steps": [
+        "320 + 200 = 520 ml.",
+        "520 - 500 = 20. Tràn 20 ml."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B32_Q01",
+      "type": "mcq",
+      "question": "Mi-li-lít viết tắt là gì?",
+      "options": [
+        "ml",
+        "mm",
+        "g",
+        "kg"
+      ],
+      "correct_answer": "ml",
+      "distractors": [
+        "mm",
+        "g",
+        "kg"
+      ],
+      "explanation": "Kí hiệu ml chỉ đơn vị dung tích mi-li-lít.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q02",
+      "type": "fill",
+      "question": "1 lít bằng mấy mi-li-lít?",
+      "correct_answer": "1000",
+      "distractors": [
+        "100",
+        "10",
+        "1"
+      ],
+      "explanation": "Một lít bằng một nghìn mi-li-lít.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q03",
+      "type": "mcq",
+      "question": "1000 ml bằng mấy lít?",
+      "options": [
+        "1",
+        "10",
+        "100",
+        "1000"
+      ],
+      "correct_answer": "1",
+      "distractors": [
+        "10",
+        "100",
+        "1000"
+      ],
+      "explanation": "Đổi theo quan hệ 1 l bằng 1000 ml.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q04",
+      "type": "fill",
+      "question": "Đơn vị nào thích hợp ghi lượng nước trong một thìa nhỏ?",
+      "correct_answer": "ml",
+      "distractors": [
+        "km",
+        "kg",
+        "mm"
+      ],
+      "explanation": "Mi-li-lít thích hợp với lượng chất lỏng ít.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q05",
+      "type": "mcq",
+      "question": "Ca chia vạch có các mốc 0, 100, 200 ml cách đều. Mỗi khoảng ứng với mấy ml?",
+      "options": [
+        "100",
+        "200",
+        "10",
+        "50"
+      ],
+      "correct_answer": "100",
+      "distractors": [
+        "200",
+        "10",
+        "50"
+      ],
+      "explanation": "Hiệu giữa hai mốc liền nhau là 100 ml.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q06",
+      "type": "fill",
+      "question": "Hình A: mực nước ngang vạch mấy ml?",
+      "correct_answer": "300",
+      "distractors": [
+        "200",
+        "400",
+        "500"
+      ],
+      "explanation": "Mực nước ngang vạch 300 ml của ca.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B32_A.svg",
+        "caption": "Hình A: Ca tối đa 500 ml, các vạch cách nhau 100 ml, nước tới vạch 300 ml."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q07",
+      "type": "mcq",
+      "question": "Lượng 800 ml so với 1 l thế nào?",
+      "options": [
+        "ít hơn",
+        "nhiều hơn",
+        "bằng nhau",
+        "gấp đôi"
+      ],
+      "correct_answer": "ít hơn",
+      "distractors": [
+        "nhiều hơn",
+        "bằng nhau",
+        "gấp đôi"
+      ],
+      "explanation": "1 l bằng 1000 ml, nên 800 ml ít hơn.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q08",
+      "type": "fill",
+      "question": "Một chai ghi 250 ml. Đây là số đo gì?",
+      "correct_answer": "dung tích",
+      "distractors": [
+        "khối lượng",
+        "độ dài",
+        "nhiệt độ"
+      ],
+      "explanation": "Mi-li-lít là đơn vị đo dung tích.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q09",
+      "type": "mcq",
+      "question": "Có 100 ml thêm 50 ml thì được mấy ml?",
+      "options": [
+        "150",
+        "50",
+        "100",
+        "500"
+      ],
+      "correct_answer": "150",
+      "distractors": [
+        "50",
+        "100",
+        "500"
+      ],
+      "explanation": "100 + 50 = 150 ml.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q10",
+      "type": "fill",
+      "question": "Bình 1 l đã rót hết 1000 ml thì còn mấy ml?",
+      "correct_answer": "0",
+      "distractors": [
+        "1",
+        "100",
+        "1000"
+      ],
+      "explanation": "1000 - 1000 = 0 ml.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q11",
+      "type": "mcq",
+      "question": "Bạn nói 1 l ít hơn 500 ml vì 1 nhỏ hơn 500. Phải đổi 1 l thành mấy ml?",
+      "options": [
+        "1000",
+        "100",
+        "10",
+        "1"
+      ],
+      "correct_answer": "1000",
+      "distractors": [
+        "100",
+        "10",
+        "1"
+      ],
+      "explanation": "So sánh cùng đơn vị: 1 l bằng 1000 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q12",
+      "type": "fill",
+      "question": "Hình A: muốn nước đến vạch 500 ml cần thêm mấy ml?",
+      "correct_answer": "200",
+      "distractors": [
+        "300",
+        "500",
+        "800"
+      ],
+      "explanation": "500 - 300 = 200 ml.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B32_A.svg",
+        "caption": "Hình A: Ca tối đa 500 ml, các vạch cách nhau 100 ml, nước tới vạch 300 ml."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q13",
+      "type": "mcq",
+      "question": "Ca có 400 ml, rót 150 ml ra thì còn mấy ml?",
+      "options": [
+        "250",
+        "550",
+        "150",
+        "200"
+      ],
+      "correct_answer": "250",
+      "distractors": [
+        "550",
+        "150",
+        "200"
+      ],
+      "explanation": "400 - 150 = 250 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q14",
+      "type": "fill",
+      "question": "Chai rỗng có dung tích tối đa 600 ml. Rót 650 ml vào có tràn không? Trả lời có hoặc không.",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "vừa đầy",
+        "còn thiếu"
+      ],
+      "explanation": "650 ml vượt dung tích 600 ml nên tràn nếu rót toàn bộ.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q15",
+      "type": "mcq",
+      "question": "Một lít nước chia đều 4 cốc, mỗi cốc mấy ml?",
+      "options": [
+        "250",
+        "4",
+        "400",
+        "200"
+      ],
+      "correct_answer": "250",
+      "distractors": [
+        "4",
+        "400",
+        "200"
+      ],
+      "explanation": "1 l bằng 1000 ml; 1000 : 4 = 250 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q16",
+      "type": "fill",
+      "question": "Bình có 700 ml, rót ra 200 ml. Số 200 chỉ lượng còn lại hay lượng đã rót?",
+      "correct_answer": "lượng đã rót",
+      "distractors": [
+        "lượng còn lại",
+        "dung tích bình",
+        "khối lượng bình"
+      ],
+      "explanation": "Đề nói rót ra 200 ml, còn lại là 500 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q17",
+      "type": "mcq",
+      "question": "Một ca 150 ml và một ca 250 ml. Ca sau nhiều hơn mấy ml?",
+      "options": [
+        "100",
+        "400",
+        "150",
+        "200"
+      ],
+      "correct_answer": "100",
+      "distractors": [
+        "400",
+        "150",
+        "200"
+      ],
+      "explanation": "250 - 150 = 100 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q18",
+      "type": "fill",
+      "question": "Lượng 350 ml giảm 5 lần còn mấy ml?",
+      "correct_answer": "70",
+      "distractors": [
+        "345",
+        "355",
+        "1750"
+      ],
+      "explanation": "350 : 5 = 70 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q19",
+      "type": "mcq",
+      "question": "Chai A 450 ml, chai B 550 ml. Gộp lại được đúng 1 l không? Trả lời có hoặc không.",
+      "options": [
+        "có",
+        "không",
+        "thiếu 100",
+        "thừa 100"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "thiếu 100",
+        "thừa 100"
+      ],
+      "explanation": "450 + 550 = 1000 ml, bằng 1 l.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q20",
+      "type": "fill",
+      "question": "Mỗi lần lấy 20 ml. Lấy 3 lần được mấy ml?",
+      "correct_answer": "60",
+      "distractors": [
+        "23",
+        "17",
+        "40"
+      ],
+      "explanation": "20 × 3 = 60 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q21",
+      "type": "mcq",
+      "question": "Bình có 900 ml, rót hai lần mỗi lần 250 ml. Còn mấy ml?",
+      "options": [
+        "400",
+        "650",
+        "500",
+        "350"
+      ],
+      "correct_answer": "400",
+      "distractors": [
+        "650",
+        "500",
+        "350"
+      ],
+      "explanation": "250 × 2 = 500; 900 - 500 = 400 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q22",
+      "type": "fill",
+      "question": "Có 1 l nước, rót 350 ml rồi 275 ml. Còn mấy ml?",
+      "correct_answer": "375",
+      "distractors": [
+        "625",
+        "650",
+        "425"
+      ],
+      "explanation": "1000 - 350 = 650; 650 - 275 = 375 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q23",
+      "type": "mcq",
+      "question": "Ba cốc mỗi cốc 180 ml. Gộp được mấy ml?",
+      "options": [
+        "540",
+        "183",
+        "360",
+        "480"
+      ],
+      "correct_answer": "540",
+      "distractors": [
+        "183",
+        "360",
+        "480"
+      ],
+      "explanation": "180 × 3 = 540 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q24",
+      "type": "fill",
+      "question": "Chai 750 ml đã dùng 280 ml. Muốn lượng còn lại thành 600 ml cần thêm mấy ml?",
+      "correct_answer": "130",
+      "distractors": [
+        "470",
+        "150",
+        "320"
+      ],
+      "explanation": "750 - 280 = 470; 600 - 470 = 130 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q25",
+      "type": "mcq",
+      "question": "Có 800 ml chia đều vào 4 cốc. Uống 50 ml từ một cốc, cốc đó còn mấy ml?",
+      "options": [
+        "150",
+        "200",
+        "750",
+        "250"
+      ],
+      "correct_answer": "150",
+      "distractors": [
+        "200",
+        "750",
+        "250"
+      ],
+      "explanation": "800 : 4 = 200; 200 - 50 = 150 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q26",
+      "type": "fill",
+      "question": "Bình 1 l đã có 650 ml. Rót thêm 400 ml thì tràn mấy ml?",
+      "correct_answer": "50",
+      "distractors": [
+        "350",
+        "400",
+        "1050"
+      ],
+      "explanation": "650 + 400 = 1050; 1050 - 1000 = 50 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q27",
+      "type": "mcq",
+      "question": "Cần pha 500 ml nước, đã có 125 ml và thêm 200 ml. Còn thiếu mấy ml?",
+      "options": [
+        "175",
+        "325",
+        "375",
+        "300"
+      ],
+      "correct_answer": "175",
+      "distractors": [
+        "325",
+        "375",
+        "300"
+      ],
+      "explanation": "125 + 200 = 325; 500 - 325 = 175 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q28",
+      "type": "fill",
+      "question": "Có 600 ml, mỗi cốc chứa tối đa 200 ml. Cần mấy cốc để chứa hết?",
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "4",
+        "6"
+      ],
+      "explanation": "600 : 200 = 3 cốc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q29",
+      "type": "mcq",
+      "question": "Một bình có 720 ml. Rót ra một lượng bằng ban đầu giảm 3 lần. Bình còn mấy ml?",
+      "options": [
+        "480",
+        "240",
+        "717",
+        "960"
+      ],
+      "correct_answer": "480",
+      "distractors": [
+        "240",
+        "717",
+        "960"
+      ],
+      "explanation": "720 : 3 = 240 ml rót ra; 720 - 240 = 480 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q30",
+      "type": "fill",
+      "question": "Có 5 chai mỗi chai 160 ml. Tổng lượng nước còn thiếu mấy ml để đủ 1 l?",
+      "correct_answer": "200",
+      "distractors": [
+        "800",
+        "840",
+        "100"
+      ],
+      "explanation": "160 × 5 = 800; 1000 - 800 = 200 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q31",
+      "type": "mcq",
+      "question": "Bình đầu 350 ml, bình sau nhiều hơn 120 ml. Cả hai có mấy ml?",
+      "options": [
+        "820",
+        "470",
+        "700",
+        "940"
+      ],
+      "correct_answer": "820",
+      "distractors": [
+        "470",
+        "700",
+        "940"
+      ],
+      "explanation": "350 + 120 = 470; 350 + 470 = 820 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q32",
+      "type": "fill",
+      "question": "Có 950 ml nước, dùng 300 ml rồi chia số còn lại đều vào 5 cốc. Mỗi cốc mấy ml?",
+      "correct_answer": "130",
+      "distractors": [
+        "190",
+        "650",
+        "150"
+      ],
+      "explanation": "950 - 300 = 650; 650 : 5 = 130 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q33",
+      "type": "mcq",
+      "question": "Một ca có 240 ml, ca khác gấp 3 lần. Ca khác nhiều hơn ca đầu mấy ml?",
+      "options": [
+        "480",
+        "720",
+        "960",
+        "243"
+      ],
+      "correct_answer": "480",
+      "distractors": [
+        "720",
+        "960",
+        "243"
+      ],
+      "explanation": "240 × 3 = 720; 720 - 240 = 480 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q34",
+      "type": "fill",
+      "question": "Có 1 l dầu chia vào hai chai, chai đầu 425 ml. Chai sau mấy ml?",
+      "correct_answer": "575",
+      "distractors": [
+        "425",
+        "625",
+        "675"
+      ],
+      "explanation": "1000 - 425 = 575 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q35",
+      "type": "mcq",
+      "question": "Mỗi cốc dùng 80 ml, chuẩn bị 7 cốc. Đã có 500 ml, cần thêm mấy ml?",
+      "options": [
+        "60",
+        "560",
+        "420",
+        "20"
+      ],
+      "correct_answer": "60",
+      "distractors": [
+        "560",
+        "420",
+        "20"
+      ],
+      "explanation": "80 × 7 = 560; 560 - 500 = 60 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q36",
+      "type": "fill",
+      "question": "Một bình 840 ml, sau khi rót số còn lại bằng ban đầu giảm 4 lần. Đã rót mấy ml?",
+      "correct_answer": "630",
+      "distractors": [
+        "210",
+        "836",
+        "844"
+      ],
+      "explanation": "840 : 4 = 210 ml còn lại; 840 - 210 = 630 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q37",
+      "type": "mcq",
+      "question": "Hai ca bằng nhau chứa tổng 500 ml. Đổ thêm 75 ml vào một ca. Ca đó có mấy ml?",
+      "options": [
+        "325",
+        "250",
+        "575",
+        "175"
+      ],
+      "correct_answer": "325",
+      "distractors": [
+        "250",
+        "575",
+        "175"
+      ],
+      "explanation": "500 : 2 = 250; 250 + 75 = 325 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q38",
+      "type": "fill",
+      "question": "Một bình có 680 ml, thêm 120 ml rồi rót 350 ml. Còn mấy ml?",
+      "correct_answer": "450",
+      "distractors": [
+        "330",
+        "800",
+        "570"
+      ],
+      "explanation": "680 + 120 = 800; 800 - 350 = 450 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q39",
+      "type": "mcq",
+      "question": "Có 975 ml nước. Cốc tối đa 250 ml. Cần ít nhất mấy cốc để chứa hết?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "2"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "5",
+        "2"
+      ],
+      "explanation": "Ba cốc chứa 750 ml, còn 225 ml cần cốc thứ 4.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B32_Q40",
+      "type": "fill",
+      "question": "Ba lần rót lần lượt 150 ml, 200 ml, 250 ml từ bình 1 l. Bình còn mấy ml?",
+      "correct_answer": "400",
+      "distractors": [
+        "600",
+        "450",
+        "350"
+      ],
+      "explanation": "150 + 200 + 250 = 600; 1000 - 600 = 400 ml.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B32_GAME1",
+      "title": "Kho báu ca chia vạch",
+      "mode": "treasure",
+      "objective": "Đọc số đo và tìm lượng nước còn lại, cần thêm hoặc bị tràn.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án, đọc lời giải rồi sang câu tiếp theo.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B32_Q01",
+        "TOAN3_T1_B32_Q02",
+        "TOAN3_T1_B32_Q03",
+        "TOAN3_T1_B32_Q04",
+        "TOAN3_T1_B32_Q05",
+        "TOAN3_T1_B32_Q06",
+        "TOAN3_T1_B32_Q07",
+        "TOAN3_T1_B32_Q08",
+        "TOAN3_T1_B32_Q09",
+        "TOAN3_T1_B32_Q10",
+        "TOAN3_T1_B32_Q11",
+        "TOAN3_T1_B32_Q12",
+        "TOAN3_T1_B32_Q13",
+        "TOAN3_T1_B32_Q14",
+        "TOAN3_T1_B32_Q15",
+        "TOAN3_T1_B32_Q16",
+        "TOAN3_T1_B32_Q17",
+        "TOAN3_T1_B32_Q18",
+        "TOAN3_T1_B32_Q19",
+        "TOAN3_T1_B32_Q20",
+        "TOAN3_T1_B32_Q21",
+        "TOAN3_T1_B32_Q22",
+        "TOAN3_T1_B32_Q23",
+        "TOAN3_T1_B32_Q24",
+        "TOAN3_T1_B32_Q25",
+        "TOAN3_T1_B32_Q26",
+        "TOAN3_T1_B32_Q27",
+        "TOAN3_T1_B32_Q28",
+        "TOAN3_T1_B32_Q29",
+        "TOAN3_T1_B32_Q30",
+        "TOAN3_T1_B32_Q31",
+        "TOAN3_T1_B32_Q32",
+        "TOAN3_T1_B32_Q33",
+        "TOAN3_T1_B32_Q34",
+        "TOAN3_T1_B32_Q35",
+        "TOAN3_T1_B32_Q36",
+        "TOAN3_T1_B32_Q37",
+        "TOAN3_T1_B32_Q38",
+        "TOAN3_T1_B32_Q39",
+        "TOAN3_T1_B32_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "activities": [
+    {
+      "title": "Đọc ca nước thực tế",
+      "materials": [
+        "Ca có chia vạch ml",
+        "Nước sạch",
+        "Khay hứng"
+      ],
+      "steps": [
+        "Đặt ca trong khay trên mặt phẳng ngang.",
+        "Rót chậm một ít nước, quan sát giá trị giữa các vạch.",
+        "Đọc và ghi lượng nước, thêm nước rồi đọc lần nữa; lấy số sau trừ số trước để tìm lượng đã thêm."
+      ],
+      "check": [
+        "Mắt ngang mực nước, ca không nghiêng.",
+        "Không rót quá vạch tối đa; chỉ thực hành với nước sạch."
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B32_A.svg",
+      "caption": "Hình A: Ca tối đa 500 ml, các vạch cách nhau 100 ml, nước tới vạch 300 ml."
+    }
+  ]
+}

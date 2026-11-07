@@ -1,3 +1,14 @@
+## Batch 8 — Toán 29–32, 07/11/2026
+
+- Nguồn thực đọc: bản PDF Toán tập 1 sẵn trong môi trường, trang PDF 84–91 (trang in 83–90), đã render và đọc trực quan cả 8 trang. Chưa xác minh hash bản đính kèm với bản trong repo.
+- Biên soạn 4 JSON/Markdown, 160 câu riêng, 4 trò chơi (kho báu, ghép cặp, đúng/sai), 3 SVG mới: thước chia từng mm với đầu A lệch 0; cân thăng bằng có ba quả cân; ca nước chia vạch 100 ml. Hình hiển thị ngay trong mọi câu phụ thuộc hình. Đã render và xem cả 3 hình, không dùng ảnh SGK.
+- Có hướng dẫn, mục tiêu, lỗi thường gặp, ví dụ giải, phản hồi, đánh giá, hoạt động dụng cụ cho bài 30–32. Dữ kiện và bài tập mới, không chép hệ thống bài tập SGK.
+- validate_site.py/validate_content.py: 32 bài, 1280 câu, 1193 đẳng thức số được tính lại; ID, lựa chọn, đáp án, phân mức 10/10/20, Markdown, hình, game và trạng thái đạt.
+- test_batch8.py: 160 câu không trùng nguyên văn giữa batch; 27 đáp án trọng yếu và các phép tính độc lập về chia lấy số hộp, thước lệch 0, tổng quả cân, khối lượng trừ khay, nước tràn. test_batch7.py vẫn đạt.
+- test_content_dom.cjs: toàn bộ 32 bài đạt, 10 câu/lượt 3/3/4, thay bộ, chấm điểm, chống chấm lặp, 4 loại game, hình/bảng/lưới vẽ cũ, lưu nạp wl3, fallback khi một JSON lỗi. Không đổi renderer hay khóa lưu trữ.
+- Chưa có Chromium: chưa kiểm thử bố cục, cảm ứng và âm thanh bằng trình duyệt thật. AI kiểm tra không thay thẩm định giáo viên.
+- Tổng 32/168 mục có học liệu riêng, 1280 câu, 32 trò chơi; giáo viên duyệt 4, chờ duyệt 28; còn 136 mục nháp. Checkpoint Toán 33–36 trang 91–98.
+
 ## Batch 7 — Toán 25–28, 07/11/2026
 
 - Nguồn đã đọc trực quan: PDF Toán tập 1 sẵn trong môi trường, trang PDF 73–83 / trang in 72–82. Chưa xác minh hash với bản PDF trong repo.

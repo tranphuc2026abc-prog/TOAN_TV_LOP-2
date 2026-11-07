@@ -1,0 +1,164 @@
+Bài 29
+Tính nhẩm 20 × 3.|60|2 chục nhân 3 bằng 6 chục.|6;23;40
+Tính 80 : 4.|20|8 chục chia 4 bằng 2 chục.|2;40;16
+Gấp 12 lên 4 lần dùng phép tính nào?|12 × 4|Gấp số lần dùng phép nhân.|12 + 4;12 - 4;12 : 4
+Giảm 48 đi 6 lần còn mấy?|8|48 : 6 = 8.|42;6;54
+Trong phép chia cho 7, số dư lớn nhất là mấy?|6|Số dư phải nhỏ hơn số chia 7.|7;8;0
+Tính 23 × 3.|69|3 × 3 = 9; 3 × 2 = 6 chục, được 69.|66;26;63
+Phép chia 35 cho 4 có thương 8, số dư là mấy?|3|4 × 8 + 3 = 35.|4;2;1
+Bớt 5 đơn vị khỏi 45 còn mấy?|40|45 - 5 = 40; đây là bớt đơn vị, không phải giảm số lần.|9;50;35
+Tính 96 : 3.|32|9 chia 3 được 3 chục; 6 chia 3 được 2 đơn vị.|31;33;23
+Một nhóm 8 bạn, 3 nhóm như thế có mấy bạn?|24|8 × 3 = 24 bạn.|11;5;18
+Cùng số 18, gấp 3 lần và thêm 3 đơn vị cho kết quả hơn kém mấy?|33|18 × 3 = 54; 18 + 3 = 21; 54 - 21 = 33.|3;36;54
+Một số giảm 4 lần còn 9. Số ban đầu là mấy?|36|9 × 4 = 36.|13;5;32
+Bạn tính 27 × 3 bằng 61 vì quên số nhớ. Tích đúng là mấy?|81|3 × 7 = 21, viết 1 nhớ 2; 3 × 2 = 6, thêm 2 được 8 chục.|61;71;84
+Chia 78 cho 5 có thương 15. Phần dư là mấy?|3|5 × 15 + 3 = 78, phần dư 3 nhỏ hơn 5.|5;2;4
+Giảm 60 đi 5 lần rồi thêm 7 được mấy?|19|60 : 5 = 12; 12 + 7 = 19.|62;17;5
+Gấp 16 lên 3 lần rồi giảm 2 lần được mấy?|24|16 × 3 = 48; 48 : 2 = 24.|48;8;46
+Nếu 4 × 19 = 76 thì 76 : 4 bằng mấy?|19|Phép chia tìm thừa số khi biết tích và thừa số còn lại.|18;20;72
+Bạn dùng 40 - 4 để giải yêu cầu giảm 40 đi 4 lần. Kết quả đúng là mấy?|10|Phải lấy 40 : 4 = 10.|36;44;160
+Hai phần bằng nhau có tổng 74. Mỗi phần bằng mấy?|37|74 : 2 = 37.|36;38;72
+Thương 11 dư 2 khi chia cho 6 ứng với số bị chia nào?|68|6 × 11 + 2 = 68.|66;64;70
+Có 26 huy hiệu, mỗi hộp đầy 4 chiếc. Cần thêm mấy huy hiệu để hộp cuối cũng đầy?|2|4 × 6 + 2 = 26; hộp cuối có 2, thiếu 2 để đủ 4.|4;6;3
+Một tổ làm 14 cờ, tổ khác làm gấp 4 lần. Cả hai tổ mấy cờ?|70|14 × 4 = 56; 14 + 56 = 70.|56;18;42
+Có 57 kg đậu, mỗi túi 5 kg. Đóng được mấy túi đầy?|11|5 × 11 + 2 = 57, có 11 túi đầy.|12;10;2
+Có 57 kg đậu cần chứa hết trong túi tối đa 5 kg. Ít nhất mấy túi?|12|11 túi đầy chứa 55 kg; 2 kg còn lại cần túi thứ 12.|11;13;10
+Dây dài 48 cm, dây ngắn bằng dây dài giảm 3 lần. Hai dây dài tất cả mấy cm?|64|48 : 3 = 16; 48 + 16 = 64.|16;51;32
+Kho có 84 thẻ. Sau khi phát, số còn lại bằng ban đầu giảm 4 lần. Đã phát mấy thẻ?|63|84 : 4 = 21 thẻ còn lại; 84 - 21 = 63.|21;80;88
+Một nhóm 7 bạn, mỗi bạn góp 12 hạt. Gieo 35 hạt, còn mấy hạt?|49|12 × 7 = 84; 84 - 35 = 49.|84;47;42
+Có 86 ảnh, mỗi trang dán 4 ảnh. Trang chưa đầy có mấy ảnh?|2|4 × 21 + 2 = 86; trang cuối có 2 ảnh.|4;3;1
+Ba luống đều nhau có tổng 69 cây. Hai luống có mấy cây?|46|69 : 3 = 23; 23 × 2 = 46.|23;44;48
+Ngày đầu đi 18 vòng, ngày sau bằng ngày đầu giảm 3 lần. Ngày sau ít hơn ngày đầu mấy vòng?|12|18 : 3 = 6; 18 - 6 = 12.|6;15;21
+Có 29 bạn, mỗi bàn tối đa 3 bạn. Cần ít nhất mấy bàn?|10|3 × 9 + 2 = 29; thêm một bàn cho 2 bạn còn lại.|9;11;8
+Mỗi chuyến chuyển 16 hộp, làm 5 chuyến. Cần chuyển 95 hộp thì còn mấy hộp?|15|16 × 5 = 80; 95 - 80 = 15.|80;19;11
+Có 72 que chia đều 6 bạn. Mỗi bạn dùng 5 que thì còn mấy que trong phần của mình?|7|72 : 6 = 12; 12 - 5 = 7.|12;67;17
+Tủ thứ nhất 25 sách, tủ thứ hai ít hơn 8 sách. Cả hai tủ mấy sách?|42|25 - 8 = 17; 25 + 17 = 42.|17;33;50
+Số 24 qua máy gấp 3 lần rồi bớt 9 đơn vị. Máy trả số mấy?|63|24 × 3 = 72; 72 - 9 = 63.|72;45;18
+Có 62 viên, lấy ra 6 viên rồi chia nhóm 7 viên. Được mấy nhóm?|8|62 - 6 = 56; 56 : 7 = 8.|7;9;56
+Có 19 nhãn, bạn có gấp 4 lần. Bạn nhiều hơn em mấy nhãn?|57|19 × 4 = 76; 76 - 19 = 57.|76;23;38
+Một số chia 4 thương 16 dư 3. Thêm ít nhất mấy để chia hết cho 4?|1|Phần dư 3 cần thêm 1 để đủ nhóm 4.|3;4;2
+Có 5 khay mỗi khay 17 quả. Chuyển đi 28 quả thì còn mấy quả?|57|17 × 5 = 85; 85 - 28 = 57.|85;63;47
+Hai bạn cùng có 64 thẻ. An giảm 4 lần, Bình bớt 4 đơn vị. Bình còn hơn An mấy thẻ?|44|64 : 4 = 16; 64 - 4 = 60; 60 - 16 = 44.|48;16;60
+Bài 30
+Mi-li-mét viết tắt là gì?|mm|Kí hiệu mm dùng cho đơn vị mi-li-mét đo độ dài.|cm;g;ml
+Một xăng-ti-mét bằng mấy mi-li-mét?|10|Mỗi khoảng 1 cm gồm 10 khoảng nhỏ 1 mm.|100;1;1000
+Một mét bằng mấy mi-li-mét?|1000|1 m bằng 100 cm, mỗi cm bằng 10 mm nên bằng 1000 mm.|100;10;10000
+30 mm bằng mấy cm?|3|30 : 10 = 3 cm.|30;300;13
+7 cm bằng mấy mm?|70|7 × 10 = 70 mm.|7;17;700
+Trong các đơn vị mm, g, ml, kg, đơn vị nào đo độ dài?|mm|mm là đơn vị độ dài; g và kg đo khối lượng, ml đo dung tích.|g;ml;kg
+Độ dày tấm thẻ khoảng 1 đơn vị. Chọn đơn vị hợp lí: mm, m, km hay l?|mm|Một mi-li-mét phù hợp với độ dày rất nhỏ.|m;km;l
+Trong 1 cm trên thước có mấy khoảng 1 mm?|10|Đếm khoảng giữa các vạch: có 10 khoảng 1 mm.|9;11;1
+Hình A: đoạn AB dài mấy mm?|26|A ở vạch 4 mm, B ở vạch 30 mm; 30 - 4 = 26 mm.|30;34;24
+Hình A: điểm A trùng vạch mấy mm?|4|Đọc từ vạch 0 đến A có 4 khoảng nhỏ 1 mm.|0;5;3
+Vì sao 4 cm dài hơn 35 mm? 4 cm bằng mấy mm?|40|Đổi cùng đơn vị: 4 × 10 = 40 mm, lớn hơn 35 mm.|4;400;39
+Thước có đầu vật ở 12 mm, cuối ở 39 mm. Vật dài mấy mm?|27|39 - 12 = 27 mm; không lấy riêng số cuối.|39;51;12
+Bạn đổi 8 cm thành 8 mm. Kết quả đúng là mấy mm?|80|8 × 10 = 80 mm.|8;18;800
+Điền dấu so sánh: 50 mm ... 5 cm.|=|5 cm đổi ra 50 mm nên hai độ dài bằng nhau.|>; <;không so sánh được
+Đoạn 2 cm 7 mm bằng mấy mm?|27|2 cm bằng 20 mm; 20 + 7 = 27 mm.|9;207;72
+Giảm 64 mm đi 4 lần còn mấy mm?|16|64 : 4 = 16 mm.|60;68;256
+Tổng 3 cm và 8 mm bằng mấy mm?|38|3 cm bằng 30 mm; 30 + 8 = 38.|11;308;83
+Hình A: bạn đọc AB là 30 mm vì chỉ nhìn B. Bạn đã tính thừa mấy mm?|4|AB là 26 mm; 30 - 26 = 4 mm, chính là đoạn từ 0 đến A.|26;30;34
+Một đoạn dài 90 mm, đoạn kia 8 cm. Đoạn thứ nhất dài hơn mấy mm?|10|8 cm bằng 80 mm; 90 - 80 = 10 mm.|82;2;18
+Đo bằng hình thước trên màn hình có cho biết kích thước vật thật nếu hình bị phóng to không? Trả lời có hoặc không.|không|Hình có thể đổi kích thước hiển thị; chỉ đọc số vạch theo dữ kiện, không đo trực tiếp màn hình.|có;luôn chính xác;chỉ cần chạm
+Một dải giấy dài 6 cm, cắt bớt 14 mm. Còn mấy mm?|46|6 cm bằng 60 mm; 60 - 14 = 46 mm.|54;8;74
+Ba đoạn dây mỗi đoạn 18 mm, không chồng lên nhau. Tổng dài mấy mm?|54|18 × 3 = 54 mm.|21;6;48
+Một con kiến đi 125 mm rồi đi thêm 240 mm. Đã đi mấy mm?|365|125 + 240 = 365 mm.|115;355;375
+Hai thanh dài 42 mm và 3 cm. Cần cắt bớt thanh dài mấy mm để bằng thanh ngắn?|12|3 cm bằng 30 mm; 42 - 30 = 12 mm.|39;45;72
+Dây dài 84 mm chia 4 đoạn bằng nhau. Mỗi đoạn mấy mm?|21|84 : 4 = 21 mm.|20;24;80
+Có 1 m dây, dùng 360 mm. Còn mấy mm?|640|1 m bằng 1000 mm; 1000 - 360 = 640 mm.|460;740;360
+Một đường gấp khúc gồm 25 mm, 4 cm và 15 mm. Tổng dài mấy mm?|80|4 cm bằng 40 mm; 25 + 40 + 15 = 80 mm.|44;65;70
+Hai tấm gỗ dày 7 mm và 9 mm chồng khít. Tổng dày mấy mm?|16|7 + 9 = 16 mm.|2;63;14
+Muốn có 5 cm từ một dải 36 mm, cần nối thêm mấy mm không chồng mép?|14|5 cm bằng 50 mm; 50 - 36 = 14 mm.|31;41;86
+Một nhãn dài 48 mm, nhãn khác bằng nó giảm 3 lần. Nhãn khác dài mấy mm?|16|48 : 3 = 16 mm.|45;51;12
+Có 95 mm ruy băng, mỗi đoạn cần 20 mm. Cắt nhiều nhất mấy đoạn đủ?|4|20 × 4 + 15 = 95, cắt được 4 đoạn đủ.|5;3;15
+Có 95 mm ruy băng, cắt bốn đoạn 20 mm. Còn mấy mm?|15|20 × 4 = 80; 95 - 80 = 15 mm.|80;75;5
+Một vật từ vạch 7 mm đến 4 cm trên thước. Dài mấy mm?|33|4 cm bằng 40 mm; 40 - 7 = 33 mm.|47;3;40
+Đường kiến đi gồm hai đoạn bằng nhau, mỗi đoạn 35 mm. Còn thiếu mấy mm để tổng đạt 1 dm?|30|35 × 2 = 70; 1 dm bằng 100 mm; 100 - 70 = 30 mm.|65;70;10
+Một chồng 8 tấm thẻ giống nhau dày tổng 24 mm. Mỗi tấm dày mấy mm?|3|24 : 8 = 3 mm.|16;32;4
+Bút dài 12 cm, sau khi gọt ngắn đi 5 mm. Bút còn dài mấy mm?|115|12 cm bằng 120 mm; 120 - 5 = 115 mm.|7;125;120
+Đoạn đỏ 56 mm, đoạn xanh 7 cm. Tổng hai đoạn dài mấy mm?|126|7 cm bằng 70 mm; 56 + 70 = 126 mm.|63;14;116
+Dây dài 9 cm chia 3 phần bằng nhau, lấy một phần rồi cắt bớt 8 mm. Còn mấy mm?|22|9 cm bằng 90 mm; 90 : 3 = 30; 30 - 8 = 22 mm.|30;19;82
+Khung cần ba que dài 24 mm, 24 mm, 32 mm. Có 1 dm dây đủ làm ba que không? Trả lời có hoặc không.|có|24 + 24 + 32 = 80 mm; 1 dm bằng 100 mm, nên đủ.|không;thiếu 20;thiếu 80
+Một đoạn dài 63 mm. Muốn ngắn đi 7 mm rồi chia đều 4 phần, mỗi phần dài mấy mm?|14|63 - 7 = 56; 56 : 4 = 14 mm.|9;16;56
+Bài 31
+Gam viết tắt là gì?|g|Kí hiệu g chỉ đơn vị khối lượng gam.|kg;mm;ml
+1 kg bằng mấy gam?|1000|Một ki-lô-gam bằng một nghìn gam.|100;10;1
+1000 g bằng mấy kg?|1|Đổi theo quan hệ 1 kg bằng 1000 g.|10;100;1000
+Đơn vị nào hợp lí để ghi khối lượng một chiếc kẹp giấy nhỏ?|g|Gam thích hợp cho đồ vật nhẹ.|km;l;cm
+Cân hai đĩa nằm ngang cho biết khối lượng hai bên thế nào?|bằng nhau|Cân thăng bằng nghĩa là hai bên có khối lượng bằng nhau.|bên trái luôn nặng hơn;bên phải luôn nặng hơn;không liên quan
+Hình A: túi hạt cân bằng các quả cân tổng bao nhiêu gam?|350|Các quả cân 200 g, 100 g, 50 g có tổng 200 + 100 + 50 = 350 g.|250;300;150
+Khối lượng 600 g so với 1 kg thế nào?|nhẹ hơn|1 kg bằng 1000 g; 600 g nhỏ hơn 1000 g.|nặng hơn;bằng nhau;gấp đôi
+Một gói ghi 125 g. Số 125 cho biết đại lượng nào?|khối lượng|Đơn vị gam biểu thị khối lượng của gói.|độ dài;dung tích;số trang
+Hai quả cân 20 g và 50 g có tổng mấy gam?|70|20 + 50 = 70 g.|30;60;100
+Túi 900 g còn thiếu mấy gam để đủ 1 kg?|100|1000 - 900 = 100 g.|10;900;1900
+Bạn nói 1 kg nhẹ hơn 750 g vì 1 nhỏ hơn 750. 1 kg phải đổi thành mấy gam trước khi so sánh?|1000|Cần cùng đơn vị: 1 kg bằng 1000 g.|100;10;1
+Cân thăng bằng, trái là hộp và quả cân 50 g, phải là 300 g. Hộp nặng mấy gam?|250|300 - 50 = 250 g; không tính cả quả cân vào hộp.|350;300;50
+Hai túi cùng nặng 180 g mỗi túi. Cả hai nặng mấy gam?|360|180 × 2 = 360 g.|182;90;280
+Hình A: lấy quả cân 50 g bên phải ra, bên nào sẽ hạ xuống? Chọn trái hoặc phải.|trái|Túi bên trái vẫn 350 g, bên phải chỉ còn 300 g nên trái nặng hơn.|phải;hai bên ngang;không bên nào
+Một hộp 500 g được chia 5 phần bằng nhau. Mỗi phần mấy gam?|100|500 : 5 = 100 g.|50;2500;495
+Số đo nào hợp lí cho một quả nho: 5 g, 5 kg, 50 kg hay 500 kg?|5 g|Một quả nho nhỏ có khối lượng vài gam, không phải nhiều ki-lô-gam.|5 kg;50 kg;500 kg
+Túi A 420 g, túi B 380 g. A nặng hơn B mấy gam?|40|420 - 380 = 40 g.|800;60;20
+Một cân chỉ khối lượng cả lọ và hạt là 270 g, lọ rỗng 70 g. Riêng hạt mấy gam?|200|270 - 70 = 200 g.|340;270;70
+Các quả cân 100 g, 50 g, 20 g cân được túi 170 g nếu đặt cùng một đĩa và túi ở đĩa kia không? Trả lời có hoặc không.|có|100 + 50 + 20 = 170 g, đúng khối lượng cần cân.|không;thiếu 20;thừa 50
+Gói 250 g tăng khối lượng gấp 3 lần thì thành mấy gam?|750|250 × 3 = 750 g.|253;500;83
+Mua 450 g đậu và 350 g mè. Tổng mấy gam?|800|450 + 350 = 800 g.|100;700;900
+Một túi 1 kg gạo, lấy 275 g. Còn mấy gam?|725|1 kg bằng 1000 g; 1000 - 275 = 725 g.|375;825;275
+Có 4 gói mỗi gói 125 g. Cả bốn mấy gam?|500|125 × 4 = 500 g.|129;400;625
+Có 600 g bột chia đều 3 hộp. Dùng hết 80 g ở một hộp, hộp đó còn mấy gam?|120|600 : 3 = 200; 200 - 80 = 120 g.|200;520;280
+Cả hộp bánh nặng 540 g, vỏ hộp 40 g. Bánh chia đều 5 phần, mỗi phần mấy gam?|100|540 - 40 = 500; 500 : 5 = 100 g.|108;500;116
+Cần 1 kg đậu, đã có hai túi 300 g và 450 g. Thiếu mấy gam?|250|300 + 450 = 750; 1000 - 750 = 250 g.|750;150;350
+Một khay 90 g chứa ba quả bằng nhau, cả khay và quả nặng 450 g. Mỗi quả mấy gam?|120|450 - 90 = 360; 360 : 3 = 120 g.|150;180;90
+Túi lớn 640 g, túi nhỏ bằng túi lớn giảm 4 lần. Hai túi nặng tổng mấy gam?|800|640 : 4 = 160; 640 + 160 = 800 g.|160;480;644
+Có 700 g hạt, đóng gói 100 g mỗi gói. Bán 3 gói thì còn mấy gói?|4|700 : 100 = 7; 7 - 3 = 4 gói.|7;3;5
+Cân thăng bằng: túi A và 100 g bên trái, 450 g bên phải. Túi A nhẹ hơn túi 400 g bao nhiêu gam?|50|450 - 100 = 350; 400 - 350 = 50 g.|100;350;150
+Mỗi mẻ dùng 45 g đường. Làm 4 mẻ thì dùng mấy gam?|180|45 × 4 = 180 g.|49;160;200
+Có 950 g bột. Dùng 320 g rồi thêm 150 g vào số còn lại. Hiện có mấy gam?|780|950 - 320 = 630; 630 + 150 = 780 g.|480;630;800
+Có 6 gói mỗi gói 80 g. Muốn đủ 500 g thì cần thêm mấy gam?|20|80 × 6 = 480; 500 - 480 = 20 g.|480;40;420
+Một gói nặng 375 g, gói kia nhẹ hơn 125 g. Tổng hai gói mấy gam?|625|375 - 125 = 250; 375 + 250 = 625 g.|250;500;750
+Một lọ rỗng 60 g, thêm vào 240 g hạt. Lấy đi nửa số hạt thì cả lọ còn nặng mấy gam?|180|240 : 2 = 120 g hạt còn lại; 60 + 120 = 180 g.|120;150;300
+Có 1 kg nguyên liệu, cần chia hai phần 400 g và phần còn lại. Phần còn lại nặng mấy gam?|600|1000 - 400 = 600 g.|400;1400;60
+Hai túi tổng 900 g, một túi 360 g. Túi kia nặng hơn túi này mấy gam?|180|900 - 360 = 540; 540 - 360 = 180 g.|540;260;360
+Có 720 g trà, đóng mỗi túi 90 g. Đóng được mấy túi?|8|720 : 90 = 8 túi.|7;9;80
+Một cân có đĩa trái 200 g và túi 150 g, đĩa phải 300 g. Thêm ít nhất mấy gam bên phải để cân bằng?|50|200 + 150 = 350; 350 - 300 = 50 g.|150;100;650
+Ba phần hạt bằng nhau có tổng 960 g. Đem một phần làm bánh, còn mấy gam?|640|960 : 3 = 320; 960 - 320 = 640 g.|320;480;630
+Bài 32
+Mi-li-lít viết tắt là gì?|ml|Kí hiệu ml chỉ đơn vị dung tích mi-li-lít.|mm;g;kg
+1 lít bằng mấy mi-li-lít?|1000|Một lít bằng một nghìn mi-li-lít.|100;10;1
+1000 ml bằng mấy lít?|1|Đổi theo quan hệ 1 l bằng 1000 ml.|10;100;1000
+Đơn vị nào thích hợp ghi lượng nước trong một thìa nhỏ?|ml|Mi-li-lít thích hợp với lượng chất lỏng ít.|km;kg;mm
+Ca chia vạch có các mốc 0, 100, 200 ml cách đều. Mỗi khoảng ứng với mấy ml?|100|Hiệu giữa hai mốc liền nhau là 100 ml.|200;10;50
+Hình A: mực nước ngang vạch mấy ml?|300|Mực nước ngang vạch 300 ml của ca.|200;400;500
+Lượng 800 ml so với 1 l thế nào?|ít hơn|1 l bằng 1000 ml, nên 800 ml ít hơn.|nhiều hơn;bằng nhau;gấp đôi
+Một chai ghi 250 ml. Đây là số đo gì?|dung tích|Mi-li-lít là đơn vị đo dung tích.|khối lượng;độ dài;nhiệt độ
+Có 100 ml thêm 50 ml thì được mấy ml?|150|100 + 50 = 150 ml.|50;100;500
+Bình 1 l đã rót hết 1000 ml thì còn mấy ml?|0|1000 - 1000 = 0 ml.|1;100;1000
+Bạn nói 1 l ít hơn 500 ml vì 1 nhỏ hơn 500. Phải đổi 1 l thành mấy ml?|1000|So sánh cùng đơn vị: 1 l bằng 1000 ml.|100;10;1
+Hình A: muốn nước đến vạch 500 ml cần thêm mấy ml?|200|500 - 300 = 200 ml.|300;500;800
+Ca có 400 ml, rót 150 ml ra thì còn mấy ml?|250|400 - 150 = 250 ml.|550;150;200
+Chai rỗng có dung tích tối đa 600 ml. Rót 650 ml vào có tràn không? Trả lời có hoặc không.|có|650 ml vượt dung tích 600 ml nên tràn nếu rót toàn bộ.|không;vừa đầy;còn thiếu
+Một lít nước chia đều 4 cốc, mỗi cốc mấy ml?|250|1 l bằng 1000 ml; 1000 : 4 = 250 ml.|4;400;200
+Bình có 700 ml, rót ra 200 ml. Số 200 chỉ lượng còn lại hay lượng đã rót?|lượng đã rót|Đề nói rót ra 200 ml, còn lại là 500 ml.|lượng còn lại;dung tích bình;khối lượng bình
+Một ca 150 ml và một ca 250 ml. Ca sau nhiều hơn mấy ml?|100|250 - 150 = 100 ml.|400;150;200
+Lượng 350 ml giảm 5 lần còn mấy ml?|70|350 : 5 = 70 ml.|345;355;1750
+Chai A 450 ml, chai B 550 ml. Gộp lại được đúng 1 l không? Trả lời có hoặc không.|có|450 + 550 = 1000 ml, bằng 1 l.|không;thiếu 100;thừa 100
+Mỗi lần lấy 20 ml. Lấy 3 lần được mấy ml?|60|20 × 3 = 60 ml.|23;17;40
+Bình có 900 ml, rót hai lần mỗi lần 250 ml. Còn mấy ml?|400|250 × 2 = 500; 900 - 500 = 400 ml.|650;500;350
+Có 1 l nước, rót 350 ml rồi 275 ml. Còn mấy ml?|375|1000 - 350 = 650; 650 - 275 = 375 ml.|625;650;425
+Ba cốc mỗi cốc 180 ml. Gộp được mấy ml?|540|180 × 3 = 540 ml.|183;360;480
+Chai 750 ml đã dùng 280 ml. Muốn lượng còn lại thành 600 ml cần thêm mấy ml?|130|750 - 280 = 470; 600 - 470 = 130 ml.|470;150;320
+Có 800 ml chia đều vào 4 cốc. Uống 50 ml từ một cốc, cốc đó còn mấy ml?|150|800 : 4 = 200; 200 - 50 = 150 ml.|200;750;250
+Bình 1 l đã có 650 ml. Rót thêm 400 ml thì tràn mấy ml?|50|650 + 400 = 1050; 1050 - 1000 = 50 ml.|350;400;1050
+Cần pha 500 ml nước, đã có 125 ml và thêm 200 ml. Còn thiếu mấy ml?|175|125 + 200 = 325; 500 - 325 = 175 ml.|325;375;300
+Có 600 ml, mỗi cốc chứa tối đa 200 ml. Cần mấy cốc để chứa hết?|3|600 : 200 = 3 cốc.|2;4;6
+Một bình có 720 ml. Rót ra một lượng bằng ban đầu giảm 3 lần. Bình còn mấy ml?|480|720 : 3 = 240 ml rót ra; 720 - 240 = 480 ml.|240;717;960
+Có 5 chai mỗi chai 160 ml. Tổng lượng nước còn thiếu mấy ml để đủ 1 l?|200|160 × 5 = 800; 1000 - 800 = 200 ml.|800;840;100
+Bình đầu 350 ml, bình sau nhiều hơn 120 ml. Cả hai có mấy ml?|820|350 + 120 = 470; 350 + 470 = 820 ml.|470;700;940
+Có 950 ml nước, dùng 300 ml rồi chia số còn lại đều vào 5 cốc. Mỗi cốc mấy ml?|130|950 - 300 = 650; 650 : 5 = 130 ml.|190;650;150
+Một ca có 240 ml, ca khác gấp 3 lần. Ca khác nhiều hơn ca đầu mấy ml?|480|240 × 3 = 720; 720 - 240 = 480 ml.|720;960;243
+Có 1 l dầu chia vào hai chai, chai đầu 425 ml. Chai sau mấy ml?|575|1000 - 425 = 575 ml.|425;625;675
+Mỗi cốc dùng 80 ml, chuẩn bị 7 cốc. Đã có 500 ml, cần thêm mấy ml?|60|80 × 7 = 560; 560 - 500 = 60 ml.|560;420;20
+Một bình 840 ml, sau khi rót số còn lại bằng ban đầu giảm 4 lần. Đã rót mấy ml?|630|840 : 4 = 210 ml còn lại; 840 - 210 = 630 ml.|210;836;844
+Hai ca bằng nhau chứa tổng 500 ml. Đổ thêm 75 ml vào một ca. Ca đó có mấy ml?|325|500 : 2 = 250; 250 + 75 = 325 ml.|250;575;175
+Một bình có 680 ml, thêm 120 ml rồi rót 350 ml. Còn mấy ml?|450|680 + 120 = 800; 800 - 350 = 450 ml.|330;800;570
+Có 975 ml nước. Cốc tối đa 250 ml. Cần ít nhất mấy cốc để chứa hết?|4|Ba cốc chứa 750 ml, còn 225 ml cần cốc thứ 4.|3;5;2
+Ba lần rót lần lượt 150 ml, 200 ml, 250 ml từ bình 1 l. Bình còn mấy ml?|400|150 + 200 + 250 = 600; 1000 - 600 = 400 ml.|600;450;350

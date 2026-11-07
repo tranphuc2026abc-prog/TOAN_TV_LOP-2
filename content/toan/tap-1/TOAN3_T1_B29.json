@@ -1,0 +1,784 @@
+{
+  "id": "TOAN3_T1_B29",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 29,
+  "title": "Luyện tập chung",
+  "topic": "Ôn phép nhân, chia và bài toán hai bước",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      83,
+      84
+    ],
+    "pdf_pages": [
+      84,
+      85
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Kết hợp nhân, chia số hai chữ số với số một chữ số và chia có dư.",
+    "Phân biệt gấp/giảm số lần với thêm/bớt đơn vị; giải bài có dữ kiện trung gian."
+  ],
+  "knowledge": {
+    "introduction": "Đọc đúng yêu cầu giúp chọn đúng phép tính. Cùng một số ban đầu nhưng gấp số lần, thêm đơn vị, hỏi tổng hay hỏi số còn lại đều có ý nghĩa riêng. Với phép chia có dư, số nhóm đầy khác số hộp cần để chứa hết.",
+    "rules": [
+      "Gấp số lần dùng nhân; giảm số lần dùng chia; thêm/bớt đơn vị dùng cộng/trừ.",
+      "Nhân đặt tính từ đơn vị sang chục, nhớ sang chục nếu cần; chia thực hiện từ chục sang đơn vị.",
+      "Số dư bé hơn số chia. Kiểm tra bằng số chia nhân thương rồi cộng phần dư.",
+      "Bài hai bước cần tìm dữ kiện trung gian trước; ghi đáp số đúng điều cuối cùng đề hỏi."
+    ],
+    "steps": [
+      "Đọc từ chỉ quan hệ và xác định điều cần tìm.",
+      "Chọn phép tính; đặt tính cẩn thận với số nhớ hoặc chục dư.",
+      "Nếu cần hai bước, ghi rõ ý nghĩa của từng bước.",
+      "Kiểm tra kết quả bằng tính ngược và bằng tình huống thực tế."
+    ],
+    "common_errors": [
+      "Dùng cộng khi đề yêu cầu gấp số lần.",
+      "Bỏ chục dư khi chia.",
+      "Lấy thương làm số hộp chứa hết dù vẫn còn dư."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Có 17 bánh mỗi khay, 4 khay như thế; dùng 29 bánh thì còn mấy?",
+      "steps": [
+        "17 × 4 = 68 bánh ban đầu.",
+        "68 - 29 = 39. Còn 39 bánh."
+      ]
+    },
+    {
+      "question": "Chia 46 huy hiệu vào các hộp tối đa 5 chiếc. Cần ít nhất mấy hộp?",
+      "steps": [
+        "5 × 9 + 1 = 46.",
+        "Có 9 hộp đầy và 1 chiếc cần hộp thêm. Cần 10 hộp."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B29_Q01",
+      "type": "mcq",
+      "question": "Tính nhẩm 20 × 3.",
+      "options": [
+        "60",
+        "6",
+        "23",
+        "40"
+      ],
+      "correct_answer": "60",
+      "distractors": [
+        "6",
+        "23",
+        "40"
+      ],
+      "explanation": "2 chục nhân 3 bằng 6 chục.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q02",
+      "type": "fill",
+      "question": "Tính 80 : 4.",
+      "correct_answer": "20",
+      "distractors": [
+        "2",
+        "40",
+        "16"
+      ],
+      "explanation": "8 chục chia 4 bằng 2 chục.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q03",
+      "type": "mcq",
+      "question": "Gấp 12 lên 4 lần dùng phép tính nào?",
+      "options": [
+        "12 × 4",
+        "12 + 4",
+        "12 - 4",
+        "12 : 4"
+      ],
+      "correct_answer": "12 × 4",
+      "distractors": [
+        "12 + 4",
+        "12 - 4",
+        "12 : 4"
+      ],
+      "explanation": "Gấp số lần dùng phép nhân.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q04",
+      "type": "fill",
+      "question": "Giảm 48 đi 6 lần còn mấy?",
+      "correct_answer": "8",
+      "distractors": [
+        "42",
+        "6",
+        "54"
+      ],
+      "explanation": "48 : 6 = 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q05",
+      "type": "mcq",
+      "question": "Trong phép chia cho 7, số dư lớn nhất là mấy?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "0"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "7",
+        "8",
+        "0"
+      ],
+      "explanation": "Số dư phải nhỏ hơn số chia 7.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q06",
+      "type": "fill",
+      "question": "Tính 23 × 3.",
+      "correct_answer": "69",
+      "distractors": [
+        "66",
+        "26",
+        "63"
+      ],
+      "explanation": "3 × 3 = 9; 3 × 2 = 6 chục, được 69.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q07",
+      "type": "mcq",
+      "question": "Phép chia 35 cho 4 có thương 8, số dư là mấy?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "1"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "4",
+        "2",
+        "1"
+      ],
+      "explanation": "4 × 8 + 3 = 35.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q08",
+      "type": "fill",
+      "question": "Bớt 5 đơn vị khỏi 45 còn mấy?",
+      "correct_answer": "40",
+      "distractors": [
+        "9",
+        "50",
+        "35"
+      ],
+      "explanation": "45 - 5 = 40; đây là bớt đơn vị, không phải giảm số lần.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q09",
+      "type": "mcq",
+      "question": "Tính 96 : 3.",
+      "options": [
+        "32",
+        "31",
+        "33",
+        "23"
+      ],
+      "correct_answer": "32",
+      "distractors": [
+        "31",
+        "33",
+        "23"
+      ],
+      "explanation": "9 chia 3 được 3 chục; 6 chia 3 được 2 đơn vị.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q10",
+      "type": "fill",
+      "question": "Một nhóm 8 bạn, 3 nhóm như thế có mấy bạn?",
+      "correct_answer": "24",
+      "distractors": [
+        "11",
+        "5",
+        "18"
+      ],
+      "explanation": "8 × 3 = 24 bạn.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q11",
+      "type": "mcq",
+      "question": "Cùng số 18, gấp 3 lần và thêm 3 đơn vị cho kết quả hơn kém mấy?",
+      "options": [
+        "33",
+        "3",
+        "36",
+        "54"
+      ],
+      "correct_answer": "33",
+      "distractors": [
+        "3",
+        "36",
+        "54"
+      ],
+      "explanation": "18 × 3 = 54; 18 + 3 = 21; 54 - 21 = 33.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q12",
+      "type": "fill",
+      "question": "Một số giảm 4 lần còn 9. Số ban đầu là mấy?",
+      "correct_answer": "36",
+      "distractors": [
+        "13",
+        "5",
+        "32"
+      ],
+      "explanation": "9 × 4 = 36.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q13",
+      "type": "mcq",
+      "question": "Bạn tính 27 × 3 bằng 61 vì quên số nhớ. Tích đúng là mấy?",
+      "options": [
+        "81",
+        "61",
+        "71",
+        "84"
+      ],
+      "correct_answer": "81",
+      "distractors": [
+        "61",
+        "71",
+        "84"
+      ],
+      "explanation": "3 × 7 = 21, viết 1 nhớ 2; 3 × 2 = 6, thêm 2 được 8 chục.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q14",
+      "type": "fill",
+      "question": "Chia 78 cho 5 có thương 15. Phần dư là mấy?",
+      "correct_answer": "3",
+      "distractors": [
+        "5",
+        "2",
+        "4"
+      ],
+      "explanation": "5 × 15 + 3 = 78, phần dư 3 nhỏ hơn 5.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q15",
+      "type": "mcq",
+      "question": "Giảm 60 đi 5 lần rồi thêm 7 được mấy?",
+      "options": [
+        "19",
+        "62",
+        "17",
+        "5"
+      ],
+      "correct_answer": "19",
+      "distractors": [
+        "62",
+        "17",
+        "5"
+      ],
+      "explanation": "60 : 5 = 12; 12 + 7 = 19.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q16",
+      "type": "fill",
+      "question": "Gấp 16 lên 3 lần rồi giảm 2 lần được mấy?",
+      "correct_answer": "24",
+      "distractors": [
+        "48",
+        "8",
+        "46"
+      ],
+      "explanation": "16 × 3 = 48; 48 : 2 = 24.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q17",
+      "type": "mcq",
+      "question": "Nếu 4 × 19 = 76 thì 76 : 4 bằng mấy?",
+      "options": [
+        "19",
+        "18",
+        "20",
+        "72"
+      ],
+      "correct_answer": "19",
+      "distractors": [
+        "18",
+        "20",
+        "72"
+      ],
+      "explanation": "Phép chia tìm thừa số khi biết tích và thừa số còn lại.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q18",
+      "type": "fill",
+      "question": "Bạn dùng 40 - 4 để giải yêu cầu giảm 40 đi 4 lần. Kết quả đúng là mấy?",
+      "correct_answer": "10",
+      "distractors": [
+        "36",
+        "44",
+        "160"
+      ],
+      "explanation": "Phải lấy 40 : 4 = 10.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q19",
+      "type": "mcq",
+      "question": "Hai phần bằng nhau có tổng 74. Mỗi phần bằng mấy?",
+      "options": [
+        "37",
+        "36",
+        "38",
+        "72"
+      ],
+      "correct_answer": "37",
+      "distractors": [
+        "36",
+        "38",
+        "72"
+      ],
+      "explanation": "74 : 2 = 37.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q20",
+      "type": "fill",
+      "question": "Thương 11 dư 2 khi chia cho 6 ứng với số bị chia nào?",
+      "correct_answer": "68",
+      "distractors": [
+        "66",
+        "64",
+        "70"
+      ],
+      "explanation": "6 × 11 + 2 = 68.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q21",
+      "type": "mcq",
+      "question": "Có 26 huy hiệu, mỗi hộp đầy 4 chiếc. Cần thêm mấy huy hiệu để hộp cuối cũng đầy?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "3"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "6",
+        "3"
+      ],
+      "explanation": "4 × 6 + 2 = 26; hộp cuối có 2, thiếu 2 để đủ 4.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q22",
+      "type": "fill",
+      "question": "Một tổ làm 14 cờ, tổ khác làm gấp 4 lần. Cả hai tổ mấy cờ?",
+      "correct_answer": "70",
+      "distractors": [
+        "56",
+        "18",
+        "42"
+      ],
+      "explanation": "14 × 4 = 56; 14 + 56 = 70.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q23",
+      "type": "mcq",
+      "question": "Có 57 kg đậu, mỗi túi 5 kg. Đóng được mấy túi đầy?",
+      "options": [
+        "11",
+        "12",
+        "10",
+        "2"
+      ],
+      "correct_answer": "11",
+      "distractors": [
+        "12",
+        "10",
+        "2"
+      ],
+      "explanation": "5 × 11 + 2 = 57, có 11 túi đầy.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q24",
+      "type": "fill",
+      "question": "Có 57 kg đậu cần chứa hết trong túi tối đa 5 kg. Ít nhất mấy túi?",
+      "correct_answer": "12",
+      "distractors": [
+        "11",
+        "13",
+        "10"
+      ],
+      "explanation": "11 túi đầy chứa 55 kg; 2 kg còn lại cần túi thứ 12.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q25",
+      "type": "mcq",
+      "question": "Dây dài 48 cm, dây ngắn bằng dây dài giảm 3 lần. Hai dây dài tất cả mấy cm?",
+      "options": [
+        "64",
+        "16",
+        "51",
+        "32"
+      ],
+      "correct_answer": "64",
+      "distractors": [
+        "16",
+        "51",
+        "32"
+      ],
+      "explanation": "48 : 3 = 16; 48 + 16 = 64.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q26",
+      "type": "fill",
+      "question": "Kho có 84 thẻ. Sau khi phát, số còn lại bằng ban đầu giảm 4 lần. Đã phát mấy thẻ?",
+      "correct_answer": "63",
+      "distractors": [
+        "21",
+        "80",
+        "88"
+      ],
+      "explanation": "84 : 4 = 21 thẻ còn lại; 84 - 21 = 63.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q27",
+      "type": "mcq",
+      "question": "Một nhóm 7 bạn, mỗi bạn góp 12 hạt. Gieo 35 hạt, còn mấy hạt?",
+      "options": [
+        "49",
+        "84",
+        "47",
+        "42"
+      ],
+      "correct_answer": "49",
+      "distractors": [
+        "84",
+        "47",
+        "42"
+      ],
+      "explanation": "12 × 7 = 84; 84 - 35 = 49.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q28",
+      "type": "fill",
+      "question": "Có 86 ảnh, mỗi trang dán 4 ảnh. Trang chưa đầy có mấy ảnh?",
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "3",
+        "1"
+      ],
+      "explanation": "4 × 21 + 2 = 86; trang cuối có 2 ảnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q29",
+      "type": "mcq",
+      "question": "Ba luống đều nhau có tổng 69 cây. Hai luống có mấy cây?",
+      "options": [
+        "46",
+        "23",
+        "44",
+        "48"
+      ],
+      "correct_answer": "46",
+      "distractors": [
+        "23",
+        "44",
+        "48"
+      ],
+      "explanation": "69 : 3 = 23; 23 × 2 = 46.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q30",
+      "type": "fill",
+      "question": "Ngày đầu đi 18 vòng, ngày sau bằng ngày đầu giảm 3 lần. Ngày sau ít hơn ngày đầu mấy vòng?",
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "15",
+        "21"
+      ],
+      "explanation": "18 : 3 = 6; 18 - 6 = 12.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q31",
+      "type": "mcq",
+      "question": "Có 29 bạn, mỗi bàn tối đa 3 bạn. Cần ít nhất mấy bàn?",
+      "options": [
+        "10",
+        "9",
+        "11",
+        "8"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "11",
+        "8"
+      ],
+      "explanation": "3 × 9 + 2 = 29; thêm một bàn cho 2 bạn còn lại.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q32",
+      "type": "fill",
+      "question": "Mỗi chuyến chuyển 16 hộp, làm 5 chuyến. Cần chuyển 95 hộp thì còn mấy hộp?",
+      "correct_answer": "15",
+      "distractors": [
+        "80",
+        "19",
+        "11"
+      ],
+      "explanation": "16 × 5 = 80; 95 - 80 = 15.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q33",
+      "type": "mcq",
+      "question": "Có 72 que chia đều 6 bạn. Mỗi bạn dùng 5 que thì còn mấy que trong phần của mình?",
+      "options": [
+        "7",
+        "12",
+        "67",
+        "17"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "12",
+        "67",
+        "17"
+      ],
+      "explanation": "72 : 6 = 12; 12 - 5 = 7.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q34",
+      "type": "fill",
+      "question": "Tủ thứ nhất 25 sách, tủ thứ hai ít hơn 8 sách. Cả hai tủ mấy sách?",
+      "correct_answer": "42",
+      "distractors": [
+        "17",
+        "33",
+        "50"
+      ],
+      "explanation": "25 - 8 = 17; 25 + 17 = 42.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q35",
+      "type": "mcq",
+      "question": "Số 24 qua máy gấp 3 lần rồi bớt 9 đơn vị. Máy trả số mấy?",
+      "options": [
+        "63",
+        "72",
+        "45",
+        "18"
+      ],
+      "correct_answer": "63",
+      "distractors": [
+        "72",
+        "45",
+        "18"
+      ],
+      "explanation": "24 × 3 = 72; 72 - 9 = 63.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q36",
+      "type": "fill",
+      "question": "Có 62 viên, lấy ra 6 viên rồi chia nhóm 7 viên. Được mấy nhóm?",
+      "correct_answer": "8",
+      "distractors": [
+        "7",
+        "9",
+        "56"
+      ],
+      "explanation": "62 - 6 = 56; 56 : 7 = 8.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q37",
+      "type": "mcq",
+      "question": "Có 19 nhãn, bạn có gấp 4 lần. Bạn nhiều hơn em mấy nhãn?",
+      "options": [
+        "57",
+        "76",
+        "23",
+        "38"
+      ],
+      "correct_answer": "57",
+      "distractors": [
+        "76",
+        "23",
+        "38"
+      ],
+      "explanation": "19 × 4 = 76; 76 - 19 = 57.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q38",
+      "type": "fill",
+      "question": "Một số chia 4 thương 16 dư 3. Thêm ít nhất mấy để chia hết cho 4?",
+      "correct_answer": "1",
+      "distractors": [
+        "3",
+        "4",
+        "2"
+      ],
+      "explanation": "Phần dư 3 cần thêm 1 để đủ nhóm 4.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q39",
+      "type": "mcq",
+      "question": "Có 5 khay mỗi khay 17 quả. Chuyển đi 28 quả thì còn mấy quả?",
+      "options": [
+        "57",
+        "85",
+        "63",
+        "47"
+      ],
+      "correct_answer": "57",
+      "distractors": [
+        "85",
+        "63",
+        "47"
+      ],
+      "explanation": "17 × 5 = 85; 85 - 28 = 57.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B29_Q40",
+      "type": "fill",
+      "question": "Hai bạn cùng có 64 thẻ. An giảm 4 lần, Bình bớt 4 đơn vị. Bình còn hơn An mấy thẻ?",
+      "correct_answer": "44",
+      "distractors": [
+        "48",
+        "16",
+        "60"
+      ],
+      "explanation": "64 : 4 = 16; 64 - 4 = 60; 60 - 16 = 44.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B29_GAME1",
+      "title": "Thám hiểm phép tính",
+      "mode": "treasure",
+      "objective": "Giải tình huống nhân/chia, phần dư và hai bước trong 10 câu.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án, đọc lời giải rồi sang câu tiếp theo.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B29_Q01",
+        "TOAN3_T1_B29_Q02",
+        "TOAN3_T1_B29_Q03",
+        "TOAN3_T1_B29_Q04",
+        "TOAN3_T1_B29_Q05",
+        "TOAN3_T1_B29_Q06",
+        "TOAN3_T1_B29_Q07",
+        "TOAN3_T1_B29_Q08",
+        "TOAN3_T1_B29_Q09",
+        "TOAN3_T1_B29_Q10",
+        "TOAN3_T1_B29_Q11",
+        "TOAN3_T1_B29_Q12",
+        "TOAN3_T1_B29_Q13",
+        "TOAN3_T1_B29_Q14",
+        "TOAN3_T1_B29_Q15",
+        "TOAN3_T1_B29_Q16",
+        "TOAN3_T1_B29_Q17",
+        "TOAN3_T1_B29_Q18",
+        "TOAN3_T1_B29_Q19",
+        "TOAN3_T1_B29_Q20",
+        "TOAN3_T1_B29_Q21",
+        "TOAN3_T1_B29_Q22",
+        "TOAN3_T1_B29_Q23",
+        "TOAN3_T1_B29_Q24",
+        "TOAN3_T1_B29_Q25",
+        "TOAN3_T1_B29_Q26",
+        "TOAN3_T1_B29_Q27",
+        "TOAN3_T1_B29_Q28",
+        "TOAN3_T1_B29_Q29",
+        "TOAN3_T1_B29_Q30",
+        "TOAN3_T1_B29_Q31",
+        "TOAN3_T1_B29_Q32",
+        "TOAN3_T1_B29_Q33",
+        "TOAN3_T1_B29_Q34",
+        "TOAN3_T1_B29_Q35",
+        "TOAN3_T1_B29_Q36",
+        "TOAN3_T1_B29_Q37",
+        "TOAN3_T1_B29_Q38",
+        "TOAN3_T1_B29_Q39",
+        "TOAN3_T1_B29_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

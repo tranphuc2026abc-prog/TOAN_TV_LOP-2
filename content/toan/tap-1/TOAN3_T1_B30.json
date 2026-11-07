@@ -1,0 +1,822 @@
+{
+  "id": "TOAN3_T1_B30",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 30,
+  "title": "Mi-li-mét",
+  "topic": "Đo độ dài bằng mi-li-mét",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      85,
+      86
+    ],
+    "pdf_pages": [
+      86,
+      87
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết mm, quan hệ với cm và m.",
+    "Đọc vạch thước, đổi cùng đơn vị và giải bài toán độ dài."
+  ],
+  "knowledge": {
+    "introduction": "Các vật rất nhỏ hoặc độ dày mỏng có thể dùng mi-li-mét. Trên thước, mỗi khoảng 1 cm thường được chia thành 10 khoảng bằng nhau; mỗi khoảng nhỏ dài 1 mm. Đếm khoảng, không đếm số vạch.",
+    "rules": [
+      "Mi-li-mét viết tắt mm. 1 cm bằng 10 mm; 1 m bằng 1000 mm.",
+      "Đổi cm sang mm: nhân với 10. Đổi số mm tròn chục sang cm: chia cho 10.",
+      "Nếu một đầu không ở vạch 0, độ dài bằng số ở đầu cuối trừ số ở đầu đầu.",
+      "Muốn cộng, trừ hoặc so sánh, phải đổi về cùng đơn vị trước.",
+      "Hình thước trên màn hình chỉ mô phỏng vạch; kích thước hiển thị không phải độ dài vật thật."
+    ],
+    "steps": [
+      "Đặt thước sát vật; để một đầu vật ở vạch 0 khi có thể.",
+      "Nhìn vuông góc với vạch ở đầu kia, đọc cm và khoảng mm.",
+      "Nếu đầu vật lệch vạch 0, lấy hai số đo đầu cuối trừ nhau.",
+      "Ghi mm hoặc cm đúng yêu cầu, kiểm tra phép đổi đơn vị."
+    ],
+    "common_errors": [
+      "Nhầm 1 cm bằng 100 mm.",
+      "Đọc số cuối thay độ dài khi đầu vật không ở 0.",
+      "Cộng cm với mm mà chưa đổi.",
+      "Lấy thước thật đo hình trên màn hình rồi tin đó là số đo trong đề."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Một que từ vạch 6 mm đến 34 mm. Que dài bao nhiêu?",
+      "steps": [
+        "34 - 6 = 28.",
+        "Que dài 28 mm."
+      ]
+    },
+    {
+      "question": "Dải giấy 5 cm cắt bớt 13 mm. Còn bao nhiêu?",
+      "steps": [
+        "5 cm bằng 50 mm.",
+        "50 - 13 = 37. Còn 37 mm."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B30_Q01",
+      "type": "mcq",
+      "question": "Mi-li-mét viết tắt là gì?",
+      "options": [
+        "mm",
+        "cm",
+        "g",
+        "ml"
+      ],
+      "correct_answer": "mm",
+      "distractors": [
+        "cm",
+        "g",
+        "ml"
+      ],
+      "explanation": "Kí hiệu mm dùng cho đơn vị mi-li-mét đo độ dài.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q02",
+      "type": "fill",
+      "question": "Một xăng-ti-mét bằng mấy mi-li-mét?",
+      "correct_answer": "10",
+      "distractors": [
+        "100",
+        "1",
+        "1000"
+      ],
+      "explanation": "Mỗi khoảng 1 cm gồm 10 khoảng nhỏ 1 mm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q03",
+      "type": "mcq",
+      "question": "Một mét bằng mấy mi-li-mét?",
+      "options": [
+        "1000",
+        "100",
+        "10",
+        "10000"
+      ],
+      "correct_answer": "1000",
+      "distractors": [
+        "100",
+        "10",
+        "10000"
+      ],
+      "explanation": "1 m bằng 100 cm, mỗi cm bằng 10 mm nên bằng 1000 mm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q04",
+      "type": "fill",
+      "question": "30 mm bằng mấy cm?",
+      "correct_answer": "3",
+      "distractors": [
+        "30",
+        "300",
+        "13"
+      ],
+      "explanation": "30 : 10 = 3 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q05",
+      "type": "mcq",
+      "question": "7 cm bằng mấy mm?",
+      "options": [
+        "70",
+        "7",
+        "17",
+        "700"
+      ],
+      "correct_answer": "70",
+      "distractors": [
+        "7",
+        "17",
+        "700"
+      ],
+      "explanation": "7 × 10 = 70 mm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q06",
+      "type": "fill",
+      "question": "Trong các đơn vị mm, g, ml, kg, đơn vị nào đo độ dài?",
+      "correct_answer": "mm",
+      "distractors": [
+        "g",
+        "ml",
+        "kg"
+      ],
+      "explanation": "mm là đơn vị độ dài; g và kg đo khối lượng, ml đo dung tích.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q07",
+      "type": "mcq",
+      "question": "Độ dày tấm thẻ khoảng 1 đơn vị. Chọn đơn vị hợp lí: mm, m, km hay l?",
+      "options": [
+        "mm",
+        "m",
+        "km",
+        "l"
+      ],
+      "correct_answer": "mm",
+      "distractors": [
+        "m",
+        "km",
+        "l"
+      ],
+      "explanation": "Một mi-li-mét phù hợp với độ dày rất nhỏ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q08",
+      "type": "fill",
+      "question": "Trong 1 cm trên thước có mấy khoảng 1 mm?",
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "11",
+        "1"
+      ],
+      "explanation": "Đếm khoảng giữa các vạch: có 10 khoảng 1 mm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q09",
+      "type": "mcq",
+      "question": "Hình A: đoạn AB dài mấy mm?",
+      "options": [
+        "26",
+        "30",
+        "34",
+        "24"
+      ],
+      "correct_answer": "26",
+      "distractors": [
+        "30",
+        "34",
+        "24"
+      ],
+      "explanation": "A ở vạch 4 mm, B ở vạch 30 mm; 30 - 4 = 26 mm.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B30_A.svg",
+        "caption": "Hình A: Thước chia từng mm; A tại 4 mm, B tại 30 mm. Hình mô phỏng, không đo trực tiếp màn hình."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q10",
+      "type": "fill",
+      "question": "Hình A: điểm A trùng vạch mấy mm?",
+      "correct_answer": "4",
+      "distractors": [
+        "0",
+        "5",
+        "3"
+      ],
+      "explanation": "Đọc từ vạch 0 đến A có 4 khoảng nhỏ 1 mm.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B30_A.svg",
+        "caption": "Hình A: Thước chia từng mm; A tại 4 mm, B tại 30 mm. Hình mô phỏng, không đo trực tiếp màn hình."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q11",
+      "type": "mcq",
+      "question": "Vì sao 4 cm dài hơn 35 mm? 4 cm bằng mấy mm?",
+      "options": [
+        "40",
+        "4",
+        "400",
+        "39"
+      ],
+      "correct_answer": "40",
+      "distractors": [
+        "4",
+        "400",
+        "39"
+      ],
+      "explanation": "Đổi cùng đơn vị: 4 × 10 = 40 mm, lớn hơn 35 mm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q12",
+      "type": "fill",
+      "question": "Thước có đầu vật ở 12 mm, cuối ở 39 mm. Vật dài mấy mm?",
+      "correct_answer": "27",
+      "distractors": [
+        "39",
+        "51",
+        "12"
+      ],
+      "explanation": "39 - 12 = 27 mm; không lấy riêng số cuối.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q13",
+      "type": "mcq",
+      "question": "Bạn đổi 8 cm thành 8 mm. Kết quả đúng là mấy mm?",
+      "options": [
+        "80",
+        "8",
+        "18",
+        "800"
+      ],
+      "correct_answer": "80",
+      "distractors": [
+        "8",
+        "18",
+        "800"
+      ],
+      "explanation": "8 × 10 = 80 mm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q14",
+      "type": "fill",
+      "question": "Điền dấu so sánh: 50 mm ... 5 cm.",
+      "correct_answer": "=",
+      "distractors": [
+        ">",
+        " <",
+        "không so sánh được"
+      ],
+      "explanation": "5 cm đổi ra 50 mm nên hai độ dài bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q15",
+      "type": "mcq",
+      "question": "Đoạn 2 cm 7 mm bằng mấy mm?",
+      "options": [
+        "27",
+        "9",
+        "207",
+        "72"
+      ],
+      "correct_answer": "27",
+      "distractors": [
+        "9",
+        "207",
+        "72"
+      ],
+      "explanation": "2 cm bằng 20 mm; 20 + 7 = 27 mm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q16",
+      "type": "fill",
+      "question": "Giảm 64 mm đi 4 lần còn mấy mm?",
+      "correct_answer": "16",
+      "distractors": [
+        "60",
+        "68",
+        "256"
+      ],
+      "explanation": "64 : 4 = 16 mm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q17",
+      "type": "mcq",
+      "question": "Tổng 3 cm và 8 mm bằng mấy mm?",
+      "options": [
+        "38",
+        "11",
+        "308",
+        "83"
+      ],
+      "correct_answer": "38",
+      "distractors": [
+        "11",
+        "308",
+        "83"
+      ],
+      "explanation": "3 cm bằng 30 mm; 30 + 8 = 38.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q18",
+      "type": "fill",
+      "question": "Hình A: bạn đọc AB là 30 mm vì chỉ nhìn B. Bạn đã tính thừa mấy mm?",
+      "correct_answer": "4",
+      "distractors": [
+        "26",
+        "30",
+        "34"
+      ],
+      "explanation": "AB là 26 mm; 30 - 26 = 4 mm, chính là đoạn từ 0 đến A.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B30_A.svg",
+        "caption": "Hình A: Thước chia từng mm; A tại 4 mm, B tại 30 mm. Hình mô phỏng, không đo trực tiếp màn hình."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q19",
+      "type": "mcq",
+      "question": "Một đoạn dài 90 mm, đoạn kia 8 cm. Đoạn thứ nhất dài hơn mấy mm?",
+      "options": [
+        "10",
+        "82",
+        "2",
+        "18"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "82",
+        "2",
+        "18"
+      ],
+      "explanation": "8 cm bằng 80 mm; 90 - 80 = 10 mm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q20",
+      "type": "fill",
+      "question": "Đo bằng hình thước trên màn hình có cho biết kích thước vật thật nếu hình bị phóng to không? Trả lời có hoặc không.",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "luôn chính xác",
+        "chỉ cần chạm"
+      ],
+      "explanation": "Hình có thể đổi kích thước hiển thị; chỉ đọc số vạch theo dữ kiện, không đo trực tiếp màn hình.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q21",
+      "type": "mcq",
+      "question": "Một dải giấy dài 6 cm, cắt bớt 14 mm. Còn mấy mm?",
+      "options": [
+        "46",
+        "54",
+        "8",
+        "74"
+      ],
+      "correct_answer": "46",
+      "distractors": [
+        "54",
+        "8",
+        "74"
+      ],
+      "explanation": "6 cm bằng 60 mm; 60 - 14 = 46 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q22",
+      "type": "fill",
+      "question": "Ba đoạn dây mỗi đoạn 18 mm, không chồng lên nhau. Tổng dài mấy mm?",
+      "correct_answer": "54",
+      "distractors": [
+        "21",
+        "6",
+        "48"
+      ],
+      "explanation": "18 × 3 = 54 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q23",
+      "type": "mcq",
+      "question": "Một con kiến đi 125 mm rồi đi thêm 240 mm. Đã đi mấy mm?",
+      "options": [
+        "365",
+        "115",
+        "355",
+        "375"
+      ],
+      "correct_answer": "365",
+      "distractors": [
+        "115",
+        "355",
+        "375"
+      ],
+      "explanation": "125 + 240 = 365 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q24",
+      "type": "fill",
+      "question": "Hai thanh dài 42 mm và 3 cm. Cần cắt bớt thanh dài mấy mm để bằng thanh ngắn?",
+      "correct_answer": "12",
+      "distractors": [
+        "39",
+        "45",
+        "72"
+      ],
+      "explanation": "3 cm bằng 30 mm; 42 - 30 = 12 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q25",
+      "type": "mcq",
+      "question": "Dây dài 84 mm chia 4 đoạn bằng nhau. Mỗi đoạn mấy mm?",
+      "options": [
+        "21",
+        "20",
+        "24",
+        "80"
+      ],
+      "correct_answer": "21",
+      "distractors": [
+        "20",
+        "24",
+        "80"
+      ],
+      "explanation": "84 : 4 = 21 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q26",
+      "type": "fill",
+      "question": "Có 1 m dây, dùng 360 mm. Còn mấy mm?",
+      "correct_answer": "640",
+      "distractors": [
+        "460",
+        "740",
+        "360"
+      ],
+      "explanation": "1 m bằng 1000 mm; 1000 - 360 = 640 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q27",
+      "type": "mcq",
+      "question": "Một đường gấp khúc gồm 25 mm, 4 cm và 15 mm. Tổng dài mấy mm?",
+      "options": [
+        "80",
+        "44",
+        "65",
+        "70"
+      ],
+      "correct_answer": "80",
+      "distractors": [
+        "44",
+        "65",
+        "70"
+      ],
+      "explanation": "4 cm bằng 40 mm; 25 + 40 + 15 = 80 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q28",
+      "type": "fill",
+      "question": "Hai tấm gỗ dày 7 mm và 9 mm chồng khít. Tổng dày mấy mm?",
+      "correct_answer": "16",
+      "distractors": [
+        "2",
+        "63",
+        "14"
+      ],
+      "explanation": "7 + 9 = 16 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q29",
+      "type": "mcq",
+      "question": "Muốn có 5 cm từ một dải 36 mm, cần nối thêm mấy mm không chồng mép?",
+      "options": [
+        "14",
+        "31",
+        "41",
+        "86"
+      ],
+      "correct_answer": "14",
+      "distractors": [
+        "31",
+        "41",
+        "86"
+      ],
+      "explanation": "5 cm bằng 50 mm; 50 - 36 = 14 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q30",
+      "type": "fill",
+      "question": "Một nhãn dài 48 mm, nhãn khác bằng nó giảm 3 lần. Nhãn khác dài mấy mm?",
+      "correct_answer": "16",
+      "distractors": [
+        "45",
+        "51",
+        "12"
+      ],
+      "explanation": "48 : 3 = 16 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q31",
+      "type": "mcq",
+      "question": "Có 95 mm ruy băng, mỗi đoạn cần 20 mm. Cắt nhiều nhất mấy đoạn đủ?",
+      "options": [
+        "4",
+        "5",
+        "3",
+        "15"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "5",
+        "3",
+        "15"
+      ],
+      "explanation": "20 × 4 + 15 = 95, cắt được 4 đoạn đủ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q32",
+      "type": "fill",
+      "question": "Có 95 mm ruy băng, cắt bốn đoạn 20 mm. Còn mấy mm?",
+      "correct_answer": "15",
+      "distractors": [
+        "80",
+        "75",
+        "5"
+      ],
+      "explanation": "20 × 4 = 80; 95 - 80 = 15 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q33",
+      "type": "mcq",
+      "question": "Một vật từ vạch 7 mm đến 4 cm trên thước. Dài mấy mm?",
+      "options": [
+        "33",
+        "47",
+        "3",
+        "40"
+      ],
+      "correct_answer": "33",
+      "distractors": [
+        "47",
+        "3",
+        "40"
+      ],
+      "explanation": "4 cm bằng 40 mm; 40 - 7 = 33 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q34",
+      "type": "fill",
+      "question": "Đường kiến đi gồm hai đoạn bằng nhau, mỗi đoạn 35 mm. Còn thiếu mấy mm để tổng đạt 1 dm?",
+      "correct_answer": "30",
+      "distractors": [
+        "65",
+        "70",
+        "10"
+      ],
+      "explanation": "35 × 2 = 70; 1 dm bằng 100 mm; 100 - 70 = 30 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q35",
+      "type": "mcq",
+      "question": "Một chồng 8 tấm thẻ giống nhau dày tổng 24 mm. Mỗi tấm dày mấy mm?",
+      "options": [
+        "3",
+        "16",
+        "32",
+        "4"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "16",
+        "32",
+        "4"
+      ],
+      "explanation": "24 : 8 = 3 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q36",
+      "type": "fill",
+      "question": "Bút dài 12 cm, sau khi gọt ngắn đi 5 mm. Bút còn dài mấy mm?",
+      "correct_answer": "115",
+      "distractors": [
+        "7",
+        "125",
+        "120"
+      ],
+      "explanation": "12 cm bằng 120 mm; 120 - 5 = 115 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q37",
+      "type": "mcq",
+      "question": "Đoạn đỏ 56 mm, đoạn xanh 7 cm. Tổng hai đoạn dài mấy mm?",
+      "options": [
+        "126",
+        "63",
+        "14",
+        "116"
+      ],
+      "correct_answer": "126",
+      "distractors": [
+        "63",
+        "14",
+        "116"
+      ],
+      "explanation": "7 cm bằng 70 mm; 56 + 70 = 126 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q38",
+      "type": "fill",
+      "question": "Dây dài 9 cm chia 3 phần bằng nhau, lấy một phần rồi cắt bớt 8 mm. Còn mấy mm?",
+      "correct_answer": "22",
+      "distractors": [
+        "30",
+        "19",
+        "82"
+      ],
+      "explanation": "9 cm bằng 90 mm; 90 : 3 = 30; 30 - 8 = 22 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q39",
+      "type": "mcq",
+      "question": "Khung cần ba que dài 24 mm, 24 mm, 32 mm. Có 1 dm dây đủ làm ba que không? Trả lời có hoặc không.",
+      "options": [
+        "có",
+        "không",
+        "thiếu 20",
+        "thiếu 80"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "thiếu 20",
+        "thiếu 80"
+      ],
+      "explanation": "24 + 24 + 32 = 80 mm; 1 dm bằng 100 mm, nên đủ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B30_Q40",
+      "type": "fill",
+      "question": "Một đoạn dài 63 mm. Muốn ngắn đi 7 mm rồi chia đều 4 phần, mỗi phần dài mấy mm?",
+      "correct_answer": "14",
+      "distractors": [
+        "9",
+        "16",
+        "56"
+      ],
+      "explanation": "63 - 7 = 56; 56 : 4 = 14 mm.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B30_GAME1",
+      "title": "Ghép độ dài",
+      "mode": "match",
+      "objective": "Ghép câu hỏi đổi đơn vị, đọc thước và độ dài với kết quả.",
+      "rules": [
+        "Mỗi lượt chọn 5 câu có 5 đáp án khác nhau.",
+        "Chọn câu hỏi bên trái rồi đáp án bên phải. Sai thì thử lại.",
+        "Mỗi cặp đúng 10 điểm; tối đa 50 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B30_Q01",
+        "TOAN3_T1_B30_Q02",
+        "TOAN3_T1_B30_Q03",
+        "TOAN3_T1_B30_Q04",
+        "TOAN3_T1_B30_Q05",
+        "TOAN3_T1_B30_Q06",
+        "TOAN3_T1_B30_Q07",
+        "TOAN3_T1_B30_Q08",
+        "TOAN3_T1_B30_Q09",
+        "TOAN3_T1_B30_Q10",
+        "TOAN3_T1_B30_Q11",
+        "TOAN3_T1_B30_Q12",
+        "TOAN3_T1_B30_Q13",
+        "TOAN3_T1_B30_Q14",
+        "TOAN3_T1_B30_Q15",
+        "TOAN3_T1_B30_Q16",
+        "TOAN3_T1_B30_Q17",
+        "TOAN3_T1_B30_Q18",
+        "TOAN3_T1_B30_Q19",
+        "TOAN3_T1_B30_Q20",
+        "TOAN3_T1_B30_Q21",
+        "TOAN3_T1_B30_Q22",
+        "TOAN3_T1_B30_Q23",
+        "TOAN3_T1_B30_Q24",
+        "TOAN3_T1_B30_Q25",
+        "TOAN3_T1_B30_Q26",
+        "TOAN3_T1_B30_Q27",
+        "TOAN3_T1_B30_Q28",
+        "TOAN3_T1_B30_Q29",
+        "TOAN3_T1_B30_Q30",
+        "TOAN3_T1_B30_Q31",
+        "TOAN3_T1_B30_Q32",
+        "TOAN3_T1_B30_Q33",
+        "TOAN3_T1_B30_Q34",
+        "TOAN3_T1_B30_Q35",
+        "TOAN3_T1_B30_Q36",
+        "TOAN3_T1_B30_Q37",
+        "TOAN3_T1_B30_Q38",
+        "TOAN3_T1_B30_Q39",
+        "TOAN3_T1_B30_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 50
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "activities": [
+    {
+      "title": "Tìm vạch một mi-li-mét",
+      "materials": [
+        "Thước có chia mm",
+        "Một dải giấy"
+      ],
+      "steps": [
+        "Tìm khoảng từ 0 đến 1 cm và đếm 10 khoảng nhỏ.",
+        "Đánh dấu trên giấy hai điểm cách nhau 2 cm, rồi một điểm cách điểm đầu 25 mm.",
+        "Đo lại, đọc 25 mm cũng là 2 cm 5 mm."
+      ],
+      "check": [
+        "Đếm khoảng giữa các vạch, không đếm cả hai vạch đầu cuối.",
+        "Đầu dải giấy trùng vạch 0; mắt nhìn vuông góc."
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B30_A.svg",
+      "caption": "Hình A: Thước chia từng mm; A tại 4 mm, B tại 30 mm. Hình mô phỏng, không đo trực tiếp màn hình."
+    }
+  ]
+}

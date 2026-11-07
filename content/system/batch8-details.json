@@ -1,0 +1,246 @@
+[
+  {
+    "topic": "Ôn phép nhân, chia và bài toán hai bước",
+    "objectives": [
+      "Kết hợp nhân, chia số hai chữ số với số một chữ số và chia có dư.",
+      "Phân biệt gấp/giảm số lần với thêm/bớt đơn vị; giải bài có dữ kiện trung gian."
+    ],
+    "intro": "Đọc đúng yêu cầu giúp chọn đúng phép tính. Cùng một số ban đầu nhưng gấp số lần, thêm đơn vị, hỏi tổng hay hỏi số còn lại đều có ý nghĩa riêng. Với phép chia có dư, số nhóm đầy khác số hộp cần để chứa hết.",
+    "rules": [
+      "Gấp số lần dùng nhân; giảm số lần dùng chia; thêm/bớt đơn vị dùng cộng/trừ.",
+      "Nhân đặt tính từ đơn vị sang chục, nhớ sang chục nếu cần; chia thực hiện từ chục sang đơn vị.",
+      "Số dư bé hơn số chia. Kiểm tra bằng số chia nhân thương rồi cộng phần dư.",
+      "Bài hai bước cần tìm dữ kiện trung gian trước; ghi đáp số đúng điều cuối cùng đề hỏi."
+    ],
+    "steps": [
+      "Đọc từ chỉ quan hệ và xác định điều cần tìm.",
+      "Chọn phép tính; đặt tính cẩn thận với số nhớ hoặc chục dư.",
+      "Nếu cần hai bước, ghi rõ ý nghĩa của từng bước.",
+      "Kiểm tra kết quả bằng tính ngược và bằng tình huống thực tế."
+    ],
+    "errors": [
+      "Dùng cộng khi đề yêu cầu gấp số lần.",
+      "Bỏ chục dư khi chia.",
+      "Lấy thương làm số hộp chứa hết dù vẫn còn dư."
+    ],
+    "examples": [
+      [
+        "Có 17 bánh mỗi khay, 4 khay như thế; dùng 29 bánh thì còn mấy?",
+        [
+          "17 × 4 = 68 bánh ban đầu.",
+          "68 - 29 = 39. Còn 39 bánh."
+        ]
+      ],
+      [
+        "Chia 46 huy hiệu vào các hộp tối đa 5 chiếc. Cần ít nhất mấy hộp?",
+        [
+          "5 × 9 + 1 = 46.",
+          "Có 9 hộp đầy và 1 chiếc cần hộp thêm. Cần 10 hộp."
+        ]
+      ]
+    ],
+    "game": [
+      "Thám hiểm phép tính",
+      "Giải tình huống nhân/chia, phần dư và hai bước trong 10 câu."
+    ],
+    "mode": "treasure"
+  },
+  {
+    "topic": "Đo độ dài bằng mi-li-mét",
+    "objectives": [
+      "Nhận biết mm, quan hệ với cm và m.",
+      "Đọc vạch thước, đổi cùng đơn vị và giải bài toán độ dài."
+    ],
+    "intro": "Các vật rất nhỏ hoặc độ dày mỏng có thể dùng mi-li-mét. Trên thước, mỗi khoảng 1 cm thường được chia thành 10 khoảng bằng nhau; mỗi khoảng nhỏ dài 1 mm. Đếm khoảng, không đếm số vạch.",
+    "rules": [
+      "Mi-li-mét viết tắt mm. 1 cm bằng 10 mm; 1 m bằng 1000 mm.",
+      "Đổi cm sang mm: nhân với 10. Đổi số mm tròn chục sang cm: chia cho 10.",
+      "Nếu một đầu không ở vạch 0, độ dài bằng số ở đầu cuối trừ số ở đầu đầu.",
+      "Muốn cộng, trừ hoặc so sánh, phải đổi về cùng đơn vị trước.",
+      "Hình thước trên màn hình chỉ mô phỏng vạch; kích thước hiển thị không phải độ dài vật thật."
+    ],
+    "steps": [
+      "Đặt thước sát vật; để một đầu vật ở vạch 0 khi có thể.",
+      "Nhìn vuông góc với vạch ở đầu kia, đọc cm và khoảng mm.",
+      "Nếu đầu vật lệch vạch 0, lấy hai số đo đầu cuối trừ nhau.",
+      "Ghi mm hoặc cm đúng yêu cầu, kiểm tra phép đổi đơn vị."
+    ],
+    "errors": [
+      "Nhầm 1 cm bằng 100 mm.",
+      "Đọc số cuối thay độ dài khi đầu vật không ở 0.",
+      "Cộng cm với mm mà chưa đổi.",
+      "Lấy thước thật đo hình trên màn hình rồi tin đó là số đo trong đề."
+    ],
+    "examples": [
+      [
+        "Một que từ vạch 6 mm đến 34 mm. Que dài bao nhiêu?",
+        [
+          "34 - 6 = 28.",
+          "Que dài 28 mm."
+        ]
+      ],
+      [
+        "Dải giấy 5 cm cắt bớt 13 mm. Còn bao nhiêu?",
+        [
+          "5 cm bằng 50 mm.",
+          "50 - 13 = 37. Còn 37 mm."
+        ]
+      ]
+    ],
+    "game": [
+      "Ghép độ dài",
+      "Ghép câu hỏi đổi đơn vị, đọc thước và độ dài với kết quả."
+    ],
+    "mode": "match",
+    "activities": [
+      {
+        "title": "Tìm vạch một mi-li-mét",
+        "materials": [
+          "Thước có chia mm",
+          "Một dải giấy"
+        ],
+        "steps": [
+          "Tìm khoảng từ 0 đến 1 cm và đếm 10 khoảng nhỏ.",
+          "Đánh dấu trên giấy hai điểm cách nhau 2 cm, rồi một điểm cách điểm đầu 25 mm.",
+          "Đo lại, đọc 25 mm cũng là 2 cm 5 mm."
+        ],
+        "check": [
+          "Đếm khoảng giữa các vạch, không đếm cả hai vạch đầu cuối.",
+          "Đầu dải giấy trùng vạch 0; mắt nhìn vuông góc."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Khối lượng bằng gam",
+    "objectives": [
+      "Biết kí hiệu g và quan hệ 1 kg bằng 1000 g.",
+      "Đọc cân thăng bằng, phân biệt khối lượng cả vật chứa với phần bên trong."
+    ],
+    "intro": "Gam giúp ghi khối lượng của vật nhẹ. Khi cân hai đĩa thăng bằng, tổng khối lượng hai bên bằng nhau. Nếu đĩa có cả hộp hoặc lọ, số cân được bao gồm cả vật chứa ấy.",
+    "rules": [
+      "Gam viết tắt g; 1 kg bằng 1000 g.",
+      "Cân hai đĩa thăng bằng: tổng khối lượng bên trái bằng tổng khối lượng bên phải.",
+      "Có nhiều quả cân trên một đĩa thì cộng khối lượng tất cả quả cân.",
+      "Khối lượng phần bên trong bằng khối lượng cả vật chứa và phần bên trong trừ khối lượng vật chứa rỗng.",
+      "Cộng/trừ và so sánh cần cùng đơn vị. Chọn g cho vật nhẹ, kg cho vật nặng hơn."
+    ],
+    "steps": [
+      "Đọc đơn vị và xem cân đã thăng bằng chưa.",
+      "Cộng đủ các quả cân hoặc đọc vạch cân theo số ghi.",
+      "Xác định đang hỏi cả hộp hay chỉ phần bên trong.",
+      "Đổi cùng đơn vị, tính và ghi g hoặc kg."
+    ],
+    "errors": [
+      "So số 1 với 500 mà bỏ qua kg và g.",
+      "Chỉ đọc một quả cân khi đĩa có nhiều quả.",
+      "Quên trừ vỏ hộp hoặc lọ rỗng.",
+      "Cân chưa thăng bằng đã kết luận hai bên bằng nhau."
+    ],
+    "examples": [
+      [
+        "Túi cân bằng ba quả cân 200 g, 50 g và 20 g. Túi nặng bao nhiêu?",
+        [
+          "200 + 50 + 20 = 270.",
+          "Túi nặng 270 g."
+        ]
+      ],
+      [
+        "Lọ và hạt nặng 380 g, lọ rỗng nặng 80 g. Hạt nặng bao nhiêu?",
+        [
+          "380 - 80 = 300.",
+          "Riêng hạt nặng 300 g."
+        ]
+      ]
+    ],
+    "game": [
+      "Kiểm chứng bàn cân",
+      "Xem lượng gam, so sánh và kiểm tra cân thăng bằng."
+    ],
+    "mode": "tf",
+    "activities": [
+      {
+        "title": "Đọc nhãn khối lượng",
+        "materials": [
+          "Hai gói thực phẩm có nhãn khối lượng"
+        ],
+        "steps": [
+          "Tìm số kèm g hoặc kg trên nhãn của từng gói.",
+          "Đọc thành lời; nếu có 1 kg, đổi thành 1000 g.",
+          "So sánh hai số sau khi cùng đơn vị."
+        ],
+        "check": [
+          "Không nhầm g với ml.",
+          "Ghi đúng số và đơn vị; không tự xem dung tích là khối lượng."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Dung tích bằng mi-li-lít",
+    "objectives": [
+      "Biết kí hiệu ml, quan hệ 1 l bằng 1000 ml.",
+      "Đọc ca chia vạch và giải bài rót nước, lượng còn lại, lượng cần thêm."
+    ],
+    "intro": "Mi-li-lít thường dùng cho lượng chất lỏng ít. Ca chia vạch giúp đọc lượng nước đang có. Dung tích tối đa của bình là lượng bình chứa được khi đầy; lượng nước hiện có có thể ít hơn nhiều.",
+    "rules": [
+      "Mi-li-lít viết tắt ml; 1 l bằng 1000 ml.",
+      "Xem đơn vị, xác định giá trị mỗi khoảng giữa hai vạch liền nhau trước khi đọc mực nước.",
+      "Rót thêm dùng cộng, rót ra dùng trừ; rót đều các phần dùng chia.",
+      "Lượng rót ra khác lượng còn lại. Lượng cần thêm bằng mức muốn đạt trừ mức đang có.",
+      "Không đồng nhất ml với g: ml đo dung tích, g đo khối lượng. Hình ca trên màn hình là mô phỏng."
+    ],
+    "steps": [
+      "Đặt ca trên mặt phẳng ngang; nhìn mực nước ngang tầm mắt.",
+      "Đọc số ở vạch tương ứng và đơn vị ml.",
+      "Đổi l sang ml trước khi tính cùng các số ml.",
+      "Kiểm tra tổng đã rót với dung tích tối đa để biết còn thiếu hay bị tràn."
+    ],
+    "errors": [
+      "Đổi 1 l thành 100 ml.",
+      "Đọc dung tích tối đa làm lượng đang có.",
+      "Nhầm lượng đã dùng với lượng còn lại.",
+      "Cộng ml vào số l chưa đổi đơn vị."
+    ],
+    "examples": [
+      [
+        "Bình có 1 l, rót ra 280 ml. Còn bao nhiêu?",
+        [
+          "1 l bằng 1000 ml.",
+          "1000 - 280 = 720. Còn 720 ml."
+        ]
+      ],
+      [
+        "Ca tối đa 500 ml, đang có 320 ml. Thêm 200 ml thì tràn bao nhiêu?",
+        [
+          "320 + 200 = 520 ml.",
+          "520 - 500 = 20. Tràn 20 ml."
+        ]
+      ]
+    ],
+    "game": [
+      "Kho báu ca chia vạch",
+      "Đọc số đo và tìm lượng nước còn lại, cần thêm hoặc bị tràn."
+    ],
+    "mode": "treasure",
+    "activities": [
+      {
+        "title": "Đọc ca nước thực tế",
+        "materials": [
+          "Ca có chia vạch ml",
+          "Nước sạch",
+          "Khay hứng"
+        ],
+        "steps": [
+          "Đặt ca trong khay trên mặt phẳng ngang.",
+          "Rót chậm một ít nước, quan sát giá trị giữa các vạch.",
+          "Đọc và ghi lượng nước, thêm nước rồi đọc lần nữa; lấy số sau trừ số trước để tìm lượng đã thêm."
+        ],
+        "check": [
+          "Mắt ngang mực nước, ca không nghiêng.",
+          "Không rót quá vạch tối đa; chỉ thực hành với nước sạch."
+        ]
+      }
+    ]
+  }
+]

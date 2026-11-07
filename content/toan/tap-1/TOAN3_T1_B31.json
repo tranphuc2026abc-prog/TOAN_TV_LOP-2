@@ -1,0 +1,817 @@
+{
+  "id": "TOAN3_T1_B31",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 31,
+  "title": "Gam",
+  "topic": "Khối lượng bằng gam",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      87,
+      88
+    ],
+    "pdf_pages": [
+      88,
+      89
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Biết kí hiệu g và quan hệ 1 kg bằng 1000 g.",
+    "Đọc cân thăng bằng, phân biệt khối lượng cả vật chứa với phần bên trong."
+  ],
+  "knowledge": {
+    "introduction": "Gam giúp ghi khối lượng của vật nhẹ. Khi cân hai đĩa thăng bằng, tổng khối lượng hai bên bằng nhau. Nếu đĩa có cả hộp hoặc lọ, số cân được bao gồm cả vật chứa ấy.",
+    "rules": [
+      "Gam viết tắt g; 1 kg bằng 1000 g.",
+      "Cân hai đĩa thăng bằng: tổng khối lượng bên trái bằng tổng khối lượng bên phải.",
+      "Có nhiều quả cân trên một đĩa thì cộng khối lượng tất cả quả cân.",
+      "Khối lượng phần bên trong bằng khối lượng cả vật chứa và phần bên trong trừ khối lượng vật chứa rỗng.",
+      "Cộng/trừ và so sánh cần cùng đơn vị. Chọn g cho vật nhẹ, kg cho vật nặng hơn."
+    ],
+    "steps": [
+      "Đọc đơn vị và xem cân đã thăng bằng chưa.",
+      "Cộng đủ các quả cân hoặc đọc vạch cân theo số ghi.",
+      "Xác định đang hỏi cả hộp hay chỉ phần bên trong.",
+      "Đổi cùng đơn vị, tính và ghi g hoặc kg."
+    ],
+    "common_errors": [
+      "So số 1 với 500 mà bỏ qua kg và g.",
+      "Chỉ đọc một quả cân khi đĩa có nhiều quả.",
+      "Quên trừ vỏ hộp hoặc lọ rỗng.",
+      "Cân chưa thăng bằng đã kết luận hai bên bằng nhau."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Túi cân bằng ba quả cân 200 g, 50 g và 20 g. Túi nặng bao nhiêu?",
+      "steps": [
+        "200 + 50 + 20 = 270.",
+        "Túi nặng 270 g."
+      ]
+    },
+    {
+      "question": "Lọ và hạt nặng 380 g, lọ rỗng nặng 80 g. Hạt nặng bao nhiêu?",
+      "steps": [
+        "380 - 80 = 300.",
+        "Riêng hạt nặng 300 g."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B31_Q01",
+      "type": "mcq",
+      "question": "Gam viết tắt là gì?",
+      "options": [
+        "g",
+        "kg",
+        "mm",
+        "ml"
+      ],
+      "correct_answer": "g",
+      "distractors": [
+        "kg",
+        "mm",
+        "ml"
+      ],
+      "explanation": "Kí hiệu g chỉ đơn vị khối lượng gam.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q02",
+      "type": "fill",
+      "question": "1 kg bằng mấy gam?",
+      "correct_answer": "1000",
+      "distractors": [
+        "100",
+        "10",
+        "1"
+      ],
+      "explanation": "Một ki-lô-gam bằng một nghìn gam.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q03",
+      "type": "mcq",
+      "question": "1000 g bằng mấy kg?",
+      "options": [
+        "1",
+        "10",
+        "100",
+        "1000"
+      ],
+      "correct_answer": "1",
+      "distractors": [
+        "10",
+        "100",
+        "1000"
+      ],
+      "explanation": "Đổi theo quan hệ 1 kg bằng 1000 g.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q04",
+      "type": "fill",
+      "question": "Đơn vị nào hợp lí để ghi khối lượng một chiếc kẹp giấy nhỏ?",
+      "correct_answer": "g",
+      "distractors": [
+        "km",
+        "l",
+        "cm"
+      ],
+      "explanation": "Gam thích hợp cho đồ vật nhẹ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q05",
+      "type": "mcq",
+      "question": "Cân hai đĩa nằm ngang cho biết khối lượng hai bên thế nào?",
+      "options": [
+        "bằng nhau",
+        "bên trái luôn nặng hơn",
+        "bên phải luôn nặng hơn",
+        "không liên quan"
+      ],
+      "correct_answer": "bằng nhau",
+      "distractors": [
+        "bên trái luôn nặng hơn",
+        "bên phải luôn nặng hơn",
+        "không liên quan"
+      ],
+      "explanation": "Cân thăng bằng nghĩa là hai bên có khối lượng bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q06",
+      "type": "fill",
+      "question": "Hình A: túi hạt cân bằng các quả cân tổng bao nhiêu gam?",
+      "correct_answer": "350",
+      "distractors": [
+        "250",
+        "300",
+        "150"
+      ],
+      "explanation": "Các quả cân 200 g, 100 g, 50 g có tổng 200 + 100 + 50 = 350 g.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B31_A.svg",
+        "caption": "Hình A: Cân thăng bằng, túi hạt bên trái; bên phải có các quả cân 200 g, 100 g, 50 g."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q07",
+      "type": "mcq",
+      "question": "Khối lượng 600 g so với 1 kg thế nào?",
+      "options": [
+        "nhẹ hơn",
+        "nặng hơn",
+        "bằng nhau",
+        "gấp đôi"
+      ],
+      "correct_answer": "nhẹ hơn",
+      "distractors": [
+        "nặng hơn",
+        "bằng nhau",
+        "gấp đôi"
+      ],
+      "explanation": "1 kg bằng 1000 g; 600 g nhỏ hơn 1000 g.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q08",
+      "type": "fill",
+      "question": "Một gói ghi 125 g. Số 125 cho biết đại lượng nào?",
+      "correct_answer": "khối lượng",
+      "distractors": [
+        "độ dài",
+        "dung tích",
+        "số trang"
+      ],
+      "explanation": "Đơn vị gam biểu thị khối lượng của gói.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q09",
+      "type": "mcq",
+      "question": "Hai quả cân 20 g và 50 g có tổng mấy gam?",
+      "options": [
+        "70",
+        "30",
+        "60",
+        "100"
+      ],
+      "correct_answer": "70",
+      "distractors": [
+        "30",
+        "60",
+        "100"
+      ],
+      "explanation": "20 + 50 = 70 g.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q10",
+      "type": "fill",
+      "question": "Túi 900 g còn thiếu mấy gam để đủ 1 kg?",
+      "correct_answer": "100",
+      "distractors": [
+        "10",
+        "900",
+        "1900"
+      ],
+      "explanation": "1000 - 900 = 100 g.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q11",
+      "type": "mcq",
+      "question": "Bạn nói 1 kg nhẹ hơn 750 g vì 1 nhỏ hơn 750. 1 kg phải đổi thành mấy gam trước khi so sánh?",
+      "options": [
+        "1000",
+        "100",
+        "10",
+        "1"
+      ],
+      "correct_answer": "1000",
+      "distractors": [
+        "100",
+        "10",
+        "1"
+      ],
+      "explanation": "Cần cùng đơn vị: 1 kg bằng 1000 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q12",
+      "type": "fill",
+      "question": "Cân thăng bằng, trái là hộp và quả cân 50 g, phải là 300 g. Hộp nặng mấy gam?",
+      "correct_answer": "250",
+      "distractors": [
+        "350",
+        "300",
+        "50"
+      ],
+      "explanation": "300 - 50 = 250 g; không tính cả quả cân vào hộp.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q13",
+      "type": "mcq",
+      "question": "Hai túi cùng nặng 180 g mỗi túi. Cả hai nặng mấy gam?",
+      "options": [
+        "360",
+        "182",
+        "90",
+        "280"
+      ],
+      "correct_answer": "360",
+      "distractors": [
+        "182",
+        "90",
+        "280"
+      ],
+      "explanation": "180 × 2 = 360 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q14",
+      "type": "fill",
+      "question": "Hình A: lấy quả cân 50 g bên phải ra, bên nào sẽ hạ xuống? Chọn trái hoặc phải.",
+      "correct_answer": "trái",
+      "distractors": [
+        "phải",
+        "hai bên ngang",
+        "không bên nào"
+      ],
+      "explanation": "Túi bên trái vẫn 350 g, bên phải chỉ còn 300 g nên trái nặng hơn.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B31_A.svg",
+        "caption": "Hình A: Cân thăng bằng, túi hạt bên trái; bên phải có các quả cân 200 g, 100 g, 50 g."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q15",
+      "type": "mcq",
+      "question": "Một hộp 500 g được chia 5 phần bằng nhau. Mỗi phần mấy gam?",
+      "options": [
+        "100",
+        "50",
+        "2500",
+        "495"
+      ],
+      "correct_answer": "100",
+      "distractors": [
+        "50",
+        "2500",
+        "495"
+      ],
+      "explanation": "500 : 5 = 100 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q16",
+      "type": "fill",
+      "question": "Số đo nào hợp lí cho một quả nho: 5 g, 5 kg, 50 kg hay 500 kg?",
+      "correct_answer": "5 g",
+      "distractors": [
+        "5 kg",
+        "50 kg",
+        "500 kg"
+      ],
+      "explanation": "Một quả nho nhỏ có khối lượng vài gam, không phải nhiều ki-lô-gam.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q17",
+      "type": "mcq",
+      "question": "Túi A 420 g, túi B 380 g. A nặng hơn B mấy gam?",
+      "options": [
+        "40",
+        "800",
+        "60",
+        "20"
+      ],
+      "correct_answer": "40",
+      "distractors": [
+        "800",
+        "60",
+        "20"
+      ],
+      "explanation": "420 - 380 = 40 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q18",
+      "type": "fill",
+      "question": "Một cân chỉ khối lượng cả lọ và hạt là 270 g, lọ rỗng 70 g. Riêng hạt mấy gam?",
+      "correct_answer": "200",
+      "distractors": [
+        "340",
+        "270",
+        "70"
+      ],
+      "explanation": "270 - 70 = 200 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q19",
+      "type": "mcq",
+      "question": "Các quả cân 100 g, 50 g, 20 g cân được túi 170 g nếu đặt cùng một đĩa và túi ở đĩa kia không? Trả lời có hoặc không.",
+      "options": [
+        "có",
+        "không",
+        "thiếu 20",
+        "thừa 50"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "thiếu 20",
+        "thừa 50"
+      ],
+      "explanation": "100 + 50 + 20 = 170 g, đúng khối lượng cần cân.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q20",
+      "type": "fill",
+      "question": "Gói 250 g tăng khối lượng gấp 3 lần thì thành mấy gam?",
+      "correct_answer": "750",
+      "distractors": [
+        "253",
+        "500",
+        "83"
+      ],
+      "explanation": "250 × 3 = 750 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q21",
+      "type": "mcq",
+      "question": "Mua 450 g đậu và 350 g mè. Tổng mấy gam?",
+      "options": [
+        "800",
+        "100",
+        "700",
+        "900"
+      ],
+      "correct_answer": "800",
+      "distractors": [
+        "100",
+        "700",
+        "900"
+      ],
+      "explanation": "450 + 350 = 800 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q22",
+      "type": "fill",
+      "question": "Một túi 1 kg gạo, lấy 275 g. Còn mấy gam?",
+      "correct_answer": "725",
+      "distractors": [
+        "375",
+        "825",
+        "275"
+      ],
+      "explanation": "1 kg bằng 1000 g; 1000 - 275 = 725 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q23",
+      "type": "mcq",
+      "question": "Có 4 gói mỗi gói 125 g. Cả bốn mấy gam?",
+      "options": [
+        "500",
+        "129",
+        "400",
+        "625"
+      ],
+      "correct_answer": "500",
+      "distractors": [
+        "129",
+        "400",
+        "625"
+      ],
+      "explanation": "125 × 4 = 500 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q24",
+      "type": "fill",
+      "question": "Có 600 g bột chia đều 3 hộp. Dùng hết 80 g ở một hộp, hộp đó còn mấy gam?",
+      "correct_answer": "120",
+      "distractors": [
+        "200",
+        "520",
+        "280"
+      ],
+      "explanation": "600 : 3 = 200; 200 - 80 = 120 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q25",
+      "type": "mcq",
+      "question": "Cả hộp bánh nặng 540 g, vỏ hộp 40 g. Bánh chia đều 5 phần, mỗi phần mấy gam?",
+      "options": [
+        "100",
+        "108",
+        "500",
+        "116"
+      ],
+      "correct_answer": "100",
+      "distractors": [
+        "108",
+        "500",
+        "116"
+      ],
+      "explanation": "540 - 40 = 500; 500 : 5 = 100 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q26",
+      "type": "fill",
+      "question": "Cần 1 kg đậu, đã có hai túi 300 g và 450 g. Thiếu mấy gam?",
+      "correct_answer": "250",
+      "distractors": [
+        "750",
+        "150",
+        "350"
+      ],
+      "explanation": "300 + 450 = 750; 1000 - 750 = 250 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q27",
+      "type": "mcq",
+      "question": "Một khay 90 g chứa ba quả bằng nhau, cả khay và quả nặng 450 g. Mỗi quả mấy gam?",
+      "options": [
+        "120",
+        "150",
+        "180",
+        "90"
+      ],
+      "correct_answer": "120",
+      "distractors": [
+        "150",
+        "180",
+        "90"
+      ],
+      "explanation": "450 - 90 = 360; 360 : 3 = 120 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q28",
+      "type": "fill",
+      "question": "Túi lớn 640 g, túi nhỏ bằng túi lớn giảm 4 lần. Hai túi nặng tổng mấy gam?",
+      "correct_answer": "800",
+      "distractors": [
+        "160",
+        "480",
+        "644"
+      ],
+      "explanation": "640 : 4 = 160; 640 + 160 = 800 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q29",
+      "type": "mcq",
+      "question": "Có 700 g hạt, đóng gói 100 g mỗi gói. Bán 3 gói thì còn mấy gói?",
+      "options": [
+        "4",
+        "7",
+        "3",
+        "5"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "7",
+        "3",
+        "5"
+      ],
+      "explanation": "700 : 100 = 7; 7 - 3 = 4 gói.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q30",
+      "type": "fill",
+      "question": "Cân thăng bằng: túi A và 100 g bên trái, 450 g bên phải. Túi A nhẹ hơn túi 400 g bao nhiêu gam?",
+      "correct_answer": "50",
+      "distractors": [
+        "100",
+        "350",
+        "150"
+      ],
+      "explanation": "450 - 100 = 350; 400 - 350 = 50 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q31",
+      "type": "mcq",
+      "question": "Mỗi mẻ dùng 45 g đường. Làm 4 mẻ thì dùng mấy gam?",
+      "options": [
+        "180",
+        "49",
+        "160",
+        "200"
+      ],
+      "correct_answer": "180",
+      "distractors": [
+        "49",
+        "160",
+        "200"
+      ],
+      "explanation": "45 × 4 = 180 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q32",
+      "type": "fill",
+      "question": "Có 950 g bột. Dùng 320 g rồi thêm 150 g vào số còn lại. Hiện có mấy gam?",
+      "correct_answer": "780",
+      "distractors": [
+        "480",
+        "630",
+        "800"
+      ],
+      "explanation": "950 - 320 = 630; 630 + 150 = 780 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q33",
+      "type": "mcq",
+      "question": "Có 6 gói mỗi gói 80 g. Muốn đủ 500 g thì cần thêm mấy gam?",
+      "options": [
+        "20",
+        "480",
+        "40",
+        "420"
+      ],
+      "correct_answer": "20",
+      "distractors": [
+        "480",
+        "40",
+        "420"
+      ],
+      "explanation": "80 × 6 = 480; 500 - 480 = 20 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q34",
+      "type": "fill",
+      "question": "Một gói nặng 375 g, gói kia nhẹ hơn 125 g. Tổng hai gói mấy gam?",
+      "correct_answer": "625",
+      "distractors": [
+        "250",
+        "500",
+        "750"
+      ],
+      "explanation": "375 - 125 = 250; 375 + 250 = 625 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q35",
+      "type": "mcq",
+      "question": "Một lọ rỗng 60 g, thêm vào 240 g hạt. Lấy đi nửa số hạt thì cả lọ còn nặng mấy gam?",
+      "options": [
+        "180",
+        "120",
+        "150",
+        "300"
+      ],
+      "correct_answer": "180",
+      "distractors": [
+        "120",
+        "150",
+        "300"
+      ],
+      "explanation": "240 : 2 = 120 g hạt còn lại; 60 + 120 = 180 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q36",
+      "type": "fill",
+      "question": "Có 1 kg nguyên liệu, cần chia hai phần 400 g và phần còn lại. Phần còn lại nặng mấy gam?",
+      "correct_answer": "600",
+      "distractors": [
+        "400",
+        "1400",
+        "60"
+      ],
+      "explanation": "1000 - 400 = 600 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q37",
+      "type": "mcq",
+      "question": "Hai túi tổng 900 g, một túi 360 g. Túi kia nặng hơn túi này mấy gam?",
+      "options": [
+        "180",
+        "540",
+        "260",
+        "360"
+      ],
+      "correct_answer": "180",
+      "distractors": [
+        "540",
+        "260",
+        "360"
+      ],
+      "explanation": "900 - 360 = 540; 540 - 360 = 180 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q38",
+      "type": "fill",
+      "question": "Có 720 g trà, đóng mỗi túi 90 g. Đóng được mấy túi?",
+      "correct_answer": "8",
+      "distractors": [
+        "7",
+        "9",
+        "80"
+      ],
+      "explanation": "720 : 90 = 8 túi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q39",
+      "type": "mcq",
+      "question": "Một cân có đĩa trái 200 g và túi 150 g, đĩa phải 300 g. Thêm ít nhất mấy gam bên phải để cân bằng?",
+      "options": [
+        "50",
+        "150",
+        "100",
+        "650"
+      ],
+      "correct_answer": "50",
+      "distractors": [
+        "150",
+        "100",
+        "650"
+      ],
+      "explanation": "200 + 150 = 350; 350 - 300 = 50 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B31_Q40",
+      "type": "fill",
+      "question": "Ba phần hạt bằng nhau có tổng 960 g. Đem một phần làm bánh, còn mấy gam?",
+      "correct_answer": "640",
+      "distractors": [
+        "320",
+        "480",
+        "630"
+      ],
+      "explanation": "960 : 3 = 320; 960 - 320 = 640 g.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B31_GAME1",
+      "title": "Kiểm chứng bàn cân",
+      "mode": "tf",
+      "objective": "Xem lượng gam, so sánh và kiểm tra cân thăng bằng.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu trong bài và đưa ra một kết quả để kiểm chứng.",
+        "Chọn Đúng nếu kết quả phù hợp, chọn Sai nếu không phù hợp; đọc lời giải trước khi sang câu.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B31_Q01",
+        "TOAN3_T1_B31_Q02",
+        "TOAN3_T1_B31_Q03",
+        "TOAN3_T1_B31_Q04",
+        "TOAN3_T1_B31_Q05",
+        "TOAN3_T1_B31_Q06",
+        "TOAN3_T1_B31_Q07",
+        "TOAN3_T1_B31_Q08",
+        "TOAN3_T1_B31_Q09",
+        "TOAN3_T1_B31_Q10",
+        "TOAN3_T1_B31_Q11",
+        "TOAN3_T1_B31_Q12",
+        "TOAN3_T1_B31_Q13",
+        "TOAN3_T1_B31_Q14",
+        "TOAN3_T1_B31_Q15",
+        "TOAN3_T1_B31_Q16",
+        "TOAN3_T1_B31_Q17",
+        "TOAN3_T1_B31_Q18",
+        "TOAN3_T1_B31_Q19",
+        "TOAN3_T1_B31_Q20",
+        "TOAN3_T1_B31_Q21",
+        "TOAN3_T1_B31_Q22",
+        "TOAN3_T1_B31_Q23",
+        "TOAN3_T1_B31_Q24",
+        "TOAN3_T1_B31_Q25",
+        "TOAN3_T1_B31_Q26",
+        "TOAN3_T1_B31_Q27",
+        "TOAN3_T1_B31_Q28",
+        "TOAN3_T1_B31_Q29",
+        "TOAN3_T1_B31_Q30",
+        "TOAN3_T1_B31_Q31",
+        "TOAN3_T1_B31_Q32",
+        "TOAN3_T1_B31_Q33",
+        "TOAN3_T1_B31_Q34",
+        "TOAN3_T1_B31_Q35",
+        "TOAN3_T1_B31_Q36",
+        "TOAN3_T1_B31_Q37",
+        "TOAN3_T1_B31_Q38",
+        "TOAN3_T1_B31_Q39",
+        "TOAN3_T1_B31_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "activities": [
+    {
+      "title": "Đọc nhãn khối lượng",
+      "materials": [
+        "Hai gói thực phẩm có nhãn khối lượng"
+      ],
+      "steps": [
+        "Tìm số kèm g hoặc kg trên nhãn của từng gói.",
+        "Đọc thành lời; nếu có 1 kg, đổi thành 1000 g.",
+        "So sánh hai số sau khi cùng đơn vị."
+      ],
+      "check": [
+        "Không nhầm g với ml.",
+        "Ghi đúng số và đơn vị; không tự xem dung tích là khối lượng."
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B31_A.svg",
+      "caption": "Hình A: Cân thăng bằng, túi hạt bên trái; bên phải có các quả cân 200 g, 100 g, 50 g."
+    }
+  ]
+}

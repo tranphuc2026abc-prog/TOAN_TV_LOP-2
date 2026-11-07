@@ -1,3 +1,21 @@
+# Batch 8 — trạng thái mới nhất, 07/11/2026
+
+| Môn | AI biên soạn và kiểm tra | Tổng mục | Còn nháp |
+|---|---:|---:|---:|
+| Toán | 32 | 81 | 49 |
+| Tiếng Việt | 0 | 62 | 62 |
+| Tiếng Anh | 0 | 25 | 25 |
+| Tổng | 32 | 168 | 136 |
+
+- 1280 câu, 32 trò chơi. Giáo viên duyệt Toán 1–4; 28 bài chờ duyệt. Mọi bài mới giữ AI_CHECKED_AWAITING_TEACHER.
+- Batch 8: Toán 29–32; 4 JSON, 4 Markdown, 160 câu riêng, 4 trò chơi, 3 SVG mới; ba bài đo lường có hoạt động thực hành với dụng cụ.
+- Đọc trực quan toàn bộ trang in 83–90 (PDF 84–91) Toán tập 1. Nội dung: ôn nhân/chia/gấp/giảm/hai bước; mi-li-mét, gam, mi-li-lít.
+- Kiểm tra dữ liệu/cú pháp, DOM 32 bài, hồi quy Batch 7 và 27 đáp án trọng yếu Batch 8 đạt. Đã render và xem cả 3 SVG. Chưa có Chromium để kiểm thử trình duyệt thật.
+- Checkpoint tiếp: Toán 33–36, trang in 91–98; đọc nguồn trước khi biên soạn. Giữ thứ tự Toán → Tiếng Việt → Tiếng Anh.
+- Lệnh kiểm tra: python scripts/validate_site.py; python scripts/test_batch7.py; python scripts/test_batch8.py; npm test.
+
+## Lịch sử trước Batch 8
+
 # Batch 7 — trạng thái mới nhất, 07/11/2026
 
 - Toán: 28/81 bài có học liệu riêng; Tiếng Việt: 0/62; Tiếng Anh: 0/25. Tổng 28/168; còn 140 mục bản nháp.
