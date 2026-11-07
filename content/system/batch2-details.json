@@ -1,0 +1,58 @@
+[
+  {
+    "objectives": ["Lập và nhớ bảng nhân 3, bảng chia 3.", "Giải bài toán về các nhóm có 3 và chia đều thành 3 phần."],
+    "intro": "Mỗi chiếc kiềng có 3 chân. Khi có nhiều chiếc kiềng giống nhau, hãy đếm thêm 3 để biết tổng số chân. Phép chia 3 giúp đi ngược từ tổng số về số nhóm.",
+    "rules": ["3 × n là tổng của n số hạng bằng 3. Mỗi lần thêm một nhóm, kết quả tăng thêm 3.", "Bảng nhân 3: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 tương ứng với nhân từ 1 đến 10.", "Từ 3 × 7 = 21, suy ra 21 : 3 = 7. Các kết quả bảng chia 3 lần lượt từ 1 đến 10.", "Đề hỏi tất cả bao nhiêu trong các nhóm bằng nhau thường dùng nhân; đề hỏi chia đều hoặc có bao nhiêu nhóm thường dùng chia."],
+    "steps": ["Dùng que tính xếp các nhóm 3, đọc phép nhân tương ứng.", "Đọc bảng theo thứ tự rồi che từng kết quả để tự nhớ.", "Với bài toán, ghi rõ số nhóm và số đồ vật mỗi nhóm trước khi chọn phép tính.", "Kiểm tra phép chia bằng cách nhân thương với 3."],
+    "errors": ["Nhầm 3 × 7 với 3 + 7.", "Đọc 24 : 3 thành 24 - 3.", "Trả lời số nhóm trong khi đề hỏi số đồ vật mỗi nhóm."],
+    "examples": [
+      ["Có 4 khay, mỗi khay 3 bánh. Có tất cả bao nhiêu bánh?", ["Mỗi khay là một nhóm 3 bánh; có 4 nhóm.", "3 + 3 + 3 + 3 = 12, viết gọn 3 × 4 = 12.", "Có tất cả 12 chiếc bánh."]],
+      ["Có 18 bông hoa, mỗi bó 3 bông. Làm được mấy bó?", ["Cần tìm số nhóm 3 trong 18.", "18 : 3 = 6 vì 3 × 6 = 18.", "Làm được 6 bó hoa."]],
+      ["Có 21 thẻ chia đều cho 3 bạn. Mỗi bạn được bao nhiêu thẻ?", ["Đã biết tổng 21 và số phần bằng nhau là 3.", "21 : 3 = 7. Mỗi bạn nhận 7 thẻ."]]
+    ],
+    "game": ["Ghép thẻ nhóm ba", "Ghép câu hỏi với kết quả, vận dụng bảng nhân và bảng chia 3."],
+    "mode": "match"
+  },
+  {
+    "objectives": ["Lập và nhớ bảng nhân 4, bảng chia 4.", "Phân biệt phép nhân và phép chia trong bài toán các nhóm 4."],
+    "intro": "Một chiếc ghế có 4 chân. Để đếm chân của nhiều chiếc ghế như vậy, ta gom thành các nhóm 4. Đếm thêm 4 giúp lập bảng nhân; tách tổng thành các nhóm 4 giúp hiểu bảng chia.",
+    "rules": ["4 × n là n nhóm, mỗi nhóm có 4. Khi n tăng 1, tích tăng 4.", "Bảng nhân 4: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 tương ứng với nhân từ 1 đến 10.", "Dựa vào 4 × 8 = 32 để biết 32 : 4 = 8. Các số 4, 8, 12,..., 40 chia cho 4 lần lượt được 1, 2, 3,..., 10.", "Chia đều thành 4 phần và chia mỗi nhóm 4 đồ vật có cùng phép chia nhưng ý nghĩa câu trả lời khác nhau."],
+    "steps": ["Xếp que tính thành các nhóm 4 và đếm tổng.", "Dựa vào tích đã nhớ để suy ra tích liền trước hoặc liền sau.", "Đọc rõ đề hỏi số nhóm, số đồ vật mỗi nhóm hay tổng số.", "Viết phép tính và đơn vị của câu trả lời."],
+    "errors": ["Nhớ nhầm 4 × 7 thành 24 do đọc nhầm sang 4 × 6.", "Lấy tổng trừ 4 một lần rồi cho đó là kết quả phép chia.", "Bỏ sót bước cộng hoặc trừ thêm trong bài toán có hai việc."],
+    "examples": [
+      ["Có 3 hộp, mỗi hộp 4 quả cầu. Tất cả có mấy quả?", ["Có 3 nhóm 4 quả.", "4 × 3 = 12. Có 12 quả cầu."]],
+      ["Có 28 bút, chia đều cho 4 bàn. Mỗi bàn có mấy bút?", ["Tổng là 28, có 4 phần bằng nhau.", "28 : 4 = 7 vì 4 × 7 = 28.", "Mỗi bàn có 7 bút."]],
+      ["Có 16 quả, mỗi túi 4 quả. Cần mấy túi?", ["Cần tìm số nhóm 4 quả trong 16.", "16 : 4 = 4. Cần 4 túi."]]
+    ],
+    "game": ["Tăng tốc cùng bảng bốn", "Luyện nhớ bảng nhân/chia 4 qua các câu hỏi trong 60 giây."],
+    "mode": "speed"
+  },
+  {
+    "objectives": ["Nhận biết khối cầu, khối trụ, khối lập phương, khối hộp chữ nhật và các điểm thẳng hàng.", "Tính độ dài đường gấp khúc; vận dụng đơn vị cm, m, kg, lít.", "Đọc giờ, xác định ngày liền trước, liền sau và các thứ trong tuần."],
+    "intro": "Hình học giúp mô tả đồ vật; đo lường giúp trả lời dài bao nhiêu, nặng bao nhiêu, chứa bao nhiêu và lúc nào. Mỗi tình huống cần đúng loại đơn vị.",
+    "rules": ["Quả bóng gần giống khối cầu; lon nước gần giống khối trụ; hộp giày gần giống khối hộp chữ nhật; khối ru-bích thông thường gần giống khối lập phương.", "Hình tam giác có 3 cạnh, hình tứ giác có 4 cạnh. Các điểm cùng nằm trên một đường thẳng là các điểm thẳng hàng.", "Độ dài đường gấp khúc bằng tổng độ dài tất cả các đoạn. Đổi cùng đơn vị trước khi tính; 1 m = 100 cm.", "Dùng kg cho khối lượng, lít cho lượng chất lỏng, cm hoặc m cho độ dài. Không cộng các đại lượng khác loại.", "Kim phút chỉ số 3: 15 phút; số 6: 30 phút; số 12: đúng giờ. Xem cả kim giờ để xác định giờ.", "Một tuần có 7 ngày. Sau 7 ngày, cùng thứ trong tuần lặp lại."],
+    "steps": ["Quan sát đặc điểm đồ vật hoặc hình vẽ; nêu tên hình, khối.", "Với đường gấp khúc, đánh dấu từng đoạn để không bỏ sót.", "Đọc đơn vị của mỗi số; đổi về cùng đơn vị trước khi cộng, trừ.", "Với thời gian, đọc cả giờ và phút; với lịch, đếm từng ngày theo thứ."],
+    "errors": ["Gọi quả bóng là hình tròn trong bài hỏi về khối trong không gian.", "Chỉ cộng hai đoạn trong đường gấp khúc có ba đoạn.", "Tính 1 m - 35 cm thành 34 cm mà chưa đổi 1 m = 100 cm.", "Kim phút chỉ số 3 nhưng đọc thành 3 phút."],
+    "examples": [
+      ["Một đường gấp khúc có các đoạn 16 cm, 11 cm, 13 cm. Dài bao nhiêu?", ["Có ba đoạn cùng đơn vị cm.", "16 + 11 = 27; 27 + 13 = 40.", "Đường gấp khúc dài 40 cm."]],
+      ["Dây dài 1 m, cắt 45 cm. Còn bao nhiêu?", ["Đổi 1 m = 100 cm.", "100 - 45 = 55. Còn 55 cm."]],
+      ["Ngày 5 là thứ Hai. Ngày 7 cùng tháng là thứ mấy?", ["Ngày 6 là thứ Ba.", "Ngày 7 là thứ Tư."]]
+    ],
+    "game": ["Rương đo lường", "Giải câu đố về hình khối, độ dài, khối lượng, dung tích và thời gian."],
+    "mode": "treasure"
+  },
+  {
+    "objectives": ["Ôn cấu tạo số, so sánh số, cộng trừ và tìm thành phần chưa biết.", "Vận dụng bảng nhân/chia 2, 3, 4, 5 và phép tính với 0, 1.", "Kết hợp tính toán với đo lường, quy luật và tình huống thực tế."],
+    "intro": "Bài ôn tập là dịp tự chọn công cụ đã học. Có câu cần cộng, có câu cần chia; hãy dựa vào ý nghĩa của câu hỏi thay vì chỉ nhìn các con số.",
+    "rules": ["Phân tích số theo hàng trăm, chục, đơn vị; so sánh từ hàng cao đến hàng thấp.", "Cộng trừ phải thẳng hàng; tìm thành phần chưa biết phải xác định tên thành phần trước.", "Một số nhân với 1 hoặc chia cho 1 được chính số đó; 1 nhân với một số được chính số đó.", "Một số nhân với 0 được 0; 0 chia cho một số khác 0 được 0. Không thực hiện phép chia cho 0.", "Tháp số theo quy luật tổng: mỗi ô trên bằng tổng của hai ô ngay dưới. Không bỏ sót các số dùng chung ở giữa.", "Đường gấp khúc dài bằng tổng độ dài các đoạn; đọc rõ đơn vị trước khi tính."],
+    "steps": ["Đọc và phân loại câu hỏi: số học, nhóm đều, hình học hay đo lường.", "Nhắc lại quy tắc cần dùng, tính từng bước.", "Với bài có hai việc, ghi kết quả trung gian rồi mới tính tiếp.", "Thử lại hoặc ước lượng để phát hiện kết quả bất hợp lí."],
+    "errors": ["Nhầm 0 : 4 với 4 : 0; phép thứ hai không thực hiện được.", "Cho rằng nhân với 1 luôn bằng 1.", "Cộng ba số ở đáy tháp để tìm đỉnh mà không theo từng tầng.", "Trả lời đơn vị cm trong bài hỏi m khi chưa đổi đơn vị."],
+    "examples": [
+      ["Một số cộng 185 được 420. Tìm số đó.", ["Số chưa biết là số hạng.", "420 - 185 = 235.", "Thử lại 235 + 185 = 420."]],
+      ["Có 6 bạn, mỗi bạn giữ 1 thẻ. Có tất cả mấy thẻ?", ["Mỗi nhóm 1 thẻ, có 6 nhóm.", "1 × 6 = 6. Có 6 thẻ."]],
+      ["Tháp có hàng đáy 2, 5, 4. Mỗi ô trên bằng tổng hai ô ngay dưới. Đỉnh là bao nhiêu?", ["Hàng giữa có 2 + 5 = 7 và 5 + 4 = 9.", "Đỉnh là 7 + 9 = 16."]]
+    ],
+    "game": ["Kiểm chứng cùng thám tử", "Đọc kết quả được gợi ý rồi xác định đúng hoặc sai bằng kiến thức đã ôn."],
+    "mode": "tf"
+  }
+]

@@ -94,3 +94,7 @@ for num, section in enumerate(sections, 1):
     md+='\n\n## Đánh giá\n\n'+obj['assessment']['scoring']+'\n\n'+obj['assessment']['review_advice']+'\n'
     dest.with_suffix('.md').write_text(md)
 print('Đã đóng gói 4 bài, 160 câu, 4 trò chơi.')
+
+# Luôn khôi phục xác nhận thẩm định từ sổ duyệt sau khi tái tạo học liệu.
+import subprocess, sys
+subprocess.run([sys.executable, str(ROOT/"scripts/update_content_index.py")], check=True)

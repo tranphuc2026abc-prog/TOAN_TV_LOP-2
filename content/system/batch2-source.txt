@@ -1,0 +1,164 @@
+Bài 5
+Tính 3 × 2.|6|Hai nhóm, mỗi nhóm 3: 3 + 3 = 6.|5;9;8
+Tính 3 × 5.|15|Đếm thêm 3 năm lần: 3, 6, 9, 12, 15.|8;12;18
+Tính 3 × 8.|24|3 × 7 = 21; thêm 3 được 24.|21;11;27
+Tính 3 × 10.|30|Mười nhóm 3 có 30 đồ vật.|13;27;33
+Tính 9 : 3.|3|Vì 3 × 3 = 9 nên 9 : 3 = 3.|6;12;2
+Tính 15 : 3.|5|Vì 3 × 5 = 15 nên thương là 5.|3;12;6
+Tính 21 : 3.|7|Vì 3 × 7 = 21 nên thương là 7.|6;8;18
+Tính 27 : 3.|9|Vì 3 × 9 = 27 nên thương là 9.|8;24;10
+Tính 3 × 1.|3|Một nhóm có 3 thì tất cả có 3.|1;4;2
+Tính 30 : 3.|10|Vì 3 × 10 = 30 nên thương là 10.|9;27;3
+3 + 3 + 3 + 3 + 3 + 3 bằng bao nhiêu?|18|Có 6 số hạng bằng 3, nên tính 3 × 6 = 18.|9;15;21
+Muốn biết 3 × 7, có thể thêm mấy đơn vị vào kết quả 3 × 6?|3|Hai phép nhân hơn kém một nhóm 3; 18 + 3 = 21.|1;6;7
+Dãy đếm thêm 3 là 6, 9, 12, ... Số kế tiếp là bao nhiêu?|15|12 + 3 = 15.|13;14;18
+Dãy đếm bớt 3 là 27, 24, 21, ... Số kế tiếp là bao nhiêu?|18|21 - 3 = 18.|19;20;24
+Trong phép tính 3 × 9 = 27, tích là số nào?|27|Kết quả của phép nhân gọi là tích.|3;9;24
+Trong phép tính 24 : 3 = 8, thương là số nào?|8|Kết quả của phép chia gọi là thương.|24;3;21
+Kết quả nào lớn hơn: 3 × 6 hay 3 × 5? Nhập kết quả lớn hơn.|18|3 × 6 = 18; 3 × 5 = 15; 18 lớn hơn 15.|15;3;21
+Kết quả nào bé hơn: 12 : 3 hay 18 : 3? Nhập kết quả bé hơn.|4|12 : 3 = 4; 18 : 3 = 6; 4 bé hơn 6.|6;3;2
+Biết 3 × 8 = 24. Vậy 24 : 3 bằng bao nhiêu?|8|Phép chia là phép tính ngược của phép nhân đã cho.|3;21;6
+Tính 3 × 4 rồi cộng thêm 5. Kết quả là bao nhiêu?|17|3 × 4 = 12; 12 + 5 = 17.|12;15;27
+Mỗi bó có 3 bông cúc. 7 bó có tất cả bao nhiêu bông?|21|Có 7 nhóm, mỗi nhóm 3: 3 × 7 = 21 bông.|10;18;24
+Có 24 bút chia đều cho 3 tổ. Mỗi tổ được bao nhiêu bút?|8|Chia đều 24 thành 3 phần: 24 : 3 = 8 bút.|6;9;21
+Mỗi hộp có 3 viên phấn. Có 18 viên phấn thì xếp được mấy hộp đầy?|6|Tìm số nhóm 3 trong 18: 18 : 3 = 6 hộp.|3;9;15
+Sân trường có 5 hàng, mỗi hàng 3 chậu hoa. Có tất cả mấy chậu?|15|Mỗi hàng 3 chậu, 5 hàng có 3 × 5 = 15 chậu.|8;12;18
+Một sợi dây dài 27 cm cắt thành 3 đoạn bằng nhau. Mỗi đoạn dài mấy xăng-ti-mét?|9|27 : 3 = 9 cm mỗi đoạn.|8;3;24
+Có 12 học sinh, mỗi nhóm 3 bạn. Chia được mấy nhóm?|4|12 : 3 = 4 nhóm.|3;6;9
+Mỗi ngày Bình đọc 3 trang. Sau 9 ngày Bình đọc bao nhiêu trang?|27|9 ngày có 9 nhóm 3 trang: 3 × 9 = 27 trang.|12;24;30
+Có 30 chiếc bánh chia đều cho 3 bàn. Mỗi bàn nhận mấy chiếc?|10|30 : 3 = 10 chiếc mỗi bàn.|9;3;27
+Mỗi bộ trang trí cần 3 lá cờ. Có 21 lá cờ thì làm được mấy bộ?|7|21 : 3 = 7 bộ.|6;8;18
+Hai giá, mỗi giá đặt 3 quyển truyện. Có tất cả bao nhiêu quyển?|6|3 × 2 = 6 quyển.|5;3;9
+Mỗi ghế dài có 3 chỗ. 8 ghế dài có bao nhiêu chỗ ngồi?|24|3 × 8 = 24 chỗ.|11;21;27
+Có 15 quả quýt, chia đều vào 3 đĩa. Mỗi đĩa mấy quả?|5|15 : 3 = 5 quả.|3;6;12
+Mỗi lần tưới dùng 3 lít nước. Tưới 4 lần dùng bao nhiêu lít?|12|3 × 4 = 12 lít.|7;9;15
+Một trò chơi có 6 lượt, mỗi lượt nhận 3 sao. Cả 6 lượt nhận bao nhiêu sao?|18|3 × 6 = 18 sao.|9;15;21
+Có 9 nhãn vở chia đều cho 3 bạn. Mỗi bạn nhận mấy nhãn?|3|9 : 3 = 3 nhãn.|6;9;12
+Hộp có 3 ngăn, mỗi ngăn 4 hạt. Chuyển toàn bộ 12 hạt vào các túi, mỗi túi 3 hạt. Cần mấy túi?|4|Có 12 hạt; 12 : 3 = 4 túi.|3;6;9
+Mỗi bộ ghép cần 3 miếng. An có 16 miếng và dùng 15 miếng để ghép trọn bộ. An ghép được mấy bộ?|5|Chỉ tính 15 miếng đã dùng: 15 : 3 = 5 bộ; 1 miếng chưa dùng.|4;6;13
+Lan có 7 túi, mỗi túi 3 viên bi. Lan cho em 2 viên. Còn bao nhiêu viên?|19|3 × 7 = 21 viên; 21 - 2 = 19 viên.|21;23;8
+Một đội có 3 hàng, mỗi hàng 6 bạn. Thêm 1 bạn làm đội trưởng. Cả đội có bao nhiêu bạn?|19|3 × 6 = 18 bạn ở các hàng; 18 + 1 = 19 bạn.|18;10;21
+Mỗi gói có 3 thẻ. Mua 6 gói có đủ chia cho 3 bạn, mỗi bạn 6 thẻ không? Nhập số thẻ mỗi bạn nhận khi chia đều.|6|3 × 6 = 18 thẻ; 18 : 3 = 6 thẻ mỗi bạn, nên chia đủ.|3;9;18
+Bài 6
+Tính 4 × 2.|8|Hai nhóm 4 có 4 + 4 = 8.|6;4;12
+Tính 4 × 5.|20|Đếm thêm 4 năm lần được 20.|9;16;24
+Tính 4 × 7.|28|4 × 6 = 24; thêm 4 được 28.|24;11;32
+Tính 4 × 9.|36|4 × 8 = 32; thêm 4 được 36.|13;32;40
+Tính 8 : 4.|2|4 × 2 = 8 nên 8 : 4 = 2.|4;12;3
+Tính 16 : 4.|4|4 × 4 = 16 nên thương là 4.|12;3;5
+Tính 28 : 4.|7|4 × 7 = 28 nên thương là 7.|6;8;24
+Tính 36 : 4.|9|4 × 9 = 36 nên thương là 9.|8;10;32
+Tính 4 × 1.|4|Một nhóm có 4 đồ vật thì tất cả có 4.|1;5;3
+Tính 40 : 4.|10|4 × 10 = 40 nên thương là 10.|9;4;36
+Tổng 4 + 4 + 4 + 4 + 4 + 4 bằng bao nhiêu?|24|Có 6 số hạng bằng 4: 4 × 6 = 24.|10;20;28
+Kết quả 4 × 8 hơn kết quả 4 × 7 bao nhiêu?|4|Thêm một nhóm 4 nên hơn 4; 32 - 28 = 4.|1;7;8
+Điền số tiếp theo: 8, 12, 16, ...|20|Dãy tăng mỗi lần 4: 16 + 4 = 20.|18;19;24
+Điền số tiếp theo: 36, 32, 28, ...|24|Dãy giảm mỗi lần 4: 28 - 4 = 24.|25;26;32
+Trong phép tính 4 × 6 = 24, thừa số thứ hai là số nào?|6|Hai thừa số là 4 và 6; tích là 24.|4;24;10
+Trong phép tính 32 : 4 = 8, số bị chia là số nào?|32|Số được đem chia là 32; 4 là số chia, 8 là thương.|4;8;28
+Biết 4 × 3 = 12. Tính 12 : 4.|3|Từ phép nhân đã cho, 12 chia thành các nhóm 4 được 3 nhóm.|4;8;2
+Trong 20 : 4 và 24 : 4, kết quả lớn hơn là bao nhiêu?|6|20 : 4 = 5; 24 : 4 = 6; kết quả lớn hơn là 6.|5;4;7
+Tính 4 × 4 rồi bớt 3. Kết quả là bao nhiêu?|13|4 × 4 = 16; 16 - 3 = 13.|16;12;7
+Tính 32 : 4 rồi thêm 2. Kết quả là bao nhiêu?|10|32 : 4 = 8; 8 + 2 = 10.|8;6;16
+Mỗi bàn có 4 chân. 6 bàn có tất cả bao nhiêu chân?|24|Có 6 nhóm 4 chân: 4 × 6 = 24 chân.|10;20;28
+Có 20 thẻ chia đều cho 4 đội. Mỗi đội nhận mấy thẻ?|5|20 : 4 = 5 thẻ mỗi đội.|4;6;16
+Có 28 viên kẹo, mỗi túi 4 viên. Xếp được mấy túi đầy?|7|28 : 4 = 7 túi.|6;8;24
+Mỗi chậu có 4 cây. 9 chậu có bao nhiêu cây?|36|4 × 9 = 36 cây.|13;32;40
+Sợi dây dài 16 m chia thành 4 đoạn bằng nhau. Mỗi đoạn dài mấy mét?|4|16 : 4 = 4 m mỗi đoạn.|12;3;8
+Có 8 ô cửa, mỗi ô dán 4 ngôi sao. Cần tất cả bao nhiêu ngôi sao?|32|4 × 8 = 32 ngôi sao.|12;28;36
+Có 36 bút màu, xếp mỗi hộp 4 bút. Cần mấy hộp?|9|36 : 4 = 9 hộp.|8;10;32
+Mỗi khay có 4 chiếc cốc. 3 khay có mấy chiếc cốc?|12|4 × 3 = 12 chiếc cốc.|7;8;16
+Có 40 học sinh chia thành 4 đội bằng nhau. Mỗi đội mấy bạn?|10|40 : 4 = 10 bạn.|4;9;36
+Mỗi trang dán 4 ảnh. 5 trang dán tất cả mấy ảnh?|20|4 × 5 = 20 ảnh.|9;16;24
+Có 12 chiếc bánh chia đều cho 4 bạn. Mỗi bạn mấy chiếc?|3|12 : 4 = 3 chiếc mỗi bạn.|4;8;2
+Mỗi hàng có 4 ghế. 7 hàng có bao nhiêu ghế?|28|4 × 7 = 28 ghế.|11;24;32
+Có 24 học sinh, mỗi nhóm 4 bạn. Có mấy nhóm?|6|24 : 4 = 6 nhóm.|4;8;20
+Mỗi ngày làm 4 lá cờ. Trong 10 ngày làm được bao nhiêu lá cờ?|40|4 × 10 = 40 lá cờ.|14;36;44
+Một chiếc xe đồ chơi có 4 bánh. Hai chiếc xe có mấy bánh?|8|4 × 2 = 8 bánh.|6;4;12
+Mỗi hộp có 4 quả bóng. 5 hộp có nhiều hơn 18 quả bóng bao nhiêu quả?|2|4 × 5 = 20 quả; 20 - 18 = 2 quả.|20;18;3
+An cần 4 bút cho mỗi bộ. Có 25 bút, An dùng 24 bút làm trọn bộ. Làm được mấy bộ?|6|24 : 4 = 6 bộ; còn 1 bút chưa dùng.|5;7;21
+Có 4 giỏ, mỗi giỏ 7 quả. Lấy đi 5 quả. Còn tất cả bao nhiêu quả?|23|4 × 7 = 28 quả; 28 - 5 = 23 quả.|28;33;16
+Mua 4 gói, mỗi gói 4 nhãn vở, được tặng thêm 3 nhãn. Có tất cả bao nhiêu nhãn?|19|4 × 4 = 16 nhãn; 16 + 3 = 19 nhãn.|16;13;11
+Ba tổ nhận 4 quyển truyện mỗi tổ. Sau đó 12 quyển được chia đều cho 4 bàn. Mỗi bàn mấy quyển?|3|4 × 3 = 12 quyển; 12 : 4 = 3 quyển mỗi bàn.|4;8;12
+Bài 7
+Hình tam giác có bao nhiêu cạnh?|3|Hình tam giác có 3 cạnh và 3 đỉnh.|2;4;5
+Hình tứ giác có bao nhiêu cạnh?|4|Hình tứ giác có 4 cạnh.|3;5;6
+Đồ vật gần giống khối cầu là vật nào?|quả bóng|Quả bóng tròn đều trong không gian, gần giống khối cầu.|hộp sữa chữ nhật;lon nước;viên gạch
+Đồ vật gần giống khối trụ là vật nào?|lon nước|Lon nước có hai đáy tròn và phần thân cong, gần giống khối trụ.|quả bóng;hộp giày;khối ru-bích
+Đồ vật gần giống khối lập phương là vật nào?|khối ru-bích|Khối ru-bích thông thường có dạng khối lập phương.|quả địa cầu;ống nước;hộp giày dài
+Đồ vật gần giống khối hộp chữ nhật là vật nào?|hộp giày|Hộp giày thông thường có dạng khối hộp chữ nhật.|quả bóng;lon sữa;viên bi
+1 m bằng bao nhiêu xăng-ti-mét?|100|Theo quan hệ đơn vị đã học, 1 m = 100 cm.|10;1;1000
+Một tuần có bao nhiêu ngày?|7|Một tuần gồm bảy ngày, từ thứ Hai đến Chủ nhật.|5;6;8
+Đơn vị phù hợp để ghi khối lượng một bao gạo là gì?|kg|Bao gạo được cân theo ki-lô-gam, viết tắt kg.|m;cm;lít
+Đơn vị phù hợp để ghi lượng nước chứa trong một can là gì?|lít|Dung tích can nước thường ghi bằng lít.|kg;cm;ngày
+Đường gấp khúc gồm hai đoạn 14 cm và 23 cm. Dài bao nhiêu xăng-ti-mét?|37|Cộng độ dài các đoạn: 14 + 23 = 37 cm.|9;27;47
+Đường gấp khúc gồm ba đoạn 10 cm, 15 cm, 20 cm. Dài bao nhiêu xăng-ti-mét?|45|10 + 15 = 25; 25 + 20 = 45 cm.|35;40;50
+Điền số: 1 m 20 cm = ... cm.|120|1 m = 100 cm; 100 + 20 = 120 cm.|21;102;100
+Điền số: 2 m = ... cm.|200|Mỗi mét có 100 cm; 100 + 100 = 200 cm.|20;2;102
+Hai can có 8 lít và 6 lít. Có tất cả bao nhiêu lít?|14|8 + 6 = 14 lít.|2;12;16
+Một túi nặng 9 kg, túi kia nặng 5 kg. Chênh lệch là bao nhiêu ki-lô-gam?|4|9 - 5 = 4 kg.|14;3;5
+Đồng hồ có kim phút chỉ số 6, kim giờ nằm giữa 8 và 9. Đó là mấy giờ?|8 giờ 30 phút|Kim phút ở số 6 là 30 phút; kim giờ đã qua 8 nhưng chưa đến 9.|6 giờ 40 phút;9 giờ 30 phút;8 giờ 6 phút
+Đồng hồ có kim phút chỉ số 3, kim giờ vừa qua số 10. Đó là mấy giờ?|10 giờ 15 phút|Kim phút chỉ số 3 là 15 phút; giờ là 10.|3 giờ 50 phút;10 giờ 30 phút;11 giờ 15 phút
+Hôm nay là thứ Tư. Ngày mai là thứ mấy?|thứ Năm|Sau thứ Tư là thứ Năm.|thứ Ba;thứ Sáu;thứ Bảy
+Ba điểm A, B, C cùng nằm trên một đường thẳng. Chúng có thẳng hàng không?|có|Các điểm cùng nằm trên một đường thẳng là các điểm thẳng hàng.|không;chỉ A và C;không đủ dữ kiện
+Lan đi 125 m từ nhà đến cầu, rồi 210 m đến trường. Đi tất cả bao nhiêu mét?|335|125 + 210 = 335 m.|85;325;345
+Ruy băng dài 1 m, cắt 35 cm. Còn bao nhiêu xăng-ti-mét?|65|Đổi 1 m = 100 cm; 100 - 35 = 65 cm.|34;75;135
+Sợi dây dài 2 m, dùng 80 cm. Còn bao nhiêu xăng-ti-mét?|120|2 m = 200 cm; 200 - 80 = 120 cm.|72;180;280
+Túi gạo 12 kg và túi đậu 7 kg. Cả hai nặng bao nhiêu ki-lô-gam?|19|12 + 7 = 19 kg.|5;17;21
+Hai kiện hàng nặng 25 kg và 18 kg. Kiện thứ nhất nặng hơn mấy ki-lô-gam?|7|25 - 18 = 7 kg.|43;8;13
+Can có 15 lít nước, dùng 6 lít. Còn bao nhiêu lít?|9|15 - 6 = 9 lít.|21;8;11
+Bình có 4 lít nước, rót thêm 3 lít. Lúc này có bao nhiêu lít?|7|4 + 3 = 7 lít.|1;6;8
+Mỗi túi có 5 kg gạo. 4 túi có tất cả mấy ki-lô-gam?|20|5 × 4 = 20 kg.|9;15;25
+Có 18 lít nước chia đều vào 3 can. Mỗi can có mấy lít?|6|18 : 3 = 6 lít mỗi can.|3;9;15
+Thứ Hai tuần này Mai mượn sách. Đúng một tuần sau Mai trả sách. Đó là thứ mấy?|thứ Hai|Sau 7 ngày, thứ trong tuần lặp lại.|thứ Ba;Chủ nhật;thứ Tư
+Ngày 8 là thứ Sáu. Ngày 9 cùng tháng là thứ mấy?|thứ Bảy|Ngày 9 là ngày kế tiếp ngày 8; sau thứ Sáu là thứ Bảy.|thứ Năm;Chủ nhật;thứ Hai
+Ngày 12 là thứ Ba. Ngày 14 cùng tháng là thứ mấy?|thứ Năm|Ngày 13 là thứ Tư, ngày 14 là thứ Năm.|thứ Tư;thứ Sáu;thứ Hai
+Lan bắt đầu đọc lúc 7 giờ và dừng lúc 7 giờ 30 phút cùng buổi sáng. Lan đọc bao nhiêu phút?|30|Từ 7 giờ đến 7 giờ 30 phút là 30 phút.|15;7;60
+Giờ điện tử là 16:00 vào buổi chiều. Đọc theo cách nói 12 giờ là mấy giờ chiều? Nhập số giờ.|4|16 giờ là 4 giờ chiều.|6;12;5
+Đường đi gồm ba đoạn dài 120 m, 80 m và 150 m. Cả đường dài mấy mét?|350|120 + 80 = 200; 200 + 150 = 350 m.|270;330;370
+Khung tranh có viền gồm bốn đoạn: 20 cm, 15 cm, 20 cm, 15 cm. Tổng độ dài viền là mấy xăng-ti-mét?|70|20 + 15 + 20 + 15 = 70 cm.|35;50;60
+Muốn nặn mô hình viên bi tròn đều, nên nặn theo khối nào?|khối cầu|Viên bi tròn đều có dạng khối cầu.|khối trụ;khối hộp chữ nhật;khối lập phương
+Quan sát hình A trong phần hình minh họa của bài: điểm nào nằm trên cùng đường thẳng với P và R?|Q|Hình A đặt P, Q, R trên cùng một đường thẳng.|S;T;không có điểm nào
+Quan sát hình B: đường gấp khúc KLMN có các đoạn 8 cm, 12 cm, 9 cm. Dài bao nhiêu xăng-ti-mét?|29|Cộng đủ ba đoạn: 8 + 12 + 9 = 29 cm.|20;21;28
+Can đang có 5 lít nước. Rót đi 2 lít rồi thêm 4 lít. Cuối cùng có mấy lít?|7|5 - 2 = 3 lít; 3 + 4 = 7 lít.|3;9;11
+Bài 8
+Trong số 864, chữ số hàng chục có giá trị bao nhiêu?|60|Chữ số 6 ở hàng chục nên có giá trị 60.|6;600;4
+Số gồm 9 trăm, 0 chục, 2 đơn vị là số nào?|902|900 + 0 + 2 = 902.|920;92;209
+Tính 4 × 1.|4|Số nào nhân với 1 cũng bằng chính số đó.|1;5;0
+Tính 1 × 7.|7|Số 1 nhân với một số cho kết quả bằng số đó.|1;8;6
+Tính 9 : 1.|9|Chia một số cho 1 được chính số đó.|1;8;10
+Tính 0 × 8.|0|Số 0 nhân với một số cho kết quả bằng 0.|8;1;80
+Tính 5 × 0.|0|Một số nhân với 0 được 0.|5;1;50
+Tính 0 : 4.|0|Không có đồ vật chia vào 4 nhóm thì mỗi nhóm có 0 đồ vật.|4;1;không xác định
+Tính 18 : 3.|6|3 × 6 = 18 nên 18 : 3 = 6.|3;9;15
+Tính 4 × 8.|32|4 × 8 = 32 theo bảng nhân 4.|12;28;36
+Tính 286 + 149.|435|6 + 9 = 15 nhớ 1; 8 + 4 + 1 = 13 nhớ 1; 2 + 1 + 1 = 4.|425;335;445
+Tính 700 - 268.|432|Mượn qua hàng chục: 10 - 8 = 2; 9 - 6 = 3; 6 - 2 = 4.|442;532;468
+Điền số: ... + 127 = 350.|223|Số hạng chưa biết = 350 - 127 = 223.|477;233;213
+Điền số: ... - 46 = 78.|124|Số bị trừ = 78 + 46 = 124.|32;114;134
+Điền số: 230 - ... = 95.|135|Số trừ = 230 - 95 = 135.|325;125;145
+Trong các số 609, 690, 906, số bé nhất là số nào?|609|609 và 690 có 6 trăm; 0 chục bé hơn 9 chục.|690;906;600
+Tính 0 : 9 rồi thêm 6. Kết quả là bao nhiêu?|6|0 : 9 = 0; 0 + 6 = 6.|0;9;15
+Tính 1 × 8 rồi bớt 3. Kết quả là bao nhiêu?|5|1 × 8 = 8; 8 - 3 = 5.|8;4;11
+Hình tứ giác có mấy đỉnh?|4|Hình tứ giác có 4 cạnh và 4 đỉnh.|3;5;6
+Đường gấp khúc gồm ba đoạn 4 cm, 6 cm, 5 cm. Dài mấy xăng-ti-mét?|15|4 + 6 + 5 = 15 cm.|10;11;14
+Trường nhận 248 vở hôm trước và 176 vở hôm sau. Nhận tất cả bao nhiêu vở?|424|248 + 176 = 424 quyển vở.|414;324;434
+Thư viện có 620 sách, cho mượn 285 sách. Còn bao nhiêu sách?|335|620 - 285 = 335 cuốn.|345;435;305
+Lớp 3A có 38 em, lớp 3B ít hơn 3A 4 em. Lớp 3B có mấy em?|34|Ít hơn 4 em: 38 - 4 = 34 em.|42;32;35
+Nam có 165 tem, nhiều hơn Hà 27 tem. Hà có bao nhiêu tem?|138|Hà ít hơn Nam 27 tem: 165 - 27 = 138 tem.|192;148;128
+Mỗi bộ ghép có 4 mảnh. 6 bộ cần mấy mảnh?|24|4 × 6 = 24 mảnh.|10;20;28
+Có 27 bạn chia đều vào 3 đội. Mỗi đội mấy bạn?|9|27 : 3 = 9 bạn mỗi đội.|3;8;24
+Mỗi bạn được 5 nhãn vở. 7 bạn được tất cả bao nhiêu nhãn?|35|5 × 7 = 35 nhãn.|12;30;40
+Có 32 hạt, mỗi túi đựng 4 hạt. Cần mấy túi?|8|32 : 4 = 8 túi.|4;7;28
+Một hộp trống không có bút. Chia số bút trong hộp đều cho 5 bạn. Mỗi bạn được mấy bút?|0|0 : 5 = 0 bút mỗi bạn.|5;1;không chia được vì có 5 bạn
+Mỗi bạn cầm 1 lá cờ. Có 9 bạn thì có tất cả mấy lá cờ?|9|1 × 9 = 9 lá cờ.|1;10;0
+Có 8 quả cam, xếp mỗi đĩa 1 quả. Cần mấy đĩa?|8|8 : 1 = 8 đĩa.|1;7;9
+Một sợi dây 1 m cắt đi 28 cm. Còn bao nhiêu xăng-ti-mét?|72|1 m = 100 cm; 100 - 28 = 72 cm.|27;82;128
+Ba giỏ có lần lượt 14 kg, 9 kg và 17 kg rau. Giỏ nặng nhất nặng mấy ki-lô-gam?|17|So sánh 9 < 14 < 17; chọn 17 kg.|9;14;40
+Hai đoạn đường dài 245 m và 155 m nối tiếp nhau. Tổng dài mấy mét?|400|245 + 155 = 400 m.|390;300;410
+Mỗi vòng chơi được 3 điểm. Chơi 8 vòng rồi được thưởng 2 điểm. Có tất cả mấy điểm?|26|3 × 8 = 24 điểm; 24 + 2 = 26 điểm.|24;22;13
+Mua 5 túi, mỗi túi 4 quả. Ăn 3 quả. Còn mấy quả?|17|4 × 5 = 20 quả; 20 - 3 = 17 quả.|20;23;12
+Hộp có 280 bút gồm bút xanh và 135 bút đỏ. Có mấy bút xanh?|145|135 + số bút xanh = 280; 280 - 135 = 145 bút.|415;155;135
+Đã cho 48 nhãn vở, còn 76 nhãn. Ban đầu có mấy nhãn?|124|Số ban đầu = 76 + 48 = 124 nhãn.|28;114;134
+Tháp số có hàng đáy 4, 6, 3. Mỗi ô trên bằng tổng hai ô ngay dưới. Ô đỉnh là bao nhiêu?|19|Hàng kế là 4 + 6 = 10 và 6 + 3 = 9; đỉnh 10 + 9 = 19.|13;16;18
+Trên đường tính, bắt đầu từ 4, nhân 3, chia 2, rồi nhân 0. Kết quả cuối cùng là bao nhiêu?|0|4 × 3 = 12; 12 : 2 = 6; 6 × 0 = 0.|6;12;24

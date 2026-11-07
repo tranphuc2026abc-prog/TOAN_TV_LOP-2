@@ -1,0 +1,792 @@
+{
+  "id": "TOAN3_T1_B06",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 6,
+  "title": "Bảng nhân 4, bảng chia 4",
+  "topic": "Ôn tập và bổ sung",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      19,
+      20
+    ],
+    "pdf_pages": [
+      20,
+      21
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Lập và nhớ bảng nhân 4, bảng chia 4.",
+    "Phân biệt phép nhân và phép chia trong bài toán các nhóm 4."
+  ],
+  "knowledge": {
+    "introduction": "Một chiếc ghế có 4 chân. Để đếm chân của nhiều chiếc ghế như vậy, ta gom thành các nhóm 4. Đếm thêm 4 giúp lập bảng nhân; tách tổng thành các nhóm 4 giúp hiểu bảng chia.",
+    "rules": [
+      "4 × n là n nhóm, mỗi nhóm có 4. Khi n tăng 1, tích tăng 4.",
+      "Bảng nhân 4: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 tương ứng với nhân từ 1 đến 10.",
+      "Dựa vào 4 × 8 = 32 để biết 32 : 4 = 8. Các số 4, 8, 12,..., 40 chia cho 4 lần lượt được 1, 2, 3,..., 10.",
+      "Chia đều thành 4 phần và chia mỗi nhóm 4 đồ vật có cùng phép chia nhưng ý nghĩa câu trả lời khác nhau."
+    ],
+    "steps": [
+      "Xếp que tính thành các nhóm 4 và đếm tổng.",
+      "Dựa vào tích đã nhớ để suy ra tích liền trước hoặc liền sau.",
+      "Đọc rõ đề hỏi số nhóm, số đồ vật mỗi nhóm hay tổng số.",
+      "Viết phép tính và đơn vị của câu trả lời."
+    ],
+    "common_errors": [
+      "Nhớ nhầm 4 × 7 thành 24 do đọc nhầm sang 4 × 6.",
+      "Lấy tổng trừ 4 một lần rồi cho đó là kết quả phép chia.",
+      "Bỏ sót bước cộng hoặc trừ thêm trong bài toán có hai việc."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Có 3 hộp, mỗi hộp 4 quả cầu. Tất cả có mấy quả?",
+      "steps": [
+        "Có 3 nhóm 4 quả.",
+        "4 × 3 = 12. Có 12 quả cầu."
+      ]
+    },
+    {
+      "question": "Có 28 bút, chia đều cho 4 bàn. Mỗi bàn có mấy bút?",
+      "steps": [
+        "Tổng là 28, có 4 phần bằng nhau.",
+        "28 : 4 = 7 vì 4 × 7 = 28.",
+        "Mỗi bàn có 7 bút."
+      ]
+    },
+    {
+      "question": "Có 16 quả, mỗi túi 4 quả. Cần mấy túi?",
+      "steps": [
+        "Cần tìm số nhóm 4 quả trong 16.",
+        "16 : 4 = 4. Cần 4 túi."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B06_Q01",
+      "type": "mcq",
+      "question": "Tính 4 × 2.",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "12"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "6",
+        "4",
+        "12"
+      ],
+      "explanation": "Hai nhóm 4 có 4 + 4 = 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q02",
+      "type": "fill",
+      "question": "Tính 4 × 5.",
+      "correct_answer": "20",
+      "distractors": [
+        "9",
+        "16",
+        "24"
+      ],
+      "explanation": "Đếm thêm 4 năm lần được 20.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q03",
+      "type": "mcq",
+      "question": "Tính 4 × 7.",
+      "options": [
+        "28",
+        "24",
+        "11",
+        "32"
+      ],
+      "correct_answer": "28",
+      "distractors": [
+        "24",
+        "11",
+        "32"
+      ],
+      "explanation": "4 × 6 = 24; thêm 4 được 28.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q04",
+      "type": "fill",
+      "question": "Tính 4 × 9.",
+      "correct_answer": "36",
+      "distractors": [
+        "13",
+        "32",
+        "40"
+      ],
+      "explanation": "4 × 8 = 32; thêm 4 được 36.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q05",
+      "type": "mcq",
+      "question": "Tính 8 : 4.",
+      "options": [
+        "2",
+        "4",
+        "12",
+        "3"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "12",
+        "3"
+      ],
+      "explanation": "4 × 2 = 8 nên 8 : 4 = 2.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q06",
+      "type": "fill",
+      "question": "Tính 16 : 4.",
+      "correct_answer": "4",
+      "distractors": [
+        "12",
+        "3",
+        "5"
+      ],
+      "explanation": "4 × 4 = 16 nên thương là 4.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q07",
+      "type": "mcq",
+      "question": "Tính 28 : 4.",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "24"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "24"
+      ],
+      "explanation": "4 × 7 = 28 nên thương là 7.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q08",
+      "type": "fill",
+      "question": "Tính 36 : 4.",
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "10",
+        "32"
+      ],
+      "explanation": "4 × 9 = 36 nên thương là 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q09",
+      "type": "mcq",
+      "question": "Tính 4 × 1.",
+      "options": [
+        "4",
+        "1",
+        "5",
+        "3"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "1",
+        "5",
+        "3"
+      ],
+      "explanation": "Một nhóm có 4 đồ vật thì tất cả có 4.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q10",
+      "type": "fill",
+      "question": "Tính 40 : 4.",
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "4",
+        "36"
+      ],
+      "explanation": "4 × 10 = 40 nên thương là 10.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q11",
+      "type": "mcq",
+      "question": "Tổng 4 + 4 + 4 + 4 + 4 + 4 bằng bao nhiêu?",
+      "options": [
+        "24",
+        "10",
+        "20",
+        "28"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "10",
+        "20",
+        "28"
+      ],
+      "explanation": "Có 6 số hạng bằng 4: 4 × 6 = 24.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q12",
+      "type": "fill",
+      "question": "Kết quả 4 × 8 hơn kết quả 4 × 7 bao nhiêu?",
+      "correct_answer": "4",
+      "distractors": [
+        "1",
+        "7",
+        "8"
+      ],
+      "explanation": "Thêm một nhóm 4 nên hơn 4; 32 - 28 = 4.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q13",
+      "type": "mcq",
+      "question": "Điền số tiếp theo: 8, 12, 16, ...",
+      "options": [
+        "20",
+        "18",
+        "19",
+        "24"
+      ],
+      "correct_answer": "20",
+      "distractors": [
+        "18",
+        "19",
+        "24"
+      ],
+      "explanation": "Dãy tăng mỗi lần 4: 16 + 4 = 20.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q14",
+      "type": "fill",
+      "question": "Điền số tiếp theo: 36, 32, 28, ...",
+      "correct_answer": "24",
+      "distractors": [
+        "25",
+        "26",
+        "32"
+      ],
+      "explanation": "Dãy giảm mỗi lần 4: 28 - 4 = 24.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q15",
+      "type": "mcq",
+      "question": "Trong phép tính 4 × 6 = 24, thừa số thứ hai là số nào?",
+      "options": [
+        "6",
+        "4",
+        "24",
+        "10"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "4",
+        "24",
+        "10"
+      ],
+      "explanation": "Hai thừa số là 4 và 6; tích là 24.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q16",
+      "type": "fill",
+      "question": "Trong phép tính 32 : 4 = 8, số bị chia là số nào?",
+      "correct_answer": "32",
+      "distractors": [
+        "4",
+        "8",
+        "28"
+      ],
+      "explanation": "Số được đem chia là 32; 4 là số chia, 8 là thương.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q17",
+      "type": "mcq",
+      "question": "Biết 4 × 3 = 12. Tính 12 : 4.",
+      "options": [
+        "3",
+        "4",
+        "8",
+        "2"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "4",
+        "8",
+        "2"
+      ],
+      "explanation": "Từ phép nhân đã cho, 12 chia thành các nhóm 4 được 3 nhóm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q18",
+      "type": "fill",
+      "question": "Trong 20 : 4 và 24 : 4, kết quả lớn hơn là bao nhiêu?",
+      "correct_answer": "6",
+      "distractors": [
+        "5",
+        "4",
+        "7"
+      ],
+      "explanation": "20 : 4 = 5; 24 : 4 = 6; kết quả lớn hơn là 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q19",
+      "type": "mcq",
+      "question": "Tính 4 × 4 rồi bớt 3. Kết quả là bao nhiêu?",
+      "options": [
+        "13",
+        "16",
+        "12",
+        "7"
+      ],
+      "correct_answer": "13",
+      "distractors": [
+        "16",
+        "12",
+        "7"
+      ],
+      "explanation": "4 × 4 = 16; 16 - 3 = 13.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q20",
+      "type": "fill",
+      "question": "Tính 32 : 4 rồi thêm 2. Kết quả là bao nhiêu?",
+      "correct_answer": "10",
+      "distractors": [
+        "8",
+        "6",
+        "16"
+      ],
+      "explanation": "32 : 4 = 8; 8 + 2 = 10.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q21",
+      "type": "mcq",
+      "question": "Mỗi bàn có 4 chân. 6 bàn có tất cả bao nhiêu chân?",
+      "options": [
+        "24",
+        "10",
+        "20",
+        "28"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "10",
+        "20",
+        "28"
+      ],
+      "explanation": "Có 6 nhóm 4 chân: 4 × 6 = 24 chân.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q22",
+      "type": "fill",
+      "question": "Có 20 thẻ chia đều cho 4 đội. Mỗi đội nhận mấy thẻ?",
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "6",
+        "16"
+      ],
+      "explanation": "20 : 4 = 5 thẻ mỗi đội.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q23",
+      "type": "mcq",
+      "question": "Có 28 viên kẹo, mỗi túi 4 viên. Xếp được mấy túi đầy?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "24"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "24"
+      ],
+      "explanation": "28 : 4 = 7 túi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q24",
+      "type": "fill",
+      "question": "Mỗi chậu có 4 cây. 9 chậu có bao nhiêu cây?",
+      "correct_answer": "36",
+      "distractors": [
+        "13",
+        "32",
+        "40"
+      ],
+      "explanation": "4 × 9 = 36 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q25",
+      "type": "mcq",
+      "question": "Sợi dây dài 16 m chia thành 4 đoạn bằng nhau. Mỗi đoạn dài mấy mét?",
+      "options": [
+        "4",
+        "12",
+        "3",
+        "8"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "12",
+        "3",
+        "8"
+      ],
+      "explanation": "16 : 4 = 4 m mỗi đoạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q26",
+      "type": "fill",
+      "question": "Có 8 ô cửa, mỗi ô dán 4 ngôi sao. Cần tất cả bao nhiêu ngôi sao?",
+      "correct_answer": "32",
+      "distractors": [
+        "12",
+        "28",
+        "36"
+      ],
+      "explanation": "4 × 8 = 32 ngôi sao.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q27",
+      "type": "mcq",
+      "question": "Có 36 bút màu, xếp mỗi hộp 4 bút. Cần mấy hộp?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "32"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "10",
+        "32"
+      ],
+      "explanation": "36 : 4 = 9 hộp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q28",
+      "type": "fill",
+      "question": "Mỗi khay có 4 chiếc cốc. 3 khay có mấy chiếc cốc?",
+      "correct_answer": "12",
+      "distractors": [
+        "7",
+        "8",
+        "16"
+      ],
+      "explanation": "4 × 3 = 12 chiếc cốc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q29",
+      "type": "mcq",
+      "question": "Có 40 học sinh chia thành 4 đội bằng nhau. Mỗi đội mấy bạn?",
+      "options": [
+        "10",
+        "4",
+        "9",
+        "36"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "4",
+        "9",
+        "36"
+      ],
+      "explanation": "40 : 4 = 10 bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q30",
+      "type": "fill",
+      "question": "Mỗi trang dán 4 ảnh. 5 trang dán tất cả mấy ảnh?",
+      "correct_answer": "20",
+      "distractors": [
+        "9",
+        "16",
+        "24"
+      ],
+      "explanation": "4 × 5 = 20 ảnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q31",
+      "type": "mcq",
+      "question": "Có 12 chiếc bánh chia đều cho 4 bạn. Mỗi bạn mấy chiếc?",
+      "options": [
+        "3",
+        "4",
+        "8",
+        "2"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "4",
+        "8",
+        "2"
+      ],
+      "explanation": "12 : 4 = 3 chiếc mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q32",
+      "type": "fill",
+      "question": "Mỗi hàng có 4 ghế. 7 hàng có bao nhiêu ghế?",
+      "correct_answer": "28",
+      "distractors": [
+        "11",
+        "24",
+        "32"
+      ],
+      "explanation": "4 × 7 = 28 ghế.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q33",
+      "type": "mcq",
+      "question": "Có 24 học sinh, mỗi nhóm 4 bạn. Có mấy nhóm?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "20"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "4",
+        "8",
+        "20"
+      ],
+      "explanation": "24 : 4 = 6 nhóm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q34",
+      "type": "fill",
+      "question": "Mỗi ngày làm 4 lá cờ. Trong 10 ngày làm được bao nhiêu lá cờ?",
+      "correct_answer": "40",
+      "distractors": [
+        "14",
+        "36",
+        "44"
+      ],
+      "explanation": "4 × 10 = 40 lá cờ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q35",
+      "type": "mcq",
+      "question": "Một chiếc xe đồ chơi có 4 bánh. Hai chiếc xe có mấy bánh?",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "12"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "6",
+        "4",
+        "12"
+      ],
+      "explanation": "4 × 2 = 8 bánh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q36",
+      "type": "fill",
+      "question": "Mỗi hộp có 4 quả bóng. 5 hộp có nhiều hơn 18 quả bóng bao nhiêu quả?",
+      "correct_answer": "2",
+      "distractors": [
+        "20",
+        "18",
+        "3"
+      ],
+      "explanation": "4 × 5 = 20 quả; 20 - 18 = 2 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q37",
+      "type": "mcq",
+      "question": "An cần 4 bút cho mỗi bộ. Có 25 bút, An dùng 24 bút làm trọn bộ. Làm được mấy bộ?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "21"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "5",
+        "7",
+        "21"
+      ],
+      "explanation": "24 : 4 = 6 bộ; còn 1 bút chưa dùng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q38",
+      "type": "fill",
+      "question": "Có 4 giỏ, mỗi giỏ 7 quả. Lấy đi 5 quả. Còn tất cả bao nhiêu quả?",
+      "correct_answer": "23",
+      "distractors": [
+        "28",
+        "33",
+        "16"
+      ],
+      "explanation": "4 × 7 = 28 quả; 28 - 5 = 23 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q39",
+      "type": "mcq",
+      "question": "Mua 4 gói, mỗi gói 4 nhãn vở, được tặng thêm 3 nhãn. Có tất cả bao nhiêu nhãn?",
+      "options": [
+        "19",
+        "16",
+        "13",
+        "11"
+      ],
+      "correct_answer": "19",
+      "distractors": [
+        "16",
+        "13",
+        "11"
+      ],
+      "explanation": "4 × 4 = 16 nhãn; 16 + 3 = 19 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B06_Q40",
+      "type": "fill",
+      "question": "Ba tổ nhận 4 quyển truyện mỗi tổ. Sau đó 12 quyển được chia đều cho 4 bàn. Mỗi bàn mấy quyển?",
+      "correct_answer": "3",
+      "distractors": [
+        "4",
+        "8",
+        "12"
+      ],
+      "explanation": "4 × 3 = 12 quyển; 12 : 4 = 3 quyển mỗi bàn.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B06_GAME1",
+      "title": "Tăng tốc cùng bảng bốn",
+      "mode": "speed",
+      "objective": "Luyện nhớ bảng nhân/chia 4 qua các câu hỏi trong 60 giây.",
+      "rules": [
+        "Trả lời các câu thuộc bài trong 60 giây.",
+        "Mỗi câu đúng được 10 điểm, sai không được điểm; chuyển ngay sang câu tiếp.",
+        "Hết giờ thì kết thúc. Điểm riêng của lượt chơi, không thay kết quả luyện tập."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B06_Q01",
+        "TOAN3_T1_B06_Q02",
+        "TOAN3_T1_B06_Q03",
+        "TOAN3_T1_B06_Q04",
+        "TOAN3_T1_B06_Q05",
+        "TOAN3_T1_B06_Q06",
+        "TOAN3_T1_B06_Q07",
+        "TOAN3_T1_B06_Q08",
+        "TOAN3_T1_B06_Q09",
+        "TOAN3_T1_B06_Q10",
+        "TOAN3_T1_B06_Q11",
+        "TOAN3_T1_B06_Q12",
+        "TOAN3_T1_B06_Q13",
+        "TOAN3_T1_B06_Q14",
+        "TOAN3_T1_B06_Q15",
+        "TOAN3_T1_B06_Q16",
+        "TOAN3_T1_B06_Q17",
+        "TOAN3_T1_B06_Q18",
+        "TOAN3_T1_B06_Q19",
+        "TOAN3_T1_B06_Q20",
+        "TOAN3_T1_B06_Q21",
+        "TOAN3_T1_B06_Q22",
+        "TOAN3_T1_B06_Q23",
+        "TOAN3_T1_B06_Q24",
+        "TOAN3_T1_B06_Q25",
+        "TOAN3_T1_B06_Q26",
+        "TOAN3_T1_B06_Q27",
+        "TOAN3_T1_B06_Q28",
+        "TOAN3_T1_B06_Q29",
+        "TOAN3_T1_B06_Q30",
+        "TOAN3_T1_B06_Q31",
+        "TOAN3_T1_B06_Q32",
+        "TOAN3_T1_B06_Q33",
+        "TOAN3_T1_B06_Q34",
+        "TOAN3_T1_B06_Q35",
+        "TOAN3_T1_B06_Q36",
+        "TOAN3_T1_B06_Q37",
+        "TOAN3_T1_B06_Q38",
+        "TOAN3_T1_B06_Q39",
+        "TOAN3_T1_B06_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": null
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

@@ -1,0 +1,793 @@
+{
+  "id": "TOAN3_T1_B05",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 5,
+  "title": "Bảng nhân 3, bảng chia 3",
+  "topic": "Ôn tập và bổ sung",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      16,
+      18
+    ],
+    "pdf_pages": [
+      17,
+      19
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Lập và nhớ bảng nhân 3, bảng chia 3.",
+    "Giải bài toán về các nhóm có 3 và chia đều thành 3 phần."
+  ],
+  "knowledge": {
+    "introduction": "Mỗi chiếc kiềng có 3 chân. Khi có nhiều chiếc kiềng giống nhau, hãy đếm thêm 3 để biết tổng số chân. Phép chia 3 giúp đi ngược từ tổng số về số nhóm.",
+    "rules": [
+      "3 × n là tổng của n số hạng bằng 3. Mỗi lần thêm một nhóm, kết quả tăng thêm 3.",
+      "Bảng nhân 3: 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 tương ứng với nhân từ 1 đến 10.",
+      "Từ 3 × 7 = 21, suy ra 21 : 3 = 7. Các kết quả bảng chia 3 lần lượt từ 1 đến 10.",
+      "Đề hỏi tất cả bao nhiêu trong các nhóm bằng nhau thường dùng nhân; đề hỏi chia đều hoặc có bao nhiêu nhóm thường dùng chia."
+    ],
+    "steps": [
+      "Dùng que tính xếp các nhóm 3, đọc phép nhân tương ứng.",
+      "Đọc bảng theo thứ tự rồi che từng kết quả để tự nhớ.",
+      "Với bài toán, ghi rõ số nhóm và số đồ vật mỗi nhóm trước khi chọn phép tính.",
+      "Kiểm tra phép chia bằng cách nhân thương với 3."
+    ],
+    "common_errors": [
+      "Nhầm 3 × 7 với 3 + 7.",
+      "Đọc 24 : 3 thành 24 - 3.",
+      "Trả lời số nhóm trong khi đề hỏi số đồ vật mỗi nhóm."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Có 4 khay, mỗi khay 3 bánh. Có tất cả bao nhiêu bánh?",
+      "steps": [
+        "Mỗi khay là một nhóm 3 bánh; có 4 nhóm.",
+        "3 + 3 + 3 + 3 = 12, viết gọn 3 × 4 = 12.",
+        "Có tất cả 12 chiếc bánh."
+      ]
+    },
+    {
+      "question": "Có 18 bông hoa, mỗi bó 3 bông. Làm được mấy bó?",
+      "steps": [
+        "Cần tìm số nhóm 3 trong 18.",
+        "18 : 3 = 6 vì 3 × 6 = 18.",
+        "Làm được 6 bó hoa."
+      ]
+    },
+    {
+      "question": "Có 21 thẻ chia đều cho 3 bạn. Mỗi bạn được bao nhiêu thẻ?",
+      "steps": [
+        "Đã biết tổng 21 và số phần bằng nhau là 3.",
+        "21 : 3 = 7. Mỗi bạn nhận 7 thẻ."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B05_Q01",
+      "type": "mcq",
+      "question": "Tính 3 × 2.",
+      "options": [
+        "6",
+        "5",
+        "9",
+        "8"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "5",
+        "9",
+        "8"
+      ],
+      "explanation": "Hai nhóm, mỗi nhóm 3: 3 + 3 = 6.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q02",
+      "type": "fill",
+      "question": "Tính 3 × 5.",
+      "correct_answer": "15",
+      "distractors": [
+        "8",
+        "12",
+        "18"
+      ],
+      "explanation": "Đếm thêm 3 năm lần: 3, 6, 9, 12, 15.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q03",
+      "type": "mcq",
+      "question": "Tính 3 × 8.",
+      "options": [
+        "24",
+        "21",
+        "11",
+        "27"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "21",
+        "11",
+        "27"
+      ],
+      "explanation": "3 × 7 = 21; thêm 3 được 24.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q04",
+      "type": "fill",
+      "question": "Tính 3 × 10.",
+      "correct_answer": "30",
+      "distractors": [
+        "13",
+        "27",
+        "33"
+      ],
+      "explanation": "Mười nhóm 3 có 30 đồ vật.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q05",
+      "type": "mcq",
+      "question": "Tính 9 : 3.",
+      "options": [
+        "3",
+        "6",
+        "12",
+        "2"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "12",
+        "2"
+      ],
+      "explanation": "Vì 3 × 3 = 9 nên 9 : 3 = 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q06",
+      "type": "fill",
+      "question": "Tính 15 : 3.",
+      "correct_answer": "5",
+      "distractors": [
+        "3",
+        "12",
+        "6"
+      ],
+      "explanation": "Vì 3 × 5 = 15 nên thương là 5.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q07",
+      "type": "mcq",
+      "question": "Tính 21 : 3.",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "18"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "18"
+      ],
+      "explanation": "Vì 3 × 7 = 21 nên thương là 7.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q08",
+      "type": "fill",
+      "question": "Tính 27 : 3.",
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "24",
+        "10"
+      ],
+      "explanation": "Vì 3 × 9 = 27 nên thương là 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q09",
+      "type": "mcq",
+      "question": "Tính 3 × 1.",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "2"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "1",
+        "4",
+        "2"
+      ],
+      "explanation": "Một nhóm có 3 thì tất cả có 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q10",
+      "type": "fill",
+      "question": "Tính 30 : 3.",
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "27",
+        "3"
+      ],
+      "explanation": "Vì 3 × 10 = 30 nên thương là 10.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q11",
+      "type": "mcq",
+      "question": "3 + 3 + 3 + 3 + 3 + 3 bằng bao nhiêu?",
+      "options": [
+        "18",
+        "9",
+        "15",
+        "21"
+      ],
+      "correct_answer": "18",
+      "distractors": [
+        "9",
+        "15",
+        "21"
+      ],
+      "explanation": "Có 6 số hạng bằng 3, nên tính 3 × 6 = 18.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q12",
+      "type": "fill",
+      "question": "Muốn biết 3 × 7, có thể thêm mấy đơn vị vào kết quả 3 × 6?",
+      "correct_answer": "3",
+      "distractors": [
+        "1",
+        "6",
+        "7"
+      ],
+      "explanation": "Hai phép nhân hơn kém một nhóm 3; 18 + 3 = 21.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q13",
+      "type": "mcq",
+      "question": "Dãy đếm thêm 3 là 6, 9, 12, ... Số kế tiếp là bao nhiêu?",
+      "options": [
+        "15",
+        "13",
+        "14",
+        "18"
+      ],
+      "correct_answer": "15",
+      "distractors": [
+        "13",
+        "14",
+        "18"
+      ],
+      "explanation": "12 + 3 = 15.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q14",
+      "type": "fill",
+      "question": "Dãy đếm bớt 3 là 27, 24, 21, ... Số kế tiếp là bao nhiêu?",
+      "correct_answer": "18",
+      "distractors": [
+        "19",
+        "20",
+        "24"
+      ],
+      "explanation": "21 - 3 = 18.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q15",
+      "type": "mcq",
+      "question": "Trong phép tính 3 × 9 = 27, tích là số nào?",
+      "options": [
+        "27",
+        "3",
+        "9",
+        "24"
+      ],
+      "correct_answer": "27",
+      "distractors": [
+        "3",
+        "9",
+        "24"
+      ],
+      "explanation": "Kết quả của phép nhân gọi là tích.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q16",
+      "type": "fill",
+      "question": "Trong phép tính 24 : 3 = 8, thương là số nào?",
+      "correct_answer": "8",
+      "distractors": [
+        "24",
+        "3",
+        "21"
+      ],
+      "explanation": "Kết quả của phép chia gọi là thương.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q17",
+      "type": "mcq",
+      "question": "Kết quả nào lớn hơn: 3 × 6 hay 3 × 5? Nhập kết quả lớn hơn.",
+      "options": [
+        "18",
+        "15",
+        "3",
+        "21"
+      ],
+      "correct_answer": "18",
+      "distractors": [
+        "15",
+        "3",
+        "21"
+      ],
+      "explanation": "3 × 6 = 18; 3 × 5 = 15; 18 lớn hơn 15.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q18",
+      "type": "fill",
+      "question": "Kết quả nào bé hơn: 12 : 3 hay 18 : 3? Nhập kết quả bé hơn.",
+      "correct_answer": "4",
+      "distractors": [
+        "6",
+        "3",
+        "2"
+      ],
+      "explanation": "12 : 3 = 4; 18 : 3 = 6; 4 bé hơn 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q19",
+      "type": "mcq",
+      "question": "Biết 3 × 8 = 24. Vậy 24 : 3 bằng bao nhiêu?",
+      "options": [
+        "8",
+        "3",
+        "21",
+        "6"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "3",
+        "21",
+        "6"
+      ],
+      "explanation": "Phép chia là phép tính ngược của phép nhân đã cho.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q20",
+      "type": "fill",
+      "question": "Tính 3 × 4 rồi cộng thêm 5. Kết quả là bao nhiêu?",
+      "correct_answer": "17",
+      "distractors": [
+        "12",
+        "15",
+        "27"
+      ],
+      "explanation": "3 × 4 = 12; 12 + 5 = 17.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q21",
+      "type": "mcq",
+      "question": "Mỗi bó có 3 bông cúc. 7 bó có tất cả bao nhiêu bông?",
+      "options": [
+        "21",
+        "10",
+        "18",
+        "24"
+      ],
+      "correct_answer": "21",
+      "distractors": [
+        "10",
+        "18",
+        "24"
+      ],
+      "explanation": "Có 7 nhóm, mỗi nhóm 3: 3 × 7 = 21 bông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q22",
+      "type": "fill",
+      "question": "Có 24 bút chia đều cho 3 tổ. Mỗi tổ được bao nhiêu bút?",
+      "correct_answer": "8",
+      "distractors": [
+        "6",
+        "9",
+        "21"
+      ],
+      "explanation": "Chia đều 24 thành 3 phần: 24 : 3 = 8 bút.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q23",
+      "type": "mcq",
+      "question": "Mỗi hộp có 3 viên phấn. Có 18 viên phấn thì xếp được mấy hộp đầy?",
+      "options": [
+        "6",
+        "3",
+        "9",
+        "15"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "9",
+        "15"
+      ],
+      "explanation": "Tìm số nhóm 3 trong 18: 18 : 3 = 6 hộp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q24",
+      "type": "fill",
+      "question": "Sân trường có 5 hàng, mỗi hàng 3 chậu hoa. Có tất cả mấy chậu?",
+      "correct_answer": "15",
+      "distractors": [
+        "8",
+        "12",
+        "18"
+      ],
+      "explanation": "Mỗi hàng 3 chậu, 5 hàng có 3 × 5 = 15 chậu.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q25",
+      "type": "mcq",
+      "question": "Một sợi dây dài 27 cm cắt thành 3 đoạn bằng nhau. Mỗi đoạn dài mấy xăng-ti-mét?",
+      "options": [
+        "9",
+        "8",
+        "3",
+        "24"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "3",
+        "24"
+      ],
+      "explanation": "27 : 3 = 9 cm mỗi đoạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q26",
+      "type": "fill",
+      "question": "Có 12 học sinh, mỗi nhóm 3 bạn. Chia được mấy nhóm?",
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "6",
+        "9"
+      ],
+      "explanation": "12 : 3 = 4 nhóm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q27",
+      "type": "mcq",
+      "question": "Mỗi ngày Bình đọc 3 trang. Sau 9 ngày Bình đọc bao nhiêu trang?",
+      "options": [
+        "27",
+        "12",
+        "24",
+        "30"
+      ],
+      "correct_answer": "27",
+      "distractors": [
+        "12",
+        "24",
+        "30"
+      ],
+      "explanation": "9 ngày có 9 nhóm 3 trang: 3 × 9 = 27 trang.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q28",
+      "type": "fill",
+      "question": "Có 30 chiếc bánh chia đều cho 3 bàn. Mỗi bàn nhận mấy chiếc?",
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "3",
+        "27"
+      ],
+      "explanation": "30 : 3 = 10 chiếc mỗi bàn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q29",
+      "type": "mcq",
+      "question": "Mỗi bộ trang trí cần 3 lá cờ. Có 21 lá cờ thì làm được mấy bộ?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "18"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "18"
+      ],
+      "explanation": "21 : 3 = 7 bộ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q30",
+      "type": "fill",
+      "question": "Hai giá, mỗi giá đặt 3 quyển truyện. Có tất cả bao nhiêu quyển?",
+      "correct_answer": "6",
+      "distractors": [
+        "5",
+        "3",
+        "9"
+      ],
+      "explanation": "3 × 2 = 6 quyển.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q31",
+      "type": "mcq",
+      "question": "Mỗi ghế dài có 3 chỗ. 8 ghế dài có bao nhiêu chỗ ngồi?",
+      "options": [
+        "24",
+        "11",
+        "21",
+        "27"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "11",
+        "21",
+        "27"
+      ],
+      "explanation": "3 × 8 = 24 chỗ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q32",
+      "type": "fill",
+      "question": "Có 15 quả quýt, chia đều vào 3 đĩa. Mỗi đĩa mấy quả?",
+      "correct_answer": "5",
+      "distractors": [
+        "3",
+        "6",
+        "12"
+      ],
+      "explanation": "15 : 3 = 5 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q33",
+      "type": "mcq",
+      "question": "Mỗi lần tưới dùng 3 lít nước. Tưới 4 lần dùng bao nhiêu lít?",
+      "options": [
+        "12",
+        "7",
+        "9",
+        "15"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "7",
+        "9",
+        "15"
+      ],
+      "explanation": "3 × 4 = 12 lít.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q34",
+      "type": "fill",
+      "question": "Một trò chơi có 6 lượt, mỗi lượt nhận 3 sao. Cả 6 lượt nhận bao nhiêu sao?",
+      "correct_answer": "18",
+      "distractors": [
+        "9",
+        "15",
+        "21"
+      ],
+      "explanation": "3 × 6 = 18 sao.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q35",
+      "type": "mcq",
+      "question": "Có 9 nhãn vở chia đều cho 3 bạn. Mỗi bạn nhận mấy nhãn?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "9",
+        "12"
+      ],
+      "explanation": "9 : 3 = 3 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q36",
+      "type": "fill",
+      "question": "Hộp có 3 ngăn, mỗi ngăn 4 hạt. Chuyển toàn bộ 12 hạt vào các túi, mỗi túi 3 hạt. Cần mấy túi?",
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "6",
+        "9"
+      ],
+      "explanation": "Có 12 hạt; 12 : 3 = 4 túi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q37",
+      "type": "mcq",
+      "question": "Mỗi bộ ghép cần 3 miếng. An có 16 miếng và dùng 15 miếng để ghép trọn bộ. An ghép được mấy bộ?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "13"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "6",
+        "13"
+      ],
+      "explanation": "Chỉ tính 15 miếng đã dùng: 15 : 3 = 5 bộ; 1 miếng chưa dùng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q38",
+      "type": "fill",
+      "question": "Lan có 7 túi, mỗi túi 3 viên bi. Lan cho em 2 viên. Còn bao nhiêu viên?",
+      "correct_answer": "19",
+      "distractors": [
+        "21",
+        "23",
+        "8"
+      ],
+      "explanation": "3 × 7 = 21 viên; 21 - 2 = 19 viên.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q39",
+      "type": "mcq",
+      "question": "Một đội có 3 hàng, mỗi hàng 6 bạn. Thêm 1 bạn làm đội trưởng. Cả đội có bao nhiêu bạn?",
+      "options": [
+        "19",
+        "18",
+        "10",
+        "21"
+      ],
+      "correct_answer": "19",
+      "distractors": [
+        "18",
+        "10",
+        "21"
+      ],
+      "explanation": "3 × 6 = 18 bạn ở các hàng; 18 + 1 = 19 bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B05_Q40",
+      "type": "fill",
+      "question": "Mỗi gói có 3 thẻ. Mua 6 gói có đủ chia cho 3 bạn, mỗi bạn 6 thẻ không? Nhập số thẻ mỗi bạn nhận khi chia đều.",
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "9",
+        "18"
+      ],
+      "explanation": "3 × 6 = 18 thẻ; 18 : 3 = 6 thẻ mỗi bạn, nên chia đủ.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B05_GAME1",
+      "title": "Ghép thẻ nhóm ba",
+      "mode": "match",
+      "objective": "Ghép câu hỏi với kết quả, vận dụng bảng nhân và bảng chia 3.",
+      "rules": [
+        "Mỗi lượt chọn 5 câu có 5 đáp án khác nhau.",
+        "Chọn câu hỏi bên trái rồi đáp án bên phải. Sai thì thử lại.",
+        "Mỗi cặp đúng 10 điểm; tối đa 50 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B05_Q01",
+        "TOAN3_T1_B05_Q02",
+        "TOAN3_T1_B05_Q03",
+        "TOAN3_T1_B05_Q04",
+        "TOAN3_T1_B05_Q05",
+        "TOAN3_T1_B05_Q06",
+        "TOAN3_T1_B05_Q07",
+        "TOAN3_T1_B05_Q08",
+        "TOAN3_T1_B05_Q09",
+        "TOAN3_T1_B05_Q10",
+        "TOAN3_T1_B05_Q11",
+        "TOAN3_T1_B05_Q12",
+        "TOAN3_T1_B05_Q13",
+        "TOAN3_T1_B05_Q14",
+        "TOAN3_T1_B05_Q15",
+        "TOAN3_T1_B05_Q16",
+        "TOAN3_T1_B05_Q17",
+        "TOAN3_T1_B05_Q18",
+        "TOAN3_T1_B05_Q19",
+        "TOAN3_T1_B05_Q20",
+        "TOAN3_T1_B05_Q21",
+        "TOAN3_T1_B05_Q22",
+        "TOAN3_T1_B05_Q23",
+        "TOAN3_T1_B05_Q24",
+        "TOAN3_T1_B05_Q25",
+        "TOAN3_T1_B05_Q26",
+        "TOAN3_T1_B05_Q27",
+        "TOAN3_T1_B05_Q28",
+        "TOAN3_T1_B05_Q29",
+        "TOAN3_T1_B05_Q30",
+        "TOAN3_T1_B05_Q31",
+        "TOAN3_T1_B05_Q32",
+        "TOAN3_T1_B05_Q33",
+        "TOAN3_T1_B05_Q34",
+        "TOAN3_T1_B05_Q35",
+        "TOAN3_T1_B05_Q36",
+        "TOAN3_T1_B05_Q37",
+        "TOAN3_T1_B05_Q38",
+        "TOAN3_T1_B05_Q39",
+        "TOAN3_T1_B05_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 50
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

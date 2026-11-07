@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" role="img" aria-labelledby="title desc">
+  <title id="title">Hình B: Đường gấp khúc KLMN</title>
+  <desc id="desc">Đường gấp khúc đi từ K qua L, M đến N; KL dài 8 cm, LM dài 12 cm, MN dài 9 cm. Hình minh họa không theo tỉ lệ.</desc>
+  <rect width="560" height="250" rx="20" fill="#fff6e8"/>
+  <text x="24" y="30" font-size="20" font-family="sans-serif" fill="#633d13">Hình B</text>
+  <path d="M65 170L200 70L340 170L485 70" fill="none" stroke="#b5661e" stroke-width="4"/>
+  <g fill="#633d13"><circle cx="65" cy="170" r="6"/><circle cx="200" cy="70" r="6"/><circle cx="340" cy="170" r="6"/><circle cx="485" cy="70" r="6"/></g>
+  <g font-size="22" font-family="sans-serif" fill="#633d13"><text x="50" y="201">K</text><text x="191" y="57">L</text><text x="330" y="201">M</text><text x="488" y="57">N</text><text x="85" y="105">8 cm</text><text x="250" y="103">12 cm</text><text x="383" y="105">9 cm</text><text x="120" y="234" font-size="16">Hình minh họa không theo tỉ lệ</text></g>
+</svg>

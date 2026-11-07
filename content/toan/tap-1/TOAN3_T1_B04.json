@@ -577,7 +577,18 @@
     "structure_checked": true,
     "answer_reviewed": true,
     "source_reviewed": true,
-    "teacher_approved": false
+    "teacher_approved": true,
+    "teacher_confirmation": {
+      "date": "2026-11-07",
+      "confirmed_by": "Nguyễn Thế Khanh",
+      "basis": "Giáo viên xác nhận trong hội thoại: đã xem và thẩm định Batch 1, yêu cầu tiếp tục.",
+      "lesson_ids": [
+        "TOAN3_T1_B01",
+        "TOAN3_T1_B02",
+        "TOAN3_T1_B03",
+        "TOAN3_T1_B04"
+      ]
+    }
   },
-  "status": "AI_CHECKED_AWAITING_TEACHER"
+  "status": "TEACHER_APPROVED"
 }

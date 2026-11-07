@@ -29,3 +29,7 @@ Danh mục tên bài và trang đã được trích xuất/đối chiếu bằng
 Bốn bài Toán đầu tiên có JSON và Markdown riêng trong `content/toan/tap-1/`: mỗi bài 40 câu với đáp án/lời giải, 1 trò chơi và phần hướng dẫn học. Luyện tập tổng hợp lấy 10 câu theo phân bố 3 nhận biết, 3 thông hiểu, 4 vận dụng. AI đã rà soát; chưa có xác nhận thẩm định của giáo viên. Các bài còn lại giữ bản nháp.
 
 Chỉ mục: [INDEX.json](content/system/INDEX.json). Tiến độ: [PROGRESS.md](content/system/PROGRESS.md). Kiểm tra và giới hạn: [AUDIT_REPORT.md](content/system/AUDIT_REPORT.md).
+
+## Cập nhật Batch 2 — 07/11/2026
+
+Đã có 8 bài Toán với 320 câu và 8 trò chơi theo bài. Thầy Nguyễn Thế Khanh đã thẩm định Batch 1 (Bài 1–4); Batch 2 (Bài 5–8) chờ thẩm định. Bộ tải dùng `content/system/INDEX.json`; Bài 7 có hình minh họa SVG. Kiểm tra bằng `python scripts/validate_site.py`; xem tiến độ và giới hạn trong `content/system/PROGRESS.md` và `AUDIT_REPORT.md`.

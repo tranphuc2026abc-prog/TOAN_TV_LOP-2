@@ -12,7 +12,7 @@ async function boot(missing){
 }
 (async()=>{
  const {w,errors}=await boot();w.load('KiemThu');w.go({p:'home'});assert.equal(w.L.length,168);
- for(let n=1;n<=4;n++){
+ for(let n=1;n<=8;n++){
   const id='TOAN3_T1_B0'+n;w.go({p:'lesson',id});assert(w.A.textContent.includes('40 câu'));
   const sets=new Set();
   for(let k=0;k<8;k++){
@@ -24,10 +24,24 @@ async function boot(missing){
    const q=w.v.qs[w.v.i];if(q.type==='mcq')w.ans(w.v.opts.indexOf(q.answer));else{w.document.getElementById('an').value=q.answer;w.ans();}
    assert.equal(w.v.done,1);assert(w.A.textContent.includes(q.explanation));const score=w.v.ok;w.ans(0);assert.equal(w.v.ok,score);w.nextQ();
   }assert.equal(w.P.les[id],3);
-  w.startLessonGame(id);assert.equal(w.G.all.length,10);assert(w.G.all.every(q=>q.id===id));w.answerMini(w.G.all[0].answer);assert.equal(w.G.score,10);assert(w.A.textContent.includes(w.G.all[0].explanation));
+  w.startQ(id);assert.equal(w.v.qs.length,10);
+  w.startLessonGame(id);assert(w.G.all.every(q=>q.id===id));
+  if(w.G.mode==='match'){
+   assert.equal(w.G.pairs.length,5);assert.equal(new Set(w.G.pairs.map(q=>q.answer)).size,5);
+   for(let j=0;j<5;j++){w.pickPair(0,j);w.pickPair(1,j);}assert.equal(w.G.score,50);assert(w.G.ended);
+   w.A.querySelector('button.big').click();assert.equal(w.G.lessonContentId,id);
+  }else if(w.G.mode==='tf'){
+   assert.equal(w.G.all.length,10);w.answerTF(w.G.statementCorrect);assert.equal(w.G.score,10);assert(w.A.textContent.includes(w.G.all[0].explanation));
+  }else{
+   assert.equal(w.G.all.length,w.G.mode==='speed'?40:10);w.answerMini(w.G.all[0].answer);assert.equal(w.G.score,10);assert(w.A.textContent.includes(w.G.all[w.G.mode==='speed'?0:w.G.idx].explanation));
+   if(w.G.mode==='speed')w.finishMini();
+  }
+  if(n<=4){w.go({p:'lesson',id});assert(w.A.textContent.includes('Giáo viên đã thẩm định'));}
+  if(n===7){w.startQ(id,'all');w.v.qs=[w.practiceBank(w.byId(id)).find(q=>q.figure)];w.v.i=0;w.draw();assert(w.A.querySelector('figure img'));}
+
  }
- const saved=JSON.parse(w.localStorage.getItem('wl3:p:KiemThu'));assert.equal(Object.keys(saved.les).length,4);w.load('KiemThu');assert.equal(w.P.xp,saved.xp);
+ const saved=JSON.parse(w.localStorage.getItem('wl3:p:KiemThu'));assert.equal(Object.keys(saved.les).length,8);w.load('KiemThu');assert.equal(w.P.xp,saved.xp);
  w.close();assert.deepEqual(errors,[]);
- const fail=await boot('TOAN3_T1_B02.json');fail.w.load('Fallback');assert.equal((await fail.w.lessonContentReady).length,3);fail.w.go({p:'lesson',id:'TOAN3_T1_B02'});fail.w.startQ('TOAN3_T1_B02','all');assert(fail.w.v.qs.length>0);assert.deepEqual(fail.errors,[]);fail.w.close();
- console.log('PASS DOM: 168 bài, 4 kho × 40 câu, lượt 10 câu 3/3/4, 8 lượt thay đổi, đáp án/lời giải, chống chấm lặp, 4 trò chơi, lưu/nạp tiến độ, fallback 404. Chưa kiểm tra bố cục trình duyệt.');
+ const fail=await boot('TOAN3_T1_B02.json');fail.w.load('Fallback');assert.equal((await fail.w.lessonContentReady).length,7);fail.w.go({p:'lesson',id:'TOAN3_T1_B02'});fail.w.startQ('TOAN3_T1_B02','all');assert(fail.w.v.qs.length>0);assert.deepEqual(fail.errors,[]);fail.w.close();
+ console.log('PASS DOM: 168 bài, 8 kho × 40 câu, lượt 10 câu 3/3/4 và nút làm lại, 8 lượt thay đổi, lời giải, chống chấm lặp, 4 loại trò chơi đúng phạm vi bài, hình minh họa, trạng thái thẩm định, lưu/nạp tiến độ, fallback 404. Chưa kiểm tra bố cục trình duyệt.');
 })().catch(e=>{console.error(e);process.exit(1);});

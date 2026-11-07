@@ -1,5 +1,5 @@
 from pathlib import Path
-import json, re, subprocess, tempfile
+import json, re, subprocess, tempfile, sys
 
 root = Path(__file__).resolve().parents[1]
 html = (root / "index.html").read_text(encoding="utf-8")
@@ -24,3 +24,10 @@ with tempfile.TemporaryDirectory() as tmp:
         path.write_text(source, encoding="utf-8")
         subprocess.run(["node", "--check", str(path)], check=True)
 print(f"Validated {len(lessons)} curriculum entries: {counts}; JavaScript syntax OK.")
+for src in re.findall(r'<script[^>]+src="([^"]+)"', html):
+    if '://' not in src:
+        path=root/src
+        assert path.is_file(), f'Missing JavaScript: {src}'
+        subprocess.run(['node','--check',str(path)],check=True)
+subprocess.run([sys.executable,str(root/'scripts/validate_content.py')],check=True)
+

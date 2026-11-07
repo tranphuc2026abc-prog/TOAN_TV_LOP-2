@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 210" role="img" aria-labelledby="title desc">
+  <title id="title">Hình A: Các điểm P, Q, R thẳng hàng</title>
+  <desc id="desc">P, Q, R cùng nằm trên một đường thẳng ngang. S nằm phía dưới đường thẳng, T nằm phía trên.</desc>
+  <rect width="560" height="210" rx="20" fill="#eef5ff"/>
+  <text x="24" y="30" font-size="20" font-family="sans-serif" fill="#17345e">Hình A</text>
+  <path d="M50 110H510" stroke="#2860a8" stroke-width="3"/>
+  <g fill="#17345e"><circle cx="100" cy="110" r="6"/><circle cx="280" cy="110" r="6"/><circle cx="460" cy="110" r="6"/><circle cx="180" cy="165" r="6"/><circle cx="380" cy="55" r="6"/></g>
+  <g font-size="24" font-family="sans-serif" fill="#17345e"><text x="91" y="94">P</text><text x="270" y="94">Q</text><text x="451" y="94">R</text><text x="170" y="194">S</text><text x="394" y="60">T</text></g>
+</svg>

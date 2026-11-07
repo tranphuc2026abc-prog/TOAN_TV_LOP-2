@@ -1,0 +1,814 @@
+{
+  "id": "TOAN3_T1_B07",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 7,
+  "title": "Ôn tập hình học và đo lường",
+  "topic": "Ôn tập và bổ sung",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      21,
+      23
+    ],
+    "pdf_pages": [
+      22,
+      24
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết khối cầu, khối trụ, khối lập phương, khối hộp chữ nhật và các điểm thẳng hàng.",
+    "Tính độ dài đường gấp khúc; vận dụng đơn vị cm, m, kg, lít.",
+    "Đọc giờ, xác định ngày liền trước, liền sau và các thứ trong tuần."
+  ],
+  "knowledge": {
+    "introduction": "Hình học giúp mô tả đồ vật; đo lường giúp trả lời dài bao nhiêu, nặng bao nhiêu, chứa bao nhiêu và lúc nào. Mỗi tình huống cần đúng loại đơn vị.",
+    "rules": [
+      "Quả bóng gần giống khối cầu; lon nước gần giống khối trụ; hộp giày gần giống khối hộp chữ nhật; khối ru-bích thông thường gần giống khối lập phương.",
+      "Hình tam giác có 3 cạnh, hình tứ giác có 4 cạnh. Các điểm cùng nằm trên một đường thẳng là các điểm thẳng hàng.",
+      "Độ dài đường gấp khúc bằng tổng độ dài tất cả các đoạn. Đổi cùng đơn vị trước khi tính; 1 m = 100 cm.",
+      "Dùng kg cho khối lượng, lít cho lượng chất lỏng, cm hoặc m cho độ dài. Không cộng các đại lượng khác loại.",
+      "Kim phút chỉ số 3: 15 phút; số 6: 30 phút; số 12: đúng giờ. Xem cả kim giờ để xác định giờ.",
+      "Một tuần có 7 ngày. Sau 7 ngày, cùng thứ trong tuần lặp lại."
+    ],
+    "steps": [
+      "Quan sát đặc điểm đồ vật hoặc hình vẽ; nêu tên hình, khối.",
+      "Với đường gấp khúc, đánh dấu từng đoạn để không bỏ sót.",
+      "Đọc đơn vị của mỗi số; đổi về cùng đơn vị trước khi cộng, trừ.",
+      "Với thời gian, đọc cả giờ và phút; với lịch, đếm từng ngày theo thứ."
+    ],
+    "common_errors": [
+      "Gọi quả bóng là hình tròn trong bài hỏi về khối trong không gian.",
+      "Chỉ cộng hai đoạn trong đường gấp khúc có ba đoạn.",
+      "Tính 1 m - 35 cm thành 34 cm mà chưa đổi 1 m = 100 cm.",
+      "Kim phút chỉ số 3 nhưng đọc thành 3 phút."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Một đường gấp khúc có các đoạn 16 cm, 11 cm, 13 cm. Dài bao nhiêu?",
+      "steps": [
+        "Có ba đoạn cùng đơn vị cm.",
+        "16 + 11 = 27; 27 + 13 = 40.",
+        "Đường gấp khúc dài 40 cm."
+      ]
+    },
+    {
+      "question": "Dây dài 1 m, cắt 45 cm. Còn bao nhiêu?",
+      "steps": [
+        "Đổi 1 m = 100 cm.",
+        "100 - 45 = 55. Còn 55 cm."
+      ]
+    },
+    {
+      "question": "Ngày 5 là thứ Hai. Ngày 7 cùng tháng là thứ mấy?",
+      "steps": [
+        "Ngày 6 là thứ Ba.",
+        "Ngày 7 là thứ Tư."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B07_Q01",
+      "type": "mcq",
+      "question": "Hình tam giác có bao nhiêu cạnh?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "4",
+        "5"
+      ],
+      "explanation": "Hình tam giác có 3 cạnh và 3 đỉnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q02",
+      "type": "fill",
+      "question": "Hình tứ giác có bao nhiêu cạnh?",
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "5",
+        "6"
+      ],
+      "explanation": "Hình tứ giác có 4 cạnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q03",
+      "type": "mcq",
+      "question": "Đồ vật gần giống khối cầu là vật nào?",
+      "options": [
+        "quả bóng",
+        "hộp sữa chữ nhật",
+        "lon nước",
+        "viên gạch"
+      ],
+      "correct_answer": "quả bóng",
+      "distractors": [
+        "hộp sữa chữ nhật",
+        "lon nước",
+        "viên gạch"
+      ],
+      "explanation": "Quả bóng tròn đều trong không gian, gần giống khối cầu.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q04",
+      "type": "fill",
+      "question": "Đồ vật gần giống khối trụ là vật nào?",
+      "correct_answer": "lon nước",
+      "distractors": [
+        "quả bóng",
+        "hộp giày",
+        "khối ru-bích"
+      ],
+      "explanation": "Lon nước có hai đáy tròn và phần thân cong, gần giống khối trụ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q05",
+      "type": "mcq",
+      "question": "Đồ vật gần giống khối lập phương là vật nào?",
+      "options": [
+        "khối ru-bích",
+        "quả địa cầu",
+        "ống nước",
+        "hộp giày dài"
+      ],
+      "correct_answer": "khối ru-bích",
+      "distractors": [
+        "quả địa cầu",
+        "ống nước",
+        "hộp giày dài"
+      ],
+      "explanation": "Khối ru-bích thông thường có dạng khối lập phương.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q06",
+      "type": "fill",
+      "question": "Đồ vật gần giống khối hộp chữ nhật là vật nào?",
+      "correct_answer": "hộp giày",
+      "distractors": [
+        "quả bóng",
+        "lon sữa",
+        "viên bi"
+      ],
+      "explanation": "Hộp giày thông thường có dạng khối hộp chữ nhật.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q07",
+      "type": "mcq",
+      "question": "1 m bằng bao nhiêu xăng-ti-mét?",
+      "options": [
+        "100",
+        "10",
+        "1",
+        "1000"
+      ],
+      "correct_answer": "100",
+      "distractors": [
+        "10",
+        "1",
+        "1000"
+      ],
+      "explanation": "Theo quan hệ đơn vị đã học, 1 m = 100 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q08",
+      "type": "fill",
+      "question": "Một tuần có bao nhiêu ngày?",
+      "correct_answer": "7",
+      "distractors": [
+        "5",
+        "6",
+        "8"
+      ],
+      "explanation": "Một tuần gồm bảy ngày, từ thứ Hai đến Chủ nhật.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q09",
+      "type": "mcq",
+      "question": "Đơn vị phù hợp để ghi khối lượng một bao gạo là gì?",
+      "options": [
+        "kg",
+        "m",
+        "cm",
+        "lít"
+      ],
+      "correct_answer": "kg",
+      "distractors": [
+        "m",
+        "cm",
+        "lít"
+      ],
+      "explanation": "Bao gạo được cân theo ki-lô-gam, viết tắt kg.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q10",
+      "type": "fill",
+      "question": "Đơn vị phù hợp để ghi lượng nước chứa trong một can là gì?",
+      "correct_answer": "lít",
+      "distractors": [
+        "kg",
+        "cm",
+        "ngày"
+      ],
+      "explanation": "Dung tích can nước thường ghi bằng lít.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q11",
+      "type": "mcq",
+      "question": "Đường gấp khúc gồm hai đoạn 14 cm và 23 cm. Dài bao nhiêu xăng-ti-mét?",
+      "options": [
+        "37",
+        "9",
+        "27",
+        "47"
+      ],
+      "correct_answer": "37",
+      "distractors": [
+        "9",
+        "27",
+        "47"
+      ],
+      "explanation": "Cộng độ dài các đoạn: 14 + 23 = 37 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q12",
+      "type": "fill",
+      "question": "Đường gấp khúc gồm ba đoạn 10 cm, 15 cm, 20 cm. Dài bao nhiêu xăng-ti-mét?",
+      "correct_answer": "45",
+      "distractors": [
+        "35",
+        "40",
+        "50"
+      ],
+      "explanation": "10 + 15 = 25; 25 + 20 = 45 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q13",
+      "type": "mcq",
+      "question": "Điền số: 1 m 20 cm = ... cm.",
+      "options": [
+        "120",
+        "21",
+        "102",
+        "100"
+      ],
+      "correct_answer": "120",
+      "distractors": [
+        "21",
+        "102",
+        "100"
+      ],
+      "explanation": "1 m = 100 cm; 100 + 20 = 120 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q14",
+      "type": "fill",
+      "question": "Điền số: 2 m = ... cm.",
+      "correct_answer": "200",
+      "distractors": [
+        "20",
+        "2",
+        "102"
+      ],
+      "explanation": "Mỗi mét có 100 cm; 100 + 100 = 200 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q15",
+      "type": "mcq",
+      "question": "Hai can có 8 lít và 6 lít. Có tất cả bao nhiêu lít?",
+      "options": [
+        "14",
+        "2",
+        "12",
+        "16"
+      ],
+      "correct_answer": "14",
+      "distractors": [
+        "2",
+        "12",
+        "16"
+      ],
+      "explanation": "8 + 6 = 14 lít.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q16",
+      "type": "fill",
+      "question": "Một túi nặng 9 kg, túi kia nặng 5 kg. Chênh lệch là bao nhiêu ki-lô-gam?",
+      "correct_answer": "4",
+      "distractors": [
+        "14",
+        "3",
+        "5"
+      ],
+      "explanation": "9 - 5 = 4 kg.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q17",
+      "type": "mcq",
+      "question": "Đồng hồ có kim phút chỉ số 6, kim giờ nằm giữa 8 và 9. Đó là mấy giờ?",
+      "options": [
+        "8 giờ 30 phút",
+        "6 giờ 40 phút",
+        "9 giờ 30 phút",
+        "8 giờ 6 phút"
+      ],
+      "correct_answer": "8 giờ 30 phút",
+      "distractors": [
+        "6 giờ 40 phút",
+        "9 giờ 30 phút",
+        "8 giờ 6 phút"
+      ],
+      "explanation": "Kim phút ở số 6 là 30 phút; kim giờ đã qua 8 nhưng chưa đến 9.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q18",
+      "type": "fill",
+      "question": "Đồng hồ có kim phút chỉ số 3, kim giờ vừa qua số 10. Đó là mấy giờ?",
+      "correct_answer": "10 giờ 15 phút",
+      "distractors": [
+        "3 giờ 50 phút",
+        "10 giờ 30 phút",
+        "11 giờ 15 phút"
+      ],
+      "explanation": "Kim phút chỉ số 3 là 15 phút; giờ là 10.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q19",
+      "type": "mcq",
+      "question": "Hôm nay là thứ Tư. Ngày mai là thứ mấy?",
+      "options": [
+        "thứ Năm",
+        "thứ Ba",
+        "thứ Sáu",
+        "thứ Bảy"
+      ],
+      "correct_answer": "thứ Năm",
+      "distractors": [
+        "thứ Ba",
+        "thứ Sáu",
+        "thứ Bảy"
+      ],
+      "explanation": "Sau thứ Tư là thứ Năm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q20",
+      "type": "fill",
+      "question": "Ba điểm A, B, C cùng nằm trên một đường thẳng. Chúng có thẳng hàng không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ A và C",
+        "không đủ dữ kiện"
+      ],
+      "explanation": "Các điểm cùng nằm trên một đường thẳng là các điểm thẳng hàng.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q21",
+      "type": "mcq",
+      "question": "Lan đi 125 m từ nhà đến cầu, rồi 210 m đến trường. Đi tất cả bao nhiêu mét?",
+      "options": [
+        "335",
+        "85",
+        "325",
+        "345"
+      ],
+      "correct_answer": "335",
+      "distractors": [
+        "85",
+        "325",
+        "345"
+      ],
+      "explanation": "125 + 210 = 335 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q22",
+      "type": "fill",
+      "question": "Ruy băng dài 1 m, cắt 35 cm. Còn bao nhiêu xăng-ti-mét?",
+      "correct_answer": "65",
+      "distractors": [
+        "34",
+        "75",
+        "135"
+      ],
+      "explanation": "Đổi 1 m = 100 cm; 100 - 35 = 65 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q23",
+      "type": "mcq",
+      "question": "Sợi dây dài 2 m, dùng 80 cm. Còn bao nhiêu xăng-ti-mét?",
+      "options": [
+        "120",
+        "72",
+        "180",
+        "280"
+      ],
+      "correct_answer": "120",
+      "distractors": [
+        "72",
+        "180",
+        "280"
+      ],
+      "explanation": "2 m = 200 cm; 200 - 80 = 120 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q24",
+      "type": "fill",
+      "question": "Túi gạo 12 kg và túi đậu 7 kg. Cả hai nặng bao nhiêu ki-lô-gam?",
+      "correct_answer": "19",
+      "distractors": [
+        "5",
+        "17",
+        "21"
+      ],
+      "explanation": "12 + 7 = 19 kg.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q25",
+      "type": "mcq",
+      "question": "Hai kiện hàng nặng 25 kg và 18 kg. Kiện thứ nhất nặng hơn mấy ki-lô-gam?",
+      "options": [
+        "7",
+        "43",
+        "8",
+        "13"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "43",
+        "8",
+        "13"
+      ],
+      "explanation": "25 - 18 = 7 kg.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q26",
+      "type": "fill",
+      "question": "Can có 15 lít nước, dùng 6 lít. Còn bao nhiêu lít?",
+      "correct_answer": "9",
+      "distractors": [
+        "21",
+        "8",
+        "11"
+      ],
+      "explanation": "15 - 6 = 9 lít.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q27",
+      "type": "mcq",
+      "question": "Bình có 4 lít nước, rót thêm 3 lít. Lúc này có bao nhiêu lít?",
+      "options": [
+        "7",
+        "1",
+        "6",
+        "8"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "1",
+        "6",
+        "8"
+      ],
+      "explanation": "4 + 3 = 7 lít.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q28",
+      "type": "fill",
+      "question": "Mỗi túi có 5 kg gạo. 4 túi có tất cả mấy ki-lô-gam?",
+      "correct_answer": "20",
+      "distractors": [
+        "9",
+        "15",
+        "25"
+      ],
+      "explanation": "5 × 4 = 20 kg.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q29",
+      "type": "mcq",
+      "question": "Có 18 lít nước chia đều vào 3 can. Mỗi can có mấy lít?",
+      "options": [
+        "6",
+        "3",
+        "9",
+        "15"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "9",
+        "15"
+      ],
+      "explanation": "18 : 3 = 6 lít mỗi can.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q30",
+      "type": "fill",
+      "question": "Thứ Hai tuần này Mai mượn sách. Đúng một tuần sau Mai trả sách. Đó là thứ mấy?",
+      "correct_answer": "thứ Hai",
+      "distractors": [
+        "thứ Ba",
+        "Chủ nhật",
+        "thứ Tư"
+      ],
+      "explanation": "Sau 7 ngày, thứ trong tuần lặp lại.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q31",
+      "type": "mcq",
+      "question": "Ngày 8 là thứ Sáu. Ngày 9 cùng tháng là thứ mấy?",
+      "options": [
+        "thứ Bảy",
+        "thứ Năm",
+        "Chủ nhật",
+        "thứ Hai"
+      ],
+      "correct_answer": "thứ Bảy",
+      "distractors": [
+        "thứ Năm",
+        "Chủ nhật",
+        "thứ Hai"
+      ],
+      "explanation": "Ngày 9 là ngày kế tiếp ngày 8; sau thứ Sáu là thứ Bảy.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q32",
+      "type": "fill",
+      "question": "Ngày 12 là thứ Ba. Ngày 14 cùng tháng là thứ mấy?",
+      "correct_answer": "thứ Năm",
+      "distractors": [
+        "thứ Tư",
+        "thứ Sáu",
+        "thứ Hai"
+      ],
+      "explanation": "Ngày 13 là thứ Tư, ngày 14 là thứ Năm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q33",
+      "type": "mcq",
+      "question": "Lan bắt đầu đọc lúc 7 giờ và dừng lúc 7 giờ 30 phút cùng buổi sáng. Lan đọc bao nhiêu phút?",
+      "options": [
+        "30",
+        "15",
+        "7",
+        "60"
+      ],
+      "correct_answer": "30",
+      "distractors": [
+        "15",
+        "7",
+        "60"
+      ],
+      "explanation": "Từ 7 giờ đến 7 giờ 30 phút là 30 phút.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q34",
+      "type": "fill",
+      "question": "Giờ điện tử là 16:00 vào buổi chiều. Đọc theo cách nói 12 giờ là mấy giờ chiều? Nhập số giờ.",
+      "correct_answer": "4",
+      "distractors": [
+        "6",
+        "12",
+        "5"
+      ],
+      "explanation": "16 giờ là 4 giờ chiều.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q35",
+      "type": "mcq",
+      "question": "Đường đi gồm ba đoạn dài 120 m, 80 m và 150 m. Cả đường dài mấy mét?",
+      "options": [
+        "350",
+        "270",
+        "330",
+        "370"
+      ],
+      "correct_answer": "350",
+      "distractors": [
+        "270",
+        "330",
+        "370"
+      ],
+      "explanation": "120 + 80 = 200; 200 + 150 = 350 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q36",
+      "type": "fill",
+      "question": "Khung tranh có viền gồm bốn đoạn: 20 cm, 15 cm, 20 cm, 15 cm. Tổng độ dài viền là mấy xăng-ti-mét?",
+      "correct_answer": "70",
+      "distractors": [
+        "35",
+        "50",
+        "60"
+      ],
+      "explanation": "20 + 15 + 20 + 15 = 70 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q37",
+      "type": "mcq",
+      "question": "Muốn nặn mô hình viên bi tròn đều, nên nặn theo khối nào?",
+      "options": [
+        "khối cầu",
+        "khối trụ",
+        "khối hộp chữ nhật",
+        "khối lập phương"
+      ],
+      "correct_answer": "khối cầu",
+      "distractors": [
+        "khối trụ",
+        "khối hộp chữ nhật",
+        "khối lập phương"
+      ],
+      "explanation": "Viên bi tròn đều có dạng khối cầu.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q38",
+      "type": "fill",
+      "question": "Quan sát hình A trong phần hình minh họa của bài: điểm nào nằm trên cùng đường thẳng với P và R?",
+      "correct_answer": "Q",
+      "distractors": [
+        "S",
+        "T",
+        "không có điểm nào"
+      ],
+      "explanation": "Hình A đặt P, Q, R trên cùng một đường thẳng.",
+      "difficulty": "van_dung",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B07_A.svg",
+        "caption": "Hình A: Các điểm P, Q, R thẳng hàng."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q39",
+      "type": "mcq",
+      "question": "Quan sát hình B: đường gấp khúc KLMN có các đoạn 8 cm, 12 cm, 9 cm. Dài bao nhiêu xăng-ti-mét?",
+      "options": [
+        "29",
+        "20",
+        "21",
+        "28"
+      ],
+      "correct_answer": "29",
+      "distractors": [
+        "20",
+        "21",
+        "28"
+      ],
+      "explanation": "Cộng đủ ba đoạn: 8 + 12 + 9 = 29 cm.",
+      "difficulty": "van_dung",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B07_B.svg",
+        "caption": "Hình B: Đường gấp khúc KLMN; KL = 8 cm, LM = 12 cm, MN = 9 cm."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B07_Q40",
+      "type": "fill",
+      "question": "Can đang có 5 lít nước. Rót đi 2 lít rồi thêm 4 lít. Cuối cùng có mấy lít?",
+      "correct_answer": "7",
+      "distractors": [
+        "3",
+        "9",
+        "11"
+      ],
+      "explanation": "5 - 2 = 3 lít; 3 + 4 = 7 lít.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B07_GAME1",
+      "title": "Rương đo lường",
+      "mode": "treasure",
+      "objective": "Giải câu đố về hình khối, độ dài, khối lượng, dung tích và thời gian.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án, đọc lời giải rồi sang câu tiếp theo.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B07_Q01",
+        "TOAN3_T1_B07_Q02",
+        "TOAN3_T1_B07_Q03",
+        "TOAN3_T1_B07_Q04",
+        "TOAN3_T1_B07_Q05",
+        "TOAN3_T1_B07_Q06",
+        "TOAN3_T1_B07_Q07",
+        "TOAN3_T1_B07_Q08",
+        "TOAN3_T1_B07_Q09",
+        "TOAN3_T1_B07_Q10",
+        "TOAN3_T1_B07_Q11",
+        "TOAN3_T1_B07_Q12",
+        "TOAN3_T1_B07_Q13",
+        "TOAN3_T1_B07_Q14",
+        "TOAN3_T1_B07_Q15",
+        "TOAN3_T1_B07_Q16",
+        "TOAN3_T1_B07_Q17",
+        "TOAN3_T1_B07_Q18",
+        "TOAN3_T1_B07_Q19",
+        "TOAN3_T1_B07_Q20",
+        "TOAN3_T1_B07_Q21",
+        "TOAN3_T1_B07_Q22",
+        "TOAN3_T1_B07_Q23",
+        "TOAN3_T1_B07_Q24",
+        "TOAN3_T1_B07_Q25",
+        "TOAN3_T1_B07_Q26",
+        "TOAN3_T1_B07_Q27",
+        "TOAN3_T1_B07_Q28",
+        "TOAN3_T1_B07_Q29",
+        "TOAN3_T1_B07_Q30",
+        "TOAN3_T1_B07_Q31",
+        "TOAN3_T1_B07_Q32",
+        "TOAN3_T1_B07_Q33",
+        "TOAN3_T1_B07_Q34",
+        "TOAN3_T1_B07_Q35",
+        "TOAN3_T1_B07_Q36",
+        "TOAN3_T1_B07_Q37",
+        "TOAN3_T1_B07_Q38",
+        "TOAN3_T1_B07_Q39",
+        "TOAN3_T1_B07_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B07_A.svg",
+      "caption": "Hình A: Các điểm P, Q, R thẳng hàng."
+    },
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B07_B.svg",
+      "caption": "Hình B: Đường gấp khúc KLMN; KL = 8 cm, LM = 12 cm, MN = 9 cm."
+    }
+  ]
+}

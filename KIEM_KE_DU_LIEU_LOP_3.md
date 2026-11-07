@@ -50,3 +50,7 @@ Không tự bịa nội dung để lấp chỗ trống. Khi nguồn OCR chưa r�
 ## Cập nhật 07/11/2026 — Batch 1
 
 Đã bổ sung học liệu riêng cho 4 bài Toán đầu tiên: 160 câu, 4 trò chơi theo bài; AI đã rà soát, chờ giáo viên thẩm định. Chi tiết: content/system/INDEX.json, PROGRESS.md và AUDIT_REPORT.md. 164 mục còn lại tiếp tục ở trạng thái bản nháp.
+
+## Cập nhật Batch 2 — 07/11/2026
+
+8 bài Toán có học liệu riêng (320 câu): 4 bài Batch 1 được giáo viên xác nhận thẩm định; 4 bài Batch 2 được AI rà soát, chờ giáo viên. Còn 160 mục bản nháp. Xem `content/system/INDEX.json` và `PROGRESS.md` cho trạng thái mới nhất.

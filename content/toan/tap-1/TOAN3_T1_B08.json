@@ -1,0 +1,796 @@
+{
+  "id": "TOAN3_T1_B08",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 8,
+  "title": "Luyện tập chung",
+  "topic": "Ôn tập và bổ sung",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      24,
+      27
+    ],
+    "pdf_pages": [
+      25,
+      28
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Ôn cấu tạo số, so sánh số, cộng trừ và tìm thành phần chưa biết.",
+    "Vận dụng bảng nhân/chia 2, 3, 4, 5 và phép tính với 0, 1.",
+    "Kết hợp tính toán với đo lường, quy luật và tình huống thực tế."
+  ],
+  "knowledge": {
+    "introduction": "Bài ôn tập là dịp tự chọn công cụ đã học. Có câu cần cộng, có câu cần chia; hãy dựa vào ý nghĩa của câu hỏi thay vì chỉ nhìn các con số.",
+    "rules": [
+      "Phân tích số theo hàng trăm, chục, đơn vị; so sánh từ hàng cao đến hàng thấp.",
+      "Cộng trừ phải thẳng hàng; tìm thành phần chưa biết phải xác định tên thành phần trước.",
+      "Một số nhân với 1 hoặc chia cho 1 được chính số đó; 1 nhân với một số được chính số đó.",
+      "Một số nhân với 0 được 0; 0 chia cho một số khác 0 được 0. Không thực hiện phép chia cho 0.",
+      "Tháp số theo quy luật tổng: mỗi ô trên bằng tổng của hai ô ngay dưới. Không bỏ sót các số dùng chung ở giữa.",
+      "Đường gấp khúc dài bằng tổng độ dài các đoạn; đọc rõ đơn vị trước khi tính."
+    ],
+    "steps": [
+      "Đọc và phân loại câu hỏi: số học, nhóm đều, hình học hay đo lường.",
+      "Nhắc lại quy tắc cần dùng, tính từng bước.",
+      "Với bài có hai việc, ghi kết quả trung gian rồi mới tính tiếp.",
+      "Thử lại hoặc ước lượng để phát hiện kết quả bất hợp lí."
+    ],
+    "common_errors": [
+      "Nhầm 0 : 4 với 4 : 0; phép thứ hai không thực hiện được.",
+      "Cho rằng nhân với 1 luôn bằng 1.",
+      "Cộng ba số ở đáy tháp để tìm đỉnh mà không theo từng tầng.",
+      "Trả lời đơn vị cm trong bài hỏi m khi chưa đổi đơn vị."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Một số cộng 185 được 420. Tìm số đó.",
+      "steps": [
+        "Số chưa biết là số hạng.",
+        "420 - 185 = 235.",
+        "Thử lại 235 + 185 = 420."
+      ]
+    },
+    {
+      "question": "Có 6 bạn, mỗi bạn giữ 1 thẻ. Có tất cả mấy thẻ?",
+      "steps": [
+        "Mỗi nhóm 1 thẻ, có 6 nhóm.",
+        "1 × 6 = 6. Có 6 thẻ."
+      ]
+    },
+    {
+      "question": "Tháp có hàng đáy 2, 5, 4. Mỗi ô trên bằng tổng hai ô ngay dưới. Đỉnh là bao nhiêu?",
+      "steps": [
+        "Hàng giữa có 2 + 5 = 7 và 5 + 4 = 9.",
+        "Đỉnh là 7 + 9 = 16."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B08_Q01",
+      "type": "mcq",
+      "question": "Trong số 864, chữ số hàng chục có giá trị bao nhiêu?",
+      "options": [
+        "60",
+        "6",
+        "600",
+        "4"
+      ],
+      "correct_answer": "60",
+      "distractors": [
+        "6",
+        "600",
+        "4"
+      ],
+      "explanation": "Chữ số 6 ở hàng chục nên có giá trị 60.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q02",
+      "type": "fill",
+      "question": "Số gồm 9 trăm, 0 chục, 2 đơn vị là số nào?",
+      "correct_answer": "902",
+      "distractors": [
+        "920",
+        "92",
+        "209"
+      ],
+      "explanation": "900 + 0 + 2 = 902.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q03",
+      "type": "mcq",
+      "question": "Tính 4 × 1.",
+      "options": [
+        "4",
+        "1",
+        "5",
+        "0"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "1",
+        "5",
+        "0"
+      ],
+      "explanation": "Số nào nhân với 1 cũng bằng chính số đó.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q04",
+      "type": "fill",
+      "question": "Tính 1 × 7.",
+      "correct_answer": "7",
+      "distractors": [
+        "1",
+        "8",
+        "6"
+      ],
+      "explanation": "Số 1 nhân với một số cho kết quả bằng số đó.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q05",
+      "type": "mcq",
+      "question": "Tính 9 : 1.",
+      "options": [
+        "9",
+        "1",
+        "8",
+        "10"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "1",
+        "8",
+        "10"
+      ],
+      "explanation": "Chia một số cho 1 được chính số đó.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q06",
+      "type": "fill",
+      "question": "Tính 0 × 8.",
+      "correct_answer": "0",
+      "distractors": [
+        "8",
+        "1",
+        "80"
+      ],
+      "explanation": "Số 0 nhân với một số cho kết quả bằng 0.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q07",
+      "type": "mcq",
+      "question": "Tính 5 × 0.",
+      "options": [
+        "0",
+        "5",
+        "1",
+        "50"
+      ],
+      "correct_answer": "0",
+      "distractors": [
+        "5",
+        "1",
+        "50"
+      ],
+      "explanation": "Một số nhân với 0 được 0.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q08",
+      "type": "fill",
+      "question": "Tính 0 : 4.",
+      "correct_answer": "0",
+      "distractors": [
+        "4",
+        "1",
+        "không xác định"
+      ],
+      "explanation": "Không có đồ vật chia vào 4 nhóm thì mỗi nhóm có 0 đồ vật.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q09",
+      "type": "mcq",
+      "question": "Tính 18 : 3.",
+      "options": [
+        "6",
+        "3",
+        "9",
+        "15"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "9",
+        "15"
+      ],
+      "explanation": "3 × 6 = 18 nên 18 : 3 = 6.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q10",
+      "type": "fill",
+      "question": "Tính 4 × 8.",
+      "correct_answer": "32",
+      "distractors": [
+        "12",
+        "28",
+        "36"
+      ],
+      "explanation": "4 × 8 = 32 theo bảng nhân 4.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q11",
+      "type": "mcq",
+      "question": "Tính 286 + 149.",
+      "options": [
+        "435",
+        "425",
+        "335",
+        "445"
+      ],
+      "correct_answer": "435",
+      "distractors": [
+        "425",
+        "335",
+        "445"
+      ],
+      "explanation": "6 + 9 = 15 nhớ 1; 8 + 4 + 1 = 13 nhớ 1; 2 + 1 + 1 = 4.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q12",
+      "type": "fill",
+      "question": "Tính 700 - 268.",
+      "correct_answer": "432",
+      "distractors": [
+        "442",
+        "532",
+        "468"
+      ],
+      "explanation": "Mượn qua hàng chục: 10 - 8 = 2; 9 - 6 = 3; 6 - 2 = 4.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q13",
+      "type": "mcq",
+      "question": "Điền số: ... + 127 = 350.",
+      "options": [
+        "223",
+        "477",
+        "233",
+        "213"
+      ],
+      "correct_answer": "223",
+      "distractors": [
+        "477",
+        "233",
+        "213"
+      ],
+      "explanation": "Số hạng chưa biết = 350 - 127 = 223.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q14",
+      "type": "fill",
+      "question": "Điền số: ... - 46 = 78.",
+      "correct_answer": "124",
+      "distractors": [
+        "32",
+        "114",
+        "134"
+      ],
+      "explanation": "Số bị trừ = 78 + 46 = 124.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q15",
+      "type": "mcq",
+      "question": "Điền số: 230 - ... = 95.",
+      "options": [
+        "135",
+        "325",
+        "125",
+        "145"
+      ],
+      "correct_answer": "135",
+      "distractors": [
+        "325",
+        "125",
+        "145"
+      ],
+      "explanation": "Số trừ = 230 - 95 = 135.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q16",
+      "type": "fill",
+      "question": "Trong các số 609, 690, 906, số bé nhất là số nào?",
+      "correct_answer": "609",
+      "distractors": [
+        "690",
+        "906",
+        "600"
+      ],
+      "explanation": "609 và 690 có 6 trăm; 0 chục bé hơn 9 chục.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q17",
+      "type": "mcq",
+      "question": "Tính 0 : 9 rồi thêm 6. Kết quả là bao nhiêu?",
+      "options": [
+        "6",
+        "0",
+        "9",
+        "15"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "0",
+        "9",
+        "15"
+      ],
+      "explanation": "0 : 9 = 0; 0 + 6 = 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q18",
+      "type": "fill",
+      "question": "Tính 1 × 8 rồi bớt 3. Kết quả là bao nhiêu?",
+      "correct_answer": "5",
+      "distractors": [
+        "8",
+        "4",
+        "11"
+      ],
+      "explanation": "1 × 8 = 8; 8 - 3 = 5.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q19",
+      "type": "mcq",
+      "question": "Hình tứ giác có mấy đỉnh?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "5",
+        "6"
+      ],
+      "explanation": "Hình tứ giác có 4 cạnh và 4 đỉnh.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q20",
+      "type": "fill",
+      "question": "Đường gấp khúc gồm ba đoạn 4 cm, 6 cm, 5 cm. Dài mấy xăng-ti-mét?",
+      "correct_answer": "15",
+      "distractors": [
+        "10",
+        "11",
+        "14"
+      ],
+      "explanation": "4 + 6 + 5 = 15 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q21",
+      "type": "mcq",
+      "question": "Trường nhận 248 vở hôm trước và 176 vở hôm sau. Nhận tất cả bao nhiêu vở?",
+      "options": [
+        "424",
+        "414",
+        "324",
+        "434"
+      ],
+      "correct_answer": "424",
+      "distractors": [
+        "414",
+        "324",
+        "434"
+      ],
+      "explanation": "248 + 176 = 424 quyển vở.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q22",
+      "type": "fill",
+      "question": "Thư viện có 620 sách, cho mượn 285 sách. Còn bao nhiêu sách?",
+      "correct_answer": "335",
+      "distractors": [
+        "345",
+        "435",
+        "305"
+      ],
+      "explanation": "620 - 285 = 335 cuốn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q23",
+      "type": "mcq",
+      "question": "Lớp 3A có 38 em, lớp 3B ít hơn 3A 4 em. Lớp 3B có mấy em?",
+      "options": [
+        "34",
+        "42",
+        "32",
+        "35"
+      ],
+      "correct_answer": "34",
+      "distractors": [
+        "42",
+        "32",
+        "35"
+      ],
+      "explanation": "Ít hơn 4 em: 38 - 4 = 34 em.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q24",
+      "type": "fill",
+      "question": "Nam có 165 tem, nhiều hơn Hà 27 tem. Hà có bao nhiêu tem?",
+      "correct_answer": "138",
+      "distractors": [
+        "192",
+        "148",
+        "128"
+      ],
+      "explanation": "Hà ít hơn Nam 27 tem: 165 - 27 = 138 tem.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q25",
+      "type": "mcq",
+      "question": "Mỗi bộ ghép có 4 mảnh. 6 bộ cần mấy mảnh?",
+      "options": [
+        "24",
+        "10",
+        "20",
+        "28"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "10",
+        "20",
+        "28"
+      ],
+      "explanation": "4 × 6 = 24 mảnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q26",
+      "type": "fill",
+      "question": "Có 27 bạn chia đều vào 3 đội. Mỗi đội mấy bạn?",
+      "correct_answer": "9",
+      "distractors": [
+        "3",
+        "8",
+        "24"
+      ],
+      "explanation": "27 : 3 = 9 bạn mỗi đội.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q27",
+      "type": "mcq",
+      "question": "Mỗi bạn được 5 nhãn vở. 7 bạn được tất cả bao nhiêu nhãn?",
+      "options": [
+        "35",
+        "12",
+        "30",
+        "40"
+      ],
+      "correct_answer": "35",
+      "distractors": [
+        "12",
+        "30",
+        "40"
+      ],
+      "explanation": "5 × 7 = 35 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q28",
+      "type": "fill",
+      "question": "Có 32 hạt, mỗi túi đựng 4 hạt. Cần mấy túi?",
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "7",
+        "28"
+      ],
+      "explanation": "32 : 4 = 8 túi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q29",
+      "type": "mcq",
+      "question": "Một hộp trống không có bút. Chia số bút trong hộp đều cho 5 bạn. Mỗi bạn được mấy bút?",
+      "options": [
+        "0",
+        "5",
+        "1",
+        "không chia được vì có 5 bạn"
+      ],
+      "correct_answer": "0",
+      "distractors": [
+        "5",
+        "1",
+        "không chia được vì có 5 bạn"
+      ],
+      "explanation": "0 : 5 = 0 bút mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q30",
+      "type": "fill",
+      "question": "Mỗi bạn cầm 1 lá cờ. Có 9 bạn thì có tất cả mấy lá cờ?",
+      "correct_answer": "9",
+      "distractors": [
+        "1",
+        "10",
+        "0"
+      ],
+      "explanation": "1 × 9 = 9 lá cờ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q31",
+      "type": "mcq",
+      "question": "Có 8 quả cam, xếp mỗi đĩa 1 quả. Cần mấy đĩa?",
+      "options": [
+        "8",
+        "1",
+        "7",
+        "9"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "1",
+        "7",
+        "9"
+      ],
+      "explanation": "8 : 1 = 8 đĩa.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q32",
+      "type": "fill",
+      "question": "Một sợi dây 1 m cắt đi 28 cm. Còn bao nhiêu xăng-ti-mét?",
+      "correct_answer": "72",
+      "distractors": [
+        "27",
+        "82",
+        "128"
+      ],
+      "explanation": "1 m = 100 cm; 100 - 28 = 72 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q33",
+      "type": "mcq",
+      "question": "Ba giỏ có lần lượt 14 kg, 9 kg và 17 kg rau. Giỏ nặng nhất nặng mấy ki-lô-gam?",
+      "options": [
+        "17",
+        "9",
+        "14",
+        "40"
+      ],
+      "correct_answer": "17",
+      "distractors": [
+        "9",
+        "14",
+        "40"
+      ],
+      "explanation": "So sánh 9 < 14 < 17; chọn 17 kg.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q34",
+      "type": "fill",
+      "question": "Hai đoạn đường dài 245 m và 155 m nối tiếp nhau. Tổng dài mấy mét?",
+      "correct_answer": "400",
+      "distractors": [
+        "390",
+        "300",
+        "410"
+      ],
+      "explanation": "245 + 155 = 400 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q35",
+      "type": "mcq",
+      "question": "Mỗi vòng chơi được 3 điểm. Chơi 8 vòng rồi được thưởng 2 điểm. Có tất cả mấy điểm?",
+      "options": [
+        "26",
+        "24",
+        "22",
+        "13"
+      ],
+      "correct_answer": "26",
+      "distractors": [
+        "24",
+        "22",
+        "13"
+      ],
+      "explanation": "3 × 8 = 24 điểm; 24 + 2 = 26 điểm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q36",
+      "type": "fill",
+      "question": "Mua 5 túi, mỗi túi 4 quả. Ăn 3 quả. Còn mấy quả?",
+      "correct_answer": "17",
+      "distractors": [
+        "20",
+        "23",
+        "12"
+      ],
+      "explanation": "4 × 5 = 20 quả; 20 - 3 = 17 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q37",
+      "type": "mcq",
+      "question": "Hộp có 280 bút gồm bút xanh và 135 bút đỏ. Có mấy bút xanh?",
+      "options": [
+        "145",
+        "415",
+        "155",
+        "135"
+      ],
+      "correct_answer": "145",
+      "distractors": [
+        "415",
+        "155",
+        "135"
+      ],
+      "explanation": "135 + số bút xanh = 280; 280 - 135 = 145 bút.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q38",
+      "type": "fill",
+      "question": "Đã cho 48 nhãn vở, còn 76 nhãn. Ban đầu có mấy nhãn?",
+      "correct_answer": "124",
+      "distractors": [
+        "28",
+        "114",
+        "134"
+      ],
+      "explanation": "Số ban đầu = 76 + 48 = 124 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q39",
+      "type": "mcq",
+      "question": "Tháp số có hàng đáy 4, 6, 3. Mỗi ô trên bằng tổng hai ô ngay dưới. Ô đỉnh là bao nhiêu?",
+      "options": [
+        "19",
+        "13",
+        "16",
+        "18"
+      ],
+      "correct_answer": "19",
+      "distractors": [
+        "13",
+        "16",
+        "18"
+      ],
+      "explanation": "Hàng kế là 4 + 6 = 10 và 6 + 3 = 9; đỉnh 10 + 9 = 19.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B08_Q40",
+      "type": "fill",
+      "question": "Trên đường tính, bắt đầu từ 4, nhân 3, chia 2, rồi nhân 0. Kết quả cuối cùng là bao nhiêu?",
+      "correct_answer": "0",
+      "distractors": [
+        "6",
+        "12",
+        "24"
+      ],
+      "explanation": "4 × 3 = 12; 12 : 2 = 6; 6 × 0 = 0.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B08_GAME1",
+      "title": "Kiểm chứng cùng thám tử",
+      "mode": "tf",
+      "objective": "Đọc kết quả được gợi ý rồi xác định đúng hoặc sai bằng kiến thức đã ôn.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu trong bài và đưa ra một kết quả để kiểm chứng.",
+        "Chọn Đúng nếu kết quả phù hợp, chọn Sai nếu không phù hợp; đọc lời giải trước khi sang câu.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B08_Q01",
+        "TOAN3_T1_B08_Q02",
+        "TOAN3_T1_B08_Q03",
+        "TOAN3_T1_B08_Q04",
+        "TOAN3_T1_B08_Q05",
+        "TOAN3_T1_B08_Q06",
+        "TOAN3_T1_B08_Q07",
+        "TOAN3_T1_B08_Q08",
+        "TOAN3_T1_B08_Q09",
+        "TOAN3_T1_B08_Q10",
+        "TOAN3_T1_B08_Q11",
+        "TOAN3_T1_B08_Q12",
+        "TOAN3_T1_B08_Q13",
+        "TOAN3_T1_B08_Q14",
+        "TOAN3_T1_B08_Q15",
+        "TOAN3_T1_B08_Q16",
+        "TOAN3_T1_B08_Q17",
+        "TOAN3_T1_B08_Q18",
+        "TOAN3_T1_B08_Q19",
+        "TOAN3_T1_B08_Q20",
+        "TOAN3_T1_B08_Q21",
+        "TOAN3_T1_B08_Q22",
+        "TOAN3_T1_B08_Q23",
+        "TOAN3_T1_B08_Q24",
+        "TOAN3_T1_B08_Q25",
+        "TOAN3_T1_B08_Q26",
+        "TOAN3_T1_B08_Q27",
+        "TOAN3_T1_B08_Q28",
+        "TOAN3_T1_B08_Q29",
+        "TOAN3_T1_B08_Q30",
+        "TOAN3_T1_B08_Q31",
+        "TOAN3_T1_B08_Q32",
+        "TOAN3_T1_B08_Q33",
+        "TOAN3_T1_B08_Q34",
+        "TOAN3_T1_B08_Q35",
+        "TOAN3_T1_B08_Q36",
+        "TOAN3_T1_B08_Q37",
+        "TOAN3_T1_B08_Q38",
+        "TOAN3_T1_B08_Q39",
+        "TOAN3_T1_B08_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

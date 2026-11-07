@@ -18,8 +18,8 @@
       "markdown": "content/toan/tap-1/TOAN3_T1_B01.md",
       "question_count": 40,
       "game_count": 1,
-      "status": "CAN_RA_SOAT",
-      "note": "AI đã rà soát nguồn và đáp án; chờ giáo viên."
+      "status": "DA_HOAN_THIEN",
+      "note": "Giáo viên đã thẩm định."
     },
     {
       "id": "TOAN3_T1_B02",
@@ -30,8 +30,8 @@
       "markdown": "content/toan/tap-1/TOAN3_T1_B02.md",
       "question_count": 40,
       "game_count": 1,
-      "status": "CAN_RA_SOAT",
-      "note": "AI đã rà soát nguồn và đáp án; chờ giáo viên."
+      "status": "DA_HOAN_THIEN",
+      "note": "Giáo viên đã thẩm định."
     },
     {
       "id": "TOAN3_T1_B03",
@@ -42,8 +42,8 @@
       "markdown": "content/toan/tap-1/TOAN3_T1_B03.md",
       "question_count": 40,
       "game_count": 1,
-      "status": "CAN_RA_SOAT",
-      "note": "AI đã rà soát nguồn và đáp án; chờ giáo viên."
+      "status": "DA_HOAN_THIEN",
+      "note": "Giáo viên đã thẩm định."
     },
     {
       "id": "TOAN3_T1_B04",
@@ -54,56 +54,56 @@
       "markdown": "content/toan/tap-1/TOAN3_T1_B04.md",
       "question_count": 40,
       "game_count": 1,
-      "status": "CAN_RA_SOAT",
-      "note": "AI đã rà soát nguồn và đáp án; chờ giáo viên."
+      "status": "DA_HOAN_THIEN",
+      "note": "Giáo viên đã thẩm định."
     },
     {
       "id": "TOAN3_T1_B05",
       "subject": "toan",
       "volume": "Tập 1",
       "title": "Bảng nhân 3, bảng chia 3",
-      "path": null,
-      "markdown": null,
-      "question_count": null,
-      "game_count": null,
-      "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "path": "content/toan/tap-1/TOAN3_T1_B05.json",
+      "markdown": "content/toan/tap-1/TOAN3_T1_B05.md",
+      "question_count": 40,
+      "game_count": 1,
+      "status": "CAN_RA_SOAT",
+      "note": "AI đã rà soát nguồn, đáp án; chờ giáo viên thẩm định."
     },
     {
       "id": "TOAN3_T1_B06",
       "subject": "toan",
       "volume": "Tập 1",
       "title": "Bảng nhân 4, bảng chia 4",
-      "path": null,
-      "markdown": null,
-      "question_count": null,
-      "game_count": null,
-      "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "path": "content/toan/tap-1/TOAN3_T1_B06.json",
+      "markdown": "content/toan/tap-1/TOAN3_T1_B06.md",
+      "question_count": 40,
+      "game_count": 1,
+      "status": "CAN_RA_SOAT",
+      "note": "AI đã rà soát nguồn, đáp án; chờ giáo viên thẩm định."
     },
     {
       "id": "TOAN3_T1_B07",
       "subject": "toan",
       "volume": "Tập 1",
       "title": "Ôn tập hình học và đo lường",
-      "path": null,
-      "markdown": null,
-      "question_count": null,
-      "game_count": null,
-      "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "path": "content/toan/tap-1/TOAN3_T1_B07.json",
+      "markdown": "content/toan/tap-1/TOAN3_T1_B07.md",
+      "question_count": 40,
+      "game_count": 1,
+      "status": "CAN_RA_SOAT",
+      "note": "AI đã rà soát nguồn, đáp án; chờ giáo viên thẩm định."
     },
     {
       "id": "TOAN3_T1_B08",
       "subject": "toan",
       "volume": "Tập 1",
       "title": "Luyện tập chung",
-      "path": null,
-      "markdown": null,
-      "question_count": null,
-      "game_count": null,
-      "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "path": "content/toan/tap-1/TOAN3_T1_B08.json",
+      "markdown": "content/toan/tap-1/TOAN3_T1_B08.md",
+      "question_count": 40,
+      "game_count": 1,
+      "status": "CAN_RA_SOAT",
+      "note": "AI đã rà soát nguồn, đáp án; chờ giáo viên thẩm định."
     },
     {
       "id": "TOAN3_T1_B09",
@@ -115,7 +115,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B10",
@@ -127,7 +127,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B11",
@@ -139,7 +139,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B12",
@@ -151,7 +151,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B13",
@@ -163,7 +163,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B14",
@@ -175,7 +175,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B15",
@@ -187,7 +187,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B16",
@@ -199,7 +199,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B17",
@@ -211,7 +211,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B18",
@@ -223,7 +223,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B19",
@@ -235,7 +235,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B20",
@@ -247,7 +247,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B21",
@@ -259,7 +259,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B22",
@@ -271,7 +271,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B23",
@@ -283,7 +283,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B24",
@@ -295,7 +295,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B25",
@@ -307,7 +307,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B26",
@@ -319,7 +319,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B27",
@@ -331,7 +331,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B28",
@@ -343,7 +343,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B29",
@@ -355,7 +355,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B30",
@@ -367,7 +367,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B31",
@@ -379,7 +379,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B32",
@@ -391,7 +391,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B33",
@@ -403,7 +403,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B34",
@@ -415,7 +415,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B35",
@@ -427,7 +427,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B36",
@@ -439,7 +439,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B37",
@@ -451,7 +451,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B38",
@@ -463,7 +463,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B39",
@@ -475,7 +475,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B40",
@@ -487,7 +487,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B41",
@@ -499,7 +499,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B42",
@@ -511,7 +511,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B43",
@@ -523,7 +523,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T1_B44",
@@ -535,7 +535,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B45",
@@ -547,7 +547,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B46",
@@ -559,7 +559,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B47",
@@ -571,7 +571,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B48",
@@ -583,7 +583,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B49",
@@ -595,7 +595,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B50",
@@ -607,7 +607,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B51",
@@ -619,7 +619,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B52",
@@ -631,7 +631,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B53",
@@ -643,7 +643,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B54",
@@ -655,7 +655,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B55",
@@ -667,7 +667,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B56",
@@ -679,7 +679,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B57",
@@ -691,7 +691,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B58",
@@ -703,7 +703,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B59",
@@ -715,7 +715,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B60",
@@ -727,7 +727,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B61",
@@ -739,7 +739,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B62",
@@ -751,7 +751,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B63",
@@ -763,7 +763,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B64",
@@ -775,7 +775,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B65",
@@ -787,7 +787,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B66",
@@ -799,7 +799,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B67",
@@ -811,7 +811,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B68",
@@ -823,7 +823,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B69",
@@ -835,7 +835,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B70",
@@ -847,7 +847,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B71",
@@ -859,7 +859,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B72",
@@ -871,7 +871,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B73",
@@ -883,7 +883,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B74",
@@ -895,7 +895,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B75",
@@ -907,7 +907,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B76",
@@ -919,7 +919,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B77",
@@ -931,7 +931,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B78",
@@ -943,7 +943,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B79",
@@ -955,7 +955,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B80",
@@ -967,7 +967,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TOAN3_T2_B81",
@@ -979,7 +979,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B01",
@@ -991,7 +991,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B02",
@@ -1003,7 +1003,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B03",
@@ -1015,7 +1015,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B04",
@@ -1027,7 +1027,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B05",
@@ -1039,7 +1039,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B06",
@@ -1051,7 +1051,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B07",
@@ -1063,7 +1063,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B08",
@@ -1075,7 +1075,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B09",
@@ -1087,7 +1087,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B10",
@@ -1099,7 +1099,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B11",
@@ -1111,7 +1111,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B12",
@@ -1123,7 +1123,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B13",
@@ -1135,7 +1135,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B14",
@@ -1147,7 +1147,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B15",
@@ -1159,7 +1159,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B16",
@@ -1171,7 +1171,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B17",
@@ -1183,7 +1183,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B18",
@@ -1195,7 +1195,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B19",
@@ -1207,7 +1207,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B20",
@@ -1219,7 +1219,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B21",
@@ -1231,7 +1231,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B22",
@@ -1243,7 +1243,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B23",
@@ -1255,7 +1255,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B24",
@@ -1267,7 +1267,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B25",
@@ -1279,7 +1279,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B26",
@@ -1291,7 +1291,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B27",
@@ -1303,7 +1303,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B28",
@@ -1315,7 +1315,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B29",
@@ -1327,7 +1327,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B30",
@@ -1339,7 +1339,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B31",
@@ -1351,7 +1351,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T1_B32",
@@ -1363,7 +1363,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B01",
@@ -1375,7 +1375,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B02",
@@ -1387,7 +1387,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B03",
@@ -1399,7 +1399,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B04",
@@ -1411,7 +1411,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B05",
@@ -1423,7 +1423,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B06",
@@ -1435,7 +1435,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B07",
@@ -1447,7 +1447,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B08",
@@ -1459,7 +1459,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B09",
@@ -1471,7 +1471,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B10",
@@ -1483,7 +1483,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B11",
@@ -1495,7 +1495,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B12",
@@ -1507,7 +1507,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B13",
@@ -1519,7 +1519,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B14",
@@ -1531,7 +1531,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B15",
@@ -1543,7 +1543,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B16",
@@ -1555,7 +1555,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B17",
@@ -1567,7 +1567,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B18",
@@ -1579,7 +1579,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B19",
@@ -1591,7 +1591,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B20",
@@ -1603,7 +1603,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B21",
@@ -1615,7 +1615,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B22",
@@ -1627,7 +1627,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B23",
@@ -1639,7 +1639,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B24",
@@ -1651,7 +1651,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B25",
@@ -1663,7 +1663,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B26",
@@ -1675,7 +1675,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B27",
@@ -1687,7 +1687,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B28",
@@ -1699,7 +1699,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B29",
@@ -1711,7 +1711,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TV3_T2_B30",
@@ -1723,7 +1723,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_START",
@@ -1735,7 +1735,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U01",
@@ -1747,7 +1747,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U02",
@@ -1759,7 +1759,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U03",
@@ -1771,7 +1771,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U04",
@@ -1783,7 +1783,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U05",
@@ -1795,7 +1795,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_R01",
@@ -1807,7 +1807,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U06",
@@ -1819,7 +1819,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U07",
@@ -1831,7 +1831,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U08",
@@ -1843,7 +1843,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U09",
@@ -1855,7 +1855,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_U10",
@@ -1867,7 +1867,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T1_R02",
@@ -1879,7 +1879,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U11",
@@ -1891,7 +1891,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U12",
@@ -1903,7 +1903,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U13",
@@ -1915,7 +1915,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U14",
@@ -1927,7 +1927,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U15",
@@ -1939,7 +1939,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_R03",
@@ -1951,7 +1951,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U16",
@@ -1963,7 +1963,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U17",
@@ -1975,7 +1975,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U18",
@@ -1987,7 +1987,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U19",
@@ -1999,7 +1999,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_U20",
@@ -2011,7 +2011,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     },
     {
       "id": "TA3_T2_R04",
@@ -2023,7 +2023,7 @@
       "question_count": null,
       "game_count": null,
       "status": "BAN_NHAP",
-      "note": "Có bài mẫu hoặc bản nháp tự động trên website; chưa kiểm định từng bài."
+      "note": "Có bài mẫu hoặc bản nháp tự động; chưa kiểm định từng bài."
     }
   ]
 }

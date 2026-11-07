@@ -2,7 +2,7 @@
 
 Nguồn tham khảo: Toán 3 KNTT, tập 1, trang 9-10.
 
-Trạng thái: AI biên soạn và rà soát; chưa có xác nhận của giáo viên.
+Trạng thái: Giáo viên Nguyễn Thế Khanh đã xem và thẩm định Batch 1 (07/11/2026).
 
 ## Mục tiêu
 
