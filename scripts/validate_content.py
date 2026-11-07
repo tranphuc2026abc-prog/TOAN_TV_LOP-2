@@ -23,9 +23,10 @@ for entry in index['lessons']:
         assert q['question'] not in prompts;prompts.add(q['question'])
         assert q['correct_answer'] is not None and q['explanation']
         assert q['question'] in md and q['explanation'] in md
-        for match in re.finditer(r'(\d+(?:(?:\s*[+×\-]\s*| : )\d+)+)\s*=\s*(\d+)',q['explanation']):
+        for match in re.finditer(r'(\d+(?:(?:\s*[+×\-]\s*| : )\d+)+)\s*=\s*(\d+(?:(?:\s*[+×\-]\s*| : )\d+)*)',q['explanation']):
             expr=match[1].replace('×','*').replace(':','/')
-            assert calculate(ast.parse(expr,mode='eval').body)==int(match[2]), (q['question_id'],match[0])
+            rhs=match[2].replace('×','*').replace(':','/')
+            assert calculate(ast.parse(expr,mode='eval').body)==calculate(ast.parse(rhs,mode='eval').body), (q['question_id'],match[0])
             equations+=1
         counts[q['difficulty']]=counts.get(q['difficulty'],0)+1
         if q['type']=='mcq':

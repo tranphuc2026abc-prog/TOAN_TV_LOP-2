@@ -1,3 +1,20 @@
+# Trạng thái mới nhất — Batch 3, 07/11/2026
+
+- Danh mục: **168 mục**.
+- Học liệu riêng: **12 bài Toán, 480 câu, 12 trò chơi theo bài**.
+- Đã được giáo viên thẩm định: **4 bài Toán 1–4** (Batch 1).
+- Chờ giáo viên thẩm định: **8 bài Toán 5–12**, AI đã biên soạn và rà soát (Batch 2 và 3).
+- Còn **156 mục bản nháp** chưa được biên soạn và kiểm tra theo chuẩn mới.
+- Batch 3: Toán 9–12, 160 câu, 4 trò chơi; đọc trực quan trang in 28–38 (PDF 29–39).
+- Bài 12 có bảng tra nhân/chia 2–9, hiển thị cả trong phần học và câu hỏi cần tra bảng; bảng có bản Markdown tương ứng.
+- Kiểm tra 12 bài và tính lại 495 đẳng thức số trong lời giải: đạt. Cú pháp JavaScript và DOM đạt; chưa có kiểm thử bố cục bằng Chromium.
+- Workflow GitHub Pages của Batch 2 đã thành công (commit d69e28c8c4c3696f8bb49af245e14e4108545b1f). Trạng thái triển khai Batch 3 xem trong Actions theo commit mới.
+- Batch tiếp theo: Toán 13–16, trang in 39–51. Bài 16 cần hình minh họa mới cho điểm ở giữa và trung điểm; không dùng ảnh SGK chưa đính kèm vào câu hỏi.
+- Lệnh kiểm tra: `python scripts/validate_site.py`; `NODE_PATH=/tmp/class3-test/node_modules node scripts/test_content_dom.cjs` (cần cài jsdom). Lệnh cũ `test_batch1_dom.cjs` gọi lại bộ kiểm thử hiện hành.
+- Mỗi script build tự cập nhật INDEX.json và giữ xác nhận trong APPROVALS.json; không tự đánh dấu giáo viên duyệt các batch mới.
+
+## Lịch sử trước Batch 3
+
 # Trạng thái mới nhất — Batch 2, 07/11/2026
 
 - Tổng danh mục: 168 mục.

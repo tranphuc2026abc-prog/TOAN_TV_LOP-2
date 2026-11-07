@@ -1,0 +1,791 @@
+{
+  "id": "TOAN3_T1_B11",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 11,
+  "title": "Bảng nhân 8, bảng chia 8",
+  "topic": "Bảng nhân, bảng chia",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      33,
+      35
+    ],
+    "pdf_pages": [
+      34,
+      36
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Lập bảng nhân 8 từ các nhóm có 8 và suy ra bảng chia 8.",
+    "Dùng tích đã nhớ để tìm tích liền kề và giải tình huống thực tế."
+  ],
+  "knowledge": {
+    "introduction": "Mỗi vỉ màu có 8 ô. Khi có nhiều vỉ giống nhau, ta gom theo nhóm 8 để đếm nhanh. Nếu đã biết số ô, chia cho 8 giúp tìm số vỉ.",
+    "rules": [
+      "Bảng nhân 8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80 tương ứng với nhân từ 1 đến 10.",
+      "Mỗi khi thêm một nhóm 8, tích tăng thêm 8. Có thể nhớ mốc 8 × 5 = 40 để tìm các tích gần đó.",
+      "Từ 8 × 7 = 56 suy ra 56 : 8 = 7; bảng chia 8 dựa trên bảng nhân 8.",
+      "Khi đề có thêm hoặc bớt sau khi gom nhóm, phải tính tổng theo nhóm rồi thực hiện việc thêm hoặc bớt."
+    ],
+    "steps": [
+      "Xếp các nhóm 8 bằng chấm tròn và lập phép nhân.",
+      "Đọc, viết bảng, che từng kết quả để tự kiểm tra.",
+      "Khi quên một tích, tìm tích liền trước rồi cộng 8.",
+      "Đọc lại câu hỏi để xác định loại đồ vật và đơn vị cần trả lời."
+    ],
+    "common_errors": [
+      "Nhầm 8 × 6 thành 46 do đảo thứ tự chữ số trong trí nhớ.",
+      "Nhớ 8 × 9 = 64 trong khi 64 là 8 × 8.",
+      "Quên trừ cả 8 ghế khi đề bớt một hàng có 8 ghế."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Mỗi khay có 8 cốc. Có 6 khay. Hỏi tất cả có mấy cốc?",
+      "steps": [
+        "Có 6 nhóm 8 cốc.",
+        "8 × 6 = 48. Có tất cả 48 cốc."
+      ]
+    },
+    {
+      "question": "Có 40 quả, mỗi giỏ đựng 8 quả. Cần mấy giỏ?",
+      "steps": [
+        "Cần tìm số nhóm 8 trong 40.",
+        "40 : 8 = 5. Cần 5 giỏ."
+      ]
+    },
+    {
+      "question": "Bốn hộp, mỗi hộp 8 bánh, được tặng thêm 3 bánh. Có tất cả mấy bánh?",
+      "steps": [
+        "8 × 4 = 32 bánh trong bốn hộp.",
+        "32 + 3 = 35. Có tất cả 35 bánh."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B11_Q01",
+      "type": "mcq",
+      "question": "Tính 8 × 2.",
+      "options": [
+        "16",
+        "10",
+        "14",
+        "24"
+      ],
+      "correct_answer": "16",
+      "distractors": [
+        "10",
+        "14",
+        "24"
+      ],
+      "explanation": "8 + 8 = 16.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q02",
+      "type": "fill",
+      "question": "Tính 8 × 3.",
+      "correct_answer": "24",
+      "distractors": [
+        "11",
+        "16",
+        "32"
+      ],
+      "explanation": "8 + 8 + 8 = 24.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q03",
+      "type": "mcq",
+      "question": "Tính 8 × 5.",
+      "options": [
+        "40",
+        "13",
+        "32",
+        "48"
+      ],
+      "correct_answer": "40",
+      "distractors": [
+        "13",
+        "32",
+        "48"
+      ],
+      "explanation": "8 × 4 = 32; 32 + 8 = 40.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q04",
+      "type": "fill",
+      "question": "Tính 8 × 7.",
+      "correct_answer": "56",
+      "distractors": [
+        "15",
+        "48",
+        "64"
+      ],
+      "explanation": "8 × 6 = 48; 48 + 8 = 56.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q05",
+      "type": "mcq",
+      "question": "Tính 8 × 9.",
+      "options": [
+        "72",
+        "17",
+        "64",
+        "80"
+      ],
+      "correct_answer": "72",
+      "distractors": [
+        "17",
+        "64",
+        "80"
+      ],
+      "explanation": "8 × 8 = 64; 64 + 8 = 72.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q06",
+      "type": "fill",
+      "question": "Tính 24 : 8.",
+      "correct_answer": "3",
+      "distractors": [
+        "8",
+        "16",
+        "4"
+      ],
+      "explanation": "8 × 3 = 24 nên thương là 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q07",
+      "type": "mcq",
+      "question": "Tính 40 : 8.",
+      "options": [
+        "5",
+        "4",
+        "8",
+        "32"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "8",
+        "32"
+      ],
+      "explanation": "8 × 5 = 40 nên thương là 5.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q08",
+      "type": "fill",
+      "question": "Tính 56 : 8.",
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "48"
+      ],
+      "explanation": "8 × 7 = 56 nên thương là 7.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q09",
+      "type": "mcq",
+      "question": "Tính 64 : 8.",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "56"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "7",
+        "9",
+        "56"
+      ],
+      "explanation": "8 × 8 = 64 nên thương là 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q10",
+      "type": "fill",
+      "question": "Tính 80 : 8.",
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "8",
+        "72"
+      ],
+      "explanation": "8 × 10 = 80 nên thương là 10.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q11",
+      "type": "mcq",
+      "question": "8 × 4 có cùng kết quả với tổng của mấy số hạng bằng 8?",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "32"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "12",
+        "32"
+      ],
+      "explanation": "8 × 4 = 8 + 8 + 8 + 8, có 4 số hạng.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q12",
+      "type": "fill",
+      "question": "Điền số tiếp theo: 16, 24, 32, ...",
+      "correct_answer": "40",
+      "distractors": [
+        "33",
+        "36",
+        "48"
+      ],
+      "explanation": "Dãy tăng mỗi bước 8; 32 + 8 = 40.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q13",
+      "type": "mcq",
+      "question": "Điền số tiếp theo: 72, 64, 56, ...",
+      "options": [
+        "48",
+        "47",
+        "49",
+        "64"
+      ],
+      "correct_answer": "48",
+      "distractors": [
+        "47",
+        "49",
+        "64"
+      ],
+      "explanation": "Dãy giảm mỗi bước 8; 56 - 8 = 48.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q14",
+      "type": "fill",
+      "question": "Tích 8 × 6 hơn tích 8 × 5 bao nhiêu?",
+      "correct_answer": "8",
+      "distractors": [
+        "1",
+        "5",
+        "6"
+      ],
+      "explanation": "8 × 6 = 48; 8 × 5 = 40; 48 - 40 = 8.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q15",
+      "type": "mcq",
+      "question": "Trong phép tính 48 : 8 = 6, thương là số nào?",
+      "options": [
+        "6",
+        "48",
+        "8",
+        "40"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "48",
+        "8",
+        "40"
+      ],
+      "explanation": "Kết quả phép chia là thương; thương ở đây là 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q16",
+      "type": "fill",
+      "question": "Biết 8 × 9 = 72. Suy ra 72 : 8 bằng bao nhiêu?",
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "64",
+        "10"
+      ],
+      "explanation": "Phép chia ngược với phép nhân đã cho; thương là 9.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q17",
+      "type": "mcq",
+      "question": "Hai phép 8 × 1 và 64 : 8 cùng có kết quả nào?",
+      "options": [
+        "8",
+        "1",
+        "64",
+        "56"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "1",
+        "64",
+        "56"
+      ],
+      "explanation": "8 × 1 = 8; 64 : 8 = 8.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q18",
+      "type": "fill",
+      "question": "Kết quả nào lớn hơn: 32 : 8 hay 56 : 8? Nhập kết quả lớn hơn.",
+      "correct_answer": "7",
+      "distractors": [
+        "4",
+        "8",
+        "24"
+      ],
+      "explanation": "32 : 8 = 4; 56 : 8 = 7; chọn 7.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q19",
+      "type": "mcq",
+      "question": "Tính theo hai bước: 8 × 4, rồi thêm 6.",
+      "options": [
+        "38",
+        "32",
+        "14",
+        "48"
+      ],
+      "correct_answer": "38",
+      "distractors": [
+        "32",
+        "14",
+        "48"
+      ],
+      "explanation": "8 × 4 = 32; 32 + 6 = 38.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q20",
+      "type": "fill",
+      "question": "Một bạn viết 8 × 6 = 46. Kết quả đúng là bao nhiêu?",
+      "correct_answer": "48",
+      "distractors": [
+        "46",
+        "40",
+        "56"
+      ],
+      "explanation": "8 × 5 = 40; 40 + 8 = 48.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q21",
+      "type": "mcq",
+      "question": "Mỗi hộp có 8 bút chì. 7 hộp có mấy bút?",
+      "options": [
+        "56",
+        "15",
+        "48",
+        "64"
+      ],
+      "correct_answer": "56",
+      "distractors": [
+        "15",
+        "48",
+        "64"
+      ],
+      "explanation": "8 × 7 = 56 bút.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q22",
+      "type": "fill",
+      "question": "Có 48 học sinh chia đều vào 8 nhóm. Mỗi nhóm mấy bạn?",
+      "correct_answer": "6",
+      "distractors": [
+        "8",
+        "7",
+        "40"
+      ],
+      "explanation": "48 : 8 = 6 bạn mỗi nhóm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q23",
+      "type": "mcq",
+      "question": "Một bộ ghép cần 8 mảnh. Có 32 mảnh thì làm được mấy bộ?",
+      "options": [
+        "4",
+        "8",
+        "24",
+        "3"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "24",
+        "3"
+      ],
+      "explanation": "32 : 8 = 4 bộ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q24",
+      "type": "fill",
+      "question": "Mỗi luống trồng 8 cây. 5 luống trồng tất cả mấy cây?",
+      "correct_answer": "40",
+      "distractors": [
+        "13",
+        "32",
+        "48"
+      ],
+      "explanation": "8 × 5 = 40 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q25",
+      "type": "mcq",
+      "question": "Có 72 chiếc bánh, mỗi hộp đựng 8 chiếc. Cần mấy hộp?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "64"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "10",
+        "64"
+      ],
+      "explanation": "72 : 8 = 9 hộp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q26",
+      "type": "fill",
+      "question": "Mỗi dây dài 8 m. 3 dây như vậy dài tổng cộng mấy mét?",
+      "correct_answer": "24",
+      "distractors": [
+        "11",
+        "16",
+        "32"
+      ],
+      "explanation": "8 × 3 = 24 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q27",
+      "type": "mcq",
+      "question": "Có 16 nhãn vở chia đều cho 8 bạn. Mỗi bạn mấy nhãn?",
+      "options": [
+        "2",
+        "8",
+        "3",
+        "24"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "8",
+        "3",
+        "24"
+      ],
+      "explanation": "16 : 8 = 2 nhãn mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q28",
+      "type": "fill",
+      "question": "Mỗi khay có 8 cốc. 9 khay có tất cả mấy cốc?",
+      "correct_answer": "72",
+      "distractors": [
+        "17",
+        "64",
+        "80"
+      ],
+      "explanation": "8 × 9 = 72 cốc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q29",
+      "type": "mcq",
+      "question": "Có 64 ô vuông chia thành 8 hàng bằng nhau. Mỗi hàng mấy ô?",
+      "options": [
+        "8",
+        "7",
+        "9",
+        "56"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "7",
+        "9",
+        "56"
+      ],
+      "explanation": "64 : 8 = 8 ô mỗi hàng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q30",
+      "type": "fill",
+      "question": "Mỗi chặng chạy dài 8 m. Đi hết 6 chặng được mấy mét?",
+      "correct_answer": "48",
+      "distractors": [
+        "14",
+        "40",
+        "56"
+      ],
+      "explanation": "8 × 6 = 48 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q31",
+      "type": "mcq",
+      "question": "Có 80 lít nước chia đều vào 8 thùng. Mỗi thùng có mấy lít?",
+      "options": [
+        "10",
+        "8",
+        "9",
+        "72"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "8",
+        "9",
+        "72"
+      ],
+      "explanation": "80 : 8 = 10 lít mỗi thùng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q32",
+      "type": "fill",
+      "question": "Mỗi cuốn có 8 trang tranh. 4 cuốn có bao nhiêu trang tranh?",
+      "correct_answer": "32",
+      "distractors": [
+        "12",
+        "24",
+        "40"
+      ],
+      "explanation": "8 × 4 = 32 trang.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q33",
+      "type": "mcq",
+      "question": "Có 40 bông hoa, mỗi bó 8 bông. Bó được mấy bó?",
+      "options": [
+        "5",
+        "8",
+        "4",
+        "32"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "8",
+        "4",
+        "32"
+      ],
+      "explanation": "40 : 8 = 5 bó.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q34",
+      "type": "fill",
+      "question": "Sáu túi có mỗi túi 8 viên bi. Tặng đi 7 viên. Còn mấy viên?",
+      "correct_answer": "41",
+      "distractors": [
+        "48",
+        "55",
+        "7"
+      ],
+      "explanation": "8 × 6 = 48 viên; 48 - 7 = 41 viên.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q35",
+      "type": "mcq",
+      "question": "Có 8 đội, mỗi đội 3 bạn, thêm 2 trọng tài. Tất cả mấy người?",
+      "options": [
+        "26",
+        "24",
+        "22",
+        "13"
+      ],
+      "correct_answer": "26",
+      "distractors": [
+        "24",
+        "22",
+        "13"
+      ],
+      "explanation": "3 × 8 = 24 bạn; 24 + 2 = 26 người.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q36",
+      "type": "fill",
+      "question": "Mỗi hộp có 8 phấn trắng và 1 phấn màu. 4 hộp có bao nhiêu phấn trắng?",
+      "correct_answer": "32",
+      "distractors": [
+        "36",
+        "12",
+        "24"
+      ],
+      "explanation": "Chỉ tính phấn trắng: 8 × 4 = 32 viên.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q37",
+      "type": "mcq",
+      "question": "An cần 8 thẻ cho một bộ. Có 57 thẻ, dùng 56 thẻ làm trọn bộ. Làm được mấy bộ?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "49"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "49"
+      ],
+      "explanation": "56 : 8 = 7 bộ; còn 1 thẻ chưa dùng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q38",
+      "type": "fill",
+      "question": "Có 8 nhóm, mỗi nhóm dùng 5 tấm bìa. Nếu đã chuẩn bị 35 tấm thì còn thiếu mấy tấm?",
+      "correct_answer": "5",
+      "distractors": [
+        "40",
+        "3",
+        "13"
+      ],
+      "explanation": "5 × 8 = 40 tấm cần dùng; 40 - 35 = 5 tấm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q39",
+      "type": "mcq",
+      "question": "Mua 2 gói, mỗi gói 8 bánh. Chia đều toàn bộ cho 8 bạn. Mỗi bạn mấy bánh?",
+      "options": [
+        "2",
+        "8",
+        "4",
+        "16"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "8",
+        "4",
+        "16"
+      ],
+      "explanation": "8 × 2 = 16 bánh; 16 : 8 = 2 bánh mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B11_Q40",
+      "type": "fill",
+      "question": "Năm hàng có mỗi hàng 8 ghế. Bớt đi 1 hàng nguyên vẹn. Còn mấy ghế?",
+      "correct_answer": "32",
+      "distractors": [
+        "39",
+        "40",
+        "24"
+      ],
+      "explanation": "8 × 5 = 40 ghế; 40 - 8 = 32 ghế.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B11_GAME1",
+      "title": "Tăng tốc với tám",
+      "mode": "speed",
+      "objective": "Luyện phản xạ nhân/chia 8 trong 60 giây, đọc lời giải sau mỗi lựa chọn.",
+      "rules": [
+        "Trả lời các câu thuộc bài trong 60 giây.",
+        "Mỗi câu đúng được 10 điểm, sai không được điểm; chuyển ngay sang câu tiếp.",
+        "Hết giờ thì kết thúc. Điểm riêng của lượt chơi, không thay kết quả luyện tập."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B11_Q01",
+        "TOAN3_T1_B11_Q02",
+        "TOAN3_T1_B11_Q03",
+        "TOAN3_T1_B11_Q04",
+        "TOAN3_T1_B11_Q05",
+        "TOAN3_T1_B11_Q06",
+        "TOAN3_T1_B11_Q07",
+        "TOAN3_T1_B11_Q08",
+        "TOAN3_T1_B11_Q09",
+        "TOAN3_T1_B11_Q10",
+        "TOAN3_T1_B11_Q11",
+        "TOAN3_T1_B11_Q12",
+        "TOAN3_T1_B11_Q13",
+        "TOAN3_T1_B11_Q14",
+        "TOAN3_T1_B11_Q15",
+        "TOAN3_T1_B11_Q16",
+        "TOAN3_T1_B11_Q17",
+        "TOAN3_T1_B11_Q18",
+        "TOAN3_T1_B11_Q19",
+        "TOAN3_T1_B11_Q20",
+        "TOAN3_T1_B11_Q21",
+        "TOAN3_T1_B11_Q22",
+        "TOAN3_T1_B11_Q23",
+        "TOAN3_T1_B11_Q24",
+        "TOAN3_T1_B11_Q25",
+        "TOAN3_T1_B11_Q26",
+        "TOAN3_T1_B11_Q27",
+        "TOAN3_T1_B11_Q28",
+        "TOAN3_T1_B11_Q29",
+        "TOAN3_T1_B11_Q30",
+        "TOAN3_T1_B11_Q31",
+        "TOAN3_T1_B11_Q32",
+        "TOAN3_T1_B11_Q33",
+        "TOAN3_T1_B11_Q34",
+        "TOAN3_T1_B11_Q35",
+        "TOAN3_T1_B11_Q36",
+        "TOAN3_T1_B11_Q37",
+        "TOAN3_T1_B11_Q38",
+        "TOAN3_T1_B11_Q39",
+        "TOAN3_T1_B11_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": null
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

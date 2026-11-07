@@ -1,0 +1,56 @@
+[
+  {
+    "objectives": ["Lập và nhớ bảng nhân 6, bảng chia 6.", "Vận dụng các nhóm 6, chia thành 6 phần và chia mỗi nhóm 6 trong bài toán thực tế."],
+    "intro": "Hãy xếp những hộp trứng, mỗi hộp 6 quả. Thay vì đếm từng quả, ta đếm theo các nhóm 6. Khi biết tổng số quả, phép chia giúp tìm số hộp hoặc số quả mỗi phần.",
+    "rules": ["Bảng nhân 6: 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 tương ứng với nhân từ 1 đến 10.", "Thêm một nhóm 6 thì tích tăng 6; bớt một nhóm 6 thì tích giảm 6.", "Từ 6 × 8 = 48 suy ra 48 : 6 = 8. Dùng bảng nhân để nhớ bảng chia.", "Nhận rõ đề hỏi tất cả, số nhóm hay số đồ vật mỗi nhóm. Không lấy tổng trừ 6 một lần thay cho phép chia."],
+    "steps": ["Xếp các nhóm 6 bằng que tính hoặc chấm tròn.", "Tự lập các tích, đọc bảng xuôi rồi đọc ngược.", "Che một tích và dùng tích liền trước để suy ra.", "Giải bài toán bằng cách nêu số nhóm, số đồ vật mỗi nhóm và điều cần tìm."],
+    "errors": ["Nhầm 6 × 7 với 6 + 7.", "Nhớ nhầm 6 × 9 thành 48, là kết quả của 6 × 8.", "Cộng cả đồ vật có màu khác khi đề chỉ hỏi một màu."],
+    "examples": [
+      ["Có 7 khay, mỗi khay 6 bánh. Hỏi có tất cả bao nhiêu bánh?", ["Có 7 nhóm 6 bánh.", "6 × 7 = 42. Có 42 chiếc bánh."]],
+      ["Có 30 bút, mỗi hộp 6 bút. Xếp được mấy hộp?", ["Cần tìm số nhóm 6 trong 30.", "30 : 6 = 5 vì 6 × 5 = 30. Xếp được 5 hộp."]],
+      ["Có 42 nhãn chia đều cho 6 bạn. Mỗi bạn nhận mấy nhãn?", ["Chia 42 thành 6 phần bằng nhau.", "42 : 6 = 7. Mỗi bạn nhận 7 nhãn."]]
+    ],
+    "game": ["Kiểm chứng nhóm sáu", "Đọc câu hỏi và kiểm chứng một kết quả bằng bảng nhân/chia 6."],
+    "mode": "tf"
+  },
+  {
+    "objectives": ["Lập, đọc và ghi nhớ bảng nhân 7, bảng chia 7.", "Vận dụng nhóm 7, số ngày trong các tuần trọn vẹn và các tình huống chia đều."],
+    "intro": "Một tuần luôn có 7 ngày. Các tuần trọn vẹn tạo thành những nhóm 7 ngày, là một tình huống dễ nhớ để luyện bảng nhân 7. Ta còn gặp nhóm 7 trong các bộ thẻ, hàng cây và đội chơi.",
+    "rules": ["Bảng nhân 7: 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ứng với nhân từ 1 đến 10.", "Các tích liên tiếp của bảng nhân 7 hơn kém nhau 7.", "Biết 7 × 6 = 42 thì biết 42 : 7 = 6; tương tự với các phép tính còn lại.", "Một tuần có 7 ngày; chỉ dùng số tuần nhân 7 khi tính số ngày của các tuần trọn vẹn."],
+    "steps": ["Gắn mỗi nhóm 7 với một thẻ tuần hoặc một nhóm đồ vật.", "Nhớ mốc 7 × 5 = 35, từ đó thêm hoặc bớt 7 để tìm tích gần đó.", "Đọc câu hỏi trước khi chọn nhân hay chia.", "Kiểm tra thương bằng phép nhân với 7; ghi đúng đơn vị."],
+    "errors": ["Lẫn 7 × 8 = 56 với 7 × 9 = 63.", "Dùng phép cộng 7 + số tuần thay cho nhân 7.", "Đếm nhầm một tuần là 5 ngày do chỉ tính ngày đi học."],
+    "examples": [
+      ["Một hoạt động kéo dài 5 tuần trọn vẹn. Hỏi có bao nhiêu ngày?", ["Mỗi tuần có 7 ngày, có 5 nhóm như vậy.", "7 × 5 = 35. Hoạt động kéo dài 35 ngày."]],
+      ["Có 56 thẻ chia đều cho 7 đội. Mỗi đội mấy thẻ?", ["Tổng 56 thẻ, chia thành 7 phần bằng nhau.", "56 : 7 = 8 vì 7 × 8 = 56. Mỗi đội được 8 thẻ."]]
+    ],
+    "game": ["Kho báu bảy ngày", "Vận dụng bảng nhân/chia 7 để mở 10 rương câu hỏi."],
+    "mode": "treasure"
+  },
+  {
+    "objectives": ["Lập bảng nhân 8 từ các nhóm có 8 và suy ra bảng chia 8.", "Dùng tích đã nhớ để tìm tích liền kề và giải tình huống thực tế."],
+    "intro": "Mỗi vỉ màu có 8 ô. Khi có nhiều vỉ giống nhau, ta gom theo nhóm 8 để đếm nhanh. Nếu đã biết số ô, chia cho 8 giúp tìm số vỉ.",
+    "rules": ["Bảng nhân 8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80 tương ứng với nhân từ 1 đến 10.", "Mỗi khi thêm một nhóm 8, tích tăng thêm 8. Có thể nhớ mốc 8 × 5 = 40 để tìm các tích gần đó.", "Từ 8 × 7 = 56 suy ra 56 : 8 = 7; bảng chia 8 dựa trên bảng nhân 8.", "Khi đề có thêm hoặc bớt sau khi gom nhóm, phải tính tổng theo nhóm rồi thực hiện việc thêm hoặc bớt."],
+    "steps": ["Xếp các nhóm 8 bằng chấm tròn và lập phép nhân.", "Đọc, viết bảng, che từng kết quả để tự kiểm tra.", "Khi quên một tích, tìm tích liền trước rồi cộng 8.", "Đọc lại câu hỏi để xác định loại đồ vật và đơn vị cần trả lời."],
+    "errors": ["Nhầm 8 × 6 thành 46 do đảo thứ tự chữ số trong trí nhớ.", "Nhớ 8 × 9 = 64 trong khi 64 là 8 × 8.", "Quên trừ cả 8 ghế khi đề bớt một hàng có 8 ghế."],
+    "examples": [
+      ["Mỗi khay có 8 cốc. Có 6 khay. Hỏi tất cả có mấy cốc?", ["Có 6 nhóm 8 cốc.", "8 × 6 = 48. Có tất cả 48 cốc."]],
+      ["Có 40 quả, mỗi giỏ đựng 8 quả. Cần mấy giỏ?", ["Cần tìm số nhóm 8 trong 40.", "40 : 8 = 5. Cần 5 giỏ."]],
+      ["Bốn hộp, mỗi hộp 8 bánh, được tặng thêm 3 bánh. Có tất cả mấy bánh?", ["8 × 4 = 32 bánh trong bốn hộp.", "32 + 3 = 35. Có tất cả 35 bánh."]]
+    ],
+    "game": ["Tăng tốc với tám", "Luyện phản xạ nhân/chia 8 trong 60 giây, đọc lời giải sau mỗi lựa chọn."],
+    "mode": "speed"
+  },
+  {
+    "objectives": ["Lập và nhớ bảng nhân 9, bảng chia 9.", "Tra bảng nhân/chia để kiểm tra kết quả và giải bài toán thực tế."],
+    "intro": "Một bộ thẻ có 9 chiếc. Các bộ như vậy giúp lập bảng nhân 9. Sau khi đã học các bảng, em có thể tra bảng chung: hàng và cột giao nhau tại tích cần tìm.",
+    "rules": ["Bảng nhân 9: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90 ứng với nhân từ 1 đến 10.", "Hai tích liên tiếp hơn kém nhau 9. Nhớ 9 × 5 = 45 để tìm các tích gần đó.", "Từ 9 × 8 = 72 suy ra 72 : 9 = 8; bảng chia dựa trên bảng nhân.", "Tra tích: tìm hàng theo thừa số thứ nhất, cột theo thừa số thứ hai, đọc ô giao.", "Tra thương: tìm hàng của số chia, tìm số bị chia trên hàng ấy, đọc số ở đầu cột tương ứng."],
+    "steps": ["Lập các nhóm 9 rồi đếm thêm 9.", "Đọc bảng xuôi và ngược, tự kiểm tra bằng cách che kết quả.", "Tra vài phép nhân/chia trên bảng chung để kiểm tra trí nhớ.", "Với bài toán, chỉ ra số nhóm và số đồ vật trong một nhóm rồi chọn phép tính."],
+    "errors": ["Lẫn 9 × 6 = 54 với 9 × 5 = 45.", "Tra bảng theo sai hàng hoặc sai cột.", "Đọc tích trong ô thành thương thay vì nhìn số ở đầu cột khi tra phép chia."],
+    "examples": [
+      ["Có 8 hộp, mỗi hộp 9 thẻ. Có tất cả mấy thẻ?", ["Có 8 nhóm 9 thẻ.", "9 × 8 = 72. Có 72 thẻ."]],
+      ["Tra bảng để tính 9 × 4 và 36 : 9.", ["Tìm hàng 9 và cột 4; ô giao có 36, nên 9 × 4 = 36.", "Trên hàng 9, tìm 36; đầu cột là 4, nên 36 : 9 = 4."]]
+    ],
+    "game": ["Ghép thẻ bảng chín", "Ghép phép tính hoặc bài toán với đáp án, tự kiểm tra bằng bảng nhân/chia."],
+    "mode": "match"
+  }
+]

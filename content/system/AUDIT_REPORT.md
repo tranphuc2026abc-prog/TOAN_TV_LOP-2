@@ -51,3 +51,14 @@
 - Tính lại độc lập 291 đẳng thức số trong lời giải của 8 bài: đạt. Các khẳng định bằng chữ và độ phù hợp sư phạm vẫn cần giáo viên kiểm tra.
 - Tích hợp kiểm tra JSON, chỉ mục, hình, cú pháp JavaScript ngoài HTML và đẳng thức vào validate_site.py, là bước kiểm tra của workflow Pages hiện có.
 - Hạn chế còn giữ: chưa kiểm thử bố cục/âm thanh/tải sao lưu/khôi phục trên trình duyệt thật; không tự tuyên bố đã hoàn thành toàn bộ 168 mục.
+
+## Cập nhật Batch 3 — 07/11/2026
+
+- Đọc trực quan trang in 28–38 (PDF 29–39), đối chiếu nội dung bảng nhân/chia 6, 7, 8, 9 và bảng tra chung.
+- Thêm 160 câu mới, mỗi bài phân mức 10/10/20, có lời giải và phương án nhiễu riêng; đã rà soát phép tính và ngữ nghĩa của đề. Không sao chép hệ thống bài tập SGK.
+- Bài 12 có bảng nhân/chia HTML chính xác; các câu hỏi tham chiếu bảng tự hiển thị bảng trong bài kiểm tra và trò chơi. Bảng được lưu cùng JSON và Markdown.
+- Chỉ mục hiện có 12 bài riêng: 4 bài đã thẩm định, 8 bài chờ thẩm định, 156 bản nháp.
+- Toàn bộ 480 câu qua kiểm tra JSON, ID, phân mức, đáp án, lựa chọn, lời giải, tài liệu Markdown và trạng thái duyệt. Tính lại 495 đẳng thức số trong lời giải: đạt.
+- Bộ kiểm thử DOM mở rộng theo chỉ mục thay vì số bài cố định: 12 bài, 8 lượt xáo trộn/bài, phân mức 3/3/4, làm lại giữ 10 câu, bốn kiểu trò chơi và phạm vi bài, hình và bảng tham chiếu, lưu/nạp hồ sơ, một file 404: đạt. Đã kiểm tra đúng sau một lần sai được nửa điểm và hiện lời giải sau hai lần sai.
+- Tên bộ kiểm thử hiện hành: scripts/test_content_dom.cjs; tên cũ gọi lại bộ hiện hành. Không tuyên bố đã kiểm thử trình duyệt thật.
+- Workflow Publish class 3 website to GitHub Pages của Batch 2 đã hoàn tất thành công (run 42376240072). Kiểm tra triển khai Batch 3 sau khi commit.

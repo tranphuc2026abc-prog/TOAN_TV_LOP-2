@@ -1,0 +1,784 @@
+{
+  "id": "TOAN3_T1_B10",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 10,
+  "title": "Bảng nhân 7, bảng chia 7",
+  "topic": "Bảng nhân, bảng chia",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      31,
+      32
+    ],
+    "pdf_pages": [
+      32,
+      33
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Lập, đọc và ghi nhớ bảng nhân 7, bảng chia 7.",
+    "Vận dụng nhóm 7, số ngày trong các tuần trọn vẹn và các tình huống chia đều."
+  ],
+  "knowledge": {
+    "introduction": "Một tuần luôn có 7 ngày. Các tuần trọn vẹn tạo thành những nhóm 7 ngày, là một tình huống dễ nhớ để luyện bảng nhân 7. Ta còn gặp nhóm 7 trong các bộ thẻ, hàng cây và đội chơi.",
+    "rules": [
+      "Bảng nhân 7: 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ứng với nhân từ 1 đến 10.",
+      "Các tích liên tiếp của bảng nhân 7 hơn kém nhau 7.",
+      "Biết 7 × 6 = 42 thì biết 42 : 7 = 6; tương tự với các phép tính còn lại.",
+      "Một tuần có 7 ngày; chỉ dùng số tuần nhân 7 khi tính số ngày của các tuần trọn vẹn."
+    ],
+    "steps": [
+      "Gắn mỗi nhóm 7 với một thẻ tuần hoặc một nhóm đồ vật.",
+      "Nhớ mốc 7 × 5 = 35, từ đó thêm hoặc bớt 7 để tìm tích gần đó.",
+      "Đọc câu hỏi trước khi chọn nhân hay chia.",
+      "Kiểm tra thương bằng phép nhân với 7; ghi đúng đơn vị."
+    ],
+    "common_errors": [
+      "Lẫn 7 × 8 = 56 với 7 × 9 = 63.",
+      "Dùng phép cộng 7 + số tuần thay cho nhân 7.",
+      "Đếm nhầm một tuần là 5 ngày do chỉ tính ngày đi học."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Một hoạt động kéo dài 5 tuần trọn vẹn. Hỏi có bao nhiêu ngày?",
+      "steps": [
+        "Mỗi tuần có 7 ngày, có 5 nhóm như vậy.",
+        "7 × 5 = 35. Hoạt động kéo dài 35 ngày."
+      ]
+    },
+    {
+      "question": "Có 56 thẻ chia đều cho 7 đội. Mỗi đội mấy thẻ?",
+      "steps": [
+        "Tổng 56 thẻ, chia thành 7 phần bằng nhau.",
+        "56 : 7 = 8 vì 7 × 8 = 56. Mỗi đội được 8 thẻ."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B10_Q01",
+      "type": "mcq",
+      "question": "Tính 7 × 2.",
+      "options": [
+        "14",
+        "9",
+        "12",
+        "21"
+      ],
+      "correct_answer": "14",
+      "distractors": [
+        "9",
+        "12",
+        "21"
+      ],
+      "explanation": "7 + 7 = 14.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q02",
+      "type": "fill",
+      "question": "Tính 7 × 3.",
+      "correct_answer": "21",
+      "distractors": [
+        "10",
+        "14",
+        "28"
+      ],
+      "explanation": "7 + 7 + 7 = 21.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q03",
+      "type": "mcq",
+      "question": "Tính 7 × 5.",
+      "options": [
+        "35",
+        "12",
+        "28",
+        "42"
+      ],
+      "correct_answer": "35",
+      "distractors": [
+        "12",
+        "28",
+        "42"
+      ],
+      "explanation": "7 × 4 = 28; 28 + 7 = 35.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q04",
+      "type": "fill",
+      "question": "Tính 7 × 6.",
+      "correct_answer": "42",
+      "distractors": [
+        "13",
+        "35",
+        "49"
+      ],
+      "explanation": "7 × 5 = 35; 35 + 7 = 42.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q05",
+      "type": "mcq",
+      "question": "Tính 7 × 8.",
+      "options": [
+        "56",
+        "15",
+        "49",
+        "63"
+      ],
+      "correct_answer": "56",
+      "distractors": [
+        "15",
+        "49",
+        "63"
+      ],
+      "explanation": "7 × 7 = 49; 49 + 7 = 56.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q06",
+      "type": "fill",
+      "question": "Tính 21 : 7.",
+      "correct_answer": "3",
+      "distractors": [
+        "7",
+        "14",
+        "4"
+      ],
+      "explanation": "7 × 3 = 21 nên thương là 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q07",
+      "type": "mcq",
+      "question": "Tính 35 : 7.",
+      "options": [
+        "5",
+        "4",
+        "7",
+        "28"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "7",
+        "28"
+      ],
+      "explanation": "7 × 5 = 35 nên thương là 5.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q08",
+      "type": "fill",
+      "question": "Tính 49 : 7.",
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "42"
+      ],
+      "explanation": "7 × 7 = 49 nên thương là 7.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q09",
+      "type": "mcq",
+      "question": "Tính 63 : 7.",
+      "options": [
+        "9",
+        "8",
+        "7",
+        "56"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "7",
+        "56"
+      ],
+      "explanation": "7 × 9 = 63 nên thương là 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q10",
+      "type": "fill",
+      "question": "Tính 70 : 7.",
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "7",
+        "63"
+      ],
+      "explanation": "7 × 10 = 70 nên thương là 10.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q11",
+      "type": "mcq",
+      "question": "7 × 4 biểu thị bốn nhóm, mỗi nhóm 7. Tổng số là bao nhiêu?",
+      "options": [
+        "28",
+        "11",
+        "21",
+        "35"
+      ],
+      "correct_answer": "28",
+      "distractors": [
+        "11",
+        "21",
+        "35"
+      ],
+      "explanation": "7 + 7 + 7 + 7 = 28.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q12",
+      "type": "fill",
+      "question": "Điền số tiếp theo: 14, 21, 28, ...",
+      "correct_answer": "35",
+      "distractors": [
+        "29",
+        "34",
+        "42"
+      ],
+      "explanation": "Dãy tăng mỗi bước 7; 28 + 7 = 35.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q13",
+      "type": "mcq",
+      "question": "Điền số tiếp theo: 63, 56, 49, ...",
+      "options": [
+        "42",
+        "41",
+        "43",
+        "56"
+      ],
+      "correct_answer": "42",
+      "distractors": [
+        "41",
+        "43",
+        "56"
+      ],
+      "explanation": "Dãy giảm mỗi bước 7; 49 - 7 = 42.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q14",
+      "type": "fill",
+      "question": "Muốn từ 7 × 5 tìm 7 × 6 thì thêm bao nhiêu?",
+      "correct_answer": "7",
+      "distractors": [
+        "1",
+        "5",
+        "6"
+      ],
+      "explanation": "Thêm một nhóm 7; 35 + 7 = 42.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q15",
+      "type": "mcq",
+      "question": "Kết quả nào bé hơn: 42 : 7 hay 56 : 7? Nhập kết quả bé hơn.",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "14"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "8",
+        "7",
+        "14"
+      ],
+      "explanation": "42 : 7 = 6; 56 : 7 = 8; chọn 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q16",
+      "type": "fill",
+      "question": "7 × 7 hơn 7 × 6 bao nhiêu?",
+      "correct_answer": "7",
+      "distractors": [
+        "1",
+        "6",
+        "13"
+      ],
+      "explanation": "7 × 7 = 49; 7 × 6 = 42; 49 - 42 = 7.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q17",
+      "type": "mcq",
+      "question": "Trong phép chia 28 : 7 = 4, số chia là số nào?",
+      "options": [
+        "7",
+        "28",
+        "4",
+        "21"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "28",
+        "4",
+        "21"
+      ],
+      "explanation": "28 là số bị chia, 7 là số chia, 4 là thương.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q18",
+      "type": "fill",
+      "question": "Hai phép 7 × 1 và 49 : 7 cùng cho kết quả nào?",
+      "correct_answer": "7",
+      "distractors": [
+        "1",
+        "49",
+        "42"
+      ],
+      "explanation": "7 × 1 = 7; 49 : 7 = 7.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q19",
+      "type": "mcq",
+      "question": "Bạn An nói 7 × 9 = 56. Kết quả đúng là bao nhiêu?",
+      "options": [
+        "63",
+        "56",
+        "16",
+        "70"
+      ],
+      "correct_answer": "63",
+      "distractors": [
+        "56",
+        "16",
+        "70"
+      ],
+      "explanation": "7 × 8 = 56; thêm 7 mới được 7 × 9 = 63.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q20",
+      "type": "fill",
+      "question": "Tính theo hai bước: 7 × 3, rồi cộng 8.",
+      "correct_answer": "29",
+      "distractors": [
+        "21",
+        "15",
+        "35"
+      ],
+      "explanation": "7 × 3 = 21; 21 + 8 = 29.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q21",
+      "type": "mcq",
+      "question": "Một đợt đọc sách kéo dài 3 tuần trọn vẹn. Có bao nhiêu ngày?",
+      "options": [
+        "21",
+        "10",
+        "14",
+        "28"
+      ],
+      "correct_answer": "21",
+      "distractors": [
+        "10",
+        "14",
+        "28"
+      ],
+      "explanation": "Mỗi tuần 7 ngày; 7 × 3 = 21 ngày.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q22",
+      "type": "fill",
+      "question": "Có 28 ảnh chia đều vào 7 trang. Mỗi trang mấy ảnh?",
+      "correct_answer": "4",
+      "distractors": [
+        "7",
+        "21",
+        "3"
+      ],
+      "explanation": "28 : 7 = 4 ảnh mỗi trang.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q23",
+      "type": "mcq",
+      "question": "Mỗi dây trang trí gắn 7 lá cờ. 6 dây cần mấy lá cờ?",
+      "options": [
+        "42",
+        "13",
+        "35",
+        "49"
+      ],
+      "correct_answer": "42",
+      "distractors": [
+        "13",
+        "35",
+        "49"
+      ],
+      "explanation": "7 × 6 = 42 lá cờ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q24",
+      "type": "fill",
+      "question": "Có 56 hạt giống, mỗi túi 7 hạt. Cần mấy túi?",
+      "correct_answer": "8",
+      "distractors": [
+        "7",
+        "9",
+        "49"
+      ],
+      "explanation": "56 : 7 = 8 túi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q25",
+      "type": "mcq",
+      "question": "Một lớp trồng 7 cây mỗi ngày. Trong 5 ngày trồng mấy cây?",
+      "options": [
+        "35",
+        "12",
+        "28",
+        "42"
+      ],
+      "correct_answer": "35",
+      "distractors": [
+        "12",
+        "28",
+        "42"
+      ],
+      "explanation": "7 × 5 = 35 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q26",
+      "type": "fill",
+      "question": "Có 63 thẻ chia đều cho 7 đội. Mỗi đội nhận mấy thẻ?",
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "7",
+        "56"
+      ],
+      "explanation": "63 : 7 = 9 thẻ mỗi đội.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q27",
+      "type": "mcq",
+      "question": "Mỗi ngăn có 7 truyện. 4 ngăn có bao nhiêu truyện?",
+      "options": [
+        "28",
+        "11",
+        "21",
+        "35"
+      ],
+      "correct_answer": "28",
+      "distractors": [
+        "11",
+        "21",
+        "35"
+      ],
+      "explanation": "7 × 4 = 28 truyện.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q28",
+      "type": "fill",
+      "question": "Có 42 viên bi chia mỗi hộp 7 viên. Cần mấy hộp?",
+      "correct_answer": "6",
+      "distractors": [
+        "7",
+        "5",
+        "35"
+      ],
+      "explanation": "42 : 7 = 6 hộp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q29",
+      "type": "mcq",
+      "question": "Trong 2 tuần trọn vẹn, Lan uống sữa mỗi ngày một hộp. Lan uống mấy hộp?",
+      "options": [
+        "14",
+        "7",
+        "9",
+        "21"
+      ],
+      "correct_answer": "14",
+      "distractors": [
+        "7",
+        "9",
+        "21"
+      ],
+      "explanation": "Hai tuần có 7 × 2 = 14 ngày; mỗi ngày một hộp nên uống 14 hộp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q30",
+      "type": "fill",
+      "question": "Có 70 nhãn vở chia đều cho 7 bạn. Mỗi bạn mấy nhãn?",
+      "correct_answer": "10",
+      "distractors": [
+        "7",
+        "9",
+        "63"
+      ],
+      "explanation": "70 : 7 = 10 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q31",
+      "type": "mcq",
+      "question": "Mỗi lượt đạt 7 điểm. Qua 9 lượt được mấy điểm?",
+      "options": [
+        "63",
+        "16",
+        "56",
+        "70"
+      ],
+      "correct_answer": "63",
+      "distractors": [
+        "16",
+        "56",
+        "70"
+      ],
+      "explanation": "7 × 9 = 63 điểm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q32",
+      "type": "fill",
+      "question": "Có 21 lít nước, đựng mỗi can 7 lít. Cần mấy can?",
+      "correct_answer": "3",
+      "distractors": [
+        "7",
+        "14",
+        "4"
+      ],
+      "explanation": "21 : 7 = 3 can.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q33",
+      "type": "mcq",
+      "question": "Một nhóm có 7 bạn. 8 nhóm cùng sinh hoạt có mấy bạn?",
+      "options": [
+        "56",
+        "15",
+        "49",
+        "63"
+      ],
+      "correct_answer": "56",
+      "distractors": [
+        "15",
+        "49",
+        "63"
+      ],
+      "explanation": "7 × 8 = 56 bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q34",
+      "type": "fill",
+      "question": "Năm gói, mỗi gói 7 bánh, được tặng thêm 2 bánh. Có tất cả mấy bánh?",
+      "correct_answer": "37",
+      "distractors": [
+        "35",
+        "33",
+        "14"
+      ],
+      "explanation": "7 × 5 = 35 bánh; 35 + 2 = 37 bánh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q35",
+      "type": "mcq",
+      "question": "Hộp có 7 hàng, mỗi hàng 4 ô. Đã dùng 6 ô. Còn mấy ô trống?",
+      "options": [
+        "22",
+        "28",
+        "34",
+        "17"
+      ],
+      "correct_answer": "22",
+      "distractors": [
+        "28",
+        "34",
+        "17"
+      ],
+      "explanation": "4 × 7 = 28 ô; 28 - 6 = 22 ô.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q36",
+      "type": "fill",
+      "question": "Một tuần Mai đọc 7 trang. Bốn tuần đọc được bao nhiêu trang nếu mỗi tuần như nhau?",
+      "correct_answer": "28",
+      "distractors": [
+        "11",
+        "21",
+        "35"
+      ],
+      "explanation": "Mỗi tuần 7 trang; 7 × 4 = 28 trang.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q37",
+      "type": "mcq",
+      "question": "Có 50 ảnh, lấy 49 ảnh chia đều cho 7 trang. Mỗi trang mấy ảnh?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "43"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "43"
+      ],
+      "explanation": "49 : 7 = 7 ảnh mỗi trang; còn 1 ảnh chưa xếp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q38",
+      "type": "fill",
+      "question": "Mỗi đội cần 7 khăn. Có 20 khăn, nhận thêm 1 khăn. Đủ cho mấy đội?",
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "7",
+        "14"
+      ],
+      "explanation": "20 + 1 = 21 khăn; 21 : 7 = 3 đội.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q39",
+      "type": "mcq",
+      "question": "Sau 6 tuần trọn vẹn, cây cao thêm tổng cộng bao nhiêu xăng-ti-mét nếu mỗi tuần cao thêm 7 cm?",
+      "options": [
+        "42",
+        "13",
+        "35",
+        "49"
+      ],
+      "correct_answer": "42",
+      "distractors": [
+        "13",
+        "35",
+        "49"
+      ],
+      "explanation": "Có 6 lần tăng 7 cm: 7 × 6 = 42 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B10_Q40",
+      "type": "fill",
+      "question": "Mua 7 bộ, mỗi bộ 3 tấm bìa. Dùng 9 tấm. Còn bao nhiêu tấm?",
+      "correct_answer": "12",
+      "distractors": [
+        "21",
+        "30",
+        "1"
+      ],
+      "explanation": "3 × 7 = 21 tấm; 21 - 9 = 12 tấm.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B10_GAME1",
+      "title": "Kho báu bảy ngày",
+      "mode": "treasure",
+      "objective": "Vận dụng bảng nhân/chia 7 để mở 10 rương câu hỏi.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án, đọc lời giải rồi sang câu tiếp theo.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B10_Q01",
+        "TOAN3_T1_B10_Q02",
+        "TOAN3_T1_B10_Q03",
+        "TOAN3_T1_B10_Q04",
+        "TOAN3_T1_B10_Q05",
+        "TOAN3_T1_B10_Q06",
+        "TOAN3_T1_B10_Q07",
+        "TOAN3_T1_B10_Q08",
+        "TOAN3_T1_B10_Q09",
+        "TOAN3_T1_B10_Q10",
+        "TOAN3_T1_B10_Q11",
+        "TOAN3_T1_B10_Q12",
+        "TOAN3_T1_B10_Q13",
+        "TOAN3_T1_B10_Q14",
+        "TOAN3_T1_B10_Q15",
+        "TOAN3_T1_B10_Q16",
+        "TOAN3_T1_B10_Q17",
+        "TOAN3_T1_B10_Q18",
+        "TOAN3_T1_B10_Q19",
+        "TOAN3_T1_B10_Q20",
+        "TOAN3_T1_B10_Q21",
+        "TOAN3_T1_B10_Q22",
+        "TOAN3_T1_B10_Q23",
+        "TOAN3_T1_B10_Q24",
+        "TOAN3_T1_B10_Q25",
+        "TOAN3_T1_B10_Q26",
+        "TOAN3_T1_B10_Q27",
+        "TOAN3_T1_B10_Q28",
+        "TOAN3_T1_B10_Q29",
+        "TOAN3_T1_B10_Q30",
+        "TOAN3_T1_B10_Q31",
+        "TOAN3_T1_B10_Q32",
+        "TOAN3_T1_B10_Q33",
+        "TOAN3_T1_B10_Q34",
+        "TOAN3_T1_B10_Q35",
+        "TOAN3_T1_B10_Q36",
+        "TOAN3_T1_B10_Q37",
+        "TOAN3_T1_B10_Q38",
+        "TOAN3_T1_B10_Q39",
+        "TOAN3_T1_B10_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

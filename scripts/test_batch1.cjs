@@ -40,7 +40,7 @@ const assert=require('node:assert/strict');
  // Một file học liệu lỗi: giữ bài cũ, các bài khác vẫn tải được.
  await page.route('**/TOAN3_T1_B02.json',r=>r.fulfill({status:404,body:'missing'}));
  await page.reload();const loaded=await page.evaluate(()=>lessonContentReady);
- assert.equal(loaded.length,7);
+ assert.equal(loaded.length,11);
  await page.evaluate(()=>{go({p:'lesson',id:'TOAN3_T1_B02'});startQ('TOAN3_T1_B02','all');});
  assert(await page.evaluate(()=>v.qs.length>0));
  assert.deepEqual(errors,[]);

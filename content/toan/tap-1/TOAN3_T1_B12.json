@@ -1,0 +1,924 @@
+{
+  "id": "TOAN3_T1_B12",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 12,
+  "title": "Bảng nhân 9, bảng chia 9",
+  "topic": "Bảng nhân, bảng chia",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      36,
+      38
+    ],
+    "pdf_pages": [
+      37,
+      39
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Lập và nhớ bảng nhân 9, bảng chia 9.",
+    "Tra bảng nhân/chia để kiểm tra kết quả và giải bài toán thực tế."
+  ],
+  "knowledge": {
+    "introduction": "Một bộ thẻ có 9 chiếc. Các bộ như vậy giúp lập bảng nhân 9. Sau khi đã học các bảng, em có thể tra bảng chung: hàng và cột giao nhau tại tích cần tìm.",
+    "rules": [
+      "Bảng nhân 9: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90 ứng với nhân từ 1 đến 10.",
+      "Hai tích liên tiếp hơn kém nhau 9. Nhớ 9 × 5 = 45 để tìm các tích gần đó.",
+      "Từ 9 × 8 = 72 suy ra 72 : 9 = 8; bảng chia dựa trên bảng nhân.",
+      "Tra tích: tìm hàng theo thừa số thứ nhất, cột theo thừa số thứ hai, đọc ô giao.",
+      "Tra thương: tìm hàng của số chia, tìm số bị chia trên hàng ấy, đọc số ở đầu cột tương ứng."
+    ],
+    "steps": [
+      "Lập các nhóm 9 rồi đếm thêm 9.",
+      "Đọc bảng xuôi và ngược, tự kiểm tra bằng cách che kết quả.",
+      "Tra vài phép nhân/chia trên bảng chung để kiểm tra trí nhớ.",
+      "Với bài toán, chỉ ra số nhóm và số đồ vật trong một nhóm rồi chọn phép tính."
+    ],
+    "common_errors": [
+      "Lẫn 9 × 6 = 54 với 9 × 5 = 45.",
+      "Tra bảng theo sai hàng hoặc sai cột.",
+      "Đọc tích trong ô thành thương thay vì nhìn số ở đầu cột khi tra phép chia."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Có 8 hộp, mỗi hộp 9 thẻ. Có tất cả mấy thẻ?",
+      "steps": [
+        "Có 8 nhóm 9 thẻ.",
+        "9 × 8 = 72. Có 72 thẻ."
+      ]
+    },
+    {
+      "question": "Tra bảng để tính 9 × 4 và 36 : 9.",
+      "steps": [
+        "Tìm hàng 9 và cột 4; ô giao có 36, nên 9 × 4 = 36.",
+        "Trên hàng 9, tìm 36; đầu cột là 4, nên 36 : 9 = 4."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B12_Q01",
+      "type": "mcq",
+      "question": "Tính 9 × 2.",
+      "options": [
+        "18",
+        "11",
+        "16",
+        "27"
+      ],
+      "correct_answer": "18",
+      "distractors": [
+        "11",
+        "16",
+        "27"
+      ],
+      "explanation": "9 + 9 = 18.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q02",
+      "type": "fill",
+      "question": "Tính 9 × 4.",
+      "correct_answer": "36",
+      "distractors": [
+        "13",
+        "27",
+        "45"
+      ],
+      "explanation": "9 × 3 = 27; 27 + 9 = 36.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q03",
+      "type": "mcq",
+      "question": "Tính 9 × 5.",
+      "options": [
+        "45",
+        "14",
+        "36",
+        "54"
+      ],
+      "correct_answer": "45",
+      "distractors": [
+        "14",
+        "36",
+        "54"
+      ],
+      "explanation": "9 × 4 = 36; 36 + 9 = 45.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q04",
+      "type": "fill",
+      "question": "Tính 9 × 7.",
+      "correct_answer": "63",
+      "distractors": [
+        "16",
+        "54",
+        "72"
+      ],
+      "explanation": "9 × 6 = 54; 54 + 9 = 63.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q05",
+      "type": "mcq",
+      "question": "Tính 9 × 9.",
+      "options": [
+        "81",
+        "18",
+        "72",
+        "90"
+      ],
+      "correct_answer": "81",
+      "distractors": [
+        "18",
+        "72",
+        "90"
+      ],
+      "explanation": "9 × 8 = 72; 72 + 9 = 81.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q06",
+      "type": "fill",
+      "question": "Tính 27 : 9.",
+      "correct_answer": "3",
+      "distractors": [
+        "9",
+        "18",
+        "4"
+      ],
+      "explanation": "9 × 3 = 27 nên thương là 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q07",
+      "type": "mcq",
+      "question": "Tính 45 : 9.",
+      "options": [
+        "5",
+        "4",
+        "9",
+        "36"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "9",
+        "36"
+      ],
+      "explanation": "9 × 5 = 45 nên thương là 5.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q08",
+      "type": "fill",
+      "question": "Tính 63 : 9.",
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "9",
+        "54"
+      ],
+      "explanation": "9 × 7 = 63 nên thương là 7.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q09",
+      "type": "mcq",
+      "question": "Tính 81 : 9.",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "72"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "10",
+        "72"
+      ],
+      "explanation": "9 × 9 = 81 nên thương là 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q10",
+      "type": "fill",
+      "question": "Tính 90 : 9.",
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "81",
+        "99"
+      ],
+      "explanation": "9 × 10 = 90 nên thương là 10.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q11",
+      "type": "mcq",
+      "question": "Điền số tiếp theo: 18, 27, 36, ...",
+      "options": [
+        "45",
+        "37",
+        "44",
+        "54"
+      ],
+      "correct_answer": "45",
+      "distractors": [
+        "37",
+        "44",
+        "54"
+      ],
+      "explanation": "Mỗi bước thêm 9; 36 + 9 = 45.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q12",
+      "type": "fill",
+      "question": "Điền số tiếp theo: 81, 72, 63, ...",
+      "correct_answer": "54",
+      "distractors": [
+        "53",
+        "55",
+        "72"
+      ],
+      "explanation": "Mỗi bước bớt 9; 63 - 9 = 54.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q13",
+      "type": "mcq",
+      "question": "Muốn tìm 9 × 8 từ 9 × 7, phải thêm bao nhiêu?",
+      "options": [
+        "9",
+        "1",
+        "7",
+        "8"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "1",
+        "7",
+        "8"
+      ],
+      "explanation": "Thêm một nhóm 9; 63 + 9 = 72.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q14",
+      "type": "fill",
+      "question": "Trong 9 × 6 = 54, thừa số thứ hai là số nào?",
+      "correct_answer": "6",
+      "distractors": [
+        "9",
+        "54",
+        "15"
+      ],
+      "explanation": "Hai thừa số là 9 và 6; tích là 54.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q15",
+      "type": "mcq",
+      "question": "Hai phép 9 × 1 và 81 : 9 cùng cho kết quả nào?",
+      "options": [
+        "9",
+        "1",
+        "81",
+        "72"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "1",
+        "81",
+        "72"
+      ],
+      "explanation": "9 × 1 = 9; 81 : 9 = 9.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q16",
+      "type": "fill",
+      "question": "Kết quả nào bé hơn: 36 : 9 hay 72 : 9? Nhập kết quả bé hơn.",
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "9",
+        "36"
+      ],
+      "explanation": "36 : 9 = 4; 72 : 9 = 8; chọn 4.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q17",
+      "type": "mcq",
+      "question": "Trong bảng nhân, giao của hàng 9 và cột 3 cho số nào?",
+      "options": [
+        "27",
+        "12",
+        "18",
+        "36"
+      ],
+      "correct_answer": "27",
+      "distractors": [
+        "12",
+        "18",
+        "36"
+      ],
+      "explanation": "Ô giao hàng 9, cột 3 chứa tích 9 × 3 = 27.",
+      "difficulty": "thong_hieu",
+      "reference_table": true
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q18",
+      "type": "fill",
+      "question": "Tìm thương 54 : 9 bằng bảng: trên hàng 9, số 54 thuộc cột mấy?",
+      "correct_answer": "6",
+      "distractors": [
+        "9",
+        "5",
+        "7"
+      ],
+      "explanation": "Trên hàng 9, tích 54 thuộc cột 6 vì 9 × 6 = 54.",
+      "difficulty": "thong_hieu",
+      "reference_table": true
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q19",
+      "type": "mcq",
+      "question": "Tính theo hai bước: 9 × 3, rồi chia cho 3.",
+      "options": [
+        "9",
+        "27",
+        "3",
+        "6"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "27",
+        "3",
+        "6"
+      ],
+      "explanation": "9 × 3 = 27; 27 : 3 = 9.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q20",
+      "type": "fill",
+      "question": "Một bạn tính 9 × 6 = 45. Kết quả đúng là bao nhiêu?",
+      "correct_answer": "54",
+      "distractors": [
+        "45",
+        "15",
+        "63"
+      ],
+      "explanation": "45 là 9 × 5; thêm 9 được 9 × 6 = 54.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q21",
+      "type": "mcq",
+      "question": "Mỗi khay có 9 chiếc bánh. 4 khay có tất cả mấy chiếc?",
+      "options": [
+        "36",
+        "13",
+        "27",
+        "45"
+      ],
+      "correct_answer": "36",
+      "distractors": [
+        "13",
+        "27",
+        "45"
+      ],
+      "explanation": "9 × 4 = 36 chiếc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q22",
+      "type": "fill",
+      "question": "Có 54 thẻ chia đều cho 9 bạn. Mỗi bạn mấy thẻ?",
+      "correct_answer": "6",
+      "distractors": [
+        "9",
+        "5",
+        "45"
+      ],
+      "explanation": "54 : 9 = 6 thẻ mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q23",
+      "type": "mcq",
+      "question": "Mỗi hộp đựng 9 quả bóng. Có 72 quả thì cần mấy hộp?",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "63"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "9",
+        "7",
+        "63"
+      ],
+      "explanation": "72 : 9 = 8 hộp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q24",
+      "type": "fill",
+      "question": "Mỗi dây gắn 9 lá cờ. 5 dây cần mấy lá cờ?",
+      "correct_answer": "45",
+      "distractors": [
+        "14",
+        "36",
+        "54"
+      ],
+      "explanation": "9 × 5 = 45 lá cờ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q25",
+      "type": "mcq",
+      "question": "Có 81 sách xếp đều vào 9 ngăn. Mỗi ngăn mấy cuốn?",
+      "options": [
+        "9",
+        "8",
+        "10",
+        "72"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "10",
+        "72"
+      ],
+      "explanation": "81 : 9 = 9 cuốn mỗi ngăn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q26",
+      "type": "fill",
+      "question": "Mỗi bước nhảy dài 9 dm. Qua 3 bước như vậy được mấy đề-xi-mét?",
+      "correct_answer": "27",
+      "distractors": [
+        "12",
+        "18",
+        "36"
+      ],
+      "explanation": "9 × 3 = 27 dm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q27",
+      "type": "mcq",
+      "question": "Có 18 lít nước chia đều vào 9 bình. Mỗi bình mấy lít?",
+      "options": [
+        "2",
+        "9",
+        "3",
+        "27"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "9",
+        "3",
+        "27"
+      ],
+      "explanation": "18 : 9 = 2 lít mỗi bình.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q28",
+      "type": "fill",
+      "question": "Mỗi nhóm có 9 bạn. 7 nhóm có tất cả mấy bạn?",
+      "correct_answer": "63",
+      "distractors": [
+        "16",
+        "54",
+        "72"
+      ],
+      "explanation": "9 × 7 = 63 bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q29",
+      "type": "mcq",
+      "question": "Có 90 nhãn vở, mỗi bộ 9 nhãn. Làm được mấy bộ?",
+      "options": [
+        "10",
+        "9",
+        "81",
+        "99"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "81",
+        "99"
+      ],
+      "explanation": "90 : 9 = 10 bộ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q30",
+      "type": "fill",
+      "question": "Mỗi ngày làm 9 tấm thiệp. Trong 8 ngày làm tất cả mấy tấm?",
+      "correct_answer": "72",
+      "distractors": [
+        "17",
+        "63",
+        "81"
+      ],
+      "explanation": "9 × 8 = 72 tấm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q31",
+      "type": "mcq",
+      "question": "Có 36 bút chia đều cho 9 bàn. Mỗi bàn có mấy bút?",
+      "options": [
+        "4",
+        "9",
+        "3",
+        "27"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "9",
+        "3",
+        "27"
+      ],
+      "explanation": "36 : 9 = 4 bút mỗi bàn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q32",
+      "type": "fill",
+      "question": "Mỗi gói có 9 hạt giống. 6 gói có mấy hạt?",
+      "correct_answer": "54",
+      "distractors": [
+        "15",
+        "45",
+        "63"
+      ],
+      "explanation": "9 × 6 = 54 hạt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q33",
+      "type": "mcq",
+      "question": "Có 27 bông hoa, cắm mỗi lọ 9 bông. Cần mấy lọ?",
+      "options": [
+        "3",
+        "9",
+        "18",
+        "4"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "9",
+        "18",
+        "4"
+      ],
+      "explanation": "27 : 9 = 3 lọ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q34",
+      "type": "fill",
+      "question": "Mua 5 hộp, mỗi hộp 9 viên phấn. Dùng hết 8 viên. Còn mấy viên?",
+      "correct_answer": "37",
+      "distractors": [
+        "45",
+        "53",
+        "6"
+      ],
+      "explanation": "9 × 5 = 45 viên; 45 - 8 = 37 viên.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q35",
+      "type": "mcq",
+      "question": "Ba nhóm mỗi nhóm 9 bạn, có thêm 1 giáo viên. Tất cả mấy người?",
+      "options": [
+        "28",
+        "27",
+        "13",
+        "30"
+      ],
+      "correct_answer": "28",
+      "distractors": [
+        "27",
+        "13",
+        "30"
+      ],
+      "explanation": "9 × 3 = 27 bạn; 27 + 1 = 28 người.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q36",
+      "type": "fill",
+      "question": "Mỗi bộ cần 9 tấm bìa. Có 64 tấm, lấy 63 tấm làm bộ hoàn chỉnh. Làm được mấy bộ?",
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "9",
+        "55"
+      ],
+      "explanation": "63 : 9 = 7 bộ; còn 1 tấm chưa dùng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q37",
+      "type": "mcq",
+      "question": "Mỗi hộp có 9 bút xanh và 2 bút đỏ. Hai hộp có bao nhiêu bút đỏ?",
+      "options": [
+        "4",
+        "18",
+        "22",
+        "11"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "18",
+        "22",
+        "11"
+      ],
+      "explanation": "Chỉ tính bút đỏ: 2 × 2 = 4 bút, không tính bút xanh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q38",
+      "type": "fill",
+      "question": "Mỗi đội cần 9 khăn. Có 30 khăn, lấy thêm 6 khăn. Số khăn đủ cho mấy đội?",
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "9",
+        "24"
+      ],
+      "explanation": "30 + 6 = 36 khăn; 36 : 9 = 4 đội.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q39",
+      "type": "mcq",
+      "question": "Mua 4 túi, mỗi túi 9 quả, rồi chia đều 36 quả cho 9 bạn. Mỗi bạn mấy quả?",
+      "options": [
+        "4",
+        "9",
+        "3",
+        "36"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "9",
+        "3",
+        "36"
+      ],
+      "explanation": "9 × 4 = 36 quả; 36 : 9 = 4 quả mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B12_Q40",
+      "type": "fill",
+      "question": "Một hàng có 9 ghế. Có 6 hàng, sau đó thêm 5 ghế rời. Có tất cả mấy ghế?",
+      "correct_answer": "59",
+      "distractors": [
+        "54",
+        "49",
+        "20"
+      ],
+      "explanation": "9 × 6 = 54 ghế; 54 + 5 = 59 ghế.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B12_GAME1",
+      "title": "Ghép thẻ bảng chín",
+      "mode": "match",
+      "objective": "Ghép phép tính hoặc bài toán với đáp án, tự kiểm tra bằng bảng nhân/chia.",
+      "rules": [
+        "Mỗi lượt chọn 5 câu có 5 đáp án khác nhau.",
+        "Chọn câu hỏi bên trái rồi đáp án bên phải. Sai thì thử lại.",
+        "Mỗi cặp đúng 10 điểm; tối đa 50 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B12_Q01",
+        "TOAN3_T1_B12_Q02",
+        "TOAN3_T1_B12_Q03",
+        "TOAN3_T1_B12_Q04",
+        "TOAN3_T1_B12_Q05",
+        "TOAN3_T1_B12_Q06",
+        "TOAN3_T1_B12_Q07",
+        "TOAN3_T1_B12_Q08",
+        "TOAN3_T1_B12_Q09",
+        "TOAN3_T1_B12_Q10",
+        "TOAN3_T1_B12_Q11",
+        "TOAN3_T1_B12_Q12",
+        "TOAN3_T1_B12_Q13",
+        "TOAN3_T1_B12_Q14",
+        "TOAN3_T1_B12_Q15",
+        "TOAN3_T1_B12_Q16",
+        "TOAN3_T1_B12_Q17",
+        "TOAN3_T1_B12_Q18",
+        "TOAN3_T1_B12_Q19",
+        "TOAN3_T1_B12_Q20",
+        "TOAN3_T1_B12_Q21",
+        "TOAN3_T1_B12_Q22",
+        "TOAN3_T1_B12_Q23",
+        "TOAN3_T1_B12_Q24",
+        "TOAN3_T1_B12_Q25",
+        "TOAN3_T1_B12_Q26",
+        "TOAN3_T1_B12_Q27",
+        "TOAN3_T1_B12_Q28",
+        "TOAN3_T1_B12_Q29",
+        "TOAN3_T1_B12_Q30",
+        "TOAN3_T1_B12_Q31",
+        "TOAN3_T1_B12_Q32",
+        "TOAN3_T1_B12_Q33",
+        "TOAN3_T1_B12_Q34",
+        "TOAN3_T1_B12_Q35",
+        "TOAN3_T1_B12_Q36",
+        "TOAN3_T1_B12_Q37",
+        "TOAN3_T1_B12_Q38",
+        "TOAN3_T1_B12_Q39",
+        "TOAN3_T1_B12_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 50
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "reference_table": {
+    "caption": "Bảng nhân, chia dùng để tự kiểm tra",
+    "columns": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "rows": [
+      {
+        "factor": 2,
+        "values": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20
+        ]
+      },
+      {
+        "factor": 3,
+        "values": [
+          3,
+          6,
+          9,
+          12,
+          15,
+          18,
+          21,
+          24,
+          27,
+          30
+        ]
+      },
+      {
+        "factor": 4,
+        "values": [
+          4,
+          8,
+          12,
+          16,
+          20,
+          24,
+          28,
+          32,
+          36,
+          40
+        ]
+      },
+      {
+        "factor": 5,
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50
+        ]
+      },
+      {
+        "factor": 6,
+        "values": [
+          6,
+          12,
+          18,
+          24,
+          30,
+          36,
+          42,
+          48,
+          54,
+          60
+        ]
+      },
+      {
+        "factor": 7,
+        "values": [
+          7,
+          14,
+          21,
+          28,
+          35,
+          42,
+          49,
+          56,
+          63,
+          70
+        ]
+      },
+      {
+        "factor": 8,
+        "values": [
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80
+        ]
+      },
+      {
+        "factor": 9,
+        "values": [
+          9,
+          18,
+          27,
+          36,
+          45,
+          54,
+          63,
+          72,
+          81,
+          90
+        ]
+      }
+    ]
+  }
+}

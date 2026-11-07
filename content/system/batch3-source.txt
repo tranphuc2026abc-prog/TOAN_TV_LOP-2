@@ -1,0 +1,164 @@
+Bài 9
+Tính 6 × 2.|12|6 + 6 = 12.|8;10;18
+Tính 6 × 4.|24|6 + 6 + 6 + 6 = 24.|10;18;30
+Tính 6 × 5.|30|Đếm thêm 6 năm lần được 30.|11;24;36
+Tính 6 × 7.|42|6 × 6 = 36; 36 + 6 = 42.|13;36;48
+Tính 6 × 9.|54|6 × 8 = 48; 48 + 6 = 54.|15;48;60
+Tính 18 : 6.|3|6 × 3 = 18 nên 18 : 6 = 3.|6;12;4
+Tính 30 : 6.|5|6 × 5 = 30 nên thương là 5.|4;6;24
+Tính 42 : 6.|7|6 × 7 = 42 nên thương là 7.|6;8;36
+Tính 54 : 6.|9|6 × 9 = 54 nên thương là 9.|8;6;48
+Tính 60 : 6.|10|6 × 10 = 60 nên thương là 10.|9;6;54
+Sáu nhóm, mỗi nhóm 6 que tính có tất cả bao nhiêu que?|36|6 × 6 = 36 que tính.|12;30;42
+Điền số tiếp theo: 12, 18, 24, ...|30|Mỗi số sau hơn số trước 6; 24 + 6 = 30.|25;28;36
+Điền số tiếp theo: 54, 48, 42, ...|36|Mỗi bước bớt 6; 42 - 6 = 36.|35;38;48
+6 × 8 hơn 6 × 7 bao nhiêu?|6|Hai tích hơn kém một nhóm 6; 48 - 42 = 6.|1;7;8
+Từ 6 × 3 = 18, suy ra 18 : 6 bằng bao nhiêu?|3|Phép chia tìm số nhóm 6 trong 18, được 3 nhóm.|6;12;2
+Hai phép 6 × 1 và 36 : 6 cùng có kết quả nào?|6|6 × 1 = 6; 36 : 6 = 6.|1;36;30
+Kết quả 48 : 6 lớn hơn 24 : 6 bao nhiêu?|4|48 : 6 = 8; 24 : 6 = 4; 8 - 4 = 4.|2;6;24
+Trong 6 × 6 = 36, tích là số nào?|36|Hai thừa số đều là 6; kết quả 36 là tích.|6;12;30
+Một bạn tính 6 × 4 = 20. Kết quả đúng là bao nhiêu?|24|6 × 4 = 6 + 6 + 6 + 6 = 24, không phải 20.|20;10;18
+Tính theo hai bước: 6 × 5, rồi bớt 8.|22|6 × 5 = 30; 30 - 8 = 22.|30;38;13
+Mỗi hộp trứng có 6 quả. 8 hộp có tất cả mấy quả?|48|Có 8 nhóm 6 quả: 6 × 8 = 48 quả.|14;42;54
+Có 36 tấm thiệp chia đều cho 6 nhóm. Mỗi nhóm nhận mấy tấm?|6|36 : 6 = 6 tấm mỗi nhóm.|30;5;7
+Lớp có 42 bạn, xếp mỗi hàng 6 bạn. Có mấy hàng?|7|42 : 6 = 7 hàng.|6;8;36
+Mỗi hộp bút có 6 ngăn nhỏ. 3 hộp có tất cả mấy ngăn?|18|6 × 3 = 18 ngăn.|9;12;24
+Sợi ruy băng 48 cm chia thành 6 đoạn bằng nhau. Mỗi đoạn mấy xăng-ti-mét?|8|48 : 6 = 8 cm mỗi đoạn.|6;7;42
+Mỗi túi có 6 viên bi. 5 túi có bao nhiêu viên?|30|6 × 5 = 30 viên.|11;24;36
+Có 54 vở, mỗi bộ 6 quyển. Làm được mấy bộ?|9|54 : 6 = 9 bộ.|8;6;48
+Mỗi chặng đường dài 6 m. Đi qua 7 chặng như vậy được bao nhiêu mét?|42|6 × 7 = 42 m.|13;36;48
+Có 24 bông hoa chia đều vào 6 lọ. Mỗi lọ mấy bông?|4|24 : 6 = 4 bông.|6;18;3
+Mỗi lượt chơi nhận 6 điểm. Chơi 10 lượt được bao nhiêu điểm?|60|6 × 10 = 60 điểm.|16;54;66
+Có 12 chiếc cốc, xếp mỗi khay 6 chiếc. Cần mấy khay?|2|12 : 6 = 2 khay.|6;3;18
+Có 18 nhãn vở chia đều cho 6 bạn. Mỗi bạn mấy nhãn?|3|18 : 6 = 3 nhãn mỗi bạn.|6;12;4
+Mỗi tổ có 6 bạn. Ba tổ cùng thêm 1 giáo viên hướng dẫn. Có tất cả mấy người?|19|6 × 3 = 18 bạn; 18 + 1 = 19 người.|18;10;21
+Lan chuẩn bị 4 hộp, mỗi hộp 6 bánh, rồi ăn 3 bánh. Còn bao nhiêu bánh?|21|6 × 4 = 24 bánh; 24 - 3 = 21 bánh.|24;27;7
+Nam cần 6 thẻ cho một bộ. Có 31 thẻ, dùng 30 thẻ làm bộ hoàn chỉnh. Làm được mấy bộ?|5|30 : 6 = 5 bộ; 1 thẻ còn lại chưa dùng.|4;6;25
+Hai đội có mỗi đội 6 bạn. Cần thêm mấy bạn để được 15 bạn?|3|6 × 2 = 12 bạn; 15 - 12 = 3 bạn.|12;9;21
+Mỗi can 6 lít nước. Bốn can có đủ 25 lít không? Nhập số lít còn thiếu.|1|6 × 4 = 24 lít; 25 - 24 = 1 lít, nên chưa đủ.|24;0;6
+Có 6 nhóm, mỗi nhóm 5 bạn. Chia lại 30 bạn thành 6 hàng bằng nhau. Mỗi hàng mấy bạn?|5|Có 30 bạn; 30 : 6 = 5 bạn mỗi hàng.|6;24;4
+Mỗi hộp có 6 bút xanh và 2 bút đỏ. Hai hộp có bao nhiêu bút xanh?|12|Chỉ tính bút xanh: 6 × 2 = 12 bút, không cộng bút đỏ.|16;8;4
+Mỗi nhóm cần 6 tấm giấy. Có 20 tấm và lấy thêm 4 tấm. Số giấy đủ cho mấy nhóm?|4|20 + 4 = 24 tấm; 24 : 6 = 4 nhóm.|3;6;18
+Bài 10
+Tính 7 × 2.|14|7 + 7 = 14.|9;12;21
+Tính 7 × 3.|21|7 + 7 + 7 = 21.|10;14;28
+Tính 7 × 5.|35|7 × 4 = 28; 28 + 7 = 35.|12;28;42
+Tính 7 × 6.|42|7 × 5 = 35; 35 + 7 = 42.|13;35;49
+Tính 7 × 8.|56|7 × 7 = 49; 49 + 7 = 56.|15;49;63
+Tính 21 : 7.|3|7 × 3 = 21 nên thương là 3.|7;14;4
+Tính 35 : 7.|5|7 × 5 = 35 nên thương là 5.|4;7;28
+Tính 49 : 7.|7|7 × 7 = 49 nên thương là 7.|6;8;42
+Tính 63 : 7.|9|7 × 9 = 63 nên thương là 9.|8;7;56
+Tính 70 : 7.|10|7 × 10 = 70 nên thương là 10.|9;7;63
+7 × 4 biểu thị bốn nhóm, mỗi nhóm 7. Tổng số là bao nhiêu?|28|7 + 7 + 7 + 7 = 28.|11;21;35
+Điền số tiếp theo: 14, 21, 28, ...|35|Dãy tăng mỗi bước 7; 28 + 7 = 35.|29;34;42
+Điền số tiếp theo: 63, 56, 49, ...|42|Dãy giảm mỗi bước 7; 49 - 7 = 42.|41;43;56
+Muốn từ 7 × 5 tìm 7 × 6 thì thêm bao nhiêu?|7|Thêm một nhóm 7; 35 + 7 = 42.|1;5;6
+Kết quả nào bé hơn: 42 : 7 hay 56 : 7? Nhập kết quả bé hơn.|6|42 : 7 = 6; 56 : 7 = 8; chọn 6.|8;7;14
+7 × 7 hơn 7 × 6 bao nhiêu?|7|7 × 7 = 49; 7 × 6 = 42; 49 - 42 = 7.|1;6;13
+Trong phép chia 28 : 7 = 4, số chia là số nào?|7|28 là số bị chia, 7 là số chia, 4 là thương.|28;4;21
+Hai phép 7 × 1 và 49 : 7 cùng cho kết quả nào?|7|7 × 1 = 7; 49 : 7 = 7.|1;49;42
+Bạn An nói 7 × 9 = 56. Kết quả đúng là bao nhiêu?|63|7 × 8 = 56; thêm 7 mới được 7 × 9 = 63.|56;16;70
+Tính theo hai bước: 7 × 3, rồi cộng 8.|29|7 × 3 = 21; 21 + 8 = 29.|21;15;35
+Một đợt đọc sách kéo dài 3 tuần trọn vẹn. Có bao nhiêu ngày?|21|Mỗi tuần 7 ngày; 7 × 3 = 21 ngày.|10;14;28
+Có 28 ảnh chia đều vào 7 trang. Mỗi trang mấy ảnh?|4|28 : 7 = 4 ảnh mỗi trang.|7;21;3
+Mỗi dây trang trí gắn 7 lá cờ. 6 dây cần mấy lá cờ?|42|7 × 6 = 42 lá cờ.|13;35;49
+Có 56 hạt giống, mỗi túi 7 hạt. Cần mấy túi?|8|56 : 7 = 8 túi.|7;9;49
+Một lớp trồng 7 cây mỗi ngày. Trong 5 ngày trồng mấy cây?|35|7 × 5 = 35 cây.|12;28;42
+Có 63 thẻ chia đều cho 7 đội. Mỗi đội nhận mấy thẻ?|9|63 : 7 = 9 thẻ mỗi đội.|8;7;56
+Mỗi ngăn có 7 truyện. 4 ngăn có bao nhiêu truyện?|28|7 × 4 = 28 truyện.|11;21;35
+Có 42 viên bi chia mỗi hộp 7 viên. Cần mấy hộp?|6|42 : 7 = 6 hộp.|7;5;35
+Trong 2 tuần trọn vẹn, Lan uống sữa mỗi ngày một hộp. Lan uống mấy hộp?|14|Hai tuần có 7 × 2 = 14 ngày; mỗi ngày một hộp nên uống 14 hộp.|7;9;21
+Có 70 nhãn vở chia đều cho 7 bạn. Mỗi bạn mấy nhãn?|10|70 : 7 = 10 nhãn.|7;9;63
+Mỗi lượt đạt 7 điểm. Qua 9 lượt được mấy điểm?|63|7 × 9 = 63 điểm.|16;56;70
+Có 21 lít nước, đựng mỗi can 7 lít. Cần mấy can?|3|21 : 7 = 3 can.|7;14;4
+Một nhóm có 7 bạn. 8 nhóm cùng sinh hoạt có mấy bạn?|56|7 × 8 = 56 bạn.|15;49;63
+Năm gói, mỗi gói 7 bánh, được tặng thêm 2 bánh. Có tất cả mấy bánh?|37|7 × 5 = 35 bánh; 35 + 2 = 37 bánh.|35;33;14
+Hộp có 7 hàng, mỗi hàng 4 ô. Đã dùng 6 ô. Còn mấy ô trống?|22|4 × 7 = 28 ô; 28 - 6 = 22 ô.|28;34;17
+Một tuần Mai đọc 7 trang. Bốn tuần đọc được bao nhiêu trang nếu mỗi tuần như nhau?|28|Mỗi tuần 7 trang; 7 × 4 = 28 trang.|11;21;35
+Có 50 ảnh, lấy 49 ảnh chia đều cho 7 trang. Mỗi trang mấy ảnh?|7|49 : 7 = 7 ảnh mỗi trang; còn 1 ảnh chưa xếp.|6;8;43
+Mỗi đội cần 7 khăn. Có 20 khăn, nhận thêm 1 khăn. Đủ cho mấy đội?|3|20 + 1 = 21 khăn; 21 : 7 = 3 đội.|2;7;14
+Sau 6 tuần trọn vẹn, cây cao thêm tổng cộng bao nhiêu xăng-ti-mét nếu mỗi tuần cao thêm 7 cm?|42|Có 6 lần tăng 7 cm: 7 × 6 = 42 cm.|13;35;49
+Mua 7 bộ, mỗi bộ 3 tấm bìa. Dùng 9 tấm. Còn bao nhiêu tấm?|12|3 × 7 = 21 tấm; 21 - 9 = 12 tấm.|21;30;1
+Bài 11
+Tính 8 × 2.|16|8 + 8 = 16.|10;14;24
+Tính 8 × 3.|24|8 + 8 + 8 = 24.|11;16;32
+Tính 8 × 5.|40|8 × 4 = 32; 32 + 8 = 40.|13;32;48
+Tính 8 × 7.|56|8 × 6 = 48; 48 + 8 = 56.|15;48;64
+Tính 8 × 9.|72|8 × 8 = 64; 64 + 8 = 72.|17;64;80
+Tính 24 : 8.|3|8 × 3 = 24 nên thương là 3.|8;16;4
+Tính 40 : 8.|5|8 × 5 = 40 nên thương là 5.|4;8;32
+Tính 56 : 8.|7|8 × 7 = 56 nên thương là 7.|6;8;48
+Tính 64 : 8.|8|8 × 8 = 64 nên thương là 8.|7;9;56
+Tính 80 : 8.|10|8 × 10 = 80 nên thương là 10.|9;8;72
+8 × 4 có cùng kết quả với tổng của mấy số hạng bằng 8?|4|8 × 4 = 8 + 8 + 8 + 8, có 4 số hạng.|8;12;32
+Điền số tiếp theo: 16, 24, 32, ...|40|Dãy tăng mỗi bước 8; 32 + 8 = 40.|33;36;48
+Điền số tiếp theo: 72, 64, 56, ...|48|Dãy giảm mỗi bước 8; 56 - 8 = 48.|47;49;64
+Tích 8 × 6 hơn tích 8 × 5 bao nhiêu?|8|8 × 6 = 48; 8 × 5 = 40; 48 - 40 = 8.|1;5;6
+Trong phép tính 48 : 8 = 6, thương là số nào?|6|Kết quả phép chia là thương; thương ở đây là 6.|48;8;40
+Biết 8 × 9 = 72. Suy ra 72 : 8 bằng bao nhiêu?|9|Phép chia ngược với phép nhân đã cho; thương là 9.|8;64;10
+Hai phép 8 × 1 và 64 : 8 cùng có kết quả nào?|8|8 × 1 = 8; 64 : 8 = 8.|1;64;56
+Kết quả nào lớn hơn: 32 : 8 hay 56 : 8? Nhập kết quả lớn hơn.|7|32 : 8 = 4; 56 : 8 = 7; chọn 7.|4;8;24
+Tính theo hai bước: 8 × 4, rồi thêm 6.|38|8 × 4 = 32; 32 + 6 = 38.|32;14;48
+Một bạn viết 8 × 6 = 46. Kết quả đúng là bao nhiêu?|48|8 × 5 = 40; 40 + 8 = 48.|46;40;56
+Mỗi hộp có 8 bút chì. 7 hộp có mấy bút?|56|8 × 7 = 56 bút.|15;48;64
+Có 48 học sinh chia đều vào 8 nhóm. Mỗi nhóm mấy bạn?|6|48 : 8 = 6 bạn mỗi nhóm.|8;7;40
+Một bộ ghép cần 8 mảnh. Có 32 mảnh thì làm được mấy bộ?|4|32 : 8 = 4 bộ.|8;24;3
+Mỗi luống trồng 8 cây. 5 luống trồng tất cả mấy cây?|40|8 × 5 = 40 cây.|13;32;48
+Có 72 chiếc bánh, mỗi hộp đựng 8 chiếc. Cần mấy hộp?|9|72 : 8 = 9 hộp.|8;10;64
+Mỗi dây dài 8 m. 3 dây như vậy dài tổng cộng mấy mét?|24|8 × 3 = 24 m.|11;16;32
+Có 16 nhãn vở chia đều cho 8 bạn. Mỗi bạn mấy nhãn?|2|16 : 8 = 2 nhãn mỗi bạn.|8;3;24
+Mỗi khay có 8 cốc. 9 khay có tất cả mấy cốc?|72|8 × 9 = 72 cốc.|17;64;80
+Có 64 ô vuông chia thành 8 hàng bằng nhau. Mỗi hàng mấy ô?|8|64 : 8 = 8 ô mỗi hàng.|7;9;56
+Mỗi chặng chạy dài 8 m. Đi hết 6 chặng được mấy mét?|48|8 × 6 = 48 m.|14;40;56
+Có 80 lít nước chia đều vào 8 thùng. Mỗi thùng có mấy lít?|10|80 : 8 = 10 lít mỗi thùng.|8;9;72
+Mỗi cuốn có 8 trang tranh. 4 cuốn có bao nhiêu trang tranh?|32|8 × 4 = 32 trang.|12;24;40
+Có 40 bông hoa, mỗi bó 8 bông. Bó được mấy bó?|5|40 : 8 = 5 bó.|8;4;32
+Sáu túi có mỗi túi 8 viên bi. Tặng đi 7 viên. Còn mấy viên?|41|8 × 6 = 48 viên; 48 - 7 = 41 viên.|48;55;7
+Có 8 đội, mỗi đội 3 bạn, thêm 2 trọng tài. Tất cả mấy người?|26|3 × 8 = 24 bạn; 24 + 2 = 26 người.|24;22;13
+Mỗi hộp có 8 phấn trắng và 1 phấn màu. 4 hộp có bao nhiêu phấn trắng?|32|Chỉ tính phấn trắng: 8 × 4 = 32 viên.|36;12;24
+An cần 8 thẻ cho một bộ. Có 57 thẻ, dùng 56 thẻ làm trọn bộ. Làm được mấy bộ?|7|56 : 8 = 7 bộ; còn 1 thẻ chưa dùng.|6;8;49
+Có 8 nhóm, mỗi nhóm dùng 5 tấm bìa. Nếu đã chuẩn bị 35 tấm thì còn thiếu mấy tấm?|5|5 × 8 = 40 tấm cần dùng; 40 - 35 = 5 tấm.|40;3;13
+Mua 2 gói, mỗi gói 8 bánh. Chia đều toàn bộ cho 8 bạn. Mỗi bạn mấy bánh?|2|8 × 2 = 16 bánh; 16 : 8 = 2 bánh mỗi bạn.|8;4;16
+Năm hàng có mỗi hàng 8 ghế. Bớt đi 1 hàng nguyên vẹn. Còn mấy ghế?|32|8 × 5 = 40 ghế; 40 - 8 = 32 ghế.|39;40;24
+Bài 12
+Tính 9 × 2.|18|9 + 9 = 18.|11;16;27
+Tính 9 × 4.|36|9 × 3 = 27; 27 + 9 = 36.|13;27;45
+Tính 9 × 5.|45|9 × 4 = 36; 36 + 9 = 45.|14;36;54
+Tính 9 × 7.|63|9 × 6 = 54; 54 + 9 = 63.|16;54;72
+Tính 9 × 9.|81|9 × 8 = 72; 72 + 9 = 81.|18;72;90
+Tính 27 : 9.|3|9 × 3 = 27 nên thương là 3.|9;18;4
+Tính 45 : 9.|5|9 × 5 = 45 nên thương là 5.|4;9;36
+Tính 63 : 9.|7|9 × 7 = 63 nên thương là 7.|6;9;54
+Tính 81 : 9.|9|9 × 9 = 81 nên thương là 9.|8;10;72
+Tính 90 : 9.|10|9 × 10 = 90 nên thương là 10.|9;81;99
+Điền số tiếp theo: 18, 27, 36, ...|45|Mỗi bước thêm 9; 36 + 9 = 45.|37;44;54
+Điền số tiếp theo: 81, 72, 63, ...|54|Mỗi bước bớt 9; 63 - 9 = 54.|53;55;72
+Muốn tìm 9 × 8 từ 9 × 7, phải thêm bao nhiêu?|9|Thêm một nhóm 9; 63 + 9 = 72.|1;7;8
+Trong 9 × 6 = 54, thừa số thứ hai là số nào?|6|Hai thừa số là 9 và 6; tích là 54.|9;54;15
+Hai phép 9 × 1 và 81 : 9 cùng cho kết quả nào?|9|9 × 1 = 9; 81 : 9 = 9.|1;81;72
+Kết quả nào bé hơn: 36 : 9 hay 72 : 9? Nhập kết quả bé hơn.|4|36 : 9 = 4; 72 : 9 = 8; chọn 4.|8;9;36
+Trong bảng nhân, giao của hàng 9 và cột 3 cho số nào?|27|Ô giao hàng 9, cột 3 chứa tích 9 × 3 = 27.|12;18;36
+Tìm thương 54 : 9 bằng bảng: trên hàng 9, số 54 thuộc cột mấy?|6|Trên hàng 9, tích 54 thuộc cột 6 vì 9 × 6 = 54.|9;5;7
+Tính theo hai bước: 9 × 3, rồi chia cho 3.|9|9 × 3 = 27; 27 : 3 = 9.|27;3;6
+Một bạn tính 9 × 6 = 45. Kết quả đúng là bao nhiêu?|54|45 là 9 × 5; thêm 9 được 9 × 6 = 54.|45;15;63
+Mỗi khay có 9 chiếc bánh. 4 khay có tất cả mấy chiếc?|36|9 × 4 = 36 chiếc.|13;27;45
+Có 54 thẻ chia đều cho 9 bạn. Mỗi bạn mấy thẻ?|6|54 : 9 = 6 thẻ mỗi bạn.|9;5;45
+Mỗi hộp đựng 9 quả bóng. Có 72 quả thì cần mấy hộp?|8|72 : 9 = 8 hộp.|9;7;63
+Mỗi dây gắn 9 lá cờ. 5 dây cần mấy lá cờ?|45|9 × 5 = 45 lá cờ.|14;36;54
+Có 81 sách xếp đều vào 9 ngăn. Mỗi ngăn mấy cuốn?|9|81 : 9 = 9 cuốn mỗi ngăn.|8;10;72
+Mỗi bước nhảy dài 9 dm. Qua 3 bước như vậy được mấy đề-xi-mét?|27|9 × 3 = 27 dm.|12;18;36
+Có 18 lít nước chia đều vào 9 bình. Mỗi bình mấy lít?|2|18 : 9 = 2 lít mỗi bình.|9;3;27
+Mỗi nhóm có 9 bạn. 7 nhóm có tất cả mấy bạn?|63|9 × 7 = 63 bạn.|16;54;72
+Có 90 nhãn vở, mỗi bộ 9 nhãn. Làm được mấy bộ?|10|90 : 9 = 10 bộ.|9;81;99
+Mỗi ngày làm 9 tấm thiệp. Trong 8 ngày làm tất cả mấy tấm?|72|9 × 8 = 72 tấm.|17;63;81
+Có 36 bút chia đều cho 9 bàn. Mỗi bàn có mấy bút?|4|36 : 9 = 4 bút mỗi bàn.|9;3;27
+Mỗi gói có 9 hạt giống. 6 gói có mấy hạt?|54|9 × 6 = 54 hạt.|15;45;63
+Có 27 bông hoa, cắm mỗi lọ 9 bông. Cần mấy lọ?|3|27 : 9 = 3 lọ.|9;18;4
+Mua 5 hộp, mỗi hộp 9 viên phấn. Dùng hết 8 viên. Còn mấy viên?|37|9 × 5 = 45 viên; 45 - 8 = 37 viên.|45;53;6
+Ba nhóm mỗi nhóm 9 bạn, có thêm 1 giáo viên. Tất cả mấy người?|28|9 × 3 = 27 bạn; 27 + 1 = 28 người.|27;13;30
+Mỗi bộ cần 9 tấm bìa. Có 64 tấm, lấy 63 tấm làm bộ hoàn chỉnh. Làm được mấy bộ?|7|63 : 9 = 7 bộ; còn 1 tấm chưa dùng.|6;9;55
+Mỗi hộp có 9 bút xanh và 2 bút đỏ. Hai hộp có bao nhiêu bút đỏ?|4|Chỉ tính bút đỏ: 2 × 2 = 4 bút, không tính bút xanh.|18;22;11
+Mỗi đội cần 9 khăn. Có 30 khăn, lấy thêm 6 khăn. Số khăn đủ cho mấy đội?|4|30 + 6 = 36 khăn; 36 : 9 = 4 đội.|3;9;24
+Mua 4 túi, mỗi túi 9 quả, rồi chia đều 36 quả cho 9 bạn. Mỗi bạn mấy quả?|4|9 × 4 = 36 quả; 36 : 9 = 4 quả mỗi bạn.|9;3;36
+Một hàng có 9 ghế. Có 6 hàng, sau đó thêm 5 ghế rời. Có tất cả mấy ghế?|59|9 × 6 = 54 ghế; 54 + 5 = 59 ghế.|54;49;20

@@ -1,0 +1,791 @@
+{
+  "id": "TOAN3_T1_B09",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 9,
+  "title": "Bảng nhân 6, bảng chia 6",
+  "topic": "Bảng nhân, bảng chia",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      28,
+      30
+    ],
+    "pdf_pages": [
+      29,
+      31
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Lập và nhớ bảng nhân 6, bảng chia 6.",
+    "Vận dụng các nhóm 6, chia thành 6 phần và chia mỗi nhóm 6 trong bài toán thực tế."
+  ],
+  "knowledge": {
+    "introduction": "Hãy xếp những hộp trứng, mỗi hộp 6 quả. Thay vì đếm từng quả, ta đếm theo các nhóm 6. Khi biết tổng số quả, phép chia giúp tìm số hộp hoặc số quả mỗi phần.",
+    "rules": [
+      "Bảng nhân 6: 6, 12, 18, 24, 30, 36, 42, 48, 54, 60 tương ứng với nhân từ 1 đến 10.",
+      "Thêm một nhóm 6 thì tích tăng 6; bớt một nhóm 6 thì tích giảm 6.",
+      "Từ 6 × 8 = 48 suy ra 48 : 6 = 8. Dùng bảng nhân để nhớ bảng chia.",
+      "Nhận rõ đề hỏi tất cả, số nhóm hay số đồ vật mỗi nhóm. Không lấy tổng trừ 6 một lần thay cho phép chia."
+    ],
+    "steps": [
+      "Xếp các nhóm 6 bằng que tính hoặc chấm tròn.",
+      "Tự lập các tích, đọc bảng xuôi rồi đọc ngược.",
+      "Che một tích và dùng tích liền trước để suy ra.",
+      "Giải bài toán bằng cách nêu số nhóm, số đồ vật mỗi nhóm và điều cần tìm."
+    ],
+    "common_errors": [
+      "Nhầm 6 × 7 với 6 + 7.",
+      "Nhớ nhầm 6 × 9 thành 48, là kết quả của 6 × 8.",
+      "Cộng cả đồ vật có màu khác khi đề chỉ hỏi một màu."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Có 7 khay, mỗi khay 6 bánh. Hỏi có tất cả bao nhiêu bánh?",
+      "steps": [
+        "Có 7 nhóm 6 bánh.",
+        "6 × 7 = 42. Có 42 chiếc bánh."
+      ]
+    },
+    {
+      "question": "Có 30 bút, mỗi hộp 6 bút. Xếp được mấy hộp?",
+      "steps": [
+        "Cần tìm số nhóm 6 trong 30.",
+        "30 : 6 = 5 vì 6 × 5 = 30. Xếp được 5 hộp."
+      ]
+    },
+    {
+      "question": "Có 42 nhãn chia đều cho 6 bạn. Mỗi bạn nhận mấy nhãn?",
+      "steps": [
+        "Chia 42 thành 6 phần bằng nhau.",
+        "42 : 6 = 7. Mỗi bạn nhận 7 nhãn."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B09_Q01",
+      "type": "mcq",
+      "question": "Tính 6 × 2.",
+      "options": [
+        "12",
+        "8",
+        "10",
+        "18"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "8",
+        "10",
+        "18"
+      ],
+      "explanation": "6 + 6 = 12.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q02",
+      "type": "fill",
+      "question": "Tính 6 × 4.",
+      "correct_answer": "24",
+      "distractors": [
+        "10",
+        "18",
+        "30"
+      ],
+      "explanation": "6 + 6 + 6 + 6 = 24.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q03",
+      "type": "mcq",
+      "question": "Tính 6 × 5.",
+      "options": [
+        "30",
+        "11",
+        "24",
+        "36"
+      ],
+      "correct_answer": "30",
+      "distractors": [
+        "11",
+        "24",
+        "36"
+      ],
+      "explanation": "Đếm thêm 6 năm lần được 30.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q04",
+      "type": "fill",
+      "question": "Tính 6 × 7.",
+      "correct_answer": "42",
+      "distractors": [
+        "13",
+        "36",
+        "48"
+      ],
+      "explanation": "6 × 6 = 36; 36 + 6 = 42.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q05",
+      "type": "mcq",
+      "question": "Tính 6 × 9.",
+      "options": [
+        "54",
+        "15",
+        "48",
+        "60"
+      ],
+      "correct_answer": "54",
+      "distractors": [
+        "15",
+        "48",
+        "60"
+      ],
+      "explanation": "6 × 8 = 48; 48 + 6 = 54.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q06",
+      "type": "fill",
+      "question": "Tính 18 : 6.",
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "12",
+        "4"
+      ],
+      "explanation": "6 × 3 = 18 nên 18 : 6 = 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q07",
+      "type": "mcq",
+      "question": "Tính 30 : 6.",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "24"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "6",
+        "24"
+      ],
+      "explanation": "6 × 5 = 30 nên thương là 5.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q08",
+      "type": "fill",
+      "question": "Tính 42 : 6.",
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "36"
+      ],
+      "explanation": "6 × 7 = 42 nên thương là 7.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q09",
+      "type": "mcq",
+      "question": "Tính 54 : 6.",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "48"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "6",
+        "48"
+      ],
+      "explanation": "6 × 9 = 54 nên thương là 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q10",
+      "type": "fill",
+      "question": "Tính 60 : 6.",
+      "correct_answer": "10",
+      "distractors": [
+        "9",
+        "6",
+        "54"
+      ],
+      "explanation": "6 × 10 = 60 nên thương là 10.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q11",
+      "type": "mcq",
+      "question": "Sáu nhóm, mỗi nhóm 6 que tính có tất cả bao nhiêu que?",
+      "options": [
+        "36",
+        "12",
+        "30",
+        "42"
+      ],
+      "correct_answer": "36",
+      "distractors": [
+        "12",
+        "30",
+        "42"
+      ],
+      "explanation": "6 × 6 = 36 que tính.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q12",
+      "type": "fill",
+      "question": "Điền số tiếp theo: 12, 18, 24, ...",
+      "correct_answer": "30",
+      "distractors": [
+        "25",
+        "28",
+        "36"
+      ],
+      "explanation": "Mỗi số sau hơn số trước 6; 24 + 6 = 30.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q13",
+      "type": "mcq",
+      "question": "Điền số tiếp theo: 54, 48, 42, ...",
+      "options": [
+        "36",
+        "35",
+        "38",
+        "48"
+      ],
+      "correct_answer": "36",
+      "distractors": [
+        "35",
+        "38",
+        "48"
+      ],
+      "explanation": "Mỗi bước bớt 6; 42 - 6 = 36.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q14",
+      "type": "fill",
+      "question": "6 × 8 hơn 6 × 7 bao nhiêu?",
+      "correct_answer": "6",
+      "distractors": [
+        "1",
+        "7",
+        "8"
+      ],
+      "explanation": "Hai tích hơn kém một nhóm 6; 48 - 42 = 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q15",
+      "type": "mcq",
+      "question": "Từ 6 × 3 = 18, suy ra 18 : 6 bằng bao nhiêu?",
+      "options": [
+        "3",
+        "6",
+        "12",
+        "2"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "12",
+        "2"
+      ],
+      "explanation": "Phép chia tìm số nhóm 6 trong 18, được 3 nhóm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q16",
+      "type": "fill",
+      "question": "Hai phép 6 × 1 và 36 : 6 cùng có kết quả nào?",
+      "correct_answer": "6",
+      "distractors": [
+        "1",
+        "36",
+        "30"
+      ],
+      "explanation": "6 × 1 = 6; 36 : 6 = 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q17",
+      "type": "mcq",
+      "question": "Kết quả 48 : 6 lớn hơn 24 : 6 bao nhiêu?",
+      "options": [
+        "4",
+        "2",
+        "6",
+        "24"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "2",
+        "6",
+        "24"
+      ],
+      "explanation": "48 : 6 = 8; 24 : 6 = 4; 8 - 4 = 4.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q18",
+      "type": "fill",
+      "question": "Trong 6 × 6 = 36, tích là số nào?",
+      "correct_answer": "36",
+      "distractors": [
+        "6",
+        "12",
+        "30"
+      ],
+      "explanation": "Hai thừa số đều là 6; kết quả 36 là tích.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q19",
+      "type": "mcq",
+      "question": "Một bạn tính 6 × 4 = 20. Kết quả đúng là bao nhiêu?",
+      "options": [
+        "24",
+        "20",
+        "10",
+        "18"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "20",
+        "10",
+        "18"
+      ],
+      "explanation": "6 × 4 = 6 + 6 + 6 + 6 = 24, không phải 20.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q20",
+      "type": "fill",
+      "question": "Tính theo hai bước: 6 × 5, rồi bớt 8.",
+      "correct_answer": "22",
+      "distractors": [
+        "30",
+        "38",
+        "13"
+      ],
+      "explanation": "6 × 5 = 30; 30 - 8 = 22.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q21",
+      "type": "mcq",
+      "question": "Mỗi hộp trứng có 6 quả. 8 hộp có tất cả mấy quả?",
+      "options": [
+        "48",
+        "14",
+        "42",
+        "54"
+      ],
+      "correct_answer": "48",
+      "distractors": [
+        "14",
+        "42",
+        "54"
+      ],
+      "explanation": "Có 8 nhóm 6 quả: 6 × 8 = 48 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q22",
+      "type": "fill",
+      "question": "Có 36 tấm thiệp chia đều cho 6 nhóm. Mỗi nhóm nhận mấy tấm?",
+      "correct_answer": "6",
+      "distractors": [
+        "30",
+        "5",
+        "7"
+      ],
+      "explanation": "36 : 6 = 6 tấm mỗi nhóm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q23",
+      "type": "mcq",
+      "question": "Lớp có 42 bạn, xếp mỗi hàng 6 bạn. Có mấy hàng?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "36"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "36"
+      ],
+      "explanation": "42 : 6 = 7 hàng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q24",
+      "type": "fill",
+      "question": "Mỗi hộp bút có 6 ngăn nhỏ. 3 hộp có tất cả mấy ngăn?",
+      "correct_answer": "18",
+      "distractors": [
+        "9",
+        "12",
+        "24"
+      ],
+      "explanation": "6 × 3 = 18 ngăn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q25",
+      "type": "mcq",
+      "question": "Sợi ruy băng 48 cm chia thành 6 đoạn bằng nhau. Mỗi đoạn mấy xăng-ti-mét?",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "42"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "6",
+        "7",
+        "42"
+      ],
+      "explanation": "48 : 6 = 8 cm mỗi đoạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q26",
+      "type": "fill",
+      "question": "Mỗi túi có 6 viên bi. 5 túi có bao nhiêu viên?",
+      "correct_answer": "30",
+      "distractors": [
+        "11",
+        "24",
+        "36"
+      ],
+      "explanation": "6 × 5 = 30 viên.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q27",
+      "type": "mcq",
+      "question": "Có 54 vở, mỗi bộ 6 quyển. Làm được mấy bộ?",
+      "options": [
+        "9",
+        "8",
+        "6",
+        "48"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "6",
+        "48"
+      ],
+      "explanation": "54 : 6 = 9 bộ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q28",
+      "type": "fill",
+      "question": "Mỗi chặng đường dài 6 m. Đi qua 7 chặng như vậy được bao nhiêu mét?",
+      "correct_answer": "42",
+      "distractors": [
+        "13",
+        "36",
+        "48"
+      ],
+      "explanation": "6 × 7 = 42 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q29",
+      "type": "mcq",
+      "question": "Có 24 bông hoa chia đều vào 6 lọ. Mỗi lọ mấy bông?",
+      "options": [
+        "4",
+        "6",
+        "18",
+        "3"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "6",
+        "18",
+        "3"
+      ],
+      "explanation": "24 : 6 = 4 bông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q30",
+      "type": "fill",
+      "question": "Mỗi lượt chơi nhận 6 điểm. Chơi 10 lượt được bao nhiêu điểm?",
+      "correct_answer": "60",
+      "distractors": [
+        "16",
+        "54",
+        "66"
+      ],
+      "explanation": "6 × 10 = 60 điểm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q31",
+      "type": "mcq",
+      "question": "Có 12 chiếc cốc, xếp mỗi khay 6 chiếc. Cần mấy khay?",
+      "options": [
+        "2",
+        "6",
+        "3",
+        "18"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "6",
+        "3",
+        "18"
+      ],
+      "explanation": "12 : 6 = 2 khay.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q32",
+      "type": "fill",
+      "question": "Có 18 nhãn vở chia đều cho 6 bạn. Mỗi bạn mấy nhãn?",
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "12",
+        "4"
+      ],
+      "explanation": "18 : 6 = 3 nhãn mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q33",
+      "type": "mcq",
+      "question": "Mỗi tổ có 6 bạn. Ba tổ cùng thêm 1 giáo viên hướng dẫn. Có tất cả mấy người?",
+      "options": [
+        "19",
+        "18",
+        "10",
+        "21"
+      ],
+      "correct_answer": "19",
+      "distractors": [
+        "18",
+        "10",
+        "21"
+      ],
+      "explanation": "6 × 3 = 18 bạn; 18 + 1 = 19 người.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q34",
+      "type": "fill",
+      "question": "Lan chuẩn bị 4 hộp, mỗi hộp 6 bánh, rồi ăn 3 bánh. Còn bao nhiêu bánh?",
+      "correct_answer": "21",
+      "distractors": [
+        "24",
+        "27",
+        "7"
+      ],
+      "explanation": "6 × 4 = 24 bánh; 24 - 3 = 21 bánh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q35",
+      "type": "mcq",
+      "question": "Nam cần 6 thẻ cho một bộ. Có 31 thẻ, dùng 30 thẻ làm bộ hoàn chỉnh. Làm được mấy bộ?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "25"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "6",
+        "25"
+      ],
+      "explanation": "30 : 6 = 5 bộ; 1 thẻ còn lại chưa dùng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q36",
+      "type": "fill",
+      "question": "Hai đội có mỗi đội 6 bạn. Cần thêm mấy bạn để được 15 bạn?",
+      "correct_answer": "3",
+      "distractors": [
+        "12",
+        "9",
+        "21"
+      ],
+      "explanation": "6 × 2 = 12 bạn; 15 - 12 = 3 bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q37",
+      "type": "mcq",
+      "question": "Mỗi can 6 lít nước. Bốn can có đủ 25 lít không? Nhập số lít còn thiếu.",
+      "options": [
+        "1",
+        "24",
+        "0",
+        "6"
+      ],
+      "correct_answer": "1",
+      "distractors": [
+        "24",
+        "0",
+        "6"
+      ],
+      "explanation": "6 × 4 = 24 lít; 25 - 24 = 1 lít, nên chưa đủ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q38",
+      "type": "fill",
+      "question": "Có 6 nhóm, mỗi nhóm 5 bạn. Chia lại 30 bạn thành 6 hàng bằng nhau. Mỗi hàng mấy bạn?",
+      "correct_answer": "5",
+      "distractors": [
+        "6",
+        "24",
+        "4"
+      ],
+      "explanation": "Có 30 bạn; 30 : 6 = 5 bạn mỗi hàng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q39",
+      "type": "mcq",
+      "question": "Mỗi hộp có 6 bút xanh và 2 bút đỏ. Hai hộp có bao nhiêu bút xanh?",
+      "options": [
+        "12",
+        "16",
+        "8",
+        "4"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "16",
+        "8",
+        "4"
+      ],
+      "explanation": "Chỉ tính bút xanh: 6 × 2 = 12 bút, không cộng bút đỏ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B09_Q40",
+      "type": "fill",
+      "question": "Mỗi nhóm cần 6 tấm giấy. Có 20 tấm và lấy thêm 4 tấm. Số giấy đủ cho mấy nhóm?",
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "6",
+        "18"
+      ],
+      "explanation": "20 + 4 = 24 tấm; 24 : 6 = 4 nhóm.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B09_GAME1",
+      "title": "Kiểm chứng nhóm sáu",
+      "mode": "tf",
+      "objective": "Đọc câu hỏi và kiểm chứng một kết quả bằng bảng nhân/chia 6.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu trong bài và đưa ra một kết quả để kiểm chứng.",
+        "Chọn Đúng nếu kết quả phù hợp, chọn Sai nếu không phù hợp; đọc lời giải trước khi sang câu.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B09_Q01",
+        "TOAN3_T1_B09_Q02",
+        "TOAN3_T1_B09_Q03",
+        "TOAN3_T1_B09_Q04",
+        "TOAN3_T1_B09_Q05",
+        "TOAN3_T1_B09_Q06",
+        "TOAN3_T1_B09_Q07",
+        "TOAN3_T1_B09_Q08",
+        "TOAN3_T1_B09_Q09",
+        "TOAN3_T1_B09_Q10",
+        "TOAN3_T1_B09_Q11",
+        "TOAN3_T1_B09_Q12",
+        "TOAN3_T1_B09_Q13",
+        "TOAN3_T1_B09_Q14",
+        "TOAN3_T1_B09_Q15",
+        "TOAN3_T1_B09_Q16",
+        "TOAN3_T1_B09_Q17",
+        "TOAN3_T1_B09_Q18",
+        "TOAN3_T1_B09_Q19",
+        "TOAN3_T1_B09_Q20",
+        "TOAN3_T1_B09_Q21",
+        "TOAN3_T1_B09_Q22",
+        "TOAN3_T1_B09_Q23",
+        "TOAN3_T1_B09_Q24",
+        "TOAN3_T1_B09_Q25",
+        "TOAN3_T1_B09_Q26",
+        "TOAN3_T1_B09_Q27",
+        "TOAN3_T1_B09_Q28",
+        "TOAN3_T1_B09_Q29",
+        "TOAN3_T1_B09_Q30",
+        "TOAN3_T1_B09_Q31",
+        "TOAN3_T1_B09_Q32",
+        "TOAN3_T1_B09_Q33",
+        "TOAN3_T1_B09_Q34",
+        "TOAN3_T1_B09_Q35",
+        "TOAN3_T1_B09_Q36",
+        "TOAN3_T1_B09_Q37",
+        "TOAN3_T1_B09_Q38",
+        "TOAN3_T1_B09_Q39",
+        "TOAN3_T1_B09_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

@@ -9,7 +9,8 @@
     return content[id].practice.map(function (q) {
       return {id:id, question_id:q.question_id, type:q.type, prompt:q.question,
         answer:q.correct_answer, wrong:(q.options||q.distractors||[]).filter(function(a){return a!==q.correct_answer;}),
-        explanation:q.explanation, difficulty:q.difficulty, figure:q.figure};
+        explanation:q.explanation, difficulty:q.difficulty, figure:q.figure,
+        reference_table:q.reference_table?content[id].reference_table:null};
     });
   }
   function sample(id) {
@@ -39,10 +40,13 @@
   };
   function list(items){return '<ul>'+items.map(function(s){return '<li>'+esc(s)+'</li>';}).join('')+'</ul>';}
   function figureHTML(f){return '<figure><img style="width:100%;max-width:560px;height:auto" src="'+esc(f.path)+'" alt="'+esc(f.caption)+'"><figcaption>'+esc(f.caption)+'</figcaption></figure>';}
+  function referenceTable(t){
+    return '<div style="overflow-x:auto"><table style="border-collapse:collapse;text-align:center;width:100%"><caption>'+esc(t.caption)+'</caption><thead><tr><th scope="col">×</th>'+t.columns.map(function(n){return '<th scope="col" style="padding:8px;border:1px solid #ccd5e5">'+n+'</th>';}).join('')+'</tr></thead><tbody>'+t.rows.map(function(row){return '<tr><th scope="row" style="padding:8px;border:1px solid #ccd5e5">'+row.factor+'</th>'+row.values.map(function(n){return '<td style="padding:8px;border:1px solid #ccd5e5">'+n+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>';
+  }
   function showFigure(q){
-    if(!q||!q.figure||A.querySelector('figure[data-question]'))return;
+    if(!q||(!q.figure&&!q.reference_table)||A.querySelector('[data-question]'))return;
     var heading=A.querySelector('.card h2')||A.querySelector('.card h3');
-    if(heading){var node=document.createElement('div');node.innerHTML=figureHTML(q.figure);node.firstChild.dataset.question='true';heading.insertAdjacentElement('afterend',node.firstChild);}
+    if(heading){var node=document.createElement('div');node.innerHTML=(q.figure?figureHTML(q.figure):'')+(q.reference_table?referenceTable(q.reference_table):'');node.dataset.question='true';heading.insertAdjacentElement('afterend',node);}
   }
   quiz=function(){previousQuiz();showFigure(v.qs&&v.qs[v.i]);};
   lesson=function(){
@@ -54,6 +58,7 @@
       '<h3>🎯 Mục tiêu</h3>'+list(c.objectives)+'<h3>🌟 Khám phá kiến thức</h3><p>'+esc(c.knowledge.introduction)+'</p>'+list(c.knowledge.rules)+
       '<h3>👣 Cách học</h3>'+list(c.knowledge.steps)+'<h3>💡 Ví dụ</h3>'+c.examples.map(function(e){return '<h4>'+esc(e.question)+'</h4>'+list(e.steps);}).join('')+
       '<h3>🔎 Lỗi thường gặp</h3>'+list(c.knowledge.common_errors)+(c.figures?'<h3>📐 Hình minh họa</h3>'+c.figures.map(figureHTML).join(''):'')+
+      (c.reference_table?'<h3>🔢 Tra bảng</h3>'+referenceTable(c.reference_table):'')+
       '<h3>🎯 Luyện tập</h3><p>Mỗi lượt 10 câu: 3 nhận biết, 3 thông hiểu, 4 vận dụng. Xem lời giải sau khi trả lời.</p>'+
       '<button class="big" onclick="startQ(\''+c.id+'\',\'all\')">Luyện tập 10 câu</button> '+
       '<button onclick="startQ(\''+c.id+'\',\'mcq\')">Trắc nghiệm</button> '+
