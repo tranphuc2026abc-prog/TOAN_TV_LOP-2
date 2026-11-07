@@ -1,0 +1,795 @@
+{
+  "id": "TOAN3_T1_B36",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 36,
+  "title": "Nhân số có ba chữ số với số có một chữ số",
+  "topic": "Nhân ba chữ số với một chữ số",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      97,
+      98
+    ],
+    "pdf_pages": [
+      98,
+      99
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Đặt tính đúng hàng và nhân từ đơn vị đến trăm.",
+    "Xử lí số nhớ, chữ số 0 và vận dụng vào các nhóm bằng nhau trong phạm vi 1000."
+  ],
+  "knowledge": {
+    "introduction": "Số có ba chữ số gồm trăm, chục và đơn vị. Khi nhân với số một chữ số, phải nhân đủ cả ba hàng. Chữ số 0 không làm mất vị trí hàng; nếu hàng trước có số nhớ, vẫn phải cộng số nhớ vào hàng đang tính.",
+    "rules": [
+      "Đặt thừa số một chữ số thẳng hàng đơn vị của số ba chữ số.",
+      "Nhân từ đơn vị sang chục rồi trăm. Tích ở một hàng đủ 10 thì viết chữ số đơn vị và nhớ sang hàng kế tiếp.",
+      "Nhân hàng kế tiếp rồi cộng số nhớ trước khi viết và xác định số nhớ mới.",
+      "Chữ số 0 trong thừa số vẫn phải được xử lí theo hàng, có thể nhận số nhớ từ hàng trước.",
+      "Nhẩm số tròn trăm bằng cách nhân số trăm rồi viết thành số. Các bài trong đây có kết quả không quá 1000."
+    ],
+    "steps": [
+      "Đặt thẳng hàng các thừa số.",
+      "Nhân đơn vị; ghi chữ số và số nhớ.",
+      "Nhân chục, cộng số nhớ; tiếp tục hàng trăm.",
+      "Kiểm tra bằng tách số hoặc cộng các nhóm; ghi đơn vị theo tình huống."
+    ],
+    "common_errors": [
+      "Bỏ quên số nhớ từ hàng đơn vị hoặc chục.",
+      "Bỏ chữ số 0 ở hàng chục làm lệch hàng.",
+      "Chỉ nhân hai chữ số cuối mà quên hàng trăm.",
+      "Cộng số lần thay vì nhân khi đề nói nhiều nhóm bằng nhau."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Tính 218 × 3.",
+      "steps": [
+        "3 × 8 = 24, viết 4 nhớ 2.",
+        "3 × 1 = 3, thêm 2 được 5, viết 5.",
+        "3 × 2 = 6, viết 6. Kết quả 654."
+      ]
+    },
+    {
+      "question": "Tính 206 × 4.",
+      "steps": [
+        "4 × 6 = 24, viết 4 nhớ 2.",
+        "4 × 0 = 0, thêm 2 được 2, viết 2.",
+        "4 × 2 = 8. Kết quả 824."
+      ]
+    },
+    {
+      "question": "Ba túi, mỗi túi 145 g; dùng 120 g. Còn bao nhiêu?",
+      "steps": [
+        "145 × 3 = 435 g.",
+        "435 - 120 = 315. Còn 315 g."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B36_Q01",
+      "type": "mcq",
+      "question": "Tính 123 × 2.",
+      "options": [
+        "246",
+        "243",
+        "226",
+        "236"
+      ],
+      "correct_answer": "246",
+      "distractors": [
+        "243",
+        "226",
+        "236"
+      ],
+      "explanation": "2 × 3 = 6; 2 × 2 = 4 chục; 2 × 1 = 2 trăm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q02",
+      "type": "fill",
+      "question": "Tính nhẩm 300 × 2.",
+      "correct_answer": "600",
+      "distractors": [
+        "60",
+        "302",
+        "500"
+      ],
+      "explanation": "3 trăm nhân 2 bằng 6 trăm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q03",
+      "type": "mcq",
+      "question": "Khi nhân đặt tính, tính từ hàng nào trước?",
+      "options": [
+        "đơn vị",
+        "trăm",
+        "chục",
+        "nghìn"
+      ],
+      "correct_answer": "đơn vị",
+      "distractors": [
+        "trăm",
+        "chục",
+        "nghìn"
+      ],
+      "explanation": "Nhân từ đơn vị rồi đến chục, trăm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q04",
+      "type": "fill",
+      "question": "Tính 210 × 3.",
+      "correct_answer": "630",
+      "distractors": [
+        "63",
+        "213",
+        "620"
+      ],
+      "explanation": "3 × 0 = 0; 3 × 1 = 3 chục; 3 × 2 = 6 trăm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q05",
+      "type": "mcq",
+      "question": "Tính 104 × 2.",
+      "options": [
+        "208",
+        "28",
+        "204",
+        "108"
+      ],
+      "correct_answer": "208",
+      "distractors": [
+        "28",
+        "204",
+        "108"
+      ],
+      "explanation": "Nhân cả ba hàng; hàng chục bằng 0 vẫn phải giữ đúng vị trí.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q06",
+      "type": "fill",
+      "question": "Tính 132 × 3.",
+      "correct_answer": "396",
+      "distractors": [
+        "393",
+        "369",
+        "306"
+      ],
+      "explanation": "3 × 2 = 6; 3 × 3 = 9 chục; 3 × 1 = 3 trăm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q07",
+      "type": "mcq",
+      "question": "Trong 126 × 4, tích ở hàng đơn vị là 24. Viết 4 rồi nhớ mấy?",
+      "options": [
+        "2",
+        "4",
+        "1",
+        "6"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "1",
+        "6"
+      ],
+      "explanation": "24 đơn vị gồm 2 chục và 4 đơn vị.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q08",
+      "type": "fill",
+      "question": "Tính nhẩm 400 × 2.",
+      "correct_answer": "800",
+      "distractors": [
+        "80",
+        "402",
+        "600"
+      ],
+      "explanation": "4 trăm nhân 2 bằng 8 trăm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q09",
+      "type": "mcq",
+      "question": "Tính 111 × 5.",
+      "options": [
+        "555",
+        "115",
+        "550",
+        "515"
+      ],
+      "correct_answer": "555",
+      "distractors": [
+        "115",
+        "550",
+        "515"
+      ],
+      "explanation": "Mỗi hàng 1 nhân 5 được 5 ở hàng tương ứng.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q10",
+      "type": "fill",
+      "question": "Thừa số một chữ số đặt dưới, thẳng với hàng nào của số ba chữ số?",
+      "correct_answer": "đơn vị",
+      "distractors": [
+        "trăm",
+        "chục",
+        "nghìn"
+      ],
+      "explanation": "Đặt thẳng hàng đơn vị trước khi nhân.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q11",
+      "type": "mcq",
+      "question": "Bạn tính 126 × 4 bằng 484 vì quên số nhớ từ đơn vị. Tích đúng mấy?",
+      "options": [
+        "504",
+        "484",
+        "494",
+        "524"
+      ],
+      "correct_answer": "504",
+      "distractors": [
+        "484",
+        "494",
+        "524"
+      ],
+      "explanation": "4 × 6 = 24, viết 4 nhớ 2; 4 × 2 + 2 = 10, viết 0 nhớ 1; 4 × 1 + 1 = 5.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q12",
+      "type": "fill",
+      "question": "Tính 207 × 3, hàng chục của kết quả là chữ số mấy?",
+      "correct_answer": "2",
+      "distractors": [
+        "0",
+        "1",
+        "6"
+      ],
+      "explanation": "3 × 7 = 21, nhớ 2; 3 × 0 + 2 = 2 chục; tích là 621.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q13",
+      "type": "mcq",
+      "question": "Trong 154 × 3, sau khi nhân hàng đơn vị, cần nhớ mấy sang chục?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct_answer": "1",
+      "distractors": [
+        "2",
+        "3",
+        "4"
+      ],
+      "explanation": "3 × 4 = 12, viết 2 nhớ 1.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q14",
+      "type": "fill",
+      "question": "Tách 312 thành 300, 10, 2 để nhân 2. Phần 300 nhân 2 bằng mấy?",
+      "correct_answer": "600",
+      "distractors": [
+        "60",
+        "302",
+        "500"
+      ],
+      "explanation": "300 × 2 = 600, rồi cộng các phần còn lại.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q15",
+      "type": "mcq",
+      "question": "Tích 205 × 4 có chữ số hàng đơn vị là mấy?",
+      "options": [
+        "0",
+        "5",
+        "2",
+        "4"
+      ],
+      "correct_answer": "0",
+      "distractors": [
+        "5",
+        "2",
+        "4"
+      ],
+      "explanation": "4 × 5 = 20, viết 0 nhớ 2; tích là 820.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q16",
+      "type": "fill",
+      "question": "Một số có 3 trăm, 2 chục, 1 đơn vị nhân 3 được mấy?",
+      "correct_answer": "963",
+      "distractors": [
+        "936",
+        "693",
+        "324"
+      ],
+      "explanation": "Số đó là 321; 321 × 3 = 963.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q17",
+      "type": "mcq",
+      "question": "Từ 142 × 3 = 426, suy ra ba nhóm 142 đồ vật có mấy đồ vật?",
+      "options": [
+        "426",
+        "145",
+        "284",
+        "423"
+      ],
+      "correct_answer": "426",
+      "distractors": [
+        "145",
+        "284",
+        "423"
+      ],
+      "explanation": "Ba nhóm bằng nhau dùng tích 142 × 3.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q18",
+      "type": "fill",
+      "question": "Bạn tính 108 × 4 ra 32 vì bỏ hai hàng đầu. Tích đúng là mấy?",
+      "correct_answer": "432",
+      "distractors": [
+        "32",
+        "408",
+        "412"
+      ],
+      "explanation": "4 × 8 = 32, nhớ 3; hàng chục được 3; hàng trăm được 4.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q19",
+      "type": "mcq",
+      "question": "Hai phép 234 × 2 và 200 × 2 chênh nhau mấy?",
+      "options": [
+        "68",
+        "34",
+        "468",
+        "868"
+      ],
+      "correct_answer": "68",
+      "distractors": [
+        "34",
+        "468",
+        "868"
+      ],
+      "explanation": "234 × 2 = 468; 200 × 2 = 400; 468 - 400 = 68.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q20",
+      "type": "fill",
+      "question": "Muốn kiểm tra 125 × 4, cộng liên tiếp 125 mấy lần?",
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "5",
+        "125"
+      ],
+      "explanation": "Phép nhân biểu thị bốn nhóm 125 bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q21",
+      "type": "mcq",
+      "question": "Mỗi bó 124 que, có 3 bó. Có mấy que?",
+      "options": [
+        "372",
+        "127",
+        "342",
+        "362"
+      ],
+      "correct_answer": "372",
+      "distractors": [
+        "127",
+        "342",
+        "362"
+      ],
+      "explanation": "124 × 3 = 372 que.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q22",
+      "type": "fill",
+      "question": "Mỗi hộp 216 nhãn, có 4 hộp. Có mấy nhãn?",
+      "correct_answer": "864",
+      "distractors": [
+        "220",
+        "844",
+        "824"
+      ],
+      "explanation": "216 × 4 = 864 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q23",
+      "type": "mcq",
+      "question": "Mỗi ngày làm 135 thiệp, làm 5 ngày. Được mấy thiệp?",
+      "options": [
+        "675",
+        "140",
+        "625",
+        "650"
+      ],
+      "correct_answer": "675",
+      "distractors": [
+        "140",
+        "625",
+        "650"
+      ],
+      "explanation": "135 × 5 = 675 thiệp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q24",
+      "type": "fill",
+      "question": "Một cuộn dây dài 148 cm. Hai cuộn bằng nhau dài tổng mấy cm?",
+      "correct_answer": "296",
+      "distractors": [
+        "150",
+        "286",
+        "288"
+      ],
+      "explanation": "148 × 2 = 296 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q25",
+      "type": "mcq",
+      "question": "Có 3 thùng, mỗi thùng 225 quả. Bán 150 quả thì còn mấy quả?",
+      "options": [
+        "525",
+        "675",
+        "575",
+        "375"
+      ],
+      "correct_answer": "525",
+      "distractors": [
+        "675",
+        "575",
+        "375"
+      ],
+      "explanation": "225 × 3 = 675; 675 - 150 = 525 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q26",
+      "type": "fill",
+      "question": "Mỗi chuyến chuyển 108 kg. Bốn chuyến chuyển mấy kg?",
+      "correct_answer": "432",
+      "distractors": [
+        "112",
+        "408",
+        "412"
+      ],
+      "explanation": "108 × 4 = 432 kg.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q27",
+      "type": "mcq",
+      "question": "Mỗi chai 125 ml, dùng 6 chai. Tổng mấy ml?",
+      "options": [
+        "750",
+        "131",
+        "650",
+        "725"
+      ],
+      "correct_answer": "750",
+      "distractors": [
+        "131",
+        "650",
+        "725"
+      ],
+      "explanation": "125 × 6 = 750 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q28",
+      "type": "fill",
+      "question": "Một đoạn đường 215 m, đi 3 lượt như thế. Tổng mấy mét?",
+      "correct_answer": "645",
+      "distractors": [
+        "218",
+        "615",
+        "625"
+      ],
+      "explanation": "215 × 3 = 645 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q29",
+      "type": "mcq",
+      "question": "Có 2 hộp mỗi hộp 307 viên. Cần 700 viên thì còn thiếu mấy viên?",
+      "options": [
+        "86",
+        "614",
+        "93",
+        "96"
+      ],
+      "correct_answer": "86",
+      "distractors": [
+        "614",
+        "93",
+        "96"
+      ],
+      "explanation": "307 × 2 = 614; 700 - 614 = 86.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q30",
+      "type": "fill",
+      "question": "Một túi 156 g, 4 túi như thế nặng mấy gam?",
+      "correct_answer": "624",
+      "distractors": [
+        "604",
+        "664",
+        "620"
+      ],
+      "explanation": "156 × 4 = 624 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q31",
+      "type": "mcq",
+      "question": "Có 3 gói mỗi gói 248 hạt. Gieo 200 hạt thì còn mấy hạt?",
+      "options": [
+        "544",
+        "744",
+        "444",
+        "548"
+      ],
+      "correct_answer": "544",
+      "distractors": [
+        "744",
+        "444",
+        "548"
+      ],
+      "explanation": "248 × 3 = 744; 744 - 200 = 544 hạt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q32",
+      "type": "fill",
+      "question": "Có 5 đoạn dây mỗi đoạn 109 mm. Tổng mấy mm?",
+      "correct_answer": "545",
+      "distractors": [
+        "509",
+        "514",
+        "540"
+      ],
+      "explanation": "109 × 5 = 545 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q33",
+      "type": "mcq",
+      "question": "Mỗi đội trồng 164 cây, 3 đội trồng tổng mấy cây?",
+      "options": [
+        "492",
+        "482",
+        "462",
+        "167"
+      ],
+      "correct_answer": "492",
+      "distractors": [
+        "482",
+        "462",
+        "167"
+      ],
+      "explanation": "164 × 3 = 492 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q34",
+      "type": "fill",
+      "question": "Có 4 hũ mỗi hũ 175 ml mật. Dùng 280 ml thì còn mấy ml?",
+      "correct_answer": "420",
+      "distractors": [
+        "700",
+        "595",
+        "380"
+      ],
+      "explanation": "175 × 4 = 700; 700 - 280 = 420 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q35",
+      "type": "mcq",
+      "question": "Một lô 132 quyển, 6 lô như thế có mấy quyển?",
+      "options": [
+        "792",
+        "762",
+        "782",
+        "138"
+      ],
+      "correct_answer": "792",
+      "distractors": [
+        "762",
+        "782",
+        "138"
+      ],
+      "explanation": "132 × 6 = 792 quyển.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q36",
+      "type": "fill",
+      "question": "Mỗi hàng có 203 nhãn, 4 hàng. Thêm 18 nhãn rời thì có mấy nhãn?",
+      "correct_answer": "830",
+      "distractors": [
+        "812",
+        "822",
+        "850"
+      ],
+      "explanation": "203 × 4 = 812; 812 + 18 = 830 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q37",
+      "type": "mcq",
+      "question": "Mỗi nhóm góp 118 chiếc, 7 nhóm góp tổng mấy chiếc?",
+      "options": [
+        "826",
+        "786",
+        "816",
+        "125"
+      ],
+      "correct_answer": "826",
+      "distractors": [
+        "786",
+        "816",
+        "125"
+      ],
+      "explanation": "118 × 7 = 826 chiếc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q38",
+      "type": "fill",
+      "question": "Một cuộn 236 cm, hai cuộn dài tổng bao nhiêu cm nếu nối không chồng mép?",
+      "correct_answer": "472",
+      "distractors": [
+        "462",
+        "466",
+        "238"
+      ],
+      "explanation": "236 × 2 = 472 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q39",
+      "type": "mcq",
+      "question": "Có 3 giỏ mỗi giỏ 265 quả. Giỏ khác 200 quả. Tổng mấy quả?",
+      "options": [
+        "995",
+        "795",
+        "895",
+        "965"
+      ],
+      "correct_answer": "995",
+      "distractors": [
+        "795",
+        "895",
+        "965"
+      ],
+      "explanation": "265 × 3 = 795; 795 + 200 = 995 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B36_Q40",
+      "type": "fill",
+      "question": "Mỗi chuyến chở 129 kg, 5 chuyến. Đã chở 600 kg trong số ấy thì còn mấy kg thuộc kế hoạch?",
+      "correct_answer": "45",
+      "distractors": [
+        "645",
+        "55",
+        "29"
+      ],
+      "explanation": "129 × 5 = 645; 645 - 600 = 45 kg.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B36_GAME1",
+      "title": "Tăng tốc nhân ba chữ số",
+      "mode": "speed",
+      "objective": "Nhân đủ hàng, cộng số nhớ và giải các nhóm bằng nhau trong 60 giây.",
+      "rules": [
+        "Trả lời các câu thuộc bài trong 60 giây.",
+        "Mỗi câu đúng được 10 điểm, sai không được điểm; chuyển ngay sang câu tiếp.",
+        "Hết giờ thì kết thúc. Điểm riêng của lượt chơi, không thay kết quả luyện tập."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B36_Q01",
+        "TOAN3_T1_B36_Q02",
+        "TOAN3_T1_B36_Q03",
+        "TOAN3_T1_B36_Q04",
+        "TOAN3_T1_B36_Q05",
+        "TOAN3_T1_B36_Q06",
+        "TOAN3_T1_B36_Q07",
+        "TOAN3_T1_B36_Q08",
+        "TOAN3_T1_B36_Q09",
+        "TOAN3_T1_B36_Q10",
+        "TOAN3_T1_B36_Q11",
+        "TOAN3_T1_B36_Q12",
+        "TOAN3_T1_B36_Q13",
+        "TOAN3_T1_B36_Q14",
+        "TOAN3_T1_B36_Q15",
+        "TOAN3_T1_B36_Q16",
+        "TOAN3_T1_B36_Q17",
+        "TOAN3_T1_B36_Q18",
+        "TOAN3_T1_B36_Q19",
+        "TOAN3_T1_B36_Q20",
+        "TOAN3_T1_B36_Q21",
+        "TOAN3_T1_B36_Q22",
+        "TOAN3_T1_B36_Q23",
+        "TOAN3_T1_B36_Q24",
+        "TOAN3_T1_B36_Q25",
+        "TOAN3_T1_B36_Q26",
+        "TOAN3_T1_B36_Q27",
+        "TOAN3_T1_B36_Q28",
+        "TOAN3_T1_B36_Q29",
+        "TOAN3_T1_B36_Q30",
+        "TOAN3_T1_B36_Q31",
+        "TOAN3_T1_B36_Q32",
+        "TOAN3_T1_B36_Q33",
+        "TOAN3_T1_B36_Q34",
+        "TOAN3_T1_B36_Q35",
+        "TOAN3_T1_B36_Q36",
+        "TOAN3_T1_B36_Q37",
+        "TOAN3_T1_B36_Q38",
+        "TOAN3_T1_B36_Q39",
+        "TOAN3_T1_B36_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": null
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

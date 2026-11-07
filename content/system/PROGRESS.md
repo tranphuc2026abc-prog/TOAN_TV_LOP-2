@@ -1,3 +1,22 @@
+# Batch 9 — trạng thái mới nhất, 07/11/2026
+
+| Môn | AI biên soạn và kiểm tra | Tổng mục | Còn nháp |
+|---|---:|---:|---:|
+| Toán | 36 | 81 | 45 |
+| Tiếng Việt | 0 | 62 | 62 |
+| Tiếng Anh | 0 | 25 | 25 |
+| Tổng | 36 | 168 | 132 |
+
+- 1440 câu, 36 trò chơi. Giáo viên duyệt Toán 1–4; 32 bài chờ duyệt. Bài mới giữ AI_CHECKED_AWAITING_TEACHER.
+- Batch 9: Toán 33–36, 160 câu riêng (mỗi bài 10/10/20), 4 trò chơi, 2 SVG mới; lượt luyện tập 10 câu 3/3/4. Bài 33–34 có hoạt động dụng cụ.
+- Đã đọc trực quan trang in 91–98 (PDF 92–99) Toán tập 1: nhiệt độ, trải nghiệm đo lường, luyện tập chung, nhân ba chữ số. Số liệu nhiệt độ là mô phỏng học toán.
+- validate_site.py/validate_content.py đạt: 36 bài, 1440 câu, 1366 đẳng thức lời giải. DOM 36 bài và test_batch7.py/test_batch8.py/test_batch9.py đạt. Hai SVG đã render và xem; chưa có Chromium để kiểm thử trình duyệt thật.
+- Batch 8 đã xác minh commit e2ec25ed0b6472d889e9158ae1662c19eba0e60e; luồng Publish class 3 website to GitHub Pages thành công.
+- Checkpoint tiếp: Toán 37–40; đọc nguồn và xác nhận trang theo danh mục trước khi biên soạn. Giữ thứ tự Toán → Tiếng Việt → Tiếng Anh.
+- Kiểm thử: python scripts/validate_site.py; python scripts/test_batch7.py; python scripts/test_batch8.py; python scripts/test_batch9.py; npm test.
+
+## Lịch sử trước Batch 9
+
 # Batch 8 — trạng thái mới nhất, 07/11/2026
 
 | Môn | AI biên soạn và kiểm tra | Tổng mục | Còn nháp |

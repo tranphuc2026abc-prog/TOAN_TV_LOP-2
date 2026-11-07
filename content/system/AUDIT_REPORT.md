@@ -1,3 +1,13 @@
+## Batch 9 — Toán 33–36, 07/11/2026
+
+- Đã render và đọc trực quan toàn bộ trang PDF 92–99 (trang in 91–98) bản Toán tập 1 có sẵn trong môi trường. Chưa xác minh hash với PDF trong repo.
+- 4 JSON, 4 Markdown, 160 câu và phương án nhiễu mới, 4 trò chơi. Hai SVG tự dựng: nhiệt kế P/Q có mỗi khoảng 2 °C, thẻ dài 35 mm trên thước chia mm. Mọi câu cần hình đều tham chiếu hình ngay trong câu; đã render và xem cả hai hình, sửa chỗ nhãn đơn vị nhiệt kế bị chạm số trước khi lưu.
+- Bài 33–34 có hoạt động thực hành với dụng cụ, ghi số/đơn vị và tự kiểm tra. Thiếu dụng cụ thì ghi chưa thực hiện, không đoán kết quả. Số liệu nhiệt độ dùng luyện toán là mô phỏng, không phải thời tiết hiện tại hay tư vấn sức khỏe.
+- validate_site.py/validate_content.py đạt: 36 bài/1440 câu, 1366 đẳng thức số được tính lại; ID, phân mức 10/10/20, lựa chọn, đáp án, lời giải, Markdown, hình, game và trạng thái đồng bộ.
+- test_batch9.py: 160 câu trong batch không trùng nguyên văn, 32 đáp án trọng yếu; tính độc lập các phép nhân thuần túy, chênh nhiệt độ, vạch thước, đong bằng hai cốc và số nhớ qua chữ số 0. test_batch7.py và test_batch8.py vẫn đạt.
+- test_content_dom.cjs đạt toàn bộ 36 bài: lấy 10 câu 3/3/4, đổi bộ, chấm điểm, game đúng bài, hình/bảng/vẽ cũ, lưu/nạp tiến độ và fallback file lỗi. Renderer và wl3 không đổi.
+- Chưa có Chromium để kiểm thử bố cục, cảm ứng, âm thanh thực tế. Tổng 36/168 có học liệu riêng; 1440 câu, 36 trò chơi; giáo viên duyệt 4, chờ duyệt 32, còn 132 mục nháp. Checkpoint tiếp Toán 37–40.
+
 ## Batch 8 — Toán 29–32, 07/11/2026
 
 - Nguồn thực đọc: bản PDF Toán tập 1 sẵn trong môi trường, trang PDF 84–91 (trang in 83–90), đã render và đọc trực quan cả 8 trang. Chưa xác minh hash bản đính kèm với bản trong repo.

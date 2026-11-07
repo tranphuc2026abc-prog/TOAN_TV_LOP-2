@@ -1,0 +1,243 @@
+[
+  {
+    "topic": "Nhiệt độ và độ C",
+    "objectives": [
+      "Biết nhiệt kế dùng đo nhiệt độ và kí hiệu °C.",
+      "Đọc thang chia, so sánh số đo và tìm mức tăng/giảm bằng số nguyên trong phạm vi đã học."
+    ],
+    "intro": "Nhiệt độ cho biết mức nóng hay lạnh. Dùng nhiệt kế để có số đo, thay vì chỉ đoán bằng cảm giác. Trong bài này, các số đo thời tiết là dữ liệu mô phỏng để luyện toán, không phải dự báo hiện tại.",
+    "rules": [
+      "Độ C viết là °C, đọc là độ xê. Nhiệt kế là dụng cụ đo nhiệt độ.",
+      "Đọc số theo vạch ở đầu cột chất lỏng hoặc theo số hiển thị của nhiệt kế điện tử.",
+      "Cần xem mỗi khoảng chia ứng với mấy độ C, không mặc định mọi vạch là 1 độ.",
+      "Trong cùng thang °C, số lớn hơn biểu thị nhiệt độ cao hơn. Muốn biết chênh lệch, lấy số lớn trừ số bé.",
+      "Nhiệt độ tăng dùng cộng, giảm dùng trừ theo số độ đề cho. Không suy luận nhiệt độ bằng cách cộng các mức của hai nơi."
+    ],
+    "steps": [
+      "Xem đơn vị và các số mốc trên thang.",
+      "Tính giá trị một khoảng nhỏ nếu cần.",
+      "Đọc vạch đúng đầu cột chỉ nhiệt độ.",
+      "Ghi số và °C; so sánh hoặc tìm chênh lệch đúng câu hỏi."
+    ],
+    "errors": [
+      "Đếm vạch thay vì khoảng.",
+      "Nhìn chiều dài hình nhiệt kế thay vì số trên thang.",
+      "Bỏ kí hiệu °C khiến không rõ đang đo gì.",
+      "Gọi 0 °C là không có nhiệt độ."
+    ],
+    "examples": [
+      [
+        "Một nhiệt kế có mỗi khoảng 2 °C, đầu cột đỏ ở hai khoảng trên 20 °C. Đọc số đo.",
+        [
+          "2 × 2 = 4 độ C.",
+          "20 + 4 = 24. Nhiệt kế chỉ 24 °C."
+        ]
+      ],
+      [
+        "Bản ghi mô phỏng có sáng 18 °C, trưa 26 °C. Trưa tăng mấy độ?",
+        [
+          "26 - 18 = 8.",
+          "Trưa cao hơn sáng 8 độ C."
+        ]
+      ]
+    ],
+    "game": [
+      "Đọc đúng nhiệt kế",
+      "Đọc vạch, so sánh và tính mức tăng giảm của nhiệt độ mô phỏng."
+    ],
+    "mode": "treasure",
+    "activities": [
+      {
+        "title": "Ghi nhiệt độ không khí",
+        "materials": [
+          "Nhiệt kế đo không khí",
+          "Giấy bút"
+        ],
+        "steps": [
+          "Nhờ người lớn đặt nhiệt kế theo hướng dẫn của dụng cụ, tránh vị trí bị nắng chiếu trực tiếp.",
+          "Quan sát số chỉ sau khi ổn định theo hướng dẫn.",
+          "Ghi vị trí, thời điểm, số và °C; lặp lại ở một thời điểm khác để so sánh."
+        ],
+        "check": [
+          "Ghi đúng đơn vị và thời điểm, không chỉ ghi một số rời.",
+          "Không tự dùng nước nóng để thử nhiệt kế; nhờ người lớn hỗ trợ dụng cụ."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Thực hành các dụng cụ đo",
+    "objectives": [
+      "Chọn dụng cụ và đơn vị phù hợp cho độ dài, khối lượng, dung tích, nhiệt độ.",
+      "Thực hành đo và đọc số, giải thích sai số do đặt dụng cụ chưa đúng."
+    ],
+    "intro": "Mỗi dụng cụ giúp đo một đại lượng. Trước khi làm phép tính, cần biết số đo thuộc đại lượng nào, dùng đơn vị gì và đọc được bằng cách nào. Kết quả đo thật có thể khác giữa các vật; không lấy kích thước hình trên màn hình làm kích thước vật thật.",
+    "rules": [
+      "Thước chia mm đo độ dài; cân đo khối lượng g hoặc kg; ca chia ml đo dung tích; nhiệt kế đo nhiệt độ °C.",
+      "Đặt một đầu vật ở vạch 0 khi đo độ dài. Nếu lệch 0, lấy số cuối trừ số đầu.",
+      "Cân cần ở trạng thái cân bằng hoặc ổn định. Tính đủ khối lượng quả cân; nếu hỏi ruột vật, trừ vỏ.",
+      "Đọc ca ở mặt phẳng ngang, mắt ngang mực nước; phân biệt lượng hiện có với dung tích tối đa.",
+      "Đổi cùng đơn vị trước khi so sánh hoặc tính; không đổi g thành ml chỉ bằng giữ nguyên số."
+    ],
+    "steps": [
+      "Xác định đại lượng cần đo và chọn dụng cụ.",
+      "Kiểm tra vạch chia, đơn vị, cách đặt dụng cụ.",
+      "Đo rồi ghi cả số và đơn vị.",
+      "Đo lại nếu cách đặt sai hoặc kết quả bất thường; giải thích cách tính khi cần."
+    ],
+    "errors": [
+      "Lẫn mm, g, ml và °C.",
+      "Để thước lệch 0 nhưng vẫn lấy số đầu cuối như thể bắt đầu tại 0.",
+      "Coi lượng nước hiện có là dung tích tối đa.",
+      "Chép số đo mà bỏ đơn vị."
+    ],
+    "examples": [
+      [
+        "Một vật bắt đầu ở vạch 8 mm và kết thúc ở 37 mm. Vật dài bao nhiêu?",
+        [
+          "37 - 8 = 29.",
+          "Ghi 29 mm, không ghi 37 mm."
+        ]
+      ],
+      [
+        "Cân thăng bằng: lọ và hạt ở trái, tổng quả cân 460 g ở phải; lọ rỗng 60 g. Hạt nặng bao nhiêu?",
+        [
+          "Cả lọ và hạt nặng 460 g.",
+          "460 - 60 = 400. Riêng hạt nặng 400 g."
+        ]
+      ]
+    ],
+    "game": [
+      "Ghép kết quả trạm đo",
+      "Ghép tình huống thực hành với số đo, đơn vị và phép tính thích hợp."
+    ],
+    "mode": "match",
+    "activities": [
+      {
+        "title": "Bốn trạm đo tại nhà",
+        "materials": [
+          "Thước có mm",
+          "Cân hoặc gói có ghi khối lượng",
+          "Ca chia ml",
+          "Nhiệt kế đo không khí nếu có",
+          "Giấy bút"
+        ],
+        "steps": [
+          "Trạm 1: đo một chiếc tẩy bằng mm, đặt đầu tại 0; ghi kết quả.",
+          "Trạm 2: cân một đồ vật nhẹ hoặc đọc nhãn khối lượng của gói, ghi số và g.",
+          "Trạm 3: đọc lượng nước trong ca, ghi số và ml, không rót quá sức chứa.",
+          "Trạm 4: nhờ người lớn hỗ trợ đọc nhiệt kế không khí; nếu thiếu dụng cụ thì ghi chưa thực hiện, không đoán số."
+        ],
+        "check": [
+          "Mỗi dòng có tên vật/địa điểm, số và đơn vị đúng.",
+          "Nêu được dụng cụ và cách đọc; phân biệt số đo thật với dữ liệu mô phỏng trên web."
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Ôn đo lường và phép tính",
+    "objectives": [
+      "Tính với số đo cùng đơn vị, giải bài cân, rót và đoạn dây.",
+      "Lập hai bước tính, phân biệt khối lượng vỏ/ruột và dùng chênh lệch dung tích."
+    ],
+    "intro": "Bài luyện tập kết hợp việc đọc dụng cụ với phép tính. Chọn đại lượng trước, đổi đơn vị sau, rồi tính. Trong trò đong nước, rót đầy một cốc nhỏ từ cốc lớn có thể tạo ra lượng bằng hiệu dung tích hai cốc.",
+    "rules": [
+      "Chỉ cộng/trừ các số đo cùng đại lượng và cùng đơn vị.",
+      "Số đo nhân hoặc chia số phần bằng nhau vẫn giữ đơn vị đại lượng ban đầu.",
+      "Cân thăng bằng cho phép tìm phần chưa biết bằng tổng bên kia trừ phần đã biết cùng đĩa.",
+      "Đổ đầy cốc lớn rồi rót đầy cốc nhỏ: lượng còn trong cốc lớn bằng dung tích lớn trừ dung tích nhỏ.",
+      "Hỏi số đoạn đủ lấy thương; hỏi còn thừa lấy số dư. Giải hai bước theo đúng trình tự sự việc."
+    ],
+    "steps": [
+      "Đọc số đo và đổi về cùng đơn vị.",
+      "Xác định tổng, phần dùng, phần còn lại hoặc chênh lệch.",
+      "Viết từng bước tính có đơn vị.",
+      "Kiểm tra kết quả bằng tình huống cân/rót/cắt, rồi thử lại câu sai."
+    ],
+    "errors": [
+      "Cộng gam và mi-li-lít như cùng một đại lượng.",
+      "Quên đổi 1 l hoặc 1 kg trước khi trừ.",
+      "Tính cả vỏ hộp khi đề chỉ hỏi ruột.",
+      "Lấy tổng dung tích khi thao tác thực tế là rót bớt."
+    ],
+    "examples": [
+      [
+        "Cốc lớn 450 ml, cốc nhỏ 180 ml. Đổ đầy cốc lớn rồi rót đầy cốc nhỏ. Còn bao nhiêu trong cốc lớn?",
+        [
+          "450 - 180 = 270.",
+          "Còn 270 ml trong cốc lớn."
+        ]
+      ],
+      [
+        "Có 6 đoạn mỗi đoạn 35 mm, cắt bỏ tổng 40 mm. Còn tổng độ dài bao nhiêu?",
+        [
+          "35 × 6 = 210 mm ban đầu.",
+          "210 - 40 = 170. Còn tổng 170 mm."
+        ]
+      ]
+    ],
+    "game": [
+      "Kiểm chứng trạm đo",
+      "Chọn đúng/sai cho kết quả tính số đo và bài toán hai bước."
+    ],
+    "mode": "tf"
+  },
+  {
+    "topic": "Nhân ba chữ số với một chữ số",
+    "objectives": [
+      "Đặt tính đúng hàng và nhân từ đơn vị đến trăm.",
+      "Xử lí số nhớ, chữ số 0 và vận dụng vào các nhóm bằng nhau trong phạm vi 1000."
+    ],
+    "intro": "Số có ba chữ số gồm trăm, chục và đơn vị. Khi nhân với số một chữ số, phải nhân đủ cả ba hàng. Chữ số 0 không làm mất vị trí hàng; nếu hàng trước có số nhớ, vẫn phải cộng số nhớ vào hàng đang tính.",
+    "rules": [
+      "Đặt thừa số một chữ số thẳng hàng đơn vị của số ba chữ số.",
+      "Nhân từ đơn vị sang chục rồi trăm. Tích ở một hàng đủ 10 thì viết chữ số đơn vị và nhớ sang hàng kế tiếp.",
+      "Nhân hàng kế tiếp rồi cộng số nhớ trước khi viết và xác định số nhớ mới.",
+      "Chữ số 0 trong thừa số vẫn phải được xử lí theo hàng, có thể nhận số nhớ từ hàng trước.",
+      "Nhẩm số tròn trăm bằng cách nhân số trăm rồi viết thành số. Các bài trong đây có kết quả không quá 1000."
+    ],
+    "steps": [
+      "Đặt thẳng hàng các thừa số.",
+      "Nhân đơn vị; ghi chữ số và số nhớ.",
+      "Nhân chục, cộng số nhớ; tiếp tục hàng trăm.",
+      "Kiểm tra bằng tách số hoặc cộng các nhóm; ghi đơn vị theo tình huống."
+    ],
+    "errors": [
+      "Bỏ quên số nhớ từ hàng đơn vị hoặc chục.",
+      "Bỏ chữ số 0 ở hàng chục làm lệch hàng.",
+      "Chỉ nhân hai chữ số cuối mà quên hàng trăm.",
+      "Cộng số lần thay vì nhân khi đề nói nhiều nhóm bằng nhau."
+    ],
+    "examples": [
+      [
+        "Tính 218 × 3.",
+        [
+          "3 × 8 = 24, viết 4 nhớ 2.",
+          "3 × 1 = 3, thêm 2 được 5, viết 5.",
+          "3 × 2 = 6, viết 6. Kết quả 654."
+        ]
+      ],
+      [
+        "Tính 206 × 4.",
+        [
+          "4 × 6 = 24, viết 4 nhớ 2.",
+          "4 × 0 = 0, thêm 2 được 2, viết 2.",
+          "4 × 2 = 8. Kết quả 824."
+        ]
+      ],
+      [
+        "Ba túi, mỗi túi 145 g; dùng 120 g. Còn bao nhiêu?",
+        [
+          "145 × 3 = 435 g.",
+          "435 - 120 = 315. Còn 315 g."
+        ]
+      ]
+    ],
+    "game": [
+      "Tăng tốc nhân ba chữ số",
+      "Nhân đủ hàng, cộng số nhớ và giải các nhóm bằng nhau trong 60 giây."
+    ],
+    "mode": "speed"
+  }
+]

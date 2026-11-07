@@ -1,0 +1,826 @@
+{
+  "id": "TOAN3_T1_B33",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 33,
+  "title": "Nhiệt độ. Đơn vị đo nhiệt độ",
+  "topic": "Nhiệt độ và độ C",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      91,
+      92
+    ],
+    "pdf_pages": [
+      92,
+      93
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Biết nhiệt kế dùng đo nhiệt độ và kí hiệu °C.",
+    "Đọc thang chia, so sánh số đo và tìm mức tăng/giảm bằng số nguyên trong phạm vi đã học."
+  ],
+  "knowledge": {
+    "introduction": "Nhiệt độ cho biết mức nóng hay lạnh. Dùng nhiệt kế để có số đo, thay vì chỉ đoán bằng cảm giác. Trong bài này, các số đo thời tiết là dữ liệu mô phỏng để luyện toán, không phải dự báo hiện tại.",
+    "rules": [
+      "Độ C viết là °C, đọc là độ xê. Nhiệt kế là dụng cụ đo nhiệt độ.",
+      "Đọc số theo vạch ở đầu cột chất lỏng hoặc theo số hiển thị của nhiệt kế điện tử.",
+      "Cần xem mỗi khoảng chia ứng với mấy độ C, không mặc định mọi vạch là 1 độ.",
+      "Trong cùng thang °C, số lớn hơn biểu thị nhiệt độ cao hơn. Muốn biết chênh lệch, lấy số lớn trừ số bé.",
+      "Nhiệt độ tăng dùng cộng, giảm dùng trừ theo số độ đề cho. Không suy luận nhiệt độ bằng cách cộng các mức của hai nơi."
+    ],
+    "steps": [
+      "Xem đơn vị và các số mốc trên thang.",
+      "Tính giá trị một khoảng nhỏ nếu cần.",
+      "Đọc vạch đúng đầu cột chỉ nhiệt độ.",
+      "Ghi số và °C; so sánh hoặc tìm chênh lệch đúng câu hỏi."
+    ],
+    "common_errors": [
+      "Đếm vạch thay vì khoảng.",
+      "Nhìn chiều dài hình nhiệt kế thay vì số trên thang.",
+      "Bỏ kí hiệu °C khiến không rõ đang đo gì.",
+      "Gọi 0 °C là không có nhiệt độ."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Một nhiệt kế có mỗi khoảng 2 °C, đầu cột đỏ ở hai khoảng trên 20 °C. Đọc số đo.",
+      "steps": [
+        "2 × 2 = 4 độ C.",
+        "20 + 4 = 24. Nhiệt kế chỉ 24 °C."
+      ]
+    },
+    {
+      "question": "Bản ghi mô phỏng có sáng 18 °C, trưa 26 °C. Trưa tăng mấy độ?",
+      "steps": [
+        "26 - 18 = 8.",
+        "Trưa cao hơn sáng 8 độ C."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B33_Q01",
+      "type": "mcq",
+      "question": "Đơn vị độ C dùng đo đại lượng nào?",
+      "options": [
+        "nhiệt độ",
+        "độ dài",
+        "khối lượng",
+        "dung tích"
+      ],
+      "correct_answer": "nhiệt độ",
+      "distractors": [
+        "độ dài",
+        "khối lượng",
+        "dung tích"
+      ],
+      "explanation": "Độ C biểu thị mức nóng lạnh, không đo độ dài hay khối lượng.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q02",
+      "type": "fill",
+      "question": "Kí hiệu độ C là gì?",
+      "correct_answer": "°C",
+      "distractors": [
+        "mm",
+        "g",
+        "ml"
+      ],
+      "explanation": "Dấu độ đi cùng chữ C để ghi độ C.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q03",
+      "type": "mcq",
+      "question": "Dụng cụ dùng đo nhiệt độ là gì?",
+      "options": [
+        "nhiệt kế",
+        "thước",
+        "cân",
+        "ca đong"
+      ],
+      "correct_answer": "nhiệt kế",
+      "distractors": [
+        "thước",
+        "cân",
+        "ca đong"
+      ],
+      "explanation": "Nhiệt kế có thang đo nhiệt độ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q04",
+      "type": "fill",
+      "question": "Số 28 °C đọc là bao nhiêu độ C? Điền số.",
+      "correct_answer": "28",
+      "distractors": [
+        "82",
+        "2",
+        "8"
+      ],
+      "explanation": "Đọc là hai mươi tám độ C.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q05",
+      "type": "mcq",
+      "question": "Hai nơi 18 °C và 26 °C, nơi có nhiệt độ cao hơn là bao nhiêu °C?",
+      "options": [
+        "26",
+        "18",
+        "8",
+        "44"
+      ],
+      "correct_answer": "26",
+      "distractors": [
+        "18",
+        "8",
+        "44"
+      ],
+      "explanation": "26 lớn hơn 18 nên mức 26 °C cao hơn.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q06",
+      "type": "fill",
+      "question": "Trong 12 °C, 20 °C, 29 °C, mức thấp nhất là bao nhiêu °C?",
+      "correct_answer": "12",
+      "distractors": [
+        "20",
+        "29",
+        "61"
+      ],
+      "explanation": "12 là số nhỏ nhất trong ba số.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q07",
+      "type": "mcq",
+      "question": "Hình A: nhiệt kế P chỉ mấy °C?",
+      "options": [
+        "24",
+        "22",
+        "26",
+        "20"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "22",
+        "26",
+        "20"
+      ],
+      "explanation": "Từ 20 lên 24 có hai khoảng, mỗi khoảng 2 °C.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B33_A.svg",
+        "caption": "Hình A: Hai nhiệt kế P và Q. Mỗi khoảng nhỏ ứng với 2 °C; P ở 24 °C, Q ở 32 °C."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q08",
+      "type": "fill",
+      "question": "Hình A: nhiệt kế Q chỉ mấy °C?",
+      "correct_answer": "32",
+      "distractors": [
+        "30",
+        "34",
+        "28"
+      ],
+      "explanation": "Mức đỏ của Q tại vạch 32, trên 30 một khoảng 2 °C.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B33_A.svg",
+        "caption": "Hình A: Hai nhiệt kế P và Q. Mỗi khoảng nhỏ ứng với 2 °C; P ở 24 °C, Q ở 32 °C."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q09",
+      "type": "mcq",
+      "question": "Nhiệt độ 0 °C có nghĩa là nhiệt kế không có nhiệt độ không? Trả lời có hoặc không.",
+      "options": [
+        "không",
+        "có",
+        "không có thang",
+        "không có đơn vị"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "không có thang",
+        "không có đơn vị"
+      ],
+      "explanation": "0 °C là một giá trị trên thang đo, không phải thiếu số đo.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q10",
+      "type": "fill",
+      "question": "Nhiệt độ tăng từ 21 °C lên 25 °C thì tăng mấy độ C?",
+      "correct_answer": "4",
+      "distractors": [
+        "46",
+        "3",
+        "5"
+      ],
+      "explanation": "25 - 21 = 4 độ C.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q11",
+      "type": "mcq",
+      "question": "Hình A: Q cao hơn P mấy độ C?",
+      "options": [
+        "8",
+        "56",
+        "6",
+        "10"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "56",
+        "6",
+        "10"
+      ],
+      "explanation": "32 - 24 = 8 độ C.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B33_A.svg",
+        "caption": "Hình A: Hai nhiệt kế P và Q. Mỗi khoảng nhỏ ứng với 2 °C; P ở 24 °C, Q ở 32 °C."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q12",
+      "type": "fill",
+      "question": "Thang nhiệt kế ghi 10, 20, 30; từ 10 đến 20 có 5 khoảng bằng nhau. Mỗi khoảng mấy độ C?",
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "5",
+        "10"
+      ],
+      "explanation": "20 - 10 = 10; 10 : 5 = 2 độ C.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q13",
+      "type": "mcq",
+      "question": "Một bản ghi 23 °C nhưng thiếu kí hiệu, chỉ viết 23. Cần bổ sung đơn vị nào?",
+      "options": [
+        "°C",
+        "mm",
+        "kg",
+        "ml"
+      ],
+      "correct_answer": "°C",
+      "distractors": [
+        "mm",
+        "kg",
+        "ml"
+      ],
+      "explanation": "Thêm °C để biết 23 là nhiệt độ.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q14",
+      "type": "fill",
+      "question": "Buổi sáng 19 °C, buổi trưa 27 °C. Nhiệt độ trưa tăng mấy độ C so với sáng?",
+      "correct_answer": "8",
+      "distractors": [
+        "46",
+        "6",
+        "9"
+      ],
+      "explanation": "27 - 19 = 8 độ C.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q15",
+      "type": "mcq",
+      "question": "Nhiệt độ giảm từ 31 °C xuống 24 °C. Đã giảm mấy độ C?",
+      "options": [
+        "7",
+        "55",
+        "6",
+        "8"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "55",
+        "6",
+        "8"
+      ],
+      "explanation": "31 - 24 = 7 độ C.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q16",
+      "type": "fill",
+      "question": "Hai nhiệt kế chỉ cùng 22 °C dù một hình được phóng to. Số đo có bằng nhau không? Trả lời có hoặc không.",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ hình to lớn hơn",
+        "chỉ hình nhỏ lớn hơn"
+      ],
+      "explanation": "Số đo theo vạch và đơn vị, không theo chiều dài hình hiển thị.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q17",
+      "type": "mcq",
+      "question": "Hình A: P tăng 6 độ C thì chỉ mấy °C?",
+      "options": [
+        "30",
+        "18",
+        "26",
+        "32"
+      ],
+      "correct_answer": "30",
+      "distractors": [
+        "18",
+        "26",
+        "32"
+      ],
+      "explanation": "24 + 6 = 30 °C.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B33_A.svg",
+        "caption": "Hình A: Hai nhiệt kế P và Q. Mỗi khoảng nhỏ ứng với 2 °C; P ở 24 °C, Q ở 32 °C."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q18",
+      "type": "fill",
+      "question": "Trong các mức 17, 25, 22 °C, xếp tăng dần thì mức ở giữa là mấy °C?",
+      "correct_answer": "22",
+      "distractors": [
+        "17",
+        "25",
+        "64"
+      ],
+      "explanation": "Thứ tự là 17, 22, 25; mức ở giữa là 22 °C.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q19",
+      "type": "mcq",
+      "question": "Ba ngày cùng giờ lần lượt 26, 26, 24 °C. Có mấy ngày bằng 26 °C?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "0"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "0"
+      ],
+      "explanation": "Ngày thứ nhất và thứ hai cùng 26 °C.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q20",
+      "type": "fill",
+      "question": "Một thang chia mỗi khoảng 1 °C. Từ vạch 25 đi lên 3 khoảng đến mấy °C?",
+      "correct_answer": "28",
+      "distractors": [
+        "22",
+        "27",
+        "29"
+      ],
+      "explanation": "25 + 3 = 28 °C.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q21",
+      "type": "mcq",
+      "question": "Dữ liệu mô phỏng: sáng 22 °C, trưa 31 °C, tối 25 °C. Trong ngày mức cao nhất mấy °C?",
+      "options": [
+        "31",
+        "22",
+        "25",
+        "78"
+      ],
+      "correct_answer": "31",
+      "distractors": [
+        "22",
+        "25",
+        "78"
+      ],
+      "explanation": "31 lớn hơn 22 và 25 nên cao nhất.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q22",
+      "type": "fill",
+      "question": "Dữ liệu mô phỏng: sáng 22 °C, trưa 31 °C, tối 25 °C. Trưa hơn sáng mấy độ C?",
+      "correct_answer": "9",
+      "distractors": [
+        "3",
+        "6",
+        "53"
+      ],
+      "explanation": "31 - 22 = 9 độ C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q23",
+      "type": "mcq",
+      "question": "Dữ liệu mô phỏng: sáng 22 °C, trưa 31 °C, tối 25 °C. Từ trưa đến tối giảm mấy độ C?",
+      "options": [
+        "6",
+        "3",
+        "9",
+        "56"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "9",
+        "56"
+      ],
+      "explanation": "31 - 25 = 6 độ C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q24",
+      "type": "fill",
+      "question": "Một phòng 24 °C tăng 3 độ rồi giảm 2 độ. Sau cùng mấy °C?",
+      "correct_answer": "25",
+      "distractors": [
+        "29",
+        "23",
+        "19"
+      ],
+      "explanation": "24 + 3 = 27; 27 - 2 = 25 °C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q25",
+      "type": "mcq",
+      "question": "Kho A 16 °C, kho B 23 °C, kho C 19 °C. A thấp hơn B mấy độ C?",
+      "options": [
+        "7",
+        "3",
+        "4",
+        "39"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "3",
+        "4",
+        "39"
+      ],
+      "explanation": "23 - 16 = 7 độ C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q26",
+      "type": "fill",
+      "question": "Hai lần đo cùng phòng là 20 °C và 28 °C. Lần sau cao hơn lần trước mấy độ C?",
+      "correct_answer": "8",
+      "distractors": [
+        "48",
+        "6",
+        "10"
+      ],
+      "explanation": "28 - 20 = 8 độ C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q27",
+      "type": "mcq",
+      "question": "Mỗi khoảng thang nhiệt kế là 2 °C. Mực đỏ ở hai khoảng trên vạch 16 °C. Đọc được mấy °C?",
+      "options": [
+        "20",
+        "18",
+        "24",
+        "12"
+      ],
+      "correct_answer": "20",
+      "distractors": [
+        "18",
+        "24",
+        "12"
+      ],
+      "explanation": "2 × 2 = 4; 16 + 4 = 20 °C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q28",
+      "type": "fill",
+      "question": "Một buồng thử nghiệm 30 °C, giảm 4 độ rồi tăng 1 độ. Sau cùng mấy °C?",
+      "correct_answer": "27",
+      "distractors": [
+        "25",
+        "35",
+        "29"
+      ],
+      "explanation": "30 - 4 = 26; 26 + 1 = 27 °C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q29",
+      "type": "mcq",
+      "question": "Đầu giờ 18 °C, cuối giờ 24 °C. Muốn cuối giờ đạt 26 °C thì cần tăng thêm mấy độ C?",
+      "options": [
+        "2",
+        "8",
+        "6",
+        "4"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "8",
+        "6",
+        "4"
+      ],
+      "explanation": "26 - 24 = 2 độ C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q30",
+      "type": "fill",
+      "question": "Bốn số đo 21, 25, 21, 28 °C. Có mấy số đo cao hơn 22 °C?",
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "Chỉ 25 và 28 lớn hơn 22.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q31",
+      "type": "mcq",
+      "question": "Nơi A 14 °C, B cao hơn A 8 độ. Nơi B mấy °C?",
+      "options": [
+        "22",
+        "6",
+        "24",
+        "20"
+      ],
+      "correct_answer": "22",
+      "distractors": [
+        "6",
+        "24",
+        "20"
+      ],
+      "explanation": "14 + 8 = 22 °C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q32",
+      "type": "fill",
+      "question": "Nơi B 29 °C, nơi C thấp hơn B 11 độ. C mấy °C?",
+      "correct_answer": "18",
+      "distractors": [
+        "40",
+        "20",
+        "17"
+      ],
+      "explanation": "29 - 11 = 18 °C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q33",
+      "type": "mcq",
+      "question": "Thứ Hai 23 °C, thứ Ba tăng 4 độ, thứ Tư giảm 6 độ so với thứ Ba. Thứ Tư mấy °C?",
+      "options": [
+        "21",
+        "25",
+        "17",
+        "33"
+      ],
+      "correct_answer": "21",
+      "distractors": [
+        "25",
+        "17",
+        "33"
+      ],
+      "explanation": "23 + 4 = 27; 27 - 6 = 21 °C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q34",
+      "type": "fill",
+      "question": "Nhiệt kế có các mốc 0, 10, 20, 30 °C. Mực đỏ đúng giữa 20 và 30. Đọc mấy °C?",
+      "correct_answer": "25",
+      "distractors": [
+        "15",
+        "20",
+        "30"
+      ],
+      "explanation": "Khoảng 10 độ chia đôi là 5 độ; 20 + 5 = 25.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q35",
+      "type": "mcq",
+      "question": "Hai phòng 26 °C và 18 °C. Phòng lạnh hơn tăng 5 độ thì vẫn thấp hơn phòng kia mấy độ C?",
+      "options": [
+        "3",
+        "8",
+        "5",
+        "13"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "8",
+        "5",
+        "13"
+      ],
+      "explanation": "18 + 5 = 23; 26 - 23 = 3 độ C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q36",
+      "type": "fill",
+      "question": "Một nơi 32 °C, nơi kia 27 °C. Cả hai cùng giảm 3 độ. Chênh lệch sau đó mấy độ C?",
+      "correct_answer": "5",
+      "distractors": [
+        "2",
+        "8",
+        "11"
+      ],
+      "explanation": "32 - 3 = 29; 27 - 3 = 24; 29 - 24 = 5.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q37",
+      "type": "mcq",
+      "question": "Bảng mô phỏng bốn ngày: 24, 27, 23, 26 °C. Ngày nóng nhất hơn ngày mát nhất mấy độ C?",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "50"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "2",
+        "50"
+      ],
+      "explanation": "27 - 23 = 4 độ C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q38",
+      "type": "fill",
+      "question": "Mực đỏ đang 17 °C; người vẽ cần thể hiện 23 °C trên thang mỗi khoảng 2 độ. Cần nâng lên mấy khoảng?",
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "2",
+        "4"
+      ],
+      "explanation": "23 - 17 = 6; 6 : 2 = 3 khoảng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q39",
+      "type": "mcq",
+      "question": "Buổi đầu 15 °C, buổi sau 19 °C, buổi cuối 28 °C. Từ đầu đến cuối tăng mấy độ C?",
+      "options": [
+        "13",
+        "9",
+        "4",
+        "43"
+      ],
+      "correct_answer": "13",
+      "distractors": [
+        "9",
+        "4",
+        "43"
+      ],
+      "explanation": "28 - 15 = 13 độ C; không chỉ lấy mức tăng của lần cuối.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B33_Q40",
+      "type": "fill",
+      "question": "Một vạch giữa 28 và 32 °C chia khoảng này thành hai phần bằng nhau. Vạch ấy chỉ mấy °C?",
+      "correct_answer": "30",
+      "distractors": [
+        "29",
+        "31",
+        "60"
+      ],
+      "explanation": "32 - 28 = 4; một nửa là 2; 28 + 2 = 30 °C.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B33_GAME1",
+      "title": "Đọc đúng nhiệt kế",
+      "mode": "treasure",
+      "objective": "Đọc vạch, so sánh và tính mức tăng giảm của nhiệt độ mô phỏng.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án, đọc lời giải rồi sang câu tiếp theo.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B33_Q01",
+        "TOAN3_T1_B33_Q02",
+        "TOAN3_T1_B33_Q03",
+        "TOAN3_T1_B33_Q04",
+        "TOAN3_T1_B33_Q05",
+        "TOAN3_T1_B33_Q06",
+        "TOAN3_T1_B33_Q07",
+        "TOAN3_T1_B33_Q08",
+        "TOAN3_T1_B33_Q09",
+        "TOAN3_T1_B33_Q10",
+        "TOAN3_T1_B33_Q11",
+        "TOAN3_T1_B33_Q12",
+        "TOAN3_T1_B33_Q13",
+        "TOAN3_T1_B33_Q14",
+        "TOAN3_T1_B33_Q15",
+        "TOAN3_T1_B33_Q16",
+        "TOAN3_T1_B33_Q17",
+        "TOAN3_T1_B33_Q18",
+        "TOAN3_T1_B33_Q19",
+        "TOAN3_T1_B33_Q20",
+        "TOAN3_T1_B33_Q21",
+        "TOAN3_T1_B33_Q22",
+        "TOAN3_T1_B33_Q23",
+        "TOAN3_T1_B33_Q24",
+        "TOAN3_T1_B33_Q25",
+        "TOAN3_T1_B33_Q26",
+        "TOAN3_T1_B33_Q27",
+        "TOAN3_T1_B33_Q28",
+        "TOAN3_T1_B33_Q29",
+        "TOAN3_T1_B33_Q30",
+        "TOAN3_T1_B33_Q31",
+        "TOAN3_T1_B33_Q32",
+        "TOAN3_T1_B33_Q33",
+        "TOAN3_T1_B33_Q34",
+        "TOAN3_T1_B33_Q35",
+        "TOAN3_T1_B33_Q36",
+        "TOAN3_T1_B33_Q37",
+        "TOAN3_T1_B33_Q38",
+        "TOAN3_T1_B33_Q39",
+        "TOAN3_T1_B33_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "activities": [
+    {
+      "title": "Ghi nhiệt độ không khí",
+      "materials": [
+        "Nhiệt kế đo không khí",
+        "Giấy bút"
+      ],
+      "steps": [
+        "Nhờ người lớn đặt nhiệt kế theo hướng dẫn của dụng cụ, tránh vị trí bị nắng chiếu trực tiếp.",
+        "Quan sát số chỉ sau khi ổn định theo hướng dẫn.",
+        "Ghi vị trí, thời điểm, số và °C; lặp lại ở một thời điểm khác để so sánh."
+      ],
+      "check": [
+        "Ghi đúng đơn vị và thời điểm, không chỉ ghi một số rời.",
+        "Không tự dùng nước nóng để thử nhiệt kế; nhờ người lớn hỗ trợ dụng cụ."
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B33_A.svg",
+      "caption": "Hình A: Hai nhiệt kế P và Q. Mỗi khoảng nhỏ ứng với 2 °C; P ở 24 °C, Q ở 32 °C."
+    }
+  ]
+}

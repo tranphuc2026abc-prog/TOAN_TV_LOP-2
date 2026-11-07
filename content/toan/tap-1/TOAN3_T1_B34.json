@@ -1,0 +1,822 @@
+{
+  "id": "TOAN3_T1_B34",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 34,
+  "title": "Thực hành và trải nghiệm với các đơn vị mi-li-mét, gam, mi-li-lít, độ C",
+  "topic": "Thực hành các dụng cụ đo",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      93,
+      94
+    ],
+    "pdf_pages": [
+      94,
+      95
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Chọn dụng cụ và đơn vị phù hợp cho độ dài, khối lượng, dung tích, nhiệt độ.",
+    "Thực hành đo và đọc số, giải thích sai số do đặt dụng cụ chưa đúng."
+  ],
+  "knowledge": {
+    "introduction": "Mỗi dụng cụ giúp đo một đại lượng. Trước khi làm phép tính, cần biết số đo thuộc đại lượng nào, dùng đơn vị gì và đọc được bằng cách nào. Kết quả đo thật có thể khác giữa các vật; không lấy kích thước hình trên màn hình làm kích thước vật thật.",
+    "rules": [
+      "Thước chia mm đo độ dài; cân đo khối lượng g hoặc kg; ca chia ml đo dung tích; nhiệt kế đo nhiệt độ °C.",
+      "Đặt một đầu vật ở vạch 0 khi đo độ dài. Nếu lệch 0, lấy số cuối trừ số đầu.",
+      "Cân cần ở trạng thái cân bằng hoặc ổn định. Tính đủ khối lượng quả cân; nếu hỏi ruột vật, trừ vỏ.",
+      "Đọc ca ở mặt phẳng ngang, mắt ngang mực nước; phân biệt lượng hiện có với dung tích tối đa.",
+      "Đổi cùng đơn vị trước khi so sánh hoặc tính; không đổi g thành ml chỉ bằng giữ nguyên số."
+    ],
+    "steps": [
+      "Xác định đại lượng cần đo và chọn dụng cụ.",
+      "Kiểm tra vạch chia, đơn vị, cách đặt dụng cụ.",
+      "Đo rồi ghi cả số và đơn vị.",
+      "Đo lại nếu cách đặt sai hoặc kết quả bất thường; giải thích cách tính khi cần."
+    ],
+    "common_errors": [
+      "Lẫn mm, g, ml và °C.",
+      "Để thước lệch 0 nhưng vẫn lấy số đầu cuối như thể bắt đầu tại 0.",
+      "Coi lượng nước hiện có là dung tích tối đa.",
+      "Chép số đo mà bỏ đơn vị."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Một vật bắt đầu ở vạch 8 mm và kết thúc ở 37 mm. Vật dài bao nhiêu?",
+      "steps": [
+        "37 - 8 = 29.",
+        "Ghi 29 mm, không ghi 37 mm."
+      ]
+    },
+    {
+      "question": "Cân thăng bằng: lọ và hạt ở trái, tổng quả cân 460 g ở phải; lọ rỗng 60 g. Hạt nặng bao nhiêu?",
+      "steps": [
+        "Cả lọ và hạt nặng 460 g.",
+        "460 - 60 = 400. Riêng hạt nặng 400 g."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B34_Q01",
+      "type": "mcq",
+      "question": "Cần đo chiều dài chiếc kẹp giấy. Chọn đơn vị thích hợp: mm, g, ml, °C.",
+      "options": [
+        "mm",
+        "g",
+        "ml",
+        "°C"
+      ],
+      "correct_answer": "mm",
+      "distractors": [
+        "g",
+        "ml",
+        "°C"
+      ],
+      "explanation": "Chiều dài là đại lượng đo bằng mm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q02",
+      "type": "fill",
+      "question": "Cần cân một túi hạt nhỏ. Chọn đơn vị: g, mm, ml, °C.",
+      "correct_answer": "g",
+      "distractors": [
+        "mm",
+        "ml",
+        "°C"
+      ],
+      "explanation": "Gam dùng đo khối lượng.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q03",
+      "type": "mcq",
+      "question": "Cần đong lượng nước trong cốc. Chọn đơn vị: ml, mm, g, °C.",
+      "options": [
+        "ml",
+        "mm",
+        "g",
+        "°C"
+      ],
+      "correct_answer": "ml",
+      "distractors": [
+        "mm",
+        "g",
+        "°C"
+      ],
+      "explanation": "Mi-li-lít dùng đo dung tích.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q04",
+      "type": "fill",
+      "question": "Cần ghi mức nóng lạnh trong phòng. Chọn đơn vị: °C, mm, g, ml.",
+      "correct_answer": "°C",
+      "distractors": [
+        "mm",
+        "g",
+        "ml"
+      ],
+      "explanation": "Độ C là đơn vị nhiệt độ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q05",
+      "type": "mcq",
+      "question": "Một mét bằng mấy mm?",
+      "options": [
+        "1000",
+        "100",
+        "10",
+        "1"
+      ],
+      "correct_answer": "1000",
+      "distractors": [
+        "100",
+        "10",
+        "1"
+      ],
+      "explanation": "1 m bằng 1000 mm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q06",
+      "type": "fill",
+      "question": "Một ki-lô-gam bằng mấy gam?",
+      "correct_answer": "1000",
+      "distractors": [
+        "100",
+        "10",
+        "1"
+      ],
+      "explanation": "1 kg bằng 1000 g.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q07",
+      "type": "mcq",
+      "question": "Một lít bằng mấy ml?",
+      "options": [
+        "1000",
+        "100",
+        "10",
+        "1"
+      ],
+      "correct_answer": "1000",
+      "distractors": [
+        "100",
+        "10",
+        "1"
+      ],
+      "explanation": "1 l bằng 1000 ml.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q08",
+      "type": "fill",
+      "question": "Đo nhiệt độ dùng dụng cụ nào?",
+      "correct_answer": "nhiệt kế",
+      "distractors": [
+        "thước",
+        "cân",
+        "ca đong"
+      ],
+      "explanation": "Nhiệt kế dùng đo nhiệt độ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q09",
+      "type": "mcq",
+      "question": "Cân thăng bằng mới so được hai bên có khối lượng bằng nhau không? Trả lời có hoặc không.",
+      "options": [
+        "có",
+        "không",
+        "luôn bằng nhau",
+        "chỉ nhìn màu"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "luôn bằng nhau",
+        "chỉ nhìn màu"
+      ],
+      "explanation": "Khi cân thăng bằng, tổng khối lượng hai bên bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q10",
+      "type": "fill",
+      "question": "Khi đọc thước, nên đặt một đầu vật ở vạch mấy?",
+      "correct_answer": "0",
+      "distractors": [
+        "1",
+        "10",
+        "100"
+      ],
+      "explanation": "Đặt ở vạch 0 giúp đọc trực tiếp độ dài đầu còn lại.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q11",
+      "type": "mcq",
+      "question": "Hình A: chiếc thẻ từ 0 đến 35 mm. Thẻ dài mấy mm?",
+      "options": [
+        "35",
+        "30",
+        "40",
+        "3"
+      ],
+      "correct_answer": "35",
+      "distractors": [
+        "30",
+        "40",
+        "3"
+      ],
+      "explanation": "Đầu trái ở 0, đầu phải ở 35; 35 - 0 = 35 mm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B34_A.svg",
+        "caption": "Hình A: Thẻ trên thước mm, đầu trái ở 0 mm, đầu phải ở 35 mm. Hình mô phỏng, không đo màn hình."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q12",
+      "type": "fill",
+      "question": "Hình A: mỗi khoảng nhỏ dài 1 mm. Từ vạch 30 đến cuối thẻ có mấy khoảng?",
+      "correct_answer": "5",
+      "distractors": [
+        "3",
+        "4",
+        "6"
+      ],
+      "explanation": "35 - 30 = 5 khoảng 1 mm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B34_A.svg",
+        "caption": "Hình A: Thẻ trên thước mm, đầu trái ở 0 mm, đầu phải ở 35 mm. Hình mô phỏng, không đo màn hình."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q13",
+      "type": "mcq",
+      "question": "Nhãn hộp ghi 250 g, bạn chép 250 ml. Bạn đã đổi sai đại lượng nào? Chọn khối lượng hoặc độ dài.",
+      "options": [
+        "khối lượng",
+        "độ dài",
+        "nhiệt độ",
+        "thời gian"
+      ],
+      "correct_answer": "khối lượng",
+      "distractors": [
+        "độ dài",
+        "nhiệt độ",
+        "thời gian"
+      ],
+      "explanation": "250 g chỉ khối lượng, không thể tự đổi thành dung tích ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q14",
+      "type": "fill",
+      "question": "Một ca có vạch 100, 200, 300 ml đều nhau. Mực nước giữa 200 và 300. Có mấy ml?",
+      "correct_answer": "250",
+      "distractors": [
+        "150",
+        "200",
+        "300"
+      ],
+      "explanation": "Giữa 200 và 300 là 250 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q15",
+      "type": "mcq",
+      "question": "Có các quả cân 500 g, 200 g, 200 g, 100 g. Tổng bằng mấy gam?",
+      "options": [
+        "1000",
+        "900",
+        "800",
+        "1100"
+      ],
+      "correct_answer": "1000",
+      "distractors": [
+        "900",
+        "800",
+        "1100"
+      ],
+      "explanation": "500 + 200 + 200 + 100 = 1000 g, đúng 1 kg.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q16",
+      "type": "fill",
+      "question": "Một vật bắt đầu ở vạch 9 mm và kết thúc ở 41 mm. Dài mấy mm?",
+      "correct_answer": "32",
+      "distractors": [
+        "41",
+        "50",
+        "30"
+      ],
+      "explanation": "41 - 9 = 32 mm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q17",
+      "type": "mcq",
+      "question": "Nhiệt kế chỉ 26 °C, ngày sau tăng 2 độ. Ghi mấy °C?",
+      "options": [
+        "28",
+        "24",
+        "52",
+        "30"
+      ],
+      "correct_answer": "28",
+      "distractors": [
+        "24",
+        "52",
+        "30"
+      ],
+      "explanation": "26 + 2 = 28 °C.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q18",
+      "type": "fill",
+      "question": "Túi 700 g, hộp 1 kg. Hộp nặng hơn mấy gam?",
+      "correct_answer": "300",
+      "distractors": [
+        "699",
+        "1700",
+        "700"
+      ],
+      "explanation": "1 kg bằng 1000 g; 1000 - 700 = 300 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q19",
+      "type": "mcq",
+      "question": "Đo một vật ba lần được 32, 32, 40 mm; lần cuối đặt sai vạch 0. Có nên kiểm tra lại lần cuối không? Trả lời có hoặc không.",
+      "options": [
+        "có",
+        "không",
+        "chọn số lớn nhất",
+        "cộng ba số"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chọn số lớn nhất",
+        "cộng ba số"
+      ],
+      "explanation": "Kết quả lệch và cách đặt sai nên cần đo lại đúng vạch.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q20",
+      "type": "fill",
+      "question": "Ca tối đa 500 ml đang chứa 300 ml. Dung tích tối đa có thay đổi thành 300 ml không? Trả lời có hoặc không.",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "bằng 800 ml",
+        "chỉ còn 200 ml"
+      ],
+      "explanation": "300 ml là lượng đang có; sức chứa tối đa vẫn là 500 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q21",
+      "type": "mcq",
+      "question": "Có hai ca chứa 120 ml và 280 ml. Gộp lại mấy ml?",
+      "options": [
+        "400",
+        "160",
+        "300",
+        "500"
+      ],
+      "correct_answer": "400",
+      "distractors": [
+        "160",
+        "300",
+        "500"
+      ],
+      "explanation": "120 + 280 = 400 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q22",
+      "type": "fill",
+      "question": "Có ba ca 150 ml, 250 ml, 350 ml. Chọn hai ca để có 500 ml. Ca 150 ml cần ghép với ca mấy ml?",
+      "correct_answer": "350",
+      "distractors": [
+        "250",
+        "150",
+        "500"
+      ],
+      "explanation": "150 + 350 = 500 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q23",
+      "type": "mcq",
+      "question": "Cần 1 kg hạt; đã đặt quả cân 500 g và 200 g. Cần thêm mấy gam quả cân?",
+      "options": [
+        "300",
+        "700",
+        "200",
+        "500"
+      ],
+      "correct_answer": "300",
+      "distractors": [
+        "700",
+        "200",
+        "500"
+      ],
+      "explanation": "500 + 200 = 700; 1000 - 700 = 300 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q24",
+      "type": "fill",
+      "question": "Tấm bìa 8 cm, cần cắt còn 65 mm. Cắt bớt mấy mm?",
+      "correct_answer": "15",
+      "distractors": [
+        "57",
+        "73",
+        "145"
+      ],
+      "explanation": "8 cm bằng 80 mm; 80 - 65 = 15 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q25",
+      "type": "mcq",
+      "question": "Hai ngày đo cùng giờ được 25 °C và 29 °C. Chênh nhau mấy độ C?",
+      "options": [
+        "4",
+        "54",
+        "3",
+        "5"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "54",
+        "3",
+        "5"
+      ],
+      "explanation": "29 - 25 = 4 độ C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q26",
+      "type": "fill",
+      "question": "Bình 1 l, rót đầy hai ca 300 ml mỗi ca. Bình còn mấy ml?",
+      "correct_answer": "400",
+      "distractors": [
+        "600",
+        "700",
+        "200"
+      ],
+      "explanation": "300 × 2 = 600; 1000 - 600 = 400 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q27",
+      "type": "mcq",
+      "question": "Lọ rỗng 90 g, cả lọ và hạt 390 g. Hạt nặng mấy gam?",
+      "options": [
+        "300",
+        "480",
+        "390",
+        "90"
+      ],
+      "correct_answer": "300",
+      "distractors": [
+        "480",
+        "390",
+        "90"
+      ],
+      "explanation": "390 - 90 = 300 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q28",
+      "type": "fill",
+      "question": "Bốn dây bằng nhau có tổng 96 mm. Mỗi dây dài mấy mm?",
+      "correct_answer": "24",
+      "distractors": [
+        "92",
+        "20",
+        "28"
+      ],
+      "explanation": "96 : 4 = 24 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q29",
+      "type": "mcq",
+      "question": "Có 450 ml cần rót vào các cốc tối đa 200 ml. Ít nhất mấy cốc?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "4",
+        "1"
+      ],
+      "explanation": "Hai cốc chứa 400 ml, 50 ml còn lại cần cốc thứ 3.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q30",
+      "type": "fill",
+      "question": "Một thẻ dài 3 cm 4 mm. Thẻ kia dài 29 mm. Thẻ đầu dài hơn mấy mm?",
+      "correct_answer": "5",
+      "distractors": [
+        "25",
+        "7",
+        "63"
+      ],
+      "explanation": "3 cm 4 mm bằng 34 mm; 34 - 29 = 5 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q31",
+      "type": "mcq",
+      "question": "Cân thăng bằng, túi và 50 g bằng 400 g. Túi nặng mấy gam?",
+      "options": [
+        "350",
+        "450",
+        "400",
+        "50"
+      ],
+      "correct_answer": "350",
+      "distractors": [
+        "450",
+        "400",
+        "50"
+      ],
+      "explanation": "400 - 50 = 350 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q32",
+      "type": "fill",
+      "question": "Mỗi lượt đong 125 ml. Bốn lượt được mấy ml?",
+      "correct_answer": "500",
+      "distractors": [
+        "129",
+        "400",
+        "625"
+      ],
+      "explanation": "125 × 4 = 500 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q33",
+      "type": "mcq",
+      "question": "Nhiệt độ 20 °C tăng 5 độ rồi giảm 3 độ. Cuối cùng mấy °C?",
+      "options": [
+        "22",
+        "28",
+        "18",
+        "12"
+      ],
+      "correct_answer": "22",
+      "distractors": [
+        "28",
+        "18",
+        "12"
+      ],
+      "explanation": "20 + 5 = 25; 25 - 3 = 22 °C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q34",
+      "type": "fill",
+      "question": "Có 600 g đậu chia đều 4 túi. Hai túi nặng tổng mấy gam?",
+      "correct_answer": "300",
+      "distractors": [
+        "150",
+        "200",
+        "450"
+      ],
+      "explanation": "600 : 4 = 150; 150 × 2 = 300 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q35",
+      "type": "mcq",
+      "question": "Thanh gỗ dài 1 m, cắt 280 mm và 320 mm. Còn mấy mm?",
+      "options": [
+        "400",
+        "600",
+        "680",
+        "720"
+      ],
+      "correct_answer": "400",
+      "distractors": [
+        "600",
+        "680",
+        "720"
+      ],
+      "explanation": "280 + 320 = 600; 1000 - 600 = 400 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q36",
+      "type": "fill",
+      "question": "Có 720 ml, lượng rót ra bằng ban đầu giảm 3 lần. Còn mấy ml?",
+      "correct_answer": "480",
+      "distractors": [
+        "240",
+        "717",
+        "960"
+      ],
+      "explanation": "720 : 3 = 240; 720 - 240 = 480 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q37",
+      "type": "mcq",
+      "question": "Một vật cân cả hộp 650 g, hộp 150 g. Chia vật bên trong đều 5 phần, mỗi phần mấy gam?",
+      "options": [
+        "100",
+        "130",
+        "500",
+        "160"
+      ],
+      "correct_answer": "100",
+      "distractors": [
+        "130",
+        "500",
+        "160"
+      ],
+      "explanation": "650 - 150 = 500; 500 : 5 = 100 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q38",
+      "type": "fill",
+      "question": "Cần hai dây dài 45 mm và 55 mm. Tổng bằng mấy cm?",
+      "correct_answer": "10",
+      "distractors": [
+        "100",
+        "1",
+        "9"
+      ],
+      "explanation": "45 + 55 = 100 mm; 100 : 10 = 10 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q39",
+      "type": "mcq",
+      "question": "Ba ca chứa 200, 300, 400 ml. Đổ hết vào bình tối đa 1 l thì còn thiếu mấy ml mới đầy?",
+      "options": [
+        "100",
+        "900",
+        "200",
+        "300"
+      ],
+      "correct_answer": "100",
+      "distractors": [
+        "900",
+        "200",
+        "300"
+      ],
+      "explanation": "200 + 300 + 400 = 900; 1000 - 900 = 100 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B34_Q40",
+      "type": "fill",
+      "question": "Một tuần ghi các mức cùng giờ 27, 25, 28 °C trong ba ngày. Mức cao nhất hơn thấp nhất mấy độ C?",
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "1",
+        "53"
+      ],
+      "explanation": "28 - 25 = 3 độ C.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B34_GAME1",
+      "title": "Ghép kết quả trạm đo",
+      "mode": "match",
+      "objective": "Ghép tình huống thực hành với số đo, đơn vị và phép tính thích hợp.",
+      "rules": [
+        "Mỗi lượt chọn 5 câu có 5 đáp án khác nhau.",
+        "Chọn câu hỏi bên trái rồi đáp án bên phải. Sai thì thử lại.",
+        "Mỗi cặp đúng 10 điểm; tối đa 50 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B34_Q01",
+        "TOAN3_T1_B34_Q02",
+        "TOAN3_T1_B34_Q03",
+        "TOAN3_T1_B34_Q04",
+        "TOAN3_T1_B34_Q05",
+        "TOAN3_T1_B34_Q06",
+        "TOAN3_T1_B34_Q07",
+        "TOAN3_T1_B34_Q08",
+        "TOAN3_T1_B34_Q09",
+        "TOAN3_T1_B34_Q10",
+        "TOAN3_T1_B34_Q11",
+        "TOAN3_T1_B34_Q12",
+        "TOAN3_T1_B34_Q13",
+        "TOAN3_T1_B34_Q14",
+        "TOAN3_T1_B34_Q15",
+        "TOAN3_T1_B34_Q16",
+        "TOAN3_T1_B34_Q17",
+        "TOAN3_T1_B34_Q18",
+        "TOAN3_T1_B34_Q19",
+        "TOAN3_T1_B34_Q20",
+        "TOAN3_T1_B34_Q21",
+        "TOAN3_T1_B34_Q22",
+        "TOAN3_T1_B34_Q23",
+        "TOAN3_T1_B34_Q24",
+        "TOAN3_T1_B34_Q25",
+        "TOAN3_T1_B34_Q26",
+        "TOAN3_T1_B34_Q27",
+        "TOAN3_T1_B34_Q28",
+        "TOAN3_T1_B34_Q29",
+        "TOAN3_T1_B34_Q30",
+        "TOAN3_T1_B34_Q31",
+        "TOAN3_T1_B34_Q32",
+        "TOAN3_T1_B34_Q33",
+        "TOAN3_T1_B34_Q34",
+        "TOAN3_T1_B34_Q35",
+        "TOAN3_T1_B34_Q36",
+        "TOAN3_T1_B34_Q37",
+        "TOAN3_T1_B34_Q38",
+        "TOAN3_T1_B34_Q39",
+        "TOAN3_T1_B34_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 50
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "activities": [
+    {
+      "title": "Bốn trạm đo tại nhà",
+      "materials": [
+        "Thước có mm",
+        "Cân hoặc gói có ghi khối lượng",
+        "Ca chia ml",
+        "Nhiệt kế đo không khí nếu có",
+        "Giấy bút"
+      ],
+      "steps": [
+        "Trạm 1: đo một chiếc tẩy bằng mm, đặt đầu tại 0; ghi kết quả.",
+        "Trạm 2: cân một đồ vật nhẹ hoặc đọc nhãn khối lượng của gói, ghi số và g.",
+        "Trạm 3: đọc lượng nước trong ca, ghi số và ml, không rót quá sức chứa.",
+        "Trạm 4: nhờ người lớn hỗ trợ đọc nhiệt kế không khí; nếu thiếu dụng cụ thì ghi chưa thực hiện, không đoán số."
+      ],
+      "check": [
+        "Mỗi dòng có tên vật/địa điểm, số và đơn vị đúng.",
+        "Nêu được dụng cụ và cách đọc; phân biệt số đo thật với dữ liệu mô phỏng trên web."
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B34_A.svg",
+      "caption": "Hình A: Thẻ trên thước mm, đầu trái ở 0 mm, đầu phải ở 35 mm. Hình mô phỏng, không đo màn hình."
+    }
+  ]
+}

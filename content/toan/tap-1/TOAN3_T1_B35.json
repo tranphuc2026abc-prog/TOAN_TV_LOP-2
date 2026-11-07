@@ -1,0 +1,786 @@
+{
+  "id": "TOAN3_T1_B35",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 35,
+  "title": "Luyện tập chung",
+  "topic": "Ôn đo lường và phép tính",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      95,
+      96
+    ],
+    "pdf_pages": [
+      96,
+      97
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Tính với số đo cùng đơn vị, giải bài cân, rót và đoạn dây.",
+    "Lập hai bước tính, phân biệt khối lượng vỏ/ruột và dùng chênh lệch dung tích."
+  ],
+  "knowledge": {
+    "introduction": "Bài luyện tập kết hợp việc đọc dụng cụ với phép tính. Chọn đại lượng trước, đổi đơn vị sau, rồi tính. Trong trò đong nước, rót đầy một cốc nhỏ từ cốc lớn có thể tạo ra lượng bằng hiệu dung tích hai cốc.",
+    "rules": [
+      "Chỉ cộng/trừ các số đo cùng đại lượng và cùng đơn vị.",
+      "Số đo nhân hoặc chia số phần bằng nhau vẫn giữ đơn vị đại lượng ban đầu.",
+      "Cân thăng bằng cho phép tìm phần chưa biết bằng tổng bên kia trừ phần đã biết cùng đĩa.",
+      "Đổ đầy cốc lớn rồi rót đầy cốc nhỏ: lượng còn trong cốc lớn bằng dung tích lớn trừ dung tích nhỏ.",
+      "Hỏi số đoạn đủ lấy thương; hỏi còn thừa lấy số dư. Giải hai bước theo đúng trình tự sự việc."
+    ],
+    "steps": [
+      "Đọc số đo và đổi về cùng đơn vị.",
+      "Xác định tổng, phần dùng, phần còn lại hoặc chênh lệch.",
+      "Viết từng bước tính có đơn vị.",
+      "Kiểm tra kết quả bằng tình huống cân/rót/cắt, rồi thử lại câu sai."
+    ],
+    "common_errors": [
+      "Cộng gam và mi-li-lít như cùng một đại lượng.",
+      "Quên đổi 1 l hoặc 1 kg trước khi trừ.",
+      "Tính cả vỏ hộp khi đề chỉ hỏi ruột.",
+      "Lấy tổng dung tích khi thao tác thực tế là rót bớt."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Cốc lớn 450 ml, cốc nhỏ 180 ml. Đổ đầy cốc lớn rồi rót đầy cốc nhỏ. Còn bao nhiêu trong cốc lớn?",
+      "steps": [
+        "450 - 180 = 270.",
+        "Còn 270 ml trong cốc lớn."
+      ]
+    },
+    {
+      "question": "Có 6 đoạn mỗi đoạn 35 mm, cắt bỏ tổng 40 mm. Còn tổng độ dài bao nhiêu?",
+      "steps": [
+        "35 × 6 = 210 mm ban đầu.",
+        "210 - 40 = 170. Còn tổng 170 mm."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B35_Q01",
+      "type": "mcq",
+      "question": "Tính 320 ml trừ 140 ml, được mấy ml?",
+      "options": [
+        "180",
+        "460",
+        "160",
+        "200"
+      ],
+      "correct_answer": "180",
+      "distractors": [
+        "460",
+        "160",
+        "200"
+      ],
+      "explanation": "320 - 140 = 180 ml.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q02",
+      "type": "fill",
+      "question": "Tính 45 g cộng 35 g, được mấy gam?",
+      "correct_answer": "80",
+      "distractors": [
+        "10",
+        "70",
+        "90"
+      ],
+      "explanation": "45 + 35 = 80 g.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q03",
+      "type": "mcq",
+      "question": "Tính 28 mm nhân 3, được mấy mm?",
+      "options": [
+        "84",
+        "31",
+        "74",
+        "56"
+      ],
+      "correct_answer": "84",
+      "distractors": [
+        "31",
+        "74",
+        "56"
+      ],
+      "explanation": "28 × 3 = 84 mm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q04",
+      "type": "fill",
+      "question": "Tính 96 g chia 4, được mấy gam?",
+      "correct_answer": "24",
+      "distractors": [
+        "92",
+        "20",
+        "28"
+      ],
+      "explanation": "96 : 4 = 24 g.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q05",
+      "type": "mcq",
+      "question": "Muốn cộng 2 cm và 8 mm, cần đổi 2 cm thành mấy mm?",
+      "options": [
+        "20",
+        "2",
+        "200",
+        "10"
+      ],
+      "correct_answer": "20",
+      "distractors": [
+        "2",
+        "200",
+        "10"
+      ],
+      "explanation": "2 cm bằng 20 mm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q06",
+      "type": "fill",
+      "question": "1 l nước bớt 400 ml còn mấy ml?",
+      "correct_answer": "600",
+      "distractors": [
+        "400",
+        "1400",
+        "60"
+      ],
+      "explanation": "1 l bằng 1000 ml; 1000 - 400 = 600 ml.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q07",
+      "type": "mcq",
+      "question": "Đơn vị gam dùng cho đại lượng nào?",
+      "options": [
+        "khối lượng",
+        "độ dài",
+        "dung tích",
+        "nhiệt độ"
+      ],
+      "correct_answer": "khối lượng",
+      "distractors": [
+        "độ dài",
+        "dung tích",
+        "nhiệt độ"
+      ],
+      "explanation": "Gam đo khối lượng của vật.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q08",
+      "type": "fill",
+      "question": "Phép tính 250 g + 300 ml có thể cộng thẳng thành 550 g không? Trả lời có hoặc không.",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "luôn được",
+        "chỉ đổi dấu"
+      ],
+      "explanation": "Hai số đo khác đại lượng, không cộng thành số gam như vậy.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q09",
+      "type": "mcq",
+      "question": "Nhiệt độ từ 23 lên 28 °C tăng mấy độ C?",
+      "options": [
+        "5",
+        "51",
+        "4",
+        "6"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "51",
+        "4",
+        "6"
+      ],
+      "explanation": "28 - 23 = 5 độ C.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q10",
+      "type": "fill",
+      "question": "1 kg trừ 250 g còn mấy gam?",
+      "correct_answer": "750",
+      "distractors": [
+        "249",
+        "1250",
+        "75"
+      ],
+      "explanation": "1000 - 250 = 750 g.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q11",
+      "type": "mcq",
+      "question": "Một cân thăng bằng có hộp và 80 g bên trái, 500 g bên phải. Hộp mấy gam?",
+      "options": [
+        "420",
+        "580",
+        "500",
+        "80"
+      ],
+      "correct_answer": "420",
+      "distractors": [
+        "580",
+        "500",
+        "80"
+      ],
+      "explanation": "500 - 80 = 420 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q12",
+      "type": "fill",
+      "question": "Hai cốc dung tích 500 ml và 200 ml. Đổ đầy cốc lớn rồi rót đầy cốc nhỏ; cốc lớn còn mấy ml?",
+      "correct_answer": "300",
+      "distractors": [
+        "700",
+        "200",
+        "500"
+      ],
+      "explanation": "500 - 200 = 300 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q13",
+      "type": "mcq",
+      "question": "Một dây 36 mm gấp 2 lần rồi giảm 3 lần. Cuối cùng mấy mm?",
+      "options": [
+        "24",
+        "72",
+        "12",
+        "69"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "72",
+        "12",
+        "69"
+      ],
+      "explanation": "36 × 2 = 72; 72 : 3 = 24 mm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q14",
+      "type": "fill",
+      "question": "Một túi 450 g, túi khác nhẹ hơn 120 g. Túi khác mấy gam?",
+      "correct_answer": "330",
+      "distractors": [
+        "570",
+        "120",
+        "300"
+      ],
+      "explanation": "450 - 120 = 330 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q15",
+      "type": "mcq",
+      "question": "Ba ca đều 180 ml. Muốn biết tổng dùng phép tính nào?",
+      "options": [
+        "180 × 3",
+        "180 + 3",
+        "180 - 3",
+        "180 : 3"
+      ],
+      "correct_answer": "180 × 3",
+      "distractors": [
+        "180 + 3",
+        "180 - 3",
+        "180 : 3"
+      ],
+      "explanation": "Ba nhóm bằng nhau mỗi nhóm 180 ml dùng phép nhân.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q16",
+      "type": "fill",
+      "question": "Bạn đo từ vạch 5 đến 32 mm, ghi dài 32 mm. Độ dài đúng mấy mm?",
+      "correct_answer": "27",
+      "distractors": [
+        "32",
+        "37",
+        "25"
+      ],
+      "explanation": "32 - 5 = 27 mm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q17",
+      "type": "mcq",
+      "question": "Cân cho biết A nặng bằng 280 g, B và 40 g cân bằng A. B nặng mấy gam?",
+      "options": [
+        "240",
+        "320",
+        "280",
+        "40"
+      ],
+      "correct_answer": "240",
+      "distractors": [
+        "320",
+        "280",
+        "40"
+      ],
+      "explanation": "280 - 40 = 240 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q18",
+      "type": "fill",
+      "question": "Bình 900 ml chia đều 3 ca, mỗi ca mấy ml?",
+      "correct_answer": "300",
+      "distractors": [
+        "2700",
+        "897",
+        "30"
+      ],
+      "explanation": "900 : 3 = 300 ml.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q19",
+      "type": "mcq",
+      "question": "Một đường dài 75 mm, bớt 15 mm rồi gấp 2 lần. Được mấy mm?",
+      "options": [
+        "120",
+        "150",
+        "60",
+        "90"
+      ],
+      "correct_answer": "120",
+      "distractors": [
+        "150",
+        "60",
+        "90"
+      ],
+      "explanation": "75 - 15 = 60; 60 × 2 = 120 mm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q20",
+      "type": "fill",
+      "question": "Các túi A 250 g, B 400 g, C 350 g. B nặng hơn A mấy gam?",
+      "correct_answer": "150",
+      "distractors": [
+        "650",
+        "100",
+        "50"
+      ],
+      "explanation": "400 - 250 = 150 g.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q21",
+      "type": "mcq",
+      "question": "Dây dài 1 m, dùng 245 mm và 355 mm. Còn mấy mm?",
+      "options": [
+        "400",
+        "600",
+        "755",
+        "645"
+      ],
+      "correct_answer": "400",
+      "distractors": [
+        "600",
+        "755",
+        "645"
+      ],
+      "explanation": "245 + 355 = 600; 1000 - 600 = 400 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q22",
+      "type": "fill",
+      "question": "Có 700 ml, thêm 180 ml rồi rót 250 ml. Còn mấy ml?",
+      "correct_answer": "630",
+      "distractors": [
+        "450",
+        "880",
+        "770"
+      ],
+      "explanation": "700 + 180 = 880; 880 - 250 = 630 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q23",
+      "type": "mcq",
+      "question": "Mỗi túi 75 g, có 6 túi. Dùng 120 g thì còn mấy gam?",
+      "options": [
+        "330",
+        "450",
+        "255",
+        "570"
+      ],
+      "correct_answer": "330",
+      "distractors": [
+        "450",
+        "255",
+        "570"
+      ],
+      "explanation": "75 × 6 = 450; 450 - 120 = 330 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q24",
+      "type": "fill",
+      "question": "Một đoạn 48 mm chia thành 4 phần, lấy 3 phần. Tổng phần lấy dài mấy mm?",
+      "correct_answer": "36",
+      "distractors": [
+        "12",
+        "16",
+        "44"
+      ],
+      "explanation": "48 : 4 = 12; 12 × 3 = 36 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q25",
+      "type": "mcq",
+      "question": "Hai chai 425 ml và 375 ml. Cần thêm mấy ml để đủ 1 l?",
+      "options": [
+        "200",
+        "800",
+        "50",
+        "300"
+      ],
+      "correct_answer": "200",
+      "distractors": [
+        "800",
+        "50",
+        "300"
+      ],
+      "explanation": "425 + 375 = 800; 1000 - 800 = 200 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q26",
+      "type": "fill",
+      "question": "Một hộp cả vỏ 680 g, vỏ 80 g. Ruột chia đều 3 phần, mỗi phần mấy gam?",
+      "correct_answer": "200",
+      "distractors": [
+        "600",
+        "226",
+        "253"
+      ],
+      "explanation": "680 - 80 = 600; 600 : 3 = 200 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q27",
+      "type": "mcq",
+      "question": "Cốc lớn 600 ml, cốc nhỏ 250 ml. Đổ đầy cốc lớn, rót đầy cốc nhỏ hai lần. Lớn còn mấy ml?",
+      "options": [
+        "100",
+        "350",
+        "500",
+        "850"
+      ],
+      "correct_answer": "100",
+      "distractors": [
+        "350",
+        "500",
+        "850"
+      ],
+      "explanation": "250 × 2 = 500; 600 - 500 = 100 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q28",
+      "type": "fill",
+      "question": "Có 85 mm dây, mỗi đoạn cần 18 mm. Cắt nhiều nhất mấy đoạn đủ?",
+      "correct_answer": "4",
+      "distractors": [
+        "5",
+        "3",
+        "13"
+      ],
+      "explanation": "18 × 4 + 13 = 85, chỉ đủ 4 đoạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q29",
+      "type": "mcq",
+      "question": "Có 85 mm dây, cắt bốn đoạn 18 mm. Còn mấy mm?",
+      "options": [
+        "13",
+        "72",
+        "67",
+        "17"
+      ],
+      "correct_answer": "13",
+      "distractors": [
+        "72",
+        "67",
+        "17"
+      ],
+      "explanation": "18 × 4 = 72; 85 - 72 = 13 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q30",
+      "type": "fill",
+      "question": "Một túi 1 kg lấy ra 350 g, rồi thêm 125 g. Hiện có mấy gam?",
+      "correct_answer": "775",
+      "distractors": [
+        "650",
+        "525",
+        "875"
+      ],
+      "explanation": "1000 - 350 = 650; 650 + 125 = 775 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q31",
+      "type": "mcq",
+      "question": "Ca A 150 ml, B 350 ml, C 450 ml. Ca B ghép với ca nào để có 800 ml? Điền A, B hoặc C.",
+      "options": [
+        "C",
+        "A",
+        "B",
+        "không ca nào"
+      ],
+      "correct_answer": "C",
+      "distractors": [
+        "A",
+        "B",
+        "không ca nào"
+      ],
+      "explanation": "350 + 450 = 800 ml nên chọn C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q32",
+      "type": "fill",
+      "question": "Có 9 dải giấy mỗi dải 40 mm. Cắt bỏ tổng cộng 75 mm. Còn tổng mấy mm?",
+      "correct_answer": "285",
+      "distractors": [
+        "360",
+        "295",
+        "435"
+      ],
+      "explanation": "40 × 9 = 360; 360 - 75 = 285 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q33",
+      "type": "mcq",
+      "question": "Có 840 g, lượng dùng bằng ban đầu giảm 4 lần. Còn mấy gam?",
+      "options": [
+        "630",
+        "210",
+        "836",
+        "844"
+      ],
+      "correct_answer": "630",
+      "distractors": [
+        "210",
+        "836",
+        "844"
+      ],
+      "explanation": "840 : 4 = 210; 840 - 210 = 630 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q34",
+      "type": "fill",
+      "question": "Bình 1 l, mỗi cốc cần 225 ml. Rót đầy 4 cốc thì còn mấy ml?",
+      "correct_answer": "100",
+      "distractors": [
+        "900",
+        "775",
+        "200"
+      ],
+      "explanation": "225 × 4 = 900; 1000 - 900 = 100 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q35",
+      "type": "mcq",
+      "question": "Nhiệt độ sáng 21 °C, trưa tăng 9 độ, tối giảm 7 độ so với trưa. Tối mấy °C?",
+      "options": [
+        "23",
+        "37",
+        "14",
+        "30"
+      ],
+      "correct_answer": "23",
+      "distractors": [
+        "37",
+        "14",
+        "30"
+      ],
+      "explanation": "21 + 9 = 30; 30 - 7 = 23 °C.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q36",
+      "type": "fill",
+      "question": "Có ba quả cân 200 g, 100 g, 50 g. Túi hạt 400 g. Cần thêm mấy gam quả cân để bằng túi?",
+      "correct_answer": "50",
+      "distractors": [
+        "350",
+        "100",
+        "150"
+      ],
+      "explanation": "200 + 100 + 50 = 350; 400 - 350 = 50 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q37",
+      "type": "mcq",
+      "question": "Một cuộn 90 cm, lấy 250 mm. Phần còn lại dài mấy mm?",
+      "options": [
+        "650",
+        "160",
+        "340",
+        "750"
+      ],
+      "correct_answer": "650",
+      "distractors": [
+        "160",
+        "340",
+        "750"
+      ],
+      "explanation": "90 cm bằng 900 mm; 900 - 250 = 650 mm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q38",
+      "type": "fill",
+      "question": "Hai bình bằng nhau tổng 960 ml. Một bình rót ra 180 ml. Bình đó còn mấy ml?",
+      "correct_answer": "300",
+      "distractors": [
+        "480",
+        "780",
+        "660"
+      ],
+      "explanation": "960 : 2 = 480; 480 - 180 = 300 ml.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q39",
+      "type": "mcq",
+      "question": "Hai túi có tổng 950 g, túi đầu 425 g. Túi sau nặng hơn đầu mấy gam?",
+      "options": [
+        "100",
+        "525",
+        "50",
+        "950"
+      ],
+      "correct_answer": "100",
+      "distractors": [
+        "525",
+        "50",
+        "950"
+      ],
+      "explanation": "950 - 425 = 525; 525 - 425 = 100 g.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B35_Q40",
+      "type": "fill",
+      "question": "Có 72 mm chỉ đủ cho 3 mũi khâu bằng nhau. Sáu mũi như vậy cần mấy mm?",
+      "correct_answer": "144",
+      "distractors": [
+        "432",
+        "24",
+        "78"
+      ],
+      "explanation": "72 : 3 = 24; 24 × 6 = 144 mm.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B35_GAME1",
+      "title": "Kiểm chứng trạm đo",
+      "mode": "tf",
+      "objective": "Chọn đúng/sai cho kết quả tính số đo và bài toán hai bước.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu trong bài và đưa ra một kết quả để kiểm chứng.",
+        "Chọn Đúng nếu kết quả phù hợp, chọn Sai nếu không phù hợp; đọc lời giải trước khi sang câu.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B35_Q01",
+        "TOAN3_T1_B35_Q02",
+        "TOAN3_T1_B35_Q03",
+        "TOAN3_T1_B35_Q04",
+        "TOAN3_T1_B35_Q05",
+        "TOAN3_T1_B35_Q06",
+        "TOAN3_T1_B35_Q07",
+        "TOAN3_T1_B35_Q08",
+        "TOAN3_T1_B35_Q09",
+        "TOAN3_T1_B35_Q10",
+        "TOAN3_T1_B35_Q11",
+        "TOAN3_T1_B35_Q12",
+        "TOAN3_T1_B35_Q13",
+        "TOAN3_T1_B35_Q14",
+        "TOAN3_T1_B35_Q15",
+        "TOAN3_T1_B35_Q16",
+        "TOAN3_T1_B35_Q17",
+        "TOAN3_T1_B35_Q18",
+        "TOAN3_T1_B35_Q19",
+        "TOAN3_T1_B35_Q20",
+        "TOAN3_T1_B35_Q21",
+        "TOAN3_T1_B35_Q22",
+        "TOAN3_T1_B35_Q23",
+        "TOAN3_T1_B35_Q24",
+        "TOAN3_T1_B35_Q25",
+        "TOAN3_T1_B35_Q26",
+        "TOAN3_T1_B35_Q27",
+        "TOAN3_T1_B35_Q28",
+        "TOAN3_T1_B35_Q29",
+        "TOAN3_T1_B35_Q30",
+        "TOAN3_T1_B35_Q31",
+        "TOAN3_T1_B35_Q32",
+        "TOAN3_T1_B35_Q33",
+        "TOAN3_T1_B35_Q34",
+        "TOAN3_T1_B35_Q35",
+        "TOAN3_T1_B35_Q36",
+        "TOAN3_T1_B35_Q37",
+        "TOAN3_T1_B35_Q38",
+        "TOAN3_T1_B35_Q39",
+        "TOAN3_T1_B35_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

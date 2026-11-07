@@ -1,0 +1,164 @@
+Bài 33
+Đơn vị độ C dùng đo đại lượng nào?|nhiệt độ|Độ C biểu thị mức nóng lạnh, không đo độ dài hay khối lượng.|độ dài;khối lượng;dung tích
+Kí hiệu độ C là gì?|°C|Dấu độ đi cùng chữ C để ghi độ C.|mm;g;ml
+Dụng cụ dùng đo nhiệt độ là gì?|nhiệt kế|Nhiệt kế có thang đo nhiệt độ.|thước;cân;ca đong
+Số 28 °C đọc là bao nhiêu độ C? Điền số.|28|Đọc là hai mươi tám độ C.|82;2;8
+Hai nơi 18 °C và 26 °C, nơi có nhiệt độ cao hơn là bao nhiêu °C?|26|26 lớn hơn 18 nên mức 26 °C cao hơn.|18;8;44
+Trong 12 °C, 20 °C, 29 °C, mức thấp nhất là bao nhiêu °C?|12|12 là số nhỏ nhất trong ba số.|20;29;61
+Hình A: nhiệt kế P chỉ mấy °C?|24|Từ 20 lên 24 có hai khoảng, mỗi khoảng 2 °C.|22;26;20
+Hình A: nhiệt kế Q chỉ mấy °C?|32|Mức đỏ của Q tại vạch 32, trên 30 một khoảng 2 °C.|30;34;28
+Nhiệt độ 0 °C có nghĩa là nhiệt kế không có nhiệt độ không? Trả lời có hoặc không.|không|0 °C là một giá trị trên thang đo, không phải thiếu số đo.|có;không có thang;không có đơn vị
+Nhiệt độ tăng từ 21 °C lên 25 °C thì tăng mấy độ C?|4|25 - 21 = 4 độ C.|46;3;5
+Hình A: Q cao hơn P mấy độ C?|8|32 - 24 = 8 độ C.|56;6;10
+Thang nhiệt kế ghi 10, 20, 30; từ 10 đến 20 có 5 khoảng bằng nhau. Mỗi khoảng mấy độ C?|2|20 - 10 = 10; 10 : 5 = 2 độ C.|1;5;10
+Một bản ghi 23 °C nhưng thiếu kí hiệu, chỉ viết 23. Cần bổ sung đơn vị nào?|°C|Thêm °C để biết 23 là nhiệt độ.|mm;kg;ml
+Buổi sáng 19 °C, buổi trưa 27 °C. Nhiệt độ trưa tăng mấy độ C so với sáng?|8|27 - 19 = 8 độ C.|46;6;9
+Nhiệt độ giảm từ 31 °C xuống 24 °C. Đã giảm mấy độ C?|7|31 - 24 = 7 độ C.|55;6;8
+Hai nhiệt kế chỉ cùng 22 °C dù một hình được phóng to. Số đo có bằng nhau không? Trả lời có hoặc không.|có|Số đo theo vạch và đơn vị, không theo chiều dài hình hiển thị.|không;chỉ hình to lớn hơn;chỉ hình nhỏ lớn hơn
+Hình A: P tăng 6 độ C thì chỉ mấy °C?|30|24 + 6 = 30 °C.|18;26;32
+Trong các mức 17, 25, 22 °C, xếp tăng dần thì mức ở giữa là mấy °C?|22|Thứ tự là 17, 22, 25; mức ở giữa là 22 °C.|17;25;64
+Ba ngày cùng giờ lần lượt 26, 26, 24 °C. Có mấy ngày bằng 26 °C?|2|Ngày thứ nhất và thứ hai cùng 26 °C.|1;3;0
+Một thang chia mỗi khoảng 1 °C. Từ vạch 25 đi lên 3 khoảng đến mấy °C?|28|25 + 3 = 28 °C.|22;27;29
+Dữ liệu mô phỏng: sáng 22 °C, trưa 31 °C, tối 25 °C. Trong ngày mức cao nhất mấy °C?|31|31 lớn hơn 22 và 25 nên cao nhất.|22;25;78
+Dữ liệu mô phỏng: sáng 22 °C, trưa 31 °C, tối 25 °C. Trưa hơn sáng mấy độ C?|9|31 - 22 = 9 độ C.|3;6;53
+Dữ liệu mô phỏng: sáng 22 °C, trưa 31 °C, tối 25 °C. Từ trưa đến tối giảm mấy độ C?|6|31 - 25 = 6 độ C.|3;9;56
+Một phòng 24 °C tăng 3 độ rồi giảm 2 độ. Sau cùng mấy °C?|25|24 + 3 = 27; 27 - 2 = 25 °C.|29;23;19
+Kho A 16 °C, kho B 23 °C, kho C 19 °C. A thấp hơn B mấy độ C?|7|23 - 16 = 7 độ C.|3;4;39
+Hai lần đo cùng phòng là 20 °C và 28 °C. Lần sau cao hơn lần trước mấy độ C?|8|28 - 20 = 8 độ C.|48;6;10
+Mỗi khoảng thang nhiệt kế là 2 °C. Mực đỏ ở hai khoảng trên vạch 16 °C. Đọc được mấy °C?|20|2 × 2 = 4; 16 + 4 = 20 °C.|18;24;12
+Một buồng thử nghiệm 30 °C, giảm 4 độ rồi tăng 1 độ. Sau cùng mấy °C?|27|30 - 4 = 26; 26 + 1 = 27 °C.|25;35;29
+Đầu giờ 18 °C, cuối giờ 24 °C. Muốn cuối giờ đạt 26 °C thì cần tăng thêm mấy độ C?|2|26 - 24 = 2 độ C.|8;6;4
+Bốn số đo 21, 25, 21, 28 °C. Có mấy số đo cao hơn 22 °C?|2|Chỉ 25 và 28 lớn hơn 22.|1;3;4
+Nơi A 14 °C, B cao hơn A 8 độ. Nơi B mấy °C?|22|14 + 8 = 22 °C.|6;24;20
+Nơi B 29 °C, nơi C thấp hơn B 11 độ. C mấy °C?|18|29 - 11 = 18 °C.|40;20;17
+Thứ Hai 23 °C, thứ Ba tăng 4 độ, thứ Tư giảm 6 độ so với thứ Ba. Thứ Tư mấy °C?|21|23 + 4 = 27; 27 - 6 = 21 °C.|25;17;33
+Nhiệt kế có các mốc 0, 10, 20, 30 °C. Mực đỏ đúng giữa 20 và 30. Đọc mấy °C?|25|Khoảng 10 độ chia đôi là 5 độ; 20 + 5 = 25.|15;20;30
+Hai phòng 26 °C và 18 °C. Phòng lạnh hơn tăng 5 độ thì vẫn thấp hơn phòng kia mấy độ C?|3|18 + 5 = 23; 26 - 23 = 3 độ C.|8;5;13
+Một nơi 32 °C, nơi kia 27 °C. Cả hai cùng giảm 3 độ. Chênh lệch sau đó mấy độ C?|5|32 - 3 = 29; 27 - 3 = 24; 29 - 24 = 5.|2;8;11
+Bảng mô phỏng bốn ngày: 24, 27, 23, 26 °C. Ngày nóng nhất hơn ngày mát nhất mấy độ C?|4|27 - 23 = 4 độ C.|3;2;50
+Mực đỏ đang 17 °C; người vẽ cần thể hiện 23 °C trên thang mỗi khoảng 2 độ. Cần nâng lên mấy khoảng?|3|23 - 17 = 6; 6 : 2 = 3 khoảng.|6;2;4
+Buổi đầu 15 °C, buổi sau 19 °C, buổi cuối 28 °C. Từ đầu đến cuối tăng mấy độ C?|13|28 - 15 = 13 độ C; không chỉ lấy mức tăng của lần cuối.|9;4;43
+Một vạch giữa 28 và 32 °C chia khoảng này thành hai phần bằng nhau. Vạch ấy chỉ mấy °C?|30|32 - 28 = 4; một nửa là 2; 28 + 2 = 30 °C.|29;31;60
+Bài 34
+Cần đo chiều dài chiếc kẹp giấy. Chọn đơn vị thích hợp: mm, g, ml, °C.|mm|Chiều dài là đại lượng đo bằng mm.|g;ml;°C
+Cần cân một túi hạt nhỏ. Chọn đơn vị: g, mm, ml, °C.|g|Gam dùng đo khối lượng.|mm;ml;°C
+Cần đong lượng nước trong cốc. Chọn đơn vị: ml, mm, g, °C.|ml|Mi-li-lít dùng đo dung tích.|mm;g;°C
+Cần ghi mức nóng lạnh trong phòng. Chọn đơn vị: °C, mm, g, ml.|°C|Độ C là đơn vị nhiệt độ.|mm;g;ml
+Một mét bằng mấy mm?|1000|1 m bằng 1000 mm.|100;10;1
+Một ki-lô-gam bằng mấy gam?|1000|1 kg bằng 1000 g.|100;10;1
+Một lít bằng mấy ml?|1000|1 l bằng 1000 ml.|100;10;1
+Đo nhiệt độ dùng dụng cụ nào?|nhiệt kế|Nhiệt kế dùng đo nhiệt độ.|thước;cân;ca đong
+Cân thăng bằng mới so được hai bên có khối lượng bằng nhau không? Trả lời có hoặc không.|có|Khi cân thăng bằng, tổng khối lượng hai bên bằng nhau.|không;luôn bằng nhau;chỉ nhìn màu
+Khi đọc thước, nên đặt một đầu vật ở vạch mấy?|0|Đặt ở vạch 0 giúp đọc trực tiếp độ dài đầu còn lại.|1;10;100
+Hình A: chiếc thẻ từ 0 đến 35 mm. Thẻ dài mấy mm?|35|Đầu trái ở 0, đầu phải ở 35; 35 - 0 = 35 mm.|30;40;3
+Hình A: mỗi khoảng nhỏ dài 1 mm. Từ vạch 30 đến cuối thẻ có mấy khoảng?|5|35 - 30 = 5 khoảng 1 mm.|3;4;6
+Nhãn hộp ghi 250 g, bạn chép 250 ml. Bạn đã đổi sai đại lượng nào? Chọn khối lượng hoặc độ dài.|khối lượng|250 g chỉ khối lượng, không thể tự đổi thành dung tích ml.|độ dài;nhiệt độ;thời gian
+Một ca có vạch 100, 200, 300 ml đều nhau. Mực nước giữa 200 và 300. Có mấy ml?|250|Giữa 200 và 300 là 250 ml.|150;200;300
+Có các quả cân 500 g, 200 g, 200 g, 100 g. Tổng bằng mấy gam?|1000|500 + 200 + 200 + 100 = 1000 g, đúng 1 kg.|900;800;1100
+Một vật bắt đầu ở vạch 9 mm và kết thúc ở 41 mm. Dài mấy mm?|32|41 - 9 = 32 mm.|41;50;30
+Nhiệt kế chỉ 26 °C, ngày sau tăng 2 độ. Ghi mấy °C?|28|26 + 2 = 28 °C.|24;52;30
+Túi 700 g, hộp 1 kg. Hộp nặng hơn mấy gam?|300|1 kg bằng 1000 g; 1000 - 700 = 300 g.|699;1700;700
+Đo một vật ba lần được 32, 32, 40 mm; lần cuối đặt sai vạch 0. Có nên kiểm tra lại lần cuối không? Trả lời có hoặc không.|có|Kết quả lệch và cách đặt sai nên cần đo lại đúng vạch.|không;chọn số lớn nhất;cộng ba số
+Ca tối đa 500 ml đang chứa 300 ml. Dung tích tối đa có thay đổi thành 300 ml không? Trả lời có hoặc không.|không|300 ml là lượng đang có; sức chứa tối đa vẫn là 500 ml.|có;bằng 800 ml;chỉ còn 200 ml
+Có hai ca chứa 120 ml và 280 ml. Gộp lại mấy ml?|400|120 + 280 = 400 ml.|160;300;500
+Có ba ca 150 ml, 250 ml, 350 ml. Chọn hai ca để có 500 ml. Ca 150 ml cần ghép với ca mấy ml?|350|150 + 350 = 500 ml.|250;150;500
+Cần 1 kg hạt; đã đặt quả cân 500 g và 200 g. Cần thêm mấy gam quả cân?|300|500 + 200 = 700; 1000 - 700 = 300 g.|700;200;500
+Tấm bìa 8 cm, cần cắt còn 65 mm. Cắt bớt mấy mm?|15|8 cm bằng 80 mm; 80 - 65 = 15 mm.|57;73;145
+Hai ngày đo cùng giờ được 25 °C và 29 °C. Chênh nhau mấy độ C?|4|29 - 25 = 4 độ C.|54;3;5
+Bình 1 l, rót đầy hai ca 300 ml mỗi ca. Bình còn mấy ml?|400|300 × 2 = 600; 1000 - 600 = 400 ml.|600;700;200
+Lọ rỗng 90 g, cả lọ và hạt 390 g. Hạt nặng mấy gam?|300|390 - 90 = 300 g.|480;390;90
+Bốn dây bằng nhau có tổng 96 mm. Mỗi dây dài mấy mm?|24|96 : 4 = 24 mm.|92;20;28
+Có 450 ml cần rót vào các cốc tối đa 200 ml. Ít nhất mấy cốc?|3|Hai cốc chứa 400 ml, 50 ml còn lại cần cốc thứ 3.|2;4;1
+Một thẻ dài 3 cm 4 mm. Thẻ kia dài 29 mm. Thẻ đầu dài hơn mấy mm?|5|3 cm 4 mm bằng 34 mm; 34 - 29 = 5 mm.|25;7;63
+Cân thăng bằng, túi và 50 g bằng 400 g. Túi nặng mấy gam?|350|400 - 50 = 350 g.|450;400;50
+Mỗi lượt đong 125 ml. Bốn lượt được mấy ml?|500|125 × 4 = 500 ml.|129;400;625
+Nhiệt độ 20 °C tăng 5 độ rồi giảm 3 độ. Cuối cùng mấy °C?|22|20 + 5 = 25; 25 - 3 = 22 °C.|28;18;12
+Có 600 g đậu chia đều 4 túi. Hai túi nặng tổng mấy gam?|300|600 : 4 = 150; 150 × 2 = 300 g.|150;200;450
+Thanh gỗ dài 1 m, cắt 280 mm và 320 mm. Còn mấy mm?|400|280 + 320 = 600; 1000 - 600 = 400 mm.|600;680;720
+Có 720 ml, lượng rót ra bằng ban đầu giảm 3 lần. Còn mấy ml?|480|720 : 3 = 240; 720 - 240 = 480 ml.|240;717;960
+Một vật cân cả hộp 650 g, hộp 150 g. Chia vật bên trong đều 5 phần, mỗi phần mấy gam?|100|650 - 150 = 500; 500 : 5 = 100 g.|130;500;160
+Cần hai dây dài 45 mm và 55 mm. Tổng bằng mấy cm?|10|45 + 55 = 100 mm; 100 : 10 = 10 cm.|100;1;9
+Ba ca chứa 200, 300, 400 ml. Đổ hết vào bình tối đa 1 l thì còn thiếu mấy ml mới đầy?|100|200 + 300 + 400 = 900; 1000 - 900 = 100 ml.|900;200;300
+Một tuần ghi các mức cùng giờ 27, 25, 28 °C trong ba ngày. Mức cao nhất hơn thấp nhất mấy độ C?|3|28 - 25 = 3 độ C.|2;1;53
+Bài 35
+Tính 320 ml trừ 140 ml, được mấy ml?|180|320 - 140 = 180 ml.|460;160;200
+Tính 45 g cộng 35 g, được mấy gam?|80|45 + 35 = 80 g.|10;70;90
+Tính 28 mm nhân 3, được mấy mm?|84|28 × 3 = 84 mm.|31;74;56
+Tính 96 g chia 4, được mấy gam?|24|96 : 4 = 24 g.|92;20;28
+Muốn cộng 2 cm và 8 mm, cần đổi 2 cm thành mấy mm?|20|2 cm bằng 20 mm.|2;200;10
+1 l nước bớt 400 ml còn mấy ml?|600|1 l bằng 1000 ml; 1000 - 400 = 600 ml.|400;1400;60
+Đơn vị gam dùng cho đại lượng nào?|khối lượng|Gam đo khối lượng của vật.|độ dài;dung tích;nhiệt độ
+Phép tính 250 g + 300 ml có thể cộng thẳng thành 550 g không? Trả lời có hoặc không.|không|Hai số đo khác đại lượng, không cộng thành số gam như vậy.|có;luôn được;chỉ đổi dấu
+Nhiệt độ từ 23 lên 28 °C tăng mấy độ C?|5|28 - 23 = 5 độ C.|51;4;6
+1 kg trừ 250 g còn mấy gam?|750|1000 - 250 = 750 g.|249;1250;75
+Một cân thăng bằng có hộp và 80 g bên trái, 500 g bên phải. Hộp mấy gam?|420|500 - 80 = 420 g.|580;500;80
+Hai cốc dung tích 500 ml và 200 ml. Đổ đầy cốc lớn rồi rót đầy cốc nhỏ; cốc lớn còn mấy ml?|300|500 - 200 = 300 ml.|700;200;500
+Một dây 36 mm gấp 2 lần rồi giảm 3 lần. Cuối cùng mấy mm?|24|36 × 2 = 72; 72 : 3 = 24 mm.|72;12;69
+Một túi 450 g, túi khác nhẹ hơn 120 g. Túi khác mấy gam?|330|450 - 120 = 330 g.|570;120;300
+Ba ca đều 180 ml. Muốn biết tổng dùng phép tính nào?|180 × 3|Ba nhóm bằng nhau mỗi nhóm 180 ml dùng phép nhân.|180 + 3;180 - 3;180 : 3
+Bạn đo từ vạch 5 đến 32 mm, ghi dài 32 mm. Độ dài đúng mấy mm?|27|32 - 5 = 27 mm.|32;37;25
+Cân cho biết A nặng bằng 280 g, B và 40 g cân bằng A. B nặng mấy gam?|240|280 - 40 = 240 g.|320;280;40
+Bình 900 ml chia đều 3 ca, mỗi ca mấy ml?|300|900 : 3 = 300 ml.|2700;897;30
+Một đường dài 75 mm, bớt 15 mm rồi gấp 2 lần. Được mấy mm?|120|75 - 15 = 60; 60 × 2 = 120 mm.|150;60;90
+Các túi A 250 g, B 400 g, C 350 g. B nặng hơn A mấy gam?|150|400 - 250 = 150 g.|650;100;50
+Dây dài 1 m, dùng 245 mm và 355 mm. Còn mấy mm?|400|245 + 355 = 600; 1000 - 600 = 400 mm.|600;755;645
+Có 700 ml, thêm 180 ml rồi rót 250 ml. Còn mấy ml?|630|700 + 180 = 880; 880 - 250 = 630 ml.|450;880;770
+Mỗi túi 75 g, có 6 túi. Dùng 120 g thì còn mấy gam?|330|75 × 6 = 450; 450 - 120 = 330 g.|450;255;570
+Một đoạn 48 mm chia thành 4 phần, lấy 3 phần. Tổng phần lấy dài mấy mm?|36|48 : 4 = 12; 12 × 3 = 36 mm.|12;16;44
+Hai chai 425 ml và 375 ml. Cần thêm mấy ml để đủ 1 l?|200|425 + 375 = 800; 1000 - 800 = 200 ml.|800;50;300
+Một hộp cả vỏ 680 g, vỏ 80 g. Ruột chia đều 3 phần, mỗi phần mấy gam?|200|680 - 80 = 600; 600 : 3 = 200 g.|600;226;253
+Cốc lớn 600 ml, cốc nhỏ 250 ml. Đổ đầy cốc lớn, rót đầy cốc nhỏ hai lần. Lớn còn mấy ml?|100|250 × 2 = 500; 600 - 500 = 100 ml.|350;500;850
+Có 85 mm dây, mỗi đoạn cần 18 mm. Cắt nhiều nhất mấy đoạn đủ?|4|18 × 4 + 13 = 85, chỉ đủ 4 đoạn.|5;3;13
+Có 85 mm dây, cắt bốn đoạn 18 mm. Còn mấy mm?|13|18 × 4 = 72; 85 - 72 = 13 mm.|72;67;17
+Một túi 1 kg lấy ra 350 g, rồi thêm 125 g. Hiện có mấy gam?|775|1000 - 350 = 650; 650 + 125 = 775 g.|650;525;875
+Ca A 150 ml, B 350 ml, C 450 ml. Ca B ghép với ca nào để có 800 ml? Điền A, B hoặc C.|C|350 + 450 = 800 ml nên chọn C.|A;B;không ca nào
+Có 9 dải giấy mỗi dải 40 mm. Cắt bỏ tổng cộng 75 mm. Còn tổng mấy mm?|285|40 × 9 = 360; 360 - 75 = 285 mm.|360;295;435
+Có 840 g, lượng dùng bằng ban đầu giảm 4 lần. Còn mấy gam?|630|840 : 4 = 210; 840 - 210 = 630 g.|210;836;844
+Bình 1 l, mỗi cốc cần 225 ml. Rót đầy 4 cốc thì còn mấy ml?|100|225 × 4 = 900; 1000 - 900 = 100 ml.|900;775;200
+Nhiệt độ sáng 21 °C, trưa tăng 9 độ, tối giảm 7 độ so với trưa. Tối mấy °C?|23|21 + 9 = 30; 30 - 7 = 23 °C.|37;14;30
+Có ba quả cân 200 g, 100 g, 50 g. Túi hạt 400 g. Cần thêm mấy gam quả cân để bằng túi?|50|200 + 100 + 50 = 350; 400 - 350 = 50 g.|350;100;150
+Một cuộn 90 cm, lấy 250 mm. Phần còn lại dài mấy mm?|650|90 cm bằng 900 mm; 900 - 250 = 650 mm.|160;340;750
+Hai bình bằng nhau tổng 960 ml. Một bình rót ra 180 ml. Bình đó còn mấy ml?|300|960 : 2 = 480; 480 - 180 = 300 ml.|480;780;660
+Hai túi có tổng 950 g, túi đầu 425 g. Túi sau nặng hơn đầu mấy gam?|100|950 - 425 = 525; 525 - 425 = 100 g.|525;50;950
+Có 72 mm chỉ đủ cho 3 mũi khâu bằng nhau. Sáu mũi như vậy cần mấy mm?|144|72 : 3 = 24; 24 × 6 = 144 mm.|432;24;78
+Bài 36
+Tính 123 × 2.|246|2 × 3 = 6; 2 × 2 = 4 chục; 2 × 1 = 2 trăm.|243;226;236
+Tính nhẩm 300 × 2.|600|3 trăm nhân 2 bằng 6 trăm.|60;302;500
+Khi nhân đặt tính, tính từ hàng nào trước?|đơn vị|Nhân từ đơn vị rồi đến chục, trăm.|trăm;chục;nghìn
+Tính 210 × 3.|630|3 × 0 = 0; 3 × 1 = 3 chục; 3 × 2 = 6 trăm.|63;213;620
+Tính 104 × 2.|208|Nhân cả ba hàng; hàng chục bằng 0 vẫn phải giữ đúng vị trí.|28;204;108
+Tính 132 × 3.|396|3 × 2 = 6; 3 × 3 = 9 chục; 3 × 1 = 3 trăm.|393;369;306
+Trong 126 × 4, tích ở hàng đơn vị là 24. Viết 4 rồi nhớ mấy?|2|24 đơn vị gồm 2 chục và 4 đơn vị.|4;1;6
+Tính nhẩm 400 × 2.|800|4 trăm nhân 2 bằng 8 trăm.|80;402;600
+Tính 111 × 5.|555|Mỗi hàng 1 nhân 5 được 5 ở hàng tương ứng.|115;550;515
+Thừa số một chữ số đặt dưới, thẳng với hàng nào của số ba chữ số?|đơn vị|Đặt thẳng hàng đơn vị trước khi nhân.|trăm;chục;nghìn
+Bạn tính 126 × 4 bằng 484 vì quên số nhớ từ đơn vị. Tích đúng mấy?|504|4 × 6 = 24, viết 4 nhớ 2; 4 × 2 + 2 = 10, viết 0 nhớ 1; 4 × 1 + 1 = 5.|484;494;524
+Tính 207 × 3, hàng chục của kết quả là chữ số mấy?|2|3 × 7 = 21, nhớ 2; 3 × 0 + 2 = 2 chục; tích là 621.|0;1;6
+Trong 154 × 3, sau khi nhân hàng đơn vị, cần nhớ mấy sang chục?|1|3 × 4 = 12, viết 2 nhớ 1.|2;3;4
+Tách 312 thành 300, 10, 2 để nhân 2. Phần 300 nhân 2 bằng mấy?|600|300 × 2 = 600, rồi cộng các phần còn lại.|60;302;500
+Tích 205 × 4 có chữ số hàng đơn vị là mấy?|0|4 × 5 = 20, viết 0 nhớ 2; tích là 820.|5;2;4
+Một số có 3 trăm, 2 chục, 1 đơn vị nhân 3 được mấy?|963|Số đó là 321; 321 × 3 = 963.|936;693;324
+Từ 142 × 3 = 426, suy ra ba nhóm 142 đồ vật có mấy đồ vật?|426|Ba nhóm bằng nhau dùng tích 142 × 3.|145;284;423
+Bạn tính 108 × 4 ra 32 vì bỏ hai hàng đầu. Tích đúng là mấy?|432|4 × 8 = 32, nhớ 3; hàng chục được 3; hàng trăm được 4.|32;408;412
+Hai phép 234 × 2 và 200 × 2 chênh nhau mấy?|68|234 × 2 = 468; 200 × 2 = 400; 468 - 400 = 68.|34;468;868
+Muốn kiểm tra 125 × 4, cộng liên tiếp 125 mấy lần?|4|Phép nhân biểu thị bốn nhóm 125 bằng nhau.|3;5;125
+Mỗi bó 124 que, có 3 bó. Có mấy que?|372|124 × 3 = 372 que.|127;342;362
+Mỗi hộp 216 nhãn, có 4 hộp. Có mấy nhãn?|864|216 × 4 = 864 nhãn.|220;844;824
+Mỗi ngày làm 135 thiệp, làm 5 ngày. Được mấy thiệp?|675|135 × 5 = 675 thiệp.|140;625;650
+Một cuộn dây dài 148 cm. Hai cuộn bằng nhau dài tổng mấy cm?|296|148 × 2 = 296 cm.|150;286;288
+Có 3 thùng, mỗi thùng 225 quả. Bán 150 quả thì còn mấy quả?|525|225 × 3 = 675; 675 - 150 = 525 quả.|675;575;375
+Mỗi chuyến chuyển 108 kg. Bốn chuyến chuyển mấy kg?|432|108 × 4 = 432 kg.|112;408;412
+Mỗi chai 125 ml, dùng 6 chai. Tổng mấy ml?|750|125 × 6 = 750 ml.|131;650;725
+Một đoạn đường 215 m, đi 3 lượt như thế. Tổng mấy mét?|645|215 × 3 = 645 m.|218;615;625
+Có 2 hộp mỗi hộp 307 viên. Cần 700 viên thì còn thiếu mấy viên?|86|307 × 2 = 614; 700 - 614 = 86.|614;93;96
+Một túi 156 g, 4 túi như thế nặng mấy gam?|624|156 × 4 = 624 g.|604;664;620
+Có 3 gói mỗi gói 248 hạt. Gieo 200 hạt thì còn mấy hạt?|544|248 × 3 = 744; 744 - 200 = 544 hạt.|744;444;548
+Có 5 đoạn dây mỗi đoạn 109 mm. Tổng mấy mm?|545|109 × 5 = 545 mm.|509;514;540
+Mỗi đội trồng 164 cây, 3 đội trồng tổng mấy cây?|492|164 × 3 = 492 cây.|482;462;167
+Có 4 hũ mỗi hũ 175 ml mật. Dùng 280 ml thì còn mấy ml?|420|175 × 4 = 700; 700 - 280 = 420 ml.|700;595;380
+Một lô 132 quyển, 6 lô như thế có mấy quyển?|792|132 × 6 = 792 quyển.|762;782;138
+Mỗi hàng có 203 nhãn, 4 hàng. Thêm 18 nhãn rời thì có mấy nhãn?|830|203 × 4 = 812; 812 + 18 = 830 nhãn.|812;822;850
+Mỗi nhóm góp 118 chiếc, 7 nhóm góp tổng mấy chiếc?|826|118 × 7 = 826 chiếc.|786;816;125
+Một cuộn 236 cm, hai cuộn dài tổng bao nhiêu cm nếu nối không chồng mép?|472|236 × 2 = 472 cm.|462;466;238
+Có 3 giỏ mỗi giỏ 265 quả. Giỏ khác 200 quả. Tổng mấy quả?|995|265 × 3 = 795; 795 + 200 = 995 quả.|795;895;965
+Mỗi chuyến chở 129 kg, 5 chuyến. Đã chở 600 kg trong số ấy thì còn mấy kg thuộc kế hoạch?|45|129 × 5 = 645; 645 - 600 = 45 kg.|645;55;29
