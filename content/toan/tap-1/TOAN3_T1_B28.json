@@ -1,0 +1,786 @@
+{
+  "id": "TOAN3_T1_B28",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 28,
+  "title": "Bài toán giải bằng hai bước tính",
+  "topic": "Giải toán bằng hai bước tính",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      81,
+      82
+    ],
+    "pdf_pages": [
+      82,
+      83
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Tìm đại lượng trung gian trước khi trả lời câu hỏi cuối.",
+    "Viết hai lời giải có phép tính, đơn vị và kiểm tra đáp số theo tình huống."
+  ],
+  "knowledge": {
+    "introduction": "Có bài chưa thể trả lời bằng một phép tính vì thiếu một dữ kiện. Hãy tự hỏi: muốn trả lời câu hỏi cuối, cần biết thêm điều gì? Tìm điều đó ở bước đầu, rồi dùng kết quả để làm bước thứ hai.",
+    "rules": [
+      "Biết nhóm đầu và mức hơn/kém: cộng hoặc trừ để tìm nhóm sau, rồi mới tìm tổng.",
+      "Biết nhóm sau gấp hoặc giảm số lần: nhân hoặc chia để tìm nhóm sau trước.",
+      "Gom các nhóm bằng nhau rồi cho bớt: nhân trước, trừ sau.",
+      "Mỗi bước cần lời giải nêu đại lượng, phép tính và đơn vị. Đáp số trả lời đúng câu hỏi cuối."
+    ],
+    "steps": [
+      "Đọc đề, chỉ ra dữ kiện và điều cần tìm.",
+      "Xác định dữ kiện trung gian còn thiếu; có thể vẽ sơ đồ các phần bằng nhau.",
+      "Viết lời giải và phép tính cho bước đầu.",
+      "Dùng kết quả vừa tìm cho bước sau, ghi đáp số và kiểm tra ý nghĩa."
+    ],
+    "common_errors": [
+      "Lấy mức nhiều hơn cộng vào tổng mà quên nhóm thứ hai.",
+      "Dừng sau bước tìm dữ kiện trung gian.",
+      "Nhầm hỏi tổng với hỏi hơn bao nhiêu."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Giỏ đầu có 12 quả, giỏ sau nhiều hơn 5 quả. Cả hai giỏ mấy quả?",
+      "steps": [
+        "Giỏ sau có 12 + 5 = 17 quả.",
+        "Cả hai giỏ có 12 + 17 = 29 quả.",
+        "Đáp số: 29 quả."
+      ]
+    },
+    {
+      "question": "Có 5 hộp, mỗi hộp 8 bút. Dùng 13 bút thì còn mấy?",
+      "steps": [
+        "Ban đầu có 5 × 8 = 40 bút.",
+        "Còn lại 40 - 13 = 27 bút.",
+        "Đáp số: 27 bút."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B28_Q01",
+      "type": "mcq",
+      "question": "Bài toán hỏi tổng hai nhóm nhưng chưa biết nhóm thứ hai. Trước hết tìm nhóm nào?",
+      "options": [
+        "nhóm thứ hai",
+        "tổng ngay",
+        "nhóm thứ nhất",
+        "không cần tìm"
+      ],
+      "correct_answer": "nhóm thứ hai",
+      "distractors": [
+        "tổng ngay",
+        "nhóm thứ nhất",
+        "không cần tìm"
+      ],
+      "explanation": "Cần tìm dữ kiện chưa biết trước khi cộng hai nhóm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q02",
+      "type": "fill",
+      "question": "Có 7 bóng đỏ, bóng xanh nhiều hơn đỏ 4 quả. Bước đầu tính số bóng xanh được mấy?",
+      "correct_answer": "11",
+      "distractors": [
+        "3",
+        "28",
+        "18"
+      ],
+      "explanation": "7 + 4 = 11 quả xanh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q03",
+      "type": "mcq",
+      "question": "Có 8 cây cam, cây ổi ít hơn cam 3 cây. Muốn tìm số cây ổi dùng phép gì?",
+      "options": [
+        "trừ",
+        "cộng",
+        "nhân",
+        "chia"
+      ],
+      "correct_answer": "trừ",
+      "distractors": [
+        "cộng",
+        "nhân",
+        "chia"
+      ],
+      "explanation": "Ít hơn 3 cây nên lấy số cây cam trừ 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q04",
+      "type": "fill",
+      "question": "Một hộp 6 viên, hộp kia gấp 3 lần. Bước tìm hộp kia được mấy viên?",
+      "correct_answer": "18",
+      "distractors": [
+        "9",
+        "3",
+        "12"
+      ],
+      "explanation": "6 × 3 = 18 viên.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q05",
+      "type": "mcq",
+      "question": "Có 12 bút xanh và 9 bút đỏ. Tìm tổng dùng phép gì?",
+      "options": [
+        "cộng",
+        "trừ",
+        "nhân",
+        "chia"
+      ],
+      "correct_answer": "cộng",
+      "distractors": [
+        "trừ",
+        "nhân",
+        "chia"
+      ],
+      "explanation": "Gộp hai nhóm đã biết thì cộng.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q06",
+      "type": "fill",
+      "question": "Có 15 tem, được tặng 5 rồi cho 4. Sau bước đầu có mấy tem?",
+      "correct_answer": "20",
+      "distractors": [
+        "16",
+        "10",
+        "24"
+      ],
+      "explanation": "15 + 5 = 20 tem trước khi cho.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q07",
+      "type": "mcq",
+      "question": "Hai bước giải cần có lời giải và đơn vị cho mỗi bước không? Trả lời có hoặc không.",
+      "options": [
+        "có",
+        "không",
+        "chỉ bước cuối",
+        "chỉ bước đầu"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ bước cuối",
+        "chỉ bước đầu"
+      ],
+      "explanation": "Lời giải cho biết đang tính đại lượng nào; đơn vị làm rõ kết quả.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q08",
+      "type": "fill",
+      "question": "Có 10 cây, nhóm khác nhiều hơn 6 cây. Số 16 tìm ở bước đầu chỉ nhóm nào?",
+      "correct_answer": "nhóm khác",
+      "distractors": [
+        "cả hai nhóm",
+        "nhóm đầu",
+        "phần chênh lệch"
+      ],
+      "explanation": "10 + 6 = 16 là số cây của nhóm khác, chưa phải tổng.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q09",
+      "type": "mcq",
+      "question": "Tìm tổng hai nhóm khi biết nhóm đầu và mức ít hơn của nhóm sau cần ít nhất mấy bước tính?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "Tìm nhóm sau bằng phép trừ rồi cộng hai nhóm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q10",
+      "type": "fill",
+      "question": "Có 9 thẻ, số thẻ bạn bằng 9 giảm 3 lần. Bước đầu tìm được mấy thẻ của bạn?",
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "12",
+        "27"
+      ],
+      "explanation": "9 : 3 = 3 thẻ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q11",
+      "type": "mcq",
+      "question": "Có 13 sách ở ngăn trên, ngăn dưới hơn 4 quyển. Bạn tính 13 + 4 = 17 rồi kết luận tổng. Tổng đúng là mấy?",
+      "options": [
+        "30",
+        "17",
+        "26",
+        "34"
+      ],
+      "correct_answer": "30",
+      "distractors": [
+        "17",
+        "26",
+        "34"
+      ],
+      "explanation": "17 là ngăn dưới; 13 + 17 = 30 quyển.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q12",
+      "type": "fill",
+      "question": "Có 11 hoa tím, hoa vàng ít hơn 2 bông. Muốn tìm tổng, phép tính thứ hai cộng 11 với mấy?",
+      "correct_answer": "9",
+      "distractors": [
+        "2",
+        "13",
+        "22"
+      ],
+      "explanation": "11 - 2 = 9 hoa vàng; bước sau cộng 11 với 9.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q13",
+      "type": "mcq",
+      "question": "Có 5 túi, mỗi túi 7 viên, cho đi 8 viên. Phép tính đầu tìm được mấy viên?",
+      "options": [
+        "35",
+        "12",
+        "27",
+        "40"
+      ],
+      "correct_answer": "35",
+      "distractors": [
+        "12",
+        "27",
+        "40"
+      ],
+      "explanation": "5 × 7 = 35 viên ban đầu; sau đó mới trừ 8.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q14",
+      "type": "fill",
+      "question": "Có 28 quả chia 4 phần, rồi thêm 2 quả vào mỗi phần. Một phần có mấy quả?",
+      "correct_answer": "9",
+      "distractors": [
+        "7",
+        "6",
+        "30"
+      ],
+      "explanation": "28 : 4 = 7; 7 + 2 = 9.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q15",
+      "type": "mcq",
+      "question": "Sáng bán 18 chiếc, chiều ít hơn 5 chiếc. Tổng bán mấy chiếc?",
+      "options": [
+        "31",
+        "13",
+        "23",
+        "36"
+      ],
+      "correct_answer": "31",
+      "distractors": [
+        "13",
+        "23",
+        "36"
+      ],
+      "explanation": "18 - 5 = 13; 18 + 13 = 31.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q16",
+      "type": "fill",
+      "question": "Đoạn thứ nhất 8 cm, đoạn thứ hai gấp 4 lần. Tổng độ dài mấy cm?",
+      "correct_answer": "40",
+      "distractors": [
+        "32",
+        "12",
+        "24"
+      ],
+      "explanation": "8 × 4 = 32; 8 + 32 = 40.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q17",
+      "type": "mcq",
+      "question": "Một lớp có 14 bạn nam, nữ hơn nam 3 bạn. Cả lớp có mấy bạn?",
+      "options": [
+        "31",
+        "17",
+        "28",
+        "34"
+      ],
+      "correct_answer": "31",
+      "distractors": [
+        "17",
+        "28",
+        "34"
+      ],
+      "explanation": "14 + 3 = 17; 14 + 17 = 31.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q18",
+      "type": "fill",
+      "question": "Có 40 lít, dùng 12 lít rồi 9 lít. Còn mấy lít?",
+      "correct_answer": "19",
+      "distractors": [
+        "21",
+        "28",
+        "31"
+      ],
+      "explanation": "40 - 12 = 28; 28 - 9 = 19.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q19",
+      "type": "mcq",
+      "question": "Một số gấp 3 lần số 8, sau đó tăng 5 đơn vị. Kết quả mấy?",
+      "options": [
+        "29",
+        "39",
+        "16",
+        "19"
+      ],
+      "correct_answer": "29",
+      "distractors": [
+        "39",
+        "16",
+        "19"
+      ],
+      "explanation": "8 × 3 = 24; 24 + 5 = 29.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q20",
+      "type": "fill",
+      "question": "Có 24 viên, hộp nhỏ bằng hộp lớn giảm 4 lần. Tổng hai hộp mấy viên?",
+      "correct_answer": "30",
+      "distractors": [
+        "6",
+        "28",
+        "18"
+      ],
+      "explanation": "24 : 4 = 6; 24 + 6 = 30.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q21",
+      "type": "mcq",
+      "question": "Kệ A có 16 sách, kệ B hơn A 7 sách. Hai kệ mấy sách?",
+      "options": [
+        "39",
+        "23",
+        "32",
+        "46"
+      ],
+      "correct_answer": "39",
+      "distractors": [
+        "23",
+        "32",
+        "46"
+      ],
+      "explanation": "16 + 7 = 23; 16 + 23 = 39.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q22",
+      "type": "fill",
+      "question": "Vườn có 19 cây chanh, cam ít hơn chanh 6 cây. Tổng mấy cây?",
+      "correct_answer": "32",
+      "distractors": [
+        "13",
+        "25",
+        "38"
+      ],
+      "explanation": "19 - 6 = 13; 19 + 13 = 32.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q23",
+      "type": "mcq",
+      "question": "Có 4 hộp mỗi hộp 12 bút. Dùng 15 bút, còn mấy bút?",
+      "options": [
+        "33",
+        "48",
+        "27",
+        "37"
+      ],
+      "correct_answer": "33",
+      "distractors": [
+        "48",
+        "27",
+        "37"
+      ],
+      "explanation": "12 × 4 = 48; 48 - 15 = 33.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q24",
+      "type": "fill",
+      "question": "Có 65 kg gạo, nhập thêm 18 kg rồi bán 27 kg. Còn mấy kg?",
+      "correct_answer": "56",
+      "distractors": [
+        "38",
+        "83",
+        "74"
+      ],
+      "explanation": "65 + 18 = 83; 83 - 27 = 56.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q25",
+      "type": "mcq",
+      "question": "Đội một trồng 9 cây, đội hai gấp 5 lần đội một. Hai đội trồng mấy cây?",
+      "options": [
+        "54",
+        "45",
+        "14",
+        "36"
+      ],
+      "correct_answer": "54",
+      "distractors": [
+        "45",
+        "14",
+        "36"
+      ],
+      "explanation": "9 × 5 = 45; 9 + 45 = 54.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q26",
+      "type": "fill",
+      "question": "Dây dài 72 cm cắt làm 3 đoạn bằng nhau. Một đoạn bị cắt ngắn thêm 8 cm. Đoạn đó còn mấy cm?",
+      "correct_answer": "16",
+      "distractors": [
+        "24",
+        "56",
+        "32"
+      ],
+      "explanation": "72 : 3 = 24; 24 - 8 = 16.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q27",
+      "type": "mcq",
+      "question": "Có 7 hàng ghế, mỗi hàng 6 ghế. Có 38 bạn ngồi mỗi bạn một ghế. Còn trống mấy ghế?",
+      "options": [
+        "4",
+        "42",
+        "3",
+        "6"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "42",
+        "3",
+        "6"
+      ],
+      "explanation": "7 × 6 = 42; 42 - 38 = 4.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q28",
+      "type": "fill",
+      "question": "Một giỏ 27 quả, giỏ kia bằng giỏ đầu giảm 3 lần. Hai giỏ mấy quả?",
+      "correct_answer": "36",
+      "distractors": [
+        "9",
+        "30",
+        "18"
+      ],
+      "explanation": "27 : 3 = 9; 27 + 9 = 36.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q29",
+      "type": "mcq",
+      "question": "Có 90 nhãn, cho 18 nhãn rồi chia số còn lại đều cho 4 bạn. Mỗi bạn mấy nhãn?",
+      "options": [
+        "18",
+        "72",
+        "22",
+        "27"
+      ],
+      "correct_answer": "18",
+      "distractors": [
+        "72",
+        "22",
+        "27"
+      ],
+      "explanation": "90 - 18 = 72; 72 : 4 = 18.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q30",
+      "type": "fill",
+      "question": "Nhóm có 8 bạn, mỗi bạn làm 3 thiệp. Bổ sung 7 thiệp từ cô giáo. Có mấy thiệp?",
+      "correct_answer": "31",
+      "distractors": [
+        "24",
+        "18",
+        "45"
+      ],
+      "explanation": "8 × 3 = 24; 24 + 7 = 31.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q31",
+      "type": "mcq",
+      "question": "An đi 35 m, Bình đi ít hơn An 8 m. Hai bạn đi tổng mấy mét?",
+      "options": [
+        "62",
+        "27",
+        "43",
+        "70"
+      ],
+      "correct_answer": "62",
+      "distractors": [
+        "27",
+        "43",
+        "70"
+      ],
+      "explanation": "35 - 8 = 27; 35 + 27 = 62.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q32",
+      "type": "fill",
+      "question": "Sáng thu 14 kg rau, chiều thu gấp 4 lần sáng. Chiều thu hơn sáng mấy kg?",
+      "correct_answer": "42",
+      "distractors": [
+        "56",
+        "70",
+        "10"
+      ],
+      "explanation": "14 × 4 = 56; 56 - 14 = 42.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q33",
+      "type": "mcq",
+      "question": "Có 6 gói mỗi gói 9 hạt. Chia đều tất cả cho 3 luống. Mỗi luống mấy hạt?",
+      "options": [
+        "18",
+        "54",
+        "12",
+        "27"
+      ],
+      "correct_answer": "18",
+      "distractors": [
+        "54",
+        "12",
+        "27"
+      ],
+      "explanation": "6 × 9 = 54; 54 : 3 = 18.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q34",
+      "type": "fill",
+      "question": "Một bể chứa 84 lít, lấy ra một lượng bằng 84 giảm 4 lần. Bể còn mấy lít?",
+      "correct_answer": "63",
+      "distractors": [
+        "21",
+        "80",
+        "88"
+      ],
+      "explanation": "84 : 4 = 21; 84 - 21 = 63.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q35",
+      "type": "mcq",
+      "question": "Mỗi ngày gấp 13 chiếc, làm trong 5 ngày rồi tặng 26 chiếc. Còn mấy chiếc?",
+      "options": [
+        "39",
+        "65",
+        "52",
+        "41"
+      ],
+      "correct_answer": "39",
+      "distractors": [
+        "65",
+        "52",
+        "41"
+      ],
+      "explanation": "13 × 5 = 65; 65 - 26 = 39.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q36",
+      "type": "fill",
+      "question": "Có 17 xe đỏ, xe xanh nhiều hơn xe đỏ 9 chiếc. Tổng xe mấy chiếc?",
+      "correct_answer": "43",
+      "distractors": [
+        "26",
+        "34",
+        "52"
+      ],
+      "explanation": "17 + 9 = 26; 17 + 26 = 43.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q37",
+      "type": "mcq",
+      "question": "Có 48 viên, thêm 16 viên rồi chia đều vào 4 hộp. Mỗi hộp mấy viên?",
+      "options": [
+        "16",
+        "12",
+        "64",
+        "20"
+      ],
+      "correct_answer": "16",
+      "distractors": [
+        "12",
+        "64",
+        "20"
+      ],
+      "explanation": "48 + 16 = 64; 64 : 4 = 16.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q38",
+      "type": "fill",
+      "question": "Một cuốn có 80 trang. Đọc 25 trang ngày đầu, 28 trang ngày sau. Còn mấy trang?",
+      "correct_answer": "27",
+      "distractors": [
+        "53",
+        "55",
+        "37"
+      ],
+      "explanation": "80 - 25 = 55; 55 - 28 = 27.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q39",
+      "type": "mcq",
+      "question": "Hộp lớn 32 thẻ, hộp nhỏ bằng hộp lớn giảm 4 lần. Hộp lớn hơn hộp nhỏ mấy thẻ?",
+      "options": [
+        "24",
+        "8",
+        "28",
+        "40"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "8",
+        "28",
+        "40"
+      ],
+      "explanation": "32 : 4 = 8; 32 - 8 = 24.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B28_Q40",
+      "type": "fill",
+      "question": "Có 3 đội mỗi đội 15 bạn. Sau đó thêm 12 bạn. Tổng mấy bạn?",
+      "correct_answer": "57",
+      "distractors": [
+        "45",
+        "30",
+        "81"
+      ],
+      "explanation": "15 × 3 = 45; 45 + 12 = 57.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B28_GAME1",
+      "title": "Hai bước tới kho báu",
+      "mode": "treasure",
+      "objective": "Tìm số trung gian rồi chọn kết quả cuối trong từng bài toán.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án, đọc lời giải rồi sang câu tiếp theo.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B28_Q01",
+        "TOAN3_T1_B28_Q02",
+        "TOAN3_T1_B28_Q03",
+        "TOAN3_T1_B28_Q04",
+        "TOAN3_T1_B28_Q05",
+        "TOAN3_T1_B28_Q06",
+        "TOAN3_T1_B28_Q07",
+        "TOAN3_T1_B28_Q08",
+        "TOAN3_T1_B28_Q09",
+        "TOAN3_T1_B28_Q10",
+        "TOAN3_T1_B28_Q11",
+        "TOAN3_T1_B28_Q12",
+        "TOAN3_T1_B28_Q13",
+        "TOAN3_T1_B28_Q14",
+        "TOAN3_T1_B28_Q15",
+        "TOAN3_T1_B28_Q16",
+        "TOAN3_T1_B28_Q17",
+        "TOAN3_T1_B28_Q18",
+        "TOAN3_T1_B28_Q19",
+        "TOAN3_T1_B28_Q20",
+        "TOAN3_T1_B28_Q21",
+        "TOAN3_T1_B28_Q22",
+        "TOAN3_T1_B28_Q23",
+        "TOAN3_T1_B28_Q24",
+        "TOAN3_T1_B28_Q25",
+        "TOAN3_T1_B28_Q26",
+        "TOAN3_T1_B28_Q27",
+        "TOAN3_T1_B28_Q28",
+        "TOAN3_T1_B28_Q29",
+        "TOAN3_T1_B28_Q30",
+        "TOAN3_T1_B28_Q31",
+        "TOAN3_T1_B28_Q32",
+        "TOAN3_T1_B28_Q33",
+        "TOAN3_T1_B28_Q34",
+        "TOAN3_T1_B28_Q35",
+        "TOAN3_T1_B28_Q36",
+        "TOAN3_T1_B28_Q37",
+        "TOAN3_T1_B28_Q38",
+        "TOAN3_T1_B28_Q39",
+        "TOAN3_T1_B28_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

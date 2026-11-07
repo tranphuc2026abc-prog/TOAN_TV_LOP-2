@@ -1,0 +1,164 @@
+Bài 25
+Phép chia có số dư bằng 0 gọi là phép chia gì?|chia hết|Không còn phần dư nên gọi là chia hết.|chia có dư;phép cộng;phép nhân
+Trong phép chia có dư, số dư phải thế nào so với số chia?|bé hơn|Nếu còn đủ một nhóm bằng số chia thì phải chia tiếp.|bằng;lớn hơn;gấp đôi
+Chia 14 cho 3 được thương 4. Số dư là bao nhiêu?|2|3 × 4 + 2 = 14 nên dư 2.|1;3;4
+Phép chia 21 cho 7 có số dư bằng bao nhiêu?|0|7 × 3 = 21 nên không còn dư.|1;3;7
+Trong kết quả thương 5 dư 1, số nào là thương?|5|Thương đếm số nhóm đủ hoặc số đồ vật mỗi phần bằng nhau.|1;6;4
+Khi chia cho 4, số dư lớn nhất có thể là mấy?|3|Số dư nhỏ hơn 4, nên lớn nhất là 3.|4;5;0
+Phép chia nào chia hết: 16 cho 3, 16 cho 4, 16 cho 5, 16 cho 6?|16 cho 4|4 × 4 = 16 nên phép chia này không dư.|16 cho 3;16 cho 5;16 cho 6
+Chia 19 cho 6 được thương 3. Số dư là mấy?|1|6 × 3 + 1 = 19.|2;3;6
+Số dư 5 có thể xuất hiện khi chia cho số nào: 3, 4, 5 hay 6?|6|Chỉ 6 lớn hơn số dư 5.|3;4;5
+Trong 23 chia 5 được 4 dư 3, số bị chia là mấy?|23|Số bị chia là số ban đầu được đem chia.|5;4;3
+Bé viết 20 chia 6 được 2 dư 8. Cần tăng thương thêm mấy để chia đúng?|1|Phần dư 8 còn chia được một nhóm 6. Thương đúng là 3, dư 2.|2;3;6
+Muốn kiểm tra thương 4 dư 2 khi chia cho 7, cần tính biểu thức nào?|7 × 4 + 2|Nhân số chia với thương rồi cộng phần dư.|7 + 4 + 2;7 × 2 + 4;7 × 4 - 2
+Tại sao 26 chia 4 không thể dư 6? Chọn số giới hạn mà số dư phải bé hơn.|4|Số dư phải bé hơn số chia 4.|6;26;2
+Từ 5 × 6 + 4 = 34, khi chia 34 cho 5 có thương mấy?|6|Có 6 nhóm đủ 5, còn 4 nhỏ hơn 5.|4;5;7
+Cùng chia cho 3, số nào chia hết: 22, 24, 25, 26?|24|3 × 8 = 24, các số còn lại có phần dư.|22;25;26
+Một phép chia có thương 7, số chia 4, dư 2. Số bị chia là mấy?|30|4 × 7 + 2 = 30.|28;26;32
+Hai số 31 và 32 cùng chia cho 5. Số dư của 32 nhiều hơn số dư của 31 bao nhiêu?|1|31 có dư 1, còn 32 có dư 2; chênh lệch 1.|2;5;0
+Chia 29 cho 7: thương 4 dư 1. Thêm ít nhất mấy vào 29 để chia hết cho 7?|6|Một nhóm đủ 7, đã dư 1 nên cần thêm 6.|1;7;4
+Lấy bớt ít nhất mấy khỏi 38 để số còn lại chia hết cho 6?|2|6 × 6 + 2 = 38, bớt 2 còn 36.|4;6;3
+Chia cho 8 mà dư 7 thì phần dư còn thiếu mấy để đủ thêm một nhóm?|1|7 thêm 1 được 8.|7;8;2
+Có 25 hạt giống, mỗi túi 4 hạt. Đóng được mấy túi đầy?|6|4 × 6 + 1 = 25 nên có 6 túi đầy.|5;7;4
+Có 25 hạt giống đóng túi tối đa 4 hạt. Cần ít nhất mấy túi để chứa hết?|7|6 túi đầy chứa 24 hạt, hạt còn lại cần túi thứ 7.|6;8;5
+Có 17 bạn, mỗi đội đúng 5 bạn. Sau khi lập nhiều đội nhất còn mấy bạn?|2|5 × 3 + 2 = 17, còn 2 bạn.|3;5;1
+Có 32 nhãn chia đều cho 6 bạn, mỗi bạn nhận nhiều nhất mấy nhãn nguyên?|5|6 × 5 + 2 = 32 nên mỗi bạn nhận 5 nhãn.|6;4;2
+Một dây dài 29 cm cắt các đoạn 6 cm. Sau khi cắt nhiều nhất còn mấy cm?|5|6 × 4 + 5 = 29, còn 5 cm.|4;6;1
+Có 35 bánh, mỗi hộp đúng 8 bánh. Muốn hộp cuối cũng đầy cần thêm mấy bánh?|5|8 × 4 + 3 = 35; hộp cuối có 3, thiếu 5 bánh.|3;4;8
+Có 27 bông cắm mỗi lọ 5 bông. Chỉ dùng các lọ đầy thì đã cắm mấy bông?|25|Có 5 lọ đầy, mỗi lọ 5 bông: 5 × 5 = 25.|27;20;22
+Có 31 quả chia mỗi đĩa 7 quả, phần dư để riêng. Có mấy quả để riêng?|3|7 × 4 + 3 = 31.|4;7;2
+Nhóm có 22 bạn, mỗi bàn tối đa 4 bạn. Cần ít nhất mấy bàn?|6|5 bàn đủ 20 bạn, thêm 1 bàn cho 2 bạn còn lại.|5;4;7
+Mỗi vòng trò chơi tốn 6 thẻ. Có 40 thẻ thì chơi được nhiều nhất mấy vòng?|6|6 × 6 + 4 = 40, chỉ đủ 6 vòng trọn vẹn.|7;4;5
+Có 34 quả chia cho 8 bạn, mỗi bạn 4 quả. Còn mấy quả?|2|Đã chia 8 × 4 = 32 quả; còn 34 - 32 = 2.|4;6;8
+Một số chia cho 3 được thương 8 dư 2. Số đó ít hơn 30 bao nhiêu?|4|3 × 8 + 2 = 26; 30 - 26 = 4.|2;6;8
+Có 37 viên chia đều vào 5 hộp, để dư ngoài. Thêm 3 viên nữa thì mỗi hộp có mấy viên nếu chia lại hết?|8|37 + 3 = 40; 40 : 5 = 8.|7;6;9
+Có 28 thẻ. Bớt 1 thẻ rồi chia nhóm 3 thẻ thì được mấy nhóm?|9|28 - 1 = 27; 27 : 3 = 9.|8;7;10
+Có 43 cây, mỗi hàng 6 cây. Hàng chưa đầy có mấy cây?|1|6 × 7 + 1 = 43 nên hàng cuối có 1 cây.|6;7;5
+Có 18 ô chứa, mỗi ô tối đa 4 viên. Cần dùng mấy ô để chứa 18 viên?|5|4 ô chứa 16 viên, 2 viên còn lại dùng ô thứ 5.|4;6;3
+Có 39 vé phát đều cho 7 tổ, còn dư. Phát thêm 3 vé nữa cho mỗi tổ được không nếu chỉ dùng số dư? Trả lời có hoặc không.|không|Mỗi tổ nhận 5 vé, dư 4 vé. Muốn thêm 3 vé cho 7 tổ cần 21 vé, vượt phần dư.|có;đủ đúng;dư 21
+Số lớn nhất nhỏ hơn 30 chia cho 4 dư 3 là mấy?|27|4 × 6 + 3 = 27; số tiếp theo cùng số dư là 31 đã vượt 30.|29;28;23
+Có 24 thẻ chia 5 phần bằng nhau, còn dư. Bớt phần dư thì còn mấy thẻ?|20|5 × 4 + 4 = 24; bớt 4 còn 20.|19;21;24
+Có 33 học sinh đi xe, mỗi xe chở tối đa 8 em. Xe cuối ít nhất chở mấy em nếu các xe trước đều đủ 8?|1|8 × 4 + 1 = 33; xe thứ 5 chở 1 em.|4;5;8
+Bài 26
+Tính 68 : 2.|34|6 chục chia 2 được 3 chục, 8 đơn vị chia 2 được 4 đơn vị.|33;36;24
+Tính nhẩm 80 : 2.|40|8 chục chia 2 bằng 4 chục.|4;20;60
+Khi đặt tính chia 96 cho 3, chia chữ số nào trước?|9|Thực hiện từ hàng chục sang hàng đơn vị.|6;3;0
+Tính 84 : 4.|21|8 chia 4 được 2; hạ 4, chia 4 được 1.|20;24;41
+Trong phép chia 65 cho 2, thương là 32. Số dư là mấy?|1|2 × 32 + 1 = 65.|2;3;0
+Chia 72 cho 3, sau lượt đầu còn 1 chục. Hạ 2 được số nào?|12|Một chục gộp 2 đơn vị thành 12 đơn vị.|2;10;72
+Tính 66 : 6.|11|6 chục chia 6 được 1 chục, 6 đơn vị chia 6 được 1.|10;12;16
+Tính nhẩm 90 : 3.|30|9 chục chia 3 được 3 chục.|3;27;60
+Thương của 88 chia 4 là mấy?|22|4 × 22 = 88.|21;24;32
+Chia 95 cho 4 có thương 23. Số dư là mấy?|3|4 × 23 + 3 = 95.|1;4;2
+Bạn chia 72 cho 3 ra 21 vì bỏ quên chục dư. Thương đúng là mấy?|24|7 chia 3 được 2, còn 1; hạ 2 được 12, chia 3 được 4.|21;23;27
+Kết quả nào kiểm tra được 87 chia 4 thương 21 dư 3? Chọn số bị chia tính lại.|87|4 × 21 + 3 = 87.|84;81;90
+Từ 3 × 26 = 78, suy ra 78 : 3 bằng mấy?|26|Phép chia tìm một thừa số khi biết tích và thừa số kia.|23;28;36
+Tìm số còn thiếu: số đó nhân 4 bằng 92.|23|92 : 4 = 23.|24;22;21
+Tìm số bị chia trong phép chia hết có số chia 3 và thương 27.|81|3 × 27 = 81.|9;78;84
+Chia 86 cho 4, sau khi hạ 6 phải chia 6 cho 4 được 1 dư mấy?|2|4 × 1 + 2 = 6; kết quả chung thương 21 dư 2.|1;3;4
+Trong 63 chia 3 và 63 chia 2, phép chia nào có thương lớn hơn?|63 chia 2|Chia cho 2 được thương 31, chia cho 3 được 21.|63 chia 3;hai thương bằng nhau;không có thương
+Muốn chia nhẩm 84 cho 2 bằng cách tách 80 và 4, phần 80 chia 2 bằng mấy?|40|80 : 2 = 40, rồi cộng 4 chia 2 bằng 2 để được 42.|4;20;80
+Một phép chia cho 5 có thương 18 và dư 2. Số bị chia là mấy?|92|5 × 18 + 2 = 92.|90;88;95
+Chia 99 cho 3, thương có mấy chữ số?|2|99 : 3 = 33; số 33 có hai chữ số.|1;3;4
+Có 78 cây chia đều 3 luống. Mỗi luống mấy cây?|26|78 : 3 = 26 cây.|24;25;28
+Có 85 kg gạo đóng các túi 4 kg. Còn mấy kg ngoài các túi đầy?|1|4 × 21 + 1 = 85, còn 1 kg.|2;3;4
+Có 74 học sinh, xe chở tối đa 6 em. Cần ít nhất mấy xe?|13|6 × 12 + 2 = 74, cần xe thứ 13 cho 2 em.|12;14;11
+Một cuộn dây dài 96 m cắt đều thành 4 đoạn. Mỗi đoạn dài mấy mét?|24|96 : 4 = 24 m.|23;22;26
+Có 69 tem chia đều cho 3 bạn. Một bạn cho đi 5 tem từ phần của mình thì còn mấy tem?|18|69 : 3 = 23; 23 - 5 = 18.|23;20;16
+Có 56 trang cần đọc đều trong 4 ngày. Sau ngày đầu còn mấy trang chưa đọc?|42|56 : 4 = 14; 56 - 14 = 42.|14;40;44
+Có 93 quả, mỗi giỏ đầy 3 quả. Đã xếp được 20 giỏ. Cần xếp thêm mấy giỏ?|11|93 : 3 = 31; 31 - 20 = 11.|10;12;13
+Một số chia hết cho 4 được 17. Số đó nhiều hơn 60 bao nhiêu?|8|4 × 17 = 68; 68 - 60 = 8.|4;6;12
+Có 82 viên chia cho 3 bạn, mỗi bạn nhiều nhất bao nhiêu viên nguyên?|27|3 × 27 + 1 = 82 nên mỗi bạn nhận 27 viên.|26;28;25
+Có 76 ảnh, mỗi trang tối đa 5 ảnh. Trang cuối có mấy ảnh nếu các trang trước đầy?|1|5 × 15 + 1 = 76; trang cuối có 1 ảnh.|5;4;3
+Ba thùng giống nhau chứa tổng cộng 81 lít. Hai thùng chứa mấy lít?|54|81 : 3 = 27; 27 × 2 = 54.|27;56;51
+Có 94 chiếc cốc, mỗi khay 4 cốc. Bỏ riêng phần dư thì xếp được mấy khay đầy?|23|4 × 23 + 2 = 94, có 23 khay đầy.|22;24;21
+Đội A chia 72 cây vào 4 luống; đội B chia 72 cây vào 3 luống. Luống của B hơn luống của A mấy cây?|6|72 : 4 = 18; 72 : 3 = 24; 24 - 18 = 6.|4;8;3
+Có 98 nhãn, mỗi gói 7 nhãn. Bán 5 gói thì còn mấy gói?|9|98 : 7 = 14; 14 - 5 = 9.|8;10;7
+Một số chia cho 6 thương 12 dư 5. Cần bớt ít nhất mấy để chia hết cho 6?|5|Phần dư là 5, bớt 5 thì còn 6 × 12 = 72.|1;6;12
+Có 64 que làm các khung rời, mỗi khung 4 que. Làm được mấy khung?|16|64 : 4 = 16 khung.|14;15;18
+Có 91 bút chia đều vào 7 hộp. Lấy ra mỗi hộp 2 bút thì mỗi hộp còn mấy bút?|11|91 : 7 = 13; 13 - 2 = 11.|12;9;15
+Có 83 cây chia đều 4 luống, phần dư trồng riêng. Muốn mỗi luống có 21 cây cần thêm mấy cây vào tổng ban đầu?|1|4 × 21 = 84; 84 - 83 = 1.|3;4;2
+Hai số có tổng 84 và bằng nhau. Một trong hai số bằng mấy?|42|84 : 2 = 42.|40;44;24
+Có 97 vé, mỗi nhóm nhận 3 vé. Lập được 32 nhóm. Phần dư đủ lập thêm một nhóm không? Trả lời có hoặc không.|không|3 × 32 + 1 = 97; chỉ dư 1, chưa đủ 3 vé.|có;vừa đủ;dư 3
+Bài 27
+Muốn giảm một số đi 4 lần, dùng phép tính nào?|chia cho 4|Giảm số lần là chia cho số lần ấy.|trừ 4;cộng 4;nhân 4
+Giảm 36 đi 4 lần được mấy?|9|36 : 4 = 9.|32;8;40
+Giảm 45 đi 5 lần được mấy?|9|45 : 5 = 9.|40;8;50
+Giảm 64 đi 8 lần được mấy?|8|64 : 8 = 8.|56;7;72
+Giảm 20 đi 2 lần khác bớt 2 đơn vị. Kết quả giảm 2 lần là mấy?|10|20 : 2 = 10; bớt 2 đơn vị mới được 18.|18;22;40
+Từ 54 còn 9 là giảm đi mấy lần?|6|54 : 6 = 9.|45;9;5
+Giảm 30 đi 3 lần được mấy?|10|30 : 3 = 10.|27;9;33
+Số 48 giảm 6 lần còn mấy?|8|48 : 6 = 8.|42;6;9
+Một số được giảm đi 1 lần thì kết quả bằng số ban đầu không? Trả lời có hoặc không.|có|Chia một số cho 1 được chính số ấy.|không;luôn bằng 1;luôn bằng 0
+Giảm 72 đi 9 lần được mấy?|8|72 : 9 = 8.|63;9;7
+An nói giảm 24 đi 3 lần là 21. Kết quả đúng là mấy?|8|An đã trừ 3 đơn vị; phải tính 24 : 3 = 8.|21;27;72
+Giảm 28 đi 4 lần rồi gấp kết quả 4 lần, được mấy?|28|28 : 4 = 7; 7 × 4 = 28.|7;24;32
+Số 18 giảm 3 lần và bớt 3 đơn vị cho hai kết quả chênh nhau mấy?|9|18 : 3 = 6; 18 - 3 = 15; 15 - 6 = 9.|3;6;12
+Một đoạn dài chia thành 5 phần bằng nhau. Đoạn ngắn bằng một phần. Độ dài đoạn dài giảm mấy lần ra đoạn ngắn?|5|Một phần bằng độ dài ban đầu chia 5.|4;6;1
+Điền số chia: 42 chia cho số đó bằng 7.|6|42 : 7 = 6 nên số chia cần tìm là 6.|7;35;49
+Giảm 60 đi 3 lần hay giảm 60 đi 5 lần cho kết quả lớn hơn? Chọn số lần.|3|60 : 3 = 20; 60 : 5 = 12; 20 lớn hơn 12.|5;8;2
+Một số giảm 4 lần còn 6. Số ban đầu là mấy?|24|Lấy kết quả nhân số lần: 6 × 4 = 24.|10;2;20
+Giảm 40 đi 5 lần rồi bớt 3 đơn vị được mấy?|5|40 : 5 = 8; 8 - 3 = 5.|32;7;1
+Gấp 7 lên 6 lần rồi giảm đi 3 lần được mấy?|14|7 × 6 = 42; 42 : 3 = 14.|7;21;39
+Một số giảm 2 lần còn 16. Nếu giảm số ban đầu 4 lần thì còn mấy?|8|16 × 2 = 32; 32 : 4 = 8.|4;12;16
+Có 32 cây. Sau khi chuyển đi, số cây còn lại giảm 4 lần so với ban đầu. Còn mấy cây?|8|32 : 4 = 8 cây.|28;24;4
+Có 32 cây, số còn lại bằng số ban đầu giảm 4 lần. Đã chuyển đi mấy cây?|24|32 : 4 = 8; 32 - 8 = 24 cây chuyển đi.|8;28;4
+Dây đỏ dài 36 cm. Dây xanh bằng dây đỏ giảm 3 lần. Hai dây dài tất cả mấy cm?|48|36 : 3 = 12; 36 + 12 = 48.|39;24;12
+Một bể có 50 lít. Sau khi dùng, nước còn lại giảm 5 lần so với lúc đầu. Đã dùng mấy lít?|40|50 : 5 = 10; 50 - 10 = 40.|10;45;55
+Ngày đầu đọc 24 trang, ngày sau số trang giảm 3 lần. Cả hai ngày đọc mấy trang?|32|24 : 3 = 8; 24 + 8 = 32.|27;16;8
+Đường đi dài 63 m, đoạn đường tắt bằng đường đi giảm 7 lần. Đi đường tắt tiết kiệm mấy mét?|54|63 : 7 = 9; 63 - 9 = 54.|9;56;70
+Có 48 nhãn, sau khi tặng số còn lại giảm 6 lần. Tặng thêm 3 nhãn từ phần còn lại thì còn mấy?|5|48 : 6 = 8; 8 - 3 = 5.|8;39;11
+Máy nhận 72 rồi giảm 8 lần, sau đó gấp 5 lần. Máy trả số mấy?|45|72 : 8 = 9; 9 × 5 = 45.|40;9;69
+Có 42 kg rau, lượng rau chiều bằng lượng sáng giảm 3 lần. Chiều ít hơn sáng mấy kg?|28|42 : 3 = 14; 42 - 14 = 28.|14;39;45
+Một số giảm 7 lần còn 8. Bớt số ban đầu 7 đơn vị thì còn mấy?|49|8 × 7 = 56; 56 - 7 = 49.|1;8;63
+Sân có 56 bạn, sau khi chuyển nhóm số bạn còn lại giảm 2 lần. Chia số còn lại thành 4 đội đều nhau, mỗi đội mấy bạn?|7|56 : 2 = 28; 28 : 4 = 7.|14;8;6
+Một đoạn 80 cm giảm 4 lần được đoạn ngắn. Cắt thêm 6 cm khỏi đoạn ngắn, còn mấy cm?|14|80 : 4 = 20; 20 - 6 = 14.|20;70;26
+Nhóm đầu có 27 sản phẩm, nhóm sau có số sản phẩm bằng nhóm đầu giảm 3 lần. Cần thêm mấy sản phẩm cho nhóm sau để bằng nhóm đầu?|18|27 : 3 = 9; 27 - 9 = 18.|9;24;30
+Số 96 giảm 3 lần rồi giảm tiếp 4 lần được mấy?|8|96 : 3 = 32; 32 : 4 = 8.|24;32;89
+Mẹ có 60 hạt, số hạt đem gieo bằng 60 giảm 5 lần. Số hạt chưa gieo là mấy?|48|60 : 5 = 12; 60 - 12 = 48.|12;55;65
+Sau khi giảm 3 lần, dây còn dài 15 cm. Dây ban đầu dài hơn dây sau mấy cm?|30|15 × 3 = 45; 45 - 15 = 30.|45;12;18
+Hai bạn cùng có 36 thẻ. An giảm số thẻ 4 lần, Bình giảm 6 lần. An còn hơn Bình mấy thẻ?|3|36 : 4 = 9; 36 : 6 = 6; 9 - 6 = 3.|2;6;9
+Tủ có 54 quyển, số chuyển đi bằng số ban đầu giảm 6 lần. Sau khi chuyển còn mấy quyển?|45|54 : 6 = 9; 54 - 9 = 45.|9;48;60
+Số vòng ngày đầu là 18, ngày hai gấp 2 lần ngày đầu, ngày ba bằng ngày hai giảm 4 lần. Ngày ba mấy vòng?|9|18 × 2 = 36; 36 : 4 = 9.|18;8;32
+Có 84 lít nước, lượng dùng bằng tổng số giảm 7 lần. Dùng xong còn mấy lít?|72|84 : 7 = 12; 84 - 12 = 72.|12;77;91
+Bài 28
+Bài toán hỏi tổng hai nhóm nhưng chưa biết nhóm thứ hai. Trước hết tìm nhóm nào?|nhóm thứ hai|Cần tìm dữ kiện chưa biết trước khi cộng hai nhóm.|tổng ngay;nhóm thứ nhất;không cần tìm
+Có 7 bóng đỏ, bóng xanh nhiều hơn đỏ 4 quả. Bước đầu tính số bóng xanh được mấy?|11|7 + 4 = 11 quả xanh.|3;28;18
+Có 8 cây cam, cây ổi ít hơn cam 3 cây. Muốn tìm số cây ổi dùng phép gì?|trừ|Ít hơn 3 cây nên lấy số cây cam trừ 3.|cộng;nhân;chia
+Một hộp 6 viên, hộp kia gấp 3 lần. Bước tìm hộp kia được mấy viên?|18|6 × 3 = 18 viên.|9;3;12
+Có 12 bút xanh và 9 bút đỏ. Tìm tổng dùng phép gì?|cộng|Gộp hai nhóm đã biết thì cộng.|trừ;nhân;chia
+Có 15 tem, được tặng 5 rồi cho 4. Sau bước đầu có mấy tem?|20|15 + 5 = 20 tem trước khi cho.|16;10;24
+Hai bước giải cần có lời giải và đơn vị cho mỗi bước không? Trả lời có hoặc không.|có|Lời giải cho biết đang tính đại lượng nào; đơn vị làm rõ kết quả.|không;chỉ bước cuối;chỉ bước đầu
+Có 10 cây, nhóm khác nhiều hơn 6 cây. Số 16 tìm ở bước đầu chỉ nhóm nào?|nhóm khác|10 + 6 = 16 là số cây của nhóm khác, chưa phải tổng.|cả hai nhóm;nhóm đầu;phần chênh lệch
+Tìm tổng hai nhóm khi biết nhóm đầu và mức ít hơn của nhóm sau cần ít nhất mấy bước tính?|2|Tìm nhóm sau bằng phép trừ rồi cộng hai nhóm.|1;3;4
+Có 9 thẻ, số thẻ bạn bằng 9 giảm 3 lần. Bước đầu tìm được mấy thẻ của bạn?|3|9 : 3 = 3 thẻ.|6;12;27
+Có 13 sách ở ngăn trên, ngăn dưới hơn 4 quyển. Bạn tính 13 + 4 = 17 rồi kết luận tổng. Tổng đúng là mấy?|30|17 là ngăn dưới; 13 + 17 = 30 quyển.|17;26;34
+Có 11 hoa tím, hoa vàng ít hơn 2 bông. Muốn tìm tổng, phép tính thứ hai cộng 11 với mấy?|9|11 - 2 = 9 hoa vàng; bước sau cộng 11 với 9.|2;13;22
+Có 5 túi, mỗi túi 7 viên, cho đi 8 viên. Phép tính đầu tìm được mấy viên?|35|5 × 7 = 35 viên ban đầu; sau đó mới trừ 8.|12;27;40
+Có 28 quả chia 4 phần, rồi thêm 2 quả vào mỗi phần. Một phần có mấy quả?|9|28 : 4 = 7; 7 + 2 = 9.|7;6;30
+Sáng bán 18 chiếc, chiều ít hơn 5 chiếc. Tổng bán mấy chiếc?|31|18 - 5 = 13; 18 + 13 = 31.|13;23;36
+Đoạn thứ nhất 8 cm, đoạn thứ hai gấp 4 lần. Tổng độ dài mấy cm?|40|8 × 4 = 32; 8 + 32 = 40.|32;12;24
+Một lớp có 14 bạn nam, nữ hơn nam 3 bạn. Cả lớp có mấy bạn?|31|14 + 3 = 17; 14 + 17 = 31.|17;28;34
+Có 40 lít, dùng 12 lít rồi 9 lít. Còn mấy lít?|19|40 - 12 = 28; 28 - 9 = 19.|21;28;31
+Một số gấp 3 lần số 8, sau đó tăng 5 đơn vị. Kết quả mấy?|29|8 × 3 = 24; 24 + 5 = 29.|39;16;19
+Có 24 viên, hộp nhỏ bằng hộp lớn giảm 4 lần. Tổng hai hộp mấy viên?|30|24 : 4 = 6; 24 + 6 = 30.|6;28;18
+Kệ A có 16 sách, kệ B hơn A 7 sách. Hai kệ mấy sách?|39|16 + 7 = 23; 16 + 23 = 39.|23;32;46
+Vườn có 19 cây chanh, cam ít hơn chanh 6 cây. Tổng mấy cây?|32|19 - 6 = 13; 19 + 13 = 32.|13;25;38
+Có 4 hộp mỗi hộp 12 bút. Dùng 15 bút, còn mấy bút?|33|12 × 4 = 48; 48 - 15 = 33.|48;27;37
+Có 65 kg gạo, nhập thêm 18 kg rồi bán 27 kg. Còn mấy kg?|56|65 + 18 = 83; 83 - 27 = 56.|38;83;74
+Đội một trồng 9 cây, đội hai gấp 5 lần đội một. Hai đội trồng mấy cây?|54|9 × 5 = 45; 9 + 45 = 54.|45;14;36
+Dây dài 72 cm cắt làm 3 đoạn bằng nhau. Một đoạn bị cắt ngắn thêm 8 cm. Đoạn đó còn mấy cm?|16|72 : 3 = 24; 24 - 8 = 16.|24;56;32
+Có 7 hàng ghế, mỗi hàng 6 ghế. Có 38 bạn ngồi mỗi bạn một ghế. Còn trống mấy ghế?|4|7 × 6 = 42; 42 - 38 = 4.|42;3;6
+Một giỏ 27 quả, giỏ kia bằng giỏ đầu giảm 3 lần. Hai giỏ mấy quả?|36|27 : 3 = 9; 27 + 9 = 36.|9;30;18
+Có 90 nhãn, cho 18 nhãn rồi chia số còn lại đều cho 4 bạn. Mỗi bạn mấy nhãn?|18|90 - 18 = 72; 72 : 4 = 18.|72;22;27
+Nhóm có 8 bạn, mỗi bạn làm 3 thiệp. Bổ sung 7 thiệp từ cô giáo. Có mấy thiệp?|31|8 × 3 = 24; 24 + 7 = 31.|24;18;45
+An đi 35 m, Bình đi ít hơn An 8 m. Hai bạn đi tổng mấy mét?|62|35 - 8 = 27; 35 + 27 = 62.|27;43;70
+Sáng thu 14 kg rau, chiều thu gấp 4 lần sáng. Chiều thu hơn sáng mấy kg?|42|14 × 4 = 56; 56 - 14 = 42.|56;70;10
+Có 6 gói mỗi gói 9 hạt. Chia đều tất cả cho 3 luống. Mỗi luống mấy hạt?|18|6 × 9 = 54; 54 : 3 = 18.|54;12;27
+Một bể chứa 84 lít, lấy ra một lượng bằng 84 giảm 4 lần. Bể còn mấy lít?|63|84 : 4 = 21; 84 - 21 = 63.|21;80;88
+Mỗi ngày gấp 13 chiếc, làm trong 5 ngày rồi tặng 26 chiếc. Còn mấy chiếc?|39|13 × 5 = 65; 65 - 26 = 39.|65;52;41
+Có 17 xe đỏ, xe xanh nhiều hơn xe đỏ 9 chiếc. Tổng xe mấy chiếc?|43|17 + 9 = 26; 17 + 26 = 43.|26;34;52
+Có 48 viên, thêm 16 viên rồi chia đều vào 4 hộp. Mỗi hộp mấy viên?|16|48 + 16 = 64; 64 : 4 = 16.|12;64;20
+Một cuốn có 80 trang. Đọc 25 trang ngày đầu, 28 trang ngày sau. Còn mấy trang?|27|80 - 25 = 55; 55 - 28 = 27.|53;55;37
+Hộp lớn 32 thẻ, hộp nhỏ bằng hộp lớn giảm 4 lần. Hộp lớn hơn hộp nhỏ mấy thẻ?|24|32 : 4 = 8; 32 - 8 = 24.|8;28;40
+Có 3 đội mỗi đội 15 bạn. Sau đó thêm 12 bạn. Tổng mấy bạn?|57|15 × 3 = 45; 45 + 12 = 57.|45;30;81

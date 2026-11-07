@@ -1,0 +1,784 @@
+{
+  "id": "TOAN3_T1_B27",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 27,
+  "title": "Giảm một số đi một số lần",
+  "topic": "Giảm đi một số lần",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      79,
+      80
+    ],
+    "pdf_pages": [
+      80,
+      81
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Dùng phép chia để giảm một số đi một số lần.",
+    "Phân biệt giảm số lần với bớt đơn vị và xác định lượng còn lại, lượng đã dùng."
+  ],
+  "knowledge": {
+    "introduction": "Giảm 24 đi 4 lần nghĩa là chia 24 thành 4 phần bằng nhau và lấy một phần. Bớt 4 đơn vị lại là lấy đi đúng 4; hai yêu cầu dùng phép tính khác nhau.",
+    "rules": [
+      "Muốn giảm một số đi một số lần, lấy số đó chia cho số lần.",
+      "Bớt một số đơn vị dùng phép trừ, gấp số lần dùng phép nhân.",
+      "Nếu lượng còn lại bằng lượng ban đầu giảm n lần, tính lượng còn lại trước. Lượng đã dùng bằng ban đầu trừ còn lại.",
+      "Nếu lượng đem dùng bằng ban đầu giảm n lần, tính lượng dùng rồi trừ khỏi ban đầu. Đọc đúng đối tượng được giảm."
+    ],
+    "steps": [
+      "Xác định số ban đầu và số lần.",
+      "Đọc xem đề nói lượng còn lại hay lượng đem dùng.",
+      "Lập phép chia, tính một phần.",
+      "Nếu hỏi tổng hoặc chênh lệch, thực hiện thêm phép cộng hoặc trừ."
+    ],
+    "common_errors": [
+      "Dùng phép trừ khi gặp giảm số lần.",
+      "Trả lời lượng còn lại thay cho lượng đã dùng.",
+      "Nhầm lượng đem cho với lượng giữ lại."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Giảm 48 đi 4 lần.",
+      "steps": [
+        "48 : 4 = 12.",
+        "Kết quả là 12; bớt 4 đơn vị mới bằng 44."
+      ]
+    },
+    {
+      "question": "Có 35 thẻ. Số còn lại sau khi tặng bằng ban đầu giảm 5 lần. Đã tặng mấy thẻ?",
+      "steps": [
+        "35 : 5 = 7 thẻ còn lại.",
+        "35 - 7 = 28. Đã tặng 28 thẻ."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B27_Q01",
+      "type": "mcq",
+      "question": "Muốn giảm một số đi 4 lần, dùng phép tính nào?",
+      "options": [
+        "chia cho 4",
+        "trừ 4",
+        "cộng 4",
+        "nhân 4"
+      ],
+      "correct_answer": "chia cho 4",
+      "distractors": [
+        "trừ 4",
+        "cộng 4",
+        "nhân 4"
+      ],
+      "explanation": "Giảm số lần là chia cho số lần ấy.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q02",
+      "type": "fill",
+      "question": "Giảm 36 đi 4 lần được mấy?",
+      "correct_answer": "9",
+      "distractors": [
+        "32",
+        "8",
+        "40"
+      ],
+      "explanation": "36 : 4 = 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q03",
+      "type": "mcq",
+      "question": "Giảm 45 đi 5 lần được mấy?",
+      "options": [
+        "9",
+        "40",
+        "8",
+        "50"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "40",
+        "8",
+        "50"
+      ],
+      "explanation": "45 : 5 = 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q04",
+      "type": "fill",
+      "question": "Giảm 64 đi 8 lần được mấy?",
+      "correct_answer": "8",
+      "distractors": [
+        "56",
+        "7",
+        "72"
+      ],
+      "explanation": "64 : 8 = 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q05",
+      "type": "mcq",
+      "question": "Giảm 20 đi 2 lần khác bớt 2 đơn vị. Kết quả giảm 2 lần là mấy?",
+      "options": [
+        "10",
+        "18",
+        "22",
+        "40"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "18",
+        "22",
+        "40"
+      ],
+      "explanation": "20 : 2 = 10; bớt 2 đơn vị mới được 18.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q06",
+      "type": "fill",
+      "question": "Từ 54 còn 9 là giảm đi mấy lần?",
+      "correct_answer": "6",
+      "distractors": [
+        "45",
+        "9",
+        "5"
+      ],
+      "explanation": "54 : 6 = 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q07",
+      "type": "mcq",
+      "question": "Giảm 30 đi 3 lần được mấy?",
+      "options": [
+        "10",
+        "27",
+        "9",
+        "33"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "27",
+        "9",
+        "33"
+      ],
+      "explanation": "30 : 3 = 10.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q08",
+      "type": "fill",
+      "question": "Số 48 giảm 6 lần còn mấy?",
+      "correct_answer": "8",
+      "distractors": [
+        "42",
+        "6",
+        "9"
+      ],
+      "explanation": "48 : 6 = 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q09",
+      "type": "mcq",
+      "question": "Một số được giảm đi 1 lần thì kết quả bằng số ban đầu không? Trả lời có hoặc không.",
+      "options": [
+        "có",
+        "không",
+        "luôn bằng 1",
+        "luôn bằng 0"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "luôn bằng 1",
+        "luôn bằng 0"
+      ],
+      "explanation": "Chia một số cho 1 được chính số ấy.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q10",
+      "type": "fill",
+      "question": "Giảm 72 đi 9 lần được mấy?",
+      "correct_answer": "8",
+      "distractors": [
+        "63",
+        "9",
+        "7"
+      ],
+      "explanation": "72 : 9 = 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q11",
+      "type": "mcq",
+      "question": "An nói giảm 24 đi 3 lần là 21. Kết quả đúng là mấy?",
+      "options": [
+        "8",
+        "21",
+        "27",
+        "72"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "21",
+        "27",
+        "72"
+      ],
+      "explanation": "An đã trừ 3 đơn vị; phải tính 24 : 3 = 8.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q12",
+      "type": "fill",
+      "question": "Giảm 28 đi 4 lần rồi gấp kết quả 4 lần, được mấy?",
+      "correct_answer": "28",
+      "distractors": [
+        "7",
+        "24",
+        "32"
+      ],
+      "explanation": "28 : 4 = 7; 7 × 4 = 28.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q13",
+      "type": "mcq",
+      "question": "Số 18 giảm 3 lần và bớt 3 đơn vị cho hai kết quả chênh nhau mấy?",
+      "options": [
+        "9",
+        "3",
+        "6",
+        "12"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "3",
+        "6",
+        "12"
+      ],
+      "explanation": "18 : 3 = 6; 18 - 3 = 15; 15 - 6 = 9.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q14",
+      "type": "fill",
+      "question": "Một đoạn dài chia thành 5 phần bằng nhau. Đoạn ngắn bằng một phần. Độ dài đoạn dài giảm mấy lần ra đoạn ngắn?",
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "6",
+        "1"
+      ],
+      "explanation": "Một phần bằng độ dài ban đầu chia 5.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q15",
+      "type": "mcq",
+      "question": "Điền số chia: 42 chia cho số đó bằng 7.",
+      "options": [
+        "6",
+        "7",
+        "35",
+        "49"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "7",
+        "35",
+        "49"
+      ],
+      "explanation": "42 : 7 = 6 nên số chia cần tìm là 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q16",
+      "type": "fill",
+      "question": "Giảm 60 đi 3 lần hay giảm 60 đi 5 lần cho kết quả lớn hơn? Chọn số lần.",
+      "correct_answer": "3",
+      "distractors": [
+        "5",
+        "8",
+        "2"
+      ],
+      "explanation": "60 : 3 = 20; 60 : 5 = 12; 20 lớn hơn 12.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q17",
+      "type": "mcq",
+      "question": "Một số giảm 4 lần còn 6. Số ban đầu là mấy?",
+      "options": [
+        "24",
+        "10",
+        "2",
+        "20"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "10",
+        "2",
+        "20"
+      ],
+      "explanation": "Lấy kết quả nhân số lần: 6 × 4 = 24.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q18",
+      "type": "fill",
+      "question": "Giảm 40 đi 5 lần rồi bớt 3 đơn vị được mấy?",
+      "correct_answer": "5",
+      "distractors": [
+        "32",
+        "7",
+        "1"
+      ],
+      "explanation": "40 : 5 = 8; 8 - 3 = 5.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q19",
+      "type": "mcq",
+      "question": "Gấp 7 lên 6 lần rồi giảm đi 3 lần được mấy?",
+      "options": [
+        "14",
+        "7",
+        "21",
+        "39"
+      ],
+      "correct_answer": "14",
+      "distractors": [
+        "7",
+        "21",
+        "39"
+      ],
+      "explanation": "7 × 6 = 42; 42 : 3 = 14.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q20",
+      "type": "fill",
+      "question": "Một số giảm 2 lần còn 16. Nếu giảm số ban đầu 4 lần thì còn mấy?",
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "12",
+        "16"
+      ],
+      "explanation": "16 × 2 = 32; 32 : 4 = 8.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q21",
+      "type": "mcq",
+      "question": "Có 32 cây. Sau khi chuyển đi, số cây còn lại giảm 4 lần so với ban đầu. Còn mấy cây?",
+      "options": [
+        "8",
+        "28",
+        "24",
+        "4"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "28",
+        "24",
+        "4"
+      ],
+      "explanation": "32 : 4 = 8 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q22",
+      "type": "fill",
+      "question": "Có 32 cây, số còn lại bằng số ban đầu giảm 4 lần. Đã chuyển đi mấy cây?",
+      "correct_answer": "24",
+      "distractors": [
+        "8",
+        "28",
+        "4"
+      ],
+      "explanation": "32 : 4 = 8; 32 - 8 = 24 cây chuyển đi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q23",
+      "type": "mcq",
+      "question": "Dây đỏ dài 36 cm. Dây xanh bằng dây đỏ giảm 3 lần. Hai dây dài tất cả mấy cm?",
+      "options": [
+        "48",
+        "39",
+        "24",
+        "12"
+      ],
+      "correct_answer": "48",
+      "distractors": [
+        "39",
+        "24",
+        "12"
+      ],
+      "explanation": "36 : 3 = 12; 36 + 12 = 48.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q24",
+      "type": "fill",
+      "question": "Một bể có 50 lít. Sau khi dùng, nước còn lại giảm 5 lần so với lúc đầu. Đã dùng mấy lít?",
+      "correct_answer": "40",
+      "distractors": [
+        "10",
+        "45",
+        "55"
+      ],
+      "explanation": "50 : 5 = 10; 50 - 10 = 40.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q25",
+      "type": "mcq",
+      "question": "Ngày đầu đọc 24 trang, ngày sau số trang giảm 3 lần. Cả hai ngày đọc mấy trang?",
+      "options": [
+        "32",
+        "27",
+        "16",
+        "8"
+      ],
+      "correct_answer": "32",
+      "distractors": [
+        "27",
+        "16",
+        "8"
+      ],
+      "explanation": "24 : 3 = 8; 24 + 8 = 32.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q26",
+      "type": "fill",
+      "question": "Đường đi dài 63 m, đoạn đường tắt bằng đường đi giảm 7 lần. Đi đường tắt tiết kiệm mấy mét?",
+      "correct_answer": "54",
+      "distractors": [
+        "9",
+        "56",
+        "70"
+      ],
+      "explanation": "63 : 7 = 9; 63 - 9 = 54.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q27",
+      "type": "mcq",
+      "question": "Có 48 nhãn, sau khi tặng số còn lại giảm 6 lần. Tặng thêm 3 nhãn từ phần còn lại thì còn mấy?",
+      "options": [
+        "5",
+        "8",
+        "39",
+        "11"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "8",
+        "39",
+        "11"
+      ],
+      "explanation": "48 : 6 = 8; 8 - 3 = 5.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q28",
+      "type": "fill",
+      "question": "Máy nhận 72 rồi giảm 8 lần, sau đó gấp 5 lần. Máy trả số mấy?",
+      "correct_answer": "45",
+      "distractors": [
+        "40",
+        "9",
+        "69"
+      ],
+      "explanation": "72 : 8 = 9; 9 × 5 = 45.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q29",
+      "type": "mcq",
+      "question": "Có 42 kg rau, lượng rau chiều bằng lượng sáng giảm 3 lần. Chiều ít hơn sáng mấy kg?",
+      "options": [
+        "28",
+        "14",
+        "39",
+        "45"
+      ],
+      "correct_answer": "28",
+      "distractors": [
+        "14",
+        "39",
+        "45"
+      ],
+      "explanation": "42 : 3 = 14; 42 - 14 = 28.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q30",
+      "type": "fill",
+      "question": "Một số giảm 7 lần còn 8. Bớt số ban đầu 7 đơn vị thì còn mấy?",
+      "correct_answer": "49",
+      "distractors": [
+        "1",
+        "8",
+        "63"
+      ],
+      "explanation": "8 × 7 = 56; 56 - 7 = 49.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q31",
+      "type": "mcq",
+      "question": "Sân có 56 bạn, sau khi chuyển nhóm số bạn còn lại giảm 2 lần. Chia số còn lại thành 4 đội đều nhau, mỗi đội mấy bạn?",
+      "options": [
+        "7",
+        "14",
+        "8",
+        "6"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "14",
+        "8",
+        "6"
+      ],
+      "explanation": "56 : 2 = 28; 28 : 4 = 7.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q32",
+      "type": "fill",
+      "question": "Một đoạn 80 cm giảm 4 lần được đoạn ngắn. Cắt thêm 6 cm khỏi đoạn ngắn, còn mấy cm?",
+      "correct_answer": "14",
+      "distractors": [
+        "20",
+        "70",
+        "26"
+      ],
+      "explanation": "80 : 4 = 20; 20 - 6 = 14.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q33",
+      "type": "mcq",
+      "question": "Nhóm đầu có 27 sản phẩm, nhóm sau có số sản phẩm bằng nhóm đầu giảm 3 lần. Cần thêm mấy sản phẩm cho nhóm sau để bằng nhóm đầu?",
+      "options": [
+        "18",
+        "9",
+        "24",
+        "30"
+      ],
+      "correct_answer": "18",
+      "distractors": [
+        "9",
+        "24",
+        "30"
+      ],
+      "explanation": "27 : 3 = 9; 27 - 9 = 18.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q34",
+      "type": "fill",
+      "question": "Số 96 giảm 3 lần rồi giảm tiếp 4 lần được mấy?",
+      "correct_answer": "8",
+      "distractors": [
+        "24",
+        "32",
+        "89"
+      ],
+      "explanation": "96 : 3 = 32; 32 : 4 = 8.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q35",
+      "type": "mcq",
+      "question": "Mẹ có 60 hạt, số hạt đem gieo bằng 60 giảm 5 lần. Số hạt chưa gieo là mấy?",
+      "options": [
+        "48",
+        "12",
+        "55",
+        "65"
+      ],
+      "correct_answer": "48",
+      "distractors": [
+        "12",
+        "55",
+        "65"
+      ],
+      "explanation": "60 : 5 = 12; 60 - 12 = 48.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q36",
+      "type": "fill",
+      "question": "Sau khi giảm 3 lần, dây còn dài 15 cm. Dây ban đầu dài hơn dây sau mấy cm?",
+      "correct_answer": "30",
+      "distractors": [
+        "45",
+        "12",
+        "18"
+      ],
+      "explanation": "15 × 3 = 45; 45 - 15 = 30.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q37",
+      "type": "mcq",
+      "question": "Hai bạn cùng có 36 thẻ. An giảm số thẻ 4 lần, Bình giảm 6 lần. An còn hơn Bình mấy thẻ?",
+      "options": [
+        "3",
+        "2",
+        "6",
+        "9"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "6",
+        "9"
+      ],
+      "explanation": "36 : 4 = 9; 36 : 6 = 6; 9 - 6 = 3.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q38",
+      "type": "fill",
+      "question": "Tủ có 54 quyển, số chuyển đi bằng số ban đầu giảm 6 lần. Sau khi chuyển còn mấy quyển?",
+      "correct_answer": "45",
+      "distractors": [
+        "9",
+        "48",
+        "60"
+      ],
+      "explanation": "54 : 6 = 9; 54 - 9 = 45.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q39",
+      "type": "mcq",
+      "question": "Số vòng ngày đầu là 18, ngày hai gấp 2 lần ngày đầu, ngày ba bằng ngày hai giảm 4 lần. Ngày ba mấy vòng?",
+      "options": [
+        "9",
+        "18",
+        "8",
+        "32"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "18",
+        "8",
+        "32"
+      ],
+      "explanation": "18 × 2 = 36; 36 : 4 = 9.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B27_Q40",
+      "type": "fill",
+      "question": "Có 84 lít nước, lượng dùng bằng tổng số giảm 7 lần. Dùng xong còn mấy lít?",
+      "correct_answer": "72",
+      "distractors": [
+        "12",
+        "77",
+        "91"
+      ],
+      "explanation": "84 : 7 = 12; 84 - 12 = 72.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B27_GAME1",
+      "title": "Ghép giảm và bớt",
+      "mode": "match",
+      "objective": "Ghép yêu cầu với kết quả, chú ý đối tượng được giảm.",
+      "rules": [
+        "Mỗi lượt chọn 5 câu có 5 đáp án khác nhau.",
+        "Chọn câu hỏi bên trái rồi đáp án bên phải. Sai thì thử lại.",
+        "Mỗi cặp đúng 10 điểm; tối đa 50 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B27_Q01",
+        "TOAN3_T1_B27_Q02",
+        "TOAN3_T1_B27_Q03",
+        "TOAN3_T1_B27_Q04",
+        "TOAN3_T1_B27_Q05",
+        "TOAN3_T1_B27_Q06",
+        "TOAN3_T1_B27_Q07",
+        "TOAN3_T1_B27_Q08",
+        "TOAN3_T1_B27_Q09",
+        "TOAN3_T1_B27_Q10",
+        "TOAN3_T1_B27_Q11",
+        "TOAN3_T1_B27_Q12",
+        "TOAN3_T1_B27_Q13",
+        "TOAN3_T1_B27_Q14",
+        "TOAN3_T1_B27_Q15",
+        "TOAN3_T1_B27_Q16",
+        "TOAN3_T1_B27_Q17",
+        "TOAN3_T1_B27_Q18",
+        "TOAN3_T1_B27_Q19",
+        "TOAN3_T1_B27_Q20",
+        "TOAN3_T1_B27_Q21",
+        "TOAN3_T1_B27_Q22",
+        "TOAN3_T1_B27_Q23",
+        "TOAN3_T1_B27_Q24",
+        "TOAN3_T1_B27_Q25",
+        "TOAN3_T1_B27_Q26",
+        "TOAN3_T1_B27_Q27",
+        "TOAN3_T1_B27_Q28",
+        "TOAN3_T1_B27_Q29",
+        "TOAN3_T1_B27_Q30",
+        "TOAN3_T1_B27_Q31",
+        "TOAN3_T1_B27_Q32",
+        "TOAN3_T1_B27_Q33",
+        "TOAN3_T1_B27_Q34",
+        "TOAN3_T1_B27_Q35",
+        "TOAN3_T1_B27_Q36",
+        "TOAN3_T1_B27_Q37",
+        "TOAN3_T1_B27_Q38",
+        "TOAN3_T1_B27_Q39",
+        "TOAN3_T1_B27_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 50
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

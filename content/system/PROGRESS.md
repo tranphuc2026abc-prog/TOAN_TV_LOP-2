@@ -1,3 +1,15 @@
+# Batch 7 — trạng thái mới nhất, 07/11/2026
+
+- Toán: 28/81 bài có học liệu riêng; Tiếng Việt: 0/62; Tiếng Anh: 0/25. Tổng 28/168; còn 140 mục bản nháp.
+- 1120 câu, 28 trò chơi. AI đã biên soạn/kiểm tra 28 bài; giáo viên đã duyệt 4 bài Toán 1–4; 24 bài chờ duyệt. Mọi bài mới giữ AI_CHECKED_AWAITING_TEACHER.
+- Batch 7: Toán 25–28, 160 câu riêng (mỗi bài 10/10/20), 4 trò chơi; lượt luyện tập 10 câu phân mức 3/3/4.
+- Đọc trực quan trang in 72–82 (PDF 73–83) Toán tập 1. Chủ đề: chia hết/có dư, chia hai chữ số, giảm số lần, toán hai bước.
+- validate_site.py, validate_content.py, test_batch7.py và test_content_dom.cjs đạt trên toàn bộ 28 bài. npm ci tái lập thành công. Chưa có Chromium để kiểm thử trình duyệt thật.
+- Checkpoint kế tiếp: Toán 29–32, trang in 83–90. Đọc nguồn trước khi biên soạn; tiếp tục Toán rồi Tiếng Việt rồi Tiếng Anh.
+- Kiểm thử: npm ci; npm test; python scripts/validate_site.py; python scripts/test_batch7.py.
+
+## Lịch sử trước Batch 7
+
 ## Cập nhật kiểm thử — 07/11/2026
 
 Đã bổ sung package.json và package-lock.json để tái lập kiểm thử bằng `npm ci` rồi `npm test`, thay cho phụ thuộc jsdom trong thư mục tạm. Đã chạy thành công trên toàn bộ 24 bài hiện có. Số học liệu vẫn là 24 bài Toán, 960 câu; chưa tạo Batch 7. Checkpoint nội dung kế tiếp giữ nguyên Toán 25–28.

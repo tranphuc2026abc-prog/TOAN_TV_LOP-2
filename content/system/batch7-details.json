@@ -1,0 +1,191 @@
+[
+  {
+    "topic": "Phép chia và phần dư",
+    "objectives": [
+      "Nhận biết phép chia hết, phép chia có dư và giới hạn của số dư.",
+      "Tìm thương, số dư và vận dụng khi xếp nhóm hoặc cần chứa hết đồ vật."
+    ],
+    "intro": "Chia đồ vật nguyên thành các nhóm bằng nhau, đôi khi vẫn còn một ít chưa đủ một nhóm. Phần ấy là số dư. Hỏi số nhóm đầy khác với hỏi số hộp cần để chứa hết.",
+    "rules": [
+      "Chia hết có số dư bằng 0. Chia có dư có số dư lớn hơn 0 và bé hơn số chia.",
+      "Số bị chia bằng số chia nhân thương rồi cộng số dư.",
+      "Nếu phần dư còn bằng hoặc lớn hơn số chia thì chưa chia xong.",
+      "Hỏi số hộp đầy: lấy thương. Hỏi số hộp tối thiểu chứa hết: nếu còn dư, phải thêm một hộp."
+    ],
+    "steps": [
+      "Xác định tổng đồ vật và số đồ vật trong một nhóm hoặc số người được chia.",
+      "Tìm tích của số chia gần tổng nhất nhưng không vượt tổng.",
+      "Lấy tổng trừ tích để tìm phần dư; kiểm tra phần dư bé hơn số chia.",
+      "Đọc lại câu hỏi: cần thương, số dư hay thêm một chỗ để chứa hết?"
+    ],
+    "errors": [
+      "Chấp nhận số dư lớn hơn số chia.",
+      "Nhầm số dư với thương.",
+      "Chỉ dùng số nhóm đầy khi đề hỏi chứa hết."
+    ],
+    "examples": [
+      [
+        "Có 22 huy hiệu, mỗi hộp 5 chiếc. Có mấy hộp đầy và còn mấy chiếc?",
+        [
+          "5 × 4 + 2 = 22.",
+          "Có 4 hộp đầy, dư 2 chiếc; 2 bé hơn 5."
+        ]
+      ],
+      [
+        "Cần ít nhất mấy hộp, mỗi hộp tối đa 5 chiếc, để chứa 22 huy hiệu?",
+        [
+          "4 hộp chứa 20 chiếc.",
+          "2 chiếc còn lại cần thêm một hộp. Cần 5 hộp."
+        ]
+      ]
+    ],
+    "game": [
+      "Tìm nhóm đầy",
+      "Kiểm tra thương, số dư và cách xử lí phần còn lại."
+    ],
+    "mode": "treasure"
+  },
+  {
+    "topic": "Chia hai chữ số cho một chữ số",
+    "objectives": [
+      "Thực hiện phép chia theo thứ tự từ chục đến đơn vị.",
+      "Biết gộp chục còn dư với đơn vị và kiểm tra kết quả."
+    ],
+    "intro": "Khi chia một số có hai chữ số, bắt đầu từ hàng chục. Nếu lượt đầu còn chục dư, đổi chục ấy thành đơn vị rồi gộp với chữ số vừa hạ. Không bỏ phần dư ở giữa phép tính.",
+    "rules": [
+      "Chia theo thứ tự từ trái sang phải: hàng chục rồi hàng đơn vị.",
+      "Ở mỗi lượt thực hiện chia, nhân, trừ; sau đó hạ chữ số tiếp theo.",
+      "Một chục dư là 10 đơn vị, cần gộp với đơn vị vừa hạ.",
+      "Kiểm tra bằng số chia nhân thương cộng số dư; số dư cuối bé hơn số chia.",
+      "Nhẩm số tròn chục bằng cách chia số chục rồi đổi lại thành số."
+    ],
+    "steps": [
+      "Viết số bị chia và số chia theo khung đặt tính.",
+      "Chia chữ số hàng chục, ghi thương, nhân và trừ.",
+      "Hạ chữ số đơn vị xuống cạnh số dư rồi chia tiếp.",
+      "Ghi kết quả, kiểm tra bằng phép nhân và phần dư; trả lời đúng đơn vị."
+    ],
+    "errors": [
+      "Chia hai chữ số riêng rẽ mà bỏ chục dư.",
+      "Hạ chữ số nhưng không gộp với phần dư trước.",
+      "Quên cộng số dư khi kiểm tra."
+    ],
+    "examples": [
+      [
+        "Tính 76 chia 3.",
+        [
+          "7 chia 3 được 2, còn 1 chục.",
+          "Hạ 6, gộp thành 16; chia 3 được 5, còn 1.",
+          "Thương 25 dư 1. Kiểm tra: 3 × 25 + 1 = 76."
+        ]
+      ],
+      [
+        "Chia đều 84 bút vào 3 hộp.",
+        [
+          "8 chia 3 được 2, còn 2 chục.",
+          "Hạ 4 thành 24; 24 chia 3 được 8.",
+          "84 : 3 = 28. Mỗi hộp 28 bút."
+        ]
+      ]
+    ],
+    "game": [
+      "Kiểm chứng lượt chia",
+      "Nhận định đúng sai về phép chia, kiểm tra cả phần dư."
+    ],
+    "mode": "tf"
+  },
+  {
+    "topic": "Giảm đi một số lần",
+    "objectives": [
+      "Dùng phép chia để giảm một số đi một số lần.",
+      "Phân biệt giảm số lần với bớt đơn vị và xác định lượng còn lại, lượng đã dùng."
+    ],
+    "intro": "Giảm 24 đi 4 lần nghĩa là chia 24 thành 4 phần bằng nhau và lấy một phần. Bớt 4 đơn vị lại là lấy đi đúng 4; hai yêu cầu dùng phép tính khác nhau.",
+    "rules": [
+      "Muốn giảm một số đi một số lần, lấy số đó chia cho số lần.",
+      "Bớt một số đơn vị dùng phép trừ, gấp số lần dùng phép nhân.",
+      "Nếu lượng còn lại bằng lượng ban đầu giảm n lần, tính lượng còn lại trước. Lượng đã dùng bằng ban đầu trừ còn lại.",
+      "Nếu lượng đem dùng bằng ban đầu giảm n lần, tính lượng dùng rồi trừ khỏi ban đầu. Đọc đúng đối tượng được giảm."
+    ],
+    "steps": [
+      "Xác định số ban đầu và số lần.",
+      "Đọc xem đề nói lượng còn lại hay lượng đem dùng.",
+      "Lập phép chia, tính một phần.",
+      "Nếu hỏi tổng hoặc chênh lệch, thực hiện thêm phép cộng hoặc trừ."
+    ],
+    "errors": [
+      "Dùng phép trừ khi gặp giảm số lần.",
+      "Trả lời lượng còn lại thay cho lượng đã dùng.",
+      "Nhầm lượng đem cho với lượng giữ lại."
+    ],
+    "examples": [
+      [
+        "Giảm 48 đi 4 lần.",
+        [
+          "48 : 4 = 12.",
+          "Kết quả là 12; bớt 4 đơn vị mới bằng 44."
+        ]
+      ],
+      [
+        "Có 35 thẻ. Số còn lại sau khi tặng bằng ban đầu giảm 5 lần. Đã tặng mấy thẻ?",
+        [
+          "35 : 5 = 7 thẻ còn lại.",
+          "35 - 7 = 28. Đã tặng 28 thẻ."
+        ]
+      ]
+    ],
+    "game": [
+      "Ghép giảm và bớt",
+      "Ghép yêu cầu với kết quả, chú ý đối tượng được giảm."
+    ],
+    "mode": "match"
+  },
+  {
+    "topic": "Giải toán bằng hai bước tính",
+    "objectives": [
+      "Tìm đại lượng trung gian trước khi trả lời câu hỏi cuối.",
+      "Viết hai lời giải có phép tính, đơn vị và kiểm tra đáp số theo tình huống."
+    ],
+    "intro": "Có bài chưa thể trả lời bằng một phép tính vì thiếu một dữ kiện. Hãy tự hỏi: muốn trả lời câu hỏi cuối, cần biết thêm điều gì? Tìm điều đó ở bước đầu, rồi dùng kết quả để làm bước thứ hai.",
+    "rules": [
+      "Biết nhóm đầu và mức hơn/kém: cộng hoặc trừ để tìm nhóm sau, rồi mới tìm tổng.",
+      "Biết nhóm sau gấp hoặc giảm số lần: nhân hoặc chia để tìm nhóm sau trước.",
+      "Gom các nhóm bằng nhau rồi cho bớt: nhân trước, trừ sau.",
+      "Mỗi bước cần lời giải nêu đại lượng, phép tính và đơn vị. Đáp số trả lời đúng câu hỏi cuối."
+    ],
+    "steps": [
+      "Đọc đề, chỉ ra dữ kiện và điều cần tìm.",
+      "Xác định dữ kiện trung gian còn thiếu; có thể vẽ sơ đồ các phần bằng nhau.",
+      "Viết lời giải và phép tính cho bước đầu.",
+      "Dùng kết quả vừa tìm cho bước sau, ghi đáp số và kiểm tra ý nghĩa."
+    ],
+    "errors": [
+      "Lấy mức nhiều hơn cộng vào tổng mà quên nhóm thứ hai.",
+      "Dừng sau bước tìm dữ kiện trung gian.",
+      "Nhầm hỏi tổng với hỏi hơn bao nhiêu."
+    ],
+    "examples": [
+      [
+        "Giỏ đầu có 12 quả, giỏ sau nhiều hơn 5 quả. Cả hai giỏ mấy quả?",
+        [
+          "Giỏ sau có 12 + 5 = 17 quả.",
+          "Cả hai giỏ có 12 + 17 = 29 quả.",
+          "Đáp số: 29 quả."
+        ]
+      ],
+      [
+        "Có 5 hộp, mỗi hộp 8 bút. Dùng 13 bút thì còn mấy?",
+        [
+          "Ban đầu có 5 × 8 = 40 bút.",
+          "Còn lại 40 - 13 = 27 bút.",
+          "Đáp số: 27 bút."
+        ]
+      ]
+    ],
+    "game": [
+      "Hai bước tới kho báu",
+      "Tìm số trung gian rồi chọn kết quả cuối trong từng bài toán."
+    ],
+    "mode": "treasure"
+  }
+]

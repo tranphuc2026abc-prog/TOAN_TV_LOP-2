@@ -1,0 +1,784 @@
+{
+  "id": "TOAN3_T1_B25",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 25,
+  "title": "Phép chia hết, phép chia có dư",
+  "topic": "Phép chia và phần dư",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      72,
+      74
+    ],
+    "pdf_pages": [
+      73,
+      75
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết phép chia hết, phép chia có dư và giới hạn của số dư.",
+    "Tìm thương, số dư và vận dụng khi xếp nhóm hoặc cần chứa hết đồ vật."
+  ],
+  "knowledge": {
+    "introduction": "Chia đồ vật nguyên thành các nhóm bằng nhau, đôi khi vẫn còn một ít chưa đủ một nhóm. Phần ấy là số dư. Hỏi số nhóm đầy khác với hỏi số hộp cần để chứa hết.",
+    "rules": [
+      "Chia hết có số dư bằng 0. Chia có dư có số dư lớn hơn 0 và bé hơn số chia.",
+      "Số bị chia bằng số chia nhân thương rồi cộng số dư.",
+      "Nếu phần dư còn bằng hoặc lớn hơn số chia thì chưa chia xong.",
+      "Hỏi số hộp đầy: lấy thương. Hỏi số hộp tối thiểu chứa hết: nếu còn dư, phải thêm một hộp."
+    ],
+    "steps": [
+      "Xác định tổng đồ vật và số đồ vật trong một nhóm hoặc số người được chia.",
+      "Tìm tích của số chia gần tổng nhất nhưng không vượt tổng.",
+      "Lấy tổng trừ tích để tìm phần dư; kiểm tra phần dư bé hơn số chia.",
+      "Đọc lại câu hỏi: cần thương, số dư hay thêm một chỗ để chứa hết?"
+    ],
+    "common_errors": [
+      "Chấp nhận số dư lớn hơn số chia.",
+      "Nhầm số dư với thương.",
+      "Chỉ dùng số nhóm đầy khi đề hỏi chứa hết."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Có 22 huy hiệu, mỗi hộp 5 chiếc. Có mấy hộp đầy và còn mấy chiếc?",
+      "steps": [
+        "5 × 4 + 2 = 22.",
+        "Có 4 hộp đầy, dư 2 chiếc; 2 bé hơn 5."
+      ]
+    },
+    {
+      "question": "Cần ít nhất mấy hộp, mỗi hộp tối đa 5 chiếc, để chứa 22 huy hiệu?",
+      "steps": [
+        "4 hộp chứa 20 chiếc.",
+        "2 chiếc còn lại cần thêm một hộp. Cần 5 hộp."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B25_Q01",
+      "type": "mcq",
+      "question": "Phép chia có số dư bằng 0 gọi là phép chia gì?",
+      "options": [
+        "chia hết",
+        "chia có dư",
+        "phép cộng",
+        "phép nhân"
+      ],
+      "correct_answer": "chia hết",
+      "distractors": [
+        "chia có dư",
+        "phép cộng",
+        "phép nhân"
+      ],
+      "explanation": "Không còn phần dư nên gọi là chia hết.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q02",
+      "type": "fill",
+      "question": "Trong phép chia có dư, số dư phải thế nào so với số chia?",
+      "correct_answer": "bé hơn",
+      "distractors": [
+        "bằng",
+        "lớn hơn",
+        "gấp đôi"
+      ],
+      "explanation": "Nếu còn đủ một nhóm bằng số chia thì phải chia tiếp.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q03",
+      "type": "mcq",
+      "question": "Chia 14 cho 3 được thương 4. Số dư là bao nhiêu?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "3 × 4 + 2 = 14 nên dư 2.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q04",
+      "type": "fill",
+      "question": "Phép chia 21 cho 7 có số dư bằng bao nhiêu?",
+      "correct_answer": "0",
+      "distractors": [
+        "1",
+        "3",
+        "7"
+      ],
+      "explanation": "7 × 3 = 21 nên không còn dư.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q05",
+      "type": "mcq",
+      "question": "Trong kết quả thương 5 dư 1, số nào là thương?",
+      "options": [
+        "5",
+        "1",
+        "6",
+        "4"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "1",
+        "6",
+        "4"
+      ],
+      "explanation": "Thương đếm số nhóm đủ hoặc số đồ vật mỗi phần bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q06",
+      "type": "fill",
+      "question": "Khi chia cho 4, số dư lớn nhất có thể là mấy?",
+      "correct_answer": "3",
+      "distractors": [
+        "4",
+        "5",
+        "0"
+      ],
+      "explanation": "Số dư nhỏ hơn 4, nên lớn nhất là 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q07",
+      "type": "mcq",
+      "question": "Phép chia nào chia hết: 16 cho 3, 16 cho 4, 16 cho 5, 16 cho 6?",
+      "options": [
+        "16 cho 4",
+        "16 cho 3",
+        "16 cho 5",
+        "16 cho 6"
+      ],
+      "correct_answer": "16 cho 4",
+      "distractors": [
+        "16 cho 3",
+        "16 cho 5",
+        "16 cho 6"
+      ],
+      "explanation": "4 × 4 = 16 nên phép chia này không dư.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q08",
+      "type": "fill",
+      "question": "Chia 19 cho 6 được thương 3. Số dư là mấy?",
+      "correct_answer": "1",
+      "distractors": [
+        "2",
+        "3",
+        "6"
+      ],
+      "explanation": "6 × 3 + 1 = 19.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q09",
+      "type": "mcq",
+      "question": "Số dư 5 có thể xuất hiện khi chia cho số nào: 3, 4, 5 hay 6?",
+      "options": [
+        "6",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "4",
+        "5"
+      ],
+      "explanation": "Chỉ 6 lớn hơn số dư 5.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q10",
+      "type": "fill",
+      "question": "Trong 23 chia 5 được 4 dư 3, số bị chia là mấy?",
+      "correct_answer": "23",
+      "distractors": [
+        "5",
+        "4",
+        "3"
+      ],
+      "explanation": "Số bị chia là số ban đầu được đem chia.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q11",
+      "type": "mcq",
+      "question": "Bé viết 20 chia 6 được 2 dư 8. Cần tăng thương thêm mấy để chia đúng?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "correct_answer": "1",
+      "distractors": [
+        "2",
+        "3",
+        "6"
+      ],
+      "explanation": "Phần dư 8 còn chia được một nhóm 6. Thương đúng là 3, dư 2.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q12",
+      "type": "fill",
+      "question": "Muốn kiểm tra thương 4 dư 2 khi chia cho 7, cần tính biểu thức nào?",
+      "correct_answer": "7 × 4 + 2",
+      "distractors": [
+        "7 + 4 + 2",
+        "7 × 2 + 4",
+        "7 × 4 - 2"
+      ],
+      "explanation": "Nhân số chia với thương rồi cộng phần dư.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q13",
+      "type": "mcq",
+      "question": "Tại sao 26 chia 4 không thể dư 6? Chọn số giới hạn mà số dư phải bé hơn.",
+      "options": [
+        "4",
+        "6",
+        "26",
+        "2"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "6",
+        "26",
+        "2"
+      ],
+      "explanation": "Số dư phải bé hơn số chia 4.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q14",
+      "type": "fill",
+      "question": "Từ 5 × 6 + 4 = 34, khi chia 34 cho 5 có thương mấy?",
+      "correct_answer": "6",
+      "distractors": [
+        "4",
+        "5",
+        "7"
+      ],
+      "explanation": "Có 6 nhóm đủ 5, còn 4 nhỏ hơn 5.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q15",
+      "type": "mcq",
+      "question": "Cùng chia cho 3, số nào chia hết: 22, 24, 25, 26?",
+      "options": [
+        "24",
+        "22",
+        "25",
+        "26"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "22",
+        "25",
+        "26"
+      ],
+      "explanation": "3 × 8 = 24, các số còn lại có phần dư.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q16",
+      "type": "fill",
+      "question": "Một phép chia có thương 7, số chia 4, dư 2. Số bị chia là mấy?",
+      "correct_answer": "30",
+      "distractors": [
+        "28",
+        "26",
+        "32"
+      ],
+      "explanation": "4 × 7 + 2 = 30.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q17",
+      "type": "mcq",
+      "question": "Hai số 31 và 32 cùng chia cho 5. Số dư của 32 nhiều hơn số dư của 31 bao nhiêu?",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "0"
+      ],
+      "correct_answer": "1",
+      "distractors": [
+        "2",
+        "5",
+        "0"
+      ],
+      "explanation": "31 có dư 1, còn 32 có dư 2; chênh lệch 1.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q18",
+      "type": "fill",
+      "question": "Chia 29 cho 7: thương 4 dư 1. Thêm ít nhất mấy vào 29 để chia hết cho 7?",
+      "correct_answer": "6",
+      "distractors": [
+        "1",
+        "7",
+        "4"
+      ],
+      "explanation": "Một nhóm đủ 7, đã dư 1 nên cần thêm 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q19",
+      "type": "mcq",
+      "question": "Lấy bớt ít nhất mấy khỏi 38 để số còn lại chia hết cho 6?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "3"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "6",
+        "3"
+      ],
+      "explanation": "6 × 6 + 2 = 38, bớt 2 còn 36.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q20",
+      "type": "fill",
+      "question": "Chia cho 8 mà dư 7 thì phần dư còn thiếu mấy để đủ thêm một nhóm?",
+      "correct_answer": "1",
+      "distractors": [
+        "7",
+        "8",
+        "2"
+      ],
+      "explanation": "7 thêm 1 được 8.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q21",
+      "type": "mcq",
+      "question": "Có 25 hạt giống, mỗi túi 4 hạt. Đóng được mấy túi đầy?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "4"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "5",
+        "7",
+        "4"
+      ],
+      "explanation": "4 × 6 + 1 = 25 nên có 6 túi đầy.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q22",
+      "type": "fill",
+      "question": "Có 25 hạt giống đóng túi tối đa 4 hạt. Cần ít nhất mấy túi để chứa hết?",
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "8",
+        "5"
+      ],
+      "explanation": "6 túi đầy chứa 24 hạt, hạt còn lại cần túi thứ 7.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q23",
+      "type": "mcq",
+      "question": "Có 17 bạn, mỗi đội đúng 5 bạn. Sau khi lập nhiều đội nhất còn mấy bạn?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "1"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "3",
+        "5",
+        "1"
+      ],
+      "explanation": "5 × 3 + 2 = 17, còn 2 bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q24",
+      "type": "fill",
+      "question": "Có 32 nhãn chia đều cho 6 bạn, mỗi bạn nhận nhiều nhất mấy nhãn nguyên?",
+      "correct_answer": "5",
+      "distractors": [
+        "6",
+        "4",
+        "2"
+      ],
+      "explanation": "6 × 5 + 2 = 32 nên mỗi bạn nhận 5 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q25",
+      "type": "mcq",
+      "question": "Một dây dài 29 cm cắt các đoạn 6 cm. Sau khi cắt nhiều nhất còn mấy cm?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "1"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "6",
+        "1"
+      ],
+      "explanation": "6 × 4 + 5 = 29, còn 5 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q26",
+      "type": "fill",
+      "question": "Có 35 bánh, mỗi hộp đúng 8 bánh. Muốn hộp cuối cũng đầy cần thêm mấy bánh?",
+      "correct_answer": "5",
+      "distractors": [
+        "3",
+        "4",
+        "8"
+      ],
+      "explanation": "8 × 4 + 3 = 35; hộp cuối có 3, thiếu 5 bánh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q27",
+      "type": "mcq",
+      "question": "Có 27 bông cắm mỗi lọ 5 bông. Chỉ dùng các lọ đầy thì đã cắm mấy bông?",
+      "options": [
+        "25",
+        "27",
+        "20",
+        "22"
+      ],
+      "correct_answer": "25",
+      "distractors": [
+        "27",
+        "20",
+        "22"
+      ],
+      "explanation": "Có 5 lọ đầy, mỗi lọ 5 bông: 5 × 5 = 25.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q28",
+      "type": "fill",
+      "question": "Có 31 quả chia mỗi đĩa 7 quả, phần dư để riêng. Có mấy quả để riêng?",
+      "correct_answer": "3",
+      "distractors": [
+        "4",
+        "7",
+        "2"
+      ],
+      "explanation": "7 × 4 + 3 = 31.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q29",
+      "type": "mcq",
+      "question": "Nhóm có 22 bạn, mỗi bàn tối đa 4 bạn. Cần ít nhất mấy bàn?",
+      "options": [
+        "6",
+        "5",
+        "4",
+        "7"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "5",
+        "4",
+        "7"
+      ],
+      "explanation": "5 bàn đủ 20 bạn, thêm 1 bàn cho 2 bạn còn lại.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q30",
+      "type": "fill",
+      "question": "Mỗi vòng trò chơi tốn 6 thẻ. Có 40 thẻ thì chơi được nhiều nhất mấy vòng?",
+      "correct_answer": "6",
+      "distractors": [
+        "7",
+        "4",
+        "5"
+      ],
+      "explanation": "6 × 6 + 4 = 40, chỉ đủ 6 vòng trọn vẹn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q31",
+      "type": "mcq",
+      "question": "Có 34 quả chia cho 8 bạn, mỗi bạn 4 quả. Còn mấy quả?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "6",
+        "8"
+      ],
+      "explanation": "Đã chia 8 × 4 = 32 quả; còn 34 - 32 = 2.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q32",
+      "type": "fill",
+      "question": "Một số chia cho 3 được thương 8 dư 2. Số đó ít hơn 30 bao nhiêu?",
+      "correct_answer": "4",
+      "distractors": [
+        "2",
+        "6",
+        "8"
+      ],
+      "explanation": "3 × 8 + 2 = 26; 30 - 26 = 4.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q33",
+      "type": "mcq",
+      "question": "Có 37 viên chia đều vào 5 hộp, để dư ngoài. Thêm 3 viên nữa thì mỗi hộp có mấy viên nếu chia lại hết?",
+      "options": [
+        "8",
+        "7",
+        "6",
+        "9"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "7",
+        "6",
+        "9"
+      ],
+      "explanation": "37 + 3 = 40; 40 : 5 = 8.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q34",
+      "type": "fill",
+      "question": "Có 28 thẻ. Bớt 1 thẻ rồi chia nhóm 3 thẻ thì được mấy nhóm?",
+      "correct_answer": "9",
+      "distractors": [
+        "8",
+        "7",
+        "10"
+      ],
+      "explanation": "28 - 1 = 27; 27 : 3 = 9.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q35",
+      "type": "mcq",
+      "question": "Có 43 cây, mỗi hàng 6 cây. Hàng chưa đầy có mấy cây?",
+      "options": [
+        "1",
+        "6",
+        "7",
+        "5"
+      ],
+      "correct_answer": "1",
+      "distractors": [
+        "6",
+        "7",
+        "5"
+      ],
+      "explanation": "6 × 7 + 1 = 43 nên hàng cuối có 1 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q36",
+      "type": "fill",
+      "question": "Có 18 ô chứa, mỗi ô tối đa 4 viên. Cần dùng mấy ô để chứa 18 viên?",
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "6",
+        "3"
+      ],
+      "explanation": "4 ô chứa 16 viên, 2 viên còn lại dùng ô thứ 5.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q37",
+      "type": "mcq",
+      "question": "Có 39 vé phát đều cho 7 tổ, còn dư. Phát thêm 3 vé nữa cho mỗi tổ được không nếu chỉ dùng số dư? Trả lời có hoặc không.",
+      "options": [
+        "không",
+        "có",
+        "đủ đúng",
+        "dư 21"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "đủ đúng",
+        "dư 21"
+      ],
+      "explanation": "Mỗi tổ nhận 5 vé, dư 4 vé. Muốn thêm 3 vé cho 7 tổ cần 21 vé, vượt phần dư.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q38",
+      "type": "fill",
+      "question": "Số lớn nhất nhỏ hơn 30 chia cho 4 dư 3 là mấy?",
+      "correct_answer": "27",
+      "distractors": [
+        "29",
+        "28",
+        "23"
+      ],
+      "explanation": "4 × 6 + 3 = 27; số tiếp theo cùng số dư là 31 đã vượt 30.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q39",
+      "type": "mcq",
+      "question": "Có 24 thẻ chia 5 phần bằng nhau, còn dư. Bớt phần dư thì còn mấy thẻ?",
+      "options": [
+        "20",
+        "19",
+        "21",
+        "24"
+      ],
+      "correct_answer": "20",
+      "distractors": [
+        "19",
+        "21",
+        "24"
+      ],
+      "explanation": "5 × 4 + 4 = 24; bớt 4 còn 20.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B25_Q40",
+      "type": "fill",
+      "question": "Có 33 học sinh đi xe, mỗi xe chở tối đa 8 em. Xe cuối ít nhất chở mấy em nếu các xe trước đều đủ 8?",
+      "correct_answer": "1",
+      "distractors": [
+        "4",
+        "5",
+        "8"
+      ],
+      "explanation": "8 × 4 + 1 = 33; xe thứ 5 chở 1 em.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B25_GAME1",
+      "title": "Tìm nhóm đầy",
+      "mode": "treasure",
+      "objective": "Kiểm tra thương, số dư và cách xử lí phần còn lại.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án, đọc lời giải rồi sang câu tiếp theo.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B25_Q01",
+        "TOAN3_T1_B25_Q02",
+        "TOAN3_T1_B25_Q03",
+        "TOAN3_T1_B25_Q04",
+        "TOAN3_T1_B25_Q05",
+        "TOAN3_T1_B25_Q06",
+        "TOAN3_T1_B25_Q07",
+        "TOAN3_T1_B25_Q08",
+        "TOAN3_T1_B25_Q09",
+        "TOAN3_T1_B25_Q10",
+        "TOAN3_T1_B25_Q11",
+        "TOAN3_T1_B25_Q12",
+        "TOAN3_T1_B25_Q13",
+        "TOAN3_T1_B25_Q14",
+        "TOAN3_T1_B25_Q15",
+        "TOAN3_T1_B25_Q16",
+        "TOAN3_T1_B25_Q17",
+        "TOAN3_T1_B25_Q18",
+        "TOAN3_T1_B25_Q19",
+        "TOAN3_T1_B25_Q20",
+        "TOAN3_T1_B25_Q21",
+        "TOAN3_T1_B25_Q22",
+        "TOAN3_T1_B25_Q23",
+        "TOAN3_T1_B25_Q24",
+        "TOAN3_T1_B25_Q25",
+        "TOAN3_T1_B25_Q26",
+        "TOAN3_T1_B25_Q27",
+        "TOAN3_T1_B25_Q28",
+        "TOAN3_T1_B25_Q29",
+        "TOAN3_T1_B25_Q30",
+        "TOAN3_T1_B25_Q31",
+        "TOAN3_T1_B25_Q32",
+        "TOAN3_T1_B25_Q33",
+        "TOAN3_T1_B25_Q34",
+        "TOAN3_T1_B25_Q35",
+        "TOAN3_T1_B25_Q36",
+        "TOAN3_T1_B25_Q37",
+        "TOAN3_T1_B25_Q38",
+        "TOAN3_T1_B25_Q39",
+        "TOAN3_T1_B25_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

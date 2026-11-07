@@ -1,3 +1,13 @@
+## Batch 7 — Toán 25–28, 07/11/2026
+
+- Nguồn đã đọc trực quan: PDF Toán tập 1 sẵn trong môi trường, trang PDF 73–83 / trang in 72–82. Chưa xác minh hash với bản PDF trong repo.
+- 4 JSON và 4 Markdown riêng; 160 câu và phương án nhiễu biên soạn riêng; 4 trò chơi theo bài. Các câu mới đủ dữ kiện chữ, không phụ thuộc hình ngầm, không cần hình hình học. Không sao chép hệ thống bài tập SGK.
+- Rà soát số dư bé hơn số chia, phép kiểm tra bằng nhân cộng phần dư; phân biệt số nhóm đầy với số chỗ chứa hết; hạ chục dư; lượng còn lại với lượng đem dùng; trung gian với đáp số cuối.
+- Kiểm tra toàn bộ 28 bài/1120 câu: JSON, ID, trùng câu trong bài, lựa chọn, đáp án, lời giải, Markdown, hình cũ, game và trạng thái đạt. Tính lại 1017 đẳng thức số. test_batch7.py kiểm tra 22 đáp án trọng yếu và hai cặp tình huống số dư/giảm số lần.
+- DOM toàn bộ đạt: 10 câu 3/3/4, thay bộ, chấm điểm, 4 chế độ chơi, hồi quy hình/bảng/vẽ, lưu/nạp wl3 và fallback file lỗi. npm ci thành công.
+- Chưa có Chromium: chưa kiểm thử bố cục, cảm ứng, âm thanh bằng trình duyệt thật. AI kiểm tra không thay giáo viên thẩm định.
+- Tổng 28/168 có học liệu riêng; 1120 câu, 28 trò chơi; giáo viên duyệt 4, chờ duyệt 24; còn 140 mục nháp. Tiếp Toán 29–32.
+
 # Rà soát học liệu — 07/11/2026
 
 ## Bằng chứng và phạm vi
