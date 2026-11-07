@@ -73,3 +73,13 @@
 - Giáo viên chỉ xác nhận Batch 1; không mở rộng xác nhận đó cho các batch khác. Hiện 4 bài đã thẩm định, 12 bài chờ thẩm định, 152 mục bản nháp.
 - Đã thiết lập tác vụ tiếp tục tự động theo thứ tự Toán, Tiếng Việt, Tiếng Anh; mỗi lượt phải đọc checkpoint và xác minh commit thực tế, không giả báo hoàn thành.
 - Giữ giới hạn: kiểm thử DOM không xác nhận thao tác cảm ứng, bố cục toàn trang, giọng đọc và tải tệp sao lưu/khôi phục bằng trình duyệt thật.
+
+## Cập nhật Batch 5 — 07/11/2026
+
+- Đã đọc toàn bộ trang in 52–62; xác định OCR lệch ranh giới Bài 18/19: Bài 18 kết thúc ở 55, Bài 19 bắt đầu ở 56. Sửa danh mục CHUONG_TRINH_LOP_3_FULL.json và dẫn trang; không sửa số lượng danh mục.
+- Toán 17–20 có 160 câu mới (10/10/20 mỗi bài), 4 trò chơi, kiến thức, ví dụ, lỗi thường gặp và lời giải. Bài 20 có ba hoạt động thực hành bằng dụng cụ, tiêu chí tự kiểm tra và lưới vẽ tương tác.
+- Sáu SVG mới được dựng bằng tọa độ, render và xem trực quan: hình tròn với đường kính/bán kính/đoạn không qua tâm; ba góc; góc vuông xoay nghiêng; tam giác/chữ nhật/vuông; tứ giác cạnh bằng nhưng không vuông; lưới hình chữ nhật/vuông. Đã chỉnh nhãn nhóm góc để không lẫn với tên điểm.
+- Kiểm tra toàn bộ 800 câu, ID, lựa chọn, lời giải, Markdown, hình và trạng thái duyệt: đạt. Tính lại 671 đẳng thức số trong lời giải: đạt.
+- DOM hồi quy 20 bài và bốn loại game: đạt. Kiểm tra lưới vẽ có tám trường hợp đúng/sai cho bốn kiểu hình, góc vuông xoay nghiêng, đường tròn vượt lưới, chọn trùng điểm, xóa nét và chọn bằng phím/chuột: đạt. Vùng chọn chấm được mở rộng để dễ thao tác.
+- Sửa thiếu dữ kiện ở trò ghép đôi: câu cần hình/bảng có phần tham chiếu chung hiển thị ngay trên màn chơi; đã kiểm thử với Bài 19 và bảng của Bài 12.
+- Giới hạn: DOM và render SVG không thay thế kiểm thử bố cục toàn website, thao tác cảm ứng hay âm thanh bằng trình duyệt thật. Chỉ Bài 1–4 đã được giáo viên xác nhận.

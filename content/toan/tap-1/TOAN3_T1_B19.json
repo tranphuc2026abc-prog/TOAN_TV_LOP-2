@@ -1,0 +1,822 @@
+{
+  "id": "TOAN3_T1_B19",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 19,
+  "title": "Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông",
+  "topic": "Làm quen với hình phẳng, hình khối",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      56,
+      60
+    ],
+    "pdf_pages": [
+      57,
+      61
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết đỉnh, cạnh, góc của tam giác và tứ giác.",
+    "Nêu đặc điểm hình chữ nhật và hình vuông; dùng đặc điểm để tìm cạnh bằng nhau và phân loại hình."
+  ],
+  "knowledge": {
+    "introduction": "Quan sát hình khép kín, hãy đếm số đỉnh và số cạnh trước. Muốn phân biệt hình chữ nhật, hình vuông với những tứ giác khác, còn phải kiểm tra các góc và độ dài cạnh.",
+    "rules": [
+      "Tam giác có 3 đỉnh, 3 cạnh và 3 góc. Tứ giác có 4 đỉnh, 4 cạnh và 4 góc.",
+      "Hình chữ nhật có 4 góc vuông, 2 cạnh dài bằng nhau và 2 cạnh ngắn bằng nhau. Độ dài cạnh dài gọi là chiều dài; cạnh ngắn gọi là chiều rộng.",
+      "Hình vuông có 4 góc vuông và 4 cạnh bằng nhau.",
+      "Tứ giác có bốn cạnh bằng nhau nhưng góc không vuông chưa phải hình vuông. Xoay một hình không làm đổi đặc điểm của hình đó."
+    ],
+    "steps": [
+      "Đếm và gọi tên các đỉnh theo thứ tự quanh hình.",
+      "Gọi tên các cạnh bằng hai đầu mút, không nhầm đoạn nối hai đỉnh đối diện là cạnh.",
+      "Dùng ê ke kiểm tra góc, dùng thước đo hoặc đọc số đo cho sẵn để so cạnh.",
+      "Kết luận dựa trên đầy đủ đặc điểm; với hình chữ nhật, tìm các cặp cạnh đối diện bằng nhau."
+    ],
+    "common_errors": [
+      "Gọi đoạn nối hai đỉnh đối diện là một cạnh của tứ giác.",
+      "Thấy bốn cạnh bằng nhau là kết luận hình vuông mà chưa xét góc.",
+      "Nhầm chiều dài với chiều rộng.",
+      "Cho rằng xoay nghiêng hình vuông làm hình mất các góc vuông."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Hình chữ nhật ABCD có AB = 8 cm, BC = 3 cm. Tìm CD và AD.",
+      "steps": [
+        "AB và CD là hai cạnh dài đối diện nên CD = 8 cm.",
+        "BC và AD là hai cạnh ngắn đối diện nên AD = 3 cm."
+      ]
+    },
+    {
+      "question": "Một tứ giác có bốn cạnh bằng nhau, một góc không vuông. Có là hình vuông không?",
+      "steps": [
+        "Hình vuông cần đủ bốn cạnh bằng nhau và bốn góc vuông.",
+        "Có góc không vuông nên tứ giác này không phải hình vuông."
+      ]
+    },
+    {
+      "question": "Tam giác MNP có những cạnh nào?",
+      "steps": [
+        "Đi quanh hình từ M qua N, P rồi về M.",
+        "Ba cạnh là MN, NP và PM."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B19_Q01",
+      "type": "mcq",
+      "question": "Hình tam giác có mấy cạnh?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "4",
+        "5"
+      ],
+      "explanation": "Hình tam giác có 3 cạnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q02",
+      "type": "fill",
+      "question": "Hình tam giác có mấy đỉnh?",
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "4",
+        "6"
+      ],
+      "explanation": "Ba cạnh khép kín của tam giác gặp nhau tại 3 đỉnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q03",
+      "type": "mcq",
+      "question": "Hình tứ giác có mấy cạnh?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "5",
+        "6"
+      ],
+      "explanation": "Hình tứ giác có 4 cạnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q04",
+      "type": "fill",
+      "question": "Hình tứ giác có mấy góc?",
+      "correct_answer": "4",
+      "distractors": [
+        "2",
+        "3",
+        "5"
+      ],
+      "explanation": "Hình tứ giác có 4 đỉnh, mỗi đỉnh tạo một góc.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q05",
+      "type": "mcq",
+      "question": "Hình chữ nhật có mấy góc vuông?",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "1",
+        "2",
+        "3"
+      ],
+      "explanation": "Cả bốn góc của hình chữ nhật là góc vuông.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q06",
+      "type": "fill",
+      "question": "Hình vuông có mấy cạnh bằng nhau?",
+      "correct_answer": "4",
+      "distractors": [
+        "1",
+        "2",
+        "3"
+      ],
+      "explanation": "Bốn cạnh hình vuông có độ dài bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q07",
+      "type": "mcq",
+      "question": "Hai cạnh dài của cùng hình chữ nhật có bằng nhau không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ khi màu giống nhau",
+        "chỉ khi đặt ngang"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi màu giống nhau",
+        "chỉ khi đặt ngang"
+      ],
+      "explanation": "Hai cạnh dài đối diện bằng nhau; hai cạnh ngắn đối diện cũng bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q08",
+      "type": "fill",
+      "question": "Độ dài cạnh dài của hình chữ nhật thường gọi là gì?",
+      "correct_answer": "chiều dài",
+      "distractors": [
+        "bán kính",
+        "đường kính",
+        "chiều cao tam giác"
+      ],
+      "explanation": "Cạnh dài cho biết chiều dài của hình chữ nhật.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q09",
+      "type": "mcq",
+      "question": "Độ dài cạnh ngắn của hình chữ nhật thường gọi là gì?",
+      "options": [
+        "chiều rộng",
+        "đường kính",
+        "bán kính",
+        "đỉnh"
+      ],
+      "correct_answer": "chiều rộng",
+      "distractors": [
+        "đường kính",
+        "bán kính",
+        "đỉnh"
+      ],
+      "explanation": "Cạnh ngắn cho biết chiều rộng của hình chữ nhật.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q10",
+      "type": "fill",
+      "question": "Một tứ giác có bốn cạnh bằng nhau và bốn góc vuông là hình gì?",
+      "correct_answer": "hình vuông",
+      "distractors": [
+        "hình tam giác",
+        "hình tròn",
+        "góc không vuông"
+      ],
+      "explanation": "Hai điều kiện này xác định hình vuông.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q11",
+      "type": "mcq",
+      "question": "Hình A: tam giác ABC có cạnh nối A với C tên là gì?",
+      "options": [
+        "AC",
+        "AB",
+        "BC",
+        "DE"
+      ],
+      "correct_answer": "AC",
+      "distractors": [
+        "AB",
+        "BC",
+        "DE"
+      ],
+      "explanation": "Đoạn nối hai đỉnh A và C được gọi là cạnh AC.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B19_A.svg",
+        "caption": "Hình A: Tam giác ABC, hình chữ nhật DEFG, hình vuông MNPQ."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q12",
+      "type": "fill",
+      "question": "Hình A: hình chữ nhật DEFG có cạnh DE dài 7 cm. Cạnh FG dài mấy xăng-ti-mét?",
+      "correct_answer": "7",
+      "distractors": [
+        "14",
+        "4",
+        "5"
+      ],
+      "explanation": "DE và FG là hai cạnh dài đối diện nên bằng nhau.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B19_A.svg",
+        "caption": "Hình A: Tam giác ABC, hình chữ nhật DEFG, hình vuông MNPQ."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q13",
+      "type": "mcq",
+      "question": "Hình A: hình chữ nhật DEFG có EF = 4 cm. DG dài mấy xăng-ti-mét?",
+      "options": [
+        "4",
+        "8",
+        "7",
+        "3"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "7",
+        "3"
+      ],
+      "explanation": "EF và DG là hai cạnh ngắn đối diện nên bằng nhau.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B19_A.svg",
+        "caption": "Hình A: Tam giác ABC, hình chữ nhật DEFG, hình vuông MNPQ."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q14",
+      "type": "fill",
+      "question": "Hình A: hình vuông MNPQ có cạnh MN dài 3 cm. PQ dài mấy xăng-ti-mét?",
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "9",
+        "4"
+      ],
+      "explanation": "Các cạnh cùng hình vuông bằng nhau.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B19_A.svg",
+        "caption": "Hình A: Tam giác ABC, hình chữ nhật DEFG, hình vuông MNPQ."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q15",
+      "type": "mcq",
+      "question": "Hình B có bốn cạnh bằng nhau nhưng không có góc vuông. Có là hình vuông không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ cần bốn cạnh bằng nhau",
+        "chỉ cần đặt thẳng"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần bốn cạnh bằng nhau",
+        "chỉ cần đặt thẳng"
+      ],
+      "explanation": "Hình vuông còn cần cả bốn góc vuông.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B19_B.svg",
+        "caption": "Hình B: Tứ giác RSTU có các cạnh bằng nhau; cần kiểm tra thêm góc."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q16",
+      "type": "fill",
+      "question": "Tam giác có ba cạnh khác nhau về độ dài vẫn là tam giác không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi có góc vuông",
+        "chỉ khi ba cạnh bằng nhau"
+      ],
+      "explanation": "Tên tam giác dựa vào 3 cạnh, 3 đỉnh và 3 góc, không bắt buộc ba cạnh bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q17",
+      "type": "mcq",
+      "question": "Xoay nghiêng một hình vuông, hình đó có còn là hình vuông không?",
+      "options": [
+        "có",
+        "không",
+        "luôn thành tam giác",
+        "chỉ khi đặt ngang"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "luôn thành tam giác",
+        "chỉ khi đặt ngang"
+      ],
+      "explanation": "Xoay hình không làm đổi độ dài cạnh hay loại góc.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q18",
+      "type": "fill",
+      "question": "Một hình có 4 cạnh, hai cạnh dài bằng nhau, hai cạnh ngắn bằng nhau nhưng chưa kiểm tra góc. Đã chắc là hình chữ nhật chưa?",
+      "correct_answer": "chưa",
+      "distractors": [
+        "rồi",
+        "chỉ cần cạnh đối bằng nhau",
+        "không cần xét góc"
+      ],
+      "explanation": "Còn cần kiểm tra bốn góc có là góc vuông không.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q19",
+      "type": "mcq",
+      "question": "Tam giác ABC có ba góc ở các đỉnh nào?",
+      "options": [
+        "A, B, C",
+        "A, B, D",
+        "A, C, E",
+        "D, E, F"
+      ],
+      "correct_answer": "A, B, C",
+      "distractors": [
+        "A, B, D",
+        "A, C, E",
+        "D, E, F"
+      ],
+      "explanation": "Mỗi đỉnh của tam giác là đỉnh của một góc.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q20",
+      "type": "fill",
+      "question": "Hình tứ giác MNPQ có cạnh nối Q với M tên là gì?",
+      "correct_answer": "QM",
+      "distractors": [
+        "MP",
+        "NQ",
+        "MN"
+      ],
+      "explanation": "Các cạnh theo thứ tự M-N-P-Q gồm MN, NP, PQ, QM.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q21",
+      "type": "mcq",
+      "question": "Khung ảnh hình chữ nhật có cạnh trên 9 cm. Cạnh dưới dài mấy xăng-ti-mét?",
+      "options": [
+        "9",
+        "18",
+        "8",
+        "7"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "18",
+        "8",
+        "7"
+      ],
+      "explanation": "Hai cạnh dài đối diện của hình chữ nhật bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q22",
+      "type": "fill",
+      "question": "Tấm bìa hình vuông có cạnh trái 6 cm. Cạnh phải dài mấy xăng-ti-mét?",
+      "correct_answer": "6",
+      "distractors": [
+        "12",
+        "3",
+        "8"
+      ],
+      "explanation": "Bốn cạnh của hình vuông bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q23",
+      "type": "mcq",
+      "question": "Mảnh giấy hình chữ nhật có cạnh bên phải 5 cm. Cạnh bên trái dài mấy xăng-ti-mét?",
+      "options": [
+        "5",
+        "10",
+        "4",
+        "6"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "10",
+        "4",
+        "6"
+      ],
+      "explanation": "Hai cạnh ngắn đối diện bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q24",
+      "type": "fill",
+      "question": "Một biển tam giác cần đặt dấu ở mọi đỉnh. Cần mấy dấu?",
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "4",
+        "6"
+      ],
+      "explanation": "Tam giác có 3 đỉnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q25",
+      "type": "mcq",
+      "question": "Một khung tứ giác gắn một nút ở mỗi góc. Cần mấy nút?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "8"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "3",
+        "5",
+        "8"
+      ],
+      "explanation": "Tứ giác có 4 góc, nên cần 4 nút.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q26",
+      "type": "fill",
+      "question": "Hai thẻ tam giác rời nhau, mỗi thẻ có ba đỉnh. Tổng số đỉnh là mấy?",
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "5",
+        "8"
+      ],
+      "explanation": "3 × 2 = 6 đỉnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q27",
+      "type": "mcq",
+      "question": "Ba tấm bìa hình vuông rời nhau có tổng cộng mấy góc vuông?",
+      "options": [
+        "12",
+        "3",
+        "4",
+        "7"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "3",
+        "4",
+        "7"
+      ],
+      "explanation": "Mỗi tấm có 4 góc vuông; 4 × 3 = 12 góc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q28",
+      "type": "fill",
+      "question": "An làm hai cạnh dài của khung chữ nhật bằng 8 cm và 7 cm. Khung có đúng theo đặc điểm hình chữ nhật chưa?",
+      "correct_answer": "chưa",
+      "distractors": [
+        "rồi",
+        "chỉ cần tổng bằng 15",
+        "không cần so cạnh"
+      ],
+      "explanation": "Hai cạnh dài đối diện phải bằng nhau; 8 cm khác 7 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q29",
+      "type": "mcq",
+      "question": "Mai làm một hình có bốn cạnh 4 cm nhưng một góc không vuông. Có phải hình vuông không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ cần cạnh bằng nhau",
+        "chỉ cần có bốn đỉnh"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần cạnh bằng nhau",
+        "chỉ cần có bốn đỉnh"
+      ],
+      "explanation": "Hình vuông cần bốn cạnh bằng nhau và bốn góc vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q30",
+      "type": "fill",
+      "question": "Một ô cửa hình chữ nhật có chiều dài 12 dm, chiều rộng 8 dm. Hai cạnh ngắn mỗi cạnh dài mấy đề-xi-mét?",
+      "correct_answer": "8",
+      "distractors": [
+        "12",
+        "20",
+        "4"
+      ],
+      "explanation": "Cạnh ngắn cho biết chiều rộng, nên mỗi cạnh ngắn dài 8 dm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q31",
+      "type": "mcq",
+      "question": "Một sân hình chữ nhật ABCD có AB = 9 m, BC = 5 m. CD dài mấy mét?",
+      "options": [
+        "9",
+        "5",
+        "14",
+        "4"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "5",
+        "14",
+        "4"
+      ],
+      "explanation": "AB và CD là hai cạnh đối diện bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q32",
+      "type": "fill",
+      "question": "Sân hình chữ nhật ABCD có AB = 9 m, BC = 5 m. AD dài mấy mét?",
+      "correct_answer": "5",
+      "distractors": [
+        "9",
+        "14",
+        "4"
+      ],
+      "explanation": "AD và BC là hai cạnh đối diện bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q33",
+      "type": "mcq",
+      "question": "Trên hình chữ nhật ABCD, kẻ đoạn AC nối hai đỉnh đối diện. Chia hình thành mấy tam giác?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "Đoạn AC chia hình thành tam giác ABC và tam giác ACD.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q34",
+      "type": "fill",
+      "question": "Một tờ giấy hình vuông có bốn góc. Cắt theo đường nối hai đỉnh đối diện được mấy mảnh tam giác?",
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "Một đường nối hai đỉnh đối diện chia hình vuông thành 2 tam giác.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q35",
+      "type": "mcq",
+      "question": "Có 4 thẻ tam giác rời nhau. Mỗi thẻ có 3 cạnh. Tổng số cạnh của các thẻ là mấy?",
+      "options": [
+        "12",
+        "7",
+        "4",
+        "16"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "7",
+        "4",
+        "16"
+      ],
+      "explanation": "3 × 4 = 12 cạnh; các thẻ rời nhau nên không có cạnh dùng chung.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q36",
+      "type": "fill",
+      "question": "Có 5 khung tứ giác rời nhau, mỗi khung có 4 đỉnh. Tổng cộng mấy đỉnh?",
+      "correct_answer": "20",
+      "distractors": [
+        "9",
+        "16",
+        "25"
+      ],
+      "explanation": "4 × 5 = 20 đỉnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q37",
+      "type": "mcq",
+      "question": "Một khung vuông có một cạnh 7 cm. Muốn thay một cạnh khác đúng kích thước, thanh mới dài mấy xăng-ti-mét?",
+      "options": [
+        "7",
+        "14",
+        "4",
+        "8"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "14",
+        "4",
+        "8"
+      ],
+      "explanation": "Các cạnh cùng hình vuông bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q38",
+      "type": "fill",
+      "question": "Một bạn chỉ nhìn cạnh của hình và chưa kiểm tra góc. Để biết có phải hình vuông, cần kiểm tra thêm điều gì?",
+      "correct_answer": "bốn góc vuông",
+      "distractors": [
+        "chỉ màu sắc",
+        "chỉ số chấm trang trí",
+        "chỉ hướng đặt hình"
+      ],
+      "explanation": "Ngoài bốn cạnh bằng nhau, hình vuông cần bốn góc vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q39",
+      "type": "mcq",
+      "question": "Một tam giác và một tứ giác rời nhau có tổng cộng mấy đỉnh?",
+      "options": [
+        "7",
+        "3",
+        "4",
+        "12"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "3",
+        "4",
+        "12"
+      ],
+      "explanation": "Tam giác có 3, tứ giác có 4; 3 + 4 = 7 đỉnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B19_Q40",
+      "type": "fill",
+      "question": "Tấm biển hình chữ nhật dài 8 dm, rộng 3 dm. Đi từ góc A đến góc đối diện C theo hai cạnh AB rồi BC dài mấy đề-xi-mét?",
+      "correct_answer": "11",
+      "distractors": [
+        "5",
+        "24",
+        "8"
+      ],
+      "explanation": "Đi hai cạnh liên tiếp: 8 + 3 = 11 dm.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B19_GAME1",
+      "title": "Ghép thẻ hình học",
+      "mode": "match",
+      "objective": "Ghép đặc điểm và tình huống về cạnh, đỉnh, góc với kết quả phù hợp.",
+      "rules": [
+        "Mỗi lượt chọn 5 câu có 5 đáp án khác nhau.",
+        "Chọn câu hỏi bên trái rồi đáp án bên phải. Sai thì thử lại.",
+        "Mỗi cặp đúng 10 điểm; tối đa 50 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B19_Q01",
+        "TOAN3_T1_B19_Q02",
+        "TOAN3_T1_B19_Q03",
+        "TOAN3_T1_B19_Q04",
+        "TOAN3_T1_B19_Q05",
+        "TOAN3_T1_B19_Q06",
+        "TOAN3_T1_B19_Q07",
+        "TOAN3_T1_B19_Q08",
+        "TOAN3_T1_B19_Q09",
+        "TOAN3_T1_B19_Q10",
+        "TOAN3_T1_B19_Q11",
+        "TOAN3_T1_B19_Q12",
+        "TOAN3_T1_B19_Q13",
+        "TOAN3_T1_B19_Q14",
+        "TOAN3_T1_B19_Q15",
+        "TOAN3_T1_B19_Q16",
+        "TOAN3_T1_B19_Q17",
+        "TOAN3_T1_B19_Q18",
+        "TOAN3_T1_B19_Q19",
+        "TOAN3_T1_B19_Q20",
+        "TOAN3_T1_B19_Q21",
+        "TOAN3_T1_B19_Q22",
+        "TOAN3_T1_B19_Q23",
+        "TOAN3_T1_B19_Q24",
+        "TOAN3_T1_B19_Q25",
+        "TOAN3_T1_B19_Q26",
+        "TOAN3_T1_B19_Q27",
+        "TOAN3_T1_B19_Q28",
+        "TOAN3_T1_B19_Q29",
+        "TOAN3_T1_B19_Q30",
+        "TOAN3_T1_B19_Q31",
+        "TOAN3_T1_B19_Q32",
+        "TOAN3_T1_B19_Q33",
+        "TOAN3_T1_B19_Q34",
+        "TOAN3_T1_B19_Q35",
+        "TOAN3_T1_B19_Q36",
+        "TOAN3_T1_B19_Q37",
+        "TOAN3_T1_B19_Q38",
+        "TOAN3_T1_B19_Q39",
+        "TOAN3_T1_B19_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 50
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B19_A.svg",
+      "caption": "Hình A: Tam giác ABC, hình chữ nhật DEFG, hình vuông MNPQ."
+    },
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B19_B.svg",
+      "caption": "Hình B: Tứ giác RSTU có các cạnh bằng nhau; cần kiểm tra thêm góc."
+    }
+  ]
+}

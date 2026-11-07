@@ -1,0 +1,850 @@
+{
+  "id": "TOAN3_T1_B18",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 18,
+  "title": "Góc, góc vuông, góc không vuông",
+  "topic": "Làm quen với hình phẳng, hình khối",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      54,
+      55
+    ],
+    "pdf_pages": [
+      55,
+      56
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết đỉnh và hai cạnh của góc.",
+    "Dùng ê ke để kiểm tra góc vuông, phân biệt góc vuông với góc không vuông ở nhiều hướng."
+  ],
+  "knowledge": {
+    "introduction": "Hai cạnh cùng xuất phát từ một điểm tạo nên một góc. Điểm chung đó là đỉnh. Không phải chỉ góc có một cạnh ngang, một cạnh đứng mới vuông: góc vuông còn có thể được xoay nghiêng.",
+    "rules": [
+      "Mỗi góc có một đỉnh và hai cạnh cùng xuất phát từ đỉnh.",
+      "Dùng góc vuông của ê ke để kiểm tra: đỉnh trùng đỉnh, một cạnh trùng một cạnh rồi xét cạnh còn lại.",
+      "Nếu cả hai cạnh khớp với hai cạnh góc vuông của ê ke, đó là góc vuông; nếu không, đó là góc không vuông.",
+      "Xoay góc hoặc kéo dài các cạnh theo đúng hướng không làm đổi loại góc. Độ dài hai cạnh vẽ bằng nhau chưa đủ để gọi là góc vuông."
+    ],
+    "steps": [
+      "Xác định điểm chung của hai cạnh để tìm đỉnh.",
+      "Chọn đúng góc vuông của ê ke.",
+      "Đặt đỉnh ê ke trùng đỉnh góc, một cạnh khớp một cạnh góc.",
+      "Quan sát cạnh còn lại có khớp không rồi kết luận, kể cả với góc xoay nghiêng."
+    ],
+    "common_errors": [
+      "Đặt đỉnh ê ke vào giữa cạnh thay vì đỉnh góc.",
+      "Chỉ kiểm tra một cạnh đã kết luận góc vuông.",
+      "Dựa vào cạnh dài hay ngắn để gọi góc vuông.",
+      "Cho rằng góc vuông xoay nghiêng sẽ thành góc không vuông."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Góc có hai cạnh OA và OB. Tìm đỉnh.",
+      "steps": [
+        "Hai cạnh đều bắt đầu tại O.",
+        "O là đỉnh, OA và OB là hai cạnh."
+      ]
+    },
+    {
+      "question": "Đỉnh ê ke trùng đỉnh góc, một cạnh khớp nhưng cạnh kia không khớp. Kết luận.",
+      "steps": [
+        "Một cạnh khớp chưa đủ.",
+        "Vì cạnh còn lại không khớp nên góc đang xét không vuông."
+      ]
+    },
+    {
+      "question": "Một góc vuông được xoay nghiêng. Kiểm tra thế nào?",
+      "steps": [
+        "Xoay ê ke theo hình, giữ đỉnh trùng đỉnh.",
+        "Kiểm tra cả hai cạnh. Góc vẫn vuông nếu hai cạnh khớp."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B18_Q01",
+      "type": "mcq",
+      "question": "Một góc có mấy cạnh chung một đỉnh?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "Hai cạnh của góc cùng bắt đầu tại đỉnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q02",
+      "type": "fill",
+      "question": "Điểm chung của hai cạnh góc gọi là gì?",
+      "correct_answer": "đỉnh",
+      "distractors": [
+        "bán kính",
+        "đường kính",
+        "trung điểm"
+      ],
+      "explanation": "Hai cạnh gặp nhau tại đỉnh của góc.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q03",
+      "type": "mcq",
+      "question": "Dụng cụ dùng kiểm tra góc vuông là gì?",
+      "options": [
+        "ê ke",
+        "com pa",
+        "tẩy",
+        "bút màu"
+      ],
+      "correct_answer": "ê ke",
+      "distractors": [
+        "com pa",
+        "tẩy",
+        "bút màu"
+      ],
+      "explanation": "Đặt góc vuông của ê ke khớp với góc cần kiểm tra.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q04",
+      "type": "fill",
+      "question": "Hình A, góc I có hai cạnh OA và OB. Đỉnh là điểm nào?",
+      "correct_answer": "O",
+      "distractors": [
+        "A",
+        "B",
+        "P"
+      ],
+      "explanation": "Hai cạnh OA và OB có điểm chung O.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+        "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q05",
+      "type": "mcq",
+      "question": "Hình A, góc II có hai cạnh PM và PN. Đỉnh là điểm nào?",
+      "options": [
+        "P",
+        "M",
+        "N",
+        "O"
+      ],
+      "correct_answer": "P",
+      "distractors": [
+        "M",
+        "N",
+        "O"
+      ],
+      "explanation": "Hai cạnh PM và PN cùng có đầu P.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+        "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q06",
+      "type": "fill",
+      "question": "Hình A, góc III có hai cạnh EC và ED. Đỉnh là điểm nào?",
+      "correct_answer": "E",
+      "distractors": [
+        "C",
+        "D",
+        "P"
+      ],
+      "explanation": "EC và ED gặp nhau ở E.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+        "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q07",
+      "type": "mcq",
+      "question": "Góc ở góc một tờ giấy hình chữ nhật là góc gì?",
+      "options": [
+        "góc vuông",
+        "góc không vuông",
+        "đường tròn",
+        "bán kính"
+      ],
+      "correct_answer": "góc vuông",
+      "distractors": [
+        "góc không vuông",
+        "đường tròn",
+        "bán kính"
+      ],
+      "explanation": "Các góc của tờ giấy hình chữ nhật đều là góc vuông.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q08",
+      "type": "fill",
+      "question": "Hình A, góc I khớp góc vuông của ê ke. Đây là góc gì?",
+      "correct_answer": "góc vuông",
+      "distractors": [
+        "góc không vuông",
+        "đoạn thẳng",
+        "hình tròn"
+      ],
+      "explanation": "Đỉnh và hai cạnh khớp góc vuông của ê ke nên đó là góc vuông.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+        "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q09",
+      "type": "mcq",
+      "question": "Muốn kiểm tra, đỉnh góc vuông của ê ke cần đặt vào đâu?",
+      "options": [
+        "đỉnh góc cần kiểm tra",
+        "giữa một cạnh",
+        "bất kì trên giấy",
+        "ngoài góc"
+      ],
+      "correct_answer": "đỉnh góc cần kiểm tra",
+      "distractors": [
+        "giữa một cạnh",
+        "bất kì trên giấy",
+        "ngoài góc"
+      ],
+      "explanation": "Hai đỉnh phải trùng nhau trước khi so các cạnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q10",
+      "type": "fill",
+      "question": "Hình B có hai cạnh KL và KM. K là gì của góc?",
+      "correct_answer": "đỉnh",
+      "distractors": [
+        "bán kính",
+        "đường kính",
+        "cạnh"
+      ],
+      "explanation": "K là điểm chung của hai cạnh KL và KM.",
+      "difficulty": "nhan_biet",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_B.svg",
+        "caption": "Hình B: Hai cạnh KL, KM có chung đỉnh K, hình được xoay nghiêng."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q11",
+      "type": "mcq",
+      "question": "Hình A có ba góc I, II, III. Góc nào là góc vuông?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "cả ba"
+      ],
+      "correct_answer": "I",
+      "distractors": [
+        "II",
+        "III",
+        "cả ba"
+      ],
+      "explanation": "Chỉ góc I khớp góc vuông của ê ke; hai góc còn lại không khớp.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+        "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q12",
+      "type": "fill",
+      "question": "Hình A, góc II có phải góc vuông không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ khi kéo dài cạnh",
+        "chỉ khi tô màu"
+      ],
+      "explanation": "Hai cạnh của góc II không khớp đồng thời hai cạnh góc vuông của ê ke.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+        "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q13",
+      "type": "mcq",
+      "question": "Hình A, góc III có phải góc vuông không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ cần một cạnh nằm ngang",
+        "chỉ cần có đỉnh"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần một cạnh nằm ngang",
+        "chỉ cần có đỉnh"
+      ],
+      "explanation": "Góc III không khớp góc vuông của ê ke.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+        "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q14",
+      "type": "fill",
+      "question": "Hình B là một góc vuông được xoay nghiêng. Góc đó còn vuông không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi một cạnh thẳng đứng",
+        "chỉ khi có dấu màu"
+      ],
+      "explanation": "Xoay hình không làm thay đổi góc giữa hai cạnh.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_B.svg",
+        "caption": "Hình B: Hai cạnh KL, KM có chung đỉnh K, hình được xoay nghiêng."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q15",
+      "type": "mcq",
+      "question": "Chỉ đặt một cạnh ê ke khớp một cạnh góc, chưa kiểm tra cạnh kia. Đã kết luận được góc vuông chưa?",
+      "options": [
+        "chưa",
+        "rồi",
+        "luôn vuông",
+        "luôn không vuông"
+      ],
+      "correct_answer": "chưa",
+      "distractors": [
+        "rồi",
+        "luôn vuông",
+        "luôn không vuông"
+      ],
+      "explanation": "Cần đỉnh trùng nhau và cả hai cạnh khớp với góc vuông của ê ke.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q16",
+      "type": "fill",
+      "question": "Hai góc vuông có cạnh dài khác nhau. Chúng có cùng loại góc không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi bằng màu",
+        "chỉ khi đặt cùng chiều"
+      ],
+      "explanation": "Độ dài phần cạnh được vẽ không quyết định góc vuông; quan trọng là hướng hai cạnh.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q17",
+      "type": "mcq",
+      "question": "Kéo dài một cạnh mà giữ nguyên hướng, góc có đổi từ vuông sang không vuông không?",
+      "options": [
+        "không",
+        "có",
+        "luôn thành hình tròn",
+        "không có đỉnh nữa"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "luôn thành hình tròn",
+        "không có đỉnh nữa"
+      ],
+      "explanation": "Giữ nguyên hướng hai cạnh thì góc vẫn giữ loại ban đầu.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q18",
+      "type": "fill",
+      "question": "Góc ABC có hai cạnh BA và BC. Điểm nào là đỉnh?",
+      "correct_answer": "B",
+      "distractors": [
+        "A",
+        "C",
+        "không có đỉnh"
+      ],
+      "explanation": "Tên hai cạnh đều bắt đầu ở B nên B là đỉnh.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q19",
+      "type": "mcq",
+      "question": "Góc vuông có một cạnh nằm ngang. Cạnh còn lại trong hình vẽ theo giấy thường nằm thế nào?",
+      "options": [
+        "thẳng đứng",
+        "cũng nằm ngang",
+        "chếch tùy ý",
+        "uốn cong"
+      ],
+      "correct_answer": "thẳng đứng",
+      "distractors": [
+        "cũng nằm ngang",
+        "chếch tùy ý",
+        "uốn cong"
+      ],
+      "explanation": "Một cạnh ngang và một cạnh đứng tạo góc vuông trong hình vẽ này.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q20",
+      "type": "fill",
+      "question": "Nếu cả hai cạnh không thể khớp với hai cạnh góc vuông của ê ke, đó là góc gì?",
+      "correct_answer": "góc không vuông",
+      "distractors": [
+        "góc vuông",
+        "bán kính",
+        "đường kính"
+      ],
+      "explanation": "Không khớp góc vuông của ê ke thì góc đang xét không vuông.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q21",
+      "type": "mcq",
+      "question": "Lan kiểm tra góc bàn hình chữ nhật bằng dụng cụ nào phù hợp?",
+      "options": [
+        "ê ke",
+        "com pa",
+        "cốc tròn",
+        "bút màu"
+      ],
+      "correct_answer": "ê ke",
+      "distractors": [
+        "com pa",
+        "cốc tròn",
+        "bút màu"
+      ],
+      "explanation": "Ê ke có góc vuông để so khớp với góc bàn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q22",
+      "type": "fill",
+      "question": "Một biển hình chữ nhật có mấy góc vuông?",
+      "correct_answer": "4",
+      "distractors": [
+        "2",
+        "3",
+        "5"
+      ],
+      "explanation": "Hình chữ nhật có bốn góc, đều là góc vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q23",
+      "type": "mcq",
+      "question": "Một ô gạch hình vuông có mấy góc vuông?",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "1",
+        "2",
+        "3"
+      ],
+      "explanation": "Cả bốn góc của hình vuông đều vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q24",
+      "type": "fill",
+      "question": "An xoay tờ giấy hình chữ nhật. Góc tờ giấy có còn vuông không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi đặt ngang",
+        "chỉ khi cạnh bằng nhau"
+      ],
+      "explanation": "Xoay tờ giấy không thay đổi hình của góc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q25",
+      "type": "mcq",
+      "question": "Mai vẽ hai cạnh của góc cùng xuất phát ở A. Khi kiểm tra, đỉnh ê ke đặt ở điểm nào?",
+      "options": [
+        "A",
+        "giữa một cạnh",
+        "ngoài tờ giấy",
+        "điểm tùy ý"
+      ],
+      "correct_answer": "A",
+      "distractors": [
+        "giữa một cạnh",
+        "ngoài tờ giấy",
+        "điểm tùy ý"
+      ],
+      "explanation": "Đỉnh góc cần kiểm tra là A, nên đỉnh ê ke phải trùng A.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q26",
+      "type": "fill",
+      "question": "Kệ sách có một cạnh ngang và một cạnh đứng gặp nhau. Góc chỗ gặp có dạng gì?",
+      "correct_answer": "góc vuông",
+      "distractors": [
+        "góc không vuông",
+        "đường kính",
+        "không phải góc"
+      ],
+      "explanation": "Hai cạnh theo hướng ngang và đứng tạo góc vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q27",
+      "type": "mcq",
+      "question": "Nam vẽ góc vuông, chỉ kéo dài thêm cạnh bên trái theo đúng hướng. Góc còn vuông không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ khi kéo hai cạnh bằng nhau",
+        "chỉ khi tô kín"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi kéo hai cạnh bằng nhau",
+        "chỉ khi tô kín"
+      ],
+      "explanation": "Đổi độ dài cạnh vẽ, không đổi hướng, nên góc vẫn vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q28",
+      "type": "fill",
+      "question": "Hai khung vuông rời nhau có tổng cộng mấy góc vuông ở bốn góc mỗi khung?",
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "6",
+        "10"
+      ],
+      "explanation": "Mỗi khung có 4 góc vuông; 4 × 2 = 8 góc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q29",
+      "type": "mcq",
+      "question": "Ba tấm thẻ hình chữ nhật rời nhau có mấy góc vuông tại các đỉnh thẻ?",
+      "options": [
+        "12",
+        "3",
+        "4",
+        "7"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "3",
+        "4",
+        "7"
+      ],
+      "explanation": "Mỗi thẻ có 4; 4 × 3 = 12 góc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q30",
+      "type": "fill",
+      "question": "Lan đặt ê ke sao cho đỉnh trùng đỉnh góc, một cạnh trùng; cạnh kia không trùng. Góc đó có vuông không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần đỉnh trùng",
+        "chỉ cần một cạnh trùng"
+      ],
+      "explanation": "Góc vuông cần cả hai cạnh cùng khớp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q31",
+      "type": "mcq",
+      "question": "Một hình vẽ có hai góc vuông và một góc không vuông. Có mấy góc không vuông?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correct_answer": "1",
+      "distractors": [
+        "2",
+        "3",
+        "0"
+      ],
+      "explanation": "Đề đã cho một góc không vuông; không cộng các góc vuông vào số cần tìm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q32",
+      "type": "fill",
+      "question": "Hình A: muốn kiểm tra góc II, đặt đỉnh ê ke tại điểm nào?",
+      "correct_answer": "P",
+      "distractors": [
+        "M",
+        "N",
+        "O"
+      ],
+      "explanation": "Góc II có hai cạnh PM, PN, nên đỉnh là P.",
+      "difficulty": "van_dung",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+        "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q33",
+      "type": "mcq",
+      "question": "Hình A: muốn kiểm tra góc III, đặt đỉnh ê ke tại điểm nào?",
+      "options": [
+        "E",
+        "C",
+        "D",
+        "P"
+      ],
+      "correct_answer": "E",
+      "distractors": [
+        "C",
+        "D",
+        "P"
+      ],
+      "explanation": "Góc III có hai cạnh EC, ED, nên đỉnh là E.",
+      "difficulty": "van_dung",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+        "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q34",
+      "type": "fill",
+      "question": "Hình B: muốn kiểm tra góc đã xoay nghiêng, đỉnh ê ke cần trùng điểm nào?",
+      "correct_answer": "K",
+      "distractors": [
+        "L",
+        "M",
+        "O"
+      ],
+      "explanation": "Hai cạnh KL, KM chung đỉnh K.",
+      "difficulty": "van_dung",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B18_B.svg",
+        "caption": "Hình B: Hai cạnh KL, KM có chung đỉnh K, hình được xoay nghiêng."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q35",
+      "type": "mcq",
+      "question": "Một bạn cho rằng mọi góc có cạnh dài bằng nhau đều vuông. Nhận định đúng không?",
+      "options": [
+        "không",
+        "có",
+        "luôn đúng",
+        "chỉ sai khi cạnh ngắn"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "luôn đúng",
+        "chỉ sai khi cạnh ngắn"
+      ],
+      "explanation": "Độ dài hai cạnh bằng nhau chưa cho biết hướng hai cạnh có tạo góc vuông hay không.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q36",
+      "type": "fill",
+      "question": "Để vẽ góc vuông đỉnh A, phải cho đỉnh góc vuông của ê ke trùng điểm nào?",
+      "correct_answer": "A",
+      "distractors": [
+        "giữa thước",
+        "đầu bất kì của ê ke",
+        "ngoài giấy"
+      ],
+      "explanation": "Đỉnh góc cần vẽ là A, phải dùng đúng đỉnh vuông của ê ke tại A.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q37",
+      "type": "mcq",
+      "question": "Góc vuông xoay sao cho hai cạnh đều nhìn chếch so với mép giấy. Có cần kiểm tra bằng ê ke thay vì chỉ nhìn cạnh ngang không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ cạnh ngang mới tạo góc vuông",
+        "chỉ cạnh đứng mới tạo góc vuông"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ cạnh ngang mới tạo góc vuông",
+        "chỉ cạnh đứng mới tạo góc vuông"
+      ],
+      "explanation": "Góc vuông có thể xoay nghiêng; ê ke giúp kiểm tra chính xác.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q38",
+      "type": "fill",
+      "question": "Một tờ giấy hình chữ nhật gấp lại thành một nếp. Muốn khẳng định góc mới là góc vuông, cần làm gì?",
+      "correct_answer": "kiểm tra bằng ê ke",
+      "distractors": [
+        "chỉ nhìn màu giấy",
+        "đo chiều dài một cạnh",
+        "vẽ đường tròn"
+      ],
+      "explanation": "Nếp gấp tùy ý chưa bảo đảm góc vuông; phải kiểm tra góc mới.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q39",
+      "type": "mcq",
+      "question": "Một hình có 4 đỉnh nhưng chỉ 2 góc vuông. Có thể gọi cả 4 góc là góc vuông không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ cần có 4 đỉnh",
+        "chỉ cần cạnh dài"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần có 4 đỉnh",
+        "chỉ cần cạnh dài"
+      ],
+      "explanation": "Phải xét từng góc; chỉ 2 góc đã được xác nhận vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B18_Q40",
+      "type": "fill",
+      "question": "Một góc gồm OA và OB, nhưng O bị ghi nhầm là A. Tên đúng của đỉnh góc là gì?",
+      "correct_answer": "O",
+      "distractors": [
+        "A",
+        "B",
+        "AB"
+      ],
+      "explanation": "Điểm chung của OA và OB là O, nên đỉnh phải là O.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B18_GAME1",
+      "title": "Kiểm chứng cùng ê ke",
+      "mode": "tf",
+      "objective": "Xét đỉnh, cạnh và cách dùng ê ke để xác định các nhận định đúng/sai.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu trong bài và đưa ra một kết quả để kiểm chứng.",
+        "Chọn Đúng nếu kết quả phù hợp, chọn Sai nếu không phù hợp; đọc lời giải trước khi sang câu.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B18_Q01",
+        "TOAN3_T1_B18_Q02",
+        "TOAN3_T1_B18_Q03",
+        "TOAN3_T1_B18_Q04",
+        "TOAN3_T1_B18_Q05",
+        "TOAN3_T1_B18_Q06",
+        "TOAN3_T1_B18_Q07",
+        "TOAN3_T1_B18_Q08",
+        "TOAN3_T1_B18_Q09",
+        "TOAN3_T1_B18_Q10",
+        "TOAN3_T1_B18_Q11",
+        "TOAN3_T1_B18_Q12",
+        "TOAN3_T1_B18_Q13",
+        "TOAN3_T1_B18_Q14",
+        "TOAN3_T1_B18_Q15",
+        "TOAN3_T1_B18_Q16",
+        "TOAN3_T1_B18_Q17",
+        "TOAN3_T1_B18_Q18",
+        "TOAN3_T1_B18_Q19",
+        "TOAN3_T1_B18_Q20",
+        "TOAN3_T1_B18_Q21",
+        "TOAN3_T1_B18_Q22",
+        "TOAN3_T1_B18_Q23",
+        "TOAN3_T1_B18_Q24",
+        "TOAN3_T1_B18_Q25",
+        "TOAN3_T1_B18_Q26",
+        "TOAN3_T1_B18_Q27",
+        "TOAN3_T1_B18_Q28",
+        "TOAN3_T1_B18_Q29",
+        "TOAN3_T1_B18_Q30",
+        "TOAN3_T1_B18_Q31",
+        "TOAN3_T1_B18_Q32",
+        "TOAN3_T1_B18_Q33",
+        "TOAN3_T1_B18_Q34",
+        "TOAN3_T1_B18_Q35",
+        "TOAN3_T1_B18_Q36",
+        "TOAN3_T1_B18_Q37",
+        "TOAN3_T1_B18_Q38",
+        "TOAN3_T1_B18_Q39",
+        "TOAN3_T1_B18_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B18_A.svg",
+      "caption": "Hình A: Các góc I, II, III có đỉnh lần lượt O, P, E."
+    },
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B18_B.svg",
+      "caption": "Hình B: Hai cạnh KL, KM có chung đỉnh K, hình được xoay nghiêng."
+    }
+  ]
+}

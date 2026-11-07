@@ -1,0 +1,164 @@
+Bài 17
+Đoạn thẳng nối tâm với một điểm trên đường tròn gọi là gì?|bán kính|Bán kính có một đầu là tâm, đầu kia nằm trên đường tròn.|đường kính;cạnh hình vuông;tâm
+Đoạn thẳng qua tâm, có hai đầu trên đường tròn gọi là gì?|đường kính|Đường kính đi qua tâm và nối hai điểm trên đường tròn.|bán kính;đỉnh;cạnh góc vuông
+Điểm nằm chính giữa một đường kính của hình tròn là gì?|tâm|Tâm là trung điểm của đường kính.|đỉnh;điểm bất kì;bán kính
+Trong một hình tròn, đường kính dài bằng mấy lần bán kính?|2|Đường kính gồm hai bán kính nối tiếp nhau.|1;3;4
+Bán kính hình tròn dài 3 cm. Đường kính dài mấy xăng-ti-mét?|6|3 × 2 = 6 cm.|3;5;9
+Đường kính dài 8 cm. Bán kính dài mấy xăng-ti-mét?|4|8 : 2 = 4 cm.|8;2;6
+Hai bán kính của cùng một hình tròn có bằng nhau không?|có|Mọi bán kính của cùng một hình tròn có độ dài bằng nhau.|không;chỉ khi nằm ngang;chỉ khi tô cùng màu
+Dụng cụ thường dùng để vẽ đường tròn là gì?|com pa|Com pa giữ một đầu ở tâm, đầu bút quay để vẽ đường tròn.|ê ke;tẩy;thước thẳng đơn thuần
+Khi vẽ đường tròn bằng com pa, đầu nhọn giữ ở đâu?|tâm|Đầu nhọn cố định tại tâm; đầu bút quay quanh tâm.|bất kì ngoài giấy;đầu bán kính trên đường tròn;một góc tờ giấy
+Độ mở com pa khi vẽ đường tròn cho biết độ dài nào?|bán kính|Khoảng cách từ đầu nhọn đến đầu bút là khoảng cách từ tâm đến đường tròn.|đường kính;chiều dài giấy;chiều rộng giấy
+Hình A có đường kính AB và tâm O. Điểm nào là trung điểm AB?|O|Đường kính AB đi qua tâm O; OA = OB nên O là trung điểm.|A;B;C
+Hình A: đoạn OC nối tâm O với điểm C trên đường tròn. OC là gì?|bán kính|OC có một đầu tại tâm và đầu kia trên đường tròn.|đường kính;cạnh hình tam giác;đỉnh
+Hình A: đoạn DE có hai đầu trên đường tròn nhưng không qua O. DE có là đường kính không?|không|Đường kính còn phải đi qua tâm; DE không qua O.|có;chỉ cần hai đầu nằm trên đường tròn;chỉ cần DE nằm ngang
+Hình A có OA = 4 cm. OB dài mấy xăng-ti-mét?|4|OA và OB là hai bán kính cùng hình tròn nên bằng nhau.|8;2;6
+Hình A có OC = 5 cm. AB dài mấy xăng-ti-mét?|10|OC là bán kính, AB là đường kính; 5 × 2 = 10 cm.|5;7;15
+Một đoạn qua tâm nhưng chỉ có một đầu trên đường tròn có chắc là đường kính không?|không|Đường kính cần cả hai đầu trên đường tròn và đi qua tâm.|có;luôn đúng;chỉ cần đoạn dài
+Đường kính 12 cm có bán kính mấy xăng-ti-mét?|6|12 : 2 = 6 cm.|12;2;10
+Một bạn nói hai đường kính của cùng hình tròn dài khác nhau. Nhận định đó đúng không?|không|Mỗi đường kính đều dài gấp hai lần cùng bán kính nên các đường kính bằng nhau.|có;đúng nếu một đoạn nằm dọc;đúng nếu khác màu
+Giữ nguyên tâm và độ mở com pa, vẽ lại một vòng. Đường vẽ có trùng đường tròn trước không?|có|Tâm và khoảng cách từ tâm đến đường tròn không đổi nên đường vẽ trùng nhau.|không;luôn to hơn;luôn nhỏ hơn
+Giữ tâm, tăng độ mở com pa. Đường tròn mới có bán kính như thế nào?|lớn hơn|Độ mở com pa chính là bán kính; tăng độ mở thì bán kính tăng.|nhỏ hơn;không đổi;bằng 0
+Huy vẽ vòng tròn bán kính 4 cm làm mặt huy hiệu. Đường kính mặt huy hiệu mấy xăng-ti-mét?|8|4 × 2 = 8 cm.|4;6;12
+Mặt đồng hồ đồ chơi có đường kính 14 cm. Từ tâm tới viền dài mấy xăng-ti-mét?|7|Khoảng từ tâm tới viền là bán kính; 14 : 2 = 7 cm.|14;2;12
+Một vòng tròn có bán kính 6 cm. Hai đường kính vẽ ngang và dọc có cùng độ dài mấy xăng-ti-mét?|12|Mỗi đường kính dài 6 × 2 = 12 cm.|6;8;18
+Lan cần vẽ đường tròn bán kính 2 cm. Com pa phải mở mấy xăng-ti-mét?|2|Độ mở phải bằng bán kính đã yêu cầu, là 2 cm.|4;1;6
+Mai muốn vẽ đường tròn đường kính 10 cm. Com pa cần mở mấy xăng-ti-mét?|5|Tìm bán kính: 10 : 2 = 5 cm; mở com pa 5 cm.|10;2;8
+Vòng giấy tròn có bán kính 7 cm, kẻ một đường kính. Đoạn kẻ dài mấy xăng-ti-mét?|14|7 × 2 = 14 cm.|7;9;21
+Trên huy hiệu tròn, đoạn từ tâm O đến chấm A trên viền dài 3 cm. Đến chấm B khác trên cùng viền dài mấy xăng-ti-mét?|3|OA và OB là các bán kính của cùng hình tròn nên bằng nhau.|6;1;9
+Một biển tròn đồ chơi có đường kính 18 cm. Bán kính là mấy xăng-ti-mét?|9|18 : 2 = 9 cm.|18;2;16
+An mở com pa 4 cm rồi vẽ. Bạn gọi 4 cm là đường kính. Đường kính thực sự là bao nhiêu?|8|4 cm là bán kính; đường kính 4 × 2 = 8 cm.|4;2;6
+Một đường tròn có hai đường kính AB và CD cùng qua tâm O. AB = 16 cm. CD dài mấy xăng-ti-mét?|16|Hai đường kính của cùng hình tròn bằng nhau.|8;32;14
+Hai hình tròn có bán kính 3 cm và 5 cm. Đường kính hình thứ hai hơn hình thứ nhất mấy xăng-ti-mét?|4|Đường kính lần lượt 3 × 2 = 6 và 5 × 2 = 10; 10 - 6 = 4 cm.|2;8;16
+Một con kiến đi thẳng từ A qua tâm O đến B theo đường kính. OA = 6 cm. Quãng đi mấy xăng-ti-mét?|12|OA = OB = 6 cm; 6 + 6 = 12 cm.|6;3;18
+Hai bán kính OM và ON cùng hình tròn. OM = 8 cm. ON dài mấy xăng-ti-mét?|8|Các bán kính cùng hình tròn bằng nhau.|16;4;10
+Một vòng tròn đường kính 6 cm. Muốn vẽ vòng khác cùng kích thước, com pa mở mấy xăng-ti-mét?|3|6 : 2 = 3 cm là bán kính cần dùng.|6;2;4
+Có một dây thẳng căng ngang hình tròn qua tâm, hai đầu trên viền, dài 20 cm. Bán kính hình tròn là mấy xăng-ti-mét?|10|Dây theo đường kính; 20 : 2 = 10 cm.|20;2;18
+Hình tròn bán kính 5 cm. Đường đi gồm hai bán kính nối từ viền tới tâm rồi ra viền có tổng dài mấy xăng-ti-mét?|10|Cộng hai bán kính: 5 + 5 = 10 cm.|5;7;15
+Hai huy hiệu tròn có cùng đường kính 12 cm. Bán kính của mỗi huy hiệu là mấy xăng-ti-mét?|6|12 : 2 = 6 cm cho mỗi huy hiệu.|12;3;10
+Một bạn mở com pa 3 cm, giữ đầu nhọn nhưng đổi độ mở giữa chừng. Đường vẽ có bảo đảm là một đường tròn không?|không|Bán kính phải không đổi trong khi quay; thay đổi độ mở làm khoảng cách tới tâm thay đổi.|có;luôn là hình vuông;chỉ cần quay nhanh
+Một hình tròn có bán kính 9 cm. Vẽ đường kính dài mấy xăng-ti-mét?|18|9 × 2 = 18 cm.|9;11;27
+Đường kính AB dài 10 cm, tâm O nằm trên AB. OA dài mấy xăng-ti-mét?|5|O là trung điểm AB; 10 : 2 = 5 cm.|10;2;8
+Bài 18
+Một góc có mấy cạnh chung một đỉnh?|2|Hai cạnh của góc cùng bắt đầu tại đỉnh.|1;3;4
+Điểm chung của hai cạnh góc gọi là gì?|đỉnh|Hai cạnh gặp nhau tại đỉnh của góc.|bán kính;đường kính;trung điểm
+Dụng cụ dùng kiểm tra góc vuông là gì?|ê ke|Đặt góc vuông của ê ke khớp với góc cần kiểm tra.|com pa;tẩy;bút màu
+Hình A, góc I có hai cạnh OA và OB. Đỉnh là điểm nào?|O|Hai cạnh OA và OB có điểm chung O.|A;B;P
+Hình A, góc II có hai cạnh PM và PN. Đỉnh là điểm nào?|P|Hai cạnh PM và PN cùng có đầu P.|M;N;O
+Hình A, góc III có hai cạnh EC và ED. Đỉnh là điểm nào?|E|EC và ED gặp nhau ở E.|C;D;P
+Góc ở góc một tờ giấy hình chữ nhật là góc gì?|góc vuông|Các góc của tờ giấy hình chữ nhật đều là góc vuông.|góc không vuông;đường tròn;bán kính
+Hình A, góc I khớp góc vuông của ê ke. Đây là góc gì?|góc vuông|Đỉnh và hai cạnh khớp góc vuông của ê ke nên đó là góc vuông.|góc không vuông;đoạn thẳng;hình tròn
+Muốn kiểm tra, đỉnh góc vuông của ê ke cần đặt vào đâu?|đỉnh góc cần kiểm tra|Hai đỉnh phải trùng nhau trước khi so các cạnh.|giữa một cạnh;bất kì trên giấy;ngoài góc
+Hình B có hai cạnh KL và KM. K là gì của góc?|đỉnh|K là điểm chung của hai cạnh KL và KM.|bán kính;đường kính;cạnh
+Hình A có ba góc I, II, III. Góc nào là góc vuông?|I|Chỉ góc I khớp góc vuông của ê ke; hai góc còn lại không khớp.|II;III;cả ba
+Hình A, góc II có phải góc vuông không?|không|Hai cạnh của góc II không khớp đồng thời hai cạnh góc vuông của ê ke.|có;chỉ khi kéo dài cạnh;chỉ khi tô màu
+Hình A, góc III có phải góc vuông không?|không|Góc III không khớp góc vuông của ê ke.|có;chỉ cần một cạnh nằm ngang;chỉ cần có đỉnh
+Hình B là một góc vuông được xoay nghiêng. Góc đó còn vuông không?|có|Xoay hình không làm thay đổi góc giữa hai cạnh.|không;chỉ khi một cạnh thẳng đứng;chỉ khi có dấu màu
+Chỉ đặt một cạnh ê ke khớp một cạnh góc, chưa kiểm tra cạnh kia. Đã kết luận được góc vuông chưa?|chưa|Cần đỉnh trùng nhau và cả hai cạnh khớp với góc vuông của ê ke.|rồi;luôn vuông;luôn không vuông
+Hai góc vuông có cạnh dài khác nhau. Chúng có cùng loại góc không?|có|Độ dài phần cạnh được vẽ không quyết định góc vuông; quan trọng là hướng hai cạnh.|không;chỉ khi bằng màu;chỉ khi đặt cùng chiều
+Kéo dài một cạnh mà giữ nguyên hướng, góc có đổi từ vuông sang không vuông không?|không|Giữ nguyên hướng hai cạnh thì góc vẫn giữ loại ban đầu.|có;luôn thành hình tròn;không có đỉnh nữa
+Góc ABC có hai cạnh BA và BC. Điểm nào là đỉnh?|B|Tên hai cạnh đều bắt đầu ở B nên B là đỉnh.|A;C;không có đỉnh
+Góc vuông có một cạnh nằm ngang. Cạnh còn lại trong hình vẽ theo giấy thường nằm thế nào?|thẳng đứng|Một cạnh ngang và một cạnh đứng tạo góc vuông trong hình vẽ này.|cũng nằm ngang;chếch tùy ý;uốn cong
+Nếu cả hai cạnh không thể khớp với hai cạnh góc vuông của ê ke, đó là góc gì?|góc không vuông|Không khớp góc vuông của ê ke thì góc đang xét không vuông.|góc vuông;bán kính;đường kính
+Lan kiểm tra góc bàn hình chữ nhật bằng dụng cụ nào phù hợp?|ê ke|Ê ke có góc vuông để so khớp với góc bàn.|com pa;cốc tròn;bút màu
+Một biển hình chữ nhật có mấy góc vuông?|4|Hình chữ nhật có bốn góc, đều là góc vuông.|2;3;5
+Một ô gạch hình vuông có mấy góc vuông?|4|Cả bốn góc của hình vuông đều vuông.|1;2;3
+An xoay tờ giấy hình chữ nhật. Góc tờ giấy có còn vuông không?|có|Xoay tờ giấy không thay đổi hình của góc.|không;chỉ khi đặt ngang;chỉ khi cạnh bằng nhau
+Mai vẽ hai cạnh của góc cùng xuất phát ở A. Khi kiểm tra, đỉnh ê ke đặt ở điểm nào?|A|Đỉnh góc cần kiểm tra là A, nên đỉnh ê ke phải trùng A.|giữa một cạnh;ngoài tờ giấy;điểm tùy ý
+Kệ sách có một cạnh ngang và một cạnh đứng gặp nhau. Góc chỗ gặp có dạng gì?|góc vuông|Hai cạnh theo hướng ngang và đứng tạo góc vuông.|góc không vuông;đường kính;không phải góc
+Nam vẽ góc vuông, chỉ kéo dài thêm cạnh bên trái theo đúng hướng. Góc còn vuông không?|có|Đổi độ dài cạnh vẽ, không đổi hướng, nên góc vẫn vuông.|không;chỉ khi kéo hai cạnh bằng nhau;chỉ khi tô kín
+Hai khung vuông rời nhau có tổng cộng mấy góc vuông ở bốn góc mỗi khung?|8|Mỗi khung có 4 góc vuông; 4 × 2 = 8 góc.|4;6;10
+Ba tấm thẻ hình chữ nhật rời nhau có mấy góc vuông tại các đỉnh thẻ?|12|Mỗi thẻ có 4; 4 × 3 = 12 góc.|3;4;7
+Lan đặt ê ke sao cho đỉnh trùng đỉnh góc, một cạnh trùng; cạnh kia không trùng. Góc đó có vuông không?|không|Góc vuông cần cả hai cạnh cùng khớp.|có;chỉ cần đỉnh trùng;chỉ cần một cạnh trùng
+Một hình vẽ có hai góc vuông và một góc không vuông. Có mấy góc không vuông?|1|Đề đã cho một góc không vuông; không cộng các góc vuông vào số cần tìm.|2;3;0
+Hình A: muốn kiểm tra góc II, đặt đỉnh ê ke tại điểm nào?|P|Góc II có hai cạnh PM, PN, nên đỉnh là P.|M;N;O
+Hình A: muốn kiểm tra góc III, đặt đỉnh ê ke tại điểm nào?|E|Góc III có hai cạnh EC, ED, nên đỉnh là E.|C;D;P
+Hình B: muốn kiểm tra góc đã xoay nghiêng, đỉnh ê ke cần trùng điểm nào?|K|Hai cạnh KL, KM chung đỉnh K.|L;M;O
+Một bạn cho rằng mọi góc có cạnh dài bằng nhau đều vuông. Nhận định đúng không?|không|Độ dài hai cạnh bằng nhau chưa cho biết hướng hai cạnh có tạo góc vuông hay không.|có;luôn đúng;chỉ sai khi cạnh ngắn
+Để vẽ góc vuông đỉnh A, phải cho đỉnh góc vuông của ê ke trùng điểm nào?|A|Đỉnh góc cần vẽ là A, phải dùng đúng đỉnh vuông của ê ke tại A.|giữa thước;đầu bất kì của ê ke;ngoài giấy
+Góc vuông xoay sao cho hai cạnh đều nhìn chếch so với mép giấy. Có cần kiểm tra bằng ê ke thay vì chỉ nhìn cạnh ngang không?|có|Góc vuông có thể xoay nghiêng; ê ke giúp kiểm tra chính xác.|không;chỉ cạnh ngang mới tạo góc vuông;chỉ cạnh đứng mới tạo góc vuông
+Một tờ giấy hình chữ nhật gấp lại thành một nếp. Muốn khẳng định góc mới là góc vuông, cần làm gì?|kiểm tra bằng ê ke|Nếp gấp tùy ý chưa bảo đảm góc vuông; phải kiểm tra góc mới.|chỉ nhìn màu giấy;đo chiều dài một cạnh;vẽ đường tròn
+Một hình có 4 đỉnh nhưng chỉ 2 góc vuông. Có thể gọi cả 4 góc là góc vuông không?|không|Phải xét từng góc; chỉ 2 góc đã được xác nhận vuông.|có;chỉ cần có 4 đỉnh;chỉ cần cạnh dài
+Một góc gồm OA và OB, nhưng O bị ghi nhầm là A. Tên đúng của đỉnh góc là gì?|O|Điểm chung của OA và OB là O, nên đỉnh phải là O.|A;B;AB
+Bài 19
+Hình tam giác có mấy cạnh?|3|Hình tam giác có 3 cạnh.|2;4;5
+Hình tam giác có mấy đỉnh?|3|Ba cạnh khép kín của tam giác gặp nhau tại 3 đỉnh.|2;4;6
+Hình tứ giác có mấy cạnh?|4|Hình tứ giác có 4 cạnh.|3;5;6
+Hình tứ giác có mấy góc?|4|Hình tứ giác có 4 đỉnh, mỗi đỉnh tạo một góc.|2;3;5
+Hình chữ nhật có mấy góc vuông?|4|Cả bốn góc của hình chữ nhật là góc vuông.|1;2;3
+Hình vuông có mấy cạnh bằng nhau?|4|Bốn cạnh hình vuông có độ dài bằng nhau.|1;2;3
+Hai cạnh dài của cùng hình chữ nhật có bằng nhau không?|có|Hai cạnh dài đối diện bằng nhau; hai cạnh ngắn đối diện cũng bằng nhau.|không;chỉ khi màu giống nhau;chỉ khi đặt ngang
+Độ dài cạnh dài của hình chữ nhật thường gọi là gì?|chiều dài|Cạnh dài cho biết chiều dài của hình chữ nhật.|bán kính;đường kính;chiều cao tam giác
+Độ dài cạnh ngắn của hình chữ nhật thường gọi là gì?|chiều rộng|Cạnh ngắn cho biết chiều rộng của hình chữ nhật.|đường kính;bán kính;đỉnh
+Một tứ giác có bốn cạnh bằng nhau và bốn góc vuông là hình gì?|hình vuông|Hai điều kiện này xác định hình vuông.|hình tam giác;hình tròn;góc không vuông
+Hình A: tam giác ABC có cạnh nối A với C tên là gì?|AC|Đoạn nối hai đỉnh A và C được gọi là cạnh AC.|AB;BC;DE
+Hình A: hình chữ nhật DEFG có cạnh DE dài 7 cm. Cạnh FG dài mấy xăng-ti-mét?|7|DE và FG là hai cạnh dài đối diện nên bằng nhau.|14;4;5
+Hình A: hình chữ nhật DEFG có EF = 4 cm. DG dài mấy xăng-ti-mét?|4|EF và DG là hai cạnh ngắn đối diện nên bằng nhau.|8;7;3
+Hình A: hình vuông MNPQ có cạnh MN dài 3 cm. PQ dài mấy xăng-ti-mét?|3|Các cạnh cùng hình vuông bằng nhau.|6;9;4
+Hình B có bốn cạnh bằng nhau nhưng không có góc vuông. Có là hình vuông không?|không|Hình vuông còn cần cả bốn góc vuông.|có;chỉ cần bốn cạnh bằng nhau;chỉ cần đặt thẳng
+Tam giác có ba cạnh khác nhau về độ dài vẫn là tam giác không?|có|Tên tam giác dựa vào 3 cạnh, 3 đỉnh và 3 góc, không bắt buộc ba cạnh bằng nhau.|không;chỉ khi có góc vuông;chỉ khi ba cạnh bằng nhau
+Xoay nghiêng một hình vuông, hình đó có còn là hình vuông không?|có|Xoay hình không làm đổi độ dài cạnh hay loại góc.|không;luôn thành tam giác;chỉ khi đặt ngang
+Một hình có 4 cạnh, hai cạnh dài bằng nhau, hai cạnh ngắn bằng nhau nhưng chưa kiểm tra góc. Đã chắc là hình chữ nhật chưa?|chưa|Còn cần kiểm tra bốn góc có là góc vuông không.|rồi;chỉ cần cạnh đối bằng nhau;không cần xét góc
+Tam giác ABC có ba góc ở các đỉnh nào?|A, B, C|Mỗi đỉnh của tam giác là đỉnh của một góc.|A, B, D;A, C, E;D, E, F
+Hình tứ giác MNPQ có cạnh nối Q với M tên là gì?|QM|Các cạnh theo thứ tự M-N-P-Q gồm MN, NP, PQ, QM.|MP;NQ;MN
+Khung ảnh hình chữ nhật có cạnh trên 9 cm. Cạnh dưới dài mấy xăng-ti-mét?|9|Hai cạnh dài đối diện của hình chữ nhật bằng nhau.|18;8;7
+Tấm bìa hình vuông có cạnh trái 6 cm. Cạnh phải dài mấy xăng-ti-mét?|6|Bốn cạnh của hình vuông bằng nhau.|12;3;8
+Mảnh giấy hình chữ nhật có cạnh bên phải 5 cm. Cạnh bên trái dài mấy xăng-ti-mét?|5|Hai cạnh ngắn đối diện bằng nhau.|10;4;6
+Một biển tam giác cần đặt dấu ở mọi đỉnh. Cần mấy dấu?|3|Tam giác có 3 đỉnh.|2;4;6
+Một khung tứ giác gắn một nút ở mỗi góc. Cần mấy nút?|4|Tứ giác có 4 góc, nên cần 4 nút.|3;5;8
+Hai thẻ tam giác rời nhau, mỗi thẻ có ba đỉnh. Tổng số đỉnh là mấy?|6|3 × 2 = 6 đỉnh.|3;5;8
+Ba tấm bìa hình vuông rời nhau có tổng cộng mấy góc vuông?|12|Mỗi tấm có 4 góc vuông; 4 × 3 = 12 góc.|3;4;7
+An làm hai cạnh dài của khung chữ nhật bằng 8 cm và 7 cm. Khung có đúng theo đặc điểm hình chữ nhật chưa?|chưa|Hai cạnh dài đối diện phải bằng nhau; 8 cm khác 7 cm.|rồi;chỉ cần tổng bằng 15;không cần so cạnh
+Mai làm một hình có bốn cạnh 4 cm nhưng một góc không vuông. Có phải hình vuông không?|không|Hình vuông cần bốn cạnh bằng nhau và bốn góc vuông.|có;chỉ cần cạnh bằng nhau;chỉ cần có bốn đỉnh
+Một ô cửa hình chữ nhật có chiều dài 12 dm, chiều rộng 8 dm. Hai cạnh ngắn mỗi cạnh dài mấy đề-xi-mét?|8|Cạnh ngắn cho biết chiều rộng, nên mỗi cạnh ngắn dài 8 dm.|12;20;4
+Một sân hình chữ nhật ABCD có AB = 9 m, BC = 5 m. CD dài mấy mét?|9|AB và CD là hai cạnh đối diện bằng nhau.|5;14;4
+Sân hình chữ nhật ABCD có AB = 9 m, BC = 5 m. AD dài mấy mét?|5|AD và BC là hai cạnh đối diện bằng nhau.|9;14;4
+Trên hình chữ nhật ABCD, kẻ đoạn AC nối hai đỉnh đối diện. Chia hình thành mấy tam giác?|2|Đoạn AC chia hình thành tam giác ABC và tam giác ACD.|1;3;4
+Một tờ giấy hình vuông có bốn góc. Cắt theo đường nối hai đỉnh đối diện được mấy mảnh tam giác?|2|Một đường nối hai đỉnh đối diện chia hình vuông thành 2 tam giác.|1;3;4
+Có 4 thẻ tam giác rời nhau. Mỗi thẻ có 3 cạnh. Tổng số cạnh của các thẻ là mấy?|12|3 × 4 = 12 cạnh; các thẻ rời nhau nên không có cạnh dùng chung.|7;4;16
+Có 5 khung tứ giác rời nhau, mỗi khung có 4 đỉnh. Tổng cộng mấy đỉnh?|20|4 × 5 = 20 đỉnh.|9;16;25
+Một khung vuông có một cạnh 7 cm. Muốn thay một cạnh khác đúng kích thước, thanh mới dài mấy xăng-ti-mét?|7|Các cạnh cùng hình vuông bằng nhau.|14;4;8
+Một bạn chỉ nhìn cạnh của hình và chưa kiểm tra góc. Để biết có phải hình vuông, cần kiểm tra thêm điều gì?|bốn góc vuông|Ngoài bốn cạnh bằng nhau, hình vuông cần bốn góc vuông.|chỉ màu sắc;chỉ số chấm trang trí;chỉ hướng đặt hình
+Một tam giác và một tứ giác rời nhau có tổng cộng mấy đỉnh?|7|Tam giác có 3, tứ giác có 4; 3 + 4 = 7 đỉnh.|3;4;12
+Tấm biển hình chữ nhật dài 8 dm, rộng 3 dm. Đi từ góc A đến góc đối diện C theo hai cạnh AB rồi BC dài mấy đề-xi-mét?|11|Đi hai cạnh liên tiếp: 8 + 3 = 11 dm.|5;24;8
+Bài 20
+Dụng cụ phù hợp nhất để vẽ một đường tròn có tâm và bán kính cho trước là gì?|com pa|Com pa giữ khoảng cách từ tâm tới đầu bút không đổi.|ê ke;tẩy;keo dán
+Để vẽ góc vuông, nên dùng góc nào của ê ke?|góc vuông|Ê ke có một góc vuông; dùng đúng góc này để vẽ hai cạnh.|góc bất kì;góc nhỏ nhất bất kì;cạnh cong
+Khi vẽ đường tròn tâm O, đầu nhọn com pa đặt ở đâu?|O|Đầu nhọn cố định tại tâm O.|điểm bất kì ngoài O;mép tờ giấy;đầu bút chì
+Muốn vẽ hình vuông, bốn cạnh phải thế nào?|bằng nhau|Bốn cạnh hình vuông phải bằng nhau và bốn góc phải vuông.|hai cạnh dài khác nhau;ba cạnh bằng nhau là đủ;không cần đo
+Muốn vẽ hình chữ nhật, bốn góc phải là góc gì?|góc vuông|Hình chữ nhật có bốn góc vuông.|góc không vuông;góc tùy ý;không có góc
+Trên lưới ô vuông, một bước theo hàng ngang và một bước theo cột dọc tạo dạng góc gì?|góc vuông|Hàng ngang và cột dọc vuông góc trong lưới.|góc không vuông;hình tròn;đường kính
+Khi quay com pa, độ mở có cần giữ nguyên không?|có|Độ mở bằng bán kính; phải giữ nguyên để mọi điểm cách tâm như nhau.|không;chỉ giữ nguyên nửa vòng;luôn tăng dần
+Đường tròn cần bán kính 3 cm. Com pa mở mấy xăng-ti-mét?|3|Độ mở com pa bằng bán kính cần vẽ.|6;1;9
+Vẽ góc vuông đỉnh A, đỉnh góc vuông của ê ke phải trùng điểm nào?|A|Đỉnh dụng cụ phải trùng đỉnh góc cần vẽ.|điểm bất kì;giữa cạnh;mép giấy
+Sau khi vẽ hình vuông, dùng gì để kiểm tra góc?|ê ke|Ê ke dùng kiểm tra cả bốn góc có vuông không.|com pa;tẩy;hộp màu
+Hình A: hình chữ nhật trên lưới dài 4 ô, rộng 2 ô. Cạnh dài đối diện cũng dài mấy ô?|4|Hai cạnh dài đối diện của hình chữ nhật bằng nhau.|2;6;8
+Hình A: hình vuông bên phải có mỗi cạnh 3 ô. Cạnh dưới dài mấy ô?|3|Bốn cạnh của hình vuông bằng nhau.|6;9;2
+Một bạn vẽ hình vuông nhưng chỉ đo hai cạnh. Đã đủ kiểm tra cả hình chưa?|chưa|Cần kiểm tra bốn cạnh bằng nhau và bốn góc vuông.|rồi;chỉ nhìn màu là đủ;không cần đo cạnh
+Một bạn vẽ hình chữ nhật dài 5 cm, rộng 3 cm nhưng một góc không vuông. Hình đã đạt yêu cầu chưa?|chưa|Hình chữ nhật cần đủ bốn góc vuông.|rồi;chỉ cần đúng độ dài;chỉ cần có bốn cạnh
+Muốn vẽ đường tròn đường kính 8 cm, phải mở com pa mấy xăng-ti-mét?|4|Độ mở là bán kính; 8 : 2 = 4 cm.|8;2;6
+Vẽ lại đường tròn cùng tâm, cùng bán kính trên hình cũ. Đường vẽ có trùng nhau không?|có|Tâm và bán kính giữ nguyên thì đường tròn không đổi.|không;luôn lớn hơn;luôn nhỏ hơn
+Hai hình vuông bằng nhau đặt xoay khác hướng có còn cùng số góc vuông không?|có|Mỗi hình vẫn có bốn góc vuông, dù đặt xoay hướng nào.|không;chỉ hình đặt ngang;chỉ hình đặt dọc
+Gấp giấy làm dụng cụ kiểm tra góc, sau đó nên so lại với dụng cụ nào?|ê ke|So với ê ke chuẩn để kiểm tra góc giấy gấp có vuông không.|com pa;vòng tròn;hộp màu
+Trong khi vẽ com pa bị trượt khỏi tâm. Cần làm gì?|đặt lại đúng tâm và vẽ lại|Đường tròn yêu cầu có tâm cố định; trượt tâm làm đường vẽ sai.|tiếp tục coi là đúng;tăng độ mở tùy ý;đổi màu là đủ
+Vẽ một cạnh hình vuông dài 4 cm. Cạnh liền kề phải dài mấy xăng-ti-mét?|4|Các cạnh hình vuông bằng nhau.|8;2;6
+Lan vẽ hình vuông cạnh 5 cm. Cần đo mỗi cạnh còn lại dài mấy xăng-ti-mét?|5|Mỗi cạnh phải dài bằng cạnh đã vẽ, là 5 cm.|10;4;6
+An vẽ hình chữ nhật dài 7 cm, rộng 4 cm. Cạnh dài thứ hai cần dài mấy xăng-ti-mét?|7|Hai cạnh dài đối diện bằng nhau.|4;11;3
+Mai vẽ hình chữ nhật dài 7 cm, rộng 4 cm. Cạnh ngắn thứ hai cần dài mấy xăng-ti-mét?|4|Hai cạnh ngắn đối diện bằng nhau.|7;11;3
+Một họa tiết gồm 3 hình vuông rời nhau. Cả 3 hình có mấy góc vuông tại các đỉnh?|12|Mỗi hình có 4; 4 × 3 = 12 góc.|3;4;7
+Mỗi cánh quạt trang trí là một hình tam giác. Dùng 4 cánh rời nhau có tổng mấy đỉnh?|12|Mỗi tam giác có 3 đỉnh; 3 × 4 = 12 đỉnh.|7;4;16
+Nam cần vẽ đường tròn đường kính 12 cm. Com pa mở mấy xăng-ti-mét?|6|12 : 2 = 6 cm là bán kính.|12;2;10
+Vẽ hai đường tròn có cùng độ mở com pa 4 cm nhưng tâm khác nhau. Hai đường tròn có cùng bán kính không?|có|Độ mở giữ nguyên 4 cm nên hai bán kính bằng nhau.|không;chỉ khi tâm trùng;chỉ khi màu giống nhau
+Một mẫu trang trí có 5 hình chữ nhật rời nhau. Tổng số cạnh của các hình là mấy?|20|Mỗi hình có 4 cạnh; 4 × 5 = 20 cạnh.|9;16;25
+Lan dùng lưới vẽ hình vuông cạnh 4 ô. Cạnh trên đã dài 4 ô, cạnh bên phải cần dài mấy ô?|4|Cạnh bên phải cũng phải bằng 4 ô.|8;2;6
+Một hình chữ nhật trên lưới có cạnh trên 6 ô, cạnh phải 2 ô. Cạnh trái cần dài mấy ô?|2|Cạnh trái và phải bằng nhau, đều 2 ô.|6;8;4
+An vẽ góc vuông nghiêng so với mép giấy. Có bắt buộc quay góc cho một cạnh nằm ngang mới được không?|không|Góc vuông có thể ở nhiều hướng; dùng ê ke kiểm tra thay vì dựa vào mép giấy.|có;chỉ cạnh ngang mới đúng;chỉ cạnh đứng mới đúng
+Mai vẽ 4 đường tròn cùng tâm và cùng độ mở. Có mấy đường tròn khác nhau về vị trí nét vẽ?|1|Cùng tâm, cùng bán kính thì các đường vẽ trùng nhau, chỉ một đường tròn khác biệt.|4;2;3
+Để tạo hai đường tròn cùng kích thước nhưng không trùng nhau, nên giữ độ mở và thay đổi điều gì?|tâm|Đổi vị trí tâm, giữ độ mở, được hai đường tròn cùng bán kính ở vị trí khác nhau.|màu giấy thay cho tâm;độ dài bán kính;góc vuông
+Một mẫu có 2 hình vuông và 1 hình chữ nhật rời nhau. Có tổng mấy góc vuông ở các đỉnh?|12|Ba hình, mỗi hình 4 góc vuông; 4 × 3 = 12 góc.|8;6;7
+Tờ giấy hình vuông cạnh 6 cm. Cần vẽ một hình vuông nhỏ cạnh 3 cm. Cạnh nhỏ bằng một phần mấy cạnh lớn? Viết dạng 1/n.|1/2|6 : 2 = 3 cm nên cạnh nhỏ bằng một phần hai cạnh lớn.|1/3;1/4;2/1
+Em vẽ hình chữ nhật 4 ô dài, 2 ô rộng. Muốn thành hình vuông giữ nguyên chiều dài, chiều rộng phải tăng thêm mấy ô?|2|Hình vuông cần cạnh 4 ô; 4 - 2 = 2 ô cần tăng.|4;6;1
+Một hình vuông vẽ trên lưới có cạnh 3 ô. Đổi màu tô có làm thay đổi số góc vuông không?|không|Tô màu không thay đổi hình hay các góc.|có;chỉ màu xanh mới vuông;chỉ màu đỏ mới vuông
+Họa tiết hình tròn bán kính 5 cm. Vẽ thêm một đường kính để trang trí. Đường kính dài mấy xăng-ti-mét?|10|5 × 2 = 10 cm.|5;7;15
+An vẽ hình có bốn cạnh 4 cm nhưng chưa dùng ê ke. Để xác nhận hình vuông, cần kiểm tra thêm gì?|bốn góc vuông|Bốn cạnh bằng nhau chưa đủ; cần cả bốn góc vuông.|chỉ một góc tùy ý;chỉ màu hình;chỉ tâm hình
+Vẽ góc vuông trên giấy, hai cạnh được kéo dài thêm theo đúng hướng. Góc có còn vuông không?|có|Kéo dài theo đúng hướng không làm thay đổi góc.|không;chỉ khi hai cạnh dài bằng nhau;chỉ khi tô góc

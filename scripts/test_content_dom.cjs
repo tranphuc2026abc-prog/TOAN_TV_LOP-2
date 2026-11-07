@@ -40,9 +40,31 @@ async function boot(missing){
   }
   if(n<=4){w.go({p:'lesson',id});assert(w.A.textContent.includes('Giáo viên đã thẩm định'));}
   if(n===12){w.startQ(id,'all');w.v.qs=[w.practiceBank(w.byId(id)).find(q=>q.reference_table)];w.v.i=0;w.draw();assert.equal(w.A.querySelectorAll('tbody tr').length,8);assert.equal(w.A.querySelectorAll('tbody td').length,80);}
-  if(n===14||n===16){for(const question of w.practiceBank(w.byId(id)).filter(q=>q.figure)){w.startQ(id,'all');w.v.qs=[question];w.v.i=0;w.draw();assert(w.A.querySelector('figure img').getAttribute('src')===question.figure.path);}}
+  if(n>=14){for(const question of w.practiceBank(w.byId(id)).filter(q=>q.figure)){w.startQ(id,'all');w.v.qs=[question];w.v.i=0;w.draw();assert(w.A.querySelector('figure img').getAttribute('src')===question.figure.path);}}
   if(n===7){w.startQ(id,'all');w.v.qs=[w.practiceBank(w.byId(id)).find(q=>q.figure)];w.v.i=0;w.draw();assert(w.A.querySelector('figure img'));}
 
+ }
+ if(activeEntries.some(e=>e.id==='TOAN3_T1_B20')){
+  w.go({p:'lesson',id:'TOAN3_T1_B20'});assert(w.document.getElementById('geometryDraw'));assert(w.A.textContent.includes('Thực hành với dụng cụ'));
+  const cases=[
+   ['rectangle',[[0,0],[4,2]],true],['rectangle',[[0,0],[4,4]],false],
+   ['square',[[1,1],[4,4]],true],['square',[[1,1],[4,3]],false],
+   ['circle',[[3,3],[5,3]],true],['circle',[[0,0],[2,0]],false],
+   ['angle',[[3,3],[1,1],[5,1]],true],['angle',[[3,3],[4,3],[4,4]],false]
+  ];
+  for(const [mode,points,correct] of cases){w.setGeometryMode(mode);for(const p of points)w.chooseGeometryPoint(...p);assert.equal(w.document.getElementById('geometryFeedback').textContent.startsWith('✅'),correct);}
+  w.setGeometryMode('circle');w.document.getElementById('geo-3-3').dispatchEvent(new w.KeyboardEvent('keydown',{key:'Enter',bubbles:true}));w.document.getElementById('geo-5-3').dispatchEvent(new w.MouseEvent('click',{bubbles:true}));assert(w.document.getElementById('geometryFeedback').textContent.startsWith('✅'));
+  w.setGeometryMode('square');w.chooseGeometryPoint(1,1);w.chooseGeometryPoint(1,1);assert(w.document.getElementById('geometryFeedback').textContent.includes('đã được chọn'));
+  w.setGeometryMode('angle');assert(w.document.getElementById('geometryFeedback').textContent.includes('đầu tiên'));
+  fs.writeFileSync('/tmp/geometry-board-preview.svg',w.document.querySelector('#geometryDraw svg').outerHTML.replace('<svg ','<svg xmlns="http://www.w3.org/2000/svg" '));
+ }
+ // Các câu phụ thuộc hình/bảng phải đủ dữ kiện ngay cả trong trò ghép đôi.
+ for(const id of ['TOAN3_T1_B19','TOAN3_T1_B12']){
+  if(!activeEntries.some(e=>e.id===id))continue;
+  const bank=w.practiceBank(w.byId(id)),media=bank.find(q=>q.figure||q.reference_table),chosen=[media],answers=new Set([media.answer]);
+  for(const q of bank){if(chosen.length===5)break;if(!answers.has(q.answer)){answers.add(q.answer);chosen.push(q);}}
+  const old=w.gameQuestions;w.gameQuestions=()=>chosen;w.startMini('match');w.gameQuestions=old;
+  assert(w.A.querySelector('.match-references'));assert(w.A.querySelector(media.figure?'.match-references img':'.match-references table'));
  }
  // Kiểm tra nhận lại đáp án sau một lần sai và giải thích sau hai lần sai.
  w.startQ('TOAN3_T1_B12','fill');w.document.getElementById('an').value='sai';w.ans();assert.equal(w.v.done,0);assert.equal(w.v.t,1);

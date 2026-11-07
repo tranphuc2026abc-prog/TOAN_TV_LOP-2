@@ -211,7 +211,7 @@
       "page_end": 53,
       "source_pdf": "03-sgk-toan-3-tap-mot.pdf",
       "kind": "lesson",
-      "source_status": "title_and_page_indexed_from_ocr",
+      "source_status": "title_and_pages_visually_verified_against_pdf",
       "content_status": "needs_lesson_content"
     },
     {
@@ -220,10 +220,10 @@
       "title": "Góc, góc vuông, góc không vuông",
       "volume": "Tập 1",
       "page_start": 54,
-      "page_end": 56,
+      "page_end": 55,
       "source_pdf": "03-sgk-toan-3-tap-mot.pdf",
       "kind": "lesson",
-      "source_status": "title_and_page_indexed_from_ocr",
+      "source_status": "title_and_pages_visually_verified_against_pdf",
       "content_status": "needs_lesson_content"
     },
     {
@@ -231,11 +231,11 @@
       "subject": "toan",
       "title": "Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông",
       "volume": "Tập 1",
-      "page_start": 57,
+      "page_start": 56,
       "page_end": 60,
       "source_pdf": "03-sgk-toan-3-tap-mot.pdf",
       "kind": "lesson",
-      "source_status": "title_and_page_indexed_from_ocr",
+      "source_status": "title_and_pages_visually_verified_against_pdf",
       "content_status": "needs_lesson_content"
     },
     {
@@ -247,7 +247,7 @@
       "page_end": 62,
       "source_pdf": "03-sgk-toan-3-tap-mot.pdf",
       "kind": "lesson",
-      "source_status": "title_and_page_indexed_from_ocr",
+      "source_status": "title_and_pages_visually_verified_against_pdf",
       "content_status": "needs_lesson_content"
     },
     {

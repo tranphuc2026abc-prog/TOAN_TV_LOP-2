@@ -1,3 +1,9 @@
+# Cập nhật Batch 5 — 07/11/2026
+
+**20 bài Toán có học liệu riêng, 800 câu và 20 trò chơi**. Thêm Bài 17–20, sáu SVG và lưới vẽ tương tác cho Bài 20. Bài 1–4 đã được giáo viên thẩm định; Bài 5–20 chờ thẩm định; còn 148 mục bản nháp. Chi tiết mới nhất: [PROGRESS.md](content/system/PROGRESS.md).
+
+---
+
 # Tiến độ mới nhất — 07/11/2026
 
 **16 bài Toán có học liệu riêng, 640 câu và 16 trò chơi**. Bài 1–4 đã được thầy Nguyễn Thế Khanh thẩm định; Bài 5–16 chờ thẩm định. Còn 152 mục bản nháp. Đang tiếp tục theo thứ tự **Toán → Tiếng Việt → Tiếng Anh**. Xem [tiến độ](content/system/PROGRESS.md) và [báo cáo kiểm tra](content/system/AUDIT_REPORT.md).

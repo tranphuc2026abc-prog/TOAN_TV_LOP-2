@@ -1,0 +1,818 @@
+{
+  "id": "TOAN3_T1_B17",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 17,
+  "title": "Hình tròn. Tâm, bán kính, đường kính của hình tròn",
+  "topic": "Làm quen với hình phẳng, hình khối",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      52,
+      53
+    ],
+    "pdf_pages": [
+      53,
+      54
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết tâm, bán kính và đường kính của hình tròn.",
+    "Vận dụng quan hệ đường kính gấp hai lần bán kính; bước đầu dùng com pa để vẽ đường tròn."
+  ],
+  "knowledge": {
+    "introduction": "Hãy đặt đầu nhọn com pa tại một điểm cố định và giữ nguyên độ mở khi quay đầu bút. Điểm cố định là tâm; khoảng cách từ đó tới đường vẽ là bán kính. Một đoạn thẳng đi qua tâm và nối hai điểm trên đường tròn là đường kính.",
+    "rules": [
+      "Bán kính nối tâm với một điểm trên đường tròn. Các bán kính của cùng một hình tròn dài bằng nhau.",
+      "Đường kính có hai đầu trên đường tròn và đi qua tâm. Tâm là trung điểm của đường kính.",
+      "Đường kính dài bằng hai lần bán kính; bán kính bằng đường kính chia 2.",
+      "Khi vẽ bằng com pa, đầu nhọn giữ tại tâm, độ mở không đổi. Một đoạn nối hai điểm trên đường tròn mà không qua tâm không phải đường kính."
+    ],
+    "steps": [
+      "Tìm và gọi tên tâm trước.",
+      "Xét hai đầu đoạn thẳng: đoạn có nối tâm ra đường tròn không, hoặc có hai đầu trên đường tròn và qua tâm không?",
+      "Tính độ dài bằng quan hệ gấp đôi hoặc chia đôi.",
+      "Vẽ đường tròn: xác định tâm, đo độ mở com pa rồi quay đầu bút, giữ đầu nhọn tại tâm."
+    ],
+    "common_errors": [
+      "Gọi mọi đoạn nối hai điểm trên đường tròn là đường kính.",
+      "Nhầm độ mở com pa với đường kính.",
+      "Cho rằng bán kính nằm ngang dài khác bán kính nằm nghiêng.",
+      "Đổi độ mở hoặc để trượt tâm khi đang quay com pa."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Hình tròn tâm O có bán kính 4 cm. Tính đường kính.",
+      "steps": [
+        "Đường kính gồm hai bán kính.",
+        "4 × 2 = 8. Đường kính dài 8 cm."
+      ]
+    },
+    {
+      "question": "Đường kính AB dài 14 cm, O là tâm. Tính OA.",
+      "steps": [
+        "O là trung điểm của AB, nên OA là nửa AB.",
+        "14 : 2 = 7. OA dài 7 cm."
+      ]
+    },
+    {
+      "question": "Một đoạn nối hai điểm trên đường tròn nhưng không đi qua tâm. Có là đường kính không?",
+      "steps": [
+        "Kiểm tra điều kiện đi qua tâm.",
+        "Đoạn không qua tâm, nên không phải đường kính."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B17_Q01",
+      "type": "mcq",
+      "question": "Đoạn thẳng nối tâm với một điểm trên đường tròn gọi là gì?",
+      "options": [
+        "bán kính",
+        "đường kính",
+        "cạnh hình vuông",
+        "tâm"
+      ],
+      "correct_answer": "bán kính",
+      "distractors": [
+        "đường kính",
+        "cạnh hình vuông",
+        "tâm"
+      ],
+      "explanation": "Bán kính có một đầu là tâm, đầu kia nằm trên đường tròn.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q02",
+      "type": "fill",
+      "question": "Đoạn thẳng qua tâm, có hai đầu trên đường tròn gọi là gì?",
+      "correct_answer": "đường kính",
+      "distractors": [
+        "bán kính",
+        "đỉnh",
+        "cạnh góc vuông"
+      ],
+      "explanation": "Đường kính đi qua tâm và nối hai điểm trên đường tròn.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q03",
+      "type": "mcq",
+      "question": "Điểm nằm chính giữa một đường kính của hình tròn là gì?",
+      "options": [
+        "tâm",
+        "đỉnh",
+        "điểm bất kì",
+        "bán kính"
+      ],
+      "correct_answer": "tâm",
+      "distractors": [
+        "đỉnh",
+        "điểm bất kì",
+        "bán kính"
+      ],
+      "explanation": "Tâm là trung điểm của đường kính.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q04",
+      "type": "fill",
+      "question": "Trong một hình tròn, đường kính dài bằng mấy lần bán kính?",
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "Đường kính gồm hai bán kính nối tiếp nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q05",
+      "type": "mcq",
+      "question": "Bán kính hình tròn dài 3 cm. Đường kính dài mấy xăng-ti-mét?",
+      "options": [
+        "6",
+        "3",
+        "5",
+        "9"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "5",
+        "9"
+      ],
+      "explanation": "3 × 2 = 6 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q06",
+      "type": "fill",
+      "question": "Đường kính dài 8 cm. Bán kính dài mấy xăng-ti-mét?",
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "2",
+        "6"
+      ],
+      "explanation": "8 : 2 = 4 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q07",
+      "type": "mcq",
+      "question": "Hai bán kính của cùng một hình tròn có bằng nhau không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ khi nằm ngang",
+        "chỉ khi tô cùng màu"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi nằm ngang",
+        "chỉ khi tô cùng màu"
+      ],
+      "explanation": "Mọi bán kính của cùng một hình tròn có độ dài bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q08",
+      "type": "fill",
+      "question": "Dụng cụ thường dùng để vẽ đường tròn là gì?",
+      "correct_answer": "com pa",
+      "distractors": [
+        "ê ke",
+        "tẩy",
+        "thước thẳng đơn thuần"
+      ],
+      "explanation": "Com pa giữ một đầu ở tâm, đầu bút quay để vẽ đường tròn.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q09",
+      "type": "mcq",
+      "question": "Khi vẽ đường tròn bằng com pa, đầu nhọn giữ ở đâu?",
+      "options": [
+        "tâm",
+        "bất kì ngoài giấy",
+        "đầu bán kính trên đường tròn",
+        "một góc tờ giấy"
+      ],
+      "correct_answer": "tâm",
+      "distractors": [
+        "bất kì ngoài giấy",
+        "đầu bán kính trên đường tròn",
+        "một góc tờ giấy"
+      ],
+      "explanation": "Đầu nhọn cố định tại tâm; đầu bút quay quanh tâm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q10",
+      "type": "fill",
+      "question": "Độ mở com pa khi vẽ đường tròn cho biết độ dài nào?",
+      "correct_answer": "bán kính",
+      "distractors": [
+        "đường kính",
+        "chiều dài giấy",
+        "chiều rộng giấy"
+      ],
+      "explanation": "Khoảng cách từ đầu nhọn đến đầu bút là khoảng cách từ tâm đến đường tròn.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q11",
+      "type": "mcq",
+      "question": "Hình A có đường kính AB và tâm O. Điểm nào là trung điểm AB?",
+      "options": [
+        "O",
+        "A",
+        "B",
+        "C"
+      ],
+      "correct_answer": "O",
+      "distractors": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "Đường kính AB đi qua tâm O; OA = OB nên O là trung điểm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B17_A.svg",
+        "caption": "Hình A: Hình tròn tâm O, AB qua O; OC nối tâm đến C; DE không qua O."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q12",
+      "type": "fill",
+      "question": "Hình A: đoạn OC nối tâm O với điểm C trên đường tròn. OC là gì?",
+      "correct_answer": "bán kính",
+      "distractors": [
+        "đường kính",
+        "cạnh hình tam giác",
+        "đỉnh"
+      ],
+      "explanation": "OC có một đầu tại tâm và đầu kia trên đường tròn.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B17_A.svg",
+        "caption": "Hình A: Hình tròn tâm O, AB qua O; OC nối tâm đến C; DE không qua O."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q13",
+      "type": "mcq",
+      "question": "Hình A: đoạn DE có hai đầu trên đường tròn nhưng không qua O. DE có là đường kính không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ cần hai đầu nằm trên đường tròn",
+        "chỉ cần DE nằm ngang"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần hai đầu nằm trên đường tròn",
+        "chỉ cần DE nằm ngang"
+      ],
+      "explanation": "Đường kính còn phải đi qua tâm; DE không qua O.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B17_A.svg",
+        "caption": "Hình A: Hình tròn tâm O, AB qua O; OC nối tâm đến C; DE không qua O."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q14",
+      "type": "fill",
+      "question": "Hình A có OA = 4 cm. OB dài mấy xăng-ti-mét?",
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "2",
+        "6"
+      ],
+      "explanation": "OA và OB là hai bán kính cùng hình tròn nên bằng nhau.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B17_A.svg",
+        "caption": "Hình A: Hình tròn tâm O, AB qua O; OC nối tâm đến C; DE không qua O."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q15",
+      "type": "mcq",
+      "question": "Hình A có OC = 5 cm. AB dài mấy xăng-ti-mét?",
+      "options": [
+        "10",
+        "5",
+        "7",
+        "15"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "5",
+        "7",
+        "15"
+      ],
+      "explanation": "OC là bán kính, AB là đường kính; 5 × 2 = 10 cm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B17_A.svg",
+        "caption": "Hình A: Hình tròn tâm O, AB qua O; OC nối tâm đến C; DE không qua O."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q16",
+      "type": "fill",
+      "question": "Một đoạn qua tâm nhưng chỉ có một đầu trên đường tròn có chắc là đường kính không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "luôn đúng",
+        "chỉ cần đoạn dài"
+      ],
+      "explanation": "Đường kính cần cả hai đầu trên đường tròn và đi qua tâm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q17",
+      "type": "mcq",
+      "question": "Đường kính 12 cm có bán kính mấy xăng-ti-mét?",
+      "options": [
+        "6",
+        "12",
+        "2",
+        "10"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "12",
+        "2",
+        "10"
+      ],
+      "explanation": "12 : 2 = 6 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q18",
+      "type": "fill",
+      "question": "Một bạn nói hai đường kính của cùng hình tròn dài khác nhau. Nhận định đó đúng không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "đúng nếu một đoạn nằm dọc",
+        "đúng nếu khác màu"
+      ],
+      "explanation": "Mỗi đường kính đều dài gấp hai lần cùng bán kính nên các đường kính bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q19",
+      "type": "mcq",
+      "question": "Giữ nguyên tâm và độ mở com pa, vẽ lại một vòng. Đường vẽ có trùng đường tròn trước không?",
+      "options": [
+        "có",
+        "không",
+        "luôn to hơn",
+        "luôn nhỏ hơn"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "luôn to hơn",
+        "luôn nhỏ hơn"
+      ],
+      "explanation": "Tâm và khoảng cách từ tâm đến đường tròn không đổi nên đường vẽ trùng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q20",
+      "type": "fill",
+      "question": "Giữ tâm, tăng độ mở com pa. Đường tròn mới có bán kính như thế nào?",
+      "correct_answer": "lớn hơn",
+      "distractors": [
+        "nhỏ hơn",
+        "không đổi",
+        "bằng 0"
+      ],
+      "explanation": "Độ mở com pa chính là bán kính; tăng độ mở thì bán kính tăng.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q21",
+      "type": "mcq",
+      "question": "Huy vẽ vòng tròn bán kính 4 cm làm mặt huy hiệu. Đường kính mặt huy hiệu mấy xăng-ti-mét?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "12"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "6",
+        "12"
+      ],
+      "explanation": "4 × 2 = 8 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q22",
+      "type": "fill",
+      "question": "Mặt đồng hồ đồ chơi có đường kính 14 cm. Từ tâm tới viền dài mấy xăng-ti-mét?",
+      "correct_answer": "7",
+      "distractors": [
+        "14",
+        "2",
+        "12"
+      ],
+      "explanation": "Khoảng từ tâm tới viền là bán kính; 14 : 2 = 7 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q23",
+      "type": "mcq",
+      "question": "Một vòng tròn có bán kính 6 cm. Hai đường kính vẽ ngang và dọc có cùng độ dài mấy xăng-ti-mét?",
+      "options": [
+        "12",
+        "6",
+        "8",
+        "18"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "8",
+        "18"
+      ],
+      "explanation": "Mỗi đường kính dài 6 × 2 = 12 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q24",
+      "type": "fill",
+      "question": "Lan cần vẽ đường tròn bán kính 2 cm. Com pa phải mở mấy xăng-ti-mét?",
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "1",
+        "6"
+      ],
+      "explanation": "Độ mở phải bằng bán kính đã yêu cầu, là 2 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q25",
+      "type": "mcq",
+      "question": "Mai muốn vẽ đường tròn đường kính 10 cm. Com pa cần mở mấy xăng-ti-mét?",
+      "options": [
+        "5",
+        "10",
+        "2",
+        "8"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "10",
+        "2",
+        "8"
+      ],
+      "explanation": "Tìm bán kính: 10 : 2 = 5 cm; mở com pa 5 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q26",
+      "type": "fill",
+      "question": "Vòng giấy tròn có bán kính 7 cm, kẻ một đường kính. Đoạn kẻ dài mấy xăng-ti-mét?",
+      "correct_answer": "14",
+      "distractors": [
+        "7",
+        "9",
+        "21"
+      ],
+      "explanation": "7 × 2 = 14 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q27",
+      "type": "mcq",
+      "question": "Trên huy hiệu tròn, đoạn từ tâm O đến chấm A trên viền dài 3 cm. Đến chấm B khác trên cùng viền dài mấy xăng-ti-mét?",
+      "options": [
+        "3",
+        "6",
+        "1",
+        "9"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "1",
+        "9"
+      ],
+      "explanation": "OA và OB là các bán kính của cùng hình tròn nên bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q28",
+      "type": "fill",
+      "question": "Một biển tròn đồ chơi có đường kính 18 cm. Bán kính là mấy xăng-ti-mét?",
+      "correct_answer": "9",
+      "distractors": [
+        "18",
+        "2",
+        "16"
+      ],
+      "explanation": "18 : 2 = 9 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q29",
+      "type": "mcq",
+      "question": "An mở com pa 4 cm rồi vẽ. Bạn gọi 4 cm là đường kính. Đường kính thực sự là bao nhiêu?",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "6"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "2",
+        "6"
+      ],
+      "explanation": "4 cm là bán kính; đường kính 4 × 2 = 8 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q30",
+      "type": "fill",
+      "question": "Một đường tròn có hai đường kính AB và CD cùng qua tâm O. AB = 16 cm. CD dài mấy xăng-ti-mét?",
+      "correct_answer": "16",
+      "distractors": [
+        "8",
+        "32",
+        "14"
+      ],
+      "explanation": "Hai đường kính của cùng hình tròn bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q31",
+      "type": "mcq",
+      "question": "Hai hình tròn có bán kính 3 cm và 5 cm. Đường kính hình thứ hai hơn hình thứ nhất mấy xăng-ti-mét?",
+      "options": [
+        "4",
+        "2",
+        "8",
+        "16"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "2",
+        "8",
+        "16"
+      ],
+      "explanation": "Đường kính lần lượt 3 × 2 = 6 và 5 × 2 = 10; 10 - 6 = 4 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q32",
+      "type": "fill",
+      "question": "Một con kiến đi thẳng từ A qua tâm O đến B theo đường kính. OA = 6 cm. Quãng đi mấy xăng-ti-mét?",
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "3",
+        "18"
+      ],
+      "explanation": "OA = OB = 6 cm; 6 + 6 = 12 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q33",
+      "type": "mcq",
+      "question": "Hai bán kính OM và ON cùng hình tròn. OM = 8 cm. ON dài mấy xăng-ti-mét?",
+      "options": [
+        "8",
+        "16",
+        "4",
+        "10"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "16",
+        "4",
+        "10"
+      ],
+      "explanation": "Các bán kính cùng hình tròn bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q34",
+      "type": "fill",
+      "question": "Một vòng tròn đường kính 6 cm. Muốn vẽ vòng khác cùng kích thước, com pa mở mấy xăng-ti-mét?",
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "2",
+        "4"
+      ],
+      "explanation": "6 : 2 = 3 cm là bán kính cần dùng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q35",
+      "type": "mcq",
+      "question": "Có một dây thẳng căng ngang hình tròn qua tâm, hai đầu trên viền, dài 20 cm. Bán kính hình tròn là mấy xăng-ti-mét?",
+      "options": [
+        "10",
+        "20",
+        "2",
+        "18"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "20",
+        "2",
+        "18"
+      ],
+      "explanation": "Dây theo đường kính; 20 : 2 = 10 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q36",
+      "type": "fill",
+      "question": "Hình tròn bán kính 5 cm. Đường đi gồm hai bán kính nối từ viền tới tâm rồi ra viền có tổng dài mấy xăng-ti-mét?",
+      "correct_answer": "10",
+      "distractors": [
+        "5",
+        "7",
+        "15"
+      ],
+      "explanation": "Cộng hai bán kính: 5 + 5 = 10 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q37",
+      "type": "mcq",
+      "question": "Hai huy hiệu tròn có cùng đường kính 12 cm. Bán kính của mỗi huy hiệu là mấy xăng-ti-mét?",
+      "options": [
+        "6",
+        "12",
+        "3",
+        "10"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "12",
+        "3",
+        "10"
+      ],
+      "explanation": "12 : 2 = 6 cm cho mỗi huy hiệu.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q38",
+      "type": "fill",
+      "question": "Một bạn mở com pa 3 cm, giữ đầu nhọn nhưng đổi độ mở giữa chừng. Đường vẽ có bảo đảm là một đường tròn không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "luôn là hình vuông",
+        "chỉ cần quay nhanh"
+      ],
+      "explanation": "Bán kính phải không đổi trong khi quay; thay đổi độ mở làm khoảng cách tới tâm thay đổi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q39",
+      "type": "mcq",
+      "question": "Một hình tròn có bán kính 9 cm. Vẽ đường kính dài mấy xăng-ti-mét?",
+      "options": [
+        "18",
+        "9",
+        "11",
+        "27"
+      ],
+      "correct_answer": "18",
+      "distractors": [
+        "9",
+        "11",
+        "27"
+      ],
+      "explanation": "9 × 2 = 18 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B17_Q40",
+      "type": "fill",
+      "question": "Đường kính AB dài 10 cm, tâm O nằm trên AB. OA dài mấy xăng-ti-mét?",
+      "correct_answer": "5",
+      "distractors": [
+        "10",
+        "2",
+        "8"
+      ],
+      "explanation": "O là trung điểm AB; 10 : 2 = 5 cm.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B17_GAME1",
+      "title": "Khám phá vòng tròn",
+      "mode": "treasure",
+      "objective": "Nhận biết tâm, bán kính, đường kính và tính độ dài để mở rương.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án, đọc lời giải rồi sang câu tiếp theo.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B17_Q01",
+        "TOAN3_T1_B17_Q02",
+        "TOAN3_T1_B17_Q03",
+        "TOAN3_T1_B17_Q04",
+        "TOAN3_T1_B17_Q05",
+        "TOAN3_T1_B17_Q06",
+        "TOAN3_T1_B17_Q07",
+        "TOAN3_T1_B17_Q08",
+        "TOAN3_T1_B17_Q09",
+        "TOAN3_T1_B17_Q10",
+        "TOAN3_T1_B17_Q11",
+        "TOAN3_T1_B17_Q12",
+        "TOAN3_T1_B17_Q13",
+        "TOAN3_T1_B17_Q14",
+        "TOAN3_T1_B17_Q15",
+        "TOAN3_T1_B17_Q16",
+        "TOAN3_T1_B17_Q17",
+        "TOAN3_T1_B17_Q18",
+        "TOAN3_T1_B17_Q19",
+        "TOAN3_T1_B17_Q20",
+        "TOAN3_T1_B17_Q21",
+        "TOAN3_T1_B17_Q22",
+        "TOAN3_T1_B17_Q23",
+        "TOAN3_T1_B17_Q24",
+        "TOAN3_T1_B17_Q25",
+        "TOAN3_T1_B17_Q26",
+        "TOAN3_T1_B17_Q27",
+        "TOAN3_T1_B17_Q28",
+        "TOAN3_T1_B17_Q29",
+        "TOAN3_T1_B17_Q30",
+        "TOAN3_T1_B17_Q31",
+        "TOAN3_T1_B17_Q32",
+        "TOAN3_T1_B17_Q33",
+        "TOAN3_T1_B17_Q34",
+        "TOAN3_T1_B17_Q35",
+        "TOAN3_T1_B17_Q36",
+        "TOAN3_T1_B17_Q37",
+        "TOAN3_T1_B17_Q38",
+        "TOAN3_T1_B17_Q39",
+        "TOAN3_T1_B17_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B17_A.svg",
+      "caption": "Hình A: Hình tròn tâm O, AB qua O; OC nối tâm đến C; DE không qua O."
+    }
+  ]
+}

@@ -17,6 +17,9 @@ for entry in index['lessons']:
     obj=json.loads((ROOT/entry['path']).read_text());ready+=1
     assert obj['id']==entry['id'] and len(obj['practice'])==entry['question_count']==40
     assert len(obj['games'])==entry['game_count']
+    for figure in obj.get('figures',[]): assert (ROOT/figure['path']).is_file()
+    for activity in obj.get('activities',[]):
+        assert activity['title'] and activity['materials'] and activity['steps'] and activity['check']
     md=(ROOT/entry['markdown']).read_text();counts={};prompts=set()
     for q in obj['practice']:
         assert q['question_id'] not in ids;ids.add(q['question_id'])

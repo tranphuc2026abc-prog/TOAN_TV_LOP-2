@@ -1,0 +1,52 @@
+[
+  {
+    "topic":"Làm quen với hình phẳng, hình khối",
+    "objectives":["Nhận biết tâm, bán kính và đường kính của hình tròn.","Vận dụng quan hệ đường kính gấp hai lần bán kính; bước đầu dùng com pa để vẽ đường tròn."],
+    "intro":"Hãy đặt đầu nhọn com pa tại một điểm cố định và giữ nguyên độ mở khi quay đầu bút. Điểm cố định là tâm; khoảng cách từ đó tới đường vẽ là bán kính. Một đoạn thẳng đi qua tâm và nối hai điểm trên đường tròn là đường kính.",
+    "rules":["Bán kính nối tâm với một điểm trên đường tròn. Các bán kính của cùng một hình tròn dài bằng nhau.","Đường kính có hai đầu trên đường tròn và đi qua tâm. Tâm là trung điểm của đường kính.","Đường kính dài bằng hai lần bán kính; bán kính bằng đường kính chia 2.","Khi vẽ bằng com pa, đầu nhọn giữ tại tâm, độ mở không đổi. Một đoạn nối hai điểm trên đường tròn mà không qua tâm không phải đường kính."],
+    "steps":["Tìm và gọi tên tâm trước.","Xét hai đầu đoạn thẳng: đoạn có nối tâm ra đường tròn không, hoặc có hai đầu trên đường tròn và qua tâm không?","Tính độ dài bằng quan hệ gấp đôi hoặc chia đôi.","Vẽ đường tròn: xác định tâm, đo độ mở com pa rồi quay đầu bút, giữ đầu nhọn tại tâm."],
+    "errors":["Gọi mọi đoạn nối hai điểm trên đường tròn là đường kính.","Nhầm độ mở com pa với đường kính.","Cho rằng bán kính nằm ngang dài khác bán kính nằm nghiêng.","Đổi độ mở hoặc để trượt tâm khi đang quay com pa."],
+    "examples":[["Hình tròn tâm O có bán kính 4 cm. Tính đường kính.",["Đường kính gồm hai bán kính.","4 × 2 = 8. Đường kính dài 8 cm."]],["Đường kính AB dài 14 cm, O là tâm. Tính OA.",["O là trung điểm của AB, nên OA là nửa AB.","14 : 2 = 7. OA dài 7 cm."]],["Một đoạn nối hai điểm trên đường tròn nhưng không đi qua tâm. Có là đường kính không?",["Kiểm tra điều kiện đi qua tâm.","Đoạn không qua tâm, nên không phải đường kính."]]],
+    "game":["Khám phá vòng tròn","Nhận biết tâm, bán kính, đường kính và tính độ dài để mở rương."],
+    "mode":"treasure"
+  },
+  {
+    "topic":"Làm quen với hình phẳng, hình khối",
+    "objectives":["Nhận biết đỉnh và hai cạnh của góc.","Dùng ê ke để kiểm tra góc vuông, phân biệt góc vuông với góc không vuông ở nhiều hướng."],
+    "intro":"Hai cạnh cùng xuất phát từ một điểm tạo nên một góc. Điểm chung đó là đỉnh. Không phải chỉ góc có một cạnh ngang, một cạnh đứng mới vuông: góc vuông còn có thể được xoay nghiêng.",
+    "rules":["Mỗi góc có một đỉnh và hai cạnh cùng xuất phát từ đỉnh.","Dùng góc vuông của ê ke để kiểm tra: đỉnh trùng đỉnh, một cạnh trùng một cạnh rồi xét cạnh còn lại.","Nếu cả hai cạnh khớp với hai cạnh góc vuông của ê ke, đó là góc vuông; nếu không, đó là góc không vuông.","Xoay góc hoặc kéo dài các cạnh theo đúng hướng không làm đổi loại góc. Độ dài hai cạnh vẽ bằng nhau chưa đủ để gọi là góc vuông."],
+    "steps":["Xác định điểm chung của hai cạnh để tìm đỉnh.","Chọn đúng góc vuông của ê ke.","Đặt đỉnh ê ke trùng đỉnh góc, một cạnh khớp một cạnh góc.","Quan sát cạnh còn lại có khớp không rồi kết luận, kể cả với góc xoay nghiêng."],
+    "errors":["Đặt đỉnh ê ke vào giữa cạnh thay vì đỉnh góc.","Chỉ kiểm tra một cạnh đã kết luận góc vuông.","Dựa vào cạnh dài hay ngắn để gọi góc vuông.","Cho rằng góc vuông xoay nghiêng sẽ thành góc không vuông."],
+    "examples":[["Góc có hai cạnh OA và OB. Tìm đỉnh.",["Hai cạnh đều bắt đầu tại O.","O là đỉnh, OA và OB là hai cạnh."]],["Đỉnh ê ke trùng đỉnh góc, một cạnh khớp nhưng cạnh kia không khớp. Kết luận.",["Một cạnh khớp chưa đủ.","Vì cạnh còn lại không khớp nên góc đang xét không vuông."]],["Một góc vuông được xoay nghiêng. Kiểm tra thế nào?",["Xoay ê ke theo hình, giữ đỉnh trùng đỉnh.","Kiểm tra cả hai cạnh. Góc vẫn vuông nếu hai cạnh khớp."]]],
+    "game":["Kiểm chứng cùng ê ke","Xét đỉnh, cạnh và cách dùng ê ke để xác định các nhận định đúng/sai."],
+    "mode":"tf"
+  },
+  {
+    "topic":"Làm quen với hình phẳng, hình khối",
+    "objectives":["Nhận biết đỉnh, cạnh, góc của tam giác và tứ giác.","Nêu đặc điểm hình chữ nhật và hình vuông; dùng đặc điểm để tìm cạnh bằng nhau và phân loại hình."],
+    "intro":"Quan sát hình khép kín, hãy đếm số đỉnh và số cạnh trước. Muốn phân biệt hình chữ nhật, hình vuông với những tứ giác khác, còn phải kiểm tra các góc và độ dài cạnh.",
+    "rules":["Tam giác có 3 đỉnh, 3 cạnh và 3 góc. Tứ giác có 4 đỉnh, 4 cạnh và 4 góc.","Hình chữ nhật có 4 góc vuông, 2 cạnh dài bằng nhau và 2 cạnh ngắn bằng nhau. Độ dài cạnh dài gọi là chiều dài; cạnh ngắn gọi là chiều rộng.","Hình vuông có 4 góc vuông và 4 cạnh bằng nhau.","Tứ giác có bốn cạnh bằng nhau nhưng góc không vuông chưa phải hình vuông. Xoay một hình không làm đổi đặc điểm của hình đó."],
+    "steps":["Đếm và gọi tên các đỉnh theo thứ tự quanh hình.","Gọi tên các cạnh bằng hai đầu mút, không nhầm đoạn nối hai đỉnh đối diện là cạnh.","Dùng ê ke kiểm tra góc, dùng thước đo hoặc đọc số đo cho sẵn để so cạnh.","Kết luận dựa trên đầy đủ đặc điểm; với hình chữ nhật, tìm các cặp cạnh đối diện bằng nhau."],
+    "errors":["Gọi đoạn nối hai đỉnh đối diện là một cạnh của tứ giác.","Thấy bốn cạnh bằng nhau là kết luận hình vuông mà chưa xét góc.","Nhầm chiều dài với chiều rộng.","Cho rằng xoay nghiêng hình vuông làm hình mất các góc vuông."],
+    "examples":[["Hình chữ nhật ABCD có AB = 8 cm, BC = 3 cm. Tìm CD và AD.",["AB và CD là hai cạnh dài đối diện nên CD = 8 cm.","BC và AD là hai cạnh ngắn đối diện nên AD = 3 cm."]],["Một tứ giác có bốn cạnh bằng nhau, một góc không vuông. Có là hình vuông không?",["Hình vuông cần đủ bốn cạnh bằng nhau và bốn góc vuông.","Có góc không vuông nên tứ giác này không phải hình vuông."]],["Tam giác MNP có những cạnh nào?",["Đi quanh hình từ M qua N, P rồi về M.","Ba cạnh là MN, NP và PM."]]],
+    "game":["Ghép thẻ hình học","Ghép đặc điểm và tình huống về cạnh, đỉnh, góc với kết quả phù hợp."],
+    "mode":"match"
+  },
+  {
+    "topic":"Thực hành hình học",
+    "objectives":["Dùng thước và ê ke vẽ góc vuông, hình chữ nhật, hình vuông.","Dùng com pa vẽ đường tròn; phối hợp các hình thành họa tiết trang trí và tự kiểm tra sản phẩm."],
+    "intro":"Đây là bài thực hành: em cần giấy, bút chì, thước, ê ke, com pa và màu. Hãy vẽ từng bước, kiểm tra hình trước khi tô màu. Bảng vẽ trên lưới chỉ mô phỏng thao tác; một ô trên màn hình không được coi là một xăng-ti-mét ngoài đời.",
+    "rules":["Vẽ góc vuông bằng đúng góc vuông của ê ke: đỉnh trùng điểm cần vẽ, kẻ hai cạnh theo dụng cụ.","Vẽ hình chữ nhật phải giữ bốn góc vuông và các cặp cạnh đối diện bằng nhau. Vẽ hình vuông còn phải giữ cả bốn cạnh bằng nhau.","Com pa có đầu nhọn tại tâm, độ mở bằng bán kính. Giữ tâm và độ mở không đổi khi quay.","Sau khi vẽ, kiểm tra độ dài bằng thước và góc bằng ê ke rồi mới tô màu hoặc ghép họa tiết.","Trên lưới ô vuông có thể đếm hàng, cột để dựng hình. Phải đọc đúng đơn vị: số ô khác với số cm."],
+    "steps":["Chuẩn bị dụng cụ; chọn vị trí đủ rộng trên giấy.","Đánh dấu đỉnh hoặc tâm; dùng dụng cụ vẽ theo mẫu đã xác định.","Kiểm tra góc, cạnh hoặc bán kính; sửa nét sai.","Trang trí bằng cách lặp lại, thay vị trí hoặc xoay các hình đã vẽ, sau đó tô màu vừa phải."],
+    "errors":["Vẽ bốn cạnh bằng nhau nhưng không kiểm tra góc vuông.","Để đầu nhọn com pa trượt hoặc đổi độ mở khi quay.","Đếm số điểm lưới thay vì đếm số khoảng ô.","Coi độ dài đo trên màn hình là số cm thật.","Tô màu che hết nét khi hình chưa được kiểm tra."],
+    "examples":[["Vẽ hình vuông cạnh 3 cm trên giấy.",["Vẽ một cạnh dài 3 cm bằng thước.","Dùng ê ke vẽ hai cạnh liền kề tạo góc vuông, đo mỗi cạnh 3 cm.","Nối hai đỉnh còn lại, kiểm tra đủ bốn cạnh 3 cm và bốn góc vuông."]],["Vẽ đường tròn có đường kính 8 cm.",["Tìm bán kính: 8 : 2 = 4 cm.","Đánh dấu tâm O, mở com pa 4 cm bằng thước.","Giữ đầu nhọn ở O, quay đầu bút và giữ nguyên độ mở."]],["Vẽ hình chữ nhật dài 4 ô, rộng 2 ô trên lưới.",["Chọn một đỉnh, đếm 4 khoảng ô theo hàng ngang và 2 khoảng theo cột dọc.","Nối bốn đỉnh theo các đường lưới để có bốn góc vuông.","Kiểm tra hai cạnh dài 4 ô và hai cạnh ngắn 2 ô."]]],
+    "activities":[
+      {"title":"Góc vuông trên giấy","materials":["Giấy","Bút chì","Ê ke"],"steps":["Đánh dấu đỉnh A.","Đặt đỉnh góc vuông ê ke tại A, kẻ hai cạnh.","Xoay giấy và kiểm tra lại góc bằng ê ke."],"check":["Hai cạnh cùng xuất phát từ A.","Góc khớp với góc vuông của ê ke."]},
+      {"title":"Hình vuông và hình chữ nhật","materials":["Giấy","Bút chì","Thước","Ê ke"],"steps":["Vẽ hình vuông cạnh 3 cm.","Vẽ hình chữ nhật dài 5 cm, rộng 2 cm.","Đo lại các cạnh và kiểm tra góc."],"check":["Hình vuông có bốn cạnh 3 cm.","Hình chữ nhật có hai cạnh 5 cm, hai cạnh 2 cm.","Mỗi hình có bốn góc vuông."]},
+      {"title":"Họa tiết đường tròn","materials":["Giấy","Bút chì","Thước","Com pa","Bút màu"],"steps":["Đánh dấu hai tâm khác nhau.","Giữ độ mở 2 cm, vẽ hai đường tròn cùng bán kính.","Tô màu phần em thích và kiểm tra tâm không bị trượt."],"check":["Hai đường tròn có tâm khác nhau.","Bán kính mỗi đường tròn là 2 cm.","Nét khép kín, không đổi độ mở trong khi vẽ."]}
+    ],
+    "drawing_practice":true,
+    "game":["Tăng tốc kiểm tra hình vẽ","Ôn thao tác vẽ, kiểm tra góc, cạnh, tâm và bán kính qua câu hỏi trong 60 giây."],
+    "mode":"speed"
+  }
+]

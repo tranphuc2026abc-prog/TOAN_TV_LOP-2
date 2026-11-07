@@ -1,3 +1,23 @@
+# Trạng thái mới nhất — Batch 5, 07/11/2026
+
+| Môn | Có học liệu riêng | Tổng danh mục | Còn bản nháp |
+|---|---:|---:|---:|
+| Toán | 20 | 81 | 61 |
+| Tiếng Việt | 0 | 62 | 62 |
+| Tiếng Anh (gồm Starter/Review) | 0 | 25 | 25 |
+| Tổng | 20 | 168 | 148 |
+
+- **800 câu, 20 trò chơi theo bài.** Thầy đã thẩm định Toán 1–4; Toán 5–20 chờ thẩm định.
+- Batch 5: Toán 17–20, 160 câu, 4 trò chơi, 6 SVG mới. Đã đọc trực quan toàn bộ trang in 52–62 (PDF 53–63).
+- Sửa lỗi OCR: Bài 18 đúng trang 54–55, Bài 19 đúng trang 56–60. Đã cập nhật danh mục nguồn và dẫn trang trong học liệu.
+- Bài 20 có hướng dẫn thực hành trên giấy cùng lưới vẽ tương tác: chữ nhật 4 ô × 2 ô, vuông cạnh 3 ô, đường tròn bán kính 2 ô, góc vuông. Hỗ trợ chọn điểm bằng chuột/phím; phân biệt ô mô phỏng với cm thật; không cộng XP từ lưới vẽ.
+- Trò ghép đôi nay luôn kèm hình/bảng nếu một câu được chọn cần tham chiếu; không để mất dữ kiện do giao diện ghép đôi.
+- Kiểm tra 20 bài/800 câu, 671 đẳng thức trong lời giải, cú pháp và kiểm thử DOM: đạt. Đã render và xem 6 SVG. Chưa kiểm thử bố cục toàn trang, âm thanh và cảm ứng trên trình duyệt thật.
+- Batch kế tiếp: **Toán 21–24**, dự kiến trang in **63–71**; phải đối chiếu PDF trước khi ghi nguồn.
+- Tiếp tục theo thứ tự Toán → Tiếng Việt → Tiếng Anh; không đánh dấu phần mới được giáo viên duyệt.
+
+## Lịch sử trước Batch 5
+
 # Trạng thái mới nhất — Batch 4, 07/11/2026
 
 ## Phạm vi đã lưu

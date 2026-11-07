@@ -1,0 +1,870 @@
+{
+  "id": "TOAN3_T1_B20",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 20,
+  "title": "Thực hành vẽ góc vuông, vẽ đường tròn, hình vuông, hình chữ nhật và vẽ trang trí",
+  "topic": "Thực hành hình học",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      61,
+      62
+    ],
+    "pdf_pages": [
+      62,
+      63
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Dùng thước và ê ke vẽ góc vuông, hình chữ nhật, hình vuông.",
+    "Dùng com pa vẽ đường tròn; phối hợp các hình thành họa tiết trang trí và tự kiểm tra sản phẩm."
+  ],
+  "knowledge": {
+    "introduction": "Đây là bài thực hành: em cần giấy, bút chì, thước, ê ke, com pa và màu. Hãy vẽ từng bước, kiểm tra hình trước khi tô màu. Bảng vẽ trên lưới chỉ mô phỏng thao tác; một ô trên màn hình không được coi là một xăng-ti-mét ngoài đời.",
+    "rules": [
+      "Vẽ góc vuông bằng đúng góc vuông của ê ke: đỉnh trùng điểm cần vẽ, kẻ hai cạnh theo dụng cụ.",
+      "Vẽ hình chữ nhật phải giữ bốn góc vuông và các cặp cạnh đối diện bằng nhau. Vẽ hình vuông còn phải giữ cả bốn cạnh bằng nhau.",
+      "Com pa có đầu nhọn tại tâm, độ mở bằng bán kính. Giữ tâm và độ mở không đổi khi quay.",
+      "Sau khi vẽ, kiểm tra độ dài bằng thước và góc bằng ê ke rồi mới tô màu hoặc ghép họa tiết.",
+      "Trên lưới ô vuông có thể đếm hàng, cột để dựng hình. Phải đọc đúng đơn vị: số ô khác với số cm."
+    ],
+    "steps": [
+      "Chuẩn bị dụng cụ; chọn vị trí đủ rộng trên giấy.",
+      "Đánh dấu đỉnh hoặc tâm; dùng dụng cụ vẽ theo mẫu đã xác định.",
+      "Kiểm tra góc, cạnh hoặc bán kính; sửa nét sai.",
+      "Trang trí bằng cách lặp lại, thay vị trí hoặc xoay các hình đã vẽ, sau đó tô màu vừa phải."
+    ],
+    "common_errors": [
+      "Vẽ bốn cạnh bằng nhau nhưng không kiểm tra góc vuông.",
+      "Để đầu nhọn com pa trượt hoặc đổi độ mở khi quay.",
+      "Đếm số điểm lưới thay vì đếm số khoảng ô.",
+      "Coi độ dài đo trên màn hình là số cm thật.",
+      "Tô màu che hết nét khi hình chưa được kiểm tra."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Vẽ hình vuông cạnh 3 cm trên giấy.",
+      "steps": [
+        "Vẽ một cạnh dài 3 cm bằng thước.",
+        "Dùng ê ke vẽ hai cạnh liền kề tạo góc vuông, đo mỗi cạnh 3 cm.",
+        "Nối hai đỉnh còn lại, kiểm tra đủ bốn cạnh 3 cm và bốn góc vuông."
+      ]
+    },
+    {
+      "question": "Vẽ đường tròn có đường kính 8 cm.",
+      "steps": [
+        "Tìm bán kính: 8 : 2 = 4 cm.",
+        "Đánh dấu tâm O, mở com pa 4 cm bằng thước.",
+        "Giữ đầu nhọn ở O, quay đầu bút và giữ nguyên độ mở."
+      ]
+    },
+    {
+      "question": "Vẽ hình chữ nhật dài 4 ô, rộng 2 ô trên lưới.",
+      "steps": [
+        "Chọn một đỉnh, đếm 4 khoảng ô theo hàng ngang và 2 khoảng theo cột dọc.",
+        "Nối bốn đỉnh theo các đường lưới để có bốn góc vuông.",
+        "Kiểm tra hai cạnh dài 4 ô và hai cạnh ngắn 2 ô."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B20_Q01",
+      "type": "mcq",
+      "question": "Dụng cụ phù hợp nhất để vẽ một đường tròn có tâm và bán kính cho trước là gì?",
+      "options": [
+        "com pa",
+        "ê ke",
+        "tẩy",
+        "keo dán"
+      ],
+      "correct_answer": "com pa",
+      "distractors": [
+        "ê ke",
+        "tẩy",
+        "keo dán"
+      ],
+      "explanation": "Com pa giữ khoảng cách từ tâm tới đầu bút không đổi.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q02",
+      "type": "fill",
+      "question": "Để vẽ góc vuông, nên dùng góc nào của ê ke?",
+      "correct_answer": "góc vuông",
+      "distractors": [
+        "góc bất kì",
+        "góc nhỏ nhất bất kì",
+        "cạnh cong"
+      ],
+      "explanation": "Ê ke có một góc vuông; dùng đúng góc này để vẽ hai cạnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q03",
+      "type": "mcq",
+      "question": "Khi vẽ đường tròn tâm O, đầu nhọn com pa đặt ở đâu?",
+      "options": [
+        "O",
+        "điểm bất kì ngoài O",
+        "mép tờ giấy",
+        "đầu bút chì"
+      ],
+      "correct_answer": "O",
+      "distractors": [
+        "điểm bất kì ngoài O",
+        "mép tờ giấy",
+        "đầu bút chì"
+      ],
+      "explanation": "Đầu nhọn cố định tại tâm O.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q04",
+      "type": "fill",
+      "question": "Muốn vẽ hình vuông, bốn cạnh phải thế nào?",
+      "correct_answer": "bằng nhau",
+      "distractors": [
+        "hai cạnh dài khác nhau",
+        "ba cạnh bằng nhau là đủ",
+        "không cần đo"
+      ],
+      "explanation": "Bốn cạnh hình vuông phải bằng nhau và bốn góc phải vuông.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q05",
+      "type": "mcq",
+      "question": "Muốn vẽ hình chữ nhật, bốn góc phải là góc gì?",
+      "options": [
+        "góc vuông",
+        "góc không vuông",
+        "góc tùy ý",
+        "không có góc"
+      ],
+      "correct_answer": "góc vuông",
+      "distractors": [
+        "góc không vuông",
+        "góc tùy ý",
+        "không có góc"
+      ],
+      "explanation": "Hình chữ nhật có bốn góc vuông.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q06",
+      "type": "fill",
+      "question": "Trên lưới ô vuông, một bước theo hàng ngang và một bước theo cột dọc tạo dạng góc gì?",
+      "correct_answer": "góc vuông",
+      "distractors": [
+        "góc không vuông",
+        "hình tròn",
+        "đường kính"
+      ],
+      "explanation": "Hàng ngang và cột dọc vuông góc trong lưới.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q07",
+      "type": "mcq",
+      "question": "Khi quay com pa, độ mở có cần giữ nguyên không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ giữ nguyên nửa vòng",
+        "luôn tăng dần"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ giữ nguyên nửa vòng",
+        "luôn tăng dần"
+      ],
+      "explanation": "Độ mở bằng bán kính; phải giữ nguyên để mọi điểm cách tâm như nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q08",
+      "type": "fill",
+      "question": "Đường tròn cần bán kính 3 cm. Com pa mở mấy xăng-ti-mét?",
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "1",
+        "9"
+      ],
+      "explanation": "Độ mở com pa bằng bán kính cần vẽ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q09",
+      "type": "mcq",
+      "question": "Vẽ góc vuông đỉnh A, đỉnh góc vuông của ê ke phải trùng điểm nào?",
+      "options": [
+        "A",
+        "điểm bất kì",
+        "giữa cạnh",
+        "mép giấy"
+      ],
+      "correct_answer": "A",
+      "distractors": [
+        "điểm bất kì",
+        "giữa cạnh",
+        "mép giấy"
+      ],
+      "explanation": "Đỉnh dụng cụ phải trùng đỉnh góc cần vẽ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q10",
+      "type": "fill",
+      "question": "Sau khi vẽ hình vuông, dùng gì để kiểm tra góc?",
+      "correct_answer": "ê ke",
+      "distractors": [
+        "com pa",
+        "tẩy",
+        "hộp màu"
+      ],
+      "explanation": "Ê ke dùng kiểm tra cả bốn góc có vuông không.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q11",
+      "type": "mcq",
+      "question": "Hình A: hình chữ nhật trên lưới dài 4 ô, rộng 2 ô. Cạnh dài đối diện cũng dài mấy ô?",
+      "options": [
+        "4",
+        "2",
+        "6",
+        "8"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "2",
+        "6",
+        "8"
+      ],
+      "explanation": "Hai cạnh dài đối diện của hình chữ nhật bằng nhau.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B20_A.svg",
+        "caption": "Hình A: Trên lưới, chữ nhật dài 4 ô rộng 2 ô, hình vuông cạnh 3 ô."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q12",
+      "type": "fill",
+      "question": "Hình A: hình vuông bên phải có mỗi cạnh 3 ô. Cạnh dưới dài mấy ô?",
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "9",
+        "2"
+      ],
+      "explanation": "Bốn cạnh của hình vuông bằng nhau.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B20_A.svg",
+        "caption": "Hình A: Trên lưới, chữ nhật dài 4 ô rộng 2 ô, hình vuông cạnh 3 ô."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q13",
+      "type": "mcq",
+      "question": "Một bạn vẽ hình vuông nhưng chỉ đo hai cạnh. Đã đủ kiểm tra cả hình chưa?",
+      "options": [
+        "chưa",
+        "rồi",
+        "chỉ nhìn màu là đủ",
+        "không cần đo cạnh"
+      ],
+      "correct_answer": "chưa",
+      "distractors": [
+        "rồi",
+        "chỉ nhìn màu là đủ",
+        "không cần đo cạnh"
+      ],
+      "explanation": "Cần kiểm tra bốn cạnh bằng nhau và bốn góc vuông.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q14",
+      "type": "fill",
+      "question": "Một bạn vẽ hình chữ nhật dài 5 cm, rộng 3 cm nhưng một góc không vuông. Hình đã đạt yêu cầu chưa?",
+      "correct_answer": "chưa",
+      "distractors": [
+        "rồi",
+        "chỉ cần đúng độ dài",
+        "chỉ cần có bốn cạnh"
+      ],
+      "explanation": "Hình chữ nhật cần đủ bốn góc vuông.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q15",
+      "type": "mcq",
+      "question": "Muốn vẽ đường tròn đường kính 8 cm, phải mở com pa mấy xăng-ti-mét?",
+      "options": [
+        "4",
+        "8",
+        "2",
+        "6"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "2",
+        "6"
+      ],
+      "explanation": "Độ mở là bán kính; 8 : 2 = 4 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q16",
+      "type": "fill",
+      "question": "Vẽ lại đường tròn cùng tâm, cùng bán kính trên hình cũ. Đường vẽ có trùng nhau không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "luôn lớn hơn",
+        "luôn nhỏ hơn"
+      ],
+      "explanation": "Tâm và bán kính giữ nguyên thì đường tròn không đổi.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q17",
+      "type": "mcq",
+      "question": "Hai hình vuông bằng nhau đặt xoay khác hướng có còn cùng số góc vuông không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ hình đặt ngang",
+        "chỉ hình đặt dọc"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ hình đặt ngang",
+        "chỉ hình đặt dọc"
+      ],
+      "explanation": "Mỗi hình vẫn có bốn góc vuông, dù đặt xoay hướng nào.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q18",
+      "type": "fill",
+      "question": "Gấp giấy làm dụng cụ kiểm tra góc, sau đó nên so lại với dụng cụ nào?",
+      "correct_answer": "ê ke",
+      "distractors": [
+        "com pa",
+        "vòng tròn",
+        "hộp màu"
+      ],
+      "explanation": "So với ê ke chuẩn để kiểm tra góc giấy gấp có vuông không.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q19",
+      "type": "mcq",
+      "question": "Trong khi vẽ com pa bị trượt khỏi tâm. Cần làm gì?",
+      "options": [
+        "đặt lại đúng tâm và vẽ lại",
+        "tiếp tục coi là đúng",
+        "tăng độ mở tùy ý",
+        "đổi màu là đủ"
+      ],
+      "correct_answer": "đặt lại đúng tâm và vẽ lại",
+      "distractors": [
+        "tiếp tục coi là đúng",
+        "tăng độ mở tùy ý",
+        "đổi màu là đủ"
+      ],
+      "explanation": "Đường tròn yêu cầu có tâm cố định; trượt tâm làm đường vẽ sai.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q20",
+      "type": "fill",
+      "question": "Vẽ một cạnh hình vuông dài 4 cm. Cạnh liền kề phải dài mấy xăng-ti-mét?",
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "2",
+        "6"
+      ],
+      "explanation": "Các cạnh hình vuông bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q21",
+      "type": "mcq",
+      "question": "Lan vẽ hình vuông cạnh 5 cm. Cần đo mỗi cạnh còn lại dài mấy xăng-ti-mét?",
+      "options": [
+        "5",
+        "10",
+        "4",
+        "6"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "10",
+        "4",
+        "6"
+      ],
+      "explanation": "Mỗi cạnh phải dài bằng cạnh đã vẽ, là 5 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q22",
+      "type": "fill",
+      "question": "An vẽ hình chữ nhật dài 7 cm, rộng 4 cm. Cạnh dài thứ hai cần dài mấy xăng-ti-mét?",
+      "correct_answer": "7",
+      "distractors": [
+        "4",
+        "11",
+        "3"
+      ],
+      "explanation": "Hai cạnh dài đối diện bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q23",
+      "type": "mcq",
+      "question": "Mai vẽ hình chữ nhật dài 7 cm, rộng 4 cm. Cạnh ngắn thứ hai cần dài mấy xăng-ti-mét?",
+      "options": [
+        "4",
+        "7",
+        "11",
+        "3"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "7",
+        "11",
+        "3"
+      ],
+      "explanation": "Hai cạnh ngắn đối diện bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q24",
+      "type": "fill",
+      "question": "Một họa tiết gồm 3 hình vuông rời nhau. Cả 3 hình có mấy góc vuông tại các đỉnh?",
+      "correct_answer": "12",
+      "distractors": [
+        "3",
+        "4",
+        "7"
+      ],
+      "explanation": "Mỗi hình có 4; 4 × 3 = 12 góc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q25",
+      "type": "mcq",
+      "question": "Mỗi cánh quạt trang trí là một hình tam giác. Dùng 4 cánh rời nhau có tổng mấy đỉnh?",
+      "options": [
+        "12",
+        "7",
+        "4",
+        "16"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "7",
+        "4",
+        "16"
+      ],
+      "explanation": "Mỗi tam giác có 3 đỉnh; 3 × 4 = 12 đỉnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q26",
+      "type": "fill",
+      "question": "Nam cần vẽ đường tròn đường kính 12 cm. Com pa mở mấy xăng-ti-mét?",
+      "correct_answer": "6",
+      "distractors": [
+        "12",
+        "2",
+        "10"
+      ],
+      "explanation": "12 : 2 = 6 cm là bán kính.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q27",
+      "type": "mcq",
+      "question": "Vẽ hai đường tròn có cùng độ mở com pa 4 cm nhưng tâm khác nhau. Hai đường tròn có cùng bán kính không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ khi tâm trùng",
+        "chỉ khi màu giống nhau"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi tâm trùng",
+        "chỉ khi màu giống nhau"
+      ],
+      "explanation": "Độ mở giữ nguyên 4 cm nên hai bán kính bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q28",
+      "type": "fill",
+      "question": "Một mẫu trang trí có 5 hình chữ nhật rời nhau. Tổng số cạnh của các hình là mấy?",
+      "correct_answer": "20",
+      "distractors": [
+        "9",
+        "16",
+        "25"
+      ],
+      "explanation": "Mỗi hình có 4 cạnh; 4 × 5 = 20 cạnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q29",
+      "type": "mcq",
+      "question": "Lan dùng lưới vẽ hình vuông cạnh 4 ô. Cạnh trên đã dài 4 ô, cạnh bên phải cần dài mấy ô?",
+      "options": [
+        "4",
+        "8",
+        "2",
+        "6"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "2",
+        "6"
+      ],
+      "explanation": "Cạnh bên phải cũng phải bằng 4 ô.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q30",
+      "type": "fill",
+      "question": "Một hình chữ nhật trên lưới có cạnh trên 6 ô, cạnh phải 2 ô. Cạnh trái cần dài mấy ô?",
+      "correct_answer": "2",
+      "distractors": [
+        "6",
+        "8",
+        "4"
+      ],
+      "explanation": "Cạnh trái và phải bằng nhau, đều 2 ô.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q31",
+      "type": "mcq",
+      "question": "An vẽ góc vuông nghiêng so với mép giấy. Có bắt buộc quay góc cho một cạnh nằm ngang mới được không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ cạnh ngang mới đúng",
+        "chỉ cạnh đứng mới đúng"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cạnh ngang mới đúng",
+        "chỉ cạnh đứng mới đúng"
+      ],
+      "explanation": "Góc vuông có thể ở nhiều hướng; dùng ê ke kiểm tra thay vì dựa vào mép giấy.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q32",
+      "type": "fill",
+      "question": "Mai vẽ 4 đường tròn cùng tâm và cùng độ mở. Có mấy đường tròn khác nhau về vị trí nét vẽ?",
+      "correct_answer": "1",
+      "distractors": [
+        "4",
+        "2",
+        "3"
+      ],
+      "explanation": "Cùng tâm, cùng bán kính thì các đường vẽ trùng nhau, chỉ một đường tròn khác biệt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q33",
+      "type": "mcq",
+      "question": "Để tạo hai đường tròn cùng kích thước nhưng không trùng nhau, nên giữ độ mở và thay đổi điều gì?",
+      "options": [
+        "tâm",
+        "màu giấy thay cho tâm",
+        "độ dài bán kính",
+        "góc vuông"
+      ],
+      "correct_answer": "tâm",
+      "distractors": [
+        "màu giấy thay cho tâm",
+        "độ dài bán kính",
+        "góc vuông"
+      ],
+      "explanation": "Đổi vị trí tâm, giữ độ mở, được hai đường tròn cùng bán kính ở vị trí khác nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q34",
+      "type": "fill",
+      "question": "Một mẫu có 2 hình vuông và 1 hình chữ nhật rời nhau. Có tổng mấy góc vuông ở các đỉnh?",
+      "correct_answer": "12",
+      "distractors": [
+        "8",
+        "6",
+        "7"
+      ],
+      "explanation": "Ba hình, mỗi hình 4 góc vuông; 4 × 3 = 12 góc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q35",
+      "type": "mcq",
+      "question": "Tờ giấy hình vuông cạnh 6 cm. Cần vẽ một hình vuông nhỏ cạnh 3 cm. Cạnh nhỏ bằng một phần mấy cạnh lớn? Viết dạng 1/n.",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "2/1"
+      ],
+      "correct_answer": "1/2",
+      "distractors": [
+        "1/3",
+        "1/4",
+        "2/1"
+      ],
+      "explanation": "6 : 2 = 3 cm nên cạnh nhỏ bằng một phần hai cạnh lớn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q36",
+      "type": "fill",
+      "question": "Em vẽ hình chữ nhật 4 ô dài, 2 ô rộng. Muốn thành hình vuông giữ nguyên chiều dài, chiều rộng phải tăng thêm mấy ô?",
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "6",
+        "1"
+      ],
+      "explanation": "Hình vuông cần cạnh 4 ô; 4 - 2 = 2 ô cần tăng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q37",
+      "type": "mcq",
+      "question": "Một hình vuông vẽ trên lưới có cạnh 3 ô. Đổi màu tô có làm thay đổi số góc vuông không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ màu xanh mới vuông",
+        "chỉ màu đỏ mới vuông"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ màu xanh mới vuông",
+        "chỉ màu đỏ mới vuông"
+      ],
+      "explanation": "Tô màu không thay đổi hình hay các góc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q38",
+      "type": "fill",
+      "question": "Họa tiết hình tròn bán kính 5 cm. Vẽ thêm một đường kính để trang trí. Đường kính dài mấy xăng-ti-mét?",
+      "correct_answer": "10",
+      "distractors": [
+        "5",
+        "7",
+        "15"
+      ],
+      "explanation": "5 × 2 = 10 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q39",
+      "type": "mcq",
+      "question": "An vẽ hình có bốn cạnh 4 cm nhưng chưa dùng ê ke. Để xác nhận hình vuông, cần kiểm tra thêm gì?",
+      "options": [
+        "bốn góc vuông",
+        "chỉ một góc tùy ý",
+        "chỉ màu hình",
+        "chỉ tâm hình"
+      ],
+      "correct_answer": "bốn góc vuông",
+      "distractors": [
+        "chỉ một góc tùy ý",
+        "chỉ màu hình",
+        "chỉ tâm hình"
+      ],
+      "explanation": "Bốn cạnh bằng nhau chưa đủ; cần cả bốn góc vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B20_Q40",
+      "type": "fill",
+      "question": "Vẽ góc vuông trên giấy, hai cạnh được kéo dài thêm theo đúng hướng. Góc có còn vuông không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi hai cạnh dài bằng nhau",
+        "chỉ khi tô góc"
+      ],
+      "explanation": "Kéo dài theo đúng hướng không làm thay đổi góc.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B20_GAME1",
+      "title": "Tăng tốc kiểm tra hình vẽ",
+      "mode": "speed",
+      "objective": "Ôn thao tác vẽ, kiểm tra góc, cạnh, tâm và bán kính qua câu hỏi trong 60 giây.",
+      "rules": [
+        "Trả lời các câu thuộc bài trong 60 giây.",
+        "Mỗi câu đúng được 10 điểm, sai không được điểm; chuyển ngay sang câu tiếp.",
+        "Hết giờ thì kết thúc. Điểm riêng của lượt chơi, không thay kết quả luyện tập."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B20_Q01",
+        "TOAN3_T1_B20_Q02",
+        "TOAN3_T1_B20_Q03",
+        "TOAN3_T1_B20_Q04",
+        "TOAN3_T1_B20_Q05",
+        "TOAN3_T1_B20_Q06",
+        "TOAN3_T1_B20_Q07",
+        "TOAN3_T1_B20_Q08",
+        "TOAN3_T1_B20_Q09",
+        "TOAN3_T1_B20_Q10",
+        "TOAN3_T1_B20_Q11",
+        "TOAN3_T1_B20_Q12",
+        "TOAN3_T1_B20_Q13",
+        "TOAN3_T1_B20_Q14",
+        "TOAN3_T1_B20_Q15",
+        "TOAN3_T1_B20_Q16",
+        "TOAN3_T1_B20_Q17",
+        "TOAN3_T1_B20_Q18",
+        "TOAN3_T1_B20_Q19",
+        "TOAN3_T1_B20_Q20",
+        "TOAN3_T1_B20_Q21",
+        "TOAN3_T1_B20_Q22",
+        "TOAN3_T1_B20_Q23",
+        "TOAN3_T1_B20_Q24",
+        "TOAN3_T1_B20_Q25",
+        "TOAN3_T1_B20_Q26",
+        "TOAN3_T1_B20_Q27",
+        "TOAN3_T1_B20_Q28",
+        "TOAN3_T1_B20_Q29",
+        "TOAN3_T1_B20_Q30",
+        "TOAN3_T1_B20_Q31",
+        "TOAN3_T1_B20_Q32",
+        "TOAN3_T1_B20_Q33",
+        "TOAN3_T1_B20_Q34",
+        "TOAN3_T1_B20_Q35",
+        "TOAN3_T1_B20_Q36",
+        "TOAN3_T1_B20_Q37",
+        "TOAN3_T1_B20_Q38",
+        "TOAN3_T1_B20_Q39",
+        "TOAN3_T1_B20_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": null
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B20_A.svg",
+      "caption": "Hình A: Trên lưới, chữ nhật dài 4 ô rộng 2 ô, hình vuông cạnh 3 ô."
+    }
+  ],
+  "activities": [
+    {
+      "title": "Góc vuông trên giấy",
+      "materials": [
+        "Giấy",
+        "Bút chì",
+        "Ê ke"
+      ],
+      "steps": [
+        "Đánh dấu đỉnh A.",
+        "Đặt đỉnh góc vuông ê ke tại A, kẻ hai cạnh.",
+        "Xoay giấy và kiểm tra lại góc bằng ê ke."
+      ],
+      "check": [
+        "Hai cạnh cùng xuất phát từ A.",
+        "Góc khớp với góc vuông của ê ke."
+      ]
+    },
+    {
+      "title": "Hình vuông và hình chữ nhật",
+      "materials": [
+        "Giấy",
+        "Bút chì",
+        "Thước",
+        "Ê ke"
+      ],
+      "steps": [
+        "Vẽ hình vuông cạnh 3 cm.",
+        "Vẽ hình chữ nhật dài 5 cm, rộng 2 cm.",
+        "Đo lại các cạnh và kiểm tra góc."
+      ],
+      "check": [
+        "Hình vuông có bốn cạnh 3 cm.",
+        "Hình chữ nhật có hai cạnh 5 cm, hai cạnh 2 cm.",
+        "Mỗi hình có bốn góc vuông."
+      ]
+    },
+    {
+      "title": "Họa tiết đường tròn",
+      "materials": [
+        "Giấy",
+        "Bút chì",
+        "Thước",
+        "Com pa",
+        "Bút màu"
+      ],
+      "steps": [
+        "Đánh dấu hai tâm khác nhau.",
+        "Giữ độ mở 2 cm, vẽ hai đường tròn cùng bán kính.",
+        "Tô màu phần em thích và kiểm tra tâm không bị trượt."
+      ],
+      "check": [
+        "Hai đường tròn có tâm khác nhau.",
+        "Bán kính mỗi đường tròn là 2 cm.",
+        "Nét khép kín, không đổi độ mở trong khi vẽ."
+      ]
+    }
+  ],
+  "drawing_practice": true
+}
