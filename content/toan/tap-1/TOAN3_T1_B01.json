@@ -1,0 +1,582 @@
+{
+  "id": "TOAN3_T1_B01",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 1,
+  "title": "Ôn tập các số đến 1 000",
+  "topic": "Ôn tập và bổ sung",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      6,
+      8
+    ],
+    "pdf_pages": [
+      7,
+      9
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Đọc, viết và phân tích số đến 1 000.",
+    "So sánh, sắp xếp và tìm số liền trước, liền sau."
+  ],
+  "knowledge": {
+    "introduction": "Hãy tưởng tượng mỗi số có các ngăn trăm, chục và đơn vị. Chữ số ở ngăn nào cho biết có bao nhiêu phần của ngăn đó.",
+    "rules": [
+      "Số có ba chữ số gồm hàng trăm, hàng chục, hàng đơn vị. Chữ số 0 vẫn cần được viết để giữ đúng hàng.",
+      "So sánh từ hàng trăm; nếu bằng nhau, so hàng chục, rồi hàng đơn vị.",
+      "Số liền trước kém 1; số liền sau hơn 1. 999 có số liền sau là 1 000."
+    ],
+    "steps": [
+      "Xác định từng hàng rồi đọc hoặc viết số.",
+      "Khi sắp xếp, tìm số bé nhất hoặc lớn nhất trước.",
+      "Đọc lại số và kiểm tra vị trí chữ số 0."
+    ],
+    "common_errors": [
+      "Viết 806 thành 86 làm mất hàng trăm.",
+      "Chỉ nhìn chữ số cuối để so sánh 409 và 490."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Viết số gồm 4 trăm, 0 chục, 7 đơn vị.",
+      "steps": [
+        "4 trăm là 400; không có chục; có 7 đơn vị.",
+        "400 + 7 = 407."
+      ]
+    },
+    {
+      "question": "Xếp 592, 529, 295 tăng dần.",
+      "steps": [
+        "295 có hàng trăm nhỏ nhất.",
+        "529 và 592 cùng 5 trăm; 2 chục bé hơn 9 chục.",
+        "Thứ tự: 295, 529, 592."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B01_Q01",
+      "type": "mcq",
+      "question": "Chữ số hàng trăm của 462 là bao nhiêu?",
+      "options": [
+        "4",
+        "14",
+        "5",
+        "3"
+      ],
+      "correct_answer": "4",
+      "explanation": "462 gồm 4 trăm, 6 chục, 2 đơn vị.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q02",
+      "type": "fill",
+      "question": "Chữ số hàng chục của 573 là bao nhiêu?",
+      "correct_answer": "7",
+      "explanation": "573 = 500 + 70 + 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q03",
+      "type": "mcq",
+      "question": "Chữ số hàng đơn vị của 809 là bao nhiêu?",
+      "options": [
+        "9",
+        "19",
+        "10",
+        "8"
+      ],
+      "correct_answer": "9",
+      "explanation": "Chữ số cuối cùng của 809 là 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q04",
+      "type": "fill",
+      "question": "6 trăm, 4 chục, 2 đơn vị viết thành số nào?",
+      "correct_answer": "642",
+      "explanation": "600 + 40 + 2 = 642.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q05",
+      "type": "mcq",
+      "question": "Số liền sau của 698 là số nào?",
+      "options": [
+        "699",
+        "709",
+        "689",
+        "700"
+      ],
+      "correct_answer": "699",
+      "explanation": "Đếm thêm 1: 698, 699.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q06",
+      "type": "fill",
+      "question": "Số liền trước của 900 là số nào?",
+      "correct_answer": "899",
+      "explanation": "Bớt 1 từ 900 được 899.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q07",
+      "type": "mcq",
+      "question": "Số lớn nhất có ba chữ số là số nào?",
+      "options": [
+        "999",
+        "1009",
+        "989",
+        "1000"
+      ],
+      "correct_answer": "999",
+      "explanation": "Mỗi hàng đều nhận chữ số lớn nhất là 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q08",
+      "type": "fill",
+      "question": "8 trăm và 6 đơn vị viết thành số nào?",
+      "correct_answer": "806",
+      "explanation": "Hàng chục bằng 0, nên viết 806.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q09",
+      "type": "mcq",
+      "question": "Trong số 740, chữ số 4 có giá trị bao nhiêu?",
+      "options": [
+        "40",
+        "50",
+        "30",
+        "41"
+      ],
+      "correct_answer": "40",
+      "explanation": "4 ở hàng chục nên có giá trị 40.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q10",
+      "type": "fill",
+      "question": "Số tròn trăm liền sau 600 là số nào?",
+      "correct_answer": "700",
+      "explanation": "Các số tròn trăm tăng mỗi lần 100.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q11",
+      "type": "mcq",
+      "question": "Điền số: 580 = 500 + ...",
+      "options": [
+        "80",
+        "90",
+        "70",
+        "81"
+      ],
+      "correct_answer": "80",
+      "explanation": "580 gồm 5 trăm và 8 chục.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q12",
+      "type": "fill",
+      "question": "Điền số: 903 = 900 + ...",
+      "correct_answer": "3",
+      "explanation": "Hàng chục bằng 0, phần còn lại là 3 đơn vị.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q13",
+      "type": "mcq",
+      "question": "Số nào lớn hơn: 687 hay 678?",
+      "options": [
+        "687",
+        "697",
+        "677",
+        "688"
+      ],
+      "correct_answer": "687",
+      "explanation": "Cùng 6 trăm, so hàng chục: 8 lớn hơn 7.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q14",
+      "type": "fill",
+      "question": "Số nào bé hơn: 409 hay 490?",
+      "correct_answer": "409",
+      "explanation": "Cùng 4 trăm, so hàng chục: 0 bé hơn 9.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q15",
+      "type": "mcq",
+      "question": "Số lớn nhất trong 638, 683, 368 là số nào?",
+      "options": [
+        "683",
+        "693",
+        "673",
+        "684"
+      ],
+      "correct_answer": "683",
+      "explanation": "638 và 683 cùng 6 trăm; 8 chục lớn hơn 3 chục.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q16",
+      "type": "fill",
+      "question": "Số bé nhất trong 720, 702, 270 là số nào?",
+      "correct_answer": "270",
+      "explanation": "270 có 2 trăm, hai số còn lại có 7 trăm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q17",
+      "type": "mcq",
+      "question": "Điền số còn thiếu: 795, 796, ..., 798.",
+      "options": [
+        "797",
+        "807",
+        "787",
+        "798"
+      ],
+      "correct_answer": "797",
+      "explanation": "Dãy tăng mỗi lần 1.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q18",
+      "type": "fill",
+      "question": "Điền số còn thiếu: 604, 603, ..., 601.",
+      "correct_answer": "602",
+      "explanation": "Dãy giảm mỗi lần 1.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q19",
+      "type": "mcq",
+      "question": "Số nằm giữa 499 và 501 là số nào?",
+      "options": [
+        "500",
+        "510",
+        "490",
+        "501"
+      ],
+      "correct_answer": "500",
+      "explanation": "499, 500, 501 là ba số liên tiếp.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q20",
+      "type": "fill",
+      "question": "7 trăm, 0 chục, 8 đơn vị có phải là 780 không? Nhập số đúng.",
+      "correct_answer": "708",
+      "explanation": "780 có 8 chục; 708 mới có 8 đơn vị.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q21",
+      "type": "mcq",
+      "question": "Thẻ số phòng ghi 405. Chữ số hàng chục trên thẻ là bao nhiêu?",
+      "options": [
+        "0",
+        "10",
+        "1",
+        "100"
+      ],
+      "correct_answer": "0",
+      "explanation": "405 có 4 trăm, 0 chục, 5 đơn vị.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q22",
+      "type": "fill",
+      "question": "Nhà sách đánh số sách liên tiếp. Sau cuốn số 599 là cuốn số mấy?",
+      "correct_answer": "600",
+      "explanation": "Số liền sau 599 là 600.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q23",
+      "type": "mcq",
+      "question": "An đứng ngay trước bạn mang số 301 trong hàng đánh số liên tiếp. An mang số mấy?",
+      "options": [
+        "300",
+        "310",
+        "290",
+        "301"
+      ],
+      "correct_answer": "300",
+      "explanation": "Số liền trước 301 là 300.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q24",
+      "type": "fill",
+      "question": "Ba hộp ghi 256, 265, 526. Hộp có số lớn nhất ghi số nào?",
+      "correct_answer": "526",
+      "explanation": "526 có 5 trăm; hai số kia có 2 trăm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q25",
+      "type": "mcq",
+      "question": "Ba túi ghi 708, 780, 807. Túi có số bé nhất ghi số nào?",
+      "options": [
+        "708",
+        "718",
+        "698",
+        "709"
+      ],
+      "correct_answer": "708",
+      "explanation": "Trong hai số có 7 trăm, 0 chục bé hơn 8 chục.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q26",
+      "type": "fill",
+      "question": "Đồng hồ đếm hiện 899. Sau một lần tăng thêm 1, màn hình hiện số nào?",
+      "correct_answer": "900",
+      "explanation": "899 thêm 1 được 900.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q27",
+      "type": "mcq",
+      "question": "Từ ba thẻ 2, 4, 8, mỗi thẻ dùng một lần, lập số lớn nhất.",
+      "options": [
+        "842",
+        "852",
+        "832",
+        "843"
+      ],
+      "correct_answer": "842",
+      "explanation": "Đặt chữ số lớn nhất 8 ở hàng trăm, tiếp theo 4 rồi 2.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q28",
+      "type": "fill",
+      "question": "Từ ba thẻ 2, 4, 8, mỗi thẻ dùng một lần, lập số bé nhất.",
+      "correct_answer": "248",
+      "explanation": "Đặt chữ số bé nhất 2 ở hàng trăm, tiếp theo 4 rồi 8.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q29",
+      "type": "mcq",
+      "question": "Từ ba thẻ 0, 3, 7, mỗi thẻ dùng một lần, lập số có ba chữ số bé nhất.",
+      "options": [
+        "307",
+        "317",
+        "297",
+        "308"
+      ],
+      "correct_answer": "307",
+      "explanation": "Hàng trăm không thể là 0; chọn 3 rồi 0 rồi 7.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q30",
+      "type": "fill",
+      "question": "Từ ba thẻ 0, 3, 7, mỗi thẻ dùng một lần, lập số lớn nhất.",
+      "correct_answer": "730",
+      "explanation": "Chọn 7 ở hàng trăm, 3 ở hàng chục, 0 ở hàng đơn vị.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q31",
+      "type": "mcq",
+      "question": "Mã tủ gồm 5 trăm, 2 chục và 0 đơn vị. Mã tủ là số nào?",
+      "options": [
+        "520",
+        "530",
+        "510",
+        "521"
+      ],
+      "correct_answer": "520",
+      "explanation": "500 + 20 + 0 = 520.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q32",
+      "type": "fill",
+      "question": "Một số có 6 ở hàng trăm, 0 ở hàng chục, 5 ở hàng đơn vị. Số đó là bao nhiêu?",
+      "correct_answer": "605",
+      "explanation": "Giữ chữ số 0 ở giữa để chỉ không có chục.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q33",
+      "type": "mcq",
+      "question": "Trên tia số, ba vạch liên tiếp ghi 397, ..., 399. Vạch giữa ghi số nào?",
+      "options": [
+        "398",
+        "408",
+        "388",
+        "399"
+      ],
+      "correct_answer": "398",
+      "explanation": "Mỗi vạch tăng 1; 397 thêm 1 là 398.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q34",
+      "type": "fill",
+      "question": "Tủ A có số 456, tủ B có số 465. Số tủ nào lớn hơn? Nhập số đó.",
+      "correct_answer": "465",
+      "explanation": "Cùng 4 trăm, 6 chục lớn hơn 5 chục.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q35",
+      "type": "mcq",
+      "question": "Mã vé là số liền trước 1 000. Mã vé là bao nhiêu?",
+      "options": [
+        "999",
+        "1009",
+        "989",
+        "1000"
+      ],
+      "correct_answer": "999",
+      "explanation": "999 thêm 1 bằng 1 000.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q36",
+      "type": "fill",
+      "question": "Ba bạn mang số 813, 831, 318. Xếp số tăng dần, số ở giữa là số nào?",
+      "correct_answer": "813",
+      "explanation": "Thứ tự là 318, 813, 831.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q37",
+      "type": "mcq",
+      "question": "Các thẻ 540, 504, 450 được xếp giảm dần. Thẻ đầu tiên ghi số nào?",
+      "options": [
+        "540",
+        "550",
+        "530",
+        "541"
+      ],
+      "correct_answer": "540",
+      "explanation": "Hai số có 5 trăm: 540 lớn hơn 504.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q38",
+      "type": "fill",
+      "question": "Số nhà có ba chữ số giống nhau và chữ số hàng chục là 6. Số nhà là bao nhiêu?",
+      "correct_answer": "666",
+      "explanation": "Cả ba chữ số đều là 6.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q39",
+      "type": "mcq",
+      "question": "Một số lớn hơn 679 và bé hơn 681. Đó là số nào?",
+      "options": [
+        "680",
+        "690",
+        "670",
+        "681"
+      ],
+      "correct_answer": "680",
+      "explanation": "Chỉ có 680 nằm giữa hai số đó.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B01_Q40",
+      "type": "fill",
+      "question": "Trên thẻ 963, đổi chỗ chữ số hàng trăm và hàng đơn vị. Số mới là bao nhiêu?",
+      "correct_answer": "369",
+      "explanation": "9 và 3 đổi chỗ; chữ số hàng chục 6 giữ nguyên.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B01_GAME1",
+      "title": "Mật mã chiếc tủ",
+      "mode": "treasure",
+      "objective": "Giải các câu về cấu tạo, thứ tự và so sánh số để mở từng khóa.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án để mở rương; xem phản hồi rồi chuyển câu.",
+        "Mỗi câu đúng được 10 điểm, bỏ qua hoặc sai được 0 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B01_Q01",
+        "TOAN3_T1_B01_Q02",
+        "TOAN3_T1_B01_Q03",
+        "TOAN3_T1_B01_Q04",
+        "TOAN3_T1_B01_Q05",
+        "TOAN3_T1_B01_Q06",
+        "TOAN3_T1_B01_Q07",
+        "TOAN3_T1_B01_Q08",
+        "TOAN3_T1_B01_Q09",
+        "TOAN3_T1_B01_Q10",
+        "TOAN3_T1_B01_Q11",
+        "TOAN3_T1_B01_Q12",
+        "TOAN3_T1_B01_Q13",
+        "TOAN3_T1_B01_Q14",
+        "TOAN3_T1_B01_Q15",
+        "TOAN3_T1_B01_Q16",
+        "TOAN3_T1_B01_Q17",
+        "TOAN3_T1_B01_Q18",
+        "TOAN3_T1_B01_Q19",
+        "TOAN3_T1_B01_Q20",
+        "TOAN3_T1_B01_Q21",
+        "TOAN3_T1_B01_Q22",
+        "TOAN3_T1_B01_Q23",
+        "TOAN3_T1_B01_Q24",
+        "TOAN3_T1_B01_Q25",
+        "TOAN3_T1_B01_Q26",
+        "TOAN3_T1_B01_Q27",
+        "TOAN3_T1_B01_Q28",
+        "TOAN3_T1_B01_Q29",
+        "TOAN3_T1_B01_Q30",
+        "TOAN3_T1_B01_Q31",
+        "TOAN3_T1_B01_Q32",
+        "TOAN3_T1_B01_Q33",
+        "TOAN3_T1_B01_Q34",
+        "TOAN3_T1_B01_Q35",
+        "TOAN3_T1_B01_Q36",
+        "TOAN3_T1_B01_Q37",
+        "TOAN3_T1_B01_Q38",
+        "TOAN3_T1_B01_Q39",
+        "TOAN3_T1_B01_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

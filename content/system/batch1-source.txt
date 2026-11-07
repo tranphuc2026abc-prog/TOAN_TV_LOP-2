@@ -1,0 +1,164 @@
+Bài 1
+Chữ số hàng trăm của 462 là bao nhiêu?|4|462 gồm 4 trăm, 6 chục, 2 đơn vị.
+Chữ số hàng chục của 573 là bao nhiêu?|7|573 = 500 + 70 + 3.
+Chữ số hàng đơn vị của 809 là bao nhiêu?|9|Chữ số cuối cùng của 809 là 9.
+6 trăm, 4 chục, 2 đơn vị viết thành số nào?|642|600 + 40 + 2 = 642.
+Số liền sau của 698 là số nào?|699|Đếm thêm 1: 698, 699.
+Số liền trước của 900 là số nào?|899|Bớt 1 từ 900 được 899.
+Số lớn nhất có ba chữ số là số nào?|999|Mỗi hàng đều nhận chữ số lớn nhất là 9.
+8 trăm và 6 đơn vị viết thành số nào?|806|Hàng chục bằng 0, nên viết 806.
+Trong số 740, chữ số 4 có giá trị bao nhiêu?|40|4 ở hàng chục nên có giá trị 40.
+Số tròn trăm liền sau 600 là số nào?|700|Các số tròn trăm tăng mỗi lần 100.
+Điền số: 580 = 500 + ...|80|580 gồm 5 trăm và 8 chục.
+Điền số: 903 = 900 + ...|3|Hàng chục bằng 0, phần còn lại là 3 đơn vị.
+Số nào lớn hơn: 687 hay 678?|687|Cùng 6 trăm, so hàng chục: 8 lớn hơn 7.
+Số nào bé hơn: 409 hay 490?|409|Cùng 4 trăm, so hàng chục: 0 bé hơn 9.
+Số lớn nhất trong 638, 683, 368 là số nào?|683|638 và 683 cùng 6 trăm; 8 chục lớn hơn 3 chục.
+Số bé nhất trong 720, 702, 270 là số nào?|270|270 có 2 trăm, hai số còn lại có 7 trăm.
+Điền số còn thiếu: 795, 796, ..., 798.|797|Dãy tăng mỗi lần 1.
+Điền số còn thiếu: 604, 603, ..., 601.|602|Dãy giảm mỗi lần 1.
+Số nằm giữa 499 và 501 là số nào?|500|499, 500, 501 là ba số liên tiếp.
+7 trăm, 0 chục, 8 đơn vị có phải là 780 không? Nhập số đúng.|708|780 có 8 chục; 708 mới có 8 đơn vị.
+Thẻ số phòng ghi 405. Chữ số hàng chục trên thẻ là bao nhiêu?|0|405 có 4 trăm, 0 chục, 5 đơn vị.
+Nhà sách đánh số sách liên tiếp. Sau cuốn số 599 là cuốn số mấy?|600|Số liền sau 599 là 600.
+An đứng ngay trước bạn mang số 301 trong hàng đánh số liên tiếp. An mang số mấy?|300|Số liền trước 301 là 300.
+Ba hộp ghi 256, 265, 526. Hộp có số lớn nhất ghi số nào?|526|526 có 5 trăm; hai số kia có 2 trăm.
+Ba túi ghi 708, 780, 807. Túi có số bé nhất ghi số nào?|708|Trong hai số có 7 trăm, 0 chục bé hơn 8 chục.
+Đồng hồ đếm hiện 899. Sau một lần tăng thêm 1, màn hình hiện số nào?|900|899 thêm 1 được 900.
+Từ ba thẻ 2, 4, 8, mỗi thẻ dùng một lần, lập số lớn nhất.|842|Đặt chữ số lớn nhất 8 ở hàng trăm, tiếp theo 4 rồi 2.
+Từ ba thẻ 2, 4, 8, mỗi thẻ dùng một lần, lập số bé nhất.|248|Đặt chữ số bé nhất 2 ở hàng trăm, tiếp theo 4 rồi 8.
+Từ ba thẻ 0, 3, 7, mỗi thẻ dùng một lần, lập số có ba chữ số bé nhất.|307|Hàng trăm không thể là 0; chọn 3 rồi 0 rồi 7.
+Từ ba thẻ 0, 3, 7, mỗi thẻ dùng một lần, lập số lớn nhất.|730|Chọn 7 ở hàng trăm, 3 ở hàng chục, 0 ở hàng đơn vị.
+Mã tủ gồm 5 trăm, 2 chục và 0 đơn vị. Mã tủ là số nào?|520|500 + 20 + 0 = 520.
+Một số có 6 ở hàng trăm, 0 ở hàng chục, 5 ở hàng đơn vị. Số đó là bao nhiêu?|605|Giữ chữ số 0 ở giữa để chỉ không có chục.
+Trên tia số, ba vạch liên tiếp ghi 397, ..., 399. Vạch giữa ghi số nào?|398|Mỗi vạch tăng 1; 397 thêm 1 là 398.
+Tủ A có số 456, tủ B có số 465. Số tủ nào lớn hơn? Nhập số đó.|465|Cùng 4 trăm, 6 chục lớn hơn 5 chục.
+Mã vé là số liền trước 1 000. Mã vé là bao nhiêu?|999|999 thêm 1 bằng 1 000.
+Ba bạn mang số 813, 831, 318. Xếp số tăng dần, số ở giữa là số nào?|813|Thứ tự là 318, 813, 831.
+Các thẻ 540, 504, 450 được xếp giảm dần. Thẻ đầu tiên ghi số nào?|540|Hai số có 5 trăm: 540 lớn hơn 504.
+Số nhà có ba chữ số giống nhau và chữ số hàng chục là 6. Số nhà là bao nhiêu?|666|Cả ba chữ số đều là 6.
+Một số lớn hơn 679 và bé hơn 681. Đó là số nào?|680|Chỉ có 680 nằm giữa hai số đó.
+Trên thẻ 963, đổi chỗ chữ số hàng trăm và hàng đơn vị. Số mới là bao nhiêu?|369|9 và 3 đổi chỗ; chữ số hàng chục 6 giữ nguyên.
+Bài 2
+Tính nhẩm 200 + 600.|800|2 trăm + 6 trăm = 8 trăm.
+Tính nhẩm 900 - 200.|700|9 trăm bớt 2 trăm còn 7 trăm.
+Tính nhẩm 60 + 30.|90|6 chục + 3 chục = 9 chục.
+Tính nhẩm 80 - 30.|50|8 chục bớt 3 chục còn 5 chục.
+Tính 231 + 124.|355|Đơn vị: 1 + 4 = 5; chục: 3 + 2 = 5; trăm: 2 + 1 = 3.
+Tính 786 - 243.|543|Đơn vị: 6 - 3 = 3; chục: 8 - 4 = 4; trăm: 7 - 2 = 5.
+Tính 47 + 36.|83|7 + 6 = 13, viết 3 nhớ 1; 4 + 3 + 1 = 8.
+Tính 92 - 47.|45|Mượn 1 chục: 12 - 7 = 5; còn 8 chục, 8 - 4 = 4.
+Tính 350 + 250.|600|35 chục + 25 chục = 60 chục = 600.
+Tính 1 000 - 600.|400|10 trăm bớt 6 trăm còn 4 trăm.
+Tính 268 + 157.|425|8 + 7 = 15 nhớ 1; 6 + 5 + 1 = 12 nhớ 1; 2 + 1 + 1 = 4.
+Tính 603 - 278.|325|Mượn qua hàng chục: 13 - 8 = 5; 9 - 7 = 2; 5 - 2 = 3.
+Tính 125 + 75 + 100.|300|125 + 75 = 200; 200 + 100 = 300.
+Tính 500 - 120 - 80.|300|500 - 120 = 380; 380 - 80 = 300.
+Tính 399 + 1.|400|9 đơn vị thêm 1 đổi thành 1 chục; tiếp tục đổi được 400.
+Tính 700 - 1.|699|700 bớt 1 còn 699.
+Điền số: 240 + 160 = ...|400|24 chục + 16 chục = 40 chục.
+Kết quả nào lớn hơn: 320 + 80 hay 450 - 40? Nhập kết quả lớn hơn.|410|320 + 80 = 400; 450 - 40 = 410; 410 lớn hơn 400.
+Tính 458 + 242.|700|8 + 2 = 10 nhớ 1; 5 + 4 + 1 = 10 nhớ 1; 4 + 2 + 1 = 7.
+Tính 810 - 465.|345|Mượn: 10 - 5 = 5; 10 - 6 = 4; 7 - 4 = 3.
+Thư viện có 235 truyện, nhận thêm 128 truyện. Có tất cả bao nhiêu truyện?|363|235 + 128 = 363; thêm truyện nên làm phép cộng.
+Vườn có 420 cây, chuyển đi 165 cây. Còn bao nhiêu cây?|255|420 - 165 = 255; chuyển đi nên làm phép trừ.
+Lớp 3A góp 146 vỏ hộp, lớp 3B góp 158 vỏ hộp. Hai lớp góp bao nhiêu vỏ hộp?|304|146 + 158 = 304 vỏ hộp.
+Lan đọc 87 trang, Mai đọc 69 trang. Lan đọc nhiều hơn Mai bao nhiêu trang?|18|87 - 69 = 18 trang.
+Cuộn dây dài 300 cm, cắt đi 75 cm. Còn bao nhiêu xăng-ti-mét?|225|300 - 75 = 225 cm.
+Buổi sáng bán 185 ổ bánh, chiều bán 97 ổ. Cả ngày bán bao nhiêu ổ?|282|185 + 97 = 282 ổ.
+Xe có 38 người, 16 người xuống. Còn bao nhiêu người?|22|38 - 16 = 22 người.
+Hộp có 125 bút xanh và 175 bút đỏ. Có tất cả bao nhiêu bút?|300|125 + 175 = 300 bút.
+Đội trồng 560 cây, kế hoạch là 800 cây. Cần trồng thêm bao nhiêu cây?|240|800 - 560 = 240 cây.
+Nam có 250 nhãn vở, cho em 85 nhãn. Nam còn bao nhiêu nhãn vở?|165|250 - 85 = 165 nhãn.
+Kho có 450 quyển vở và 375 bút chì. Tổng số vở và bút là bao nhiêu?|825|450 + 375 = 825 đồ dùng.
+Đoạn đường dài 950 m, đã đi 480 m. Còn bao nhiêu mét?|470|950 - 480 = 470 m.
+Đội xanh được 368 điểm, đội đỏ được 395 điểm. Đội đỏ hơn bao nhiêu điểm?|27|395 - 368 = 27 điểm.
+Giá sách thứ nhất có 209 cuốn, giá thứ hai có 191 cuốn. Tổng cộng bao nhiêu cuốn?|400|209 + 191 = 400 cuốn.
+Vườn có 345 cây cam và 278 cây bưởi. Có tất cả bao nhiêu cây?|623|345 + 278 = 623 cây.
+Kho có 702 viên gạch, dùng 358 viên. Còn bao nhiêu viên?|344|702 - 358 = 344 viên.
+Hội trường có 600 ghế, đã ngồi 487 ghế. Còn bao nhiêu ghế trống?|113|600 - 487 = 113 ghế.
+Một tuần em tiết kiệm 35 nghìn đồng, tuần sau 45 nghìn đồng. Tổng là bao nhiêu nghìn đồng?|80|35 + 45 = 80 nghìn đồng.
+Ngày đầu bán 750 quả trứng, ngày sau bán 500 quả. Ngày đầu bán nhiều hơn bao nhiêu quả?|250|750 - 500 = 250 quả.
+Có 284 cây giống, nhận thêm 116 cây. Số cây hiện có cách 500 cây bao nhiêu cây?|100|284 + 116 = 400; 500 - 400 = 100 cây.
+Bài 3
+Trong 24 + 13 = 37, tổng là số nào?|37|Kết quả phép cộng gọi là tổng.
+Trong 68 - 25 = 43, số bị trừ là số nào?|68|Số đứng trước dấu trừ là số bị trừ.
+Trong 68 - 25 = 43, số trừ là số nào?|25|Số đứng sau dấu trừ là số trừ.
+Trong 68 - 25 = 43, hiệu là số nào?|43|Kết quả phép trừ gọi là hiệu.
+Tìm số còn thiếu: ... + 12 = 31.|19|Số hạng chưa biết = 31 - 12 = 19.
+Tìm số còn thiếu: 26 + ... = 45.|19|Số hạng chưa biết = 45 - 26 = 19.
+Tìm số còn thiếu: ... - 14 = 22.|36|Số bị trừ = 22 + 14 = 36.
+Tìm số còn thiếu: 56 - ... = 24.|32|Số trừ = 56 - 24 = 32.
+Tổng là 90, một số hạng là 40. Số hạng kia là bao nhiêu?|50|90 - 40 = 50.
+Hiệu là 30, số trừ là 20. Số bị trừ là bao nhiêu?|50|30 + 20 = 50.
+Tìm số còn thiếu: ... + 135 = 320.|185|320 - 135 = 185; thử lại 185 + 135 = 320.
+Tìm số còn thiếu: 248 + ... = 500.|252|500 - 248 = 252; thử lại 248 + 252 = 500.
+Tìm số còn thiếu: ... - 175 = 260.|435|260 + 175 = 435; thử lại 435 - 175 = 260.
+Tìm số còn thiếu: 604 - ... = 289.|315|604 - 289 = 315; thử lại 604 - 315 = 289.
+Tổng hai số là 700, một số là 285. Số còn lại là bao nhiêu?|415|700 - 285 = 415.
+Số bị trừ là 800, hiệu là 365. Số trừ là bao nhiêu?|435|800 - 365 = 435.
+Số trừ là 246, hiệu là 154. Số bị trừ là bao nhiêu?|400|154 + 246 = 400.
+Tìm số còn thiếu: 73 + ... = 100.|27|100 - 73 = 27.
+Tìm số còn thiếu: ... - 48 = 52.|100|52 + 48 = 100.
+Tìm số còn thiếu: 91 - ... = 37.|54|91 - 37 = 54.
+Hộp có 36 bút gồm bút xanh và 14 bút đỏ. Có bao nhiêu bút xanh?|22|Số bút xanh là số hạng chưa biết: 36 - 14 = 22.
+Bình cho bạn 17 viên bi, còn 28 viên. Ban đầu Bình có bao nhiêu viên?|45|Số ban đầu là số bị trừ: 28 + 17 = 45.
+Có 75 ghế, còn trống 29 ghế. Có bao nhiêu ghế đã có người ngồi?|46|Số ghế có người ngồi là số trừ: 75 - 29 = 46.
+Hai lớp có 83 học sinh, lớp 3A có 41 em. Lớp 3B có bao nhiêu em?|42|83 - 41 = 42 học sinh.
+Lan có 120 nhãn vở, nhận thêm một số thì có 200. Lan nhận thêm bao nhiêu nhãn?|80|120 + số nhận = 200; số nhận = 200 - 120 = 80.
+Kho xuất 235 kg gạo, còn 465 kg. Ban đầu kho có bao nhiêu ki-lô-gam?|700|Số ban đầu = số còn + số xuất = 465 + 235 = 700.
+Một sợi dây dài 180 cm, cắt đi một đoạn còn 95 cm. Đoạn cắt dài bao nhiêu xăng-ti-mét?|85|180 - số cắt = 95; số cắt = 180 - 95 = 85.
+Hai đội góp 540 quyển sách, đội A góp 275 quyển. Đội B góp bao nhiêu quyển?|265|275 + số đội B = 540; số đội B = 540 - 275 = 265.
+Xe có một số người, 18 người xuống còn 24 người. Lúc đầu có bao nhiêu người?|42|Số ban đầu - 18 = 24; số ban đầu = 24 + 18 = 42.
+Giỏ có 63 quả, lấy đi một số còn 38 quả. Đã lấy đi bao nhiêu quả?|25|63 - số lấy = 38; số lấy = 63 - 38 = 25.
+Tủ có 245 cuốn, thêm sách vào thì có 400 cuốn. Thêm bao nhiêu cuốn?|155|245 + số thêm = 400; số thêm = 400 - 245 = 155.
+Đội trồng thêm 128 cây thì có 350 cây. Trước đó đã có bao nhiêu cây?|222|Số trước đó + 128 = 350; số trước đó = 350 - 128 = 222.
+Mai cho em 26 tem và còn 49 tem. Trước khi cho Mai có bao nhiêu tem?|75|Số ban đầu - 26 = 49; số ban đầu = 49 + 26 = 75.
+Một số trừ đi 39 được 61. Số đó là bao nhiêu?|100|Số bị trừ = 61 + 39 = 100.
+Lấy 150 trừ một số được 84. Số đó là bao nhiêu?|66|Số trừ = 150 - 84 = 66.
+Một số cộng 57 được 132. Số đó là bao nhiêu?|75|Số hạng chưa biết = 132 - 57 = 75.
+Hộp có 90 hạt gồm hạt trắng và 47 hạt đen. Có bao nhiêu hạt trắng?|43|Số hạt trắng = 90 - 47 = 43.
+Đàn gà bán đi 125 con còn 278 con. Ban đầu có bao nhiêu con?|403|Số ban đầu = 278 + 125 = 403.
+Rổ có 320 quả, lấy đi một số còn 196 quả. Lấy đi bao nhiêu quả?|124|Số lấy đi = 320 - 196 = 124.
+Tổng hai số là 625, số hạng thứ nhất là 308. Số hạng thứ hai là bao nhiêu?|317|625 - 308 = 317; kiểm tra 308 + 317 = 625.
+Bài 4
+Tính 2 × 3.|6|2 + 2 + 2 = 6.
+Tính 2 × 7.|14|Bảng nhân 2: 2 × 7 = 14.
+Tính 5 × 4.|20|5 + 5 + 5 + 5 = 20.
+Tính 5 × 9.|45|Bảng nhân 5: 5 × 9 = 45.
+Tính 12 : 2.|6|Vì 2 × 6 = 12 nên 12 : 2 = 6.
+Tính 18 : 2.|9|Vì 2 × 9 = 18 nên 18 : 2 = 9.
+Tính 35 : 5.|7|Vì 5 × 7 = 35 nên 35 : 5 = 7.
+Tính 45 : 5.|9|Vì 5 × 9 = 45 nên 45 : 5 = 9.
+Tính 2 × 10.|20|Mười nhóm, mỗi nhóm 2, có 20.
+Tính 50 : 5.|10|Vì 5 × 10 = 50 nên thương là 10.
+Viết 2 + 2 + 2 + 2 + 2 thành phép nhân rồi tính. Nhập kết quả.|10|Có 5 số hạng bằng 2: 2 × 5 = 10.
+Viết 5 + 5 + 5 thành phép nhân rồi tính. Nhập kết quả.|15|Có 3 số hạng bằng 5: 5 × 3 = 15.
+Tính 2 × 6 + 4.|16|2 × 6 = 12; 12 + 4 = 16.
+Tính 5 × 3 - 7.|8|5 × 3 = 15; 15 - 7 = 8.
+Tính 20 : 2 + 6.|16|20 : 2 = 10; 10 + 6 = 16.
+Tính 40 : 5 - 3.|5|40 : 5 = 8; 8 - 3 = 5.
+Kết quả nào lớn hơn: 2 × 8 hay 5 × 3? Nhập kết quả lớn hơn.|16|2 × 8 = 16; 5 × 3 = 15; 16 lớn hơn 15.
+Kết quả nào bé hơn: 30 : 5 hay 16 : 2? Nhập kết quả bé hơn.|6|30 : 5 = 6; 16 : 2 = 8; 6 bé hơn 8.
+Điền số kế tiếp: 5, 10, 15, ...|20|Mỗi số sau hơn số trước 5.
+Điền số kế tiếp: 20, 18, 16, ...|14|Mỗi số sau kém số trước 2.
+Có 7 xe đạp, mỗi xe có 2 bánh. Có bao nhiêu bánh xe?|14|Mỗi xe có 2 bánh, 7 xe có 2 × 7 = 14 bánh.
+Có 4 bàn, mỗi bàn có 5 bạn. Có bao nhiêu bạn?|20|Mỗi bàn 5 bạn, 4 bàn có 5 × 4 = 20 bạn.
+Có 16 bút chia đều cho 2 bạn. Mỗi bạn được mấy bút?|8|16 : 2 = 8 bút mỗi bạn.
+Có 30 nhãn vở chia đều cho 5 bạn. Mỗi bạn được mấy nhãn?|6|30 : 5 = 6 nhãn mỗi bạn.
+Mỗi túi có 5 quả cam. 6 túi có bao nhiêu quả?|30|5 × 6 = 30 quả.
+Có 14 chiếc tất, xếp mỗi đôi 2 chiếc. Xếp được mấy đôi?|7|14 : 2 = 7 đôi.
+Có 25 bông hoa, cắm mỗi lọ 5 bông. Cần mấy lọ?|5|25 : 5 = 5 lọ.
+Mỗi bạn nhận 2 quyển vở. 9 bạn nhận tất cả mấy quyển?|18|2 × 9 = 18 quyển.
+Có 40 quyển truyện chia đều vào 5 ngăn. Mỗi ngăn có mấy quyển?|8|40 : 5 = 8 quyển mỗi ngăn.
+Mỗi hộp có 5 chiếc bánh. 8 hộp có bao nhiêu chiếc?|40|5 × 8 = 40 chiếc bánh.
+Mỗi đôi găng có 2 chiếc. 6 đôi có bao nhiêu chiếc?|12|2 × 6 = 12 chiếc.
+Có 20 học sinh, mỗi nhóm 2 em. Chia được mấy nhóm?|10|20 : 2 = 10 nhóm.
+Có 45 cây giống, trồng mỗi hàng 5 cây. Trồng được mấy hàng?|9|45 : 5 = 9 hàng.
+Mỗi ngày đọc 5 trang. Sau 7 ngày đọc được bao nhiêu trang?|35|5 × 7 = 35 trang.
+Có 10 chiếc cốc chia đều lên 2 khay. Mỗi khay mấy chiếc?|5|10 : 2 = 5 chiếc mỗi khay.
+Có 15 kg đậu chia đều vào 5 túi. Mỗi túi mấy ki-lô-gam?|3|15 : 5 = 3 kg mỗi túi.
+Mỗi vòng chơi được 2 sao. Chơi 8 vòng được bao nhiêu sao?|16|2 × 8 = 16 sao.
+Có 5 hộp, mỗi hộp 5 bút. Số bút đó chia đều cho 5 bạn. Mỗi bạn mấy bút?|5|5 × 5 = 25 bút; 25 : 5 = 5 bút mỗi bạn.
+Có 8 đôi giày, mỗi đôi 2 chiếc. Cho đi 6 chiếc. Còn mấy chiếc?|10|2 × 8 = 16 chiếc; 16 - 6 = 10 chiếc.
+Mua 3 gói, mỗi gói 5 nhãn vở, rồi được tặng thêm 4 nhãn. Có tất cả mấy nhãn?|19|5 × 3 = 15 nhãn; 15 + 4 = 19 nhãn.

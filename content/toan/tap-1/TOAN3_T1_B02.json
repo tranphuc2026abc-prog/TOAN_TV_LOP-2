@@ -1,0 +1,585 @@
+{
+  "id": "TOAN3_T1_B02",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 2,
+  "title": "Ôn tập phép cộng, phép trừ trong phạm vi 1 000",
+  "topic": "Ôn tập và bổ sung",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      9,
+      10
+    ],
+    "pdf_pages": [
+      10,
+      11
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Cộng, trừ nhẩm các số tròn chục, tròn trăm.",
+    "Đặt tính đúng hàng và giải bài toán thêm, bớt, hơn kém trong phạm vi 1 000."
+  ],
+  "knowledge": {
+    "introduction": "Khi gom thêm đồ vật, ta thường dùng phép cộng; khi lấy bớt hoặc tìm phần chênh lệch, ta thường dùng phép trừ. Hãy đọc tình huống trước khi chọn phép tính.",
+    "rules": [
+      "Đặt các chữ số cùng hàng thẳng cột, tính từ phải sang trái.",
+      "Cộng đủ 10 đơn vị thì đổi thành 1 chục và nhớ sang hàng chục; tương tự với hàng trăm.",
+      "Khi chữ số ở trên bé hơn chữ số ở dưới, đổi 1 đơn vị của hàng bên trái thành 10 đơn vị của hàng đang tính.",
+      "Kiểm tra phép trừ bằng cách lấy hiệu cộng số trừ; kiểm tra phép cộng bằng cách lấy tổng trừ một số hạng."
+    ],
+    "steps": [
+      "Đọc đề, xác định đã có, thêm vào hoặc bớt đi.",
+      "Chọn phép tính, đặt thẳng hàng nếu cần.",
+      "Tính, ghi đơn vị và thử lại."
+    ],
+    "common_errors": [
+      "Quên cộng số nhớ khi cộng có nhớ.",
+      "Mượn 1 chục nhưng quên giảm chữ số hàng chục.",
+      "Thấy từ nhiều hơn là cộng ngay, dù câu hỏi đang yêu cầu tìm phần chênh lệch."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Tính 176 + 248.",
+      "steps": [
+        "6 + 8 = 14, viết 4 nhớ 1.",
+        "7 + 4 + 1 = 12, viết 2 nhớ 1.",
+        "1 + 2 + 1 = 4. Kết quả 424."
+      ]
+    },
+    {
+      "question": "Tính 402 - 176.",
+      "steps": [
+        "Đổi 1 trăm thành 10 chục, rồi 1 chục thành 10 đơn vị.",
+        "12 - 6 = 6; 9 - 7 = 2; 3 - 1 = 2.",
+        "Kết quả 226. Thử lại: 226 + 176 = 402."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B02_Q01",
+      "type": "mcq",
+      "question": "Tính nhẩm 200 + 600.",
+      "options": [
+        "800",
+        "810",
+        "790",
+        "801"
+      ],
+      "correct_answer": "800",
+      "explanation": "2 trăm + 6 trăm = 8 trăm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q02",
+      "type": "fill",
+      "question": "Tính nhẩm 900 - 200.",
+      "correct_answer": "700",
+      "explanation": "9 trăm bớt 2 trăm còn 7 trăm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q03",
+      "type": "mcq",
+      "question": "Tính nhẩm 60 + 30.",
+      "options": [
+        "90",
+        "100",
+        "80",
+        "91"
+      ],
+      "correct_answer": "90",
+      "explanation": "6 chục + 3 chục = 9 chục.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q04",
+      "type": "fill",
+      "question": "Tính nhẩm 80 - 30.",
+      "correct_answer": "50",
+      "explanation": "8 chục bớt 3 chục còn 5 chục.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q05",
+      "type": "mcq",
+      "question": "Tính 231 + 124.",
+      "options": [
+        "355",
+        "365",
+        "345",
+        "356"
+      ],
+      "correct_answer": "355",
+      "explanation": "Đơn vị: 1 + 4 = 5; chục: 3 + 2 = 5; trăm: 2 + 1 = 3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q06",
+      "type": "fill",
+      "question": "Tính 786 - 243.",
+      "correct_answer": "543",
+      "explanation": "Đơn vị: 6 - 3 = 3; chục: 8 - 4 = 4; trăm: 7 - 2 = 5.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q07",
+      "type": "mcq",
+      "question": "Tính 47 + 36.",
+      "options": [
+        "83",
+        "93",
+        "73",
+        "84"
+      ],
+      "correct_answer": "83",
+      "explanation": "7 + 6 = 13, viết 3 nhớ 1; 4 + 3 + 1 = 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q08",
+      "type": "fill",
+      "question": "Tính 92 - 47.",
+      "correct_answer": "45",
+      "explanation": "Mượn 1 chục: 12 - 7 = 5; còn 8 chục, 8 - 4 = 4.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q09",
+      "type": "mcq",
+      "question": "Tính 350 + 250.",
+      "options": [
+        "600",
+        "610",
+        "590",
+        "601"
+      ],
+      "correct_answer": "600",
+      "explanation": "35 chục + 25 chục = 60 chục = 600.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q10",
+      "type": "fill",
+      "question": "Tính 1 000 - 600.",
+      "correct_answer": "400",
+      "explanation": "10 trăm bớt 6 trăm còn 4 trăm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q11",
+      "type": "mcq",
+      "question": "Tính 268 + 157.",
+      "options": [
+        "425",
+        "435",
+        "415",
+        "426"
+      ],
+      "correct_answer": "425",
+      "explanation": "8 + 7 = 15 nhớ 1; 6 + 5 + 1 = 12 nhớ 1; 2 + 1 + 1 = 4.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q12",
+      "type": "fill",
+      "question": "Tính 603 - 278.",
+      "correct_answer": "325",
+      "explanation": "Mượn qua hàng chục: 13 - 8 = 5; 9 - 7 = 2; 5 - 2 = 3.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q13",
+      "type": "mcq",
+      "question": "Tính 125 + 75 + 100.",
+      "options": [
+        "300",
+        "310",
+        "290",
+        "301"
+      ],
+      "correct_answer": "300",
+      "explanation": "125 + 75 = 200; 200 + 100 = 300.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q14",
+      "type": "fill",
+      "question": "Tính 500 - 120 - 80.",
+      "correct_answer": "300",
+      "explanation": "500 - 120 = 380; 380 - 80 = 300.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q15",
+      "type": "mcq",
+      "question": "Tính 399 + 1.",
+      "options": [
+        "400",
+        "410",
+        "390",
+        "401"
+      ],
+      "correct_answer": "400",
+      "explanation": "9 đơn vị thêm 1 đổi thành 1 chục; tiếp tục đổi được 400.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q16",
+      "type": "fill",
+      "question": "Tính 700 - 1.",
+      "correct_answer": "699",
+      "explanation": "700 bớt 1 còn 699.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q17",
+      "type": "mcq",
+      "question": "Điền số: 240 + 160 = ...",
+      "options": [
+        "400",
+        "410",
+        "390",
+        "401"
+      ],
+      "correct_answer": "400",
+      "explanation": "24 chục + 16 chục = 40 chục.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q18",
+      "type": "fill",
+      "question": "Kết quả nào lớn hơn: 320 + 80 hay 450 - 40? Nhập kết quả lớn hơn.",
+      "correct_answer": "410",
+      "explanation": "320 + 80 = 400; 450 - 40 = 410; 410 lớn hơn 400.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q19",
+      "type": "mcq",
+      "question": "Tính 458 + 242.",
+      "options": [
+        "700",
+        "710",
+        "690",
+        "701"
+      ],
+      "correct_answer": "700",
+      "explanation": "8 + 2 = 10 nhớ 1; 5 + 4 + 1 = 10 nhớ 1; 4 + 2 + 1 = 7.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q20",
+      "type": "fill",
+      "question": "Tính 810 - 465.",
+      "correct_answer": "345",
+      "explanation": "Mượn: 10 - 5 = 5; 10 - 6 = 4; 7 - 4 = 3.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q21",
+      "type": "mcq",
+      "question": "Thư viện có 235 truyện, nhận thêm 128 truyện. Có tất cả bao nhiêu truyện?",
+      "options": [
+        "363",
+        "373",
+        "353",
+        "364"
+      ],
+      "correct_answer": "363",
+      "explanation": "235 + 128 = 363; thêm truyện nên làm phép cộng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q22",
+      "type": "fill",
+      "question": "Vườn có 420 cây, chuyển đi 165 cây. Còn bao nhiêu cây?",
+      "correct_answer": "255",
+      "explanation": "420 - 165 = 255; chuyển đi nên làm phép trừ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q23",
+      "type": "mcq",
+      "question": "Lớp 3A góp 146 vỏ hộp, lớp 3B góp 158 vỏ hộp. Hai lớp góp bao nhiêu vỏ hộp?",
+      "options": [
+        "304",
+        "314",
+        "294",
+        "305"
+      ],
+      "correct_answer": "304",
+      "explanation": "146 + 158 = 304 vỏ hộp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q24",
+      "type": "fill",
+      "question": "Lan đọc 87 trang, Mai đọc 69 trang. Lan đọc nhiều hơn Mai bao nhiêu trang?",
+      "correct_answer": "18",
+      "explanation": "87 - 69 = 18 trang.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q25",
+      "type": "mcq",
+      "question": "Cuộn dây dài 300 cm, cắt đi 75 cm. Còn bao nhiêu xăng-ti-mét?",
+      "options": [
+        "225",
+        "235",
+        "215",
+        "226"
+      ],
+      "correct_answer": "225",
+      "explanation": "300 - 75 = 225 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q26",
+      "type": "fill",
+      "question": "Buổi sáng bán 185 ổ bánh, chiều bán 97 ổ. Cả ngày bán bao nhiêu ổ?",
+      "correct_answer": "282",
+      "explanation": "185 + 97 = 282 ổ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q27",
+      "type": "mcq",
+      "question": "Xe có 38 người, 16 người xuống. Còn bao nhiêu người?",
+      "options": [
+        "22",
+        "32",
+        "12",
+        "23"
+      ],
+      "correct_answer": "22",
+      "explanation": "38 - 16 = 22 người.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q28",
+      "type": "fill",
+      "question": "Hộp có 125 bút xanh và 175 bút đỏ. Có tất cả bao nhiêu bút?",
+      "correct_answer": "300",
+      "explanation": "125 + 175 = 300 bút.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q29",
+      "type": "mcq",
+      "question": "Đội trồng 560 cây, kế hoạch là 800 cây. Cần trồng thêm bao nhiêu cây?",
+      "options": [
+        "240",
+        "250",
+        "230",
+        "241"
+      ],
+      "correct_answer": "240",
+      "explanation": "800 - 560 = 240 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q30",
+      "type": "fill",
+      "question": "Nam có 250 nhãn vở, cho em 85 nhãn. Nam còn bao nhiêu nhãn vở?",
+      "correct_answer": "165",
+      "explanation": "250 - 85 = 165 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q31",
+      "type": "mcq",
+      "question": "Kho có 450 quyển vở và 375 bút chì. Tổng số vở và bút là bao nhiêu?",
+      "options": [
+        "825",
+        "835",
+        "815",
+        "826"
+      ],
+      "correct_answer": "825",
+      "explanation": "450 + 375 = 825 đồ dùng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q32",
+      "type": "fill",
+      "question": "Đoạn đường dài 950 m, đã đi 480 m. Còn bao nhiêu mét?",
+      "correct_answer": "470",
+      "explanation": "950 - 480 = 470 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q33",
+      "type": "mcq",
+      "question": "Đội xanh được 368 điểm, đội đỏ được 395 điểm. Đội đỏ hơn bao nhiêu điểm?",
+      "options": [
+        "27",
+        "37",
+        "17",
+        "28"
+      ],
+      "correct_answer": "27",
+      "explanation": "395 - 368 = 27 điểm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q34",
+      "type": "fill",
+      "question": "Giá sách thứ nhất có 209 cuốn, giá thứ hai có 191 cuốn. Tổng cộng bao nhiêu cuốn?",
+      "correct_answer": "400",
+      "explanation": "209 + 191 = 400 cuốn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q35",
+      "type": "mcq",
+      "question": "Vườn có 345 cây cam và 278 cây bưởi. Có tất cả bao nhiêu cây?",
+      "options": [
+        "623",
+        "633",
+        "613",
+        "624"
+      ],
+      "correct_answer": "623",
+      "explanation": "345 + 278 = 623 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q36",
+      "type": "fill",
+      "question": "Kho có 702 viên gạch, dùng 358 viên. Còn bao nhiêu viên?",
+      "correct_answer": "344",
+      "explanation": "702 - 358 = 344 viên.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q37",
+      "type": "mcq",
+      "question": "Hội trường có 600 ghế, đã ngồi 487 ghế. Còn bao nhiêu ghế trống?",
+      "options": [
+        "113",
+        "123",
+        "103",
+        "114"
+      ],
+      "correct_answer": "113",
+      "explanation": "600 - 487 = 113 ghế.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q38",
+      "type": "fill",
+      "question": "Một tuần em tiết kiệm 35 nghìn đồng, tuần sau 45 nghìn đồng. Tổng là bao nhiêu nghìn đồng?",
+      "correct_answer": "80",
+      "explanation": "35 + 45 = 80 nghìn đồng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q39",
+      "type": "mcq",
+      "question": "Ngày đầu bán 750 quả trứng, ngày sau bán 500 quả. Ngày đầu bán nhiều hơn bao nhiêu quả?",
+      "options": [
+        "250",
+        "260",
+        "240",
+        "251"
+      ],
+      "correct_answer": "250",
+      "explanation": "750 - 500 = 250 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B02_Q40",
+      "type": "fill",
+      "question": "Có 284 cây giống, nhận thêm 116 cây. Số cây hiện có cách 500 cây bao nhiêu cây?",
+      "correct_answer": "100",
+      "explanation": "284 + 116 = 400; 500 - 400 = 100 cây.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B02_GAME1",
+      "title": "Kho hàng thông minh",
+      "mode": "treasure",
+      "objective": "Đọc phiếu nhập, xuất và tìm đúng số hàng còn lại qua từng câu hỏi.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án để mở rương; xem phản hồi rồi chuyển câu.",
+        "Mỗi câu đúng được 10 điểm, bỏ qua hoặc sai được 0 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B02_Q01",
+        "TOAN3_T1_B02_Q02",
+        "TOAN3_T1_B02_Q03",
+        "TOAN3_T1_B02_Q04",
+        "TOAN3_T1_B02_Q05",
+        "TOAN3_T1_B02_Q06",
+        "TOAN3_T1_B02_Q07",
+        "TOAN3_T1_B02_Q08",
+        "TOAN3_T1_B02_Q09",
+        "TOAN3_T1_B02_Q10",
+        "TOAN3_T1_B02_Q11",
+        "TOAN3_T1_B02_Q12",
+        "TOAN3_T1_B02_Q13",
+        "TOAN3_T1_B02_Q14",
+        "TOAN3_T1_B02_Q15",
+        "TOAN3_T1_B02_Q16",
+        "TOAN3_T1_B02_Q17",
+        "TOAN3_T1_B02_Q18",
+        "TOAN3_T1_B02_Q19",
+        "TOAN3_T1_B02_Q20",
+        "TOAN3_T1_B02_Q21",
+        "TOAN3_T1_B02_Q22",
+        "TOAN3_T1_B02_Q23",
+        "TOAN3_T1_B02_Q24",
+        "TOAN3_T1_B02_Q25",
+        "TOAN3_T1_B02_Q26",
+        "TOAN3_T1_B02_Q27",
+        "TOAN3_T1_B02_Q28",
+        "TOAN3_T1_B02_Q29",
+        "TOAN3_T1_B02_Q30",
+        "TOAN3_T1_B02_Q31",
+        "TOAN3_T1_B02_Q32",
+        "TOAN3_T1_B02_Q33",
+        "TOAN3_T1_B02_Q34",
+        "TOAN3_T1_B02_Q35",
+        "TOAN3_T1_B02_Q36",
+        "TOAN3_T1_B02_Q37",
+        "TOAN3_T1_B02_Q38",
+        "TOAN3_T1_B02_Q39",
+        "TOAN3_T1_B02_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

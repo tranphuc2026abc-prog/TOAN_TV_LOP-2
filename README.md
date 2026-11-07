@@ -23,3 +23,9 @@ Danh mục tên bài và trang đã được trích xuất/đối chiếu bằng
 ## Kiểm kê và lưu tiến độ
 - Báo cáo kiểm kê: KIEM_KE_DU_LIEU_LOP_3.md.
 - Tiến độ hiện lưu trên trình duyệt/thiết bị đang dùng, chưa đồng bộ đám mây. Hãy sao lưu JSON trước khi đổi thiết bị hoặc xóa dữ liệu trình duyệt.
+
+## Học liệu Batch 1 — 07/11/2026
+
+Bốn bài Toán đầu tiên có JSON và Markdown riêng trong `content/toan/tap-1/`: mỗi bài 40 câu với đáp án/lời giải, 1 trò chơi và phần hướng dẫn học. Luyện tập tổng hợp lấy 10 câu theo phân bố 3 nhận biết, 3 thông hiểu, 4 vận dụng. AI đã rà soát; chưa có xác nhận thẩm định của giáo viên. Các bài còn lại giữ bản nháp.
+
+Chỉ mục: [INDEX.json](content/system/INDEX.json). Tiến độ: [PROGRESS.md](content/system/PROGRESS.md). Kiểm tra và giới hạn: [AUDIT_REPORT.md](content/system/AUDIT_REPORT.md).

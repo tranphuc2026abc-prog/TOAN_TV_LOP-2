@@ -17,7 +17,7 @@ Các PDF là ảnh quét nên đã chạy OCR tiếng Việt/tiếng Anh trên t
 | Toán 3 Kết nối tri thức | 81 bài | Bài 1–81, Tập 1–2 |
 | Tiếng Việt 3 Kết nối tri thức | 62 bài đọc | 32 bài Tập 1 và 30 bài Tập 2 |
 | Tiếng Anh 3 Global Success | 20 Unit | Unit 1–20 |
-| Tiếng Anh: phần bổ sung | 6 mục | Starter và Review 1–4; mục lục có thêm tài nguyên Wordlist nhưng không tính là bài học |
+| Tiếng Anh: phần bổ sung | 5 mục | Starter và Review 1–4; mục lục có thêm tài nguyên Wordlist nhưng không tính là bài học |
 | **Tổng danh mục** | **168 mục** | Bao gồm bài học, Starter và các bài ôn tập |
 
 Lưu ý: ước tính trước đây là 56 bài Tiếng Việt chưa chính xác. Đối chiếu OCR từ mục lục hai tập cho thấy có 32 + 30 = **62 bài đọc**.
@@ -46,3 +46,7 @@ Danh mục có ID, tên bài, tập sách và trang nguồn nằm tại:
 
 ## Nguyên tắc hoàn thiện
 Không tự bịa nội dung để lấp chỗ trống. Khi nguồn OCR chưa rõ hoặc đáp án chưa được xác minh, phải đánh dấu cần rà soát thay vì coi là nội dung chính thức.
+
+## Cập nhật 07/11/2026 — Batch 1
+
+Đã bổ sung học liệu riêng cho 4 bài Toán đầu tiên: 160 câu, 4 trò chơi theo bài; AI đã rà soát, chờ giáo viên thẩm định. Chi tiết: content/system/INDEX.json, PROGRESS.md và AUDIT_REPORT.md. 164 mục còn lại tiếp tục ở trạng thái bản nháp.

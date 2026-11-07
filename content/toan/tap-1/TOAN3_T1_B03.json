@@ -1,0 +1,593 @@
+{
+  "id": "TOAN3_T1_B03",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 3,
+  "title": "Tìm thành phần trong phép cộng, phép trừ",
+  "topic": "Ôn tập và bổ sung",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      11,
+      13
+    ],
+    "pdf_pages": [
+      12,
+      14
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết số hạng, tổng, số bị trừ, số trừ, hiệu.",
+    "Chọn đúng phép tính để tìm thành phần chưa biết và thử lại."
+  ],
+  "knowledge": {
+    "introduction": "Một phép tính có thể bị che một số. Muốn tìm số đó, trước hết hãy xác định tên thành phần bị che, rồi chọn quy tắc phù hợp.",
+    "rules": [
+      "Số hạng chưa biết = tổng - số hạng đã biết.",
+      "Số bị trừ = hiệu + số trừ.",
+      "Số trừ = số bị trừ - hiệu.",
+      "Thay số tìm được vào chỗ trống để kiểm tra phép tính ban đầu."
+    ],
+    "steps": [
+      "Đọc tên các thành phần và đánh dấu số chưa biết.",
+      "Nói quy tắc thành lời trước khi tính.",
+      "Tính rồi thay đáp án vào phép tính ban đầu."
+    ],
+    "common_errors": [
+      "Dùng cùng một quy tắc cho số bị trừ và số trừ.",
+      "Tìm được số nhưng không thử lại.",
+      "Nhầm số ban đầu với số còn lại trong bài toán."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Tìm số: ... + 46 = 120.",
+      "steps": [
+        "Chỗ trống là một số hạng.",
+        "Lấy tổng trừ số hạng đã biết: 120 - 46 = 74.",
+        "Thử lại: 74 + 46 = 120."
+      ]
+    },
+    {
+      "question": "Tìm số: ... - 27 = 58.",
+      "steps": [
+        "Chỗ trống là số bị trừ.",
+        "Lấy hiệu cộng số trừ: 58 + 27 = 85.",
+        "Thử lại: 85 - 27 = 58."
+      ]
+    },
+    {
+      "question": "Tìm số: 140 - ... = 65.",
+      "steps": [
+        "Chỗ trống là số trừ.",
+        "140 - 65 = 75.",
+        "Thử lại: 140 - 75 = 65."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B03_Q01",
+      "type": "mcq",
+      "question": "Trong 24 + 13 = 37, tổng là số nào?",
+      "options": [
+        "37",
+        "47",
+        "27",
+        "38"
+      ],
+      "correct_answer": "37",
+      "explanation": "Kết quả phép cộng gọi là tổng.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q02",
+      "type": "fill",
+      "question": "Trong 68 - 25 = 43, số bị trừ là số nào?",
+      "correct_answer": "68",
+      "explanation": "Số đứng trước dấu trừ là số bị trừ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q03",
+      "type": "mcq",
+      "question": "Trong 68 - 25 = 43, số trừ là số nào?",
+      "options": [
+        "25",
+        "35",
+        "15",
+        "26"
+      ],
+      "correct_answer": "25",
+      "explanation": "Số đứng sau dấu trừ là số trừ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q04",
+      "type": "fill",
+      "question": "Trong 68 - 25 = 43, hiệu là số nào?",
+      "correct_answer": "43",
+      "explanation": "Kết quả phép trừ gọi là hiệu.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q05",
+      "type": "mcq",
+      "question": "Tìm số còn thiếu: ... + 12 = 31.",
+      "options": [
+        "19",
+        "29",
+        "9",
+        "20"
+      ],
+      "correct_answer": "19",
+      "explanation": "Số hạng chưa biết = 31 - 12 = 19.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q06",
+      "type": "fill",
+      "question": "Tìm số còn thiếu: 26 + ... = 45.",
+      "correct_answer": "19",
+      "explanation": "Số hạng chưa biết = 45 - 26 = 19.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q07",
+      "type": "mcq",
+      "question": "Tìm số còn thiếu: ... - 14 = 22.",
+      "options": [
+        "36",
+        "46",
+        "26",
+        "37"
+      ],
+      "correct_answer": "36",
+      "explanation": "Số bị trừ = 22 + 14 = 36.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q08",
+      "type": "fill",
+      "question": "Tìm số còn thiếu: 56 - ... = 24.",
+      "correct_answer": "32",
+      "explanation": "Số trừ = 56 - 24 = 32.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q09",
+      "type": "mcq",
+      "question": "Tổng là 90, một số hạng là 40. Số hạng kia là bao nhiêu?",
+      "options": [
+        "50",
+        "60",
+        "40",
+        "51"
+      ],
+      "correct_answer": "50",
+      "explanation": "90 - 40 = 50.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q10",
+      "type": "fill",
+      "question": "Hiệu là 30, số trừ là 20. Số bị trừ là bao nhiêu?",
+      "correct_answer": "50",
+      "explanation": "30 + 20 = 50.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q11",
+      "type": "mcq",
+      "question": "Tìm số còn thiếu: ... + 135 = 320.",
+      "options": [
+        "185",
+        "195",
+        "175",
+        "186"
+      ],
+      "correct_answer": "185",
+      "explanation": "320 - 135 = 185; thử lại 185 + 135 = 320.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q12",
+      "type": "fill",
+      "question": "Tìm số còn thiếu: 248 + ... = 500.",
+      "correct_answer": "252",
+      "explanation": "500 - 248 = 252; thử lại 248 + 252 = 500.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q13",
+      "type": "mcq",
+      "question": "Tìm số còn thiếu: ... - 175 = 260.",
+      "options": [
+        "435",
+        "445",
+        "425",
+        "436"
+      ],
+      "correct_answer": "435",
+      "explanation": "260 + 175 = 435; thử lại 435 - 175 = 260.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q14",
+      "type": "fill",
+      "question": "Tìm số còn thiếu: 604 - ... = 289.",
+      "correct_answer": "315",
+      "explanation": "604 - 289 = 315; thử lại 604 - 315 = 289.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q15",
+      "type": "mcq",
+      "question": "Tổng hai số là 700, một số là 285. Số còn lại là bao nhiêu?",
+      "options": [
+        "415",
+        "425",
+        "405",
+        "416"
+      ],
+      "correct_answer": "415",
+      "explanation": "700 - 285 = 415.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q16",
+      "type": "fill",
+      "question": "Số bị trừ là 800, hiệu là 365. Số trừ là bao nhiêu?",
+      "correct_answer": "435",
+      "explanation": "800 - 365 = 435.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q17",
+      "type": "mcq",
+      "question": "Số trừ là 246, hiệu là 154. Số bị trừ là bao nhiêu?",
+      "options": [
+        "400",
+        "410",
+        "390",
+        "401"
+      ],
+      "correct_answer": "400",
+      "explanation": "154 + 246 = 400.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q18",
+      "type": "fill",
+      "question": "Tìm số còn thiếu: 73 + ... = 100.",
+      "correct_answer": "27",
+      "explanation": "100 - 73 = 27.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q19",
+      "type": "mcq",
+      "question": "Tìm số còn thiếu: ... - 48 = 52.",
+      "options": [
+        "100",
+        "110",
+        "90",
+        "101"
+      ],
+      "correct_answer": "100",
+      "explanation": "52 + 48 = 100.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q20",
+      "type": "fill",
+      "question": "Tìm số còn thiếu: 91 - ... = 37.",
+      "correct_answer": "54",
+      "explanation": "91 - 37 = 54.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q21",
+      "type": "mcq",
+      "question": "Hộp có 36 bút gồm bút xanh và 14 bút đỏ. Có bao nhiêu bút xanh?",
+      "options": [
+        "22",
+        "32",
+        "12",
+        "23"
+      ],
+      "correct_answer": "22",
+      "explanation": "Số bút xanh là số hạng chưa biết: 36 - 14 = 22.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q22",
+      "type": "fill",
+      "question": "Bình cho bạn 17 viên bi, còn 28 viên. Ban đầu Bình có bao nhiêu viên?",
+      "correct_answer": "45",
+      "explanation": "Số ban đầu là số bị trừ: 28 + 17 = 45.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q23",
+      "type": "mcq",
+      "question": "Có 75 ghế, còn trống 29 ghế. Có bao nhiêu ghế đã có người ngồi?",
+      "options": [
+        "46",
+        "56",
+        "36",
+        "47"
+      ],
+      "correct_answer": "46",
+      "explanation": "Số ghế có người ngồi là số trừ: 75 - 29 = 46.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q24",
+      "type": "fill",
+      "question": "Hai lớp có 83 học sinh, lớp 3A có 41 em. Lớp 3B có bao nhiêu em?",
+      "correct_answer": "42",
+      "explanation": "83 - 41 = 42 học sinh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q25",
+      "type": "mcq",
+      "question": "Lan có 120 nhãn vở, nhận thêm một số thì có 200. Lan nhận thêm bao nhiêu nhãn?",
+      "options": [
+        "80",
+        "90",
+        "70",
+        "81"
+      ],
+      "correct_answer": "80",
+      "explanation": "120 + số nhận = 200; số nhận = 200 - 120 = 80.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q26",
+      "type": "fill",
+      "question": "Kho xuất 235 kg gạo, còn 465 kg. Ban đầu kho có bao nhiêu ki-lô-gam?",
+      "correct_answer": "700",
+      "explanation": "Số ban đầu = số còn + số xuất = 465 + 235 = 700.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q27",
+      "type": "mcq",
+      "question": "Một sợi dây dài 180 cm, cắt đi một đoạn còn 95 cm. Đoạn cắt dài bao nhiêu xăng-ti-mét?",
+      "options": [
+        "85",
+        "95",
+        "75",
+        "86"
+      ],
+      "correct_answer": "85",
+      "explanation": "180 - số cắt = 95; số cắt = 180 - 95 = 85.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q28",
+      "type": "fill",
+      "question": "Hai đội góp 540 quyển sách, đội A góp 275 quyển. Đội B góp bao nhiêu quyển?",
+      "correct_answer": "265",
+      "explanation": "275 + số đội B = 540; số đội B = 540 - 275 = 265.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q29",
+      "type": "mcq",
+      "question": "Xe có một số người, 18 người xuống còn 24 người. Lúc đầu có bao nhiêu người?",
+      "options": [
+        "42",
+        "52",
+        "32",
+        "43"
+      ],
+      "correct_answer": "42",
+      "explanation": "Số ban đầu - 18 = 24; số ban đầu = 24 + 18 = 42.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q30",
+      "type": "fill",
+      "question": "Giỏ có 63 quả, lấy đi một số còn 38 quả. Đã lấy đi bao nhiêu quả?",
+      "correct_answer": "25",
+      "explanation": "63 - số lấy = 38; số lấy = 63 - 38 = 25.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q31",
+      "type": "mcq",
+      "question": "Tủ có 245 cuốn, thêm sách vào thì có 400 cuốn. Thêm bao nhiêu cuốn?",
+      "options": [
+        "155",
+        "165",
+        "145",
+        "156"
+      ],
+      "correct_answer": "155",
+      "explanation": "245 + số thêm = 400; số thêm = 400 - 245 = 155.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q32",
+      "type": "fill",
+      "question": "Đội trồng thêm 128 cây thì có 350 cây. Trước đó đã có bao nhiêu cây?",
+      "correct_answer": "222",
+      "explanation": "Số trước đó + 128 = 350; số trước đó = 350 - 128 = 222.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q33",
+      "type": "mcq",
+      "question": "Mai cho em 26 tem và còn 49 tem. Trước khi cho Mai có bao nhiêu tem?",
+      "options": [
+        "75",
+        "85",
+        "65",
+        "76"
+      ],
+      "correct_answer": "75",
+      "explanation": "Số ban đầu - 26 = 49; số ban đầu = 49 + 26 = 75.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q34",
+      "type": "fill",
+      "question": "Một số trừ đi 39 được 61. Số đó là bao nhiêu?",
+      "correct_answer": "100",
+      "explanation": "Số bị trừ = 61 + 39 = 100.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q35",
+      "type": "mcq",
+      "question": "Lấy 150 trừ một số được 84. Số đó là bao nhiêu?",
+      "options": [
+        "66",
+        "76",
+        "56",
+        "67"
+      ],
+      "correct_answer": "66",
+      "explanation": "Số trừ = 150 - 84 = 66.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q36",
+      "type": "fill",
+      "question": "Một số cộng 57 được 132. Số đó là bao nhiêu?",
+      "correct_answer": "75",
+      "explanation": "Số hạng chưa biết = 132 - 57 = 75.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q37",
+      "type": "mcq",
+      "question": "Hộp có 90 hạt gồm hạt trắng và 47 hạt đen. Có bao nhiêu hạt trắng?",
+      "options": [
+        "43",
+        "53",
+        "33",
+        "44"
+      ],
+      "correct_answer": "43",
+      "explanation": "Số hạt trắng = 90 - 47 = 43.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q38",
+      "type": "fill",
+      "question": "Đàn gà bán đi 125 con còn 278 con. Ban đầu có bao nhiêu con?",
+      "correct_answer": "403",
+      "explanation": "Số ban đầu = 278 + 125 = 403.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q39",
+      "type": "mcq",
+      "question": "Rổ có 320 quả, lấy đi một số còn 196 quả. Lấy đi bao nhiêu quả?",
+      "options": [
+        "124",
+        "134",
+        "114",
+        "125"
+      ],
+      "correct_answer": "124",
+      "explanation": "Số lấy đi = 320 - 196 = 124.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B03_Q40",
+      "type": "fill",
+      "question": "Tổng hai số là 625, số hạng thứ nhất là 308. Số hạng thứ hai là bao nhiêu?",
+      "correct_answer": "317",
+      "explanation": "625 - 308 = 317; kiểm tra 308 + 317 = 625.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B03_GAME1",
+      "title": "Thám tử số bị che",
+      "mode": "treasure",
+      "objective": "Xác định thành phần bị che và giải câu hỏi để tìm lại từng manh mối.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án để mở rương; xem phản hồi rồi chuyển câu.",
+        "Mỗi câu đúng được 10 điểm, bỏ qua hoặc sai được 0 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B03_Q01",
+        "TOAN3_T1_B03_Q02",
+        "TOAN3_T1_B03_Q03",
+        "TOAN3_T1_B03_Q04",
+        "TOAN3_T1_B03_Q05",
+        "TOAN3_T1_B03_Q06",
+        "TOAN3_T1_B03_Q07",
+        "TOAN3_T1_B03_Q08",
+        "TOAN3_T1_B03_Q09",
+        "TOAN3_T1_B03_Q10",
+        "TOAN3_T1_B03_Q11",
+        "TOAN3_T1_B03_Q12",
+        "TOAN3_T1_B03_Q13",
+        "TOAN3_T1_B03_Q14",
+        "TOAN3_T1_B03_Q15",
+        "TOAN3_T1_B03_Q16",
+        "TOAN3_T1_B03_Q17",
+        "TOAN3_T1_B03_Q18",
+        "TOAN3_T1_B03_Q19",
+        "TOAN3_T1_B03_Q20",
+        "TOAN3_T1_B03_Q21",
+        "TOAN3_T1_B03_Q22",
+        "TOAN3_T1_B03_Q23",
+        "TOAN3_T1_B03_Q24",
+        "TOAN3_T1_B03_Q25",
+        "TOAN3_T1_B03_Q26",
+        "TOAN3_T1_B03_Q27",
+        "TOAN3_T1_B03_Q28",
+        "TOAN3_T1_B03_Q29",
+        "TOAN3_T1_B03_Q30",
+        "TOAN3_T1_B03_Q31",
+        "TOAN3_T1_B03_Q32",
+        "TOAN3_T1_B03_Q33",
+        "TOAN3_T1_B03_Q34",
+        "TOAN3_T1_B03_Q35",
+        "TOAN3_T1_B03_Q36",
+        "TOAN3_T1_B03_Q37",
+        "TOAN3_T1_B03_Q38",
+        "TOAN3_T1_B03_Q39",
+        "TOAN3_T1_B03_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

@@ -1,0 +1,583 @@
+{
+  "id": "TOAN3_T1_B04",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 4,
+  "title": "Ôn tập bảng nhân 2; 5, bảng chia 2; 5",
+  "topic": "Ôn tập và bổ sung",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      14,
+      15
+    ],
+    "pdf_pages": [
+      15,
+      16
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhớ và vận dụng bảng nhân 2, 5 và bảng chia 2, 5.",
+    "Phân biệt chia đều và chia theo nhóm trong tình huống thực tế."
+  ],
+  "knowledge": {
+    "introduction": "Các nhóm bằng nhau có thể được đếm nhanh bằng phép nhân. Phép chia giúp tìm số đồ vật mỗi nhóm hoặc số nhóm được tạo thành.",
+    "rules": [
+      "2 × n biểu thị n nhóm, mỗi nhóm có 2; 5 × n biểu thị n nhóm, mỗi nhóm có 5.",
+      "Bảng nhân 2 tăng dần mỗi lần 2; bảng nhân 5 tăng dần mỗi lần 5.",
+      "Dựa vào phép nhân để tìm kết quả phép chia: 5 × 6 = 30 nên 30 : 5 = 6.",
+      "Khi chia, đọc kĩ đề hỏi số nhóm hay số đồ vật trong mỗi nhóm."
+    ],
+    "steps": [
+      "Khoanh thông tin mỗi nhóm và số nhóm.",
+      "Chọn nhân nếu tìm tất cả; chọn chia nếu chia đều hoặc tìm số nhóm.",
+      "Tính và kiểm tra bằng phép tính ngược."
+    ],
+    "common_errors": [
+      "Nhầm 2 × 7 với 2 + 7.",
+      "Đảo câu trả lời số nhóm thành số đồ vật mỗi nhóm.",
+      "Đọc lướt nên bỏ sót phần thêm hoặc bớt sau phép nhân."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Có 6 túi, mỗi túi 2 quả lê. Hỏi tất cả có bao nhiêu quả?",
+      "steps": [
+        "Có 6 nhóm, mỗi nhóm 2 quả.",
+        "2 × 6 = 12. Có 12 quả lê."
+      ]
+    },
+    {
+      "question": "Có 20 bông hoa, cắm mỗi lọ 5 bông. Cần bao nhiêu lọ?",
+      "steps": [
+        "Tìm số nhóm 5 bông trong 20 bông.",
+        "20 : 5 = 4. Cần 4 lọ."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B04_Q01",
+      "type": "mcq",
+      "question": "Tính 2 × 3.",
+      "options": [
+        "6",
+        "16",
+        "7",
+        "5"
+      ],
+      "correct_answer": "6",
+      "explanation": "2 + 2 + 2 = 6.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q02",
+      "type": "fill",
+      "question": "Tính 2 × 7.",
+      "correct_answer": "14",
+      "explanation": "Bảng nhân 2: 2 × 7 = 14.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q03",
+      "type": "mcq",
+      "question": "Tính 5 × 4.",
+      "options": [
+        "20",
+        "30",
+        "10",
+        "21"
+      ],
+      "correct_answer": "20",
+      "explanation": "5 + 5 + 5 + 5 = 20.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q04",
+      "type": "fill",
+      "question": "Tính 5 × 9.",
+      "correct_answer": "45",
+      "explanation": "Bảng nhân 5: 5 × 9 = 45.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q05",
+      "type": "mcq",
+      "question": "Tính 12 : 2.",
+      "options": [
+        "6",
+        "16",
+        "7",
+        "5"
+      ],
+      "correct_answer": "6",
+      "explanation": "Vì 2 × 6 = 12 nên 12 : 2 = 6.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q06",
+      "type": "fill",
+      "question": "Tính 18 : 2.",
+      "correct_answer": "9",
+      "explanation": "Vì 2 × 9 = 18 nên 18 : 2 = 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q07",
+      "type": "mcq",
+      "question": "Tính 35 : 5.",
+      "options": [
+        "7",
+        "17",
+        "8",
+        "6"
+      ],
+      "correct_answer": "7",
+      "explanation": "Vì 5 × 7 = 35 nên 35 : 5 = 7.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q08",
+      "type": "fill",
+      "question": "Tính 45 : 5.",
+      "correct_answer": "9",
+      "explanation": "Vì 5 × 9 = 45 nên 45 : 5 = 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q09",
+      "type": "mcq",
+      "question": "Tính 2 × 10.",
+      "options": [
+        "20",
+        "30",
+        "10",
+        "21"
+      ],
+      "correct_answer": "20",
+      "explanation": "Mười nhóm, mỗi nhóm 2, có 20.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q10",
+      "type": "fill",
+      "question": "Tính 50 : 5.",
+      "correct_answer": "10",
+      "explanation": "Vì 5 × 10 = 50 nên thương là 10.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q11",
+      "type": "mcq",
+      "question": "Viết 2 + 2 + 2 + 2 + 2 thành phép nhân rồi tính. Nhập kết quả.",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "11"
+      ],
+      "correct_answer": "10",
+      "explanation": "Có 5 số hạng bằng 2: 2 × 5 = 10.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q12",
+      "type": "fill",
+      "question": "Viết 5 + 5 + 5 thành phép nhân rồi tính. Nhập kết quả.",
+      "correct_answer": "15",
+      "explanation": "Có 3 số hạng bằng 5: 5 × 3 = 15.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q13",
+      "type": "mcq",
+      "question": "Tính 2 × 6 + 4.",
+      "options": [
+        "16",
+        "26",
+        "6",
+        "17"
+      ],
+      "correct_answer": "16",
+      "explanation": "2 × 6 = 12; 12 + 4 = 16.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q14",
+      "type": "fill",
+      "question": "Tính 5 × 3 - 7.",
+      "correct_answer": "8",
+      "explanation": "5 × 3 = 15; 15 - 7 = 8.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q15",
+      "type": "mcq",
+      "question": "Tính 20 : 2 + 6.",
+      "options": [
+        "16",
+        "26",
+        "6",
+        "17"
+      ],
+      "correct_answer": "16",
+      "explanation": "20 : 2 = 10; 10 + 6 = 16.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q16",
+      "type": "fill",
+      "question": "Tính 40 : 5 - 3.",
+      "correct_answer": "5",
+      "explanation": "40 : 5 = 8; 8 - 3 = 5.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q17",
+      "type": "mcq",
+      "question": "Kết quả nào lớn hơn: 2 × 8 hay 5 × 3? Nhập kết quả lớn hơn.",
+      "options": [
+        "16",
+        "26",
+        "6",
+        "17"
+      ],
+      "correct_answer": "16",
+      "explanation": "2 × 8 = 16; 5 × 3 = 15; 16 lớn hơn 15.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q18",
+      "type": "fill",
+      "question": "Kết quả nào bé hơn: 30 : 5 hay 16 : 2? Nhập kết quả bé hơn.",
+      "correct_answer": "6",
+      "explanation": "30 : 5 = 6; 16 : 2 = 8; 6 bé hơn 8.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q19",
+      "type": "mcq",
+      "question": "Điền số kế tiếp: 5, 10, 15, ...",
+      "options": [
+        "20",
+        "30",
+        "10",
+        "21"
+      ],
+      "correct_answer": "20",
+      "explanation": "Mỗi số sau hơn số trước 5.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q20",
+      "type": "fill",
+      "question": "Điền số kế tiếp: 20, 18, 16, ...",
+      "correct_answer": "14",
+      "explanation": "Mỗi số sau kém số trước 2.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q21",
+      "type": "mcq",
+      "question": "Có 7 xe đạp, mỗi xe có 2 bánh. Có bao nhiêu bánh xe?",
+      "options": [
+        "14",
+        "24",
+        "4",
+        "15"
+      ],
+      "correct_answer": "14",
+      "explanation": "Mỗi xe có 2 bánh, 7 xe có 2 × 7 = 14 bánh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q22",
+      "type": "fill",
+      "question": "Có 4 bàn, mỗi bàn có 5 bạn. Có bao nhiêu bạn?",
+      "correct_answer": "20",
+      "explanation": "Mỗi bàn 5 bạn, 4 bàn có 5 × 4 = 20 bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q23",
+      "type": "mcq",
+      "question": "Có 16 bút chia đều cho 2 bạn. Mỗi bạn được mấy bút?",
+      "options": [
+        "8",
+        "18",
+        "9",
+        "7"
+      ],
+      "correct_answer": "8",
+      "explanation": "16 : 2 = 8 bút mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q24",
+      "type": "fill",
+      "question": "Có 30 nhãn vở chia đều cho 5 bạn. Mỗi bạn được mấy nhãn?",
+      "correct_answer": "6",
+      "explanation": "30 : 5 = 6 nhãn mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q25",
+      "type": "mcq",
+      "question": "Mỗi túi có 5 quả cam. 6 túi có bao nhiêu quả?",
+      "options": [
+        "30",
+        "40",
+        "20",
+        "31"
+      ],
+      "correct_answer": "30",
+      "explanation": "5 × 6 = 30 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q26",
+      "type": "fill",
+      "question": "Có 14 chiếc tất, xếp mỗi đôi 2 chiếc. Xếp được mấy đôi?",
+      "correct_answer": "7",
+      "explanation": "14 : 2 = 7 đôi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q27",
+      "type": "mcq",
+      "question": "Có 25 bông hoa, cắm mỗi lọ 5 bông. Cần mấy lọ?",
+      "options": [
+        "5",
+        "15",
+        "6",
+        "4"
+      ],
+      "correct_answer": "5",
+      "explanation": "25 : 5 = 5 lọ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q28",
+      "type": "fill",
+      "question": "Mỗi bạn nhận 2 quyển vở. 9 bạn nhận tất cả mấy quyển?",
+      "correct_answer": "18",
+      "explanation": "2 × 9 = 18 quyển.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q29",
+      "type": "mcq",
+      "question": "Có 40 quyển truyện chia đều vào 5 ngăn. Mỗi ngăn có mấy quyển?",
+      "options": [
+        "8",
+        "18",
+        "9",
+        "7"
+      ],
+      "correct_answer": "8",
+      "explanation": "40 : 5 = 8 quyển mỗi ngăn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q30",
+      "type": "fill",
+      "question": "Mỗi hộp có 5 chiếc bánh. 8 hộp có bao nhiêu chiếc?",
+      "correct_answer": "40",
+      "explanation": "5 × 8 = 40 chiếc bánh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q31",
+      "type": "mcq",
+      "question": "Mỗi đôi găng có 2 chiếc. 6 đôi có bao nhiêu chiếc?",
+      "options": [
+        "12",
+        "22",
+        "2",
+        "13"
+      ],
+      "correct_answer": "12",
+      "explanation": "2 × 6 = 12 chiếc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q32",
+      "type": "fill",
+      "question": "Có 20 học sinh, mỗi nhóm 2 em. Chia được mấy nhóm?",
+      "correct_answer": "10",
+      "explanation": "20 : 2 = 10 nhóm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q33",
+      "type": "mcq",
+      "question": "Có 45 cây giống, trồng mỗi hàng 5 cây. Trồng được mấy hàng?",
+      "options": [
+        "9",
+        "19",
+        "10",
+        "8"
+      ],
+      "correct_answer": "9",
+      "explanation": "45 : 5 = 9 hàng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q34",
+      "type": "fill",
+      "question": "Mỗi ngày đọc 5 trang. Sau 7 ngày đọc được bao nhiêu trang?",
+      "correct_answer": "35",
+      "explanation": "5 × 7 = 35 trang.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q35",
+      "type": "mcq",
+      "question": "Có 10 chiếc cốc chia đều lên 2 khay. Mỗi khay mấy chiếc?",
+      "options": [
+        "5",
+        "15",
+        "6",
+        "4"
+      ],
+      "correct_answer": "5",
+      "explanation": "10 : 2 = 5 chiếc mỗi khay.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q36",
+      "type": "fill",
+      "question": "Có 15 kg đậu chia đều vào 5 túi. Mỗi túi mấy ki-lô-gam?",
+      "correct_answer": "3",
+      "explanation": "15 : 5 = 3 kg mỗi túi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q37",
+      "type": "mcq",
+      "question": "Mỗi vòng chơi được 2 sao. Chơi 8 vòng được bao nhiêu sao?",
+      "options": [
+        "16",
+        "26",
+        "6",
+        "17"
+      ],
+      "correct_answer": "16",
+      "explanation": "2 × 8 = 16 sao.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q38",
+      "type": "fill",
+      "question": "Có 5 hộp, mỗi hộp 5 bút. Số bút đó chia đều cho 5 bạn. Mỗi bạn mấy bút?",
+      "correct_answer": "5",
+      "explanation": "5 × 5 = 25 bút; 25 : 5 = 5 bút mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q39",
+      "type": "mcq",
+      "question": "Có 8 đôi giày, mỗi đôi 2 chiếc. Cho đi 6 chiếc. Còn mấy chiếc?",
+      "options": [
+        "10",
+        "20",
+        "0",
+        "11"
+      ],
+      "correct_answer": "10",
+      "explanation": "2 × 8 = 16 chiếc; 16 - 6 = 10 chiếc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B04_Q40",
+      "type": "fill",
+      "question": "Mua 3 gói, mỗi gói 5 nhãn vở, rồi được tặng thêm 4 nhãn. Có tất cả mấy nhãn?",
+      "correct_answer": "19",
+      "explanation": "5 × 3 = 15 nhãn; 15 + 4 = 19 nhãn.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B04_GAME1",
+      "title": "Chuyến tàu nhóm đều",
+      "mode": "treasure",
+      "objective": "Giải câu hỏi về các nhóm 2 và 5 để đưa hành khách lên đúng toa.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án để mở rương; xem phản hồi rồi chuyển câu.",
+        "Mỗi câu đúng được 10 điểm, bỏ qua hoặc sai được 0 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B04_Q01",
+        "TOAN3_T1_B04_Q02",
+        "TOAN3_T1_B04_Q03",
+        "TOAN3_T1_B04_Q04",
+        "TOAN3_T1_B04_Q05",
+        "TOAN3_T1_B04_Q06",
+        "TOAN3_T1_B04_Q07",
+        "TOAN3_T1_B04_Q08",
+        "TOAN3_T1_B04_Q09",
+        "TOAN3_T1_B04_Q10",
+        "TOAN3_T1_B04_Q11",
+        "TOAN3_T1_B04_Q12",
+        "TOAN3_T1_B04_Q13",
+        "TOAN3_T1_B04_Q14",
+        "TOAN3_T1_B04_Q15",
+        "TOAN3_T1_B04_Q16",
+        "TOAN3_T1_B04_Q17",
+        "TOAN3_T1_B04_Q18",
+        "TOAN3_T1_B04_Q19",
+        "TOAN3_T1_B04_Q20",
+        "TOAN3_T1_B04_Q21",
+        "TOAN3_T1_B04_Q22",
+        "TOAN3_T1_B04_Q23",
+        "TOAN3_T1_B04_Q24",
+        "TOAN3_T1_B04_Q25",
+        "TOAN3_T1_B04_Q26",
+        "TOAN3_T1_B04_Q27",
+        "TOAN3_T1_B04_Q28",
+        "TOAN3_T1_B04_Q29",
+        "TOAN3_T1_B04_Q30",
+        "TOAN3_T1_B04_Q31",
+        "TOAN3_T1_B04_Q32",
+        "TOAN3_T1_B04_Q33",
+        "TOAN3_T1_B04_Q34",
+        "TOAN3_T1_B04_Q35",
+        "TOAN3_T1_B04_Q36",
+        "TOAN3_T1_B04_Q37",
+        "TOAN3_T1_B04_Q38",
+        "TOAN3_T1_B04_Q39",
+        "TOAN3_T1_B04_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}
