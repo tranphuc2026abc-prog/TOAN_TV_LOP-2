@@ -95,3 +95,11 @@
 - Kiểm thử Chromium chưa thực hiện vì môi trường chưa có executable. Bộ kiểm thử trình duyệt đã sửa để lấy số học liệu từ chỉ mục thay vì hằng số cũ.
 - Workflow Pages Batch 5 thành công (run 42379465425). Batch 6 cần xác minh theo commit thực tế sau khi ghi.
 - Trạng thái duyệt giữ nguyên: 4 bài đã được giáo viên thẩm định; 20 bài mới chờ thẩm định; 144 mục còn bản nháp.
+
+## Kiểm tra khả năng tái lập — 07/11/2026
+
+- Kiểm tra lại main và các tệp tiến độ/chỉ mục/duyệt/mã ứng dụng trước khi thao tác.
+- validate_site.py đạt: 168 mục, 24 bài riêng, 960 câu, 824 đẳng thức số.
+- Phát hiện thư mục jsdom tạm không còn. Đã bổ sung package.json, package-lock.json với phiên bản jsdom thực tế đã kiểm tra và .gitignore cho node_modules.
+- Đã chạy npm ci và npm test từ bộ phụ thuộc được khóa: DOM hồi quy 24 bài đạt. Không thay đổi số bài hoặc gán thêm xác nhận giáo viên. Chưa biên soạn Batch 7; tiếp tục Toán 25–28.
+- Chưa kiểm thử Chromium; không suy diễn DOM thành kiểm thử trình duyệt thật.

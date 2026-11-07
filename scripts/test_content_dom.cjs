@@ -1,4 +1,4 @@
-// npm install --prefix /tmp/class3-test jsdom; NODE_PATH=/tmp/class3-test/node_modules node scripts/test_batch1_dom.cjs
+// Từ gốc repository: npm ci && npm test. Không phụ thuộc thư mục tạm.
 const {JSDOM,VirtualConsole}=require('jsdom');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');

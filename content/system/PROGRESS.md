@@ -1,3 +1,7 @@
+## Cập nhật kiểm thử — 07/11/2026
+
+Đã bổ sung package.json và package-lock.json để tái lập kiểm thử bằng `npm ci` rồi `npm test`, thay cho phụ thuộc jsdom trong thư mục tạm. Đã chạy thành công trên toàn bộ 24 bài hiện có. Số học liệu vẫn là 24 bài Toán, 960 câu; chưa tạo Batch 7. Checkpoint nội dung kế tiếp giữ nguyên Toán 25–28.
+
 # Trạng thái mới nhất — Batch 6, 07/11/2026
 
 | Môn | Có học liệu riêng | Tổng danh mục | Còn bản nháp |
