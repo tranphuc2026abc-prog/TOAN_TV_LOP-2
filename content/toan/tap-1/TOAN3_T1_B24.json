@@ -1,0 +1,807 @@
+{
+  "id": "TOAN3_T1_B24",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 24,
+  "title": "Gấp một số lên một số lần",
+  "topic": "Gấp một số lên một số lần",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      70,
+      71
+    ],
+    "pdf_pages": [
+      71,
+      72
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Hiểu gấp một số lên một số lần là tạo các phần bằng nhau, mỗi phần bằng số ban đầu.",
+    "Dùng phép nhân, phân biệt với thêm đơn vị và giải các tình huống một hoặc hai bước phù hợp."
+  ],
+  "knowledge": {
+    "introduction": "Bình có 5 thẻ. Nếu Lan có gấp 3 lần số thẻ Bình, số thẻ Lan gồm 3 phần bằng nhau, mỗi phần 5 thẻ. Gấp 3 lần khác với thêm 3 thẻ.",
+    "rules": [
+      "Muốn gấp một số lên một số lần, lấy số đó nhân với số lần.",
+      "Sơ đồ gấp n lần gồm n phần bằng nhau; một phần bằng số ban đầu.",
+      "Thêm n đơn vị dùng phép cộng, gấp n lần dùng phép nhân; cần đọc kĩ từ trong đề.",
+      "Nếu hỏi tổng cả hai nhóm, phải tính nhóm gấp lên trước rồi cộng thêm nhóm ban đầu. Nếu hỏi hơn bao nhiêu, lấy số lớn trừ số bé."
+    ],
+    "steps": [
+      "Xác định số ban đầu và số lần cần gấp.",
+      "Có thể vẽ sơ đồ một phần và nhiều phần bằng nhau.",
+      "Lập phép nhân rồi tính, có nhớ đúng nếu cần.",
+      "Đọc lại xem câu hỏi yêu cầu số sau khi gấp, tổng hay chênh lệch; làm thêm bước nếu cần."
+    ],
+    "common_errors": [
+      "Lấy số ban đầu cộng số lần.",
+      "Nhầm số lần gấp với số đơn vị tăng thêm.",
+      "Tính được số nhóm sau rồi cho đó là tổng cả hai nhóm.",
+      "Không đọc rõ đề hỏi hơn bao nhiêu hay có tất cả bao nhiêu."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Gấp 8 lên 3 lần.",
+      "steps": [
+        "Lấy 8 nhân với 3.",
+        "8 × 3 = 24."
+      ]
+    },
+    {
+      "question": "So sánh gấp 4 lần số 6 với thêm 4 đơn vị vào 6.",
+      "steps": [
+        "Gấp 4 lần: 6 × 4 = 24.",
+        "Thêm 4 đơn vị: 6 + 4 = 10.",
+        "Hai yêu cầu có ý nghĩa và kết quả khác nhau."
+      ]
+    },
+    {
+      "question": "An có 12 tem, Bình có gấp 3 lần An. Cả hai có mấy tem?",
+      "steps": [
+        "Bình có 12 × 3 = 36 tem.",
+        "Cả hai có 12 + 36 = 48 tem."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B24_Q01",
+      "type": "mcq",
+      "question": "Muốn gấp một số lên một số lần, dùng phép tính nào?",
+      "options": [
+        "nhân",
+        "cộng",
+        "trừ",
+        "chia"
+      ],
+      "correct_answer": "nhân",
+      "distractors": [
+        "cộng",
+        "trừ",
+        "chia"
+      ],
+      "explanation": "Lấy số ban đầu nhân với số lần.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q02",
+      "type": "fill",
+      "question": "Gấp 5 lên 3 lần được bao nhiêu?",
+      "correct_answer": "15",
+      "distractors": [
+        "8",
+        "10",
+        "20"
+      ],
+      "explanation": "5 × 3 = 15.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q03",
+      "type": "mcq",
+      "question": "Gấp 7 lên 4 lần được bao nhiêu?",
+      "options": [
+        "28",
+        "11",
+        "21",
+        "35"
+      ],
+      "correct_answer": "28",
+      "distractors": [
+        "11",
+        "21",
+        "35"
+      ],
+      "explanation": "7 × 4 = 28.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q04",
+      "type": "fill",
+      "question": "Gấp 9 lên 2 lần được bao nhiêu?",
+      "correct_answer": "18",
+      "distractors": [
+        "11",
+        "7",
+        "27"
+      ],
+      "explanation": "9 × 2 = 18.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q05",
+      "type": "mcq",
+      "question": "Gấp 12 lên 3 lần được bao nhiêu?",
+      "options": [
+        "36",
+        "15",
+        "24",
+        "39"
+      ],
+      "correct_answer": "36",
+      "distractors": [
+        "15",
+        "24",
+        "39"
+      ],
+      "explanation": "12 × 3 = 36.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q06",
+      "type": "fill",
+      "question": "Thêm 3 đơn vị vào 5 được bao nhiêu?",
+      "correct_answer": "8",
+      "distractors": [
+        "15",
+        "2",
+        "20"
+      ],
+      "explanation": "Thêm đơn vị dùng cộng: 5 + 3 = 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q07",
+      "type": "mcq",
+      "question": "Gấp 6 lên 5 lần được bao nhiêu?",
+      "options": [
+        "30",
+        "11",
+        "24",
+        "36"
+      ],
+      "correct_answer": "30",
+      "distractors": [
+        "11",
+        "24",
+        "36"
+      ],
+      "explanation": "6 × 5 = 30.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q08",
+      "type": "fill",
+      "question": "Gấp 8 lên 4 lần được bao nhiêu?",
+      "correct_answer": "32",
+      "distractors": [
+        "12",
+        "24",
+        "40"
+      ],
+      "explanation": "8 × 4 = 32.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q09",
+      "type": "mcq",
+      "question": "Gấp một số lên 1 lần, kết quả có bằng số ban đầu không?",
+      "options": [
+        "có",
+        "không",
+        "luôn bằng 1",
+        "luôn bằng 0"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "luôn bằng 1",
+        "luôn bằng 0"
+      ],
+      "explanation": "Một số nhân 1 bằng chính số đó.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q10",
+      "type": "fill",
+      "question": "Gấp 15 lên 2 lần được bao nhiêu?",
+      "correct_answer": "30",
+      "distractors": [
+        "17",
+        "13",
+        "45"
+      ],
+      "explanation": "15 × 2 = 30.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q11",
+      "type": "mcq",
+      "question": "Hình A: Bình có 5 thẻ, Lan có số thẻ gấp 3 lần Bình. Lan có mấy thẻ?",
+      "options": [
+        "15",
+        "8",
+        "10",
+        "20"
+      ],
+      "correct_answer": "15",
+      "distractors": [
+        "8",
+        "10",
+        "20"
+      ],
+      "explanation": "Lan có 3 phần, mỗi phần 5 thẻ; 5 × 3 = 15 thẻ.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B24_A.svg",
+        "caption": "Hình A: Bình có một phần 5 thẻ, Lan có ba phần bằng nhau như thế."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q12",
+      "type": "fill",
+      "question": "Hình A: số thẻ Bình là một phần, số thẻ Lan tương ứng mấy phần bằng nhau như thế?",
+      "correct_answer": "3",
+      "distractors": [
+        "1",
+        "2",
+        "5"
+      ],
+      "explanation": "Hình biểu diễn số thẻ Lan bằng 3 phần, mỗi phần bằng số thẻ Bình.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B24_A.svg",
+        "caption": "Hình A: Bình có một phần 5 thẻ, Lan có ba phần bằng nhau như thế."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q13",
+      "type": "mcq",
+      "question": "Gấp 4 lên 6 lần và thêm 6 đơn vị vào 4 có cùng kết quả không?",
+      "options": [
+        "không",
+        "có",
+        "đều bằng 10",
+        "đều bằng 24"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "đều bằng 10",
+        "đều bằng 24"
+      ],
+      "explanation": "4 × 6 = 24, còn 4 + 6 = 10; hai kết quả khác nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q14",
+      "type": "fill",
+      "question": "Gấp 13 lên 4 lần được bao nhiêu?",
+      "correct_answer": "52",
+      "distractors": [
+        "17",
+        "39",
+        "48"
+      ],
+      "explanation": "13 × 4 = 52.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q15",
+      "type": "mcq",
+      "question": "Một bạn gấp 8 lên 3 lần bằng 8 + 3. Kết quả đúng là bao nhiêu?",
+      "options": [
+        "24",
+        "11",
+        "16",
+        "32"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "11",
+        "16",
+        "32"
+      ],
+      "explanation": "Gấp số lần dùng nhân: 8 × 3 = 24, không phải 11.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q16",
+      "type": "fill",
+      "question": "Hai số 6 và 18. Số 18 có phải gấp 3 lần số 6 không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ gấp 2 lần",
+        "chỉ hơn 3 đơn vị"
+      ],
+      "explanation": "6 × 3 = 18.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q17",
+      "type": "mcq",
+      "question": "Gấp 16 lên 3 lần được bao nhiêu?",
+      "options": [
+        "48",
+        "19",
+        "32",
+        "46"
+      ],
+      "correct_answer": "48",
+      "distractors": [
+        "19",
+        "32",
+        "46"
+      ],
+      "explanation": "16 × 3 = 48.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q18",
+      "type": "fill",
+      "question": "Gấp 11 lên 7 lần được bao nhiêu?",
+      "correct_answer": "77",
+      "distractors": [
+        "18",
+        "66",
+        "78"
+      ],
+      "explanation": "11 × 7 = 77.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q19",
+      "type": "mcq",
+      "question": "Số ban đầu 14, kết quả sau khi gấp 4 lần là bao nhiêu?",
+      "options": [
+        "56",
+        "18",
+        "42",
+        "54"
+      ],
+      "correct_answer": "56",
+      "distractors": [
+        "18",
+        "42",
+        "54"
+      ],
+      "explanation": "14 × 4 = 56.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q20",
+      "type": "fill",
+      "question": "Thêm 4 đơn vị vào 14 được bao nhiêu?",
+      "correct_answer": "18",
+      "distractors": [
+        "56",
+        "10",
+        "28"
+      ],
+      "explanation": "14 + 4 = 18. Khác với gấp 4 lần là 56.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q21",
+      "type": "mcq",
+      "question": "An có 7 tem, Bình có số tem gấp 3 lần An. Bình có mấy tem?",
+      "options": [
+        "21",
+        "10",
+        "14",
+        "28"
+      ],
+      "correct_answer": "21",
+      "distractors": [
+        "10",
+        "14",
+        "28"
+      ],
+      "explanation": "7 × 3 = 21 tem.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q22",
+      "type": "fill",
+      "question": "Một sợi dây xanh dài 12 cm. Dây đỏ dài gấp 4 lần. Dây đỏ dài mấy xăng-ti-mét?",
+      "correct_answer": "48",
+      "distractors": [
+        "16",
+        "36",
+        "46"
+      ],
+      "explanation": "12 × 4 = 48 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q23",
+      "type": "mcq",
+      "question": "Một giỏ có 8 quả. Giỏ lớn có số quả gấp 5 lần. Giỏ lớn có mấy quả?",
+      "options": [
+        "40",
+        "13",
+        "32",
+        "48"
+      ],
+      "correct_answer": "40",
+      "distractors": [
+        "13",
+        "32",
+        "48"
+      ],
+      "explanation": "8 × 5 = 40 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q24",
+      "type": "fill",
+      "question": "Em có 6 bút, chị có số bút gấp 2 lần em. Để tìm số bút của chị, dùng phép tính nào?",
+      "correct_answer": "nhân",
+      "distractors": [
+        "cộng",
+        "trừ",
+        "chia"
+      ],
+      "explanation": "Gấp số lần dùng phép nhân: 6 × 2 = 12 bút.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q25",
+      "type": "mcq",
+      "question": "Buổi sáng bán 15 bánh. Chiều bán gấp 3 lần sáng. Chiều bán mấy bánh?",
+      "options": [
+        "45",
+        "18",
+        "30",
+        "48"
+      ],
+      "correct_answer": "45",
+      "distractors": [
+        "18",
+        "30",
+        "48"
+      ],
+      "explanation": "15 × 3 = 45 bánh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q26",
+      "type": "fill",
+      "question": "Một nhóm trồng 9 cây. Nhóm khác trồng gấp 4 lần, được 36 cây. Trong tình huống này, số cây ban đầu là số nào?",
+      "correct_answer": "9",
+      "distractors": [
+        "4",
+        "36",
+        "13"
+      ],
+      "explanation": "Số ban đầu là 9 cây; nhân với số lần 4 để được 36 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q27",
+      "type": "mcq",
+      "question": "Một tấm vải dài 14 m. Cuộn vải dài gấp 5 lần. Cuộn dài mấy mét?",
+      "options": [
+        "70",
+        "19",
+        "56",
+        "60"
+      ],
+      "correct_answer": "70",
+      "distractors": [
+        "19",
+        "56",
+        "60"
+      ],
+      "explanation": "14 × 5 = 70 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q28",
+      "type": "fill",
+      "question": "Lan đọc 11 trang, Mai đọc gấp 6 lần Lan. Mai đọc mấy trang?",
+      "correct_answer": "66",
+      "distractors": [
+        "17",
+        "55",
+        "67"
+      ],
+      "explanation": "11 × 6 = 66 trang.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q29",
+      "type": "mcq",
+      "question": "Hộp nhỏ có 16 thẻ, hộp lớn gấp 4 lần. Có thể tìm số thẻ hộp lớn bằng 16 + 4 không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ cần đổi màu hộp",
+        "hai phép tính luôn bằng nhau"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần đổi màu hộp",
+        "hai phép tính luôn bằng nhau"
+      ],
+      "explanation": "Gấp 4 lần phải tính 16 × 4 = 64; 16 + 4 = 20 chỉ là thêm 4 thẻ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q30",
+      "type": "fill",
+      "question": "Đoạn AB dài 13 cm, CD dài gấp 3 lần AB. CD dài mấy xăng-ti-mét?",
+      "correct_answer": "39",
+      "distractors": [
+        "16",
+        "26",
+        "36"
+      ],
+      "explanation": "13 × 3 = 39 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q31",
+      "type": "mcq",
+      "question": "Nam có 18 nhãn. Hoa có số nhãn gấp 2 lần Nam. Hoa có mấy nhãn?",
+      "options": [
+        "36",
+        "20",
+        "16",
+        "54"
+      ],
+      "correct_answer": "36",
+      "distractors": [
+        "20",
+        "16",
+        "54"
+      ],
+      "explanation": "18 × 2 = 36 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q32",
+      "type": "fill",
+      "question": "Một bao có 21 kg, số gạo trong kho gấp 3 lần số gạo của bao đó. Sơ đồ kho cần mấy phần bằng nhau, mỗi phần 21 kg?",
+      "correct_answer": "3",
+      "distractors": [
+        "1",
+        "2",
+        "21"
+      ],
+      "explanation": "Gấp 3 lần nghĩa là 3 phần bằng nhau, mỗi phần 21 kg; 21 × 3 = 63 kg.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q33",
+      "type": "mcq",
+      "question": "Một luống có 17 cây. Luống thứ hai có số cây gấp 3 lần. Luống thứ hai có mấy cây?",
+      "options": [
+        "51",
+        "20",
+        "34",
+        "47"
+      ],
+      "correct_answer": "51",
+      "distractors": [
+        "20",
+        "34",
+        "47"
+      ],
+      "explanation": "17 × 3 = 51 cây.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q34",
+      "type": "fill",
+      "question": "Ngày đầu làm 24 thiệp, ngày sau gấp 3 lần. Phép 24 × 3 đã cho biết tổng cả hai ngày chưa?",
+      "correct_answer": "chưa",
+      "distractors": [
+        "rồi",
+        "luôn bằng 72",
+        "luôn bằng 27"
+      ],
+      "explanation": "24 × 3 = 72 là số thiệp ngày sau; cả hai ngày là 24 + 72 = 96 thiệp.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q35",
+      "type": "mcq",
+      "question": "Đường đi ngắn dài 19 m, đường dài gấp 4 lần. Có thể tính đường dài bằng 19 + 19 + 19 + 19 không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ cộng 19 + 4",
+        "chỉ cộng 19 hai lần"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ cộng 19 + 4",
+        "chỉ cộng 19 hai lần"
+      ],
+      "explanation": "Bốn phần, mỗi phần 19 m: 19 + 19 + 19 + 19 = 76; cũng là 19 × 4 = 76 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q36",
+      "type": "fill",
+      "question": "An có 8 viên bi. Bình có gấp 3 lần An, rồi cho em 4 viên. Bình còn mấy viên?",
+      "correct_answer": "20",
+      "distractors": [
+        "24",
+        "28",
+        "15"
+      ],
+      "explanation": "Bình ban đầu có 8 × 3 = 24 viên; 24 - 4 = 20 viên.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q37",
+      "type": "mcq",
+      "question": "Một cửa hàng sáng bán 12 quyển vở, chiều bán gấp 4 lần sáng. Cả ngày bán mấy quyển?",
+      "options": [
+        "60",
+        "48",
+        "16",
+        "36"
+      ],
+      "correct_answer": "60",
+      "distractors": [
+        "48",
+        "16",
+        "36"
+      ],
+      "explanation": "Chiều bán 12 × 4 = 48 quyển; cả ngày 12 + 48 = 60 quyển.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q38",
+      "type": "fill",
+      "question": "Em có 5 thẻ, anh có gấp 6 lần em. Anh nhiều hơn em mấy thẻ?",
+      "correct_answer": "25",
+      "distractors": [
+        "30",
+        "11",
+        "6"
+      ],
+      "explanation": "Anh có 5 × 6 = 30 thẻ; 30 - 5 = 25 thẻ nhiều hơn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q39",
+      "type": "mcq",
+      "question": "Dây đỏ dài 14 cm, dây xanh dài hơn dây đỏ 3 cm. Dây xanh dài mấy xăng-ti-mét?",
+      "options": [
+        "17",
+        "42",
+        "11",
+        "28"
+      ],
+      "correct_answer": "17",
+      "distractors": [
+        "42",
+        "11",
+        "28"
+      ],
+      "explanation": "Hơn 3 cm là thêm 3 đơn vị: 14 + 3 = 17 cm, không nhân 3.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B24_Q40",
+      "type": "fill",
+      "question": "Lan có 9 nhãn, Mai có gấp 4 lần Lan. Cần thêm mấy nhãn để Mai có 40 nhãn?",
+      "correct_answer": "4",
+      "distractors": [
+        "36",
+        "13",
+        "5"
+      ],
+      "explanation": "Mai có 9 × 4 = 36 nhãn; 40 - 36 = 4 nhãn cần thêm.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B24_GAME1",
+      "title": "Ghép thẻ gấp hay thêm",
+      "mode": "match",
+      "objective": "Ghép bài toán với kết quả, phân biệt gấp số lần, thêm đơn vị, tổng và chênh lệch.",
+      "rules": [
+        "Mỗi lượt chọn 5 câu có 5 đáp án khác nhau.",
+        "Chọn câu hỏi bên trái rồi đáp án bên phải. Sai thì thử lại.",
+        "Mỗi cặp đúng 10 điểm; tối đa 50 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B24_Q01",
+        "TOAN3_T1_B24_Q02",
+        "TOAN3_T1_B24_Q03",
+        "TOAN3_T1_B24_Q04",
+        "TOAN3_T1_B24_Q05",
+        "TOAN3_T1_B24_Q06",
+        "TOAN3_T1_B24_Q07",
+        "TOAN3_T1_B24_Q08",
+        "TOAN3_T1_B24_Q09",
+        "TOAN3_T1_B24_Q10",
+        "TOAN3_T1_B24_Q11",
+        "TOAN3_T1_B24_Q12",
+        "TOAN3_T1_B24_Q13",
+        "TOAN3_T1_B24_Q14",
+        "TOAN3_T1_B24_Q15",
+        "TOAN3_T1_B24_Q16",
+        "TOAN3_T1_B24_Q17",
+        "TOAN3_T1_B24_Q18",
+        "TOAN3_T1_B24_Q19",
+        "TOAN3_T1_B24_Q20",
+        "TOAN3_T1_B24_Q21",
+        "TOAN3_T1_B24_Q22",
+        "TOAN3_T1_B24_Q23",
+        "TOAN3_T1_B24_Q24",
+        "TOAN3_T1_B24_Q25",
+        "TOAN3_T1_B24_Q26",
+        "TOAN3_T1_B24_Q27",
+        "TOAN3_T1_B24_Q28",
+        "TOAN3_T1_B24_Q29",
+        "TOAN3_T1_B24_Q30",
+        "TOAN3_T1_B24_Q31",
+        "TOAN3_T1_B24_Q32",
+        "TOAN3_T1_B24_Q33",
+        "TOAN3_T1_B24_Q34",
+        "TOAN3_T1_B24_Q35",
+        "TOAN3_T1_B24_Q36",
+        "TOAN3_T1_B24_Q37",
+        "TOAN3_T1_B24_Q38",
+        "TOAN3_T1_B24_Q39",
+        "TOAN3_T1_B24_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 50
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B24_A.svg",
+      "caption": "Hình A: Bình có một phần 5 thẻ, Lan có ba phần bằng nhau như thế."
+    }
+  ]
+}

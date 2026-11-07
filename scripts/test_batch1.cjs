@@ -1,5 +1,7 @@
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
+const fs=require('node:fs'),path=require('node:path');
+const contentCount=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/system/INDEX.json'),'utf8')).lessons.filter(e=>e.path).length;
 (async()=>{
  const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
  const page=await browser.newPage(); const errors=[];
@@ -40,7 +42,7 @@ const assert=require('node:assert/strict');
  // Một file học liệu lỗi: giữ bài cũ, các bài khác vẫn tải được.
  await page.route('**/TOAN3_T1_B02.json',r=>r.fulfill({status:404,body:'missing'}));
  await page.reload();const loaded=await page.evaluate(()=>lessonContentReady);
- assert.equal(loaded.length,19);
+ assert.equal(loaded.length,contentCount-1);
  await page.evaluate(()=>{go({p:'lesson',id:'TOAN3_T1_B02'});startQ('TOAN3_T1_B02','all');});
  assert(await page.evaluate(()=>v.qs.length>0));
  assert.deepEqual(errors,[]);

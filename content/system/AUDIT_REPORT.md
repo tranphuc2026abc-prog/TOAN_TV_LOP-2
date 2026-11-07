@@ -83,3 +83,15 @@
 - DOM hồi quy 20 bài và bốn loại game: đạt. Kiểm tra lưới vẽ có tám trường hợp đúng/sai cho bốn kiểu hình, góc vuông xoay nghiêng, đường tròn vượt lưới, chọn trùng điểm, xóa nét và chọn bằng phím/chuột: đạt. Vùng chọn chấm được mở rộng để dễ thao tác.
 - Sửa thiếu dữ kiện ở trò ghép đôi: câu cần hình/bảng có phần tham chiếu chung hiển thị ngay trên màn chơi; đã kiểm thử với Bài 19 và bảng của Bài 12.
 - Giới hạn: DOM và render SVG không thay thế kiểm thử bố cục toàn website, thao tác cảm ứng hay âm thanh bằng trình duyệt thật. Chỉ Bài 1–4 đã được giáo viên xác nhận.
+
+## Cập nhật Batch 6 — 07/11/2026
+
+- Đã đọc trực quan toàn bộ trang in 63–71 (PDF 64–72) cho Bài 21–24. Không thay đổi số lượng danh mục; các mốc nguồn của bốn bài khớp PDF.
+- Biên soạn 160 câu, phân mức 10/10/20 mỗi bài, đáp án/lời giải và phương án nhiễu riêng; thêm 4 trò chơi. Nhân hai chữ số có hướng dẫn thẳng hàng, tính đơn vị trước, nhớ sang chục và ví dụ không vượt phạm vi bài.
+- Câu gấp số lần có phân biệt thêm đơn vị, xác định số ban đầu, số phần trên sơ đồ, kiểm tra cách lập phép tính, tìm tổng và chênh lệch; không chỉ đổi số trong cùng một mẫu.
+- Năm SVG mới: mô hình lập phương và hộp chữ nhật đủ cạnh/đỉnh khuất; trung điểm bốn cạnh hình vuông; đường tròn vừa khít hình vuông; sơ đồ số thẻ gấp ba. Đã render và xem cả năm hình; nhãn rõ, không cắt chữ.
+- Validator đạt cho toàn bộ 24 bài, 960 câu. Tính lại 824 đẳng thức số trong lời giải: đạt. Bài 21 dùng phép cộng đã học nếu cần cộng 12 cạnh của hai khung, không yêu cầu thuật toán nhân hai chữ số trước Bài 23.
+- DOM hồi quy 24 bài, 10 câu phân mức 3/3/4, chấm điểm/lời giải, bốn kiểu trò chơi, hình trong câu hỏi và ghép đôi, lưới vẽ, lưu/nạp tiến độ, fallback 404: đạt. Bổ sung kiểm thử ghép đôi với sơ đồ của Bài 24.
+- Kiểm thử Chromium chưa thực hiện vì môi trường chưa có executable. Bộ kiểm thử trình duyệt đã sửa để lấy số học liệu từ chỉ mục thay vì hằng số cũ.
+- Workflow Pages Batch 5 thành công (run 42379465425). Batch 6 cần xác minh theo commit thực tế sau khi ghi.
+- Trạng thái duyệt giữ nguyên: 4 bài đã được giáo viên thẩm định; 20 bài mới chờ thẩm định; 144 mục còn bản nháp.

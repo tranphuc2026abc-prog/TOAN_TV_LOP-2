@@ -1,0 +1,796 @@
+{
+  "id": "TOAN3_T1_B23",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 23,
+  "title": "Nhân số có hai chữ số với số có một chữ số",
+  "topic": "Phép nhân trong phạm vi 100",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      67,
+      69
+    ],
+    "pdf_pages": [
+      68,
+      70
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhân số có hai chữ số với số có một chữ số, có nhớ hoặc không nhớ, trong phạm vi bài học.",
+    "Đặt tính thẳng hàng, xử lí đúng số nhớ và vận dụng vào nhóm đồ vật thực tế."
+  ],
+  "knowledge": {
+    "introduction": "Các nhóm 12, 16 hay 24 đồ vật có thể được tính nhanh bằng phép nhân. Khi đặt tính, tính từ đơn vị sang chục; nếu hàng đơn vị đủ mười, phải nhớ sang hàng chục.",
+    "rules": [
+      "Đặt số có hai chữ số ở trên; thừa số một chữ số đặt dưới, thẳng hàng đơn vị.",
+      "Nhân thừa số một chữ số với hàng đơn vị trước, rồi nhân với hàng chục.",
+      "Nếu tích ở hàng đơn vị là số có hai chữ số, viết chữ số đơn vị và nhớ số chục sang hàng chục.",
+      "Nhân hàng chục rồi cộng số nhớ. Không được bỏ quên số nhớ hoặc viết cả tích hàng đơn vị vào một cột.",
+      "Nhân số tròn chục: tính theo chục rồi viết thành số. Ví dụ 30 × 2 = 60."
+    ],
+    "steps": [
+      "Đọc phép nhân và đặt các hàng cho đúng.",
+      "Tính hàng đơn vị, viết kết quả và ghi số nhớ nếu có.",
+      "Tính hàng chục, cộng số nhớ rồi viết kết quả.",
+      "Kiểm tra bằng ước lượng hoặc cộng các nhóm bằng nhau; ghi đơn vị khi giải bài toán."
+    ],
+    "common_errors": [
+      "Đặt thừa số một chữ số thẳng hàng chục.",
+      "Quên cộng số nhớ, như tính 24 × 3 thành 62.",
+      "Viết số nhớ vào hàng đơn vị thay vì cộng sang hàng chục.",
+      "Chỉ nhân một chữ số của số có hai chữ số."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Đặt tính và tính 23 × 3.",
+      "steps": [
+        "3 × 3 = 9, viết 9 ở hàng đơn vị.",
+        "3 × 2 = 6 chục, viết 6 ở hàng chục.",
+        "23 × 3 = 69."
+      ]
+    },
+    {
+      "question": "Đặt tính và tính 14 × 6.",
+      "steps": [
+        "6 × 4 = 24, viết 4 nhớ 2.",
+        "6 × 1 = 6, thêm 2 được 8; viết 8.",
+        "14 × 6 = 84."
+      ]
+    },
+    {
+      "question": "Mỗi gói có 17 nhãn. Mua 5 gói thì có mấy nhãn?",
+      "steps": [
+        "Có 5 nhóm, mỗi nhóm 17 nhãn.",
+        "5 × 7 = 35, viết 5 nhớ 3; 5 × 1 = 5, thêm 3 được 8.",
+        "17 × 5 = 85. Có 85 nhãn."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B23_Q01",
+      "type": "mcq",
+      "question": "Tính 12 × 4.",
+      "options": [
+        "48",
+        "16",
+        "36",
+        "84"
+      ],
+      "correct_answer": "48",
+      "distractors": [
+        "16",
+        "36",
+        "84"
+      ],
+      "explanation": "4 × 2 = 8, viết 8; 4 × 1 = 4 chục, viết 4; được 48.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q02",
+      "type": "fill",
+      "question": "Tính 21 × 3.",
+      "correct_answer": "63",
+      "distractors": [
+        "24",
+        "42",
+        "36"
+      ],
+      "explanation": "3 × 1 = 3; 3 × 2 = 6 chục; được 63.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q03",
+      "type": "mcq",
+      "question": "Tính 14 × 2.",
+      "options": [
+        "28",
+        "16",
+        "24",
+        "82"
+      ],
+      "correct_answer": "28",
+      "distractors": [
+        "16",
+        "24",
+        "82"
+      ],
+      "explanation": "2 × 4 = 8; 2 × 1 = 2 chục; được 28.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q04",
+      "type": "fill",
+      "question": "Tính 31 × 3.",
+      "correct_answer": "93",
+      "distractors": [
+        "34",
+        "63",
+        "39"
+      ],
+      "explanation": "3 × 1 = 3; 3 × 3 = 9 chục; được 93.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q05",
+      "type": "mcq",
+      "question": "Tính 20 × 4.",
+      "options": [
+        "80",
+        "24",
+        "8",
+        "40"
+      ],
+      "correct_answer": "80",
+      "distractors": [
+        "24",
+        "8",
+        "40"
+      ],
+      "explanation": "2 chục nhân 4 được 8 chục, tức 80.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q06",
+      "type": "fill",
+      "question": "Tính 15 × 2.",
+      "correct_answer": "30",
+      "distractors": [
+        "17",
+        "20",
+        "25"
+      ],
+      "explanation": "2 × 5 = 10, viết 0 nhớ 1; 2 × 1 = 2, thêm 1 được 3 chục; kết quả 30.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q07",
+      "type": "mcq",
+      "question": "Tính 23 × 3.",
+      "options": [
+        "69",
+        "26",
+        "66",
+        "96"
+      ],
+      "correct_answer": "69",
+      "distractors": [
+        "26",
+        "66",
+        "96"
+      ],
+      "explanation": "3 × 3 = 9; 3 × 2 = 6 chục; được 69.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q08",
+      "type": "fill",
+      "question": "Tính 18 × 4.",
+      "correct_answer": "72",
+      "distractors": [
+        "22",
+        "42",
+        "64"
+      ],
+      "explanation": "4 × 8 = 32, viết 2 nhớ 3; 4 × 1 = 4, thêm 3 được 7 chục; kết quả 72.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q09",
+      "type": "mcq",
+      "question": "Khi nhân theo cột, bắt đầu từ hàng nào của số có hai chữ số?",
+      "options": [
+        "hàng đơn vị",
+        "hàng chục",
+        "hàng trăm",
+        "hàng bất kì"
+      ],
+      "correct_answer": "hàng đơn vị",
+      "distractors": [
+        "hàng chục",
+        "hàng trăm",
+        "hàng bất kì"
+      ],
+      "explanation": "Tính từ hàng đơn vị sang hàng chục để xử lí số nhớ.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q10",
+      "type": "fill",
+      "question": "Khi 3 nhân với chữ số hàng đơn vị được 18, viết 8 và nhớ mấy chục?",
+      "correct_answer": "1",
+      "distractors": [
+        "8",
+        "3",
+        "18"
+      ],
+      "explanation": "18 đơn vị bằng 1 chục và 8 đơn vị; viết 8, nhớ 1.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q11",
+      "type": "mcq",
+      "question": "Tính 24 × 3.",
+      "options": [
+        "72",
+        "62",
+        "27",
+        "84"
+      ],
+      "correct_answer": "72",
+      "distractors": [
+        "62",
+        "27",
+        "84"
+      ],
+      "explanation": "3 × 4 = 12, viết 2 nhớ 1; 3 × 2 = 6, thêm 1 được 7; kết quả 72.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q12",
+      "type": "fill",
+      "question": "Tính 17 × 5.",
+      "correct_answer": "85",
+      "distractors": [
+        "55",
+        "22",
+        "75"
+      ],
+      "explanation": "5 × 7 = 35, viết 5 nhớ 3; 5 × 1 = 5, thêm 3 được 8; kết quả 85.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q13",
+      "type": "mcq",
+      "question": "Tính 19 × 4.",
+      "options": [
+        "76",
+        "46",
+        "23",
+        "68"
+      ],
+      "correct_answer": "76",
+      "distractors": [
+        "46",
+        "23",
+        "68"
+      ],
+      "explanation": "4 × 9 = 36, viết 6 nhớ 3; 4 × 1 = 4, thêm 3 được 7; kết quả 76.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q14",
+      "type": "fill",
+      "question": "Tính 16 × 3.",
+      "correct_answer": "48",
+      "distractors": [
+        "38",
+        "19",
+        "63"
+      ],
+      "explanation": "3 × 6 = 18, viết 8 nhớ 1; 3 × 1 = 3, thêm 1 được 4; kết quả 48.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q15",
+      "type": "mcq",
+      "question": "Một bạn tính 27 × 2 được 44 do quên số nhớ. Kết quả đúng là bao nhiêu?",
+      "options": [
+        "54",
+        "44",
+        "29",
+        "52"
+      ],
+      "correct_answer": "54",
+      "distractors": [
+        "44",
+        "29",
+        "52"
+      ],
+      "explanation": "2 × 7 = 14 nhớ 1; 2 × 2 = 4, thêm 1 được 5; kết quả 54.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q16",
+      "type": "fill",
+      "question": "Tính 28 × 3.",
+      "correct_answer": "84",
+      "distractors": [
+        "64",
+        "31",
+        "78"
+      ],
+      "explanation": "3 × 8 = 24, viết 4 nhớ 2; 3 × 2 = 6, thêm 2 được 8; kết quả 84.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q17",
+      "type": "mcq",
+      "question": "Tính 13 × 7.",
+      "options": [
+        "91",
+        "71",
+        "20",
+        "81"
+      ],
+      "correct_answer": "91",
+      "distractors": [
+        "71",
+        "20",
+        "81"
+      ],
+      "explanation": "7 × 3 = 21, viết 1 nhớ 2; 7 × 1 = 7, thêm 2 được 9; kết quả 91.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q18",
+      "type": "fill",
+      "question": "Tính 32 × 2.",
+      "correct_answer": "64",
+      "distractors": [
+        "34",
+        "62",
+        "46"
+      ],
+      "explanation": "2 × 2 = 4; 2 × 3 = 6 chục; được 64.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q19",
+      "type": "mcq",
+      "question": "Hai phép 22 × 3 và 33 × 2 cùng có kết quả nào?",
+      "options": [
+        "66",
+        "55",
+        "25",
+        "35"
+      ],
+      "correct_answer": "66",
+      "distractors": [
+        "55",
+        "25",
+        "35"
+      ],
+      "explanation": "22 × 3 = 66; 33 × 2 = 66.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q20",
+      "type": "fill",
+      "question": "Tính 11 × 8.",
+      "correct_answer": "88",
+      "distractors": [
+        "19",
+        "18",
+        "81"
+      ],
+      "explanation": "8 × 1 = 8 đơn vị và 8 chục; kết quả 88.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q21",
+      "type": "mcq",
+      "question": "Mỗi túi có 13 viên bi. 4 túi có bao nhiêu viên?",
+      "options": [
+        "52",
+        "17",
+        "42",
+        "48"
+      ],
+      "correct_answer": "52",
+      "distractors": [
+        "17",
+        "42",
+        "48"
+      ],
+      "explanation": "13 × 4 = 52 viên. Đơn vị: 4 × 3 = 12 nhớ 1; chục: 4 + 1 = 5.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q22",
+      "type": "fill",
+      "question": "Một hàng có 24 ghế. 3 hàng có bao nhiêu ghế?",
+      "correct_answer": "72",
+      "distractors": [
+        "27",
+        "62",
+        "84"
+      ],
+      "explanation": "24 × 3 = 72 ghế. Đơn vị 12 nhớ 1; hàng chục 6 + 1 = 7.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q23",
+      "type": "mcq",
+      "question": "Mỗi gói có 16 nhãn vở. 5 gói có tất cả bao nhiêu nhãn?",
+      "options": [
+        "80",
+        "21",
+        "50",
+        "75"
+      ],
+      "correct_answer": "80",
+      "distractors": [
+        "21",
+        "50",
+        "75"
+      ],
+      "explanation": "16 × 5 = 80 nhãn. Đơn vị 30 nhớ 3; chục 5 + 3 = 8.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q24",
+      "type": "fill",
+      "question": "Một ngày đọc 14 trang. Trong 6 ngày đọc bao nhiêu trang?",
+      "correct_answer": "84",
+      "distractors": [
+        "20",
+        "64",
+        "96"
+      ],
+      "explanation": "14 × 6 = 84 trang. Đơn vị 24 nhớ 2; chục 6 + 2 = 8.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q25",
+      "type": "mcq",
+      "question": "Mỗi hộp có 22 bút. Hai hộp có mấy bút?",
+      "options": [
+        "44",
+        "24",
+        "42",
+        "48"
+      ],
+      "correct_answer": "44",
+      "distractors": [
+        "24",
+        "42",
+        "48"
+      ],
+      "explanation": "22 × 2 = 44 bút; hai hàng đều nhân với 2.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q26",
+      "type": "fill",
+      "question": "Mỗi bộ cần 15 tấm bìa. 4 bộ cần mấy tấm?",
+      "correct_answer": "60",
+      "distractors": [
+        "19",
+        "40",
+        "50"
+      ],
+      "explanation": "15 × 4 = 60 tấm. Đơn vị 20 nhớ 2; chục 4 + 2 = 6.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q27",
+      "type": "mcq",
+      "question": "Mỗi hàng trồng 18 cây. 3 hàng trồng mấy cây?",
+      "options": [
+        "54",
+        "21",
+        "34",
+        "48"
+      ],
+      "correct_answer": "54",
+      "distractors": [
+        "21",
+        "34",
+        "48"
+      ],
+      "explanation": "18 × 3 = 54 cây. Đơn vị 24 nhớ 2; chục 3 + 2 = 5.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q28",
+      "type": "fill",
+      "question": "Mỗi khay có 23 quả. 4 khay có mấy quả?",
+      "correct_answer": "92",
+      "distractors": [
+        "27",
+        "82",
+        "96"
+      ],
+      "explanation": "23 × 4 = 92 quả. Đơn vị 12 nhớ 1; chục 8 + 1 = 9.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q29",
+      "type": "mcq",
+      "question": "Mỗi cuộn dây dài 25 m. 3 cuộn dài tổng cộng mấy mét?",
+      "options": [
+        "75",
+        "28",
+        "65",
+        "70"
+      ],
+      "correct_answer": "75",
+      "distractors": [
+        "28",
+        "65",
+        "70"
+      ],
+      "explanation": "25 × 3 = 75 m. Đơn vị 15 nhớ 1; chục 6 + 1 = 7.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q30",
+      "type": "fill",
+      "question": "Một vỉ có 12 ô. 7 vỉ có tất cả mấy ô?",
+      "correct_answer": "84",
+      "distractors": [
+        "19",
+        "74",
+        "72"
+      ],
+      "explanation": "12 × 7 = 84 ô. Đơn vị 14 nhớ 1; chục 7 + 1 = 8.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q31",
+      "type": "mcq",
+      "question": "Mỗi ngày làm 19 thiệp. Trong 3 ngày làm mấy thiệp?",
+      "options": [
+        "57",
+        "22",
+        "37",
+        "54"
+      ],
+      "correct_answer": "57",
+      "distractors": [
+        "22",
+        "37",
+        "54"
+      ],
+      "explanation": "19 × 3 = 57 thiệp. Đơn vị 27 nhớ 2; chục 3 + 2 = 5.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q32",
+      "type": "fill",
+      "question": "Mỗi xe chở 32 thùng. Hai xe chở tất cả mấy thùng?",
+      "correct_answer": "64",
+      "distractors": [
+        "34",
+        "62",
+        "46"
+      ],
+      "explanation": "32 × 2 = 64 thùng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q33",
+      "type": "mcq",
+      "question": "Mỗi giỏ đựng 17 quả. 4 giỏ đựng mấy quả?",
+      "options": [
+        "68",
+        "21",
+        "48",
+        "64"
+      ],
+      "correct_answer": "68",
+      "distractors": [
+        "21",
+        "48",
+        "64"
+      ],
+      "explanation": "17 × 4 = 68 quả. Đơn vị 28 nhớ 2; chục 4 + 2 = 6.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q34",
+      "type": "fill",
+      "question": "Mỗi nhóm dùng 21 tờ giấy. 4 nhóm dùng mấy tờ?",
+      "correct_answer": "84",
+      "distractors": [
+        "25",
+        "64",
+        "48"
+      ],
+      "explanation": "21 × 4 = 84 tờ. Đơn vị 4, chục 8.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q35",
+      "type": "mcq",
+      "question": "Mỗi bao có 14 kg. Năm bao như vậy nặng mấy ki-lô-gam?",
+      "options": [
+        "70",
+        "19",
+        "50",
+        "60"
+      ],
+      "correct_answer": "70",
+      "distractors": [
+        "19",
+        "50",
+        "60"
+      ],
+      "explanation": "14 × 5 = 70 kg. Đơn vị 20 nhớ 2; chục 5 + 2 = 7.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q36",
+      "type": "fill",
+      "question": "Mua 3 hộp, mỗi hộp 26 phấn. Dùng 8 viên. Còn mấy viên?",
+      "correct_answer": "70",
+      "distractors": [
+        "78",
+        "86",
+        "21"
+      ],
+      "explanation": "26 × 3 = 78 viên; 78 - 8 = 70 viên.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q37",
+      "type": "mcq",
+      "question": "Mỗi bộ 11 tấm thẻ. Mua 6 bộ rồi được tặng 4 thẻ. Có tất cả mấy thẻ?",
+      "options": [
+        "70",
+        "66",
+        "62",
+        "21"
+      ],
+      "correct_answer": "70",
+      "distractors": [
+        "66",
+        "62",
+        "21"
+      ],
+      "explanation": "11 × 6 = 66 thẻ; 66 + 4 = 70 thẻ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q38",
+      "type": "fill",
+      "question": "Hai túi, mỗi túi 28 hạt. Chia cho bạn 6 hạt. Còn mấy hạt?",
+      "correct_answer": "50",
+      "distractors": [
+        "56",
+        "62",
+        "24"
+      ],
+      "explanation": "28 × 2 = 56 hạt; 56 - 6 = 50 hạt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q39",
+      "type": "mcq",
+      "question": "Làm 4 dây trang trí, mỗi dây 16 lá cờ. Đã có 60 lá. Cần thêm mấy lá?",
+      "options": [
+        "4",
+        "64",
+        "44",
+        "20"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "64",
+        "44",
+        "20"
+      ],
+      "explanation": "16 × 4 = 64 lá; 64 - 60 = 4 lá cần thêm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B23_Q40",
+      "type": "fill",
+      "question": "Mỗi hộp có 13 bút xanh và 2 bút đỏ. 5 hộp có bao nhiêu bút xanh?",
+      "correct_answer": "65",
+      "distractors": [
+        "15",
+        "75",
+        "18"
+      ],
+      "explanation": "Chỉ tính bút xanh: 13 × 5 = 65 bút.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B23_GAME1",
+      "title": "Tăng tốc phép nhân hai chữ số",
+      "mode": "speed",
+      "objective": "Tính cẩn thận cả hàng đơn vị, hàng chục và số nhớ trong 60 giây.",
+      "rules": [
+        "Trả lời các câu thuộc bài trong 60 giây.",
+        "Mỗi câu đúng được 10 điểm, sai không được điểm; chuyển ngay sang câu tiếp.",
+        "Hết giờ thì kết thúc. Điểm riêng của lượt chơi, không thay kết quả luyện tập."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B23_Q01",
+        "TOAN3_T1_B23_Q02",
+        "TOAN3_T1_B23_Q03",
+        "TOAN3_T1_B23_Q04",
+        "TOAN3_T1_B23_Q05",
+        "TOAN3_T1_B23_Q06",
+        "TOAN3_T1_B23_Q07",
+        "TOAN3_T1_B23_Q08",
+        "TOAN3_T1_B23_Q09",
+        "TOAN3_T1_B23_Q10",
+        "TOAN3_T1_B23_Q11",
+        "TOAN3_T1_B23_Q12",
+        "TOAN3_T1_B23_Q13",
+        "TOAN3_T1_B23_Q14",
+        "TOAN3_T1_B23_Q15",
+        "TOAN3_T1_B23_Q16",
+        "TOAN3_T1_B23_Q17",
+        "TOAN3_T1_B23_Q18",
+        "TOAN3_T1_B23_Q19",
+        "TOAN3_T1_B23_Q20",
+        "TOAN3_T1_B23_Q21",
+        "TOAN3_T1_B23_Q22",
+        "TOAN3_T1_B23_Q23",
+        "TOAN3_T1_B23_Q24",
+        "TOAN3_T1_B23_Q25",
+        "TOAN3_T1_B23_Q26",
+        "TOAN3_T1_B23_Q27",
+        "TOAN3_T1_B23_Q28",
+        "TOAN3_T1_B23_Q29",
+        "TOAN3_T1_B23_Q30",
+        "TOAN3_T1_B23_Q31",
+        "TOAN3_T1_B23_Q32",
+        "TOAN3_T1_B23_Q33",
+        "TOAN3_T1_B23_Q34",
+        "TOAN3_T1_B23_Q35",
+        "TOAN3_T1_B23_Q36",
+        "TOAN3_T1_B23_Q37",
+        "TOAN3_T1_B23_Q38",
+        "TOAN3_T1_B23_Q39",
+        "TOAN3_T1_B23_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": null
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

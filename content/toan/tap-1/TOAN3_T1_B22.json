@@ -1,0 +1,819 @@
+{
+  "id": "TOAN3_T1_B22",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 22,
+  "title": "Luyện tập chung",
+  "topic": "Ôn tập hình phẳng và hình khối",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      65,
+      66
+    ],
+    "pdf_pages": [
+      66,
+      67
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Kết hợp kiến thức trung điểm, đường tròn, góc, hình vuông, chữ nhật và hình khối.",
+    "Dùng hình và dữ kiện rõ ràng để chọn phép tính phù hợp, tránh bỏ sót bộ phận bị khuất."
+  ],
+  "knowledge": {
+    "introduction": "Bài ôn tập yêu cầu nhìn đúng đối tượng trước khi tính. Đề hỏi bán kính khác với đường kính; hỏi mặt khác với cạnh; một điểm ở giữa còn cần cách đều hai đầu mới là trung điểm.",
+    "rules": [
+      "Trung điểm nằm giữa hai đầu và chia đoạn thành hai phần bằng nhau.",
+      "Đường kính dài gấp hai lần bán kính. Nếu đường tròn vừa chạm cả bốn cạnh của một hình vuông như hình cho trước, cạnh vuông bằng đường kính.",
+      "Hình vuông có bốn cạnh bằng nhau và bốn góc vuông; chữ nhật có bốn góc vuông và các cặp cạnh đối diện bằng nhau.",
+      "Khối lập phương và hộp chữ nhật đều có 8 đỉnh, 6 mặt, 12 cạnh; hình vẽ có thể che khuất một số bộ phận.",
+      "Tính từng bước khi bài kết hợp nhiều hình hoặc cần tìm tổng/chênh lệch độ dài."
+    ],
+    "steps": [
+      "Đọc tên hình hoặc khối và xác định điều cần tìm.",
+      "Đọc đủ dữ kiện, gồm vị trí điểm và quan hệ vừa khít nếu có.",
+      "Nhắc lại quy tắc, chọn phép tính rồi ghi đơn vị.",
+      "Kiểm tra kết quả bằng hình, bằng cách chia đôi/gấp đôi hoặc đếm lại."
+    ],
+    "common_errors": [
+      "Lấy bán kính làm cạnh hình vuông bao quanh đường tròn vừa khít.",
+      "Chỉ xét điểm cách đều mà quên điều kiện nằm trên đoạn.",
+      "Đếm số khối nhỏ thay cho số ô mặt được sơn.",
+      "Cộng nhầm số cạnh vào bài hỏi số đỉnh."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Đường tròn bán kính 4 cm vừa chạm bốn cạnh khung vuông. Tìm cạnh khung.",
+      "steps": [
+        "Cạnh khung bằng đường kính đường tròn.",
+        "4 × 2 = 8. Cạnh khung dài 8 cm."
+      ]
+    },
+    {
+      "question": "Đoạn AB dài 16 cm, M là trung điểm. Tìm AM.",
+      "steps": [
+        "Trung điểm chia AB thành hai phần bằng nhau.",
+        "16 : 2 = 8. AM dài 8 cm."
+      ]
+    },
+    {
+      "question": "Một mặt ngoài khối lớn gồm 4 ô vuông nhỏ. Sáu mặt như vậy có mấy ô mặt?",
+      "steps": [
+        "Mỗi mặt có 4 ô, có 6 mặt.",
+        "4 × 6 = 24 ô mặt nhỏ. Không nhầm với số khối nhỏ."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B22_Q01",
+      "type": "mcq",
+      "question": "Đường kính hình tròn dài bằng mấy lần bán kính?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "1",
+        "3",
+        "4"
+      ],
+      "explanation": "Đường kính gồm hai bán kính nối tiếp nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q02",
+      "type": "fill",
+      "question": "Hình vuông có mấy góc vuông?",
+      "correct_answer": "4",
+      "distractors": [
+        "1",
+        "2",
+        "3"
+      ],
+      "explanation": "Bốn góc hình vuông đều vuông.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q03",
+      "type": "mcq",
+      "question": "Khối lập phương có mấy mặt?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "12"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "4",
+        "8",
+        "12"
+      ],
+      "explanation": "Khối lập phương có 6 mặt vuông.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q04",
+      "type": "fill",
+      "question": "Khối hộp chữ nhật có mấy đỉnh?",
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "6",
+        "12"
+      ],
+      "explanation": "Khối hộp chữ nhật có 8 đỉnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q05",
+      "type": "mcq",
+      "question": "Đoạn AB dài 12 cm, M là trung điểm. AM dài mấy xăng-ti-mét?",
+      "options": [
+        "6",
+        "12",
+        "2",
+        "10"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "12",
+        "2",
+        "10"
+      ],
+      "explanation": "12 : 2 = 6 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q06",
+      "type": "fill",
+      "question": "Dụng cụ kiểm tra góc vuông là gì?",
+      "correct_answer": "ê ke",
+      "distractors": [
+        "com pa",
+        "tẩy",
+        "hộp màu"
+      ],
+      "explanation": "Ê ke có góc vuông để so khớp.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q07",
+      "type": "mcq",
+      "question": "Một tam giác có mấy đỉnh?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "2",
+        "4",
+        "6"
+      ],
+      "explanation": "Tam giác có 3 đỉnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q08",
+      "type": "fill",
+      "question": "Một khối lập phương có mấy cạnh?",
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "8",
+        "4"
+      ],
+      "explanation": "Có 4 cạnh trên, 4 cạnh dưới và 4 cạnh nối.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q09",
+      "type": "mcq",
+      "question": "Bán kính dài 4 cm, đường kính dài mấy xăng-ti-mét?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "12"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "6",
+        "12"
+      ],
+      "explanation": "4 × 2 = 8 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q10",
+      "type": "fill",
+      "question": "Một hình chữ nhật có mấy góc không vuông?",
+      "correct_answer": "0",
+      "distractors": [
+        "1",
+        "2",
+        "4"
+      ],
+      "explanation": "Cả bốn góc đều là góc vuông nên không có góc không vuông.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q11",
+      "type": "mcq",
+      "question": "Hình A: M, N, P, Q nằm tại trung điểm bốn cạnh hình vuông. Có mấy điểm được đánh dấu làm trung điểm?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "8"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "2",
+        "3",
+        "8"
+      ],
+      "explanation": "Mỗi cạnh có một trung điểm đã đánh dấu, bốn cạnh có 4 điểm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B22_A.svg",
+        "caption": "Hình A: Các điểm M, N, P, Q trên bốn cạnh hình vuông ABCD."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q12",
+      "type": "fill",
+      "question": "Hình B: đường tròn vừa chạm cả bốn cạnh hình vuông. Bán kính 3 cm, cạnh vuông dài mấy xăng-ti-mét?",
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "9",
+        "12"
+      ],
+      "explanation": "Cạnh vuông bằng đường kính hình tròn; 3 × 2 = 6 cm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B22_B.svg",
+        "caption": "Hình B: Đường tròn tâm O vừa chạm cả bốn cạnh khung vuông."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q13",
+      "type": "mcq",
+      "question": "Hình B có bán kính 5 cm. Cạnh hình vuông bao quanh dài mấy xăng-ti-mét?",
+      "options": [
+        "10",
+        "5",
+        "7",
+        "15"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "5",
+        "7",
+        "15"
+      ],
+      "explanation": "Cạnh bằng đường kính; 5 × 2 = 10 cm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B22_B.svg",
+        "caption": "Hình B: Đường tròn tâm O vừa chạm cả bốn cạnh khung vuông."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q14",
+      "type": "fill",
+      "question": "Hình vuông xoay nghiêng có mất các góc vuông không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ khi xoay ít",
+        "chỉ khi tô màu"
+      ],
+      "explanation": "Xoay hình không đổi độ dài cạnh và loại góc.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q15",
+      "type": "mcq",
+      "question": "Một điểm cách hai đầu đoạn thẳng bằng nhau nhưng không nằm trên đoạn có phải trung điểm không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ cần khoảng cách bằng nhau",
+        "chỉ cần tên điểm"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần khoảng cách bằng nhau",
+        "chỉ cần tên điểm"
+      ],
+      "explanation": "Còn thiếu điều kiện nằm giữa hai đầu trên đoạn thẳng.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q16",
+      "type": "fill",
+      "question": "Một khối lập phương được vẽ chỉ nhìn thấy 3 mặt. Cả khối có bao nhiêu mặt?",
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "4",
+        "8"
+      ],
+      "explanation": "Hình biểu diễn che khuất một số mặt; cả khối vẫn có 6 mặt.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q17",
+      "type": "mcq",
+      "question": "Hình chữ nhật có cạnh dài 8 cm và cạnh ngắn 3 cm. Cạnh dài đối diện dài mấy xăng-ti-mét?",
+      "options": [
+        "8",
+        "3",
+        "11",
+        "5"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "3",
+        "11",
+        "5"
+      ],
+      "explanation": "Hai cạnh dài đối diện bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q18",
+      "type": "fill",
+      "question": "Hình vuông có một cạnh 7 cm. Cạnh liền kề dài mấy xăng-ti-mét?",
+      "correct_answer": "7",
+      "distractors": [
+        "14",
+        "3",
+        "8"
+      ],
+      "explanation": "Các cạnh hình vuông bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q19",
+      "type": "mcq",
+      "question": "Một góc có hai cạnh OM và ON. Đỉnh của góc là gì?",
+      "options": [
+        "O",
+        "M",
+        "N",
+        "MN"
+      ],
+      "correct_answer": "O",
+      "distractors": [
+        "M",
+        "N",
+        "MN"
+      ],
+      "explanation": "Hai cạnh chung điểm O.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q20",
+      "type": "fill",
+      "question": "Một đoạn nối hai điểm trên đường tròn nhưng không qua tâm có là đường kính không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần đoạn dài",
+        "chỉ cần hai đầu trên đường tròn"
+      ],
+      "explanation": "Đường kính phải đi qua tâm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q21",
+      "type": "mcq",
+      "question": "Dây dài 18 cm được chia tại trung điểm. Mỗi phần dài mấy xăng-ti-mét?",
+      "options": [
+        "9",
+        "18",
+        "2",
+        "8"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "18",
+        "2",
+        "8"
+      ],
+      "explanation": "18 : 2 = 9 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q22",
+      "type": "fill",
+      "question": "Vòng tròn bán kính 6 cm đặt vừa khít trong khung vuông như Hình B. Cạnh khung dài mấy xăng-ti-mét?",
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "8",
+        "18"
+      ],
+      "explanation": "Cạnh khung bằng đường kính; 6 × 2 = 12 cm.",
+      "difficulty": "van_dung",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B22_B.svg",
+        "caption": "Hình B: Đường tròn tâm O vừa chạm cả bốn cạnh khung vuông."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q23",
+      "type": "mcq",
+      "question": "Hai biển tam giác rời nhau có tổng mấy góc?",
+      "options": [
+        "6",
+        "3",
+        "5",
+        "8"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "5",
+        "8"
+      ],
+      "explanation": "Mỗi biển có 3 góc; 3 × 2 = 6 góc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q24",
+      "type": "fill",
+      "question": "Ba hộp lập phương kín, mỗi mặt một nhãn. Cần mấy nhãn?",
+      "correct_answer": "18",
+      "distractors": [
+        "9",
+        "12",
+        "24"
+      ],
+      "explanation": "6 × 3 = 18 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q25",
+      "type": "mcq",
+      "question": "Bốn tấm bìa hình chữ nhật rời nhau có tổng mấy góc vuông?",
+      "options": [
+        "16",
+        "4",
+        "8",
+        "12"
+      ],
+      "correct_answer": "16",
+      "distractors": [
+        "4",
+        "8",
+        "12"
+      ],
+      "explanation": "4 × 4 = 16 góc vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q26",
+      "type": "fill",
+      "question": "Huy hiệu tròn đường kính 16 cm. Từ tâm đến viền mấy xăng-ti-mét?",
+      "correct_answer": "8",
+      "distractors": [
+        "16",
+        "2",
+        "14"
+      ],
+      "explanation": "16 : 2 = 8 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q27",
+      "type": "mcq",
+      "question": "Một hình chữ nhật có hai cạnh ngắn 5 cm. Đi theo cả hai cạnh ngắn được tổng mấy xăng-ti-mét?",
+      "options": [
+        "10",
+        "5",
+        "7",
+        "15"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "5",
+        "7",
+        "15"
+      ],
+      "explanation": "5 + 5 = 10 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q28",
+      "type": "fill",
+      "question": "Thước đánh dấu A tại 0 cm, M tại 4 cm, B tại 8 cm. M có là trung điểm AB không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ cần đổi tên",
+        "chưa biết số đo"
+      ],
+      "explanation": "M ở giữa, AM = 4 cm, MB = 4 cm, nên là trung điểm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q29",
+      "type": "mcq",
+      "question": "Thước đánh dấu A tại 0 cm, N tại 3 cm, B tại 8 cm. NB dài mấy xăng-ti-mét?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "11"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "3",
+        "4",
+        "11"
+      ],
+      "explanation": "8 - 3 = 5 cm; AN và NB không bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q30",
+      "type": "fill",
+      "question": "Hai khối hộp chữ nhật rời nhau có tổng mấy đỉnh?",
+      "correct_answer": "16",
+      "distractors": [
+        "8",
+        "10",
+        "12"
+      ],
+      "explanation": "8 × 2 = 16 đỉnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q31",
+      "type": "mcq",
+      "question": "Một vòng tròn có bán kính 3 cm, vòng khác bán kính 4 cm. Hai đường kính dài tổng cộng mấy xăng-ti-mét?",
+      "options": [
+        "14",
+        "7",
+        "12",
+        "16"
+      ],
+      "correct_answer": "14",
+      "distractors": [
+        "7",
+        "12",
+        "16"
+      ],
+      "explanation": "Đường kính 3 × 2 = 6 cm và 4 × 2 = 8 cm; 6 + 8 = 14 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q32",
+      "type": "fill",
+      "question": "Khung chữ nhật có chiều dài 9 cm, rộng 4 cm. Đi theo một cạnh dài rồi một cạnh ngắn được mấy xăng-ti-mét?",
+      "correct_answer": "13",
+      "distractors": [
+        "5",
+        "36",
+        "9"
+      ],
+      "explanation": "9 + 4 = 13 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q33",
+      "type": "mcq",
+      "question": "Đoạn thẳng 20 cm, tâm của hình tròn nằm tại trung điểm đoạn, hai đầu đoạn trên đường tròn. Bán kính là mấy xăng-ti-mét?",
+      "options": [
+        "10",
+        "20",
+        "2",
+        "18"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "20",
+        "2",
+        "18"
+      ],
+      "explanation": "Đoạn là đường kính; 20 : 2 = 10 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q34",
+      "type": "fill",
+      "question": "Mỗi góc của một tấm bìa vuông dán một nhãn. Sáu tấm rời nhau cần mấy nhãn?",
+      "correct_answer": "24",
+      "distractors": [
+        "10",
+        "20",
+        "30"
+      ],
+      "explanation": "Mỗi tấm có 4 góc; 4 × 6 = 24 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q35",
+      "type": "mcq",
+      "question": "Đếm đủ cả mặt khuất của một hộp chữ nhật kín được 6 mặt. Nếu đã ghi 4 mặt thì còn phải ghi mấy mặt?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "10"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "6",
+        "10"
+      ],
+      "explanation": "6 - 4 = 2 mặt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q36",
+      "type": "fill",
+      "question": "Một hình vuông cạnh 8 cm. Đánh dấu trung điểm của một cạnh. Mỗi nửa cạnh dài mấy xăng-ti-mét?",
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "2",
+        "6"
+      ],
+      "explanation": "8 : 2 = 4 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q37",
+      "type": "mcq",
+      "question": "Trên một đường tròn, OA và OB là hai bán kính tạo góc vuông đỉnh O. Đỉnh góc trùng bộ phận nào của hình tròn?",
+      "options": [
+        "tâm",
+        "đường kính",
+        "đầu cạnh",
+        "điểm bất kì trên viền"
+      ],
+      "correct_answer": "tâm",
+      "distractors": [
+        "đường kính",
+        "đầu cạnh",
+        "điểm bất kì trên viền"
+      ],
+      "explanation": "O vừa là điểm chung của hai cạnh góc vừa là tâm hình tròn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q38",
+      "type": "fill",
+      "question": "Làm một khung lập phương cần 12 que. Đã có 8 que, cần thêm mấy que?",
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "12",
+        "20"
+      ],
+      "explanation": "12 - 8 = 4 que.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q39",
+      "type": "mcq",
+      "question": "Mỗi mặt ngoài một khối lập phương lớn được ghép bởi 4 ô vuông nhỏ. Sơn cả 6 mặt ngoài. Có mấy ô mặt nhỏ được sơn?",
+      "options": [
+        "24",
+        "6",
+        "8",
+        "12"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "6",
+        "8",
+        "12"
+      ],
+      "explanation": "Mỗi mặt có 4 ô, 6 mặt có 4 × 6 = 24 ô mặt nhỏ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B22_Q40",
+      "type": "fill",
+      "question": "Một tấm bìa vuông và một tấm bìa tam giác rời nhau, dán nhãn tại mỗi đỉnh. Cần tất cả mấy nhãn?",
+      "correct_answer": "7",
+      "distractors": [
+        "4",
+        "3",
+        "12"
+      ],
+      "explanation": "4 + 3 = 7 đỉnh nên cần 7 nhãn.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B22_GAME1",
+      "title": "Kiểm chứng hình học tổng hợp",
+      "mode": "tf",
+      "objective": "Đọc nhận định, kiểm tra tâm, trung điểm, góc và các bộ phận của hình khối.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu trong bài và đưa ra một kết quả để kiểm chứng.",
+        "Chọn Đúng nếu kết quả phù hợp, chọn Sai nếu không phù hợp; đọc lời giải trước khi sang câu.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B22_Q01",
+        "TOAN3_T1_B22_Q02",
+        "TOAN3_T1_B22_Q03",
+        "TOAN3_T1_B22_Q04",
+        "TOAN3_T1_B22_Q05",
+        "TOAN3_T1_B22_Q06",
+        "TOAN3_T1_B22_Q07",
+        "TOAN3_T1_B22_Q08",
+        "TOAN3_T1_B22_Q09",
+        "TOAN3_T1_B22_Q10",
+        "TOAN3_T1_B22_Q11",
+        "TOAN3_T1_B22_Q12",
+        "TOAN3_T1_B22_Q13",
+        "TOAN3_T1_B22_Q14",
+        "TOAN3_T1_B22_Q15",
+        "TOAN3_T1_B22_Q16",
+        "TOAN3_T1_B22_Q17",
+        "TOAN3_T1_B22_Q18",
+        "TOAN3_T1_B22_Q19",
+        "TOAN3_T1_B22_Q20",
+        "TOAN3_T1_B22_Q21",
+        "TOAN3_T1_B22_Q22",
+        "TOAN3_T1_B22_Q23",
+        "TOAN3_T1_B22_Q24",
+        "TOAN3_T1_B22_Q25",
+        "TOAN3_T1_B22_Q26",
+        "TOAN3_T1_B22_Q27",
+        "TOAN3_T1_B22_Q28",
+        "TOAN3_T1_B22_Q29",
+        "TOAN3_T1_B22_Q30",
+        "TOAN3_T1_B22_Q31",
+        "TOAN3_T1_B22_Q32",
+        "TOAN3_T1_B22_Q33",
+        "TOAN3_T1_B22_Q34",
+        "TOAN3_T1_B22_Q35",
+        "TOAN3_T1_B22_Q36",
+        "TOAN3_T1_B22_Q37",
+        "TOAN3_T1_B22_Q38",
+        "TOAN3_T1_B22_Q39",
+        "TOAN3_T1_B22_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B22_A.svg",
+      "caption": "Hình A: Các điểm M, N, P, Q trên bốn cạnh hình vuông ABCD."
+    },
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B22_B.svg",
+      "caption": "Hình B: Đường tròn tâm O vừa chạm cả bốn cạnh khung vuông."
+    }
+  ]
+}

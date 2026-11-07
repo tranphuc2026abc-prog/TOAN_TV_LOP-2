@@ -1,0 +1,164 @@
+Bài 21
+Khối lập phương có mấy mặt?|6|Khối lập phương có 6 mặt.|4;8;12
+Khối lập phương có mấy đỉnh?|8|Khối lập phương có 8 đỉnh.|6;4;12
+Khối lập phương có mấy cạnh?|12|Có 4 cạnh quanh mặt trên, 4 cạnh quanh mặt dưới và 4 cạnh nối hai mặt.|6;8;4
+Khối hộp chữ nhật có mấy mặt?|6|Khối hộp chữ nhật có 6 mặt.|4;8;12
+Khối hộp chữ nhật có mấy đỉnh?|8|Có 4 đỉnh ở phía trên và 4 đỉnh ở phía dưới, tất cả 8 đỉnh.|4;6;12
+Khối hộp chữ nhật có mấy cạnh?|12|Có 4 cạnh phía trên, 4 cạnh phía dưới, 4 cạnh nối, tất cả 12 cạnh.|6;8;4
+Các mặt của khối lập phương có dạng hình gì?|hình vuông|Sáu mặt của khối lập phương là các hình vuông.|hình tam giác;hình tròn;góc
+Các mặt của khối hộp chữ nhật có dạng hình gì?|hình chữ nhật|Các mặt khối hộp chữ nhật là các hình chữ nhật.|hình tròn;hình tam giác;đoạn thẳng
+Chỗ các cạnh của khối gặp nhau tại một điểm gọi là gì?|đỉnh|Điểm gặp của các cạnh là một đỉnh của khối.|mặt;bán kính;đường kính
+Đoạn thẳng nơi hai mặt kề gặp nhau gọi là gì?|cạnh|Đường gặp giữa hai mặt kề là một cạnh của khối.|đỉnh;tâm;hình tròn
+Hình A biểu diễn khối lập phương. Có thể chỉ đếm các cạnh nét liền để tìm tổng số cạnh không?|không|Nét đứt biểu diễn cạnh bị khuất; vẫn phải tính đủ 12 cạnh.|có;chỉ cần đếm mặt trước;chỉ cần đếm mặt trên
+Hình B biểu diễn khối hộp chữ nhật. Cả các đỉnh ở phía sau có phải là đỉnh của khối không?|có|Khối có cả phần trước và sau; phải tính đủ 8 đỉnh.|không;chỉ tính đỉnh nhìn thấy;chỉ tính đỉnh trên
+Một mặt trước của khối lập phương có mấy cạnh?|4|Mặt trước là một hình vuông nên có 4 cạnh.|6;8;12
+Tất cả các mặt của một khối lập phương có bằng nhau không?|có|Sáu mặt là các hình vuông bằng nhau.|không;chỉ hai mặt trước sau;chỉ khi cùng màu
+Số mặt của khối hộp chữ nhật và khối lập phương có bằng nhau không?|có|Mỗi khối đều có 6 mặt.|không;chỉ khi cùng chiều cao;chỉ khi cùng màu
+Một hình vuông trên giấy có phải là cả khối lập phương không?|không|Hình vuông là hình phẳng; khối lập phương có 6 mặt trong không gian.|có;chỉ cần tô màu;chỉ cần có 4 cạnh
+Một hộp giày dạng khối hộp chữ nhật có phải mọi mặt đều là tam giác không?|không|Các mặt của khối hộp chữ nhật là hình chữ nhật.|có;chỉ mặt trên;chỉ mặt dưới
+Đếm mặt của một chiếc hộp kín chỉ theo ba mặt đang nhìn thấy có đủ không?|không|Cần tính cả các mặt phía sau, dưới và bên khuất, tổng cộng 6 mặt.|có;chỉ cần mặt trước;luôn chỉ có ba mặt
+Khối có 6 mặt vuông bằng nhau, 8 đỉnh, 12 cạnh là khối gì?|khối lập phương|Đây là đặc điểm của khối lập phương.|khối cầu;khối trụ;hình tam giác
+Đóng kín một chiếc hộp chữ nhật bị thiếu đúng một mặt. Phải thêm mấy mặt?|1|Đề cho thiếu một mặt, nên thêm đúng một mặt để kín.|2;5;6
+Dán một nhãn lên mỗi mặt của một khối lập phương. Cần mấy nhãn?|6|Có 6 mặt nên cần 6 nhãn.|4;8;12
+Gắn một hạt ở mỗi đỉnh của mô hình khối hộp chữ nhật. Cần mấy hạt?|8|Có 8 đỉnh nên cần 8 hạt.|6;4;12
+Mỗi cạnh một mô hình lập phương dùng một que thẳng. Cần mấy que?|12|Khối lập phương có 12 cạnh.|6;8;4
+Hai mô hình lập phương rời nhau, mỗi mô hình gắn một hạt tại mỗi đỉnh. Cần tất cả mấy hạt?|16|8 × 2 = 16 hạt.|8;10;12
+Ba hộp lập phương kín, mỗi mặt dán một tờ màu. Cần mấy tờ?|18|6 × 3 = 18 tờ.|9;12;24
+Mỗi đỉnh của một khối lập phương gắn 2 bông hoa. Cần mấy bông?|16|8 đỉnh, mỗi đỉnh 2 bông; 8 × 2 = 16 bông.|10;8;12
+Tô màu đúng bốn mặt của một hộp chữ nhật kín. Còn mấy mặt chưa tô?|2|6 - 4 = 2 mặt.|4;6;10
+Hộp lập phương đã dán nhãn 5 mặt. Còn mấy mặt chưa dán?|1|6 - 5 = 1 mặt.|5;6;11
+Làm hai khung hộp chữ nhật rời nhau, mỗi cạnh một que. Cần tất cả mấy que?|24|Mỗi khung cần 12 que; 12 + 12 = 24 que.|12;14;20
+Một mô hình lập phương có 12 cạnh, đã lắp 7 cạnh. Còn phải lắp mấy cạnh?|5|12 - 7 = 5 cạnh.|7;12;19
+Năm hộp lập phương kín, mỗi mặt dán một nhãn. Tổng số nhãn là mấy?|30|6 × 5 = 30 nhãn.|11;24;36
+Ba khối lập phương rời nhau, mỗi khối đánh dấu cả 8 đỉnh. Tổng cộng mấy dấu?|24|8 × 3 = 24 dấu.|11;16;32
+Mỗi đỉnh một khối hộp chữ nhật gắn 3 hạt. Cần bao nhiêu hạt?|24|8 đỉnh, mỗi đỉnh 3 hạt; 8 × 3 = 24 hạt.|11;18;36
+Hai hộp chữ nhật kín rời nhau, đếm riêng mặt của từng hộp. Tổng cộng mấy mặt?|12|6 × 2 = 12 mặt.|6;8;14
+Chỉ dán giấy vào 6 mặt của một hộp lập phương, không dán vào cạnh. Cần mấy miếng giấy, mỗi mặt một miếng?|6|Giấy dán theo số mặt, không theo 12 cạnh; cần 6 miếng.|12;8;4
+Một bạn đếm khối hộp chữ nhật có 4 đỉnh vì chỉ nhìn mặt trước. Cần tính thêm mấy đỉnh ở mặt sau?|4|Khối có 8 đỉnh; đã đếm 4, còn 8 - 4 = 4 đỉnh.|8;6;12
+Khung lập phương có 4 cạnh trên và 4 cạnh dưới đã lắp xong. Cần thêm mấy cạnh nối để hoàn chỉnh?|4|Tổng 12 cạnh; 4 + 4 = 8 đã lắp, 12 - 8 = 4 cạnh nối.|8;12;2
+Một hộp lập phương kín có 6 mặt. Mở nắp nhưng không tháo rời nắp, số mặt của chiếc hộp và nắp tính chung có giảm không?|không|Nắp vẫn là một mặt của hộp; thay vị trí nắp không làm mất mặt đó.|có;luôn còn 5;luôn còn 3
+Sáu miếng bìa bằng nhau, mỗi miếng hình vuông, dùng làm mỗi mặt của một hộp kín lập phương. Cần dùng mấy miếng?|6|Khối lập phương có 6 mặt, mỗi mặt dùng một miếng vuông.|4;8;12
+Gắn 1 hạt vào mỗi đỉnh và 1 nhãn vào mỗi mặt một mô hình lập phương. Tổng số hạt và nhãn là mấy?|14|Có 8 hạt và 6 nhãn; 8 + 6 = 14 đồ trang trí.|8;6;12
+Bài 22
+Đường kính hình tròn dài bằng mấy lần bán kính?|2|Đường kính gồm hai bán kính nối tiếp nhau.|1;3;4
+Hình vuông có mấy góc vuông?|4|Bốn góc hình vuông đều vuông.|1;2;3
+Khối lập phương có mấy mặt?|6|Khối lập phương có 6 mặt vuông.|4;8;12
+Khối hộp chữ nhật có mấy đỉnh?|8|Khối hộp chữ nhật có 8 đỉnh.|4;6;12
+Đoạn AB dài 12 cm, M là trung điểm. AM dài mấy xăng-ti-mét?|6|12 : 2 = 6 cm.|12;2;10
+Dụng cụ kiểm tra góc vuông là gì?|ê ke|Ê ke có góc vuông để so khớp.|com pa;tẩy;hộp màu
+Một tam giác có mấy đỉnh?|3|Tam giác có 3 đỉnh.|2;4;6
+Một khối lập phương có mấy cạnh?|12|Có 4 cạnh trên, 4 cạnh dưới và 4 cạnh nối.|6;8;4
+Bán kính dài 4 cm, đường kính dài mấy xăng-ti-mét?|8|4 × 2 = 8 cm.|4;6;12
+Một hình chữ nhật có mấy góc không vuông?|0|Cả bốn góc đều là góc vuông nên không có góc không vuông.|1;2;4
+Hình A: M, N, P, Q nằm tại trung điểm bốn cạnh hình vuông. Có mấy điểm được đánh dấu làm trung điểm?|4|Mỗi cạnh có một trung điểm đã đánh dấu, bốn cạnh có 4 điểm.|2;3;8
+Hình B: đường tròn vừa chạm cả bốn cạnh hình vuông. Bán kính 3 cm, cạnh vuông dài mấy xăng-ti-mét?|6|Cạnh vuông bằng đường kính hình tròn; 3 × 2 = 6 cm.|3;9;12
+Hình B có bán kính 5 cm. Cạnh hình vuông bao quanh dài mấy xăng-ti-mét?|10|Cạnh bằng đường kính; 5 × 2 = 10 cm.|5;7;15
+Hình vuông xoay nghiêng có mất các góc vuông không?|không|Xoay hình không đổi độ dài cạnh và loại góc.|có;chỉ khi xoay ít;chỉ khi tô màu
+Một điểm cách hai đầu đoạn thẳng bằng nhau nhưng không nằm trên đoạn có phải trung điểm không?|không|Còn thiếu điều kiện nằm giữa hai đầu trên đoạn thẳng.|có;chỉ cần khoảng cách bằng nhau;chỉ cần tên điểm
+Một khối lập phương được vẽ chỉ nhìn thấy 3 mặt. Cả khối có bao nhiêu mặt?|6|Hình biểu diễn che khuất một số mặt; cả khối vẫn có 6 mặt.|3;4;8
+Hình chữ nhật có cạnh dài 8 cm và cạnh ngắn 3 cm. Cạnh dài đối diện dài mấy xăng-ti-mét?|8|Hai cạnh dài đối diện bằng nhau.|3;11;5
+Hình vuông có một cạnh 7 cm. Cạnh liền kề dài mấy xăng-ti-mét?|7|Các cạnh hình vuông bằng nhau.|14;3;8
+Một góc có hai cạnh OM và ON. Đỉnh của góc là gì?|O|Hai cạnh chung điểm O.|M;N;MN
+Một đoạn nối hai điểm trên đường tròn nhưng không qua tâm có là đường kính không?|không|Đường kính phải đi qua tâm.|có;chỉ cần đoạn dài;chỉ cần hai đầu trên đường tròn
+Dây dài 18 cm được chia tại trung điểm. Mỗi phần dài mấy xăng-ti-mét?|9|18 : 2 = 9 cm.|18;2;8
+Vòng tròn bán kính 6 cm đặt vừa khít trong khung vuông như Hình B. Cạnh khung dài mấy xăng-ti-mét?|12|Cạnh khung bằng đường kính; 6 × 2 = 12 cm.|6;8;18
+Hai biển tam giác rời nhau có tổng mấy góc?|6|Mỗi biển có 3 góc; 3 × 2 = 6 góc.|3;5;8
+Ba hộp lập phương kín, mỗi mặt một nhãn. Cần mấy nhãn?|18|6 × 3 = 18 nhãn.|9;12;24
+Bốn tấm bìa hình chữ nhật rời nhau có tổng mấy góc vuông?|16|4 × 4 = 16 góc vuông.|4;8;12
+Huy hiệu tròn đường kính 16 cm. Từ tâm đến viền mấy xăng-ti-mét?|8|16 : 2 = 8 cm.|16;2;14
+Một hình chữ nhật có hai cạnh ngắn 5 cm. Đi theo cả hai cạnh ngắn được tổng mấy xăng-ti-mét?|10|5 + 5 = 10 cm.|5;7;15
+Thước đánh dấu A tại 0 cm, M tại 4 cm, B tại 8 cm. M có là trung điểm AB không?|có|M ở giữa, AM = 4 cm, MB = 4 cm, nên là trung điểm.|không;chỉ cần đổi tên;chưa biết số đo
+Thước đánh dấu A tại 0 cm, N tại 3 cm, B tại 8 cm. NB dài mấy xăng-ti-mét?|5|8 - 3 = 5 cm; AN và NB không bằng nhau.|3;4;11
+Hai khối hộp chữ nhật rời nhau có tổng mấy đỉnh?|16|8 × 2 = 16 đỉnh.|8;10;12
+Một vòng tròn có bán kính 3 cm, vòng khác bán kính 4 cm. Hai đường kính dài tổng cộng mấy xăng-ti-mét?|14|Đường kính 3 × 2 = 6 cm và 4 × 2 = 8 cm; 6 + 8 = 14 cm.|7;12;16
+Khung chữ nhật có chiều dài 9 cm, rộng 4 cm. Đi theo một cạnh dài rồi một cạnh ngắn được mấy xăng-ti-mét?|13|9 + 4 = 13 cm.|5;36;9
+Đoạn thẳng 20 cm, tâm của hình tròn nằm tại trung điểm đoạn, hai đầu đoạn trên đường tròn. Bán kính là mấy xăng-ti-mét?|10|Đoạn là đường kính; 20 : 2 = 10 cm.|20;2;18
+Mỗi góc của một tấm bìa vuông dán một nhãn. Sáu tấm rời nhau cần mấy nhãn?|24|Mỗi tấm có 4 góc; 4 × 6 = 24 nhãn.|10;20;30
+Đếm đủ cả mặt khuất của một hộp chữ nhật kín được 6 mặt. Nếu đã ghi 4 mặt thì còn phải ghi mấy mặt?|2|6 - 4 = 2 mặt.|4;6;10
+Một hình vuông cạnh 8 cm. Đánh dấu trung điểm của một cạnh. Mỗi nửa cạnh dài mấy xăng-ti-mét?|4|8 : 2 = 4 cm.|8;2;6
+Trên một đường tròn, OA và OB là hai bán kính tạo góc vuông đỉnh O. Đỉnh góc trùng bộ phận nào của hình tròn?|tâm|O vừa là điểm chung của hai cạnh góc vừa là tâm hình tròn.|đường kính;đầu cạnh;điểm bất kì trên viền
+Làm một khung lập phương cần 12 que. Đã có 8 que, cần thêm mấy que?|4|12 - 8 = 4 que.|8;12;20
+Mỗi mặt ngoài một khối lập phương lớn được ghép bởi 4 ô vuông nhỏ. Sơn cả 6 mặt ngoài. Có mấy ô mặt nhỏ được sơn?|24|Mỗi mặt có 4 ô, 6 mặt có 4 × 6 = 24 ô mặt nhỏ.|6;8;12
+Một tấm bìa vuông và một tấm bìa tam giác rời nhau, dán nhãn tại mỗi đỉnh. Cần tất cả mấy nhãn?|7|4 + 3 = 7 đỉnh nên cần 7 nhãn.|4;3;12
+Bài 23
+Tính 12 × 4.|48|4 × 2 = 8, viết 8; 4 × 1 = 4 chục, viết 4; được 48.|16;36;84
+Tính 21 × 3.|63|3 × 1 = 3; 3 × 2 = 6 chục; được 63.|24;42;36
+Tính 14 × 2.|28|2 × 4 = 8; 2 × 1 = 2 chục; được 28.|16;24;82
+Tính 31 × 3.|93|3 × 1 = 3; 3 × 3 = 9 chục; được 93.|34;63;39
+Tính 20 × 4.|80|2 chục nhân 4 được 8 chục, tức 80.|24;8;40
+Tính 15 × 2.|30|2 × 5 = 10, viết 0 nhớ 1; 2 × 1 = 2, thêm 1 được 3 chục; kết quả 30.|17;20;25
+Tính 23 × 3.|69|3 × 3 = 9; 3 × 2 = 6 chục; được 69.|26;66;96
+Tính 18 × 4.|72|4 × 8 = 32, viết 2 nhớ 3; 4 × 1 = 4, thêm 3 được 7 chục; kết quả 72.|22;42;64
+Khi nhân theo cột, bắt đầu từ hàng nào của số có hai chữ số?|hàng đơn vị|Tính từ hàng đơn vị sang hàng chục để xử lí số nhớ.|hàng chục;hàng trăm;hàng bất kì
+Khi 3 nhân với chữ số hàng đơn vị được 18, viết 8 và nhớ mấy chục?|1|18 đơn vị bằng 1 chục và 8 đơn vị; viết 8, nhớ 1.|8;3;18
+Tính 24 × 3.|72|3 × 4 = 12, viết 2 nhớ 1; 3 × 2 = 6, thêm 1 được 7; kết quả 72.|62;27;84
+Tính 17 × 5.|85|5 × 7 = 35, viết 5 nhớ 3; 5 × 1 = 5, thêm 3 được 8; kết quả 85.|55;22;75
+Tính 19 × 4.|76|4 × 9 = 36, viết 6 nhớ 3; 4 × 1 = 4, thêm 3 được 7; kết quả 76.|46;23;68
+Tính 16 × 3.|48|3 × 6 = 18, viết 8 nhớ 1; 3 × 1 = 3, thêm 1 được 4; kết quả 48.|38;19;63
+Một bạn tính 27 × 2 được 44 do quên số nhớ. Kết quả đúng là bao nhiêu?|54|2 × 7 = 14 nhớ 1; 2 × 2 = 4, thêm 1 được 5; kết quả 54.|44;29;52
+Tính 28 × 3.|84|3 × 8 = 24, viết 4 nhớ 2; 3 × 2 = 6, thêm 2 được 8; kết quả 84.|64;31;78
+Tính 13 × 7.|91|7 × 3 = 21, viết 1 nhớ 2; 7 × 1 = 7, thêm 2 được 9; kết quả 91.|71;20;81
+Tính 32 × 2.|64|2 × 2 = 4; 2 × 3 = 6 chục; được 64.|34;62;46
+Hai phép 22 × 3 và 33 × 2 cùng có kết quả nào?|66|22 × 3 = 66; 33 × 2 = 66.|55;25;35
+Tính 11 × 8.|88|8 × 1 = 8 đơn vị và 8 chục; kết quả 88.|19;18;81
+Mỗi túi có 13 viên bi. 4 túi có bao nhiêu viên?|52|13 × 4 = 52 viên. Đơn vị: 4 × 3 = 12 nhớ 1; chục: 4 + 1 = 5.|17;42;48
+Một hàng có 24 ghế. 3 hàng có bao nhiêu ghế?|72|24 × 3 = 72 ghế. Đơn vị 12 nhớ 1; hàng chục 6 + 1 = 7.|27;62;84
+Mỗi gói có 16 nhãn vở. 5 gói có tất cả bao nhiêu nhãn?|80|16 × 5 = 80 nhãn. Đơn vị 30 nhớ 3; chục 5 + 3 = 8.|21;50;75
+Một ngày đọc 14 trang. Trong 6 ngày đọc bao nhiêu trang?|84|14 × 6 = 84 trang. Đơn vị 24 nhớ 2; chục 6 + 2 = 8.|20;64;96
+Mỗi hộp có 22 bút. Hai hộp có mấy bút?|44|22 × 2 = 44 bút; hai hàng đều nhân với 2.|24;42;48
+Mỗi bộ cần 15 tấm bìa. 4 bộ cần mấy tấm?|60|15 × 4 = 60 tấm. Đơn vị 20 nhớ 2; chục 4 + 2 = 6.|19;40;50
+Mỗi hàng trồng 18 cây. 3 hàng trồng mấy cây?|54|18 × 3 = 54 cây. Đơn vị 24 nhớ 2; chục 3 + 2 = 5.|21;34;48
+Mỗi khay có 23 quả. 4 khay có mấy quả?|92|23 × 4 = 92 quả. Đơn vị 12 nhớ 1; chục 8 + 1 = 9.|27;82;96
+Mỗi cuộn dây dài 25 m. 3 cuộn dài tổng cộng mấy mét?|75|25 × 3 = 75 m. Đơn vị 15 nhớ 1; chục 6 + 1 = 7.|28;65;70
+Một vỉ có 12 ô. 7 vỉ có tất cả mấy ô?|84|12 × 7 = 84 ô. Đơn vị 14 nhớ 1; chục 7 + 1 = 8.|19;74;72
+Mỗi ngày làm 19 thiệp. Trong 3 ngày làm mấy thiệp?|57|19 × 3 = 57 thiệp. Đơn vị 27 nhớ 2; chục 3 + 2 = 5.|22;37;54
+Mỗi xe chở 32 thùng. Hai xe chở tất cả mấy thùng?|64|32 × 2 = 64 thùng.|34;62;46
+Mỗi giỏ đựng 17 quả. 4 giỏ đựng mấy quả?|68|17 × 4 = 68 quả. Đơn vị 28 nhớ 2; chục 4 + 2 = 6.|21;48;64
+Mỗi nhóm dùng 21 tờ giấy. 4 nhóm dùng mấy tờ?|84|21 × 4 = 84 tờ. Đơn vị 4, chục 8.|25;64;48
+Mỗi bao có 14 kg. Năm bao như vậy nặng mấy ki-lô-gam?|70|14 × 5 = 70 kg. Đơn vị 20 nhớ 2; chục 5 + 2 = 7.|19;50;60
+Mua 3 hộp, mỗi hộp 26 phấn. Dùng 8 viên. Còn mấy viên?|70|26 × 3 = 78 viên; 78 - 8 = 70 viên.|78;86;21
+Mỗi bộ 11 tấm thẻ. Mua 6 bộ rồi được tặng 4 thẻ. Có tất cả mấy thẻ?|70|11 × 6 = 66 thẻ; 66 + 4 = 70 thẻ.|66;62;21
+Hai túi, mỗi túi 28 hạt. Chia cho bạn 6 hạt. Còn mấy hạt?|50|28 × 2 = 56 hạt; 56 - 6 = 50 hạt.|56;62;24
+Làm 4 dây trang trí, mỗi dây 16 lá cờ. Đã có 60 lá. Cần thêm mấy lá?|4|16 × 4 = 64 lá; 64 - 60 = 4 lá cần thêm.|64;44;20
+Mỗi hộp có 13 bút xanh và 2 bút đỏ. 5 hộp có bao nhiêu bút xanh?|65|Chỉ tính bút xanh: 13 × 5 = 65 bút.|15;75;18
+Bài 24
+Muốn gấp một số lên một số lần, dùng phép tính nào?|nhân|Lấy số ban đầu nhân với số lần.|cộng;trừ;chia
+Gấp 5 lên 3 lần được bao nhiêu?|15|5 × 3 = 15.|8;10;20
+Gấp 7 lên 4 lần được bao nhiêu?|28|7 × 4 = 28.|11;21;35
+Gấp 9 lên 2 lần được bao nhiêu?|18|9 × 2 = 18.|11;7;27
+Gấp 12 lên 3 lần được bao nhiêu?|36|12 × 3 = 36.|15;24;39
+Thêm 3 đơn vị vào 5 được bao nhiêu?|8|Thêm đơn vị dùng cộng: 5 + 3 = 8.|15;2;20
+Gấp 6 lên 5 lần được bao nhiêu?|30|6 × 5 = 30.|11;24;36
+Gấp 8 lên 4 lần được bao nhiêu?|32|8 × 4 = 32.|12;24;40
+Gấp một số lên 1 lần, kết quả có bằng số ban đầu không?|có|Một số nhân 1 bằng chính số đó.|không;luôn bằng 1;luôn bằng 0
+Gấp 15 lên 2 lần được bao nhiêu?|30|15 × 2 = 30.|17;13;45
+Hình A: Bình có 5 thẻ, Lan có số thẻ gấp 3 lần Bình. Lan có mấy thẻ?|15|Lan có 3 phần, mỗi phần 5 thẻ; 5 × 3 = 15 thẻ.|8;10;20
+Hình A: số thẻ Bình là một phần, số thẻ Lan tương ứng mấy phần bằng nhau như thế?|3|Hình biểu diễn số thẻ Lan bằng 3 phần, mỗi phần bằng số thẻ Bình.|1;2;5
+Gấp 4 lên 6 lần và thêm 6 đơn vị vào 4 có cùng kết quả không?|không|4 × 6 = 24, còn 4 + 6 = 10; hai kết quả khác nhau.|có;đều bằng 10;đều bằng 24
+Gấp 13 lên 4 lần được bao nhiêu?|52|13 × 4 = 52.|17;39;48
+Một bạn gấp 8 lên 3 lần bằng 8 + 3. Kết quả đúng là bao nhiêu?|24|Gấp số lần dùng nhân: 8 × 3 = 24, không phải 11.|11;16;32
+Hai số 6 và 18. Số 18 có phải gấp 3 lần số 6 không?|có|6 × 3 = 18.|không;chỉ gấp 2 lần;chỉ hơn 3 đơn vị
+Gấp 16 lên 3 lần được bao nhiêu?|48|16 × 3 = 48.|19;32;46
+Gấp 11 lên 7 lần được bao nhiêu?|77|11 × 7 = 77.|18;66;78
+Số ban đầu 14, kết quả sau khi gấp 4 lần là bao nhiêu?|56|14 × 4 = 56.|18;42;54
+Thêm 4 đơn vị vào 14 được bao nhiêu?|18|14 + 4 = 18. Khác với gấp 4 lần là 56.|56;10;28
+An có 7 tem, Bình có số tem gấp 3 lần An. Bình có mấy tem?|21|7 × 3 = 21 tem.|10;14;28
+Một sợi dây xanh dài 12 cm. Dây đỏ dài gấp 4 lần. Dây đỏ dài mấy xăng-ti-mét?|48|12 × 4 = 48 cm.|16;36;46
+Một giỏ có 8 quả. Giỏ lớn có số quả gấp 5 lần. Giỏ lớn có mấy quả?|40|8 × 5 = 40 quả.|13;32;48
+Em có 6 bút, chị có số bút gấp 2 lần em. Để tìm số bút của chị, dùng phép tính nào?|nhân|Gấp số lần dùng phép nhân: 6 × 2 = 12 bút.|cộng;trừ;chia
+Buổi sáng bán 15 bánh. Chiều bán gấp 3 lần sáng. Chiều bán mấy bánh?|45|15 × 3 = 45 bánh.|18;30;48
+Một nhóm trồng 9 cây. Nhóm khác trồng gấp 4 lần, được 36 cây. Trong tình huống này, số cây ban đầu là số nào?|9|Số ban đầu là 9 cây; nhân với số lần 4 để được 36 cây.|4;36;13
+Một tấm vải dài 14 m. Cuộn vải dài gấp 5 lần. Cuộn dài mấy mét?|70|14 × 5 = 70 m.|19;56;60
+Lan đọc 11 trang, Mai đọc gấp 6 lần Lan. Mai đọc mấy trang?|66|11 × 6 = 66 trang.|17;55;67
+Hộp nhỏ có 16 thẻ, hộp lớn gấp 4 lần. Có thể tìm số thẻ hộp lớn bằng 16 + 4 không?|không|Gấp 4 lần phải tính 16 × 4 = 64; 16 + 4 = 20 chỉ là thêm 4 thẻ.|có;chỉ cần đổi màu hộp;hai phép tính luôn bằng nhau
+Đoạn AB dài 13 cm, CD dài gấp 3 lần AB. CD dài mấy xăng-ti-mét?|39|13 × 3 = 39 cm.|16;26;36
+Nam có 18 nhãn. Hoa có số nhãn gấp 2 lần Nam. Hoa có mấy nhãn?|36|18 × 2 = 36 nhãn.|20;16;54
+Một bao có 21 kg, số gạo trong kho gấp 3 lần số gạo của bao đó. Sơ đồ kho cần mấy phần bằng nhau, mỗi phần 21 kg?|3|Gấp 3 lần nghĩa là 3 phần bằng nhau, mỗi phần 21 kg; 21 × 3 = 63 kg.|1;2;21
+Một luống có 17 cây. Luống thứ hai có số cây gấp 3 lần. Luống thứ hai có mấy cây?|51|17 × 3 = 51 cây.|20;34;47
+Ngày đầu làm 24 thiệp, ngày sau gấp 3 lần. Phép 24 × 3 đã cho biết tổng cả hai ngày chưa?|chưa|24 × 3 = 72 là số thiệp ngày sau; cả hai ngày là 24 + 72 = 96 thiệp.|rồi;luôn bằng 72;luôn bằng 27
+Đường đi ngắn dài 19 m, đường dài gấp 4 lần. Có thể tính đường dài bằng 19 + 19 + 19 + 19 không?|có|Bốn phần, mỗi phần 19 m: 19 + 19 + 19 + 19 = 76; cũng là 19 × 4 = 76 m.|không;chỉ cộng 19 + 4;chỉ cộng 19 hai lần
+An có 8 viên bi. Bình có gấp 3 lần An, rồi cho em 4 viên. Bình còn mấy viên?|20|Bình ban đầu có 8 × 3 = 24 viên; 24 - 4 = 20 viên.|24;28;15
+Một cửa hàng sáng bán 12 quyển vở, chiều bán gấp 4 lần sáng. Cả ngày bán mấy quyển?|60|Chiều bán 12 × 4 = 48 quyển; cả ngày 12 + 48 = 60 quyển.|48;16;36
+Em có 5 thẻ, anh có gấp 6 lần em. Anh nhiều hơn em mấy thẻ?|25|Anh có 5 × 6 = 30 thẻ; 30 - 5 = 25 thẻ nhiều hơn.|30;11;6
+Dây đỏ dài 14 cm, dây xanh dài hơn dây đỏ 3 cm. Dây xanh dài mấy xăng-ti-mét?|17|Hơn 3 cm là thêm 3 đơn vị: 14 + 3 = 17 cm, không nhân 3.|42;11;28
+Lan có 9 nhãn, Mai có gấp 4 lần Lan. Cần thêm mấy nhãn để Mai có 40 nhãn?|4|Mai có 9 × 4 = 36 nhãn; 40 - 36 = 4 nhãn cần thêm.|36;13;5

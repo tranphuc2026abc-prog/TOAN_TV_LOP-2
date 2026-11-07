@@ -1,0 +1,46 @@
+[
+  {
+    "topic":"Làm quen với hình phẳng, hình khối",
+    "objectives":["Nhận biết mặt, cạnh, đỉnh của khối lập phương và khối hộp chữ nhật.","Nhớ và vận dụng số mặt, cạnh, đỉnh; phân biệt vật thể với hình phẳng trên một mặt."],
+    "intro":"Một chiếc hộp không chỉ có mặt trước. Hãy quan sát hoặc xoay hộp để thấy cả mặt trên, dưới, bên và phía sau. Khi đếm, phải tính cả những bộ phận đang bị khuất.",
+    "rules":["Khối lập phương và khối hộp chữ nhật đều có 8 đỉnh, 6 mặt, 12 cạnh.","Các mặt của khối lập phương là các hình vuông bằng nhau. Các mặt của khối hộp chữ nhật là hình chữ nhật.","Mặt là phần phẳng bao quanh khối; cạnh là chỗ hai mặt kề gặp nhau; đỉnh là điểm các cạnh gặp nhau.","Có thể đếm cạnh theo ba nhóm: 4 cạnh quanh phía trên, 4 cạnh quanh phía dưới và 4 cạnh nối. Tính cả cạnh và đỉnh khuất trong hình biểu diễn.","Hình vuông hay hình chữ nhật là hình phẳng; cả khối lập phương hay hộp chữ nhật là vật thể có nhiều mặt."],
+    "steps":["Cầm hoặc quan sát mô hình, chỉ rõ một mặt, một cạnh, một đỉnh.","Đánh dấu các bộ phận đã đếm để tránh lặp.","Đếm cả phía sau và phía dưới, có thể xoay mô hình.","Khi giải bài trang trí, xác định đang gắn vào mặt, cạnh hay đỉnh rồi tính theo đúng số bộ phận."],
+    "errors":["Chỉ đếm ba mặt đang nhìn thấy.","Nhầm 8 đỉnh thành 8 cạnh.","Dùng 12 cạnh để tính số giấy dán mỗi mặt.","Nhìn mặt nghiêng trong hình biểu diễn rồi cho rằng mặt khối lập phương không phải hình vuông."],
+    "examples":[["Mỗi mặt một chiếc hộp lập phương dán một nhãn. Cần bao nhiêu nhãn?",["Nhãn được dán theo mặt, không theo cạnh.","Khối lập phương có 6 mặt, nên cần 6 nhãn."]],["Một hạt gắn vào mỗi đỉnh của hai mô hình hộp chữ nhật rời nhau. Cần mấy hạt?",["Mỗi mô hình có 8 đỉnh.","8 × 2 = 16. Cần 16 hạt."]],["Làm một khung lập phương, mỗi cạnh một que. Đã lắp 8 que. Còn mấy que?",["Khối có 12 cạnh nên cần 12 que.","12 - 8 = 4. Còn cần 4 que."]]],
+    "game":["Thám hiểm chiếc hộp","Tìm đúng mặt, cạnh, đỉnh và giải bài trang trí mô hình qua 10 câu hỏi."],
+    "mode":"treasure"
+  },
+  {
+    "topic":"Ôn tập hình phẳng và hình khối",
+    "objectives":["Kết hợp kiến thức trung điểm, đường tròn, góc, hình vuông, chữ nhật và hình khối.","Dùng hình và dữ kiện rõ ràng để chọn phép tính phù hợp, tránh bỏ sót bộ phận bị khuất."],
+    "intro":"Bài ôn tập yêu cầu nhìn đúng đối tượng trước khi tính. Đề hỏi bán kính khác với đường kính; hỏi mặt khác với cạnh; một điểm ở giữa còn cần cách đều hai đầu mới là trung điểm.",
+    "rules":["Trung điểm nằm giữa hai đầu và chia đoạn thành hai phần bằng nhau.","Đường kính dài gấp hai lần bán kính. Nếu đường tròn vừa chạm cả bốn cạnh của một hình vuông như hình cho trước, cạnh vuông bằng đường kính.","Hình vuông có bốn cạnh bằng nhau và bốn góc vuông; chữ nhật có bốn góc vuông và các cặp cạnh đối diện bằng nhau.","Khối lập phương và hộp chữ nhật đều có 8 đỉnh, 6 mặt, 12 cạnh; hình vẽ có thể che khuất một số bộ phận.","Tính từng bước khi bài kết hợp nhiều hình hoặc cần tìm tổng/chênh lệch độ dài."],
+    "steps":["Đọc tên hình hoặc khối và xác định điều cần tìm.","Đọc đủ dữ kiện, gồm vị trí điểm và quan hệ vừa khít nếu có.","Nhắc lại quy tắc, chọn phép tính rồi ghi đơn vị.","Kiểm tra kết quả bằng hình, bằng cách chia đôi/gấp đôi hoặc đếm lại."],
+    "errors":["Lấy bán kính làm cạnh hình vuông bao quanh đường tròn vừa khít.","Chỉ xét điểm cách đều mà quên điều kiện nằm trên đoạn.","Đếm số khối nhỏ thay cho số ô mặt được sơn.","Cộng nhầm số cạnh vào bài hỏi số đỉnh."],
+    "examples":[["Đường tròn bán kính 4 cm vừa chạm bốn cạnh khung vuông. Tìm cạnh khung.",["Cạnh khung bằng đường kính đường tròn.","4 × 2 = 8. Cạnh khung dài 8 cm."]],["Đoạn AB dài 16 cm, M là trung điểm. Tìm AM.",["Trung điểm chia AB thành hai phần bằng nhau.","16 : 2 = 8. AM dài 8 cm."]],["Một mặt ngoài khối lớn gồm 4 ô vuông nhỏ. Sáu mặt như vậy có mấy ô mặt?",["Mỗi mặt có 4 ô, có 6 mặt.","4 × 6 = 24 ô mặt nhỏ. Không nhầm với số khối nhỏ."]]],
+    "game":["Kiểm chứng hình học tổng hợp","Đọc nhận định, kiểm tra tâm, trung điểm, góc và các bộ phận của hình khối."],
+    "mode":"tf"
+  },
+  {
+    "topic":"Phép nhân trong phạm vi 100",
+    "objectives":["Nhân số có hai chữ số với số có một chữ số, có nhớ hoặc không nhớ, trong phạm vi bài học.","Đặt tính thẳng hàng, xử lí đúng số nhớ và vận dụng vào nhóm đồ vật thực tế."],
+    "intro":"Các nhóm 12, 16 hay 24 đồ vật có thể được tính nhanh bằng phép nhân. Khi đặt tính, tính từ đơn vị sang chục; nếu hàng đơn vị đủ mười, phải nhớ sang hàng chục.",
+    "rules":["Đặt số có hai chữ số ở trên; thừa số một chữ số đặt dưới, thẳng hàng đơn vị.","Nhân thừa số một chữ số với hàng đơn vị trước, rồi nhân với hàng chục.","Nếu tích ở hàng đơn vị là số có hai chữ số, viết chữ số đơn vị và nhớ số chục sang hàng chục.","Nhân hàng chục rồi cộng số nhớ. Không được bỏ quên số nhớ hoặc viết cả tích hàng đơn vị vào một cột.","Nhân số tròn chục: tính theo chục rồi viết thành số. Ví dụ 30 × 2 = 60."],
+    "steps":["Đọc phép nhân và đặt các hàng cho đúng.","Tính hàng đơn vị, viết kết quả và ghi số nhớ nếu có.","Tính hàng chục, cộng số nhớ rồi viết kết quả.","Kiểm tra bằng ước lượng hoặc cộng các nhóm bằng nhau; ghi đơn vị khi giải bài toán."],
+    "errors":["Đặt thừa số một chữ số thẳng hàng chục.","Quên cộng số nhớ, như tính 24 × 3 thành 62.","Viết số nhớ vào hàng đơn vị thay vì cộng sang hàng chục.","Chỉ nhân một chữ số của số có hai chữ số."],
+    "examples":[["Đặt tính và tính 23 × 3.",["3 × 3 = 9, viết 9 ở hàng đơn vị.","3 × 2 = 6 chục, viết 6 ở hàng chục.","23 × 3 = 69."]],["Đặt tính và tính 14 × 6.",["6 × 4 = 24, viết 4 nhớ 2.","6 × 1 = 6, thêm 2 được 8; viết 8.","14 × 6 = 84."]],["Mỗi gói có 17 nhãn. Mua 5 gói thì có mấy nhãn?",["Có 5 nhóm, mỗi nhóm 17 nhãn.","5 × 7 = 35, viết 5 nhớ 3; 5 × 1 = 5, thêm 3 được 8.","17 × 5 = 85. Có 85 nhãn."]]],
+    "game":["Tăng tốc phép nhân hai chữ số","Tính cẩn thận cả hàng đơn vị, hàng chục và số nhớ trong 60 giây."],
+    "mode":"speed"
+  },
+  {
+    "topic":"Gấp một số lên một số lần",
+    "objectives":["Hiểu gấp một số lên một số lần là tạo các phần bằng nhau, mỗi phần bằng số ban đầu.","Dùng phép nhân, phân biệt với thêm đơn vị và giải các tình huống một hoặc hai bước phù hợp."],
+    "intro":"Bình có 5 thẻ. Nếu Lan có gấp 3 lần số thẻ Bình, số thẻ Lan gồm 3 phần bằng nhau, mỗi phần 5 thẻ. Gấp 3 lần khác với thêm 3 thẻ.",
+    "rules":["Muốn gấp một số lên một số lần, lấy số đó nhân với số lần.","Sơ đồ gấp n lần gồm n phần bằng nhau; một phần bằng số ban đầu.","Thêm n đơn vị dùng phép cộng, gấp n lần dùng phép nhân; cần đọc kĩ từ trong đề.","Nếu hỏi tổng cả hai nhóm, phải tính nhóm gấp lên trước rồi cộng thêm nhóm ban đầu. Nếu hỏi hơn bao nhiêu, lấy số lớn trừ số bé."],
+    "steps":["Xác định số ban đầu và số lần cần gấp.","Có thể vẽ sơ đồ một phần và nhiều phần bằng nhau.","Lập phép nhân rồi tính, có nhớ đúng nếu cần.","Đọc lại xem câu hỏi yêu cầu số sau khi gấp, tổng hay chênh lệch; làm thêm bước nếu cần."],
+    "errors":["Lấy số ban đầu cộng số lần.","Nhầm số lần gấp với số đơn vị tăng thêm.","Tính được số nhóm sau rồi cho đó là tổng cả hai nhóm.","Không đọc rõ đề hỏi hơn bao nhiêu hay có tất cả bao nhiêu."],
+    "examples":[["Gấp 8 lên 3 lần.",["Lấy 8 nhân với 3.","8 × 3 = 24."]],["So sánh gấp 4 lần số 6 với thêm 4 đơn vị vào 6.",["Gấp 4 lần: 6 × 4 = 24.","Thêm 4 đơn vị: 6 + 4 = 10.","Hai yêu cầu có ý nghĩa và kết quả khác nhau."]],["An có 12 tem, Bình có gấp 3 lần An. Cả hai có mấy tem?",["Bình có 12 × 3 = 36 tem.","Cả hai có 12 + 36 = 48 tem."]]],
+    "game":["Ghép thẻ gấp hay thêm","Ghép bài toán với kết quả, phân biệt gấp số lần, thêm đơn vị, tổng và chênh lệch."],
+    "mode":"match"
+  }
+]

@@ -10,3 +10,7 @@ undefined
 ## Batch 5 — 07/11/2026
 
 20 bài Toán có học liệu riêng, 800 câu, 20 trò chơi. Sửa mốc nguồn Bài 18 thành trang 54–55 và Bài 19 thành trang 56–60 sau đối chiếu trực quan. Bài 20 có lưới thực hành vẽ và hướng dẫn bằng dụng cụ. Chỉ 4 bài đầu đã được giáo viên duyệt; 148 mục còn là bản nháp.
+
+## Batch 6 — 07/11/2026
+
+24 bài Toán có học liệu riêng, 960 câu, 24 trò chơi. Đã đối chiếu nguồn đến hết Bài 24, trang in 71. Bài 21–24 bổ sung 160 câu và năm SVG; chỉ Bài 1–4 đã được giáo viên thẩm định. Còn 57 bài Toán, 62 bài Tiếng Việt và 25 mục Tiếng Anh là bản nháp, tổng 144 mục. Batch tiếp theo: Toán 25–28.

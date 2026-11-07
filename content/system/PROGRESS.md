@@ -1,3 +1,23 @@
+# Trạng thái mới nhất — Batch 6, 07/11/2026
+
+| Môn | Có học liệu riêng | Tổng danh mục | Còn bản nháp |
+|---|---:|---:|---:|
+| Toán | 24 | 81 | 57 |
+| Tiếng Việt | 0 | 62 | 62 |
+| Tiếng Anh (gồm Starter/Review) | 0 | 25 | 25 |
+| Tổng | 24 | 168 | 144 |
+
+- **960 câu, 24 trò chơi theo bài.** Toán 1–4 đã được thầy thẩm định; Toán 5–24 do AI biên soạn/rà soát và chờ thẩm định.
+- Batch 6: Toán 21–24, 160 câu, 4 trò chơi và 5 SVG mới. Đã đọc trực quan toàn bộ trang in 63–71 (PDF 64–72).
+- Học liệu phân biệt mặt/cạnh/đỉnh và bộ phận bị khuất; ôn hình học; nhân số hai chữ số có/không nhớ trong phạm vi 100; gấp số lần khác thêm đơn vị, tổng và chênh lệch.
+- Kiểm tra 24 bài/960 câu, 824 đẳng thức trong lời giải, cú pháp và DOM: đạt. Đã render và xem cả 5 SVG mới. Chưa kiểm thử bố cục toàn website/âm thanh/cảm ứng bằng trình duyệt thật.
+- GitHub Pages của Batch 5 đã hoàn tất thành công: commit d25f25641fe3d2d685c0667d372538f05d9034de, workflow run 42379465425.
+- Batch kế tiếp: **Toán 25–28**, dự kiến trang in **72–82**. Đọc nguồn cho phép chia có dư, chia số hai chữ số, giảm số lần và bài toán hai bước trước khi biên soạn.
+- Giữ thứ tự Toán → Tiếng Việt → Tiếng Anh. Mỗi batch phải kiểm tra và commit riêng, giữ dữ liệu tiến độ và các xác nhận đã có.
+- Kiểm tra: `python scripts/validate_site.py`; nếu có jsdom: `NODE_PATH=/tmp/class3-test/node_modules node scripts/test_content_dom.cjs`.
+
+## Lịch sử trước Batch 6
+
 # Trạng thái mới nhất — Batch 5, 07/11/2026
 
 | Môn | Có học liệu riêng | Tổng danh mục | Còn bản nháp |

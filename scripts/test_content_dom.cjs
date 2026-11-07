@@ -59,7 +59,7 @@ async function boot(missing){
   fs.writeFileSync('/tmp/geometry-board-preview.svg',w.document.querySelector('#geometryDraw svg').outerHTML.replace('<svg ','<svg xmlns="http://www.w3.org/2000/svg" '));
  }
  // Các câu phụ thuộc hình/bảng phải đủ dữ kiện ngay cả trong trò ghép đôi.
- for(const id of ['TOAN3_T1_B19','TOAN3_T1_B12']){
+ for(const id of ['TOAN3_T1_B19','TOAN3_T1_B12','TOAN3_T1_B24']){
   if(!activeEntries.some(e=>e.id===id))continue;
   const bank=w.practiceBank(w.byId(id)),media=bank.find(q=>q.figure||q.reference_table),chosen=[media],answers=new Set([media.answer]);
   for(const q of bank){if(chosen.length===5)break;if(!answers.has(q.answer)){answers.add(q.answer);chosen.push(q);}}

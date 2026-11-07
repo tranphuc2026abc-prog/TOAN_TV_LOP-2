@@ -1,0 +1,811 @@
+{
+  "id": "TOAN3_T1_B21",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 21,
+  "title": "Khối lập phương, khối hộp chữ nhật",
+  "topic": "Làm quen với hình phẳng, hình khối",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      63,
+      64
+    ],
+    "pdf_pages": [
+      64,
+      65
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết mặt, cạnh, đỉnh của khối lập phương và khối hộp chữ nhật.",
+    "Nhớ và vận dụng số mặt, cạnh, đỉnh; phân biệt vật thể với hình phẳng trên một mặt."
+  ],
+  "knowledge": {
+    "introduction": "Một chiếc hộp không chỉ có mặt trước. Hãy quan sát hoặc xoay hộp để thấy cả mặt trên, dưới, bên và phía sau. Khi đếm, phải tính cả những bộ phận đang bị khuất.",
+    "rules": [
+      "Khối lập phương và khối hộp chữ nhật đều có 8 đỉnh, 6 mặt, 12 cạnh.",
+      "Các mặt của khối lập phương là các hình vuông bằng nhau. Các mặt của khối hộp chữ nhật là hình chữ nhật.",
+      "Mặt là phần phẳng bao quanh khối; cạnh là chỗ hai mặt kề gặp nhau; đỉnh là điểm các cạnh gặp nhau.",
+      "Có thể đếm cạnh theo ba nhóm: 4 cạnh quanh phía trên, 4 cạnh quanh phía dưới và 4 cạnh nối. Tính cả cạnh và đỉnh khuất trong hình biểu diễn.",
+      "Hình vuông hay hình chữ nhật là hình phẳng; cả khối lập phương hay hộp chữ nhật là vật thể có nhiều mặt."
+    ],
+    "steps": [
+      "Cầm hoặc quan sát mô hình, chỉ rõ một mặt, một cạnh, một đỉnh.",
+      "Đánh dấu các bộ phận đã đếm để tránh lặp.",
+      "Đếm cả phía sau và phía dưới, có thể xoay mô hình.",
+      "Khi giải bài trang trí, xác định đang gắn vào mặt, cạnh hay đỉnh rồi tính theo đúng số bộ phận."
+    ],
+    "common_errors": [
+      "Chỉ đếm ba mặt đang nhìn thấy.",
+      "Nhầm 8 đỉnh thành 8 cạnh.",
+      "Dùng 12 cạnh để tính số giấy dán mỗi mặt.",
+      "Nhìn mặt nghiêng trong hình biểu diễn rồi cho rằng mặt khối lập phương không phải hình vuông."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Mỗi mặt một chiếc hộp lập phương dán một nhãn. Cần bao nhiêu nhãn?",
+      "steps": [
+        "Nhãn được dán theo mặt, không theo cạnh.",
+        "Khối lập phương có 6 mặt, nên cần 6 nhãn."
+      ]
+    },
+    {
+      "question": "Một hạt gắn vào mỗi đỉnh của hai mô hình hộp chữ nhật rời nhau. Cần mấy hạt?",
+      "steps": [
+        "Mỗi mô hình có 8 đỉnh.",
+        "8 × 2 = 16. Cần 16 hạt."
+      ]
+    },
+    {
+      "question": "Làm một khung lập phương, mỗi cạnh một que. Đã lắp 8 que. Còn mấy que?",
+      "steps": [
+        "Khối có 12 cạnh nên cần 12 que.",
+        "12 - 8 = 4. Còn cần 4 que."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B21_Q01",
+      "type": "mcq",
+      "question": "Khối lập phương có mấy mặt?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "12"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "4",
+        "8",
+        "12"
+      ],
+      "explanation": "Khối lập phương có 6 mặt.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q02",
+      "type": "fill",
+      "question": "Khối lập phương có mấy đỉnh?",
+      "correct_answer": "8",
+      "distractors": [
+        "6",
+        "4",
+        "12"
+      ],
+      "explanation": "Khối lập phương có 8 đỉnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q03",
+      "type": "mcq",
+      "question": "Khối lập phương có mấy cạnh?",
+      "options": [
+        "12",
+        "6",
+        "8",
+        "4"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "8",
+        "4"
+      ],
+      "explanation": "Có 4 cạnh quanh mặt trên, 4 cạnh quanh mặt dưới và 4 cạnh nối hai mặt.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q04",
+      "type": "fill",
+      "question": "Khối hộp chữ nhật có mấy mặt?",
+      "correct_answer": "6",
+      "distractors": [
+        "4",
+        "8",
+        "12"
+      ],
+      "explanation": "Khối hộp chữ nhật có 6 mặt.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q05",
+      "type": "mcq",
+      "question": "Khối hộp chữ nhật có mấy đỉnh?",
+      "options": [
+        "8",
+        "4",
+        "6",
+        "12"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "6",
+        "12"
+      ],
+      "explanation": "Có 4 đỉnh ở phía trên và 4 đỉnh ở phía dưới, tất cả 8 đỉnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q06",
+      "type": "fill",
+      "question": "Khối hộp chữ nhật có mấy cạnh?",
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "8",
+        "4"
+      ],
+      "explanation": "Có 4 cạnh phía trên, 4 cạnh phía dưới, 4 cạnh nối, tất cả 12 cạnh.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q07",
+      "type": "mcq",
+      "question": "Các mặt của khối lập phương có dạng hình gì?",
+      "options": [
+        "hình vuông",
+        "hình tam giác",
+        "hình tròn",
+        "góc"
+      ],
+      "correct_answer": "hình vuông",
+      "distractors": [
+        "hình tam giác",
+        "hình tròn",
+        "góc"
+      ],
+      "explanation": "Sáu mặt của khối lập phương là các hình vuông.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q08",
+      "type": "fill",
+      "question": "Các mặt của khối hộp chữ nhật có dạng hình gì?",
+      "correct_answer": "hình chữ nhật",
+      "distractors": [
+        "hình tròn",
+        "hình tam giác",
+        "đoạn thẳng"
+      ],
+      "explanation": "Các mặt khối hộp chữ nhật là các hình chữ nhật.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q09",
+      "type": "mcq",
+      "question": "Chỗ các cạnh của khối gặp nhau tại một điểm gọi là gì?",
+      "options": [
+        "đỉnh",
+        "mặt",
+        "bán kính",
+        "đường kính"
+      ],
+      "correct_answer": "đỉnh",
+      "distractors": [
+        "mặt",
+        "bán kính",
+        "đường kính"
+      ],
+      "explanation": "Điểm gặp của các cạnh là một đỉnh của khối.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q10",
+      "type": "fill",
+      "question": "Đoạn thẳng nơi hai mặt kề gặp nhau gọi là gì?",
+      "correct_answer": "cạnh",
+      "distractors": [
+        "đỉnh",
+        "tâm",
+        "hình tròn"
+      ],
+      "explanation": "Đường gặp giữa hai mặt kề là một cạnh của khối.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q11",
+      "type": "mcq",
+      "question": "Hình A biểu diễn khối lập phương. Có thể chỉ đếm các cạnh nét liền để tìm tổng số cạnh không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ cần đếm mặt trước",
+        "chỉ cần đếm mặt trên"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần đếm mặt trước",
+        "chỉ cần đếm mặt trên"
+      ],
+      "explanation": "Nét đứt biểu diễn cạnh bị khuất; vẫn phải tính đủ 12 cạnh.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B21_A.svg",
+        "caption": "Hình A: Mô hình khối lập phương, cạnh khuất vẽ nét đứt."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q12",
+      "type": "fill",
+      "question": "Hình B biểu diễn khối hộp chữ nhật. Cả các đỉnh ở phía sau có phải là đỉnh của khối không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ tính đỉnh nhìn thấy",
+        "chỉ tính đỉnh trên"
+      ],
+      "explanation": "Khối có cả phần trước và sau; phải tính đủ 8 đỉnh.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B21_B.svg",
+        "caption": "Hình B: Mô hình khối hộp chữ nhật, có cả các bộ phận phía sau."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q13",
+      "type": "mcq",
+      "question": "Một mặt trước của khối lập phương có mấy cạnh?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "6",
+        "8",
+        "12"
+      ],
+      "explanation": "Mặt trước là một hình vuông nên có 4 cạnh.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q14",
+      "type": "fill",
+      "question": "Tất cả các mặt của một khối lập phương có bằng nhau không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ hai mặt trước sau",
+        "chỉ khi cùng màu"
+      ],
+      "explanation": "Sáu mặt là các hình vuông bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q15",
+      "type": "mcq",
+      "question": "Số mặt của khối hộp chữ nhật và khối lập phương có bằng nhau không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ khi cùng chiều cao",
+        "chỉ khi cùng màu"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi cùng chiều cao",
+        "chỉ khi cùng màu"
+      ],
+      "explanation": "Mỗi khối đều có 6 mặt.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q16",
+      "type": "fill",
+      "question": "Một hình vuông trên giấy có phải là cả khối lập phương không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần tô màu",
+        "chỉ cần có 4 cạnh"
+      ],
+      "explanation": "Hình vuông là hình phẳng; khối lập phương có 6 mặt trong không gian.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q17",
+      "type": "mcq",
+      "question": "Một hộp giày dạng khối hộp chữ nhật có phải mọi mặt đều là tam giác không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ mặt trên",
+        "chỉ mặt dưới"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ mặt trên",
+        "chỉ mặt dưới"
+      ],
+      "explanation": "Các mặt của khối hộp chữ nhật là hình chữ nhật.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q18",
+      "type": "fill",
+      "question": "Đếm mặt của một chiếc hộp kín chỉ theo ba mặt đang nhìn thấy có đủ không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần mặt trước",
+        "luôn chỉ có ba mặt"
+      ],
+      "explanation": "Cần tính cả các mặt phía sau, dưới và bên khuất, tổng cộng 6 mặt.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q19",
+      "type": "mcq",
+      "question": "Khối có 6 mặt vuông bằng nhau, 8 đỉnh, 12 cạnh là khối gì?",
+      "options": [
+        "khối lập phương",
+        "khối cầu",
+        "khối trụ",
+        "hình tam giác"
+      ],
+      "correct_answer": "khối lập phương",
+      "distractors": [
+        "khối cầu",
+        "khối trụ",
+        "hình tam giác"
+      ],
+      "explanation": "Đây là đặc điểm của khối lập phương.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q20",
+      "type": "fill",
+      "question": "Đóng kín một chiếc hộp chữ nhật bị thiếu đúng một mặt. Phải thêm mấy mặt?",
+      "correct_answer": "1",
+      "distractors": [
+        "2",
+        "5",
+        "6"
+      ],
+      "explanation": "Đề cho thiếu một mặt, nên thêm đúng một mặt để kín.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q21",
+      "type": "mcq",
+      "question": "Dán một nhãn lên mỗi mặt của một khối lập phương. Cần mấy nhãn?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "12"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "4",
+        "8",
+        "12"
+      ],
+      "explanation": "Có 6 mặt nên cần 6 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q22",
+      "type": "fill",
+      "question": "Gắn một hạt ở mỗi đỉnh của mô hình khối hộp chữ nhật. Cần mấy hạt?",
+      "correct_answer": "8",
+      "distractors": [
+        "6",
+        "4",
+        "12"
+      ],
+      "explanation": "Có 8 đỉnh nên cần 8 hạt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q23",
+      "type": "mcq",
+      "question": "Mỗi cạnh một mô hình lập phương dùng một que thẳng. Cần mấy que?",
+      "options": [
+        "12",
+        "6",
+        "8",
+        "4"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "8",
+        "4"
+      ],
+      "explanation": "Khối lập phương có 12 cạnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q24",
+      "type": "fill",
+      "question": "Hai mô hình lập phương rời nhau, mỗi mô hình gắn một hạt tại mỗi đỉnh. Cần tất cả mấy hạt?",
+      "correct_answer": "16",
+      "distractors": [
+        "8",
+        "10",
+        "12"
+      ],
+      "explanation": "8 × 2 = 16 hạt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q25",
+      "type": "mcq",
+      "question": "Ba hộp lập phương kín, mỗi mặt dán một tờ màu. Cần mấy tờ?",
+      "options": [
+        "18",
+        "9",
+        "12",
+        "24"
+      ],
+      "correct_answer": "18",
+      "distractors": [
+        "9",
+        "12",
+        "24"
+      ],
+      "explanation": "6 × 3 = 18 tờ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q26",
+      "type": "fill",
+      "question": "Mỗi đỉnh của một khối lập phương gắn 2 bông hoa. Cần mấy bông?",
+      "correct_answer": "16",
+      "distractors": [
+        "10",
+        "8",
+        "12"
+      ],
+      "explanation": "8 đỉnh, mỗi đỉnh 2 bông; 8 × 2 = 16 bông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q27",
+      "type": "mcq",
+      "question": "Tô màu đúng bốn mặt của một hộp chữ nhật kín. Còn mấy mặt chưa tô?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "10"
+      ],
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "6",
+        "10"
+      ],
+      "explanation": "6 - 4 = 2 mặt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q28",
+      "type": "fill",
+      "question": "Hộp lập phương đã dán nhãn 5 mặt. Còn mấy mặt chưa dán?",
+      "correct_answer": "1",
+      "distractors": [
+        "5",
+        "6",
+        "11"
+      ],
+      "explanation": "6 - 5 = 1 mặt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q29",
+      "type": "mcq",
+      "question": "Làm hai khung hộp chữ nhật rời nhau, mỗi cạnh một que. Cần tất cả mấy que?",
+      "options": [
+        "24",
+        "12",
+        "14",
+        "20"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "12",
+        "14",
+        "20"
+      ],
+      "explanation": "Mỗi khung cần 12 que; 12 + 12 = 24 que.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q30",
+      "type": "fill",
+      "question": "Một mô hình lập phương có 12 cạnh, đã lắp 7 cạnh. Còn phải lắp mấy cạnh?",
+      "correct_answer": "5",
+      "distractors": [
+        "7",
+        "12",
+        "19"
+      ],
+      "explanation": "12 - 7 = 5 cạnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q31",
+      "type": "mcq",
+      "question": "Năm hộp lập phương kín, mỗi mặt dán một nhãn. Tổng số nhãn là mấy?",
+      "options": [
+        "30",
+        "11",
+        "24",
+        "36"
+      ],
+      "correct_answer": "30",
+      "distractors": [
+        "11",
+        "24",
+        "36"
+      ],
+      "explanation": "6 × 5 = 30 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q32",
+      "type": "fill",
+      "question": "Ba khối lập phương rời nhau, mỗi khối đánh dấu cả 8 đỉnh. Tổng cộng mấy dấu?",
+      "correct_answer": "24",
+      "distractors": [
+        "11",
+        "16",
+        "32"
+      ],
+      "explanation": "8 × 3 = 24 dấu.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q33",
+      "type": "mcq",
+      "question": "Mỗi đỉnh một khối hộp chữ nhật gắn 3 hạt. Cần bao nhiêu hạt?",
+      "options": [
+        "24",
+        "11",
+        "18",
+        "36"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "11",
+        "18",
+        "36"
+      ],
+      "explanation": "8 đỉnh, mỗi đỉnh 3 hạt; 8 × 3 = 24 hạt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q34",
+      "type": "fill",
+      "question": "Hai hộp chữ nhật kín rời nhau, đếm riêng mặt của từng hộp. Tổng cộng mấy mặt?",
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "8",
+        "14"
+      ],
+      "explanation": "6 × 2 = 12 mặt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q35",
+      "type": "mcq",
+      "question": "Chỉ dán giấy vào 6 mặt của một hộp lập phương, không dán vào cạnh. Cần mấy miếng giấy, mỗi mặt một miếng?",
+      "options": [
+        "6",
+        "12",
+        "8",
+        "4"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "12",
+        "8",
+        "4"
+      ],
+      "explanation": "Giấy dán theo số mặt, không theo 12 cạnh; cần 6 miếng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q36",
+      "type": "fill",
+      "question": "Một bạn đếm khối hộp chữ nhật có 4 đỉnh vì chỉ nhìn mặt trước. Cần tính thêm mấy đỉnh ở mặt sau?",
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "6",
+        "12"
+      ],
+      "explanation": "Khối có 8 đỉnh; đã đếm 4, còn 8 - 4 = 4 đỉnh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q37",
+      "type": "mcq",
+      "question": "Khung lập phương có 4 cạnh trên và 4 cạnh dưới đã lắp xong. Cần thêm mấy cạnh nối để hoàn chỉnh?",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "2"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "12",
+        "2"
+      ],
+      "explanation": "Tổng 12 cạnh; 4 + 4 = 8 đã lắp, 12 - 8 = 4 cạnh nối.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q38",
+      "type": "fill",
+      "question": "Một hộp lập phương kín có 6 mặt. Mở nắp nhưng không tháo rời nắp, số mặt của chiếc hộp và nắp tính chung có giảm không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "luôn còn 5",
+        "luôn còn 3"
+      ],
+      "explanation": "Nắp vẫn là một mặt của hộp; thay vị trí nắp không làm mất mặt đó.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q39",
+      "type": "mcq",
+      "question": "Sáu miếng bìa bằng nhau, mỗi miếng hình vuông, dùng làm mỗi mặt của một hộp kín lập phương. Cần dùng mấy miếng?",
+      "options": [
+        "6",
+        "4",
+        "8",
+        "12"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "4",
+        "8",
+        "12"
+      ],
+      "explanation": "Khối lập phương có 6 mặt, mỗi mặt dùng một miếng vuông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B21_Q40",
+      "type": "fill",
+      "question": "Gắn 1 hạt vào mỗi đỉnh và 1 nhãn vào mỗi mặt một mô hình lập phương. Tổng số hạt và nhãn là mấy?",
+      "correct_answer": "14",
+      "distractors": [
+        "8",
+        "6",
+        "12"
+      ],
+      "explanation": "Có 8 hạt và 6 nhãn; 8 + 6 = 14 đồ trang trí.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B21_GAME1",
+      "title": "Thám hiểm chiếc hộp",
+      "mode": "treasure",
+      "objective": "Tìm đúng mặt, cạnh, đỉnh và giải bài trang trí mô hình qua 10 câu hỏi.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu từ bài học.",
+        "Chọn đáp án, đọc lời giải rồi sang câu tiếp theo.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B21_Q01",
+        "TOAN3_T1_B21_Q02",
+        "TOAN3_T1_B21_Q03",
+        "TOAN3_T1_B21_Q04",
+        "TOAN3_T1_B21_Q05",
+        "TOAN3_T1_B21_Q06",
+        "TOAN3_T1_B21_Q07",
+        "TOAN3_T1_B21_Q08",
+        "TOAN3_T1_B21_Q09",
+        "TOAN3_T1_B21_Q10",
+        "TOAN3_T1_B21_Q11",
+        "TOAN3_T1_B21_Q12",
+        "TOAN3_T1_B21_Q13",
+        "TOAN3_T1_B21_Q14",
+        "TOAN3_T1_B21_Q15",
+        "TOAN3_T1_B21_Q16",
+        "TOAN3_T1_B21_Q17",
+        "TOAN3_T1_B21_Q18",
+        "TOAN3_T1_B21_Q19",
+        "TOAN3_T1_B21_Q20",
+        "TOAN3_T1_B21_Q21",
+        "TOAN3_T1_B21_Q22",
+        "TOAN3_T1_B21_Q23",
+        "TOAN3_T1_B21_Q24",
+        "TOAN3_T1_B21_Q25",
+        "TOAN3_T1_B21_Q26",
+        "TOAN3_T1_B21_Q27",
+        "TOAN3_T1_B21_Q28",
+        "TOAN3_T1_B21_Q29",
+        "TOAN3_T1_B21_Q30",
+        "TOAN3_T1_B21_Q31",
+        "TOAN3_T1_B21_Q32",
+        "TOAN3_T1_B21_Q33",
+        "TOAN3_T1_B21_Q34",
+        "TOAN3_T1_B21_Q35",
+        "TOAN3_T1_B21_Q36",
+        "TOAN3_T1_B21_Q37",
+        "TOAN3_T1_B21_Q38",
+        "TOAN3_T1_B21_Q39",
+        "TOAN3_T1_B21_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B21_A.svg",
+      "caption": "Hình A: Mô hình khối lập phương, cạnh khuất vẽ nét đứt."
+    },
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B21_B.svg",
+      "caption": "Hình B: Mô hình khối hộp chữ nhật, có cả các bộ phận phía sau."
+    }
+  ]
+}
