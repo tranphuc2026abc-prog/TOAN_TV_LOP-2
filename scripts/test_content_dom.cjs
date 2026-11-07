@@ -40,6 +40,7 @@ async function boot(missing){
   }
   if(n<=4){w.go({p:'lesson',id});assert(w.A.textContent.includes('Giáo viên đã thẩm định'));}
   if(n===12){w.startQ(id,'all');w.v.qs=[w.practiceBank(w.byId(id)).find(q=>q.reference_table)];w.v.i=0;w.draw();assert.equal(w.A.querySelectorAll('tbody tr').length,8);assert.equal(w.A.querySelectorAll('tbody td').length,80);}
+  if(n===14||n===16){for(const question of w.practiceBank(w.byId(id)).filter(q=>q.figure)){w.startQ(id,'all');w.v.qs=[question];w.v.i=0;w.draw();assert(w.A.querySelector('figure img').getAttribute('src')===question.figure.path);}}
   if(n===7){w.startQ(id,'all');w.v.qs=[w.practiceBank(w.byId(id)).find(q=>q.figure)];w.v.i=0;w.draw();assert(w.A.querySelector('figure img'));}
 
  }

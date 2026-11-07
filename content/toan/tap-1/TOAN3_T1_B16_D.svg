@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 230" role="img" aria-labelledby="title desc">
+<title id="title">Hình D — Điểm ở giữa chưa là trung điểm</title><desc id="desc">C, N, D thẳng hàng theo thứ tự đó. CN dài 2 cm, ND dài 6 cm.</desc>
+<rect width="560" height="230" rx="18" fill="#f3f7ff"/>
+<g font-family="sans-serif" fill="#17345e"><text x="20" y="30" font-size="22">Hình D: C, N, D thẳng hàng</text>
+<path d="M80 115H480" stroke="#17345e" stroke-width="3"/>
+<text x="103" y="92" font-size="22">2 cm</text><text x="305" y="92" font-size="22">6 cm</text><circle cx="80" cy="115" r="6"/><text x="71" y="150" font-size="24">C</text><circle cx="180" cy="115" r="6"/><text x="171" y="150" font-size="24">N</text><circle cx="480" cy="115" r="6"/><text x="471" y="150" font-size="24">D</text><text x="90" y="205" font-size="18">N ở giữa, nhưng CN khác ND.</text></g></svg>

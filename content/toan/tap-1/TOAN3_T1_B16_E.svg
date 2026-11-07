@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" role="img" aria-labelledby="title desc">
+<title id="title">Hình E — Hai khoảng cách bằng nhau chưa đủ</title><desc id="desc">P và Q ở trên đường thẳng ngang; R nằm phía trên, ngoài đoạn PQ. RP bằng RQ.</desc>
+<rect width="560" height="260" rx="18" fill="#f3f7ff"/>
+<g font-family="sans-serif" fill="#17345e"><text x="20" y="30" font-size="22">Hình E: R không nằm trên PQ</text>
+<path d="M100 180H460M100 180L280 65L460 180" fill="none" stroke="#17345e" stroke-width="3"/>
+<text x="70" y="210" font-size="24">P</text><text x="468" y="210" font-size="24">Q</text><text x="272" y="53" font-size="24">R</text>
+<circle cx="100" cy="180" r="6"/><circle cx="460" cy="180" r="6"/><circle cx="280" cy="65" r="6"/>
+<text x="205" y="238" font-size="18">RP = RQ</text></g></svg>

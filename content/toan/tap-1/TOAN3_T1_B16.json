@@ -1,0 +1,828 @@
+{
+  "id": "TOAN3_T1_B16",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 16,
+  "title": "Điểm ở giữa, trung điểm của đoạn thẳng",
+  "topic": "Làm quen với hình phẳng, hình khối",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      49,
+      51
+    ],
+    "pdf_pages": [
+      50,
+      52
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết điểm ở giữa và phân biệt với trung điểm của đoạn thẳng.",
+    "Xác định trung điểm khi biết thứ tự điểm và độ dài; dùng thước hoặc gấp giấy để tìm trung điểm."
+  ],
+  "knowledge": {
+    "introduction": "Một điểm có thể ở giữa hai đầu đoạn thẳng mà chưa chia đoạn thành hai phần bằng nhau. Trung điểm phải vừa ở giữa, vừa cách đều hai đầu. Hai điều kiện này luôn đi cùng nhau.",
+    "rules": [
+      "A, M, B thẳng hàng theo thứ tự A, M, B thì M là điểm ở giữa A và B.",
+      "M là trung điểm AB khi M ở giữa A và B, đồng thời AM = MB.",
+      "Chỉ có AM = MB chưa đủ: M còn phải nằm trên đoạn AB.",
+      "Khi M ở giữa A, B: AB = AM + MB. Khi M là trung điểm: mỗi nửa bằng độ dài AB chia 2.",
+      "Có thể gấp giấy hoặc dây để hai đầu trùng nhau; vị trí chia đôi trên đoạn là trung điểm."
+    ],
+    "steps": [
+      "Kiểm tra các điểm có cùng nằm trên một đường thẳng không.",
+      "Xác định điểm đang xét có nằm giữa hai đầu không.",
+      "So sánh độ dài hai đoạn đến hai đầu.",
+      "Nếu cần vẽ trung điểm, đo cả đoạn, lấy nửa độ dài và đánh dấu trên đoạn; kiểm tra lại."
+    ],
+    "common_errors": [
+      "Cho rằng cứ ở giữa là trung điểm dù hai đoạn không bằng nhau.",
+      "Chỉ thấy hai khoảng cách bằng nhau mà bỏ qua điều kiện nằm trên đoạn.",
+      "Đọc hình không theo tỉ lệ rồi đoán bằng mắt thay vì dựa vào số đo.",
+      "Tính nửa đoạn nhưng quên đổi đúng đơn vị câu trả lời."
+    ]
+  },
+  "examples": [
+    {
+      "question": "A, M, B thẳng hàng, M ở giữa; AM = 3 cm, MB = 5 cm. M có là trung điểm không?",
+      "steps": [
+        "M đáp ứng điều kiện ở giữa.",
+        "Nhưng 3 cm khác 5 cm, nên M không là trung điểm."
+      ]
+    },
+    {
+      "question": "Đoạn CD dài 12 cm. Tìm độ dài từ C đến trung điểm I.",
+      "steps": [
+        "Trung điểm chia CD thành hai phần bằng nhau.",
+        "12 : 2 = 6. CI = ID = 6 cm."
+      ]
+    },
+    {
+      "question": "Tìm trung điểm đoạn thẳng trên giấy bằng cách gấp.",
+      "steps": [
+        "Gấp sao cho hai đầu đoạn trùng khít.",
+        "Nếp gấp cắt đoạn tại điểm chia đôi; đánh dấu điểm này.",
+        "Mở giấy và kiểm tra hai phần bằng nhau."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B16_Q01",
+      "type": "mcq",
+      "question": "Ba điểm A, M, B cùng nằm trên một đường thẳng theo thứ tự đó. Điểm nào ở giữa A và B?",
+      "options": [
+        "M",
+        "A",
+        "B",
+        "không có điểm nào"
+      ],
+      "correct_answer": "M",
+      "distractors": [
+        "A",
+        "B",
+        "không có điểm nào"
+      ],
+      "explanation": "Theo thứ tự A, M, B, điểm M ở giữa hai đầu A và B.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q02",
+      "type": "fill",
+      "question": "M là trung điểm AB. Hai đoạn AM và MB có bằng nhau không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi AB dài 10 cm",
+        "chỉ khi AB nằm ngang"
+      ],
+      "explanation": "Trung điểm nằm giữa hai đầu và cách đều hai đầu.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q03",
+      "type": "mcq",
+      "question": "Ba điểm A, M, B không thẳng hàng. M có thể là trung điểm AB không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ khi AM = MB",
+        "chỉ khi M ở phía trên"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ khi AM = MB",
+        "chỉ khi M ở phía trên"
+      ],
+      "explanation": "Muốn là trung điểm AB, M phải nằm trên đoạn AB, nên A, M, B phải thẳng hàng.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q04",
+      "type": "fill",
+      "question": "M ở giữa A và B, AM = 4 cm, MB = 4 cm. M có là trung điểm AB không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi AB dài 4 cm",
+        "chưa biết"
+      ],
+      "explanation": "M ở giữa và AM = MB, đủ cả hai điều kiện.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q05",
+      "type": "mcq",
+      "question": "N ở giữa C và D, CN = 3 cm, ND = 5 cm. N có là trung điểm CD không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ khi CD nằm ngang",
+        "luôn là trung điểm"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ khi CD nằm ngang",
+        "luôn là trung điểm"
+      ],
+      "explanation": "N ở giữa nhưng hai đoạn 3 cm và 5 cm không bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q06",
+      "type": "fill",
+      "question": "M là trung điểm AB, AM = 5 cm. MB dài mấy xăng-ti-mét?",
+      "correct_answer": "5",
+      "distractors": [
+        "10",
+        "4",
+        "6"
+      ],
+      "explanation": "Vì AM = MB nên MB cũng dài 5 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q07",
+      "type": "mcq",
+      "question": "M là trung điểm AB, AM = 6 cm. AB dài mấy xăng-ti-mét?",
+      "options": [
+        "12",
+        "6",
+        "3",
+        "18"
+      ],
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "3",
+        "18"
+      ],
+      "explanation": "AB = AM + MB; 6 + 6 = 12 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q08",
+      "type": "fill",
+      "question": "Đoạn CD dài 10 cm, N là trung điểm CD. CN dài mấy xăng-ti-mét?",
+      "correct_answer": "5",
+      "distractors": [
+        "10",
+        "2",
+        "8"
+      ],
+      "explanation": "Chia 10 cm thành hai đoạn bằng nhau: 10 : 2 = 5 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q09",
+      "type": "mcq",
+      "question": "Đoạn PQ dài 8 cm, I là trung điểm PQ. IQ dài mấy xăng-ti-mét?",
+      "options": [
+        "4",
+        "8",
+        "2",
+        "6"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "2",
+        "6"
+      ],
+      "explanation": "8 : 2 = 4 cm.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q10",
+      "type": "fill",
+      "question": "Một điểm ở giữa hai đầu đoạn thẳng có nhất thiết là trung điểm không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần thẳng hàng",
+        "chỉ cần có tên điểm"
+      ],
+      "explanation": "Còn phải kiểm tra hai khoảng cách đến hai đầu có bằng nhau không.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q11",
+      "type": "mcq",
+      "question": "Hình C: A, M, B thẳng hàng, AM = MB = 4 cm. Trung điểm AB là điểm nào?",
+      "options": [
+        "M",
+        "A",
+        "B",
+        "không có trung điểm"
+      ],
+      "correct_answer": "M",
+      "distractors": [
+        "A",
+        "B",
+        "không có trung điểm"
+      ],
+      "explanation": "M nằm giữa A, B và hai đoạn AM, MB đều 4 cm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B16_C.svg",
+        "caption": "Hình C: A, M, B thẳng hàng; AM = MB = 4 cm."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q12",
+      "type": "fill",
+      "question": "Hình D: C, N, D thẳng hàng, CN = 2 cm, ND = 6 cm. CD dài mấy xăng-ti-mét?",
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "6",
+        "12"
+      ],
+      "explanation": "Cộng hai đoạn: 2 + 6 = 8 cm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B16_D.svg",
+        "caption": "Hình D: C, N, D thẳng hàng; CN = 2 cm, ND = 6 cm."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q13",
+      "type": "mcq",
+      "question": "Hình D: N có là trung điểm CD không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ khi đổi tên N",
+        "luôn đúng"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ khi đổi tên N",
+        "luôn đúng"
+      ],
+      "explanation": "CN = 2 cm khác ND = 6 cm, nên N không là trung điểm.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B16_D.svg",
+        "caption": "Hình D: C, N, D thẳng hàng; CN = 2 cm, ND = 6 cm."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q14",
+      "type": "fill",
+      "question": "Hình E: P và Q thẳng hàng nằm dưới R; RP = RQ. R có là trung điểm PQ không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ khi PQ nằm ngang",
+        "chưa có tên điểm"
+      ],
+      "explanation": "RP = RQ chưa đủ; R không nằm trên đoạn PQ.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B16_E.svg",
+        "caption": "Hình E: RP = RQ, nhưng R không nằm trên đoạn PQ."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q15",
+      "type": "mcq",
+      "question": "Đoạn AB dài 14 cm. Trung điểm cách A mấy xăng-ti-mét?",
+      "options": [
+        "7",
+        "14",
+        "2",
+        "6"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "14",
+        "2",
+        "6"
+      ],
+      "explanation": "14 : 2 = 7 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q16",
+      "type": "fill",
+      "question": "M ở giữa A và B. AM = 3 cm, MB = 7 cm. AB dài mấy xăng-ti-mét?",
+      "correct_answer": "10",
+      "distractors": [
+        "4",
+        "7",
+        "21"
+      ],
+      "explanation": "AB = AM + MB; 3 + 7 = 10 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q17",
+      "type": "mcq",
+      "question": "M là trung điểm AB, MB = 8 cm. AB dài mấy xăng-ti-mét?",
+      "options": [
+        "16",
+        "8",
+        "4",
+        "24"
+      ],
+      "correct_answer": "16",
+      "distractors": [
+        "8",
+        "4",
+        "24"
+      ],
+      "explanation": "AM = MB = 8 cm; 8 + 8 = 16 cm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q18",
+      "type": "fill",
+      "question": "Trên thước, A tại 0 cm, M tại 3 cm, B tại 6 cm. Điểm M là gì của AB?",
+      "correct_answer": "trung điểm",
+      "distractors": [
+        "điểm ngoài đoạn",
+        "đầu mút",
+        "điểm không thẳng hàng"
+      ],
+      "explanation": "M nằm giữa; AM = 3 cm, MB = 3 cm nên M là trung điểm.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q19",
+      "type": "mcq",
+      "question": "Trên thước, A tại 0 cm, N tại 2 cm, B tại 6 cm. N có là trung điểm AB không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ vì N nằm giữa",
+        "luôn đúng"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ vì N nằm giữa",
+        "luôn đúng"
+      ],
+      "explanation": "AN = 2 cm, NB = 4 cm không bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q20",
+      "type": "fill",
+      "question": "Để xác định trung điểm đoạn thẳng trên giấy bằng cách gấp, phải làm gì với hai đầu đoạn?",
+      "correct_answer": "cho hai đầu trùng nhau",
+      "distractors": [
+        "gấp tùy ý",
+        "cắt một đầu",
+        "chỉ gấp góc giấy"
+      ],
+      "explanation": "Gấp cho hai đầu trùng nhau thì nếp gấp cắt đoạn tại điểm chia đoạn thành hai phần bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q21",
+      "type": "mcq",
+      "question": "Dây dài 18 cm. Đánh dấu trung điểm, mỗi nửa dài mấy xăng-ti-mét?",
+      "options": [
+        "9",
+        "18",
+        "2",
+        "8"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "18",
+        "2",
+        "8"
+      ],
+      "explanation": "18 : 2 = 9 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q22",
+      "type": "fill",
+      "question": "Thanh gỗ dài 16 cm. Cắt tại trung điểm được hai thanh, mỗi thanh dài mấy xăng-ti-mét?",
+      "correct_answer": "8",
+      "distractors": [
+        "16",
+        "4",
+        "7"
+      ],
+      "explanation": "16 : 2 = 8 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q23",
+      "type": "mcq",
+      "question": "Đường thẳng từ cổng A đến cổng B dài 20 m. Đèn M đặt đúng trung điểm. M cách A mấy mét?",
+      "options": [
+        "10",
+        "20",
+        "2",
+        "18"
+      ],
+      "correct_answer": "10",
+      "distractors": [
+        "20",
+        "2",
+        "18"
+      ],
+      "explanation": "20 : 2 = 10 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q24",
+      "type": "fill",
+      "question": "An và Bình đứng hai đầu một đoạn thẳng dài 12 m. Lan đứng đúng giữa, cách đều hai bạn. Lan cách mỗi bạn mấy mét?",
+      "correct_answer": "6",
+      "distractors": [
+        "12",
+        "2",
+        "10"
+      ],
+      "explanation": "Lan là trung điểm; 12 : 2 = 6 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q25",
+      "type": "mcq",
+      "question": "Tấm bìa có đoạn AB dài 14 cm, đánh dấu M cách A 7 cm trên đoạn. MB dài mấy xăng-ti-mét?",
+      "options": [
+        "7",
+        "14",
+        "21",
+        "6"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "14",
+        "21",
+        "6"
+      ],
+      "explanation": "14 - 7 = 7 cm; AM = MB nên M là trung điểm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q26",
+      "type": "fill",
+      "question": "Đoạn PQ dài 18 cm. Điểm I ở trên đoạn, PI = 8 cm. I có là trung điểm không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ cần PI nhỏ hơn PQ",
+        "không đủ tên điểm"
+      ],
+      "explanation": "IQ = 18 - 8 = 10 cm, khác 8 cm nên I không là trung điểm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q27",
+      "type": "mcq",
+      "question": "Một chiếc cầu thẳng dài 18 m. Trạm nghỉ tại trung điểm. Từ đầu cầu đến trạm dài mấy mét?",
+      "options": [
+        "9",
+        "18",
+        "2",
+        "8"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "18",
+        "2",
+        "8"
+      ],
+      "explanation": "18 : 2 = 9 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q28",
+      "type": "fill",
+      "question": "Đường thẳng A đến B dài 16 m. Cột M ở trung điểm. Từ M đến B dài mấy mét?",
+      "correct_answer": "8",
+      "distractors": [
+        "16",
+        "2",
+        "14"
+      ],
+      "explanation": "16 : 2 = 8 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q29",
+      "type": "mcq",
+      "question": "Băng giấy dài 10 cm. Gấp cho hai đầu trùng nhau, nếp gấp chia mỗi phần dài mấy xăng-ti-mét?",
+      "options": [
+        "5",
+        "10",
+        "2",
+        "8"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "10",
+        "2",
+        "8"
+      ],
+      "explanation": "Gấp đôi chia thành hai phần bằng nhau; 10 : 2 = 5 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q30",
+      "type": "fill",
+      "question": "Hàng cây trên một đường thẳng có A, M, B theo thứ tự. AM = 6 m, MB = 9 m. M có ở giữa A và B không?",
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi AM = MB",
+        "chỉ khi AB dài 12 m"
+      ],
+      "explanation": "Thứ tự A, M, B trên cùng đường thẳng cho thấy M ở giữa, dù chưa là trung điểm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q31",
+      "type": "mcq",
+      "question": "Đoạn AB dài 8 cm. M nằm giữa và AM = 4 cm. M có là trung điểm không?",
+      "options": [
+        "có",
+        "không",
+        "chỉ khi đổi chiều đoạn",
+        "chưa biết độ dài"
+      ],
+      "correct_answer": "có",
+      "distractors": [
+        "không",
+        "chỉ khi đổi chiều đoạn",
+        "chưa biết độ dài"
+      ],
+      "explanation": "MB = 8 - 4 = 4 cm; M ở giữa và AM = MB.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q32",
+      "type": "fill",
+      "question": "Đoạn CD dài 6 cm. I là trung điểm. CI dài mấy xăng-ti-mét?",
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "2",
+        "4"
+      ],
+      "explanation": "6 : 2 = 3 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q33",
+      "type": "mcq",
+      "question": "Đoạn GH dài 12 cm. M nằm ngoài đoạn nhưng MG = MH. Chỉ riêng điều kiện bằng nhau có đủ để gọi M là trung điểm không?",
+      "options": [
+        "không",
+        "có",
+        "chỉ khi có thước",
+        "luôn đủ"
+      ],
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ khi có thước",
+        "luôn đủ"
+      ],
+      "explanation": "Trung điểm phải nằm trên đoạn và ở giữa hai đầu; khoảng cách bằng nhau chưa đủ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q34",
+      "type": "fill",
+      "question": "Một lối đi thẳng dài 20 m, đặt bồn hoa ở trung điểm. Bồn hoa cách đầu lối mấy mét?",
+      "correct_answer": "10",
+      "distractors": [
+        "20",
+        "2",
+        "18"
+      ],
+      "explanation": "20 : 2 = 10 m.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q35",
+      "type": "mcq",
+      "question": "Thanh dây có M là trung điểm AB, AM dài 7 cm. Nếu đo cả dây AB thì được mấy xăng-ti-mét?",
+      "options": [
+        "14",
+        "7",
+        "21",
+        "10"
+      ],
+      "correct_answer": "14",
+      "distractors": [
+        "7",
+        "21",
+        "10"
+      ],
+      "explanation": "AM = MB = 7 cm; 7 + 7 = 14 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q36",
+      "type": "fill",
+      "question": "Đoạn AB dài 16 cm. I và J nằm trên đoạn, AI = 7 cm, AJ = 8 cm. Điểm nào là trung điểm?",
+      "correct_answer": "J",
+      "distractors": [
+        "I",
+        "A",
+        "B"
+      ],
+      "explanation": "Trung điểm cách A 16 : 2 = 8 cm; J đúng vị trí đó.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q37",
+      "type": "mcq",
+      "question": "Trên đoạn CD dài 14 cm, N cách C 5 cm. ND dài mấy xăng-ti-mét?",
+      "options": [
+        "9",
+        "5",
+        "7",
+        "19"
+      ],
+      "correct_answer": "9",
+      "distractors": [
+        "5",
+        "7",
+        "19"
+      ],
+      "explanation": "14 - 5 = 9 cm; N chưa là trung điểm vì 5 khác 9.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q38",
+      "type": "fill",
+      "question": "Dây dài 16 cm được gấp đôi cho hai đầu trùng nhau. Mỗi nửa dài bao nhiêu xăng-ti-mét?",
+      "correct_answer": "8",
+      "distractors": [
+        "16",
+        "2",
+        "14"
+      ],
+      "explanation": "16 : 2 = 8 cm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q39",
+      "type": "mcq",
+      "question": "Hình C có AM = MB = 4 cm. Một con kiến đi từ A đến M rồi đến B. Đi tất cả mấy xăng-ti-mét?",
+      "options": [
+        "8",
+        "4",
+        "2",
+        "12"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "2",
+        "12"
+      ],
+      "explanation": "Đi hai đoạn liên tiếp: 4 + 4 = 8 cm.",
+      "difficulty": "van_dung",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B16_C.svg",
+        "caption": "Hình C: A, M, B thẳng hàng; AM = MB = 4 cm."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B16_Q40",
+      "type": "fill",
+      "question": "Đoạn thẳng dài 20 cm. Điểm M cách hai đầu lần lượt 8 cm và 12 cm, nằm giữa hai đầu. M còn cách trung điểm mấy xăng-ti-mét?",
+      "correct_answer": "2",
+      "distractors": [
+        "4",
+        "8",
+        "10"
+      ],
+      "explanation": "Trung điểm cách đầu thứ nhất 20 : 2 = 10 cm; 10 - 8 = 2 cm.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B16_GAME1",
+      "title": "Tăng tốc tìm điểm giữa",
+      "mode": "speed",
+      "objective": "Kiểm tra điểm ở giữa, trung điểm và độ dài các đoạn trong 60 giây.",
+      "rules": [
+        "Trả lời các câu thuộc bài trong 60 giây.",
+        "Mỗi câu đúng được 10 điểm, sai không được điểm; chuyển ngay sang câu tiếp.",
+        "Hết giờ thì kết thúc. Điểm riêng của lượt chơi, không thay kết quả luyện tập."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B16_Q01",
+        "TOAN3_T1_B16_Q02",
+        "TOAN3_T1_B16_Q03",
+        "TOAN3_T1_B16_Q04",
+        "TOAN3_T1_B16_Q05",
+        "TOAN3_T1_B16_Q06",
+        "TOAN3_T1_B16_Q07",
+        "TOAN3_T1_B16_Q08",
+        "TOAN3_T1_B16_Q09",
+        "TOAN3_T1_B16_Q10",
+        "TOAN3_T1_B16_Q11",
+        "TOAN3_T1_B16_Q12",
+        "TOAN3_T1_B16_Q13",
+        "TOAN3_T1_B16_Q14",
+        "TOAN3_T1_B16_Q15",
+        "TOAN3_T1_B16_Q16",
+        "TOAN3_T1_B16_Q17",
+        "TOAN3_T1_B16_Q18",
+        "TOAN3_T1_B16_Q19",
+        "TOAN3_T1_B16_Q20",
+        "TOAN3_T1_B16_Q21",
+        "TOAN3_T1_B16_Q22",
+        "TOAN3_T1_B16_Q23",
+        "TOAN3_T1_B16_Q24",
+        "TOAN3_T1_B16_Q25",
+        "TOAN3_T1_B16_Q26",
+        "TOAN3_T1_B16_Q27",
+        "TOAN3_T1_B16_Q28",
+        "TOAN3_T1_B16_Q29",
+        "TOAN3_T1_B16_Q30",
+        "TOAN3_T1_B16_Q31",
+        "TOAN3_T1_B16_Q32",
+        "TOAN3_T1_B16_Q33",
+        "TOAN3_T1_B16_Q34",
+        "TOAN3_T1_B16_Q35",
+        "TOAN3_T1_B16_Q36",
+        "TOAN3_T1_B16_Q37",
+        "TOAN3_T1_B16_Q38",
+        "TOAN3_T1_B16_Q39",
+        "TOAN3_T1_B16_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": null
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B16_C.svg",
+      "caption": "Hình C: A, M, B thẳng hàng; AM = MB = 4 cm."
+    },
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B16_D.svg",
+      "caption": "Hình D: C, N, D thẳng hàng; CN = 2 cm, ND = 6 cm."
+    },
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B16_E.svg",
+      "caption": "Hình E: RP = RQ, nhưng R không nằm trên đoạn PQ."
+    }
+  ]
+}

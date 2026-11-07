@@ -1,0 +1,794 @@
+{
+  "id": "TOAN3_T1_B15",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 15,
+  "title": "Luyện tập chung",
+  "topic": "Ôn bảng nhân, chia và một phần mấy",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      46,
+      48
+    ],
+    "pdf_pages": [
+      47,
+      49
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Củng cố các bảng nhân/chia và quy tắc tìm thành phần chưa biết.",
+    "Nhận biết một phần mấy, giải tình huống thực tế và quy luật tích phù hợp."
+  ],
+  "knowledge": {
+    "introduction": "Trong bài ôn tập, hãy chọn đúng công cụ cho từng nhiệm vụ: nhân để gom nhóm, chia để tách nhóm, hoặc dùng quy tắc tìm số bị che. Bài có một phần mấy cần kiểm tra ý nghĩa chia đều.",
+    "rules": [
+      "Gom các nhóm bằng nhau dùng phép nhân; chia đều hoặc tìm số nhóm dùng phép chia.",
+      "Một tích có thể cho ta các phép chia tương ứng: 6 × 8 = 48 nên 48 : 6 = 8 và 48 : 8 = 6.",
+      "Tìm thừa số dùng tích chia thừa số kia; tìm số bị chia dùng thương nhân số chia; tìm số chia dùng số bị chia chia thương.",
+      "Muốn tìm một phần n của một nhóm đồ vật, chia tổng số thành n phần bằng nhau.",
+      "Đọc luật của tháp số hoặc sơ đồ trước khi tính; có sơ đồ dùng tổng, có sơ đồ dùng tích."
+    ],
+    "steps": [
+      "Đọc đề và chọn quy tắc cần dùng.",
+      "Tính từng bước, không bỏ sót phần đã dùng hoặc còn lại.",
+      "Với sơ đồ, đọc từ các số đã biết đến ô cần tìm.",
+      "Thử lại bằng phép tính ngược hoặc đếm số nhóm."
+    ],
+    "common_errors": [
+      "Nhầm số đã lấy một phần mấy với số còn lại.",
+      "Làm theo luật cộng trong một tháp yêu cầu nhân.",
+      "Dùng nhầm quy tắc tìm số chia và số bị chia.",
+      "Tính cả màu khác khi đề chỉ hỏi số đồ vật một màu."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Có 42 thẻ, lấy một phần bảy số thẻ. Hỏi còn bao nhiêu?",
+      "steps": [
+        "Đã lấy 42 : 7 = 6 thẻ.",
+        "Còn 42 - 6 = 36 thẻ."
+      ]
+    },
+    {
+      "question": "Tìm số: 63 : ... = 7.",
+      "steps": [
+        "Số bị che là số chia.",
+        "63 : 7 = 9.",
+        "Thử lại: 63 : 9 = 7."
+      ]
+    },
+    {
+      "question": "Tháp tích có đáy 1, 3, 2. Mỗi ô trên là tích hai ô ngay dưới. Tìm đỉnh.",
+      "steps": [
+        "Tầng giữa có 1 × 3 = 3 và 3 × 2 = 6.",
+        "Đỉnh là 3 × 6 = 18."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B15_Q01",
+      "type": "mcq",
+      "question": "Tính 6 × 8.",
+      "options": [
+        "48",
+        "14",
+        "42",
+        "54"
+      ],
+      "correct_answer": "48",
+      "distractors": [
+        "14",
+        "42",
+        "54"
+      ],
+      "explanation": "6 × 8 = 48 theo bảng nhân 6.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q02",
+      "type": "fill",
+      "question": "Tính 7 × 9.",
+      "correct_answer": "63",
+      "distractors": [
+        "16",
+        "56",
+        "70"
+      ],
+      "explanation": "7 × 9 = 63 theo bảng nhân 7.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q03",
+      "type": "mcq",
+      "question": "Tính 8 × 4.",
+      "options": [
+        "32",
+        "12",
+        "24",
+        "40"
+      ],
+      "correct_answer": "32",
+      "distractors": [
+        "12",
+        "24",
+        "40"
+      ],
+      "explanation": "8 × 4 = 32 theo bảng nhân 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q04",
+      "type": "fill",
+      "question": "Tính 9 × 5.",
+      "correct_answer": "45",
+      "distractors": [
+        "14",
+        "36",
+        "54"
+      ],
+      "explanation": "9 × 5 = 45 theo bảng nhân 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q05",
+      "type": "mcq",
+      "question": "Tính 48 : 6.",
+      "options": [
+        "8",
+        "6",
+        "7",
+        "42"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "6",
+        "7",
+        "42"
+      ],
+      "explanation": "6 × 8 = 48 nên 48 : 6 = 8.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q06",
+      "type": "fill",
+      "question": "Tính 63 : 7.",
+      "correct_answer": "9",
+      "distractors": [
+        "7",
+        "8",
+        "56"
+      ],
+      "explanation": "7 × 9 = 63 nên 63 : 7 = 9.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q07",
+      "type": "mcq",
+      "question": "Tính 32 : 8.",
+      "options": [
+        "4",
+        "8",
+        "24",
+        "3"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "24",
+        "3"
+      ],
+      "explanation": "8 × 4 = 32 nên 32 : 8 = 4.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q08",
+      "type": "fill",
+      "question": "Tính 45 : 9.",
+      "correct_answer": "5",
+      "distractors": [
+        "9",
+        "36",
+        "4"
+      ],
+      "explanation": "9 × 5 = 45 nên 45 : 9 = 5.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q09",
+      "type": "mcq",
+      "question": "Một phần năm viết theo dạng 1/n là gì?",
+      "options": [
+        "1/5",
+        "5/1",
+        "1/4",
+        "1/6"
+      ],
+      "correct_answer": "1/5",
+      "distractors": [
+        "5/1",
+        "1/4",
+        "1/6"
+      ],
+      "explanation": "Một trong năm phần bằng nhau viết 1/5.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q10",
+      "type": "fill",
+      "question": "Trong 6 × 7 = 42, hai số 6 và 7 gọi là gì?",
+      "correct_answer": "thừa số",
+      "distractors": [
+        "tổng",
+        "thương",
+        "số chia"
+      ],
+      "explanation": "Hai số được nhân với nhau là các thừa số.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q11",
+      "type": "mcq",
+      "question": "Điền số: ... × 8 = 56.",
+      "options": [
+        "7",
+        "8",
+        "48",
+        "6"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "8",
+        "48",
+        "6"
+      ],
+      "explanation": "Thừa số chưa biết = 56 : 8 = 7.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q12",
+      "type": "fill",
+      "question": "Điền số: ... : 7 = 8.",
+      "correct_answer": "56",
+      "distractors": [
+        "15",
+        "1",
+        "49"
+      ],
+      "explanation": "Số bị chia = 8 × 7 = 56.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q13",
+      "type": "mcq",
+      "question": "Điền số: 54 : ... = 9.",
+      "options": [
+        "6",
+        "9",
+        "45",
+        "7"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "9",
+        "45",
+        "7"
+      ],
+      "explanation": "Số chia = 54 : 9 = 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q14",
+      "type": "fill",
+      "question": "Một phần ba của 21 chiếc lá là mấy chiếc?",
+      "correct_answer": "7",
+      "distractors": [
+        "3",
+        "18",
+        "24"
+      ],
+      "explanation": "21 : 3 = 7 chiếc lá.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q15",
+      "type": "mcq",
+      "question": "Một phần sáu của 30 que tính là mấy que?",
+      "options": [
+        "5",
+        "6",
+        "24",
+        "36"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "6",
+        "24",
+        "36"
+      ],
+      "explanation": "30 : 6 = 5 que.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q16",
+      "type": "fill",
+      "question": "Trong 42 : 7 và 54 : 6, kết quả nào bé hơn? Nhập kết quả bé hơn.",
+      "correct_answer": "6",
+      "distractors": [
+        "9",
+        "7",
+        "12"
+      ],
+      "explanation": "42 : 7 = 6; 54 : 6 = 9; chọn 6.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q17",
+      "type": "mcq",
+      "question": "Hai phép 8 × 6 và 6 × 8 cùng có kết quả nào?",
+      "options": [
+        "48",
+        "14",
+        "42",
+        "56"
+      ],
+      "correct_answer": "48",
+      "distractors": [
+        "14",
+        "42",
+        "56"
+      ],
+      "explanation": "8 × 6 = 48 và 6 × 8 = 48.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q18",
+      "type": "fill",
+      "question": "Một hình chia thành 5 phần bằng nhau, tô 1 phần. Phần tô viết dạng 1/n là gì?",
+      "correct_answer": "1/5",
+      "distractors": [
+        "1/4",
+        "1/6",
+        "5/1"
+      ],
+      "explanation": "Một trong năm phần bằng nhau là 1/5 hình.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q19",
+      "type": "mcq",
+      "question": "Tính theo hai bước: 7 × 4, rồi chia cho 7.",
+      "options": [
+        "4",
+        "28",
+        "7",
+        "21"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "28",
+        "7",
+        "21"
+      ],
+      "explanation": "7 × 4 = 28; 28 : 7 = 4.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q20",
+      "type": "fill",
+      "question": "Trong 18 hạt, một phần chín số hạt là mấy hạt?",
+      "correct_answer": "2",
+      "distractors": [
+        "9",
+        "3",
+        "27"
+      ],
+      "explanation": "18 : 9 = 2 hạt.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q21",
+      "type": "mcq",
+      "question": "Mỗi hộp có 7 bút. 8 hộp có bao nhiêu bút?",
+      "options": [
+        "56",
+        "15",
+        "49",
+        "63"
+      ],
+      "correct_answer": "56",
+      "distractors": [
+        "15",
+        "49",
+        "63"
+      ],
+      "explanation": "7 × 8 = 56 bút.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q22",
+      "type": "fill",
+      "question": "Có 54 cốc, mỗi khay xếp 9 cốc. Cần mấy khay?",
+      "correct_answer": "6",
+      "distractors": [
+        "9",
+        "45",
+        "5"
+      ],
+      "explanation": "54 : 9 = 6 khay.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q23",
+      "type": "mcq",
+      "question": "Có 24 bông hoa, tặng một phần ba số hoa. Tặng mấy bông?",
+      "options": [
+        "8",
+        "3",
+        "6",
+        "21"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "3",
+        "6",
+        "21"
+      ],
+      "explanation": "24 : 3 = 8 bông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q24",
+      "type": "fill",
+      "question": "Một đội có 32 bạn, một phần tư số bạn cầm cờ. Có mấy bạn cầm cờ?",
+      "correct_answer": "8",
+      "distractors": [
+        "4",
+        "28",
+        "7"
+      ],
+      "explanation": "32 : 4 = 8 bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q25",
+      "type": "mcq",
+      "question": "Chia đều một số vở cho 6 bạn, mỗi bạn 7 quyển. Có tất cả mấy quyển?",
+      "options": [
+        "42",
+        "13",
+        "1",
+        "49"
+      ],
+      "correct_answer": "42",
+      "distractors": [
+        "13",
+        "1",
+        "49"
+      ],
+      "explanation": "Số bị chia = 7 × 6 = 42 quyển.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q26",
+      "type": "fill",
+      "question": "Có 40 thẻ chia đều cho một số nhóm, mỗi nhóm 5 thẻ. Có mấy nhóm?",
+      "correct_answer": "8",
+      "distractors": [
+        "5",
+        "35",
+        "45"
+      ],
+      "explanation": "40 : 5 = 8 nhóm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q27",
+      "type": "mcq",
+      "question": "Mỗi lượt xếp 8 chiếc ghế. Làm 9 lượt được mấy chiếc?",
+      "options": [
+        "72",
+        "17",
+        "64",
+        "80"
+      ],
+      "correct_answer": "72",
+      "distractors": [
+        "17",
+        "64",
+        "80"
+      ],
+      "explanation": "8 × 9 = 72 ghế.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q28",
+      "type": "fill",
+      "question": "Một trang có 6 tranh. 4 trang có tất cả mấy tranh?",
+      "correct_answer": "24",
+      "distractors": [
+        "10",
+        "18",
+        "30"
+      ],
+      "explanation": "6 × 4 = 24 tranh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q29",
+      "type": "mcq",
+      "question": "Có 27 hạt giống, gieo một phần chín. Đã gieo mấy hạt?",
+      "options": [
+        "3",
+        "9",
+        "18",
+        "36"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "9",
+        "18",
+        "36"
+      ],
+      "explanation": "27 : 9 = 3 hạt.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q30",
+      "type": "fill",
+      "question": "Mỗi nhóm có 9 bạn. Cần mấy nhóm để có 63 bạn?",
+      "correct_answer": "7",
+      "distractors": [
+        "9",
+        "54",
+        "8"
+      ],
+      "explanation": "63 : 9 = 7 nhóm.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q31",
+      "type": "mcq",
+      "question": "Có 35 nhãn vở, cho em một phần năm số nhãn. Cho mấy nhãn?",
+      "options": [
+        "7",
+        "5",
+        "30",
+        "40"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "5",
+        "30",
+        "40"
+      ],
+      "explanation": "35 : 5 = 7 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q32",
+      "type": "fill",
+      "question": "Ba bộ có số thẻ bằng nhau, tất cả 24 thẻ. Mỗi bộ có mấy thẻ?",
+      "correct_answer": "8",
+      "distractors": [
+        "3",
+        "21",
+        "6"
+      ],
+      "explanation": "24 : 3 = 8 thẻ mỗi bộ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q33",
+      "type": "mcq",
+      "question": "Năm khay, mỗi khay 6 bánh, lấy ra 4 bánh. Còn mấy bánh?",
+      "options": [
+        "26",
+        "30",
+        "34",
+        "15"
+      ],
+      "correct_answer": "26",
+      "distractors": [
+        "30",
+        "34",
+        "15"
+      ],
+      "explanation": "6 × 5 = 30 bánh; 30 - 4 = 26 bánh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q34",
+      "type": "fill",
+      "question": "Có 48 quả, dùng một phần sáu số quả. Còn mấy quả?",
+      "correct_answer": "40",
+      "distractors": [
+        "8",
+        "42",
+        "54"
+      ],
+      "explanation": "Đã dùng 48 : 6 = 8 quả; 48 - 8 = 40 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q35",
+      "type": "mcq",
+      "question": "Hộp có 28 bút, cho đi một phần bảy số bút. Còn mấy bút?",
+      "options": [
+        "24",
+        "4",
+        "21",
+        "35"
+      ],
+      "correct_answer": "24",
+      "distractors": [
+        "4",
+        "21",
+        "35"
+      ],
+      "explanation": "Đã cho 28 : 7 = 4 bút; 28 - 4 = 24 bút.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q36",
+      "type": "fill",
+      "question": "Tháp tích có đáy 1, 2, 3. Hai ô tầng trên là tích của hai số ngay dưới; ô đỉnh là tích hai ô tầng trên. Đỉnh là bao nhiêu?",
+      "correct_answer": "12",
+      "distractors": [
+        "6",
+        "9",
+        "18"
+      ],
+      "explanation": "Tầng giữa là 1 × 2 = 2 và 2 × 3 = 6; 2 × 6 = 12.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q37",
+      "type": "mcq",
+      "question": "Ba số ở ba đỉnh là 2, 4, 5. Mỗi cạnh ghi tích hai số ở hai đầu. Cạnh nối 4 với 5 ghi số nào?",
+      "options": [
+        "20",
+        "9",
+        "8",
+        "10"
+      ],
+      "correct_answer": "20",
+      "distractors": [
+        "9",
+        "8",
+        "10"
+      ],
+      "explanation": "Cạnh nối 4 và 5 ghi 4 × 5 = 20.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q38",
+      "type": "fill",
+      "question": "Mua 4 hộp, mỗi hộp 8 phấn trắng và 2 phấn màu. Có tất cả mấy phấn màu?",
+      "correct_answer": "8",
+      "distractors": [
+        "32",
+        "40",
+        "6"
+      ],
+      "explanation": "Chỉ tính phấn màu: 2 × 4 = 8 viên.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q39",
+      "type": "mcq",
+      "question": "Có 18 thẻ, một phần ba số thẻ màu xanh. Thẻ xanh chia đều cho 2 bạn. Mỗi bạn mấy thẻ xanh?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "2"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "6",
+        "9",
+        "2"
+      ],
+      "explanation": "Số thẻ xanh là 18 : 3 = 6; 6 : 2 = 3 thẻ mỗi bạn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B15_Q40",
+      "type": "fill",
+      "question": "Mỗi bộ cần 9 hạt. Có 40 hạt, lấy 36 hạt làm bộ hoàn chỉnh. Làm được mấy bộ?",
+      "correct_answer": "4",
+      "distractors": [
+        "9",
+        "3",
+        "31"
+      ],
+      "explanation": "36 : 9 = 4 bộ; còn 4 hạt chưa dùng.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B15_GAME1",
+      "title": "Ghép thẻ ôn tập",
+      "mode": "match",
+      "objective": "Ghép bài toán hoặc phép tính với kết quả; chú ý số đã lấy và số còn lại.",
+      "rules": [
+        "Mỗi lượt chọn 5 câu có 5 đáp án khác nhau.",
+        "Chọn câu hỏi bên trái rồi đáp án bên phải. Sai thì thử lại.",
+        "Mỗi cặp đúng 10 điểm; tối đa 50 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B15_Q01",
+        "TOAN3_T1_B15_Q02",
+        "TOAN3_T1_B15_Q03",
+        "TOAN3_T1_B15_Q04",
+        "TOAN3_T1_B15_Q05",
+        "TOAN3_T1_B15_Q06",
+        "TOAN3_T1_B15_Q07",
+        "TOAN3_T1_B15_Q08",
+        "TOAN3_T1_B15_Q09",
+        "TOAN3_T1_B15_Q10",
+        "TOAN3_T1_B15_Q11",
+        "TOAN3_T1_B15_Q12",
+        "TOAN3_T1_B15_Q13",
+        "TOAN3_T1_B15_Q14",
+        "TOAN3_T1_B15_Q15",
+        "TOAN3_T1_B15_Q16",
+        "TOAN3_T1_B15_Q17",
+        "TOAN3_T1_B15_Q18",
+        "TOAN3_T1_B15_Q19",
+        "TOAN3_T1_B15_Q20",
+        "TOAN3_T1_B15_Q21",
+        "TOAN3_T1_B15_Q22",
+        "TOAN3_T1_B15_Q23",
+        "TOAN3_T1_B15_Q24",
+        "TOAN3_T1_B15_Q25",
+        "TOAN3_T1_B15_Q26",
+        "TOAN3_T1_B15_Q27",
+        "TOAN3_T1_B15_Q28",
+        "TOAN3_T1_B15_Q29",
+        "TOAN3_T1_B15_Q30",
+        "TOAN3_T1_B15_Q31",
+        "TOAN3_T1_B15_Q32",
+        "TOAN3_T1_B15_Q33",
+        "TOAN3_T1_B15_Q34",
+        "TOAN3_T1_B15_Q35",
+        "TOAN3_T1_B15_Q36",
+        "TOAN3_T1_B15_Q37",
+        "TOAN3_T1_B15_Q38",
+        "TOAN3_T1_B15_Q39",
+        "TOAN3_T1_B15_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 50
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "topic":"Bảng nhân, bảng chia",
+    "objectives":["Nhận biết thừa số, tích, số bị chia, số chia và thương.","Dùng đúng quy tắc để tìm thành phần chưa biết trong phép nhân, phép chia và thử lại."],
+    "intro":"Một số trong phép tính có thể được che đi. Trước khi tìm số đó, hãy gọi đúng tên thành phần bị che. Tìm thừa số, số bị chia và số chia dùng ba quy tắc khác nhau.",
+    "rules":["Thừa số chưa biết = tích chia cho thừa số đã biết (khác 0).","Số bị chia = thương nhân với số chia.","Số chia = số bị chia chia cho thương (trong các phép chia có thương khác 0 đang học).","Sau khi tìm số, thay vào phép tính ban đầu để kiểm tra. Không dùng một quy tắc cho cả ba trường hợp."],
+    "steps":["Đọc phép tính và gọi tên số chưa biết.","Nói thành lời quy tắc phù hợp.","Dựa vào bảng nhân/chia để tính.","Thay số tìm được vào chỗ trống và kiểm tra hai vế."],
+    "errors":["Tìm số bị chia bằng phép cộng thay vì phép nhân.","Tìm số chia bằng phép trừ thay vì phép chia.","Nhầm tích với một thừa số hoặc thương với số chia."],
+    "examples":[["Tìm số: ... × 6 = 42.",["Chỗ trống là thừa số.","42 : 6 = 7.","Thử lại: 7 × 6 = 42."]],["Tìm số: ... : 8 = 5.",["Chỗ trống là số bị chia.","5 × 8 = 40.","Thử lại: 40 : 8 = 5."]],["Tìm số: 54 : ... = 6.",["Chỗ trống là số chia.","54 : 6 = 9.","Thử lại: 54 : 9 = 6."]]],
+    "game":["Thám tử phép tính thiếu số","Xác định tên thành phần bị che và chọn đúng quy tắc để mở các rương."],
+    "mode":"treasure"
+  },
+  {
+    "topic":"Một phần mấy",
+    "objectives":["Nhận biết, đọc và viết một phần hai đến một phần chín trong các hình chia đều.","Nhận biết một phần mấy của một nhóm đồ vật và dùng phép chia để tìm số đồ vật trong một phần."],
+    "intro":"Một chiếc bánh được chia cho các bạn. Muốn mỗi bạn nhận phần bằng nhau, những miếng bánh phải bằng nhau. Lấy đúng một phần trong các phần bằng nhau giúp ta hiểu một phần mấy.",
+    "rules":["Chia một hình thành n phần bằng nhau, lấy 1 phần thì phần đó là một phần n, viết 1/n (với n từ 2 đến 9 đang học).","1/2 đọc là một phần hai; 1/3 là một phần ba; 1/4 là một phần tư; tương tự với 1/5 đến 1/9.","Không gọi một miếng là một phần ba chỉ vì có 3 miếng: ba phần phải bằng nhau.","Chia một nhóm đồ vật thành n phần bằng nhau; số đồ vật của một phần bằng tổng số chia cho n."],
+    "steps":["Đếm tổng số phần và kiểm tra các phần có bằng nhau không.","Xác định đã lấy hay tô đúng một phần chưa.","Đọc, viết một phần mấy theo tổng số phần bằng nhau.","Với nhóm đồ vật, chia tổng số cho số phần; đếm lại để kiểm tra."],
+    "errors":["Chỉ đếm số phần mà không kiểm tra bằng nhau.","Đảo 1/5 thành 5/1.","Nhầm số phần với số đồ vật trong một phần.","Lấy số đồ vật trừ số phần thay vì chia."],
+    "examples":[["Chia tờ giấy thành 3 dải bằng nhau, tô 1 dải.",["Có 3 phần bằng nhau, tô đúng 1 phần.","Phần tô là một phần ba tờ giấy, viết 1/3."]],["Có 20 viên bi, chia thành 5 phần bằng nhau. Một phần có mấy viên?",["Cần tìm một phần năm của nhóm 20 viên.","20 : 5 = 4.","Một phần năm số bi là 4 viên."]],["Một hình có 4 phần không bằng nhau, tô 1 phần. Có thể khẳng định đã tô 1/4 không?",["Bốn phần chưa bằng nhau.","Chưa đủ điều kiện để khẳng định phần tô là một phần tư."]]],
+    "game":["Kiểm chứng phần tô","Đọc nhận định và kiểm tra bằng cách đếm các phần bằng nhau hoặc chia nhóm đồ vật."],
+    "mode":"tf"
+  },
+  {
+    "topic":"Ôn bảng nhân, chia và một phần mấy",
+    "objectives":["Củng cố các bảng nhân/chia và quy tắc tìm thành phần chưa biết.","Nhận biết một phần mấy, giải tình huống thực tế và quy luật tích phù hợp."],
+    "intro":"Trong bài ôn tập, hãy chọn đúng công cụ cho từng nhiệm vụ: nhân để gom nhóm, chia để tách nhóm, hoặc dùng quy tắc tìm số bị che. Bài có một phần mấy cần kiểm tra ý nghĩa chia đều.",
+    "rules":["Gom các nhóm bằng nhau dùng phép nhân; chia đều hoặc tìm số nhóm dùng phép chia.","Một tích có thể cho ta các phép chia tương ứng: 6 × 8 = 48 nên 48 : 6 = 8 và 48 : 8 = 6.","Tìm thừa số dùng tích chia thừa số kia; tìm số bị chia dùng thương nhân số chia; tìm số chia dùng số bị chia chia thương.","Muốn tìm một phần n của một nhóm đồ vật, chia tổng số thành n phần bằng nhau.","Đọc luật của tháp số hoặc sơ đồ trước khi tính; có sơ đồ dùng tổng, có sơ đồ dùng tích."],
+    "steps":["Đọc đề và chọn quy tắc cần dùng.","Tính từng bước, không bỏ sót phần đã dùng hoặc còn lại.","Với sơ đồ, đọc từ các số đã biết đến ô cần tìm.","Thử lại bằng phép tính ngược hoặc đếm số nhóm."],
+    "errors":["Nhầm số đã lấy một phần mấy với số còn lại.","Làm theo luật cộng trong một tháp yêu cầu nhân.","Dùng nhầm quy tắc tìm số chia và số bị chia.","Tính cả màu khác khi đề chỉ hỏi số đồ vật một màu."],
+    "examples":[["Có 42 thẻ, lấy một phần bảy số thẻ. Hỏi còn bao nhiêu?",["Đã lấy 42 : 7 = 6 thẻ.","Còn 42 - 6 = 36 thẻ."]],["Tìm số: 63 : ... = 7.",["Số bị che là số chia.","63 : 7 = 9.","Thử lại: 63 : 9 = 7."]],["Tháp tích có đáy 1, 3, 2. Mỗi ô trên là tích hai ô ngay dưới. Tìm đỉnh.",["Tầng giữa có 1 × 3 = 3 và 3 × 2 = 6.","Đỉnh là 3 × 6 = 18."]]],
+    "game":["Ghép thẻ ôn tập","Ghép bài toán hoặc phép tính với kết quả; chú ý số đã lấy và số còn lại."],
+    "mode":"match"
+  },
+  {
+    "topic":"Làm quen với hình phẳng, hình khối",
+    "objectives":["Nhận biết điểm ở giữa và phân biệt với trung điểm của đoạn thẳng.","Xác định trung điểm khi biết thứ tự điểm và độ dài; dùng thước hoặc gấp giấy để tìm trung điểm."],
+    "intro":"Một điểm có thể ở giữa hai đầu đoạn thẳng mà chưa chia đoạn thành hai phần bằng nhau. Trung điểm phải vừa ở giữa, vừa cách đều hai đầu. Hai điều kiện này luôn đi cùng nhau.",
+    "rules":["A, M, B thẳng hàng theo thứ tự A, M, B thì M là điểm ở giữa A và B.","M là trung điểm AB khi M ở giữa A và B, đồng thời AM = MB.","Chỉ có AM = MB chưa đủ: M còn phải nằm trên đoạn AB.","Khi M ở giữa A, B: AB = AM + MB. Khi M là trung điểm: mỗi nửa bằng độ dài AB chia 2.","Có thể gấp giấy hoặc dây để hai đầu trùng nhau; vị trí chia đôi trên đoạn là trung điểm."],
+    "steps":["Kiểm tra các điểm có cùng nằm trên một đường thẳng không.","Xác định điểm đang xét có nằm giữa hai đầu không.","So sánh độ dài hai đoạn đến hai đầu.","Nếu cần vẽ trung điểm, đo cả đoạn, lấy nửa độ dài và đánh dấu trên đoạn; kiểm tra lại."],
+    "errors":["Cho rằng cứ ở giữa là trung điểm dù hai đoạn không bằng nhau.","Chỉ thấy hai khoảng cách bằng nhau mà bỏ qua điều kiện nằm trên đoạn.","Đọc hình không theo tỉ lệ rồi đoán bằng mắt thay vì dựa vào số đo.","Tính nửa đoạn nhưng quên đổi đúng đơn vị câu trả lời."],
+    "examples":[["A, M, B thẳng hàng, M ở giữa; AM = 3 cm, MB = 5 cm. M có là trung điểm không?",["M đáp ứng điều kiện ở giữa.","Nhưng 3 cm khác 5 cm, nên M không là trung điểm."]],["Đoạn CD dài 12 cm. Tìm độ dài từ C đến trung điểm I.",["Trung điểm chia CD thành hai phần bằng nhau.","12 : 2 = 6. CI = ID = 6 cm."]],["Tìm trung điểm đoạn thẳng trên giấy bằng cách gấp.",["Gấp sao cho hai đầu đoạn trùng khít.","Nếp gấp cắt đoạn tại điểm chia đôi; đánh dấu điểm này.","Mở giấy và kiểm tra hai phần bằng nhau."]]],
+    "game":["Tăng tốc tìm điểm giữa","Kiểm tra điểm ở giữa, trung điểm và độ dài các đoạn trong 60 giây."],
+    "mode":"speed"
+  }
+]

@@ -1,3 +1,26 @@
+# Trạng thái mới nhất — Batch 4, 07/11/2026
+
+## Phạm vi đã lưu
+
+| Môn | Có học liệu riêng | Tổng danh mục | Còn bản nháp |
+|---|---:|---:|---:|
+| Toán | 16 | 81 | 65 |
+| Tiếng Việt | 0 | 62 | 62 |
+| Tiếng Anh (gồm Starter/Review) | 0 | 25 | 25 |
+| Tổng | 16 | 168 | 152 |
+
+- Ngân hàng mới: **640 câu, 16 trò chơi theo bài**.
+- Thầy Nguyễn Thế Khanh đã thẩm định **Toán 1–4**. **Toán 5–16** được AI biên soạn/rà soát, chờ thầy thẩm định.
+- Batch 4: Toán 13–16, 160 câu, 4 trò chơi; đã đọc trực quan trang in 39–51 (PDF 40–52).
+- Năm SVG mới do AI dựng cho Bài 14 và 16; đã render PNG và xem trực quan, không tràn chữ hay sai nhãn. Các câu tham chiếu hình tự hiển thị hình ngay trong câu hỏi.
+- Kiểm tra 16 bài, 640 câu và tính lại 633 đẳng thức số: đạt. Kiểm thử DOM đạt; chưa có kiểm thử bố cục toàn website/âm thanh bằng trình duyệt thật.
+- Đã thiết lập tác vụ nối tiếp mỗi giờ theo yêu cầu làm khi thầy nghỉ; tác vụ phải đọc main mới nhất rồi tiếp tục, không dùng số liệu lịch sử làm trạng thái hiện tại. Thứ tự: hoàn thiện Toán → Tiếng Việt → Tiếng Anh. Không cam kết đủ 168 mục trước sáng hôm sau.
+- Batch tiếp theo: **Toán 17–20**, trang in **52–62**. Cần hình mới cho tâm/bán kính/đường kính, góc và các tứ giác; giữ đúng kiến thức từng bài.
+- Mỗi batch phải commit thành công và xác minh trước khi chuyển batch; không gộp hàng loạt bản nháp rồi đánh dấu hoàn thành.
+- Kiểm tra: `python scripts/validate_site.py`; kiểm thử DOM: `NODE_PATH=/tmp/class3-test/node_modules node scripts/test_content_dom.cjs` nếu đã cài jsdom.
+
+## Lịch sử trước Batch 4
+
 # Trạng thái mới nhất — Batch 3, 07/11/2026
 
 - Danh mục: **168 mục**.

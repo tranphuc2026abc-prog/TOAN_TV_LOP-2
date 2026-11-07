@@ -1,0 +1,811 @@
+{
+  "id": "TOAN3_T1_B14",
+  "subject": "toan",
+  "grade": 3,
+  "book": "Kết nối tri thức với cuộc sống",
+  "volume": 1,
+  "lesson_no": 14,
+  "title": "Một phần mấy",
+  "topic": "Một phần mấy",
+  "source": {
+    "pdf": "03-sgk-toan-3-tap-mot.pdf",
+    "printed_pages": [
+      42,
+      45
+    ],
+    "pdf_pages": [
+      43,
+      46
+    ],
+    "review": "Đã đọc trực quan toàn bộ trang nguồn cho bài này; nội dung và bài tập mới do AI biên soạn."
+  },
+  "objectives": [
+    "Nhận biết, đọc và viết một phần hai đến một phần chín trong các hình chia đều.",
+    "Nhận biết một phần mấy của một nhóm đồ vật và dùng phép chia để tìm số đồ vật trong một phần."
+  ],
+  "knowledge": {
+    "introduction": "Một chiếc bánh được chia cho các bạn. Muốn mỗi bạn nhận phần bằng nhau, những miếng bánh phải bằng nhau. Lấy đúng một phần trong các phần bằng nhau giúp ta hiểu một phần mấy.",
+    "rules": [
+      "Chia một hình thành n phần bằng nhau, lấy 1 phần thì phần đó là một phần n, viết 1/n (với n từ 2 đến 9 đang học).",
+      "1/2 đọc là một phần hai; 1/3 là một phần ba; 1/4 là một phần tư; tương tự với 1/5 đến 1/9.",
+      "Không gọi một miếng là một phần ba chỉ vì có 3 miếng: ba phần phải bằng nhau.",
+      "Chia một nhóm đồ vật thành n phần bằng nhau; số đồ vật của một phần bằng tổng số chia cho n."
+    ],
+    "steps": [
+      "Đếm tổng số phần và kiểm tra các phần có bằng nhau không.",
+      "Xác định đã lấy hay tô đúng một phần chưa.",
+      "Đọc, viết một phần mấy theo tổng số phần bằng nhau.",
+      "Với nhóm đồ vật, chia tổng số cho số phần; đếm lại để kiểm tra."
+    ],
+    "common_errors": [
+      "Chỉ đếm số phần mà không kiểm tra bằng nhau.",
+      "Đảo 1/5 thành 5/1.",
+      "Nhầm số phần với số đồ vật trong một phần.",
+      "Lấy số đồ vật trừ số phần thay vì chia."
+    ]
+  },
+  "examples": [
+    {
+      "question": "Chia tờ giấy thành 3 dải bằng nhau, tô 1 dải.",
+      "steps": [
+        "Có 3 phần bằng nhau, tô đúng 1 phần.",
+        "Phần tô là một phần ba tờ giấy, viết 1/3."
+      ]
+    },
+    {
+      "question": "Có 20 viên bi, chia thành 5 phần bằng nhau. Một phần có mấy viên?",
+      "steps": [
+        "Cần tìm một phần năm của nhóm 20 viên.",
+        "20 : 5 = 4.",
+        "Một phần năm số bi là 4 viên."
+      ]
+    },
+    {
+      "question": "Một hình có 4 phần không bằng nhau, tô 1 phần. Có thể khẳng định đã tô 1/4 không?",
+      "steps": [
+        "Bốn phần chưa bằng nhau.",
+        "Chưa đủ điều kiện để khẳng định phần tô là một phần tư."
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "question_id": "TOAN3_T1_B14_Q01",
+      "type": "mcq",
+      "question": "Một hình chia thành 2 phần bằng nhau. Một phần được gọi là gì?",
+      "options": [
+        "một phần hai",
+        "một phần ba",
+        "một phần tư",
+        "một phần năm"
+      ],
+      "correct_answer": "một phần hai",
+      "distractors": [
+        "một phần ba",
+        "một phần tư",
+        "một phần năm"
+      ],
+      "explanation": "Một trong hai phần bằng nhau là một phần hai.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q02",
+      "type": "fill",
+      "question": "Một hình chia thành 3 phần bằng nhau. Lấy 1 phần, viết theo dạng 1/n là gì?",
+      "correct_answer": "1/3",
+      "distractors": [
+        "1/2",
+        "1/4",
+        "3/1"
+      ],
+      "explanation": "Có 3 phần bằng nhau nên viết 1/3.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q03",
+      "type": "mcq",
+      "question": "Một hình chia thành 4 phần bằng nhau. Lấy 1 phần, viết theo dạng 1/n là gì?",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "4/1"
+      ],
+      "correct_answer": "1/4",
+      "distractors": [
+        "1/2",
+        "1/3",
+        "4/1"
+      ],
+      "explanation": "Lấy một trong bốn phần bằng nhau, viết 1/4.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q04",
+      "type": "fill",
+      "question": "Đọc cách viết 1/5.",
+      "correct_answer": "một phần năm",
+      "distractors": [
+        "một phần tư",
+        "năm phần một",
+        "một phần sáu"
+      ],
+      "explanation": "Số 5 cho biết cả hình được chia thành 5 phần bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q05",
+      "type": "mcq",
+      "question": "Đọc cách viết 1/6.",
+      "options": [
+        "một phần sáu",
+        "sáu phần một",
+        "một phần năm",
+        "một phần bảy"
+      ],
+      "correct_answer": "một phần sáu",
+      "distractors": [
+        "sáu phần một",
+        "một phần năm",
+        "một phần bảy"
+      ],
+      "explanation": "Một trong sáu phần bằng nhau gọi là một phần sáu.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q06",
+      "type": "fill",
+      "question": "Đọc cách viết 1/7.",
+      "correct_answer": "một phần bảy",
+      "distractors": [
+        "bảy phần một",
+        "một phần sáu",
+        "một phần tám"
+      ],
+      "explanation": "Một trong bảy phần bằng nhau gọi là một phần bảy.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q07",
+      "type": "mcq",
+      "question": "Đọc cách viết 1/8.",
+      "options": [
+        "một phần tám",
+        "tám phần một",
+        "một phần bảy",
+        "một phần chín"
+      ],
+      "correct_answer": "một phần tám",
+      "distractors": [
+        "tám phần một",
+        "một phần bảy",
+        "một phần chín"
+      ],
+      "explanation": "Một trong tám phần bằng nhau gọi là một phần tám.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q08",
+      "type": "fill",
+      "question": "Đọc cách viết 1/9.",
+      "correct_answer": "một phần chín",
+      "distractors": [
+        "chín phần một",
+        "một phần tám",
+        "một phần sáu"
+      ],
+      "explanation": "Một trong chín phần bằng nhau gọi là một phần chín.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q09",
+      "type": "mcq",
+      "question": "Muốn gọi một miếng là một phần tư chiếc bánh, cả bánh phải chia thành mấy phần bằng nhau?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "2",
+        "3",
+        "5"
+      ],
+      "explanation": "Một phần tư là một trong 4 phần bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q10",
+      "type": "fill",
+      "question": "Điều kiện quan trọng khi chia hình thành các phần để nói một phần mấy là các phần phải thế nào?",
+      "correct_answer": "bằng nhau",
+      "distractors": [
+        "khác nhau",
+        "càng nhỏ càng tốt",
+        "có cùng màu"
+      ],
+      "explanation": "Không chỉ đếm số miếng; các phần phải bằng nhau.",
+      "difficulty": "nhan_biet"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q11",
+      "type": "mcq",
+      "question": "Hình A có 4 dải bằng nhau, tô 1 dải. Phần tô viết theo dạng 1/n là gì?",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "1/5"
+      ],
+      "correct_answer": "1/4",
+      "distractors": [
+        "1/2",
+        "1/3",
+        "1/5"
+      ],
+      "explanation": "Một dải trong 4 dải bằng nhau là 1/4 hình.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B14_A.svg",
+        "caption": "Hình A: một hình chia bốn dải bằng nhau, tô một dải."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q12",
+      "type": "fill",
+      "question": "Hình B có 6 ô bằng nhau, tô 1 ô. Phần tô viết theo dạng 1/n là gì?",
+      "correct_answer": "1/6",
+      "distractors": [
+        "1/3",
+        "1/5",
+        "1/7"
+      ],
+      "explanation": "Một ô trong 6 ô bằng nhau là 1/6 hình.",
+      "difficulty": "thong_hieu",
+      "figure": {
+        "path": "content/toan/tap-1/TOAN3_T1_B14_B.svg",
+        "caption": "Hình B: một hình chia sáu ô bằng nhau, tô một ô."
+      }
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q13",
+      "type": "mcq",
+      "question": "Chia 8 viên bi thành 2 phần bằng nhau. Một phần có mấy viên?",
+      "options": [
+        "4",
+        "2",
+        "6",
+        "16"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "2",
+        "6",
+        "16"
+      ],
+      "explanation": "8 : 2 = 4 viên, đó là một phần hai số viên bi.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q14",
+      "type": "fill",
+      "question": "Chia 15 nhãn vở thành 3 phần bằng nhau. Một phần có mấy nhãn?",
+      "correct_answer": "5",
+      "distractors": [
+        "3",
+        "12",
+        "18"
+      ],
+      "explanation": "15 : 3 = 5 nhãn, đó là một phần ba số nhãn.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q15",
+      "type": "mcq",
+      "question": "Chia 20 bông hoa thành 4 phần bằng nhau. Một phần có mấy bông?",
+      "options": [
+        "5",
+        "4",
+        "16",
+        "24"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "4",
+        "16",
+        "24"
+      ],
+      "explanation": "20 : 4 = 5 bông, đó là một phần tư số hoa.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q16",
+      "type": "fill",
+      "question": "Một chiếc bánh bị cắt thành 3 miếng không bằng nhau. Có thể khẳng định mỗi miếng là 1/3 bánh không?",
+      "correct_answer": "không",
+      "distractors": [
+        "có",
+        "chỉ miếng to nhất",
+        "chỉ miếng nhỏ nhất"
+      ],
+      "explanation": "Muốn gọi mỗi miếng là 1/3, ba miếng phải bằng nhau.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q17",
+      "type": "mcq",
+      "question": "Để tìm một phần năm của 30 đồ vật, lấy 30 chia cho mấy?",
+      "options": [
+        "5",
+        "1",
+        "6",
+        "30"
+      ],
+      "correct_answer": "5",
+      "distractors": [
+        "1",
+        "6",
+        "30"
+      ],
+      "explanation": "Chia thành 5 phần bằng nhau, nên lấy 30 : 5.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q18",
+      "type": "fill",
+      "question": "Một phần tám của 16 hạt là mấy hạt?",
+      "correct_answer": "2",
+      "distractors": [
+        "8",
+        "4",
+        "24"
+      ],
+      "explanation": "16 : 8 = 2 hạt.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q19",
+      "type": "mcq",
+      "question": "Một phần chín của 27 thẻ là mấy thẻ?",
+      "options": [
+        "3",
+        "9",
+        "18",
+        "36"
+      ],
+      "correct_answer": "3",
+      "distractors": [
+        "9",
+        "18",
+        "36"
+      ],
+      "explanation": "27 : 9 = 3 thẻ.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q20",
+      "type": "fill",
+      "question": "Một phần sáu của 24 que tính là mấy que?",
+      "correct_answer": "4",
+      "distractors": [
+        "6",
+        "18",
+        "30"
+      ],
+      "explanation": "24 : 6 = 4 que.",
+      "difficulty": "thong_hieu"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q21",
+      "type": "mcq",
+      "question": "Lan chia đều 12 quả dâu cho 2 đĩa. Một đĩa là một phần hai số dâu. Có mấy quả?",
+      "options": [
+        "6",
+        "2",
+        "10",
+        "24"
+      ],
+      "correct_answer": "6",
+      "distractors": [
+        "2",
+        "10",
+        "24"
+      ],
+      "explanation": "12 : 2 = 6 quả mỗi đĩa.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q22",
+      "type": "fill",
+      "question": "Hộp có 18 bút chia đều cho 3 tổ. Mỗi tổ nhận một phần ba số bút. Là mấy bút?",
+      "correct_answer": "6",
+      "distractors": [
+        "3",
+        "15",
+        "21"
+      ],
+      "explanation": "18 : 3 = 6 bút mỗi tổ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q23",
+      "type": "mcq",
+      "question": "Có 28 học sinh xếp 4 hàng bằng nhau. Một hàng là một phần tư số học sinh. Có mấy bạn?",
+      "options": [
+        "7",
+        "4",
+        "24",
+        "8"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "4",
+        "24",
+        "8"
+      ],
+      "explanation": "28 : 4 = 7 bạn mỗi hàng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q24",
+      "type": "fill",
+      "question": "Giỏ có 25 quả, lấy một phần năm số quả. Lấy mấy quả?",
+      "correct_answer": "5",
+      "distractors": [
+        "1",
+        "20",
+        "30"
+      ],
+      "explanation": "25 : 5 = 5 quả.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q25",
+      "type": "mcq",
+      "question": "Có 42 thẻ, dùng một phần sáu số thẻ. Dùng mấy thẻ?",
+      "options": [
+        "7",
+        "6",
+        "36",
+        "8"
+      ],
+      "correct_answer": "7",
+      "distractors": [
+        "6",
+        "36",
+        "8"
+      ],
+      "explanation": "42 : 6 = 7 thẻ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q26",
+      "type": "fill",
+      "question": "Có 35 lá cờ, lấy một phần bảy số cờ. Lấy mấy lá?",
+      "correct_answer": "5",
+      "distractors": [
+        "7",
+        "28",
+        "42"
+      ],
+      "explanation": "35 : 7 = 5 lá.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q27",
+      "type": "mcq",
+      "question": "Có 32 nhãn vở, tặng một phần tám số nhãn. Tặng mấy nhãn?",
+      "options": [
+        "4",
+        "8",
+        "24",
+        "5"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "8",
+        "24",
+        "5"
+      ],
+      "explanation": "32 : 8 = 4 nhãn.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q28",
+      "type": "fill",
+      "question": "Có 45 chiếc bánh, lấy một phần chín số bánh. Lấy mấy chiếc?",
+      "correct_answer": "5",
+      "distractors": [
+        "9",
+        "36",
+        "54"
+      ],
+      "explanation": "45 : 9 = 5 chiếc.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q29",
+      "type": "mcq",
+      "question": "Băng giấy chia thành 5 dải bằng nhau, cắt lấy đúng 1 dải. Phần cắt viết theo dạng 1/n là gì?",
+      "options": [
+        "1/5",
+        "1/4",
+        "1/6",
+        "5/1"
+      ],
+      "correct_answer": "1/5",
+      "distractors": [
+        "1/4",
+        "1/6",
+        "5/1"
+      ],
+      "explanation": "Một dải trong 5 dải bằng nhau là 1/5 băng giấy.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q30",
+      "type": "fill",
+      "question": "Bảng có 8 ô bằng nhau, dán nhãn lên đúng 1 ô. Ô có nhãn chiếm phần nào của bảng? Viết dạng 1/n.",
+      "correct_answer": "1/8",
+      "distractors": [
+        "1/4",
+        "1/7",
+        "1/9"
+      ],
+      "explanation": "Một trong 8 ô bằng nhau là 1/8 bảng.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q31",
+      "type": "mcq",
+      "question": "Chiếc bánh chia 9 miếng bằng nhau, Mai nhận 1 miếng. Mai nhận phần nào của bánh? Viết dạng 1/n.",
+      "options": [
+        "1/9",
+        "1/8",
+        "1/3",
+        "9/1"
+      ],
+      "correct_answer": "1/9",
+      "distractors": [
+        "1/8",
+        "1/3",
+        "9/1"
+      ],
+      "explanation": "Một trong 9 phần bằng nhau là 1/9 bánh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q32",
+      "type": "fill",
+      "question": "Một tờ giấy gấp đôi sao cho hai phần chồng khít. Mỗi phần là phần nào của tờ giấy? Viết dạng 1/n.",
+      "correct_answer": "1/2",
+      "distractors": [
+        "1/3",
+        "1/4",
+        "2/1"
+      ],
+      "explanation": "Gấp đôi chồng khít tạo hai phần bằng nhau, mỗi phần là 1/2.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q33",
+      "type": "mcq",
+      "question": "Có 24 chai xếp 3 hàng bằng nhau. Khoanh một hàng. Đã khoanh mấy chai?",
+      "options": [
+        "8",
+        "3",
+        "6",
+        "21"
+      ],
+      "correct_answer": "8",
+      "distractors": [
+        "3",
+        "6",
+        "21"
+      ],
+      "explanation": "Một hàng là 1/3 số chai; 24 : 3 = 8 chai.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q34",
+      "type": "fill",
+      "question": "Một thanh sô-cô-la có 6 ô bằng nhau. Ăn 1 ô. Phần đã ăn viết dạng 1/n là gì?",
+      "correct_answer": "1/6",
+      "distractors": [
+        "1/3",
+        "1/5",
+        "1/7"
+      ],
+      "explanation": "Ăn một trong 6 ô bằng nhau, tức 1/6 thanh.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q35",
+      "type": "mcq",
+      "question": "Mảnh vải chia thành 7 dải bằng nhau. Một dải gọi là gì?",
+      "options": [
+        "một phần bảy",
+        "một phần sáu",
+        "bảy phần một",
+        "một phần tám"
+      ],
+      "correct_answer": "một phần bảy",
+      "distractors": [
+        "một phần sáu",
+        "bảy phần một",
+        "một phần tám"
+      ],
+      "explanation": "Có 7 phần bằng nhau, lấy 1 phần là một phần bảy.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q36",
+      "type": "fill",
+      "question": "Chia 40 thẻ thành 5 phần bằng nhau. Một phần có mấy thẻ?",
+      "correct_answer": "8",
+      "distractors": [
+        "5",
+        "35",
+        "45"
+      ],
+      "explanation": "40 : 5 = 8 thẻ.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q37",
+      "type": "mcq",
+      "question": "Trong 16 chiếc lá, Lan khoanh 4 chiếc. Nếu chia đều thành 4 nhóm thì số khoanh ứng với một phần mấy? Viết dạng 1/n.",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "1/8"
+      ],
+      "correct_answer": "1/4",
+      "distractors": [
+        "1/2",
+        "1/3",
+        "1/8"
+      ],
+      "explanation": "16 : 4 = 4 lá mỗi nhóm; 4 lá là một trong 4 phần bằng nhau.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q38",
+      "type": "fill",
+      "question": "Trong 18 viên bi, Nam lấy 3 viên. Chia đều 18 viên thành 6 nhóm thì 3 viên ứng với một phần mấy? Viết dạng 1/n.",
+      "correct_answer": "1/6",
+      "distractors": [
+        "1/3",
+        "1/5",
+        "1/9"
+      ],
+      "explanation": "18 : 6 = 3 viên mỗi nhóm, nên 3 viên là 1/6 số bi.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q39",
+      "type": "mcq",
+      "question": "Có 36 bông hoa, một phần chín số hoa là mấy bông?",
+      "options": [
+        "4",
+        "9",
+        "27",
+        "5"
+      ],
+      "correct_answer": "4",
+      "distractors": [
+        "9",
+        "27",
+        "5"
+      ],
+      "explanation": "36 : 9 = 4 bông.",
+      "difficulty": "van_dung"
+    },
+    {
+      "question_id": "TOAN3_T1_B14_Q40",
+      "type": "fill",
+      "question": "Có 56 hạt giống, lấy một phần bảy để gieo. Đã lấy mấy hạt?",
+      "correct_answer": "8",
+      "distractors": [
+        "7",
+        "49",
+        "9"
+      ],
+      "explanation": "56 : 7 = 8 hạt.",
+      "difficulty": "van_dung"
+    }
+  ],
+  "games": [
+    {
+      "id": "TOAN3_T1_B14_GAME1",
+      "title": "Kiểm chứng phần tô",
+      "mode": "tf",
+      "objective": "Đọc nhận định và kiểm tra bằng cách đếm các phần bằng nhau hoặc chia nhóm đồ vật.",
+      "rules": [
+        "Mỗi lượt lấy 10 câu trong bài và đưa ra một kết quả để kiểm chứng.",
+        "Chọn Đúng nếu kết quả phù hợp, chọn Sai nếu không phù hợp; đọc lời giải trước khi sang câu.",
+        "Mỗi câu đúng được 10 điểm; tối đa 100 điểm."
+      ],
+      "question_ids": [
+        "TOAN3_T1_B14_Q01",
+        "TOAN3_T1_B14_Q02",
+        "TOAN3_T1_B14_Q03",
+        "TOAN3_T1_B14_Q04",
+        "TOAN3_T1_B14_Q05",
+        "TOAN3_T1_B14_Q06",
+        "TOAN3_T1_B14_Q07",
+        "TOAN3_T1_B14_Q08",
+        "TOAN3_T1_B14_Q09",
+        "TOAN3_T1_B14_Q10",
+        "TOAN3_T1_B14_Q11",
+        "TOAN3_T1_B14_Q12",
+        "TOAN3_T1_B14_Q13",
+        "TOAN3_T1_B14_Q14",
+        "TOAN3_T1_B14_Q15",
+        "TOAN3_T1_B14_Q16",
+        "TOAN3_T1_B14_Q17",
+        "TOAN3_T1_B14_Q18",
+        "TOAN3_T1_B14_Q19",
+        "TOAN3_T1_B14_Q20",
+        "TOAN3_T1_B14_Q21",
+        "TOAN3_T1_B14_Q22",
+        "TOAN3_T1_B14_Q23",
+        "TOAN3_T1_B14_Q24",
+        "TOAN3_T1_B14_Q25",
+        "TOAN3_T1_B14_Q26",
+        "TOAN3_T1_B14_Q27",
+        "TOAN3_T1_B14_Q28",
+        "TOAN3_T1_B14_Q29",
+        "TOAN3_T1_B14_Q30",
+        "TOAN3_T1_B14_Q31",
+        "TOAN3_T1_B14_Q32",
+        "TOAN3_T1_B14_Q33",
+        "TOAN3_T1_B14_Q34",
+        "TOAN3_T1_B14_Q35",
+        "TOAN3_T1_B14_Q36",
+        "TOAN3_T1_B14_Q37",
+        "TOAN3_T1_B14_Q38",
+        "TOAN3_T1_B14_Q39",
+        "TOAN3_T1_B14_Q40"
+      ],
+      "answer_source": "practice.correct_answer",
+      "feedback_source": "practice.explanation",
+      "max_score": 100
+    }
+  ],
+  "assessment": {
+    "session_size": 10,
+    "distribution": {
+      "nhan_biet": 3,
+      "thong_hieu": 3,
+      "van_dung": 4
+    },
+    "scoring": "Đúng lần đầu: 1 điểm; đúng sau một gợi ý: 0,5 điểm. Từ 90%: 3 sao; từ 60%: 2 sao; còn lại: 1 sao.",
+    "review_advice": "Xem lời giải các câu sai, đọc lại quy tắc, rồi làm một lượt mới."
+  },
+  "feedback": {
+    "correct": "Chính xác! Hãy đọc lời giải để củng cố cách làm.",
+    "incorrect": "Em thử lại một lần. Sau đó xem đáp án và cách giải."
+  },
+  "verification": {
+    "ai_authored": true,
+    "structure_checked": true,
+    "answer_reviewed": true,
+    "source_reviewed": true,
+    "teacher_approved": false
+  },
+  "status": "AI_CHECKED_AWAITING_TEACHER",
+  "figures": [
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B14_A.svg",
+      "caption": "Hình A: một hình chia bốn dải bằng nhau, tô một dải."
+    },
+    {
+      "path": "content/toan/tap-1/TOAN3_T1_B14_B.svg",
+      "caption": "Hình B: một hình chia sáu ô bằng nhau, tô một ô."
+    }
+  ]
+}

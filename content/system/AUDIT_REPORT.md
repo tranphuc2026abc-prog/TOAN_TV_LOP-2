@@ -62,3 +62,14 @@
 - Bộ kiểm thử DOM mở rộng theo chỉ mục thay vì số bài cố định: 12 bài, 8 lượt xáo trộn/bài, phân mức 3/3/4, làm lại giữ 10 câu, bốn kiểu trò chơi và phạm vi bài, hình và bảng tham chiếu, lưu/nạp hồ sơ, một file 404: đạt. Đã kiểm tra đúng sau một lần sai được nửa điểm và hiện lời giải sau hai lần sai.
 - Tên bộ kiểm thử hiện hành: scripts/test_content_dom.cjs; tên cũ gọi lại bộ hiện hành. Không tuyên bố đã kiểm thử trình duyệt thật.
 - Workflow Publish class 3 website to GitHub Pages của Batch 2 đã hoàn tất thành công (run 42376240072). Kiểm tra triển khai Batch 3 sau khi commit.
+
+## Cập nhật Batch 4 — 07/11/2026
+
+- Nguồn: đọc trực quan toàn bộ trang in 39–51, gồm tìm thành phần trong nhân/chia, một phần mấy, ôn tập và điểm ở giữa/trung điểm.
+- Biên soạn 160 câu có lời giải và phương án nhiễu riêng, 4 trò chơi; thêm 5 SVG có mô tả tiếp cận, render và xem cả 5 PNG để kiểm tra nhãn và dữ kiện.
+- Đã rà soát phạm vi kiến thức: bỏ phép nhân hai chữ số chưa học trong tháp tích, giữ phép tính trong các bảng đã học; các bài tính nửa đoạn dùng số phù hợp bảng chia 2 đã học.
+- Hai câu Bài 14 và năm câu Bài 16 có tham chiếu SVG, được kiểm tra hiện đúng tệp hình trong luồng làm bài.
+- Tổng 16 bài, 640 câu qua validator; 633 đẳng thức số trong lời giải được tính lại. Kiểm thử DOM theo chỉ mục, gồm các hình mới: đạt.
+- Giáo viên chỉ xác nhận Batch 1; không mở rộng xác nhận đó cho các batch khác. Hiện 4 bài đã thẩm định, 12 bài chờ thẩm định, 152 mục bản nháp.
+- Đã thiết lập tác vụ tiếp tục tự động theo thứ tự Toán, Tiếng Việt, Tiếng Anh; mỗi lượt phải đọc checkpoint và xác minh commit thực tế, không giả báo hoàn thành.
+- Giữ giới hạn: kiểm thử DOM không xác nhận thao tác cảm ứng, bố cục toàn trang, giọng đọc và tải tệp sao lưu/khôi phục bằng trình duyệt thật.

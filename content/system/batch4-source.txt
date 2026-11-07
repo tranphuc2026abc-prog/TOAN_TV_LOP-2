@@ -1,0 +1,164 @@
+Bài 13
+Trong 4 × 7 = 28, số 28 gọi là gì?|tích|Kết quả phép nhân gọi là tích.|thừa số;số chia;thương
+Trong 36 : 6 = 6, số 36 gọi là gì?|số bị chia|Số được đem chia là số bị chia.|số chia;thương;tích
+Trong 45 : 9 = 5, số 9 gọi là gì?|số chia|Số đứng sau dấu chia là số chia.|số bị chia;thương;tổng
+Trong 56 : 7 = 8, số 8 gọi là gì?|thương|Kết quả phép chia gọi là thương.|số bị chia;số chia;thừa số
+Điền số: ... × 3 = 15.|5|Thừa số chưa biết = 15 : 3 = 5.|3;12;18
+Điền số: 4 × ... = 24.|6|Thừa số chưa biết = 24 : 4 = 6.|4;20;28
+Điền số: ... : 5 = 7.|35|Số bị chia = 7 × 5 = 35.|12;2;30
+Điền số: 32 : ... = 4.|8|Số chia = 32 : 4 = 8.|4;28;36
+Điền số: ... : 9 = 2.|18|Số bị chia = 2 × 9 = 18.|11;7;27
+Điền số: 42 : ... = 6.|7|Số chia = 42 : 6 = 7.|6;36;48
+Tích là 54, thừa số đã biết là 6. Thừa số còn lại là bao nhiêu?|9|54 : 6 = 9. Thử lại: 9 × 6 = 54.|6;8;48
+Số chia là 8, thương là 7. Số bị chia là bao nhiêu?|56|7 × 8 = 56. Thử lại: 56 : 8 = 7.|15;1;64
+Số bị chia là 63, thương là 9. Số chia là bao nhiêu?|7|63 : 9 = 7. Thử lại: 63 : 7 = 9.|9;54;8
+Điền số: 7 × ... = 49.|7|49 : 7 = 7. Thử lại: 7 × 7 = 49.|6;8;42
+Điền số: ... : 4 = 9.|36|9 × 4 = 36. Thử lại: 36 : 4 = 9.|13;5;32
+Điền số: 72 : ... = 8.|9|72 : 8 = 9. Thử lại: 72 : 9 = 8.|8;64;10
+Muốn tìm số bị chia khi biết số chia và thương, dùng phép tính nào?|nhân|Số bị chia bằng thương nhân với số chia.|cộng;trừ;chia
+Muốn tìm một thừa số chưa biết, lấy tích làm gì với thừa số đã biết?|chia|Lấy tích chia cho thừa số đã biết.|cộng;trừ;nhân
+Bạn tìm số trong ... : 6 = 8 bằng 8 + 6. Số cần tìm đúng là bao nhiêu?|48|Phải nhân thương với số chia: 8 × 6 = 48.|14;2;42
+Bạn tìm số trong 40 : ... = 5 bằng 40 - 5. Số cần tìm đúng là bao nhiêu?|8|Phải lấy số bị chia chia thương: 40 : 5 = 8.|35;45;5
+Mỗi túi có số bánh như nhau. 6 túi có 48 bánh. Mỗi túi mấy bánh?|8|Số bánh mỗi túi nhân 6 được 48; 48 : 6 = 8 bánh.|6;7;42
+Có số thẻ chưa biết, chia đều cho 4 bạn thì mỗi bạn được 7 thẻ. Ban đầu có mấy thẻ?|28|Số bị chia = 7 × 4 = 28 thẻ.|11;3;24
+Có 30 bút, chia đều cho một số bạn, mỗi bạn 5 bút. Có mấy bạn?|6|Số bạn là số chia; 30 : 5 = 6 bạn.|5;25;35
+5 hộp đựng tổng cộng 45 quả cầu. Các hộp có số quả bằng nhau. Mỗi hộp mấy quả?|9|Số quả mỗi hộp = 45 : 5 = 9 quả.|5;8;40
+Chia hết một số nhãn vở vào 7 ngăn, mỗi ngăn 6 nhãn. Có tất cả mấy nhãn?|42|Số bị chia = 6 × 7 = 42 nhãn.|13;1;49
+Có 56 trang, mỗi ngày đọc 8 trang. Đọc hết trong mấy ngày?|7|Số ngày = 56 : 8 = 7 ngày.|8;48;6
+Một số nhân với 9 được 27. Số đó là bao nhiêu?|3|Thừa số chưa biết = 27 : 9 = 3.|9;18;36
+Một số chia cho 3 được 8. Số đó là bao nhiêu?|24|Số bị chia = 8 × 3 = 24.|11;5;21
+Lấy 36 chia một số thì được 4. Số đó là bao nhiêu?|9|Số chia = 36 : 4 = 9.|4;32;40
+8 đội nhận tất cả 64 thẻ, mỗi đội như nhau. Mỗi đội nhận mấy thẻ?|8|Số thẻ mỗi đội = 64 : 8 = 8 thẻ.|7;9;56
+Một số lít nước được chia đều vào 9 can, mỗi can 5 lít. Tổng là bao nhiêu lít?|45|5 × 9 = 45 lít.|14;4;54
+Có 24 kg gạo, mỗi túi 6 kg. Cần mấy túi?|4|24 : 6 = 4 túi.|6;18;3
+Hai thừa số có tích là 35, một thừa số là 7. Thừa số kia là bao nhiêu?|5|35 : 7 = 5. Thử lại: 5 × 7 = 35.|7;28;42
+Số hạt trong một hộp chia đều cho 6 nhóm, mỗi nhóm 9 hạt. Hộp có mấy hạt?|54|9 × 6 = 54 hạt.|15;3;48
+Có 28 ghế, xếp thành các hàng 7 ghế. Có mấy hàng?|4|28 : 7 = 4 hàng.|7;21;3
+Mỗi bộ dùng 4 tấm bìa. Một số bộ dùng hết 32 tấm. Có mấy bộ?|8|Số bộ là thừa số chưa biết: 32 : 4 = 8 bộ.|4;28;36
+Một số bông hoa chia đều cho 8 lọ, mỗi lọ 3 bông. Có mấy bông hoa?|24|Số bông hoa = 3 × 8 = 24 bông.|11;5;16
+Có 54 quả, chia đều vào các giỏ, mỗi giỏ 6 quả. Có mấy giỏ?|9|54 : 6 = 9 giỏ.|6;8;48
+Ba bạn có số tem bằng nhau, tổng cộng 21 tem. Mỗi bạn mấy tem?|7|21 : 3 = 7 tem mỗi bạn.|3;18;24
+Có 72 ảnh xếp đều vào 8 trang, sau đó thêm 1 ảnh vào một trang. Trang đó có mấy ảnh?|10|Mỗi trang ban đầu có 72 : 8 = 9 ảnh; 9 + 1 = 10 ảnh.|9;8;64
+Bài 14
+Một hình chia thành 2 phần bằng nhau. Một phần được gọi là gì?|một phần hai|Một trong hai phần bằng nhau là một phần hai.|một phần ba;một phần tư;một phần năm
+Một hình chia thành 3 phần bằng nhau. Lấy 1 phần, viết theo dạng 1/n là gì?|1/3|Có 3 phần bằng nhau nên viết 1/3.|1/2;1/4;3/1
+Một hình chia thành 4 phần bằng nhau. Lấy 1 phần, viết theo dạng 1/n là gì?|1/4|Lấy một trong bốn phần bằng nhau, viết 1/4.|1/2;1/3;4/1
+Đọc cách viết 1/5.|một phần năm|Số 5 cho biết cả hình được chia thành 5 phần bằng nhau.|một phần tư;năm phần một;một phần sáu
+Đọc cách viết 1/6.|một phần sáu|Một trong sáu phần bằng nhau gọi là một phần sáu.|sáu phần một;một phần năm;một phần bảy
+Đọc cách viết 1/7.|một phần bảy|Một trong bảy phần bằng nhau gọi là một phần bảy.|bảy phần một;một phần sáu;một phần tám
+Đọc cách viết 1/8.|một phần tám|Một trong tám phần bằng nhau gọi là một phần tám.|tám phần một;một phần bảy;một phần chín
+Đọc cách viết 1/9.|một phần chín|Một trong chín phần bằng nhau gọi là một phần chín.|chín phần một;một phần tám;một phần sáu
+Muốn gọi một miếng là một phần tư chiếc bánh, cả bánh phải chia thành mấy phần bằng nhau?|4|Một phần tư là một trong 4 phần bằng nhau.|2;3;5
+Điều kiện quan trọng khi chia hình thành các phần để nói một phần mấy là các phần phải thế nào?|bằng nhau|Không chỉ đếm số miếng; các phần phải bằng nhau.|khác nhau;càng nhỏ càng tốt;có cùng màu
+Hình A có 4 dải bằng nhau, tô 1 dải. Phần tô viết theo dạng 1/n là gì?|1/4|Một dải trong 4 dải bằng nhau là 1/4 hình.|1/2;1/3;1/5
+Hình B có 6 ô bằng nhau, tô 1 ô. Phần tô viết theo dạng 1/n là gì?|1/6|Một ô trong 6 ô bằng nhau là 1/6 hình.|1/3;1/5;1/7
+Chia 8 viên bi thành 2 phần bằng nhau. Một phần có mấy viên?|4|8 : 2 = 4 viên, đó là một phần hai số viên bi.|2;6;16
+Chia 15 nhãn vở thành 3 phần bằng nhau. Một phần có mấy nhãn?|5|15 : 3 = 5 nhãn, đó là một phần ba số nhãn.|3;12;18
+Chia 20 bông hoa thành 4 phần bằng nhau. Một phần có mấy bông?|5|20 : 4 = 5 bông, đó là một phần tư số hoa.|4;16;24
+Một chiếc bánh bị cắt thành 3 miếng không bằng nhau. Có thể khẳng định mỗi miếng là 1/3 bánh không?|không|Muốn gọi mỗi miếng là 1/3, ba miếng phải bằng nhau.|có;chỉ miếng to nhất;chỉ miếng nhỏ nhất
+Để tìm một phần năm của 30 đồ vật, lấy 30 chia cho mấy?|5|Chia thành 5 phần bằng nhau, nên lấy 30 : 5.|1;6;30
+Một phần tám của 16 hạt là mấy hạt?|2|16 : 8 = 2 hạt.|8;4;24
+Một phần chín của 27 thẻ là mấy thẻ?|3|27 : 9 = 3 thẻ.|9;18;36
+Một phần sáu của 24 que tính là mấy que?|4|24 : 6 = 4 que.|6;18;30
+Lan chia đều 12 quả dâu cho 2 đĩa. Một đĩa là một phần hai số dâu. Có mấy quả?|6|12 : 2 = 6 quả mỗi đĩa.|2;10;24
+Hộp có 18 bút chia đều cho 3 tổ. Mỗi tổ nhận một phần ba số bút. Là mấy bút?|6|18 : 3 = 6 bút mỗi tổ.|3;15;21
+Có 28 học sinh xếp 4 hàng bằng nhau. Một hàng là một phần tư số học sinh. Có mấy bạn?|7|28 : 4 = 7 bạn mỗi hàng.|4;24;8
+Giỏ có 25 quả, lấy một phần năm số quả. Lấy mấy quả?|5|25 : 5 = 5 quả.|1;20;30
+Có 42 thẻ, dùng một phần sáu số thẻ. Dùng mấy thẻ?|7|42 : 6 = 7 thẻ.|6;36;8
+Có 35 lá cờ, lấy một phần bảy số cờ. Lấy mấy lá?|5|35 : 7 = 5 lá.|7;28;42
+Có 32 nhãn vở, tặng một phần tám số nhãn. Tặng mấy nhãn?|4|32 : 8 = 4 nhãn.|8;24;5
+Có 45 chiếc bánh, lấy một phần chín số bánh. Lấy mấy chiếc?|5|45 : 9 = 5 chiếc.|9;36;54
+Băng giấy chia thành 5 dải bằng nhau, cắt lấy đúng 1 dải. Phần cắt viết theo dạng 1/n là gì?|1/5|Một dải trong 5 dải bằng nhau là 1/5 băng giấy.|1/4;1/6;5/1
+Bảng có 8 ô bằng nhau, dán nhãn lên đúng 1 ô. Ô có nhãn chiếm phần nào của bảng? Viết dạng 1/n.|1/8|Một trong 8 ô bằng nhau là 1/8 bảng.|1/4;1/7;1/9
+Chiếc bánh chia 9 miếng bằng nhau, Mai nhận 1 miếng. Mai nhận phần nào của bánh? Viết dạng 1/n.|1/9|Một trong 9 phần bằng nhau là 1/9 bánh.|1/8;1/3;9/1
+Một tờ giấy gấp đôi sao cho hai phần chồng khít. Mỗi phần là phần nào của tờ giấy? Viết dạng 1/n.|1/2|Gấp đôi chồng khít tạo hai phần bằng nhau, mỗi phần là 1/2.|1/3;1/4;2/1
+Có 24 chai xếp 3 hàng bằng nhau. Khoanh một hàng. Đã khoanh mấy chai?|8|Một hàng là 1/3 số chai; 24 : 3 = 8 chai.|3;6;21
+Một thanh sô-cô-la có 6 ô bằng nhau. Ăn 1 ô. Phần đã ăn viết dạng 1/n là gì?|1/6|Ăn một trong 6 ô bằng nhau, tức 1/6 thanh.|1/3;1/5;1/7
+Mảnh vải chia thành 7 dải bằng nhau. Một dải gọi là gì?|một phần bảy|Có 7 phần bằng nhau, lấy 1 phần là một phần bảy.|một phần sáu;bảy phần một;một phần tám
+Chia 40 thẻ thành 5 phần bằng nhau. Một phần có mấy thẻ?|8|40 : 5 = 8 thẻ.|5;35;45
+Trong 16 chiếc lá, Lan khoanh 4 chiếc. Nếu chia đều thành 4 nhóm thì số khoanh ứng với một phần mấy? Viết dạng 1/n.|1/4|16 : 4 = 4 lá mỗi nhóm; 4 lá là một trong 4 phần bằng nhau.|1/2;1/3;1/8
+Trong 18 viên bi, Nam lấy 3 viên. Chia đều 18 viên thành 6 nhóm thì 3 viên ứng với một phần mấy? Viết dạng 1/n.|1/6|18 : 6 = 3 viên mỗi nhóm, nên 3 viên là 1/6 số bi.|1/3;1/5;1/9
+Có 36 bông hoa, một phần chín số hoa là mấy bông?|4|36 : 9 = 4 bông.|9;27;5
+Có 56 hạt giống, lấy một phần bảy để gieo. Đã lấy mấy hạt?|8|56 : 7 = 8 hạt.|7;49;9
+Bài 15
+Tính 6 × 8.|48|6 × 8 = 48 theo bảng nhân 6.|14;42;54
+Tính 7 × 9.|63|7 × 9 = 63 theo bảng nhân 7.|16;56;70
+Tính 8 × 4.|32|8 × 4 = 32 theo bảng nhân 8.|12;24;40
+Tính 9 × 5.|45|9 × 5 = 45 theo bảng nhân 9.|14;36;54
+Tính 48 : 6.|8|6 × 8 = 48 nên 48 : 6 = 8.|6;7;42
+Tính 63 : 7.|9|7 × 9 = 63 nên 63 : 7 = 9.|7;8;56
+Tính 32 : 8.|4|8 × 4 = 32 nên 32 : 8 = 4.|8;24;3
+Tính 45 : 9.|5|9 × 5 = 45 nên 45 : 9 = 5.|9;36;4
+Một phần năm viết theo dạng 1/n là gì?|1/5|Một trong năm phần bằng nhau viết 1/5.|5/1;1/4;1/6
+Trong 6 × 7 = 42, hai số 6 và 7 gọi là gì?|thừa số|Hai số được nhân với nhau là các thừa số.|tổng;thương;số chia
+Điền số: ... × 8 = 56.|7|Thừa số chưa biết = 56 : 8 = 7.|8;48;6
+Điền số: ... : 7 = 8.|56|Số bị chia = 8 × 7 = 56.|15;1;49
+Điền số: 54 : ... = 9.|6|Số chia = 54 : 9 = 6.|9;45;7
+Một phần ba của 21 chiếc lá là mấy chiếc?|7|21 : 3 = 7 chiếc lá.|3;18;24
+Một phần sáu của 30 que tính là mấy que?|5|30 : 6 = 5 que.|6;24;36
+Trong 42 : 7 và 54 : 6, kết quả nào bé hơn? Nhập kết quả bé hơn.|6|42 : 7 = 6; 54 : 6 = 9; chọn 6.|9;7;12
+Hai phép 8 × 6 và 6 × 8 cùng có kết quả nào?|48|8 × 6 = 48 và 6 × 8 = 48.|14;42;56
+Một hình chia thành 5 phần bằng nhau, tô 1 phần. Phần tô viết dạng 1/n là gì?|1/5|Một trong năm phần bằng nhau là 1/5 hình.|1/4;1/6;5/1
+Tính theo hai bước: 7 × 4, rồi chia cho 7.|4|7 × 4 = 28; 28 : 7 = 4.|28;7;21
+Trong 18 hạt, một phần chín số hạt là mấy hạt?|2|18 : 9 = 2 hạt.|9;3;27
+Mỗi hộp có 7 bút. 8 hộp có bao nhiêu bút?|56|7 × 8 = 56 bút.|15;49;63
+Có 54 cốc, mỗi khay xếp 9 cốc. Cần mấy khay?|6|54 : 9 = 6 khay.|9;45;5
+Có 24 bông hoa, tặng một phần ba số hoa. Tặng mấy bông?|8|24 : 3 = 8 bông.|3;6;21
+Một đội có 32 bạn, một phần tư số bạn cầm cờ. Có mấy bạn cầm cờ?|8|32 : 4 = 8 bạn.|4;28;7
+Chia đều một số vở cho 6 bạn, mỗi bạn 7 quyển. Có tất cả mấy quyển?|42|Số bị chia = 7 × 6 = 42 quyển.|13;1;49
+Có 40 thẻ chia đều cho một số nhóm, mỗi nhóm 5 thẻ. Có mấy nhóm?|8|40 : 5 = 8 nhóm.|5;35;45
+Mỗi lượt xếp 8 chiếc ghế. Làm 9 lượt được mấy chiếc?|72|8 × 9 = 72 ghế.|17;64;80
+Một trang có 6 tranh. 4 trang có tất cả mấy tranh?|24|6 × 4 = 24 tranh.|10;18;30
+Có 27 hạt giống, gieo một phần chín. Đã gieo mấy hạt?|3|27 : 9 = 3 hạt.|9;18;36
+Mỗi nhóm có 9 bạn. Cần mấy nhóm để có 63 bạn?|7|63 : 9 = 7 nhóm.|9;54;8
+Có 35 nhãn vở, cho em một phần năm số nhãn. Cho mấy nhãn?|7|35 : 5 = 7 nhãn.|5;30;40
+Ba bộ có số thẻ bằng nhau, tất cả 24 thẻ. Mỗi bộ có mấy thẻ?|8|24 : 3 = 8 thẻ mỗi bộ.|3;21;6
+Năm khay, mỗi khay 6 bánh, lấy ra 4 bánh. Còn mấy bánh?|26|6 × 5 = 30 bánh; 30 - 4 = 26 bánh.|30;34;15
+Có 48 quả, dùng một phần sáu số quả. Còn mấy quả?|40|Đã dùng 48 : 6 = 8 quả; 48 - 8 = 40 quả.|8;42;54
+Hộp có 28 bút, cho đi một phần bảy số bút. Còn mấy bút?|24|Đã cho 28 : 7 = 4 bút; 28 - 4 = 24 bút.|4;21;35
+Tháp tích có đáy 1, 2, 3. Hai ô tầng trên là tích của hai số ngay dưới; ô đỉnh là tích hai ô tầng trên. Đỉnh là bao nhiêu?|12|Tầng giữa là 1 × 2 = 2 và 2 × 3 = 6; 2 × 6 = 12.|6;9;18
+Ba số ở ba đỉnh là 2, 4, 5. Mỗi cạnh ghi tích hai số ở hai đầu. Cạnh nối 4 với 5 ghi số nào?|20|Cạnh nối 4 và 5 ghi 4 × 5 = 20.|9;8;10
+Mua 4 hộp, mỗi hộp 8 phấn trắng và 2 phấn màu. Có tất cả mấy phấn màu?|8|Chỉ tính phấn màu: 2 × 4 = 8 viên.|32;40;6
+Có 18 thẻ, một phần ba số thẻ màu xanh. Thẻ xanh chia đều cho 2 bạn. Mỗi bạn mấy thẻ xanh?|3|Số thẻ xanh là 18 : 3 = 6; 6 : 2 = 3 thẻ mỗi bạn.|6;9;2
+Mỗi bộ cần 9 hạt. Có 40 hạt, lấy 36 hạt làm bộ hoàn chỉnh. Làm được mấy bộ?|4|36 : 9 = 4 bộ; còn 4 hạt chưa dùng.|9;3;31
+Bài 16
+Ba điểm A, M, B cùng nằm trên một đường thẳng theo thứ tự đó. Điểm nào ở giữa A và B?|M|Theo thứ tự A, M, B, điểm M ở giữa hai đầu A và B.|A;B;không có điểm nào
+M là trung điểm AB. Hai đoạn AM và MB có bằng nhau không?|có|Trung điểm nằm giữa hai đầu và cách đều hai đầu.|không;chỉ khi AB dài 10 cm;chỉ khi AB nằm ngang
+Ba điểm A, M, B không thẳng hàng. M có thể là trung điểm AB không?|không|Muốn là trung điểm AB, M phải nằm trên đoạn AB, nên A, M, B phải thẳng hàng.|có;chỉ khi AM = MB;chỉ khi M ở phía trên
+M ở giữa A và B, AM = 4 cm, MB = 4 cm. M có là trung điểm AB không?|có|M ở giữa và AM = MB, đủ cả hai điều kiện.|không;chỉ khi AB dài 4 cm;chưa biết
+N ở giữa C và D, CN = 3 cm, ND = 5 cm. N có là trung điểm CD không?|không|N ở giữa nhưng hai đoạn 3 cm và 5 cm không bằng nhau.|có;chỉ khi CD nằm ngang;luôn là trung điểm
+M là trung điểm AB, AM = 5 cm. MB dài mấy xăng-ti-mét?|5|Vì AM = MB nên MB cũng dài 5 cm.|10;4;6
+M là trung điểm AB, AM = 6 cm. AB dài mấy xăng-ti-mét?|12|AB = AM + MB; 6 + 6 = 12 cm.|6;3;18
+Đoạn CD dài 10 cm, N là trung điểm CD. CN dài mấy xăng-ti-mét?|5|Chia 10 cm thành hai đoạn bằng nhau: 10 : 2 = 5 cm.|10;2;8
+Đoạn PQ dài 8 cm, I là trung điểm PQ. IQ dài mấy xăng-ti-mét?|4|8 : 2 = 4 cm.|8;2;6
+Một điểm ở giữa hai đầu đoạn thẳng có nhất thiết là trung điểm không?|không|Còn phải kiểm tra hai khoảng cách đến hai đầu có bằng nhau không.|có;chỉ cần thẳng hàng;chỉ cần có tên điểm
+Hình C: A, M, B thẳng hàng, AM = MB = 4 cm. Trung điểm AB là điểm nào?|M|M nằm giữa A, B và hai đoạn AM, MB đều 4 cm.|A;B;không có trung điểm
+Hình D: C, N, D thẳng hàng, CN = 2 cm, ND = 6 cm. CD dài mấy xăng-ti-mét?|8|Cộng hai đoạn: 2 + 6 = 8 cm.|4;6;12
+Hình D: N có là trung điểm CD không?|không|CN = 2 cm khác ND = 6 cm, nên N không là trung điểm.|có;chỉ khi đổi tên N;luôn đúng
+Hình E: P và Q thẳng hàng nằm dưới R; RP = RQ. R có là trung điểm PQ không?|không|RP = RQ chưa đủ; R không nằm trên đoạn PQ.|có;chỉ khi PQ nằm ngang;chưa có tên điểm
+Đoạn AB dài 14 cm. Trung điểm cách A mấy xăng-ti-mét?|7|14 : 2 = 7 cm.|14;2;6
+M ở giữa A và B. AM = 3 cm, MB = 7 cm. AB dài mấy xăng-ti-mét?|10|AB = AM + MB; 3 + 7 = 10 cm.|4;7;21
+M là trung điểm AB, MB = 8 cm. AB dài mấy xăng-ti-mét?|16|AM = MB = 8 cm; 8 + 8 = 16 cm.|8;4;24
+Trên thước, A tại 0 cm, M tại 3 cm, B tại 6 cm. Điểm M là gì của AB?|trung điểm|M nằm giữa; AM = 3 cm, MB = 3 cm nên M là trung điểm.|điểm ngoài đoạn;đầu mút;điểm không thẳng hàng
+Trên thước, A tại 0 cm, N tại 2 cm, B tại 6 cm. N có là trung điểm AB không?|không|AN = 2 cm, NB = 4 cm không bằng nhau.|có;chỉ vì N nằm giữa;luôn đúng
+Để xác định trung điểm đoạn thẳng trên giấy bằng cách gấp, phải làm gì với hai đầu đoạn?|cho hai đầu trùng nhau|Gấp cho hai đầu trùng nhau thì nếp gấp cắt đoạn tại điểm chia đoạn thành hai phần bằng nhau.|gấp tùy ý;cắt một đầu;chỉ gấp góc giấy
+Dây dài 18 cm. Đánh dấu trung điểm, mỗi nửa dài mấy xăng-ti-mét?|9|18 : 2 = 9 cm.|18;2;8
+Thanh gỗ dài 16 cm. Cắt tại trung điểm được hai thanh, mỗi thanh dài mấy xăng-ti-mét?|8|16 : 2 = 8 cm.|16;4;7
+Đường thẳng từ cổng A đến cổng B dài 20 m. Đèn M đặt đúng trung điểm. M cách A mấy mét?|10|20 : 2 = 10 m.|20;2;18
+An và Bình đứng hai đầu một đoạn thẳng dài 12 m. Lan đứng đúng giữa, cách đều hai bạn. Lan cách mỗi bạn mấy mét?|6|Lan là trung điểm; 12 : 2 = 6 m.|12;2;10
+Tấm bìa có đoạn AB dài 14 cm, đánh dấu M cách A 7 cm trên đoạn. MB dài mấy xăng-ti-mét?|7|14 - 7 = 7 cm; AM = MB nên M là trung điểm.|14;21;6
+Đoạn PQ dài 18 cm. Điểm I ở trên đoạn, PI = 8 cm. I có là trung điểm không?|không|IQ = 18 - 8 = 10 cm, khác 8 cm nên I không là trung điểm.|có;chỉ cần PI nhỏ hơn PQ;không đủ tên điểm
+Một chiếc cầu thẳng dài 18 m. Trạm nghỉ tại trung điểm. Từ đầu cầu đến trạm dài mấy mét?|9|18 : 2 = 9 m.|18;2;8
+Đường thẳng A đến B dài 16 m. Cột M ở trung điểm. Từ M đến B dài mấy mét?|8|16 : 2 = 8 m.|16;2;14
+Băng giấy dài 10 cm. Gấp cho hai đầu trùng nhau, nếp gấp chia mỗi phần dài mấy xăng-ti-mét?|5|Gấp đôi chia thành hai phần bằng nhau; 10 : 2 = 5 cm.|10;2;8
+Hàng cây trên một đường thẳng có A, M, B theo thứ tự. AM = 6 m, MB = 9 m. M có ở giữa A và B không?|có|Thứ tự A, M, B trên cùng đường thẳng cho thấy M ở giữa, dù chưa là trung điểm.|không;chỉ khi AM = MB;chỉ khi AB dài 12 m
+Đoạn AB dài 8 cm. M nằm giữa và AM = 4 cm. M có là trung điểm không?|có|MB = 8 - 4 = 4 cm; M ở giữa và AM = MB.|không;chỉ khi đổi chiều đoạn;chưa biết độ dài
+Đoạn CD dài 6 cm. I là trung điểm. CI dài mấy xăng-ti-mét?|3|6 : 2 = 3 cm.|6;2;4
+Đoạn GH dài 12 cm. M nằm ngoài đoạn nhưng MG = MH. Chỉ riêng điều kiện bằng nhau có đủ để gọi M là trung điểm không?|không|Trung điểm phải nằm trên đoạn và ở giữa hai đầu; khoảng cách bằng nhau chưa đủ.|có;chỉ khi có thước;luôn đủ
+Một lối đi thẳng dài 20 m, đặt bồn hoa ở trung điểm. Bồn hoa cách đầu lối mấy mét?|10|20 : 2 = 10 m.|20;2;18
+Thanh dây có M là trung điểm AB, AM dài 7 cm. Nếu đo cả dây AB thì được mấy xăng-ti-mét?|14|AM = MB = 7 cm; 7 + 7 = 14 cm.|7;21;10
+Đoạn AB dài 16 cm. I và J nằm trên đoạn, AI = 7 cm, AJ = 8 cm. Điểm nào là trung điểm?|J|Trung điểm cách A 16 : 2 = 8 cm; J đúng vị trí đó.|I;A;B
+Trên đoạn CD dài 14 cm, N cách C 5 cm. ND dài mấy xăng-ti-mét?|9|14 - 5 = 9 cm; N chưa là trung điểm vì 5 khác 9.|5;7;19
+Dây dài 16 cm được gấp đôi cho hai đầu trùng nhau. Mỗi nửa dài bao nhiêu xăng-ti-mét?|8|16 : 2 = 8 cm.|16;2;14
+Hình C có AM = MB = 4 cm. Một con kiến đi từ A đến M rồi đến B. Đi tất cả mấy xăng-ti-mét?|8|Đi hai đoạn liên tiếp: 4 + 4 = 8 cm.|4;2;12
+Đoạn thẳng dài 20 cm. Điểm M cách hai đầu lần lượt 8 cm và 12 cm, nằm giữa hai đầu. M còn cách trung điểm mấy xăng-ti-mét?|2|Trung điểm cách đầu thứ nhất 20 : 2 = 10 cm; 10 - 8 = 2 cm.|4;8;10
